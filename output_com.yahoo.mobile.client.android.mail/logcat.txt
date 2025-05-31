@@ -1,0 +1,568 @@
+--------- beginning of main
+05-31 12:04:18.176  1410  1410 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420 
+05-31 12:04:18.181   614  1670 W InputManager-JNI: Input channel object 'f04563d InputMethod (client)' was disposed without first being removed with the input manager!
+05-31 12:04:18.185  1410  1410 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():109 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+05-31 12:04:18.186  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fau
+05-31 12:04:18.188  1410  1410 I KeyboardViewController: KeyboardViewController.clearSubViewControllerInternal():411 Clears keyboard sub view controller for keyboardType: null, viewType: HEADER, viewId: 2131428269(#0x7f0b03ad),which has not been set.
+05-31 12:04:18.195  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fci
+05-31 12:04:18.195  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in eyj
+05-31 12:04:18.199  1410 10058 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroyServiceInternal():81 onDestroyServiceInternal()
+05-31 12:04:18.200  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fau.
+05-31 12:04:18.207  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fci.
+05-31 12:04:18.207  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in eyj.
+--------- beginning of system
+05-31 12:04:18.673   614   664 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-31 12:04:18.776  5467  5467 I abb     : StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+05-31 12:04:18.776   614   614 W Binder:614_18: type=1400 audit(0.0:583): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 12:04:18.776   614   614 W Binder:614_18: type=1400 audit(0.0:584): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 12:04:18.776   614   614 W Binder:614_18: type=1400 audit(0.0:585): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 12:04:18.789  5467  5467 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+05-31 12:04:19.272   614   614 W Binder:614_18: type=1400 audit(0.0:586): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 12:04:19.384   614   776 W PackageParsing: Unknown element under <application>: enable-feature at /data/app/vmdl1604075838.tmp/base.apk Binary XML file line #413
+05-31 12:04:19.389   614   701 I PackageManager: Integrity check passed for file:///data/app/vmdl1604075838.tmp
+05-31 12:04:19.393   614   701 W PackageParsing: Unknown element under <application>: enable-feature at /data/app/vmdl1604075838.tmp/base.apk Binary XML file line #413
+05-31 12:04:19.401   614   701 I PackageManager: Permission ownership changed. Updating all permissions.
+05-31 12:04:19.442   614   701 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~L5WljPeI8iF6kBebEk2vCA==/com.yahoo.mobile.client.android.mail-Xm9HEmV3G2JxXUZliN1vuw==/base.apk pkg=com.yahoo.mobile.client.android.mail isa=x86_64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~L5WljPeI8iF6kBebEk2vCA==/com.yahoo.mobile.client.android.mail-Xm9HEmV3G2JxXUZliN1vuw==/oat classLoaderContext=PCL[]{PCL[/system/framework/android.test.base.jar]#PCL[/system/framework/org.apache.http.legacy.jar]}
+05-31 12:04:19.451  1475  5107 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.yahoo.mobile.client.android.mail. Reason: op android:read_external_storage
+05-31 12:04:19.451  1475  5107 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.yahoo.mobile.client.android.mail. Reason: op android:read_external_storage
+05-31 12:04:19.451  1475  5107 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.yahoo.mobile.client.android.mail. Reason: op android:read_external_storage
+05-31 12:04:19.452  1475  5107 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.yahoo.mobile.client.android.mail. Reason: op android:read_external_storage
+05-31 12:04:19.472  4930  4930 W dex2oat64: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 12:04:19.472  4930  4930 W dex2oat64: Mismatch between dex2oat instruction set features to use (ISA: X86_64 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86_64 Feature string: ssse3,sse4.1,sse4.2,-avx,-avx2,popcnt) for the command line:
+05-31 12:04:19.472  4930  4930 W dex2oat64: /apex/com.android.art/bin/dex2oat64 --zip-fd=7 --zip-location=base.apk --oat-fd=8 --oat-location=/data/app/~~L5WljPeI8iF6kBebEk2vCA==/com.yahoo.mobile.client.android.mail-Xm9HEmV3G2JxXUZliN1vuw==/oat/x86_64/base.odex --input-vdex-fd=-1 --output-vdex-fd=9 --swap-fd=10 --classpath-dir=/data/app/~~L5WljPeI8iF6kBebEk2vCA==/com.yahoo.mobile.client.android.mail-Xm9HEmV3G2JxXUZliN1vuw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]#PCL[/system/framework/org.apache.http.legacy.jar]} --compact-dex-level=none --instruction-set=x86_64 --instruction-set-features=default --instruction-set-variant=x86_64 --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info --runtime-arg -Xtarget-sdk-version:28 --runtime-arg -Xhidden-api-policy:enabled --runtime-arg -Xms64m --runtime-arg -Xmx512m
+05-31 12:04:19.472  4930  4930 I dex2oat64: /apex/com.android.art/bin/dex2oat64 --input-vdex-fd=-1 --output-vdex-fd=9 --classpath-dir=/data/app/~~L5WljPeI8iF6kBebEk2vCA==/com.yahoo.mobile.client.android.mail-Xm9HEmV3G2JxXUZliN1vuw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]#PCL[/system/framework/org.apache.http.legacy.jar]} --compact-dex-level=none --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info
+05-31 12:04:19.671  4930  4930 I dex2oat64: Large app, accepted running with swap.
+05-31 12:04:21.070   175   175 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+05-31 12:04:21.110  4930  4930 I dex2oat64: dex2oat took 1.638s (4.829s cpu) (threads: 4) arena alloc=0B (0B) java alloc=25MB (26787408B) native alloc=4017KB (4114096B) free=1133KB (1161136B) swap=16MB (16777216B)
+05-31 12:04:21.168   384 31743 E installd: Couldn't opendir /data/app/vmdl1604075838.tmp: No such file or directory
+05-31 12:04:21.168   384 31743 E installd: Failed to delete /data/app/vmdl1604075838.tmp: No such file or directory
+05-31 12:04:21.168   614   614 W Binder:614_18: type=1400 audit(0.0:587): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 12:04:21.172   614   614 W Binder:614_18: type=1400 audit(0.0:588): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f0f0004.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f120301.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f120301.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f0f0008.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f120569.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f120569.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f0f000a.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f12061d.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f12061d.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f0f0006.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f120613.
+05-31 12:04:21.184   614   675 E system_server: No package ID 7f found for ID 0x7f120613.
+05-31 12:04:21.172   614   614 W Binder:614_18: type=1400 audit(0.0:589): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 12:04:21.189  1475  1475 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.yahoo.mobile.client.android.mail. Reason: package android.intent.action.PACKAGE_ADDED
+05-31 12:04:21.193  2231  2231 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) }
+05-31 12:04:21.187   614   755 I RoleService: Granting default roles...
+05-31 12:04:21.198   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 12:04:21.200   614  3993 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+05-31 12:04:21.201   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+05-31 12:04:21.201   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+05-31 12:04:21.201   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+05-31 12:04:21.201   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@ATw
+05-31 12:04:21.202 10446 10446 I Finsky  : [2] adcs.g(1): adcs - Received: android.intent.action.PACKAGE_ADDED, [2lf5G9EcU6eO_wIUsQt9bTvLLniUWnWanwtAwl4NmI4]
+05-31 12:04:21.202  2411  2411 I Finsky:background: [2] adch.g(6): adch - Received: android.intent.action.PACKAGE_ADDED, [2lf5G9EcU6eO_wIUsQt9bTvLLniUWnWanwtAwl4NmI4]
+05-31 12:04:21.202  1705  4829 I AppLinksIntentOperation: Verifying requested domains [CONTEXT service_id=244 ]
+05-31 12:04:21.204   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+05-31 12:04:21.204   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+05-31 12:04:21.211  2404  4312 I PermissionControllerServiceImpl: Updating user sensitive for uid 10176
+05-31 12:04:21.218   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+05-31 12:04:21.221  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 12:04:21.223  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:21.235   175   175 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 12:04:21.241  1312  4802 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 12:04:21.241  1312  4802 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.yahoo.mobile.client.android.mail flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 12:04:21.258 10446 10446 I Finsky  : [2] akbb.f(9): Clearing split related stale data.
+05-31 12:04:21.258  1705  4826 I Auth    : (REDACTED) [SupervisedAccountIntentOperationV2] onHandleIntent: %s
+05-31 12:04:21.261  1705  4822 I Dck     : (REDACTED) disableDckSupport: %s
+05-31 12:04:21.261  1705  4822 W Dck     : [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+05-31 12:04:21.261  1705  4822 I Dck     : [WirelessCapabilitiesFeatures] wccMendel: 3 [CONTEXT service_id=289 ]
+05-31 12:04:21.261  1705  4822 I Dck     : [WirelessCapabilitiesFeatures] deviceWccOverride: false [CONTEXT service_id=289 ]
+05-31 12:04:21.261  1705  4822 I Dck     : [WirelessCapabilitiesFeatures] replaceSupportedWccWithWccOverride: true [CONTEXT service_id=289 ]
+05-31 12:04:21.261  1705  4822 I Dck     : [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+05-31 12:04:21.261  1705  4822 I Dck     : (REDACTED) [WirelessCapabilitiesFeatures] wcc: %s
+05-31 12:04:21.261  1705  4822 I Dck     : Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+05-31 12:04:21.261  1705  4822 I Dck     : Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+05-31 12:04:21.261  1705  4822 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+05-31 12:04:21.277   175   175 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+05-31 12:04:21.279  2411  4598 I Finsky:background: [116] ruh.accept(120): Wrote row to frosting DB: 250
+05-31 12:04:21.283  1705  4829 I AppLinksRequestHandler: (REDACTED) Processing %d input requests
+05-31 12:04:21.283  1705  4826 I Blockstore: (REDACTED) [DataStoreImpl] Clearing Blockstore Data for package %s
+05-31 12:04:21.283  1705  4826 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+05-31 12:04:21.283   614   698 E VerityUtils: Failed to measure fs-verity, errno 1: /data/app/~~L5WljPeI8iF6kBebEk2vCA==/com.yahoo.mobile.client.android.mail-Xm9HEmV3G2JxXUZliN1vuw==/base.apk
+05-31 12:04:21.291  1705  1705 I IntentFilterVerRcvr: S+ domain verification enabled [CONTEXT service_id=244 ]
+05-31 12:04:21.298  2411  4598 I Finsky:background: [116] ruh.accept(120): Wrote row to frosting DB: 251
+05-31 12:04:21.304  1705  4829 I AppLinksUtilsV1: Legacy cross-profile verification enabled [CONTEXT service_id=244 ]
+05-31 12:04:21.315 10446 10446 I Finsky  : [2] atbs.c(44): Do not start WearSupportService due to Wear service optimization
+05-31 12:04:21.315 10446 10446 I Finsky  : [2] xem.jr(11): DTU: Received onPackageAdded, replacing: false
+05-31 12:04:21.316 10446  4616 I Finsky  : [385] poo.kh(210): [ContentSync] finished, scheduled=false
+05-31 12:04:21.338  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:21.339  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:21.348  5669  4952 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:21.341  1705 29080 E hngh    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-31 12:04:21.341  1705 29080 E hngh    :     Make sure to call shutdown()/shutdownNow()
+05-31 12:04:21.341  1705 29080 E hngh    : java.lang.RuntimeException: ManagedChannel allocation site
+05-31 12:04:21.341  1705 29080 E hngh    : 	at hngg.<init>(:com.google.android.gms@251933032@25.19.33 (190800-762115751):21)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at hngh.<init>(:com.google.android.gms@251933032@25.19.33 (190800-762115751):10)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at hngf.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):250)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at hmrh.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):5)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at axzq.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):70)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at axzh.u(:com.google.android.gms@251933032@25.19.33 (190800-762115751):119)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at axzh.e(:com.google.android.gms@251933032@25.19.33 (190800-762115751):5)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at ehoj.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):45)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at ehno.c(:com.google.android.gms@251933032@25.19.33 (190800-762115751):16)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at ehno.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):3)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at asta.run(:com.google.android.gms@251933032@25.19.33 (190800-762115751):5)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at ayfn.c(:com.google.android.gms@251933032@25.19.33 (190800-762115751):50)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at ayfn.run(:com.google.android.gms@251933032@25.19.33 (190800-762115751):70)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at aylc.run(:com.google.android.gms@251933032@25.19.33 (190800-762115751):8)
+05-31 12:04:21.341  1705 29080 E hngh    : 	at java.lang.Thread.run(Thread.java:920)
+05-31 12:04:21.365  1705  4352 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-31 12:04:21.366  1705  4352 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):204)
+05-31 12:04:21.366  1705  4352 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):4)
+05-31 12:04:21.374   614   675 W PackageManager: Failed registering loading progress callback. Package is fully loaded.
+05-31 12:04:21.384  1705 15025 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-31 12:04:21.399  1705 15025 I Icing   : Indexing done com.google.android.gms-apps
+05-31 12:04:21.438  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:21.439   614   633 I system_server: Background concurrent copying GC freed 207864(11MB) AllocSpace objects, 51(2304KB) LOS objects, 49% free, 22MB/45MB, paused 489us,85us total 270.815ms
+05-31 12:04:21.473   614   635 W System  : A resource failed to call close. 
+05-31 12:04:21.507  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:21.512  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:21.639  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:21.667   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:21.667  4974  4977 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:21.871   175   175 I servicemanager: Notifying apexservice they have clients: 1
+05-31 12:04:21.954  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200421.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:21.967  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200421.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:22.018  1705  4352 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-31 12:04:22.019  1705  4352 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):204)
+05-31 12:04:22.019  1705  4352 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):4)
+05-31 12:04:22.041  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:22.041  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:22.362  1312  4656 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 12:04:22.366  1312  4571 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 12:04:22.374   614  1020 I ActivityManager: Force stopping com.yahoo.mobile.client.android.mail appid=10176 user=0: from pid 5003
+05-31 12:04:22.411   614   664 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+05-31 12:04:22.421   614  1028 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 12:04:22.421   614  1028 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 12:04:22.421   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@8e31ccc
+05-31 12:04:22.506  1705 29080 I AppLinksAsyncVerifierV2: (REDACTED) Verification result: checking for a statement with source %s, relation delegate_permission/common.handle_all_urls, and target %s --> %b.
+05-31 12:04:22.507  1705  4829 I AppLinksHostsVerifierV2: (REDACTED) Verification %s complete. Successful hosts: %s. Failed hosts: %s. Error hosts: %s.
+05-31 12:04:22.523  1705  4829 I WebApkHostsVerifierV2: (REDACTED) Processing %d input requests
+05-31 12:04:22.524  1705  4829 I AppLinksUtilsV1: Legacy cross-profile verification enabled [CONTEXT service_id=244 ]
+05-31 12:04:22.527  1705  4829 I WebApkHostsVerifierV2: (REDACTED) Returning %d non-WebAPK requests
+05-31 12:04:23.027 10446 10446 I Finsky  : [2] aipn.onStartJob(126): SCH: job service start with id 9347.
+05-31 12:04:23.038 10446  4616 I Finsky  : [385] nje.a(184): SCH: Satisfied jobs for 9347 are: 12-1
+05-31 12:04:23.067 10446  5013 I Finsky  : [388] aioi.accept(105): SCH: Job 12-1 starting
+05-31 12:04:23.069 10446 10446 I Finsky  : [2] ContentSyncJob.i(9): [ContentSync] job started
+05-31 12:04:23.121 10446  5014 I Finsky  : [389] nrn.a(199): App states replicator found 7 unowned apps
+05-31 12:04:23.122 10446  5014 I Finsky  : [389] nrs.b(18): Completed 0 account content syncs with 0 successful.
+05-31 12:04:23.122 10446 10446 I Finsky  : [2] ContentSyncJob.a(12): [ContentSync] Installation state replication succeeded.
+05-31 12:04:23.122 10446 10446 I Finsky  : [2] ainv.q(56): SCH: jobFinished: 12-1. TimeElapsed: 55ms.
+05-31 12:04:23.136 10446 10512 I Finsky  : [70] sju.accept(58): SCH: Scheduling phonesky job Id: 1-1337, CT: 1748678741643, Constraints: [{ L: 14399997, D: 47407351, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-31 12:04:23.142 10446 10535 I Finsky  : [81] njf.apply(251): SCH: Scheduling 1 system job(s)
+05-31 12:04:23.142 10446 10535 I Finsky  : [81] ains.b(244): SCH: Scheduling system job Id: 9349, L: 78498, D: 33085852, C: false, I: false, N: 1
+05-31 12:04:23.150 10446  5013 I Finsky  : [388] aipn.a(24): SCH: job service finished with id 9347.
+05-31 12:04:23.646   340   340 E android.hardware.power.stats@1.0-service-mock: Failed to getEnergyData
+05-31 12:04:23.766  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:23.792   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:23.793  5030  5034 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:24.054  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200424.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:24.085  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200424.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:24.167  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:24.167  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:24.590  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:24.616   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:24.617  5070  5072 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:24.888  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200424.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:24.893  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200424.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:24.967  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:24.968  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:25.458  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:25.484   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:25.485  5115  5117 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:25.768  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200425.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:25.776  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200425.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:25.893  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:26.258   614  1020 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.yahoo.mobile.client.android.mail/.activity.MainActivity} from uid 2000
+05-31 12:04:26.259   614  1020 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=29 attached=false
+05-31 12:04:26.311   614   677 I ActivityManager: Start proc 5149:com.yahoo.mobile.client.android.mail/u0a176 for pre-top-activity {com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity}
+05-31 12:04:26.315  5149  5149 W nt.android.mai: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 12:04:26.346  5149  5149 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+05-31 12:04:26.401  2231  2231 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-31 12:04:26.410  2231  2231 E HwDetectorWithState: a: 3
+05-31 12:04:26.617  5149  5149 E nt.android.mai: Not starting debugger since process cannot load the jdwp agent.
+05-31 12:04:26.650  5149  5149 I MultiDex: VM with version 2.1.0 has multidex support
+05-31 12:04:26.650  5149  5149 I MultiDex: Installing application
+05-31 12:04:26.650  5149  5149 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+05-31 12:04:26.660  5149  5149 I FirebaseInitProvider: FirebaseApp initialization successful
+05-31 12:04:26.686  5149  5149 I YCrashManager: Crash reporting enabled
+05-31 12:04:26.696   614  1020 I LocationAccessPolicy: Allowing com.yahoo.mobile.client.android.mail fine because it doesn't target API 29 yet. Please fix this app. Called from TelephonyRegistry push
+05-31 12:04:26.696   614  1020 I LocationAccessPolicy: Allowing com.yahoo.mobile.client.android.mail coarse because it doesn't target API 29 yet. Please fix this app. Called from TelephonyRegistry push
+05-31 12:04:26.698   614  1020 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 12:04:26.698   614  1020 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 12:04:26.705   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@d4b1a2c
+05-31 12:04:26.706  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 12:04:26.707  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 12:04:26.795  5149  5149 I YCrashManager: Native crash reporting enabled
+05-31 12:04:26.808  5149  5205 E YCONFIG : File not found!
+05-31 12:04:26.813  1312  4286 I FontLog : (REDACTED) Received query %s, URI %s
+05-31 12:04:26.821  1312  4286 I FontLog : (REDACTED) Query [%s] resolved to %s
+05-31 12:04:26.825  1312  4286 I FontLog : (REDACTED) Fetch %s end status %s
+05-31 12:04:26.844  5149  5149 W YCrashManager: init: called more than once (YCrashManager already started)
+05-31 12:04:26.850  5149  5212 E BCookieProvider: Retrieving domains encountered an exception : java.io.FileNotFoundException: /data/user/0/com.yahoo.mobile.client.android.mail/files/com.yahoo.data.bcookieprovider.diskcache_file.domains: open failed: ENOENT (No such file or directory)
+05-31 12:04:26.850  5149  5224 I stateside: Machine was transitioned from control state [START] to [STARTING]
+05-31 12:04:26.850  5149  5224 I stateside: Machine was transitioned from control state [STARTING] to [FETCHING]
+05-31 12:04:26.850  5149  5212 E BCookieProvider: Retrieving domains encountered an exception : java.io.FileNotFoundException: /data/user/0/com.yahoo.mobile.client.android.mail/files/com.yahoo.data.bcookieprovider.diskcache_file.domains: open failed: ENOENT (No such file or directory)
+05-31 12:04:26.851  5149  5149 E BCookieProvider: Retrieving ao cookie encountered an exception : java.io.FileNotFoundException: /data/user/0/com.yahoo.mobile.client.android.mail/files/com.yahoo.data.bcookieprovider.diskcache_file.aocookie: open failed: ENOENT (No such file or directory)
+05-31 12:04:26.851  5149  5149 E BCookieProvider: Retrieving domains encountered an exception : java.io.FileNotFoundException: /data/user/0/com.yahoo.mobile.client.android.mail/files/com.yahoo.data.bcookieprovider.diskcache_file.domains: open failed: ENOENT (No such file or directory)
+05-31 12:04:26.851  5149  5149 E BCookieProvider: Retrieving b cookie encountered an exception : java.io.FileNotFoundException: /data/user/0/com.yahoo.mobile.client.android.mail/files/com.yahoo.data.bcookieprovider.diskcache_file.bcookie: open failed: ENOENT (No such file or directory)
+05-31 12:04:26.853  1312  4286 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-31 12:04:26.854  5149  5222 W System.err: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/flurry/android/marketing/messaging/FCM/FlurryInstanceIDListenerService;
+05-31 12:04:26.855  5149  5222 W System.err: 	at com.flurry.a.kh.a(Yahoo:43)
+05-31 12:04:26.855  5149  5222 W System.err: 	at com.flurry.a.jy.a(Yahoo:75)
+05-31 12:04:26.855  5149  5222 W System.err: 	at com.flurry.a.jg.run(Yahoo:37)
+05-31 12:04:26.855  5149  5222 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+05-31 12:04:26.856  5149  5222 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 12:04:26.856  5149  5222 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 12:04:26.856  5149  5222 W System.err: 	at java.lang.Thread.run(Thread.java:920)
+05-31 12:04:26.856  5149  5222 W System.err: Caused by: java.lang.ClassNotFoundException: com.flurry.android.marketing.messaging.FCM.FlurryInstanceIDListenerService
+05-31 12:04:26.857  5149  5222 W System.err: 	... 7 more
+05-31 12:04:26.858  1312  4286 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-31 12:04:26.927  5149  5241 I WebViewFactory: Loading com.google.android.webview version 91.0.4472.114 (code 447211487)
+05-31 12:04:27.027  5149  5197 W MailSdk:MailDb: Creating new database
+05-31 12:04:27.028  5149  5197 E SQLiteLog: (1) no such table: accounts in "SELECT * FROM accounts"
+05-31 12:04:27.029  5149  5197 W MailSdk:MailDb: Ignoring db onCreate exception
+05-31 12:04:27.086  5149  5197 W FoldersCache: The folders cursor is either invalid or contains no data.
+05-31 12:04:27.159  5149  5268 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:27.208  1475  1748 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.210  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.224  5149  5280 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:27.228  1475  5089 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.229  1475  5089 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.237  5149  5281 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:27.237  5149  5281 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:27.241  5149  5281 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:27.241  5149  5281 W SQLiteLog: (28) double-quoted string literal: ""
+05-31 12:04:27.253  5149  5149 E MailPlusPlusActivity: onCreate: not able to create SidebarManager
+05-31 12:04:27.260  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.260  1475  1748 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.261  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.261  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.266  1475  4300 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.267  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.267  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.268  1312  4571 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 12:04:27.272  1475  1748 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.273  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.274  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.274   614  2949 I ActivityTaskManager: START u0 {cmp=com.yahoo.mobile.client.android.mail/com.yahoo.mail.ui.activities.LoginAccountActivity (has extras)} from uid 10176
+05-31 12:04:27.275  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.277  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.278  1475  4300 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.279  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.280  1312  4656 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 12:04:27.282  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.283  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.284  1475  1748 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.284  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.285  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.286  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.300  1475  4300 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.302  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.311 10446 11676 W Finsky  : [129] wed.c(286): com.yahoo.mobile.client.android.mail: No account found.
+05-31 12:04:27.319 10446 11676 I Finsky  : [129] wed.c(869): Billing preferred account via installer for com.yahoo.mobile.client.android.mail: [dCNOmK_nSY-12vHzasLXiswzlGT5UHA7jAGYkvmCuQs]
+05-31 12:04:27.325 10446 11676 W Finsky  : [129] wed.c(286): com.yahoo.mobile.client.android.mail: No account found.
+05-31 12:04:27.325 10446 11676 I Finsky  : [129] wed.c(869): Billing preferred account via installer for com.yahoo.mobile.client.android.mail: [dCNOmK_nSY-12vHzasLXiswzlGT5UHA7jAGYkvmCuQs]
+05-31 12:04:27.326 10446 10470 W Finsky  : [51] wed.c(286): com.yahoo.mobile.client.android.mail: No account found.
+05-31 12:04:27.326 10446 10470 I Finsky  : [51] wed.c(869): Billing preferred account via installer for com.yahoo.mobile.client.android.mail: [dCNOmK_nSY-12vHzasLXiswzlGT5UHA7jAGYkvmCuQs]
+05-31 12:04:27.334 10446 11676 W Finsky  : [129] wed.c(286): com.yahoo.mobile.client.android.mail: No account found.
+05-31 12:04:27.334 10446 11676 I Finsky  : [129] wed.c(869): Billing preferred account via installer for com.yahoo.mobile.client.android.mail: [dCNOmK_nSY-12vHzasLXiswzlGT5UHA7jAGYkvmCuQs]
+05-31 12:04:27.336 10446 11676 W Finsky  : [129] wed.c(286): com.yahoo.mobile.client.android.mail: No account found.
+05-31 12:04:27.336 10446 11676 I Finsky  : [129] wed.c(869): Billing preferred account via installer for com.yahoo.mobile.client.android.mail: [dCNOmK_nSY-12vHzasLXiswzlGT5UHA7jAGYkvmCuQs]
+05-31 12:04:27.336  1475  1745 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.336  5149  5149 W BillingClient: Even billing API version 3 is not supported on this device.
+05-31 12:04:27.337  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.343  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.345  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.359  5149  5149 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+05-31 12:04:27.359  5149  5149 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms.
+05-31 12:04:27.366  5149  5227 E BCookieProvider: Retrieving b cookie encountered an exception : java.io.FileNotFoundException: /data/user/0/com.yahoo.mobile.client.android.mail/files/com.yahoo.data.bcookieprovider.diskcache_file.bcookie: open failed: ENOENT (No such file or directory)
+05-31 12:04:27.366  5149  5227 E BCookieProvider: Retrieving ao cookie encountered an exception : java.io.FileNotFoundException: /data/user/0/com.yahoo.mobile.client.android.mail/files/com.yahoo.data.bcookieprovider.diskcache_file.aocookie: open failed: ENOENT (No such file or directory)
+05-31 12:04:27.367  5149  5227 E BCookieProvider: Cache bcookie data : 1
+05-31 12:04:27.367  5149  5227 E BCookieProvider: 0r3lb48dsnf3g
+05-31 12:04:27.367  5149  5227 E BCookieProvider: 22be52e5-926c-40c3-968f-e7850ab1501f
+05-31 12:04:27.367  5149  5227 E BCookieProvider: e7990da4abef7c078f5c4286648373c78b4fc237
+05-31 12:04:27.367  5149  5227 E BCookieProvider: 4
+05-31 12:04:27.367  5149  5227 E BCookieProvider: Cache aocookie : 1
+05-31 12:04:27.367  5149  5227 E BCookieProvider: o=0&pm=1
+05-31 12:04:27.385  1475  4300 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.386  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.397  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.397  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.398   614   677 I ActivityManager: Start proc 5292:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i10 for  {com.yahoo.mobile.client.android.mail/org.chromium.content.app.SandboxedProcessService0:0}
+05-31 12:04:27.401  5292  5292 W ocessService0:: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 12:04:27.407  5292  5292 E ocessService0:: Not starting debugger since process cannot load the jdwp agent.
+05-31 12:04:27.430  1475  1748 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.431  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.437  1475  4300 W MediaProvider: Ignoring mutation of  _data from com.yahoo.mobile.client.android.mail
+05-31 12:04:27.439  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.446  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.446  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.457  5292  5292 I cr_ChildProcessService: Creating new ChildProcessService pid=5292
+05-31 12:04:27.462  5149  5224 E YCONFIG : File not found!
+05-31 12:04:27.536   614  1670 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2487449)
+05-31 12:04:27.590  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.607  5149  5264 E MessageStorageOperations: no draft folder for accountRowIndex: -1
+05-31 12:04:27.639  1475  5089 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.641  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.642   357   468 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10176 pid=5149
+05-31 12:04:27.643   357   468 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10176 pid=5149
+05-31 12:04:27.682  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.689   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-31 12:04:27.692  5149  5260 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-31 12:04:27.692  5149  5260 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-31 12:04:27.692   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:27.693  5341  5343 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:27.693  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.694  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.719  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.736   357  1078 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+05-31 12:04:27.737   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:27.738  5149  5260 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:27.740   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+05-31 12:04:27.740  5149  5260 W Gralloc4: allocator 4.x is not supported
+05-31 12:04:27.873  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f0f0004.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f120301.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f120301.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f0f0008.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f120569.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f120569.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f0f000a.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f12061d.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f12061d.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f0f0006.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f120613.
+05-31 12:04:27.882   614   675 E system_server: No package ID 7f found for ID 0x7f120613.
+05-31 12:04:27.886  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200427.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:27.893  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.895  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200427.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:27.898  5669  5360 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:27.899   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 12:04:27.900   614   755 I RoleService: Granting default roles...
+05-31 12:04:27.907   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AT8
+05-31 12:04:27.907  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 12:04:27.907  2404  2423 I PermissionControllerServiceImpl: Updating user sensitive for uid 10176
+05-31 12:04:27.909  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:27.950  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:27.953  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:27.953  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:27.957   614   663 W system_server: Failed to determine oat file name for dex location /data/app/~~L5WljPeI8iF6kBebEk2vCA==/com.yahoo.mobile.client.android.mail-Xm9HEmV3G2JxXUZliN1vuw==/base.apk: Dalvik cache directory does not exist
+05-31 12:04:27.959  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.959  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:27.960   614   663 I ActivityTaskManager: Displayed com.yahoo.mobile.client.android.mail/com.yahoo.mail.ui.activities.LoginAccountActivity: +1s699ms
+05-31 12:04:27.977  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:28.097  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:28.118  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.240  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.245  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:28.250  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:28.255  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.255  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.259   614  1670 W InputManager-JNI: Input channel object 'be3f3ff Splash Screen com.yahoo.mobile.client.android.mail (client)' was disposed without first being removed with the input manager!
+05-31 12:04:28.279  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.283  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.288  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.309  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.339  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.342  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.342  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.359  5149  5162 W System  : A resource failed to call close. 
+05-31 12:04:28.375  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.377  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.377  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:28.403  1475  5107 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.507  5149  5268 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:28.507  5149  5268 W SQLiteLog: (28) double-quoted string literal: "eZiSrLcsfsk:APA91bEOxYjoUPLHcZyM86McDorRsA1-NYvd3s3KfZmRHH_07yaZW1O8UD-hECAE02k5O-JZM3gkAugSP4nKmuchBxAhAnyhROfj1Hz7o81LQpnZ5de3D2Y"
+05-31 12:04:28.507  5149  5268 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:28.507  5149  5268 W SQLiteLog: (28) double-quoted string literal: "eZiSrLcsfsk:APA91bEOxYjoUPLHcZyM86McDorRsA1-NYvd3s3KfZmRHH_07yaZW1O8UD-hECAE02k5O-JZM3gkAugSP4nKmuchBxAhAnyhROfj1Hz7o81LQpnZ5de3D2Y%"
+05-31 12:04:28.509  5149  5275 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:28.509  5149  5275 W SQLiteLog: (28) double-quoted string literal: "1748693068507"
+05-31 12:04:28.577  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:28.613   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:28.613  5415  5417 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:28.691  5149  5224 I stateside: Machine was transitioned from control state [FETCHING] to [HANDLING_FETCH_RESULT]
+05-31 12:04:28.702  5149  5224 E YCONFIG : File not found!
+05-31 12:04:28.703  5149  5224 I stateside: Machine was transitioned from control state [HANDLING_FETCH_RESULT] to [DONE]
+05-31 12:04:28.742  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200428.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:28.745  5149  5239 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=329e3a6e-392b-49af-a386-3b83cb2ba945, tags={ com.oath.mobile.platform.phoenix.core.PrivacyConsentRefreshWorker, privacy_consent_refresh_com.yahoo.mobile.client.android.mail } ]
+05-31 12:04:28.756  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200428.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:28.840  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:28.841  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:29.525  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:29.551   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:29.551  5465  5469 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:29.580  5149  5281 W SQLiteLog: (28) double-quoted string literal: "EMPTY_MAILBOX_YID"
+05-31 12:04:29.581  5149  5281 W SQLiteLog: (28) double-quoted string literal: "1748693069579"
+05-31 12:04:29.668  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200429.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:29.672  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200429.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f0f0004.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f120301.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f120301.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f0f0008.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f120569.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f120569.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f0f000a.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f12061d.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f12061d.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f0f0006.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f120613.
+05-31 12:04:29.731   614   675 E system_server: No package ID 7f found for ID 0x7f120613.
+05-31 12:04:29.733   614   755 I RoleService: Granting default roles...
+05-31 12:04:29.734   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 12:04:29.741   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AUA
+05-31 12:04:29.742  2404  2423 I PermissionControllerServiceImpl: Updating user sensitive for uid 10176
+05-31 12:04:29.765  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 12:04:29.768  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:29.794  5669  5481 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:29.807  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:29.825  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:29.826  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:29.909  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:29.914   614   635 W System  : A resource failed to call release. 
+05-31 12:04:29.973  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:29.980  2404  4779 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 12:04:31.694  5669  5572 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:31.872   175   175 I servicemanager: Notifying apexservice they have clients: 0
+05-31 12:04:31.886   175   175 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 12:04:32.121  5669  5578 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:32.334  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:32.363   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:32.363  5596  5600 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:32.478  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200432.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:32.482  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200432.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:32.569  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:32.570  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:33.200  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:33.223   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:33.223  5645  5647 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:33.241   614  1670 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 12:04:33.242   614  1670 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 12:04:33.279   614  1670 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 12:04:33.279   614  1670 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 12:04:33.300   614  1020 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 12:04:33.300   614  3128 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 12:04:33.346  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200433.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:33.352  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200433.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:33.427  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:33.428  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 12:04:34.066  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:34.107   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 12:04:34.107  5699  5701 I Gralloc4: mapper 4.x is not supported
+05-31 12:04:34.184  5669  5707 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:34.237  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200434.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:34.242  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_200434.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 12:04:34.359  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 12:04:35.061  5149  5703 W OnDemandFetchAssetsUtil: asyncFetchAndSaveAsset : assetVersion[25beffbd542b5b9a18fe27f9cbea82cf] - empty or no change
+05-31 12:04:35.061  5149  5703 W OnDemandFetchAssetsUtil: asyncFetchAndSaveAsset : assetVersion[b27898b6152f6827c80c5cef6b5b4139] - empty or no change
+05-31 12:04:35.063  5669  5789 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:35.749   614  3128 I ActivityTaskManager: START u0 {cmp=com.yahoo.mobile.client.android.mail/com.oath.mobile.platform.phoenix.core.AuthActivity (has extras)} from uid 10176
+05-31 12:04:35.833   614  1020 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2488361)
+05-31 12:04:35.855  5149  5162 W System  : A resource failed to call end. 
+05-31 12:04:35.855  5149  5162 W System  : A resource failed to call end. 
+05-31 12:04:35.891   614  1020 I ActivityTaskManager: START u0 {cmp=com.yahoo.mobile.client.android.mail/com.oath.mobile.platform.phoenix.core.AuthWebViewActivity (has extras)} from uid 10176
+05-31 12:04:35.952  5669  5847 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:36.084   614  1670 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2496658)
+05-31 12:04:36.227  5149  5323 E chromium: [ERROR:cookie_manager.cc(129)] Strict Secure Cookie policy does not allow setting a secure cookie for http://yahoo.com/ for apps targeting >= R. Please either use the 'https:' scheme for this URL or omit the 'Secure' directive in the cookie value.
+05-31 12:04:36.228  5149  5323 E chromium: [ERROR:cookie_manager.cc(129)] Strict Secure Cookie policy does not allow setting a secure cookie for http://yahoo.com/ for apps targeting >= R. Please either use the 'https:' scheme for this URL or omit the 'Secure' directive in the cookie value.
+05-31 12:04:36.229  5149  5323 E chromium: [ERROR:cookie_manager.cc(129)] Strict Secure Cookie policy does not allow setting a secure cookie for http://yahoo.com/ for apps targeting >= R. Please either use the 'https:' scheme for this URL or omit the 'Secure' directive in the cookie value.
+05-31 12:04:36.240  5149  5317 W cr_media: Requires BLUETOOTH permission
+05-31 12:04:36.292  5292  5326 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+05-31 12:04:36.292  5292  5326 I cr_CachingUmaRecorder: Flushed 1 samples from 1 histograms.
+05-31 12:04:36.308  5292  5326 W SystemServiceRegistry: No service published for: uimode
+05-31 12:04:36.447   614   663 I ActivityTaskManager: Displayed com.yahoo.mobile.client.android.mail/com.oath.mobile.platform.phoenix.core.AuthWebViewActivity: +700ms
+05-31 12:04:36.878   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 12:04:36.913   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 12:04:36.923   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 12:04:36.929   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 12:04:36.931   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 12:04:37.045  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:37.079   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:37.456   190  5290 I keystore2: keystore2::watchdog: Watchdog thread idle -> terminating. Have a great day.
+05-31 12:04:37.602   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:38.101  5669  5924 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:38.873  5669  5932 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:39.841  5669  5940 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:41.152  5149  5322 W chromium: [WARNING:spdy_session.cc(3260)] Received RST for invalid stream1
+05-31 12:04:42.360  1312  4656 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 12:04:42.362  1312  5002 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 12:04:42.411  5669  5960 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:42.614  5669  5966 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:42.869  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:42.916   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:43.243   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:43.496  5669  6004 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:44.409  5669  6012 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:44.605 10446 10494 I Finsky  : [56] nlr.run(64): Stats for Executor: BlockingExecutor skj@674d27a[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 92]
+05-31 12:04:44.605 10446 10494 I Finsky  : [56] nlr.run(64): Stats for Executor: LightweightExecutor skj@c3afa2b[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 551]
+05-31 12:04:44.667 10446 10494 I Finsky  : [56] nlr.run(64): Stats for Executor: bgExecutor skj@597ce88[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1676]
+05-31 12:04:47.133  5669  6024 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:47.273  1312  5002 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 12:04:47.278  1312  4571 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 12:04:48.505  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:48.548   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:48.790  1475  5089 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:48.825   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:52.379  1705  6066 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+05-31 12:04:52.939  5669  6074 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:54.062  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:54.100   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:54.387   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:04:58.581  5669  6123 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:04:59.678  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:04:59.742   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:00.075   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:02.391  1312  4571 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 12:05:02.395  1312  6027 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 12:05:04.152  5669  6173 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:05.402  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:05.455   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:05.743  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:05.796   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:09.797  5669  6219 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:11.101  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:11.143   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:11.427   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:15.461  5669  6265 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:16.727  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:16.767   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:17.079   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:21.164  5669  6311 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:22.362  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:22.368  1312  6027 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 12:05:22.374  1312  4571 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 12:05:22.416   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:22.686  1475  5089 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:22.748   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:26.839  5669  6359 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:28.069  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:28.110   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:28.404   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:32.413  1705  6402 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+05-31 12:05:32.431  5669  6407 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:33.710  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:33.753   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:34.052   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:38.160  5669  6455 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:39.352  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:39.395   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:39.672   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:42.379  1312  4571 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 12:05:42.382  1312  6027 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 12:05:43.768  5669  6502 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 12:05:44.979  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 12:05:45.024   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED
+05-31 12:05:45.296   357   357 W SurfaceFlinger: FB is protected: PERMISSION_DENIED

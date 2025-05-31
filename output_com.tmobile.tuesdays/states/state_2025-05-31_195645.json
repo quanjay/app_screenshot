@@ -1,0 +1,2276 @@
+{
+  "tag": "2025-05-31_195645",
+  "state_str": "c88538be8c2ae647bbee673bd173e323",
+  "state_str_content_free": "1f4876b0e58e6792097b8027abe08b96",
+  "foreground_activity": "com.tmobile.tuesdays/com.tmobile.tmte.controller.authentication.AuthenticationActivity",
+  "activity_stack": [
+    "com.tmobile.tuesdays/com.tmobile.tmte.controller.authentication.AuthenticationActivity",
+    "com.tmobile.tuesdays/com.tmobile.tmte.controller.welcome.WelcomeScreenActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.permissioncontroller/com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.google.android.gms/.chimera.GmsInternalApiService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.shared.util.keepalive.StandaloneKeepAlive",
+    "com.tmobile.tuesdays/com.tmobile.tmte.TMTAppMessagingService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.magictether.service.TetherService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.google.android.gms/.tron.CollectionService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.tmobile.tuesdays/com.google.android.gms.tagmanager.TagManagerService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.chimera.PersistentIntentOperationService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.gms/.geotimezone.GeoTimeZoneService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.tmobile.tuesdays/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.google.android.permissioncontroller/com.android.permissioncontroller.role.service.RoleControllerServiceImpl",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2400,
+  "views": [
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        52,
+        53
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6dcb4a4245c067424d297a39a59facf5"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2550b62475a0937c2c2586f94fb26966"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e80695fe00302a2c6c560add4d54e432"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.tmobile.tuesdays:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "fd02c59b33da2fc37c2a187a8ad39871"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "94208bbb1e1e0c3e8408937548866562"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/activity_fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.tmobile.tuesdays:id/activity_fragment_container[text]None[enabled,,]",
+      "view_str": "f44cdd9a29a6af89d6fd86e8f57ce12a"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 6,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        8,
+        9,
+        16,
+        17,
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*2211",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "7e2e4fdee04276ec12a86ea5c00cd986"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Close",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          32,
+          168
+        ],
+        [
+          77,
+          213
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/iv_close",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "45*45",
+      "signature": "[class]android.widget.ImageView[resource_id]com.tmobile.tuesdays:id/iv_close[text]None[enabled,,]",
+      "view_str": "bccc2707b68ff59b04a6f5c4a3373486",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<button text='Close' bound_box=32,168,77,213></button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "T\u2011Mobile Tuesdays Logo",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          442,
+          168
+        ],
+        [
+          639,
+          218
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/iv_logo",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "197*50",
+      "signature": "[class]android.widget.ImageView[resource_id]com.tmobile.tuesdays:id/iv_logo[text]None[enabled,,]",
+      "view_str": "a44ca5e89b65082af77c60c502668da8",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<p text='T\u2011Mobile Tuesdays Logo' bound_box=442,168,639,218></p>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          407
+        ],
+        [
+          1038,
+          581
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/txt_msisdn",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "996*174",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.tmobile.tuesdays:id/txt_msisdn[text]None[enabled,,]",
+      "view_str": "81844f1f4506fc61d2a9e67445e99979"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          421
+        ],
+        [
+          1038,
+          581
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "996*160",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "22c53264a0cb571732d50eba6c54c9b6"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          42,
+          421
+        ],
+        [
+          1038,
+          581
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/et_msisdn",
+      "checked": false,
+      "text": "Enter Phone Number",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "996*160",
+      "signature": "[class]android.widget.EditText[resource_id]com.tmobile.tuesdays:id/et_msisdn[text]Enter Phone Number[enabled,,]",
+      "view_str": "ce65539676eb6e04cbb2f34bb81cbba6",
+      "allowed_actions": [
+        "touch",
+        "set_text",
+        "long_touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<input bound_box=42,421,1038,581>Enter Phone Number</input>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          421
+        ],
+        [
+          1038,
+          581
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/textinput_placeholder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 12,
+      "size": "996*160",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/textinput_placeholder[text]None[enabled,,]",
+      "view_str": "bf2d52270c2bbafa812c1af5ecc6cbeb"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          421
+        ],
+        [
+          42,
+          581
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 13,
+      "size": "0*160",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "dd4d33cd4879522d15ae1815b8b1635b"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1038,
+          421
+        ],
+        [
+          1038,
+          581
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 14,
+      "size": "0*160",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "bb0a8b28d1e056df54fde88476723ed8"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1038,
+          421
+        ],
+        [
+          1038,
+          581
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "0*160",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a038fd92d15519db553b6379266350f0"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          623
+        ],
+        [
+          1038,
+          791
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_continue",
+      "checked": false,
+      "text": "Continue",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 16,
+      "size": "996*168",
+      "signature": "[class]android.widget.Button[resource_id]com.tmobile.tuesdays:id/btn_continue[text]Continue[enabled,,]",
+      "view_str": "473785cb439cec90229051cd21f48415",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<button bound_box=42,623,1038,791>Continue</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          875
+        ],
+        [
+          1038,
+          1128
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/tv_rules_privacy",
+      "checked": false,
+      "text": "No purchase necessary. You may enter in T-Mobile Tuesdays Sweepstakes without being a customer. See sweepstakes rules. \n\nBy tapping continue, I agree to the Terms and Conditions \nand the Privacy Policy, which outlines age restrictions.\n\n",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 17,
+      "size": "996*253",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/tv_rules_privacy[text]None[enabled,,]",
+      "view_str": "9c0d0827a58765c7681c598d2153c0ab",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<p bound_box=42,875,1038,1128>No purchase necessary. You may enter in T-Mobile Tuesdays Sweepstakes without being a customer. See sweepstakes rules. \n\nBy tapping continue, I agree to the Terms and Conditions \nand the Privacy Policy, which outlines age restrictions.\n\n</p>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1500
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/keyboard",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 18,
+      "size": "1080*774",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/keyboard[text]None[enabled,,]",
+      "view_str": "5f12f1fd83f0b220575a68e125d8193a"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 12,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20,
+        22,
+        25,
+        28,
+        31,
+        34,
+        37,
+        40,
+        43,
+        46,
+        48,
+        50
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1500
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1080*774",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "b820a4310c034c837a34c039f278a1a3"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1500
+        ],
+        [
+          360,
+          1694
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_1",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "360*194",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_1[text]None[enabled,,]",
+      "view_str": "3157701206bfb9d40db4b37e3465a503"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          154,
+          1534
+        ],
+        [
+          207,
+          1661
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_1_digit",
+      "checked": false,
+      "text": "1",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_1_digit[text]1[enabled,,]",
+      "view_str": "11a907fef187feb94da1a8f9c8657014",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<button bound_box=154,1534,207,1661>1</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          1500
+        ],
+        [
+          720,
+          1694
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_2",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 22,
+      "size": "360*194",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_2[text]None[enabled,,]",
+      "view_str": "3c7f9b1da1bf858b48acc829518071af"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          483,
+          1534
+        ],
+        [
+          536,
+          1661
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_2_digit",
+      "checked": false,
+      "text": "2",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_2_digit[text]2[enabled,,]",
+      "view_str": "15244ac2ad245a9a790967b299790645",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<button bound_box=483,1534,536,1661>2</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          557,
+          1587
+        ],
+        [
+          628,
+          1638
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_2_letters",
+      "checked": false,
+      "text": "ABC",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 24,
+      "size": "71*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_2_letters[text]ABC[enabled,,]",
+      "view_str": "68f00dff170b4567877a2888bf124c46",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<button bound_box=557,1587,628,1638>ABC</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          1500
+        ],
+        [
+          1080,
+          1694
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_3",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 25,
+      "size": "360*194",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_3[text]None[enabled,,]",
+      "view_str": "07c334d9707c742e48232b7d54732583"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          812,
+          1534
+        ],
+        [
+          865,
+          1661
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_3_digit",
+      "checked": false,
+      "text": "3",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_3_digit[text]3[enabled,,]",
+      "view_str": "9ecaf8974e40660c3ad0ab1123cd2f96",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<button bound_box=812,1534,865,1661>3</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          886,
+          1587
+        ],
+        [
+          951,
+          1638
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_3_letters",
+      "checked": false,
+      "text": "DEF",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 27,
+      "size": "65*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_3_letters[text]DEF[enabled,,]",
+      "view_str": "3471d0249233e2333a824d8e5db17511",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "9",
+      "desc": "<button bound_box=886,1587,951,1638>DEF</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29,
+        30
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1694
+        ],
+        [
+          360,
+          1887
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_4",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 28,
+      "size": "360*193",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_4[text]None[enabled,,]",
+      "view_str": "9d674cc3ac346bccf4861828d956a18c"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          154,
+          1727
+        ],
+        [
+          207,
+          1854
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_4_digit",
+      "checked": false,
+      "text": "4",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_4_digit[text]4[enabled,,]",
+      "view_str": "73c539902ffd965637172073cdcb5fa5",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "10",
+      "desc": "<button bound_box=154,1727,207,1854>4</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          228,
+          1780
+        ],
+        [
+          289,
+          1831
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_4_letters",
+      "checked": false,
+      "text": "GHI",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 30,
+      "size": "61*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_4_letters[text]GHI[enabled,,]",
+      "view_str": "287f5dd3a0becb8b8340a63e06d8b28c",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "11",
+      "desc": "<button bound_box=228,1780,289,1831>GHI</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          1694
+        ],
+        [
+          720,
+          1887
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_5",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 31,
+      "size": "360*193",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_5[text]None[enabled,,]",
+      "view_str": "496b8c1336ff786aa087944b85ae921f"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          483,
+          1727
+        ],
+        [
+          536,
+          1854
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_5_digit",
+      "checked": false,
+      "text": "5",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_5_digit[text]5[enabled,,]",
+      "view_str": "8e4b07ef48596cb03046cb81e201020a",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "12",
+      "desc": "<button bound_box=483,1727,536,1854>5</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          557,
+          1780
+        ],
+        [
+          620,
+          1831
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_5_letters",
+      "checked": false,
+      "text": "JKL",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 33,
+      "size": "63*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_5_letters[text]JKL[enabled,,]",
+      "view_str": "4d05c2fe3bc1f7586e37c8f857301920",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "13",
+      "desc": "<button bound_box=557,1780,620,1831>JKL</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35,
+        36
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          1694
+        ],
+        [
+          1080,
+          1887
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_6",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 34,
+      "size": "360*193",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_6[text]None[enabled,,]",
+      "view_str": "ac25cba9dc44f96de38cfa233746d2a0"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          812,
+          1727
+        ],
+        [
+          865,
+          1854
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_6_digit",
+      "checked": false,
+      "text": "6",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_6_digit[text]6[enabled,,]",
+      "view_str": "602e1b606652d579774d3dc4f5edb5f2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "14",
+      "desc": "<button bound_box=812,1727,865,1854>6</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          886,
+          1780
+        ],
+        [
+          969,
+          1831
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_6_letters",
+      "checked": false,
+      "text": "MNO",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 36,
+      "size": "83*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_6_letters[text]MNO[enabled,,]",
+      "view_str": "de3cbcfa6a2ddccf561781ee54d05f88",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "15",
+      "desc": "<button bound_box=886,1780,969,1831>MNO</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38,
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1887
+        ],
+        [
+          360,
+          2081
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_7",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 37,
+      "size": "360*194",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_7[text]None[enabled,,]",
+      "view_str": "c23864ac5401c705365783b22924c6a6"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          154,
+          1921
+        ],
+        [
+          207,
+          2048
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_7_digit",
+      "checked": false,
+      "text": "7",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_7_digit[text]7[enabled,,]",
+      "view_str": "1111e5dcc5d25505d5461780f44922e5",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "16",
+      "desc": "<button bound_box=154,1921,207,2048>7</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          228,
+          1974
+        ],
+        [
+          321,
+          2025
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_7_letters",
+      "checked": false,
+      "text": "PQRS",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 39,
+      "size": "93*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_7_letters[text]PQRS[enabled,,]",
+      "view_str": "fbf749eafbfe1c45f55f952d67a1e169",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "17",
+      "desc": "<button bound_box=228,1974,321,2025>PQRS</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41,
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          1887
+        ],
+        [
+          720,
+          2081
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_8",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 40,
+      "size": "360*194",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_8[text]None[enabled,,]",
+      "view_str": "bf5bb5a07175f4ea46adef1f42d1731c"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          483,
+          1921
+        ],
+        [
+          536,
+          2048
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_8_digit",
+      "checked": false,
+      "text": "8",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_8_digit[text]8[enabled,,]",
+      "view_str": "2b3885ce4689e3d2c6464bf7125effac",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "18",
+      "desc": "<button bound_box=483,1921,536,2048>8</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          557,
+          1974
+        ],
+        [
+          627,
+          2025
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_8_letters",
+      "checked": false,
+      "text": "TUV",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 42,
+      "size": "70*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_8_letters[text]TUV[enabled,,]",
+      "view_str": "09fa22ee9f840c7859ae9c3f9da41735",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "19",
+      "desc": "<button bound_box=557,1974,627,2025>TUV</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44,
+        45
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          1887
+        ],
+        [
+          1080,
+          2081
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_9",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 43,
+      "size": "360*194",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_9[text]None[enabled,,]",
+      "view_str": "ea298788ec272fcbd3929c2ac0a805ea"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          812,
+          1921
+        ],
+        [
+          865,
+          2048
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_9_digit",
+      "checked": false,
+      "text": "9",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_9_digit[text]9[enabled,,]",
+      "view_str": "8bac2335757ae349e519f1ed2064b234",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "20",
+      "desc": "<button bound_box=812,1921,865,2048>9</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          886,
+          1974
+        ],
+        [
+          986,
+          2025
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_9_letters",
+      "checked": false,
+      "text": "WXYZ",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 45,
+      "size": "100*51",
+      "signature": "[class]android.widget.TextView[resource_id]com.tmobile.tuesdays:id/btn_9_letters[text]WXYZ[enabled,,]",
+      "view_str": "f736348266f6c204fe1294e26b93cead",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "21",
+      "desc": "<button bound_box=886,1974,986,2025>WXYZ</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Backspace",
+      "children": [
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2081
+        ],
+        [
+          360,
+          2274
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_back",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 46,
+      "size": "360*193",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_back[text]None[enabled,,]",
+      "view_str": "1c84bb9c4fb1927cdec1113c0e056829",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "22",
+      "desc": "<button text='Backspace' bound_box=0,2081,360,2274></button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          149,
+          2146
+        ],
+        [
+          212,
+          2209
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "63*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "9ac29e4083bac6d0bcd10e5db55c2234"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          2081
+        ],
+        [
+          720,
+          2274
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_0",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 48,
+      "size": "360*193",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_0[text]None[enabled,,]",
+      "view_str": "c3bf8459d5fc49a1d4f62ad6410b7c47"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          483,
+          2114
+        ],
+        [
+          536,
+          2241
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "0",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "53*127",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]0[enabled,,]",
+      "view_str": "e42cfabff66b7fe13ec1e8e525acdfba",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "23",
+      "desc": "<button bound_box=483,2114,536,2241>0</button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          2081
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.tmobile.tuesdays:id/btn_ok",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 50,
+      "size": "360*193",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.tmobile.tuesdays:id/btn_ok[text]None[enabled,,]",
+      "view_str": "bc57a9d2a2358256e6fd1858951ef0f1"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "OK",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          853,
+          2130
+        ],
+        [
+          948,
+          2225
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "95*95",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "2b171e68b3085a49f12062f6ff82e4fa",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "24",
+      "desc": "<button text='OK' bound_box=853,2130,948,2225></button>"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          63
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 52,
+      "size": "1080*63",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "1586d3e3042da1bf3fe247ccbed449dc"
+    },
+    {
+      "package": "com.tmobile.tuesdays",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 53,
+      "size": "1080*126",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "ffa77ad8a7e622a83952607f394c4563"
+    }
+  ]
+}

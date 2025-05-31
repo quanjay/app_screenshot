@@ -1,0 +1,873 @@
+--------- beginning of main
+05-31 11:48:31.197  1410  1410 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420 
+05-31 11:48:31.203   614  3993 W InputManager-JNI: Input channel object '8f30850 InputMethod (client)' was disposed without first being removed with the input manager!
+05-31 11:48:31.207  1410  1410 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():109 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+05-31 11:48:31.210  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fau
+05-31 11:48:31.211  1410  1410 I KeyboardViewController: KeyboardViewController.clearSubViewControllerInternal():411 Clears keyboard sub view controller for keyboardType: null, viewType: HEADER, viewId: 2131428269(#0x7f0b03ad),which has not been set.
+05-31 11:48:31.219  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fci
+05-31 11:48:31.219  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in eyj
+05-31 11:48:31.220  1410 10058 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroyServiceInternal():81 onDestroyServiceInternal()
+05-31 11:48:31.223  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fau.
+05-31 11:48:31.229  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fci.
+05-31 11:48:31.229  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in eyj.
+--------- beginning of system
+05-31 11:48:31.607   614   664 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-31 11:48:31.697  5467  5467 I abb     : StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+05-31 11:48:31.696   614   614 W Binder:614_16: type=1400 audit(0.0:126): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:48:31.704  5467  5467 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+05-31 11:48:31.696   614   614 W Binder:614_16: type=1400 audit(0.0:127): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:48:31.696   614   614 W Binder:614_16: type=1400 audit(0.0:128): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:48:32.212   614   614 W Binder:614_16: type=1400 audit(0.0:129): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:48:32.321   614   701 I PackageManager: Integrity check passed for file:///data/app/vmdl1719764339.tmp
+05-31 11:48:32.335   614   701 I PackageManager: Permission ownership changed. Updating all permissions.
+05-31 11:48:32.376   614   701 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk pkg=com.pandora.android isa=x86_64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/oat classLoaderContext=PCL[]{PCL[/system/framework/android.test.base.jar]#PCL[/system/framework/org.apache.http.legacy.jar]}
+05-31 11:48:32.385  1475  5134 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.pandora.android. Reason: op android:read_external_storage
+05-31 11:48:32.385  1475  5134 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.pandora.android. Reason: op android:read_external_storage
+05-31 11:48:32.386  1475  5134 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.pandora.android. Reason: op android:read_external_storage
+05-31 11:48:32.386  1475  5134 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.pandora.android. Reason: op android:read_external_storage
+05-31 11:48:32.390 15209 15209 W dex2oat64: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:48:32.390 15209 15209 W dex2oat64: Mismatch between dex2oat instruction set features to use (ISA: X86_64 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86_64 Feature string: ssse3,sse4.1,sse4.2,-avx,-avx2,popcnt) for the command line:
+05-31 11:48:32.390 15209 15209 W dex2oat64: /apex/com.android.art/bin/dex2oat64 --zip-fd=7 --zip-location=base.apk --oat-fd=8 --oat-location=/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/oat/x86_64/base.odex --input-vdex-fd=-1 --output-vdex-fd=9 --swap-fd=10 --classpath-dir=/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]#PCL[/system/framework/org.apache.http.legacy.jar]} --compact-dex-level=none --instruction-set=x86_64 --instruction-set-features=default --instruction-set-variant=x86_64 --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info --runtime-arg -Xtarget-sdk-version:28 --runtime-arg -Xhidden-api-policy:enabled --runtime-arg -Xms64m --runtime-arg -Xmx512m
+05-31 11:48:32.390 15209 15209 I dex2oat64: /apex/com.android.art/bin/dex2oat64 --input-vdex-fd=-1 --output-vdex-fd=9 --classpath-dir=/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]#PCL[/system/framework/org.apache.http.legacy.jar]} --compact-dex-level=none --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info
+05-31 11:48:32.638 15209 15209 I dex2oat64: Large app, accepted running with swap.
+05-31 11:48:34.323   175   175 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+05-31 11:48:34.373 15209 15209 I dex2oat64: dex2oat took 1.983s (6.081s cpu) (threads: 4) arena alloc=0B (0B) java alloc=29MB (31103536B) native alloc=4519KB (4628128B) free=1561KB (1599264B) swap=16MB (16777216B)
+05-31 11:48:34.413   384   384 E installd: Couldn't opendir /data/app/vmdl1719764339.tmp: No such file or directory
+05-31 11:48:34.413   384   384 E installd: Failed to delete /data/app/vmdl1719764339.tmp: No such file or directory
+05-31 11:48:34.416   614   614 W Binder:614_16: type=1400 audit(0.0:130): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:48:34.429  1705 15085 I AppLinksIntentOperation: Verifying requested domains [CONTEXT service_id=244 ]
+05-31 11:48:34.428   614   614 W Binder:614_16: type=1400 audit(0.0:131): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:48:34.451  1705  1705 I IntentFilterVerRcvr: S+ domain verification enabled [CONTEXT service_id=244 ]
+05-31 11:48:34.432   614   614 W Binder:614_16: type=1400 audit(0.0:132): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:48:34.455   175   175 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 11:48:34.459   175   175 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+05-31 11:48:34.462  1475  1475 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.pandora.android. Reason: package android.intent.action.PACKAGE_ADDED
+05-31 11:48:34.467   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 11:48:34.469  2231  2231 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) }
+05-31 11:48:34.470   614   755 I RoleService: Granting default roles...
+05-31 11:48:34.472   614   675 E system_server: No package ID 7f found for ID 0x7f0802d1.
+05-31 11:48:34.472   614   675 E system_server: No package ID 7f found for ID 0x7f120565.
+05-31 11:48:34.472   614   675 E system_server: No package ID 7f found for ID 0x7f120565.
+05-31 11:48:34.483  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 11:48:34.484  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:34.488   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+05-31 11:48:34.488   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+05-31 11:48:34.488   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+05-31 11:48:34.488   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+05-31 11:48:34.488   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+05-31 11:48:34.489   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+05-31 11:48:34.489   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+05-31 11:48:34.491   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AMk
+05-31 11:48:34.496 10446 10446 I Finsky  : [2] adcs.g(1): adcs - Received: android.intent.action.PACKAGE_ADDED, [1y4T6oxlXZ2-xx3D116rdxfIrWwcYmofgHc6cGuctu4]
+05-31 11:48:34.498 10616 10616 I Finsky:background: [2] adch.g(6): adch - Received: android.intent.action.PACKAGE_ADDED, [1y4T6oxlXZ2-xx3D116rdxfIrWwcYmofgHc6cGuctu4]
+05-31 11:48:34.511  2404  2423 I PermissionControllerServiceImpl: Updating user sensitive for uid 10160
+05-31 11:48:34.516 10446 10446 I Finsky  : [2] akbb.f(9): Clearing split related stale data.
+05-31 11:48:34.547   614   698 E VerityUtils: Failed to measure fs-verity, errno 1: /data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk
+05-31 11:48:34.556  1705 15085 I AppLinksRequestHandler: (REDACTED) Processing %d input requests
+05-31 11:48:34.557 10446 10446 I Finsky  : [2] atbs.c(44): Do not start WearSupportService due to Wear service optimization
+05-31 11:48:34.557 10446 10446 I Finsky  : [2] xem.jr(11): DTU: Received onPackageAdded, replacing: false
+05-31 11:48:34.558 10446 12631 I Finsky  : [152] poo.kh(210): [ContentSync] finished, scheduled=false
+05-31 11:48:34.561 10616 14134 I Finsky:background: [116] ruh.accept(120): Wrote row to frosting DB: 250
+05-31 11:48:34.563  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:34.564  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:34.568  1705 15085 I AppLinksUtilsV1: Legacy cross-profile verification enabled [CONTEXT service_id=244 ]
+05-31 11:48:34.602  1705 15089 I Auth    : (REDACTED) [SupervisedAccountIntentOperationV2] onHandleIntent: %s
+05-31 11:48:34.604  1705 15089 I Blockstore: (REDACTED) [DataStoreImpl] Clearing Blockstore Data for package %s
+05-31 11:48:34.605  1705 15089 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+05-31 11:48:34.605  1705 15089 I Dck     : (REDACTED) disableDckSupport: %s
+05-31 11:48:34.605  1705 15089 W Dck     : [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+05-31 11:48:34.605  1705 15089 I Dck     : [WirelessCapabilitiesFeatures] wccMendel: 3 [CONTEXT service_id=289 ]
+05-31 11:48:34.605  1705 15089 I Dck     : [WirelessCapabilitiesFeatures] deviceWccOverride: false [CONTEXT service_id=289 ]
+05-31 11:48:34.605  1705 15089 I Dck     : [WirelessCapabilitiesFeatures] replaceSupportedWccWithWccOverride: true [CONTEXT service_id=289 ]
+05-31 11:48:34.605  1705 15089 I Dck     : [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+05-31 11:48:34.605  1705 15089 I Dck     : (REDACTED) [WirelessCapabilitiesFeatures] wcc: %s
+05-31 11:48:34.605  1705 15089 I Dck     : Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+05-31 11:48:34.605  1705 15089 I Dck     : Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+05-31 11:48:34.605  1705 15089 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+05-31 11:48:34.609  5669 15236 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:34.610  1312 15079 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 11:48:34.610  1312 15079 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.pandora.android flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 11:48:34.613  1705  4316 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@2c50868
+05-31 11:48:34.626   614   675 W PackageManager: Failed registering loading progress callback. Package is fully loaded.
+05-31 11:48:34.640 10616 14134 I Finsky:background: [116] ruh.accept(120): Wrote row to frosting DB: 251
+05-31 11:48:34.675  1705  9970 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-31 11:48:34.686   614   633 I system_server: Background concurrent copying GC freed 175065(9488KB) AllocSpace objects, 47(2008KB) LOS objects, 50% free, 22MB/45MB, paused 4.661ms,272us total 272.334ms
+05-31 11:48:34.689  1705  9970 I Icing   : Indexing done com.google.android.gms-apps
+05-31 11:48:34.695   614   635 W System  : A resource failed to call close. 
+05-31 11:48:34.699  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:34.709  1705  6122 E hngh    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+05-31 11:48:34.709  1705  6122 E hngh    :     Make sure to call shutdown()/shutdownNow()
+05-31 11:48:34.709  1705  6122 E hngh    : java.lang.RuntimeException: ManagedChannel allocation site
+05-31 11:48:34.709  1705  6122 E hngh    : 	at hngg.<init>(:com.google.android.gms@251933032@25.19.33 (190800-762115751):21)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at hngh.<init>(:com.google.android.gms@251933032@25.19.33 (190800-762115751):10)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at hngf.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):250)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at hmrh.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):5)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at chle.h(:com.google.android.gms@251933032@25.19.33 (190800-762115751):81)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at gddt.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):182)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at frtu.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):13)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at fzvl.a(:com.google.android.gms@251933032@25.19.33 (190800-762115751):3)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at fzum.run(:com.google.android.gms@251933032@25.19.33 (190800-762115751):19)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at fzvn.run(:com.google.android.gms@251933032@25.19.33 (190800-762115751):5)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at ayfn.c(:com.google.android.gms@251933032@25.19.33 (190800-762115751):50)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at ayfn.run(:com.google.android.gms@251933032@25.19.33 (190800-762115751):70)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at aylc.run(:com.google.android.gms@251933032@25.19.33 (190800-762115751):8)
+05-31 11:48:34.709  1705  6122 E hngh    : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:48:34.756  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:34.756  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:34.757  1705 14173 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-31 11:48:34.760  1705 14173 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):204)
+05-31 11:48:34.760  1705 14173 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):4)
+05-31 11:48:34.762  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:34.785   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:34.786 15252 15255 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:34.807   614  2860 I ActivityManager: Background started FGS: Allowed [callingPackage: com.google.android.apps.wellbeing; callingUid: 10100; uidState: BTOP; intent: Intent { cmp=com.google.android.apps.wellbeing/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:BACKGROUND_ACTIVITY_PERMISSION; tempAllowListReason:<null>; targetSdkVersion:30; callerTargetSdkVersion:30; startForegroundCount:0; bindFromPackage:null]
+05-31 11:48:34.812   614   614 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+05-31 11:48:34.931  1705 14173 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+05-31 11:48:34.931  1705 14173 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):204)
+05-31 11:48:34.931  1705 14173 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251933032@25.19.33 (190800-762115751):4)
+05-31 11:48:35.091  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194835.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:35.093  1705  6122 I AppLinksAsyncVerifierV2: (REDACTED) Verification result: checking for a statement with source %s, relation delegate_permission/common.handle_all_urls, and target %s --> %b.
+05-31 11:48:35.093  1705 15085 I AppLinksHostsVerifierV2: (REDACTED) Verification %s complete. Successful hosts: %s. Failed hosts: %s. Error hosts: %s.
+05-31 11:48:35.095  1705 15085 I WebApkHostsVerifierV2: (REDACTED) Processing %d input requests
+05-31 11:48:35.095  1705 15085 I AppLinksUtilsV1: Legacy cross-profile verification enabled [CONTEXT service_id=244 ]
+05-31 11:48:35.096  1705 15085 I WebApkHostsVerifierV2: (REDACTED) Returning %d non-WebAPK requests
+05-31 11:48:35.100  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194835.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:35.176  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:35.177  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:35.463   614  2623 I ActivityManager: Force stopping com.pandora.android appid=10160 user=0: from pid 15282
+05-31 11:48:35.500   614   664 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+05-31 11:48:35.508   614  3282 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 11:48:35.508   614  3282 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 11:48:35.508   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@7f8bfbe
+05-31 11:48:35.601  1705 15085 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+05-31 11:48:36.841  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:36.867   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:36.867 15306 15308 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:36.871   175   175 I servicemanager: Notifying apexservice they have clients: 1
+05-31 11:48:36.871   175   175 I servicemanager: Notifying apexservice they have clients: 0
+05-31 11:48:36.880   175   175 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 11:48:37.213  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194837.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:37.219  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194837.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:37.285  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:37.286  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:37.792  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:37.825   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:37.826 15343 15347 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:38.096  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194838.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:38.112  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194838.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:38.197  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:38.198  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:38.745  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:38.770   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:38.770 15382 15384 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:39.111  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194839.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:39.130  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194839.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:39.291  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:39.654   614  2623 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.pandora.android/.Main} from uid 2000
+05-31 11:48:39.655   614  2623 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=18 attached=false
+05-31 11:48:39.678   614   677 I ActivityManager: Start proc 15414:com.pandora.android/u0a160 for pre-top-activity {com.pandora.android/com.pandora.android.Main}
+05-31 11:48:39.683 15414 15414 W pandora.androi: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:48:39.687 15414 15414 E pandora.androi: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:48:39.747 15414 15414 I FirebaseInitProvider: FirebaseApp initialization successful
+05-31 11:48:39.771  2231  2231 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-31 11:48:39.772  2231  2231 E HwDetectorWithState: a: 3
+05-31 11:48:40.005 15414 15472 W SQLiteLog: (28) double-quoted string literal: "6b441a5cf91bd963ed83ebd014d9c62f"
+05-31 11:48:40.021 15414 15472 W SQLiteLog: (28) double-quoted string literal: "6b441a5cf91bd963ed83ebd014d9c62f"
+05-31 11:48:40.025 15414 15414 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+05-31 11:48:40.053 15414 15414 W Java7Support: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+05-31 11:48:40.064   614  2623 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 11:48:40.064   614  2623 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 11:48:40.071   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@f399e23
+05-31 11:48:40.104 15414 15414 I PANDORA : PANDORA ------------------------------------------------------------------------------------------------------------------------------
+05-31 11:48:40.104 15414 15414 I PANDORA : Pandora App: 1812.2 (prod, 1812.2RC9), code = 18122009, locale = US, brand = google, model = android-emulator64_x86_64_arm64, product = sdk_gphone64_x86_64, manufacturer = Google, name = sdk_gphone64_x86_64, buildType = pandora
+05-31 11:48:40.104 15414 15414 I PANDORA : PANDORA ------------------------------------------------------------------------------------------------------------------------------
+05-31 11:48:40.116   854  1289 I bt_btif_sock_rfcomm: system/bt/btif/src/btif_sock_rfc.cc:303 btsock_rfc_listen: Adding listening socket service_name: SdlProxy - channel: -1
+05-31 11:48:40.126   854  1270 I bt_bta_dm: system/bt/bta/dm/bta_dm_act.cc:2900 bta_dm_set_eir: Generating extended inquiry response packet EIR
+05-31 11:48:40.134   854  1270 I bt_stack: [INFO:port_api.cc(234)] RFCOMM_CreateConnection: bd_addr=ff:ff:ff:ff:ff:ff, scn=7, is_server=1, mtu=990, uuid=000000, dlci=14, signal_state=0x0b, p_port=0x71efcd18b350
+05-31 11:48:40.201 15414 15414 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+05-31 11:48:40.204 15414 15414 I MediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connecting=false, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+05-31 11:48:40.204 15414 15414 I MediaRouter: Unselecting the current route because it is no longer selectable: null
+05-31 11:48:40.210 15414 15414 W pandora.androi: Unsupported class loader
+05-31 11:48:40.211 15414 15414 W pandora.androi: Unsupported class loader
+05-31 11:48:40.212   614  4220 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+05-31 11:48:40.216   614  4220 E PackageDexUsage: Unsupported context?
+05-31 11:48:40.218 15414 15414 I DynamiteModule: Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:251933000
+05-31 11:48:40.218 15414 15414 I DynamiteModule: Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 251933000
+05-31 11:48:40.232 15414 15414 W System  : ClassLoader referenced unknown path: 
+05-31 11:48:40.251 15414 15414 W pandora.androi: ClassLoaderContext classpath size mismatch. expected=14, found=4 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk*2739428507:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes2.dex*257402535:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes3.dex*1795021704:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes4.dex*685841310]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]})
+05-31 11:48:40.290 15414 15414 I CastDynamiteModuleImpl: rh created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk!/lib/x86_64, /data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]].
+05-31 11:48:40.318 15414 15472 E SQLiteLog: (1) temporary storage cannot be changed from within a transaction in "PRAGMA temp_store = MEMORY;"
+--------- beginning of crash
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: FATAL EXCEPTION: PlayableStations
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: Process: com.pandora.android, PID: 15414
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: android.database.sqlite.SQLiteException: temporary storage cannot be changed from within a transaction (code 1 SQLITE_ERROR): , while compiling: PRAGMA temp_store = MEMORY;
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnection.nativePrepareStatement(Native Method)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java:1047)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java:654)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java:590)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteProgram.<init>(SQLiteProgram.java:62)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteStatement.<init>(SQLiteStatement.java:34)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.executeSql(SQLiteDatabase.java:1920)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.execSQL(SQLiteDatabase.java:1842)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteDatabase.execSQL(SourceFile:242)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.arch.persistence.room.InvalidationTracker.internalInit(SourceFile:155)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.arch.persistence.room.RoomDatabase.internalInitInvalidationTracker(SourceFile:323)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.repository.sqlite.room.PandoraDatabase_Impl.b(SourceFile:68)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.repository.sqlite.room.PandoraDatabase_Impl$1.onOpen(SourceFile:286)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.arch.persistence.room.RoomOpenHelper.onOpen(SourceFile:116)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onOpen(SourceFile:151)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:427)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:340)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getReadableSupportDatabase(SourceFile:107)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper.getReadableDatabase(SourceFile:59)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.repository.sqlite.room.a$a.getReadableDB(SourceFile:26)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.repository.sqlite.helper.PandoraDBHelper.b(SourceFile:231)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.radio.provider.StationProvider.query(SourceFile:331)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.content.ContentProvider.query(ContentProvider.java:1408)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.content.ContentProvider.query(ContentProvider.java:1504)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:272)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.content.ContentResolver.query(ContentResolver.java:1219)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.content.ContentResolver.query(ContentResolver.java:1151)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.content.ContentResolver.query(ContentResolver.java:1107)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.radio.provider.l.a(SourceFile:103)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at p.ir.f.g(SourceFile:278)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at p.ir.f.b(SourceFile:240)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.radio.offline.cache.b.b(SourceFile:67)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.radio.offline.cache.b.b(SourceFile:20)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at com.pandora.radio.offline.cache.b$a.handleMessage(SourceFile:98)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-31 11:48:40.330 15414 15472 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: FATAL EXCEPTION: AsyncTask #2
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: Process: com.pandora.android, PID: 15414
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: java.lang.RuntimeException: An error occurred while executing doInBackground()
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.os.AsyncTask$4.done(AsyncTask.java:415)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:383)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at java.util.concurrent.FutureTask.setException(FutureTask.java:252)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: Caused by: java.lang.IllegalStateException: attempt to re-open an already-closed object: SQLiteDatabase: /data/user/0/com.pandora.android/databases/pandora.db
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.database.sqlite.SQLiteClosable.acquireReference(SQLiteClosable.java:58)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1542)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1521)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteDatabase.query(SourceFile:161)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteDatabase.query(SourceFile:150)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.room.RoomOpenHelper.hasRoomMasterTable(SourceFile:151)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.room.RoomOpenHelper.checkIdentity(SourceFile:123)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.room.RoomOpenHelper.onOpen(SourceFile:115)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onOpen(SourceFile:151)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:427)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:316)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getWritableSupportDatabase(SourceFile:96)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper.getWritableDatabase(SourceFile:54)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at com.pandora.repository.sqlite.room.a$a.getWritableDB(SourceFile:22)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at com.pandora.repository.sqlite.helper.PandoraDBHelper.c(SourceFile:235)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at com.pandora.radio.provider.StationProvider.update(SourceFile:483)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.content.ContentProvider.update(ContentProvider.java:1835)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.content.ContentProvider$Transport.update(ContentProvider.java:452)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.content.ContentResolver.update(ContentResolver.java:2400)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.content.ContentResolver.update(ContentResolver.java:2362)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at com.pandora.radio.provider.p.i(SourceFile:1037)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at com.pandora.radio.provider.p$a.a(SourceFile:1389)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at com.pandora.radio.provider.p$a.doInBackground(SourceFile:1380)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-31 11:48:40.348 15414 15436 E AndroidRuntime: 	... 3 more
+05-31 11:48:40.360  1312 14754 I CastDatabase: Loading the database
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: FATAL EXCEPTION: AsyncTask #3
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: Process: com.pandora.android, PID: 15414
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: java.lang.RuntimeException: An error occurred while executing doInBackground()
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.os.AsyncTask$4.done(AsyncTask.java:415)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:383)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at java.util.concurrent.FutureTask.setException(FutureTask.java:252)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: Caused by: java.lang.IllegalStateException: attempt to re-open an already-closed object: SQLiteDatabase: /data/user/0/com.pandora.android/databases/pandora.db
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.database.sqlite.SQLiteClosable.acquireReference(SQLiteClosable.java:58)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1542)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1521)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteDatabase.query(SourceFile:161)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteDatabase.query(SourceFile:150)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.room.RoomOpenHelper.hasRoomMasterTable(SourceFile:151)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.room.RoomOpenHelper.checkIdentity(SourceFile:123)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.room.RoomOpenHelper.onOpen(SourceFile:115)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onOpen(SourceFile:151)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:427)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:316)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getWritableSupportDatabase(SourceFile:96)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.arch.persistence.db.framework.FrameworkSQLiteOpenHelper.getWritableDatabase(SourceFile:54)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at com.pandora.repository.sqlite.room.a$a.getWritableDB(SourceFile:22)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at com.pandora.repository.sqlite.helper.PandoraDBHelper.c(SourceFile:235)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at com.pandora.repository.sqlite.helper.PandoraDBHelper.a(SourceFile:227)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at com.pandora.radio.provider.s.b(SourceFile:114)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at com.pandora.radio.search.b.a(SourceFile:25)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at com.pandora.radio.search.b.doInBackground(SourceFile:15)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-31 11:48:40.363 15414 15437 E AndroidRuntime: 	... 3 more
+05-31 11:48:40.369  1312 14754 I SQLiteCastDBHelper: Upgrading cast database from version 9 to 12
+05-31 11:48:40.374 15414 15414 I WebViewFactory: Loading com.google.android.webview version 91.0.4472.114 (code 447211487)
+05-31 11:48:40.377  1312 14754 I SQLiteCastDBHelper: Creating cast database
+05-31 11:48:40.405  1312  1312 I CastSocket: Adding new CastClientAuthKeyManager. [CONTEXT service_id=161 ]
+05-31 11:48:40.419  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.421  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.421  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.422  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.423  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.424  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.425  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.427  1312  1312 E WorkSourceUtil: Could not find package: gms_cast_prober
+05-31 11:48:40.496 15414 15414 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+05-31 11:48:40.496 15414 15414 I cr_CachingUmaRecorder: Flushed 5 samples from 5 histograms.
+05-31 11:48:40.513 15414 15436 I Process : Sending signal. PID: 15414 SIG: 9
+05-31 11:48:40.523  1312 14754 I SQLiteCastDBHelper: Creating cast database
+05-31 11:48:40.529   614 15518 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+05-31 11:48:40.530   854  1271 I bt_bta_dm: system/bt/bta/dm/bta_dm_act.cc:2900 bta_dm_set_eir: Generating extended inquiry response packet EIR
+05-31 11:48:40.530   854  1270 I bt_stack: [INFO:port_api.cc(307)] RFCOMM_RemoveServer: handle=17
+05-31 11:48:40.533   614   676 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to ProcessRecord{25934eb 15414:com.pandora.android/u0a160} (pid=15414, uid=10160) requires android.permission.READ_LOGS due to sender android (uid 1000)
+05-31 11:48:40.534   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+05-31 11:48:40.540   318   318 I Zygote  : Process 15414 exited due to signal 9 (Killed)
+05-31 11:48:40.543   614   739 I ActivityManager: Process com.pandora.android (pid 15414) has died: fg  TOP 
+05-31 11:48:40.543   614   678 I libprocessgroup: Successfully killed process cgroup uid 10160 pid 15414 in 0ms
+05-31 11:48:40.556   614   739 W ActivityManager: Scheduling restart of crashed service com.pandora.android/.ondemand.sod.stats.SearchStatsService in 1000ms for start-requested
+05-31 11:48:40.556   614   739 W ActivityManager: Scheduling restart of crashed service com.pandora.android/com.google.firebase.iid.FirebaseInstanceIdService in 10999ms for start-requested
+05-31 11:48:40.556   614   739 W ActivityManager: Scheduling restart of crashed service com.pandora.android/com.evernote.android.job.JobRescheduleService in 20999ms for connection
+05-31 11:48:40.583 15521 15521 W pandora.androi: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:48:40.585   614   677 I ActivityManager: Start proc 15521:com.pandora.android/u0a160 for top-activity {com.pandora.android/com.pandora.android.Main}
+05-31 11:48:40.587 15521 15521 E pandora.androi: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:48:40.590 10446 10446 I Finsky  : [2] aipn.onStartJob(126): SCH: job service start with id 9314.
+05-31 11:48:40.595 10446 12631 I Finsky  : [152] nje.a(184): SCH: Satisfied jobs for 9314 are: 12-1
+05-31 11:48:40.596 10446 15533 I Finsky  : [180] aioi.accept(105): SCH: Job 12-1 starting
+05-31 11:48:40.597 10446 10446 I Finsky  : [2] ContentSyncJob.i(9): [ContentSync] job started
+05-31 11:48:40.658 15521 15521 I FirebaseInitProvider: FirebaseApp initialization successful
+05-31 11:48:40.667 10446 15536 I Finsky  : [181] nrn.a(199): App states replicator found 7 unowned apps
+05-31 11:48:40.668 10446 15536 I Finsky  : [181] nrs.b(18): Completed 0 account content syncs with 0 successful.
+05-31 11:48:40.670 10446 10446 I Finsky  : [2] ContentSyncJob.a(12): [ContentSync] Installation state replication succeeded.
+05-31 11:48:40.670 10446 10446 I Finsky  : [2] ainv.q(56): SCH: jobFinished: 12-1. TimeElapsed: 73ms.
+05-31 11:48:40.685 10446 10535 I Finsky  : [81] sju.accept(58): SCH: Scheduling phonesky job Id: 1-1337, CT: 1748678741643, Constraints: [{ L: 14399997, D: 47407351, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-31 11:48:40.689 10446 10531 I Finsky  : [77] njf.apply(251): SCH: Scheduling 1 system job(s)
+05-31 11:48:40.690 10446 10531 I Finsky  : [77] ains.b(244): SCH: Scheduling system job Id: 9316, L: 1020951, D: 34028305, C: false, I: false, N: 1
+05-31 11:48:40.697 10446 15533 I Finsky  : [180] aipn.a(24): SCH: job service finished with id 9314.
+05-31 11:48:40.701 15521 15521 I Bugsnag : Attempting to send launch crash reports
+05-31 11:48:40.704 15521 15558 I Bugsnag : Sending 2 saved error(s) to Bugsnag
+05-31 11:48:40.948  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:40.991   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:40.992 15573 15575 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:41.152  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194841.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:41.170  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194841.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:41.202 15521 15558 I Bugsnag : Completed error API request
+05-31 11:48:41.202 15521 15558 I Bugsnag : Deleting sent error file 1748692120481_dd70f0ba-0e35-46d5-9323-2297fb94c902_startupcrash.json
+05-31 11:48:41.252  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:41.253  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:41.771  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:41.776 15521 15558 I Bugsnag : Completed error API request
+05-31 11:48:41.776 15521 15558 I Bugsnag : Deleting sent error file 1748692120482_0ac6569a-7bf8-47cf-94bf-e98afaeda00e_startupcrash.json
+05-31 11:48:41.777 15521 15521 I Bugsnag : Continuing with Bugsnag initialisation
+05-31 11:48:41.794   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:41.794 15612 15614 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:41.891 15521 15521 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+05-31 11:48:41.910 15521 15521 W Java7Support: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+05-31 11:48:41.926  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194842.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:41.930   854  1274 I bt_btif_sock_rfcomm: system/bt/btif/src/btif_sock_rfc.cc:303 btsock_rfc_listen: Adding listening socket service_name: SdlProxy - channel: -1
+05-31 11:48:41.931   854  1270 I bt_bta_dm: system/bt/bta/dm/bta_dm_act.cc:2900 bta_dm_set_eir: Generating extended inquiry response packet EIR
+05-31 11:48:41.931   854  1270 I bt_stack: [INFO:port_api.cc(234)] RFCOMM_CreateConnection: bd_addr=ff:ff:ff:ff:ff:ff, scn=7, is_server=1, mtu=990, uuid=000000, dlci=14, signal_state=0x0b, p_port=0x71efcd18b408
+05-31 11:48:41.945  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194842.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:41.954 15521 15521 I PANDORA : PANDORA ------------------------------------------------------------------------------------------------------------------------------
+05-31 11:48:41.955 15521 15521 I PANDORA : Pandora App: 1812.2 (prod, 1812.2RC9), code = 18122009, locale = US, brand = google, model = android-emulator64_x86_64_arm64, product = sdk_gphone64_x86_64, manufacturer = Google, name = sdk_gphone64_x86_64, buildType = pandora
+05-31 11:48:41.955 15521 15521 I PANDORA : PANDORA ------------------------------------------------------------------------------------------------------------------------------
+05-31 11:48:42.007  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:42.008  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:42.008 15521 15521 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+05-31 11:48:42.012 15521 15521 I MediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connecting=false, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+05-31 11:48:42.012 15521 15521 I MediaRouter: Unselecting the current route because it is no longer selectable: null
+05-31 11:48:42.018 15521 15521 W pandora.androi: Unsupported class loader
+05-31 11:48:42.019 15521 15521 W pandora.androi: Unsupported class loader
+05-31 11:48:42.019   614  3282 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+05-31 11:48:42.020   614  3282 E PackageDexUsage: Unsupported context?
+05-31 11:48:42.024 15521 15521 I DynamiteModule: Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:251933000
+05-31 11:48:42.024 15521 15521 I DynamiteModule: Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 251933000
+05-31 11:48:42.040 15521 15521 W System  : ClassLoader referenced unknown path: 
+05-31 11:48:42.050 15521 15521 W pandora.androi: ClassLoaderContext classpath size mismatch. expected=14, found=4 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk*2739428507:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes2.dex*257402535:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes3.dex*1795021704:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes4.dex*685841310]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]})
+05-31 11:48:42.063 15521 15521 I CastDynamiteModuleImpl: rh created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk!/lib/x86_64, /data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]].
+05-31 11:48:42.120 15521 15521 I WebViewFactory: Loading com.google.android.webview version 91.0.4472.114 (code 447211487)
+05-31 11:48:42.148 15521 15521 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+05-31 11:48:42.148 15521 15521 I cr_CachingUmaRecorder: Flushed 5 samples from 5 histograms.
+05-31 11:48:42.166   614   677 I ActivityManager: Start proc 15692:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i3 for  {com.pandora.android/org.chromium.content.app.SandboxedProcessService0:0}
+05-31 11:48:42.167 15692 15692 W ocessService0:: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:48:42.172 15692 15692 E ocessService0:: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:48:42.195 15692 15692 I cr_ChildProcessService: Creating new ChildProcessService pid=15692
+05-31 11:48:42.232 15521 15521 W pandora.android: type=1400 audit(0.0:133): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:42.256 15521 15521 I GcmAvailableHelper: GCM service enabled
+05-31 11:48:42.276 15521 15521 W pandora.android: type=1400 audit(0.0:134): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:42.366 15521 15521 W System.err: java.io.FileNotFoundException: /storage/emulated/0/bmwgroup/com.pandora.android/category.txt: open failed: ENOENT (No such file or directory)
+05-31 11:48:42.366 15521 15521 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:575)
+05-31 11:48:42.366 15521 15521 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+05-31 11:48:42.366 15521 15521 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+05-31 11:48:42.366 15521 15521 W System.err: 	at java.io.FileWriter.<init>(FileWriter.java:90)
+05-31 11:48:42.366 15521 15521 W System.err: 	at com.bmwgroup.connected.car.app.a$2.run(SourceFile:330)
+05-31 11:48:42.366 15521 15521 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-31 11:48:42.366 15521 15521 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-31 11:48:42.366 15521 15521 W System.err: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-31 11:48:42.366 15521 15521 W System.err: 	at android.os.Looper.loop(Looper.java:288)
+05-31 11:48:42.366 15521 15521 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+05-31 11:48:42.366 15521 15521 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-31 11:48:42.366 15521 15521 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-31 11:48:42.366 15521 15521 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+05-31 11:48:42.368 15521 15521 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+05-31 11:48:42.368 15521 15521 W System.err: 	at libcore.io.Linux.open(Native Method)
+05-31 11:48:42.368 15521 15521 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:567)
+05-31 11:48:42.368 15521 15521 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:273)
+05-31 11:48:42.368 15521 15521 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:567)
+05-31 11:48:42.368 15521 15521 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7725)
+05-31 11:48:42.368 15521 15521 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:561)
+05-31 11:48:42.368 15521 15521 W System.err: 	... 12 more
+05-31 11:48:42.397  1312  1863 I Wear_Controller: Wearable module requires a companion app to be installed.
+05-31 11:48:42.398  1312  1863 I WearableService: onCreate: Wearable Services not starting. Wear is not available on this device.
+05-31 11:48:42.404   614   676 I ActivityManager: Deferring FGS notification in legacy app com.pandora.android/u0a160 : Notification(channel=PANDORA_DEFAULT_CHANNEL shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x50 color=0xff386aff vis=PRIVATE)
+05-31 11:48:42.408 15521 15521 W pandora.android: type=1400 audit(0.0:135): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:42.443   357   539 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10160 pid=15521
+05-31 11:48:42.443   357   539 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10160 pid=15521
+05-31 11:48:42.450   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-31 11:48:42.451 15521 15654 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-31 11:48:42.451 15521 15654 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-31 11:48:42.474  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:42.524   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:42.524 15774 15777 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:42.527   357   467 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+05-31 11:48:42.527   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:42.527 15521 15654 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:42.529   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+05-31 11:48:42.529 15521 15654 W Gralloc4: allocator 4.x is not supported
+05-31 11:48:42.630 15521 15531 W FirebasePerformance: Trace 'TTM.source_changed' is started but not stopped when it is destructed!
+05-31 11:48:42.631 15521 15531 W FirebasePerformance: Trace 'Main.onCreateWith1943Exp' is started but not stopped when it is destructed!
+05-31 11:48:42.662   614   663 I ActivityTaskManager: Displayed com.pandora.android/.Main: +3s5ms
+05-31 11:48:42.682  1312  2080 W WearableService: onGetService: Wear is not available on this device.
+05-31 11:48:42.709  1705  6122 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+05-31 11:48:42.714  1312 15045 I DiscoveryManager: Filter criteria(211CD751) scannerFlags(0)
+05-31 11:48:42.719  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194842.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:42.726  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194842.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:42.745  1312 15045 W DatabaseProcessor: processLocalDevices: failed to get the network info with non-null networkId.
+05-31 11:48:42.752  1312  1312 I CastMediaRouteProvider: Published 0 routes
+05-31 11:48:42.761  1705 12465 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+05-31 11:48:42.776  1312 15045 I CastDatabase: Saving the database
+05-31 11:48:42.780  1312 15045 I SQLiteCastStore: [CastNetworkInfo] saved: 0, skipped: 0, [CastDeviceInfo]: saved 0, skipped 0, [Paired Guest Mode DeviceInfo] saved: 0, skipped: 0. [ProbedNetworks]: saved 0, skipped: 0, [ProbedSocketAddress]: saved 0, skipped: 0, [Network-Device pairs]: saved: 0
+05-31 11:48:42.811  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:42.812  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:42.841   614  3993 I WifiService: acquireMulticastLock uid=10098
+05-31 11:48:42.942   614  3993 W InputManager-JNI: Input channel object 'cc03b65 Splash Screen com.pandora.android (client)' was disposed without first being removed with the input manager!
+05-31 11:48:43.260 15521 15549 W AnalyticsUserIDStore: initStore should have been called before calling setUserID
+05-31 11:48:43.261 15521 15549 W UserDataStore: initStore should have been called before calling setUserID
+05-31 11:48:43.269 15521 15546 E GraphResponse: {HttpStatus: 400, errorCode: 100, subErrorCode: 33, errorType: GraphMethodException, errorMessage: Unsupported get request. Object with ID '139475280761' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api}
+05-31 11:48:43.294   614   675 E system_server: No package ID 7f found for ID 0x7f0802d1.
+05-31 11:48:43.294   614   675 E system_server: No package ID 7f found for ID 0x7f120565.
+05-31 11:48:43.294   614   675 E system_server: No package ID 7f found for ID 0x7f120565.
+05-31 11:48:43.294   614   755 I RoleService: Granting default roles...
+05-31 11:48:43.300  2404  2423 I PermissionControllerServiceImpl: Updating user sensitive for uid 10160
+05-31 11:48:43.305   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 11:48:43.319  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 11:48:43.321   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AM0
+05-31 11:48:43.323  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:43.344  5669 15839 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:43.368  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:43.369  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:43.463  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:43.542  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:43.546  2404 15067 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:48:44.878  5669 15902 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:44.975 10446 10534 I PlayCommon: [80] azkg.j(213): Preparing logs for uploading
+05-31 11:48:45.000 10446 10534 I PlayCommon: [80] azkg.j(1398): Connecting to server for timestamp: https://play.googleapis.com/play/log/timestamp
+05-31 11:48:45.244  5669 15911 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:45.300 10446 10534 W PlayCommon: [80] azkg.l(11): No account for auth token provided
+05-31 11:48:45.301 10446 10534 I PlayCommon: [80] azkg.j(1855): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+05-31 11:48:45.435   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.435   614   635 W System  : A resource failed to call release. 
+05-31 11:48:45.442 10446 10534 I PlayCommon: [80] azkg.j(2107): Successfully uploaded logs.
+05-31 11:48:45.465   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.469   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.472   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.478   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.479   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.486   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.492  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:45.528   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:45.528 15926 15928 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:45.529   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.537   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.540   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.541   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:48:45.566  1312 15787 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 11:48:45.572  1312 15045 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 11:48:45.698  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194845.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:45.711  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194845.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:45.816  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:46.202 15521 15760 W WakefulBroadcastReceiv.: No active wake lock id #1
+05-31 11:48:46.203   614  3128 W ActivityManager: stopServiceToken startId 2 is last, but have 1 remaining args
+05-31 11:48:46.541  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:46.565   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:46.566 15963 15967 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:46.697  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194846.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:46.709  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194846.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:46.786  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:46.786  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:47.336  5669 16001 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:47.527  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:47.548   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:47.548 16011 16013 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:47.672  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194847.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:47.676  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194847.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:47.769  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:47.771  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:48.275  5669 16042 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:49.323   614  4071 W InputManager-JNI: Input channel object '871dcd9 com.pandora.android/com.pandora.android.Main (client)' was disposed without first being removed with the input manager!
+05-31 11:48:49.332 15521 15521 W pandora.android: type=1400 audit(0.0:136): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:49.365   614  4071 I MediaFocusControl: abandonAudioFocus() from uid/pid 10160/15521 clientId=android.media.AudioManager@dbf7e91com.pandora.radio.player.af$1@83f41f6
+05-31 11:48:49.370  5669 16103 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:49.370 15521 15521 I pandora.androi: System.exit called, status: 0
+05-31 11:48:49.370 15521 15521 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+05-31 11:48:49.384   854  1271 I bt_bta_dm: system/bt/bta/dm/bta_dm_act.cc:2900 bta_dm_set_eir: Generating extended inquiry response packet EIR
+05-31 11:48:49.385   614  2623 I ActivityManager: Process com.pandora.android (pid 15521) has died: fg  TOP 
+05-31 11:48:49.386   854  1270 I bt_stack: [INFO:port_api.cc(307)] RFCOMM_RemoveServer: handle=18
+05-31 11:48:49.386   614   678 I libprocessgroup: Successfully killed process cgroup uid 10160 pid 15521 in 0ms
+05-31 11:48:49.386   614  4715 I WindowManager: WIN DEATH: Window{11c1d6 u0 com.pandora.android/com.pandora.android.Main}
+05-31 11:48:49.387   614  4715 W InputManager-JNI: Input channel object '11c1d6 com.pandora.android/com.pandora.android.Main (client)' was disposed without first being removed with the input manager!
+05-31 11:48:49.387   318   318 I Zygote  : Process 15521 exited cleanly (0)
+05-31 11:48:49.394   614  2916 I WindowManager: WIN DEATH: Window{871dcd9 u0 com.pandora.android/com.pandora.android.Main EXITING}
+05-31 11:48:49.395   614  3993 W WindowManager: Cannot find window which accessibility connection is added to
+05-31 11:48:49.399   357   357 E BpTransactionCompletedListener: Failed to transact (-32)
+05-31 11:48:49.402 15692 15692 I cr_ChildProcessService: Destroying ChildProcessService pid=15692
+05-31 11:48:49.404   614  2623 I ActivityManager: Killing 15692:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a160i3 (adj 0): isolated not needed
+05-31 11:48:49.408   614  2623 W ActivityTaskManager: Force removing ActivityRecord{cc95f2e u0 com.pandora.android/.Main t18}: app died, no saved state
+05-31 11:48:49.417  1312 15045 I DiscoveryManager: Filter criteria(null) scannerFlags(0)
+05-31 11:48:49.417  1312 15045 W DatabaseProcessor: processLocalDevices: failed to get the network info with non-null networkId.
+05-31 11:48:49.419   937   937 I Zygote  : Process 15692 exited due to signal 9 (Killed)
+05-31 11:48:49.421   614  3793 I WifiService: releaseMulticastLock uid=10098
+05-31 11:48:49.425  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 11:48:49.425  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 11:48:49.432   614   678 I libprocessgroup: Successfully killed process cgroup uid 99003 pid 15692 in 0ms
+05-31 11:48:49.451   614   739 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 11:48:49.451   614   739 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 11:48:49.453   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@f387fc6
+05-31 11:48:49.454   614   739 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 11:48:49.454   614   739 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 11:48:49.454   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@3a7ae20
+05-31 11:48:49.482   614   666 W ActivityManager: setHasOverlayUi called on unknown pid: 15521
+05-31 11:48:49.499   614   667 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=18 attached=false
+05-31 11:48:49.499   614   667 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=18 attached=false
+05-31 11:48:49.509   357   357 E BpTransactionCompletedListener: Failed to transact (-32)
+05-31 11:48:49.538  2231  2231 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+05-31 11:48:49.538  2231  2231 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+05-31 11:48:49.538  2231  2231 I GsaVoiceInteractionSrv: Cannot start hotword, hotword has been explicitly disabled.
+05-31 11:48:49.545  1894  2287 I OpenGLRenderer: Davey! duration=74877ms; Flags=1, FrameTimelineVsyncId=37946, IntendedVsync=1475453724308, Vsync=1475453724308, InputEventId=0, HandleInputStart=1475459172700, AnimationStart=1475459211800, PerformTraversalsStart=1475459331200, DrawStart=1475775536700, FrameDeadline=1475487057640, FrameInterval=1475459150900, FrameStartTime=16666666, SyncQueued=1475775806200, SyncStart=1475777328500, IssueDrawCommandsStart=1475777454400, SwapBuffers=1475777780600, FrameCompleted=1550332261100, DequeueBufferDuration=23100, QueueBufferDuration=988700, GpuCompleted=1550332261100, SwapBuffersCompleted=1475786366600, DisplayPresentTime=0, 
+05-31 11:48:50.617  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:50.642   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:50.642 16127 16129 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:51.025  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194850.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:51.037  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194850.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:51.130  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:51.131  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:51.308  5669 16150 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:51.650  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:51.692   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:51.693 16172 16174 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:52.043  5669 16180 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:52.069  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194851.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:52.074  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194851.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:52.154  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:52.154  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:52.654  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:52.679   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:52.680 16217 16219 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:52.873  5669 16223 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:52.988  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194852.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:52.994  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194852.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:53.082  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:53.084  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:53.402   614  4715 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.pandora.android/.Main} from uid 2000
+05-31 11:48:53.402   614  4715 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=19 attached=false
+05-31 11:48:53.419   614   677 I ActivityManager: Start proc 16255:com.pandora.android/u0a160 for pre-top-activity {com.pandora.android/com.pandora.android.Main}
+05-31 11:48:53.423 16255 16255 W pandora.androi: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:48:53.427 16255 16255 E pandora.androi: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:48:53.458 16255 16255 I FirebaseInitProvider: FirebaseApp initialization successful
+05-31 11:48:53.516 16255 16276 I pandora.androi: WaitForGcToComplete blocked ClassLinker on None for 31.780ms
+05-31 11:48:53.516  2231  2231 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-31 11:48:53.516  2231  2231 E HwDetectorWithState: a: 3
+05-31 11:48:53.652 16255 16255 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+05-31 11:48:53.678 16255 16255 W Java7Support: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+05-31 11:48:53.695   854  1274 I bt_btif_sock_rfcomm: system/bt/btif/src/btif_sock_rfc.cc:303 btsock_rfc_listen: Adding listening socket service_name: SdlProxy - channel: -1
+05-31 11:48:53.695   854  1270 I bt_bta_dm: system/bt/bta/dm/bta_dm_act.cc:2900 bta_dm_set_eir: Generating extended inquiry response packet EIR
+05-31 11:48:53.695   854  1270 I bt_stack: [INFO:port_api.cc(234)] RFCOMM_CreateConnection: bd_addr=ff:ff:ff:ff:ff:ff, scn=7, is_server=1, mtu=990, uuid=000000, dlci=14, signal_state=0x0b, p_port=0x71efcd18b4c0
+05-31 11:48:53.710 16255 16255 I PANDORA : PANDORA ------------------------------------------------------------------------------------------------------------------------------
+05-31 11:48:53.710 16255 16255 I PANDORA : Pandora App: 1812.2 (prod, 1812.2RC9), code = 18122009, locale = US, brand = google, model = android-emulator64_x86_64_arm64, product = sdk_gphone64_x86_64, manufacturer = Google, name = sdk_gphone64_x86_64, buildType = pandora
+05-31 11:48:53.710 16255 16255 I PANDORA : PANDORA ------------------------------------------------------------------------------------------------------------------------------
+05-31 11:48:53.763 16255 16255 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+05-31 11:48:53.766 16255 16255 I MediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connecting=false, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+05-31 11:48:53.766 16255 16255 I MediaRouter: Unselecting the current route because it is no longer selectable: null
+05-31 11:48:53.773 16255 16255 W pandora.androi: Unsupported class loader
+05-31 11:48:53.774 16255 16255 W pandora.androi: Unsupported class loader
+05-31 11:48:53.775   614  4715 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+05-31 11:48:53.775   614  4715 E PackageDexUsage: Unsupported context?
+05-31 11:48:53.778 16255 16255 I DynamiteModule: Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:251933000
+05-31 11:48:53.779 16255 16255 I DynamiteModule: Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 251933000
+05-31 11:48:53.798 16255 16255 W System  : ClassLoader referenced unknown path: 
+05-31 11:48:53.799   614  4715 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 11:48:53.799   614  4715 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 11:48:53.799   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@cb8522c
+05-31 11:48:53.809  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 11:48:53.809  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 11:48:53.811 16255 16255 W pandora.androi: ClassLoaderContext classpath size mismatch. expected=14, found=4 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk*2739428507:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes2.dex*257402535:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes3.dex*1795021704:/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk!classes4.dex*685841310]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]})
+05-31 11:48:53.825 16255 16255 I CastDynamiteModuleImpl: rh created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk!/lib/x86_64, /data/app/~~dlb1YKdIHlirwQwu-BW35Q==/com.google.android.gms-6rk8yLhWE1u1jxZik9KAaw==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]].
+05-31 11:48:53.872 16255 16255 I WebViewFactory: Loading com.google.android.webview version 91.0.4472.114 (code 447211487)
+05-31 11:48:53.897 16255 16255 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+05-31 11:48:53.898 16255 16255 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms.
+05-31 11:48:53.919 16353 16353 W ocessService0:: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:48:53.920   614   677 I ActivityManager: Start proc 16353:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i4 for  {com.pandora.android/org.chromium.content.app.SandboxedProcessService0:0}
+05-31 11:48:53.925 16353 16353 E ocessService0:: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:48:53.943 16353 16353 I cr_ChildProcessService: Creating new ChildProcessService pid=16353
+05-31 11:48:53.980 16255 16255 W pandora.android: type=1400 audit(0.0:137): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:53.990 16255 16255 I JobManager: Found pending job request{id=1, tag=stats_flush_job, transient=false}, canceling
+05-31 11:48:54.028 16255 16255 W pandora.android: type=1400 audit(0.0:138): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:54.086 16255 16255 W System.err: java.io.FileNotFoundException: /storage/emulated/0/bmwgroup/com.pandora.android/category.txt: open failed: ENOENT (No such file or directory)
+05-31 11:48:54.086 16255 16255 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:575)
+05-31 11:48:54.086 16255 16255 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+05-31 11:48:54.086 16255 16255 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+05-31 11:48:54.086 16255 16255 W System.err: 	at java.io.FileWriter.<init>(FileWriter.java:90)
+05-31 11:48:54.086 16255 16255 W System.err: 	at com.bmwgroup.connected.car.app.a$2.run(SourceFile:330)
+05-31 11:48:54.086 16255 16255 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-31 11:48:54.086 16255 16255 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-31 11:48:54.086 16255 16255 W System.err: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-31 11:48:54.086 16255 16255 W System.err: 	at android.os.Looper.loop(Looper.java:288)
+05-31 11:48:54.086 16255 16255 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+05-31 11:48:54.086 16255 16255 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+05-31 11:48:54.086 16255 16255 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-31 11:48:54.086 16255 16255 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+05-31 11:48:54.086 16255 16255 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+05-31 11:48:54.086 16255 16255 W System.err: 	at libcore.io.Linux.open(Native Method)
+05-31 11:48:54.086 16255 16255 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:567)
+05-31 11:48:54.086 16255 16255 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:273)
+05-31 11:48:54.086 16255 16255 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:567)
+05-31 11:48:54.086 16255 16255 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7725)
+05-31 11:48:54.087 16255 16255 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:561)
+05-31 11:48:54.087 16255 16255 W System.err: 	... 12 more
+05-31 11:48:54.121  1312  1863 I Wear_Controller: Wearable module requires a companion app to be installed.
+05-31 11:48:54.121  1312  1863 I WearableService: onCreate: Wearable Services not starting. Wear is not available on this device.
+05-31 11:48:54.138   614   614 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+05-31 11:48:54.136 16255 16255 W pandora.android: type=1400 audit(0.0:139): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:54.186   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-31 11:48:54.186 16255 16328 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-31 11:48:54.186 16255 16328 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-31 11:48:54.234   357   467 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+05-31 11:48:54.234   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:54.235 16255 16328 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:54.237   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+05-31 11:48:54.237 16255 16328 W Gralloc4: allocator 4.x is not supported
+05-31 11:48:54.354   614   663 I ActivityTaskManager: Displayed com.pandora.android/.Main: +944ms
+05-31 11:48:54.370   614   614 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+05-31 11:48:54.371   854  1289 I bt_btif_sock_rfcomm: system/bt/btif/src/btif_sock_rfc.cc:303 btsock_rfc_listen: Adding listening socket service_name: PandoraLink - channel: -1
+05-31 11:48:54.372   854  1270 I bt_bta_dm: system/bt/bta/dm/bta_dm_act.cc:2900 bta_dm_set_eir: Generating extended inquiry response packet EIR
+05-31 11:48:54.372   854  1270 I bt_stack: [INFO:port_api.cc(234)] RFCOMM_CreateConnection: bd_addr=ff:ff:ff:ff:ff:ff, scn=8, is_server=1, mtu=990, uuid=000000, dlci=16, signal_state=0x0b, p_port=0x71efcd18b578
+05-31 11:48:54.381  1312  1484 W WearableService: onGetService: Wear is not available on this device.
+05-31 11:48:54.395  1312 15045 I DiscoveryManager: Filter criteria(211CD751) scannerFlags(0)
+05-31 11:48:54.396  1312 15045 W DatabaseProcessor: processLocalDevices: failed to get the network info with non-null networkId.
+05-31 11:48:54.396  1312  1312 I CastMediaRouteProvider: Published 0 routes
+05-31 11:48:54.396  1705  4204 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+05-31 11:48:54.425  1705 12465 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+05-31 11:48:54.437   614  2860 I WifiService: acquireMulticastLock uid=10098
+05-31 11:48:54.643   614  2860 W InputManager-JNI: Input channel object 'c3649a4 Splash Screen com.pandora.android (client)' was disposed without first being removed with the input manager!
+05-31 11:48:54.651  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:54.692   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:54.692 16453 16455 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:54.845  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194854.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:54.875  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194854.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:54.929  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:54.931  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:55.000 16255 16276 E GraphResponse: {HttpStatus: 400, errorCode: 100, subErrorCode: 33, errorType: GraphMethodException, errorMessage: Unsupported get request. Object with ID '139475280761' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api}
+05-31 11:48:55.446 16255 16265 W FirebasePerformance: Trace 'TTM.source_changed' is started but not stopped when it is destructed!
+05-31 11:48:55.446 16255 16265 W FirebasePerformance: Trace 'Main.onCreateWith1943Exp' is started but not stopped when it is destructed!
+05-31 11:48:55.447 16255 16265 W FirebasePerformance: Trace 'PublicApi.partnerLoginNonCached' is started but not stopped when it is destructed!
+05-31 11:48:55.554  5669 16518 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:55.576  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:55.595   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:55.596 16513 16521 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:55.725  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194855.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:55.731  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194855.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:55.816  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:55.818  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:55.902  5669 16532 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:56.557  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:56.588   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:56.588 16569 16571 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:56.750  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194856.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:56.756  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194856.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:56.838  5669 16582 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:56.877  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:57.446   614   664 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-31 11:48:57.595  5669 16617 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:57.825  5669 16625 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:48:58.924  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:48:58.958   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:48:58.959 16648 16651 I Gralloc4: mapper 4.x is not supported
+05-31 11:48:59.096  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194859.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:59.101  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194859.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:48:59.191  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:48:59.192  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:48:59.276 16255 16255 W pandora.android: type=1400 audit(0.0:140): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:59.284 16255 16255 W pandora.android: type=1400 audit(0.0:141): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:59.300 16255 16255 W RxIoScheduler-1: type=1400 audit(0.0:142): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:59.692   614   739 I ActivityTaskManager: START u0 {flg=0x14008000 cmp=com.pandora.android/.activity.WelcomeActivity} from uid 10160
+05-31 11:48:59.747   614  4715 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{427936 u0 com.pandora.android/.Main t19 f}}
+05-31 11:48:59.749   614  2860 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (1554256)
+05-31 11:48:59.820 16255 16255 W pandora.android: type=1400 audit(0.0:143): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:48:59.983   614   663 I ActivityTaskManager: Displayed com.pandora.android/.activity.WelcomeActivity: +288ms
+05-31 11:48:59.990  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:00.036   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:00.036 16701 16704 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:00.182  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194900.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:00.191  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194900.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:00.264  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:00.267  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:49:00.275   614  2916 W InputManager-JNI: Input channel object '16d696f Splash Screen com.pandora.android (client)' was disposed without first being removed with the input manager!
+05-31 11:49:00.290   614  2916 W InputManager-JNI: Input channel object '6782c0 com.pandora.android/com.pandora.android.Main (client)' was disposed without first being removed with the input manager!
+05-31 11:49:00.649  5669 16732 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:01.185  5669 16762 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:01.203  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:01.229   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:01.229 16757 16765 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:01.736  5669 16769 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:01.891  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194901.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:01.901  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194901.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:01.983  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:01.985  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:49:02.235  5669 16792 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:02.803   614   635 W System  : A resource failed to call close. 
+05-31 11:49:02.804   614   635 W System  : A resource failed to call release. 
+05-31 11:49:02.810  5669 16823 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:03.145  5669 16841 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:04.739  5669 16873 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:04.959  5669 16882 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:05.148  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:05.173   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:05.174 16894 16896 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:05.457  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194905.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:05.463  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194905.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:05.563  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:05.578  1312 15045 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 11:49:05.583  1312 14711 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 11:49:05.635  5669 16910 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:05.869  5669 16926 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:06.345  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:06.384   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:06.384 16946 16950 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:06.392   614  4715 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:49:06.392   614  4715 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:49:06.430   614   638 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:49:06.431   614   638 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:49:06.452   614   638 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:49:06.452   614  4715 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:49:06.617  5669 16955 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:06.793  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194906.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:06.809  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194906.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:06.896  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:06.897  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:49:06.932  5669 16968 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:07.619  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:07.637   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:07.637 17000 17002 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:07.982  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194907.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:07.990  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194907.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:08.088  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:08.089  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:49:08.967  5669 17061 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:09.252  5669 17089 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:09.628   614  4715 W AppOps  : Noting op not finished: uid 10098 pkg com.google.android.gms code 113 startTime of in progress event=1748690680218
+05-31 11:49:09.632   614   739 W AppOps  : Noting op not finished: uid 10098 pkg com.google.android.gms code 79 startTime of in progress event=1748690750810
+05-31 11:49:09.635   614  4715 W AppOps  : Noting op not finished: uid 10098 pkg com.google.android.gms code 113 startTime of in progress event=1748690680218
+05-31 11:49:09.638  1312  1994 I ActivityScheduler: nextTriggerTime: 1808562, in 238100ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 80000
+05-31 11:49:10.330  5669 17099 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:10.888  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:10.910   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:10.911 17114 17116 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:11.212  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194911.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:11.239  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194911.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:11.239  5669 17126 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:11.403  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:12.068  5669 17157 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:12.222  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:12.243   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:12.244 17167 17169 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:12.535  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194912.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:12.542  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194912.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:12.629  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:12.629  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:49:13.304  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:13.322   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:13.323 17206 17208 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:13.641  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194913.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:13.665  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194913.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:13.803  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:14.906   614  4715 I ActivityTaskManager: START u0 {cmp=com.pandora.android/.activity.SignInActivity} from uid 10160
+05-31 11:49:14.918   614   638 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (1560575)
+05-31 11:49:14.956 16255 16255 W pandora.android: type=1400 audit(0.0:144): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:49:15.102   614   663 I ActivityTaskManager: Displayed com.pandora.android/.activity.SignInActivity: +194ms
+05-31 11:49:15.225  5669 17298 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:15.604  5669 17308 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:15.616  1705 17311 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+05-31 11:49:16.239  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:16.261   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:16.261 17331 17333 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:16.429  5669 17337 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:16.957  5669 17345 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:16.993  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194916.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:17.001  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194916.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:17.006   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.028   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.031   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.039   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.045   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.045   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.050   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.081   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.082  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:17.082  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:49:17.087   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.090   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.091   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:49:17.658  5669 17378 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:17.869  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:17.885   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:17.886 17390 17392 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:18.142  5669 17396 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:18.601  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194918.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:18.610  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194918.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:18.691  1475  1745 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:18.692  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:49:19.225  1475  5089 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:19.256   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:19.256 17435 17437 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:19.950  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194919.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:19.957  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194919.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:20.070  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:20.941  5669 17506 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:21.239   614   638 I ActivityTaskManager: START u0 {cmp=com.pandora.android/.activity.SignUpActivity (has extras)} from uid 10160
+05-31 11:49:21.276   614  4715 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (1575743)
+05-31 11:49:21.304 16255 16255 W pandora.android: type=1400 audit(0.0:145): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tcontext=u:r:untrusted_app_27:s0:c160,c256,c512,c768 tclass=netlink_route_socket app=com.pandora.android
+05-31 11:49:21.403   614   663 I ActivityTaskManager: Displayed com.pandora.android/.activity.SignUpActivity: +163ms
+05-31 11:49:21.475  5669 17532 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:22.341  5669 17543 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:22.620   614  4715 I ActivityManager: Killing 4129:com.google.android.gms.unstable/u0a98 (adj 925): empty #17
+05-31 11:49:22.623  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:49:22.643   318   318 I Zygote  : Process 4129 exited due to signal 9 (Killed)
+05-31 11:49:22.655   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:49:22.655 17558 17560 I Gralloc4: mapper 4.x is not supported
+05-31 11:49:22.676   614   678 I libprocessgroup: Successfully killed process cgroup uid 10098 pid 4129 in 53ms
+05-31 11:49:22.683  5669 17564 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:49:23.314  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194922.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:23.322  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_194922.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:49:23.469  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:49:23.844  5669 17591 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage

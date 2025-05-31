@@ -1,0 +1,1256 @@
+--------- beginning of main
+05-31 11:56:06.639   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+05-31 11:56:06.694   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+--------- beginning of system
+05-31 11:56:06.723   614   637 I ActivityManager: Background started FGS: Allowed [callingPackage: com.google.android.apps.wellbeing; callingUid: 10100; uidState: BTOP; intent: Intent { cmp=com.google.android.apps.wellbeing/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:BACKGROUND_ACTIVITY_PERMISSION; tempAllowListReason:<null>; targetSdkVersion:30; callerTargetSdkVersion:30; startForegroundCount:0; bindFromPackage:null]
+05-31 11:56:06.742   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+05-31 11:56:06.748 10446 10535 I Finsky  : [81] sju.accept(58): SCH: Scheduling phonesky job Id: 12-1, CT: 1748692566480, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-31 11:56:06.749  1410  1410 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420 
+05-31 11:56:06.761   614  2398 W InputManager-JNI: Input channel object '2aa8efc InputMethod (client)' was disposed without first being removed with the input manager!
+05-31 11:56:06.790   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+05-31 11:56:06.792 10446 10531 I Finsky  : [77] njf.apply(251): SCH: Scheduling 1 system job(s)
+05-31 11:56:06.792 10446 10531 I Finsky  : [77] ains.b(244): SCH: Scheduling system job Id: 9332, L: 14688, D: 33582202, C: false, I: false, N: 1
+05-31 11:56:06.793  1410  1410 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():109 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+05-31 11:56:06.796  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fau
+05-31 11:56:06.799  1410  1410 I KeyboardViewController: KeyboardViewController.clearSubViewControllerInternal():411 Clears keyboard sub view controller for keyboardType: null, viewType: HEADER, viewId: 2131428269(#0x7f0b03ad),which has not been set.
+05-31 11:56:06.805 10446 10509 I Finsky  : [68] poo.kh(210): [ContentSync] finished, scheduled=true
+05-31 11:56:06.806  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fci
+05-31 11:56:06.807  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in eyj
+05-31 11:56:06.808  1410 10058 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroyServiceInternal():81 onDestroyServiceInternal()
+05-31 11:56:06.811  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fau.
+05-31 11:56:06.818  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fci.
+05-31 11:56:06.818  1410  1410 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in eyj.
+05-31 11:56:06.833   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+05-31 11:56:06.856  1705 26064 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+05-31 11:56:06.857  1705 26064 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-31 11:56:06.862  1705 26064 I Icing   : Indexing done com.google.android.gms-apps
+05-31 11:56:06.876   614   614 I NotificationService: Cannot find enqueued record for key: 0|com.google.android.apps.wellbeing|174344743|null|10100
+05-31 11:56:06.884   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+05-31 11:56:06.926   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+05-31 11:56:06.969   370   370 E adbd    : failed to connect to socket 'tcp:7336': Connection refused
+05-31 11:56:07.137   614   664 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-31 11:56:07.236  5467  5467 I abb     : StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+05-31 11:56:07.236   614   614 W Binder:614_1: type=1400 audit(0.0:523): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:56:07.244  5467  5467 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+05-31 11:56:07.236   614   614 W Binder:614_1: type=1400 audit(0.0:524): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:56:07.236   614   614 W Binder:614_1: type=1400 audit(0.0:525): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:56:07.772   614   614 W Binder:614_1: type=1400 audit(0.0:526): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:56:07.814   961   969 W rkstack.proces: Reducing the number of considered missed Gc histogram windows from 191 to 100
+05-31 11:56:07.892   614   701 I PackageManager: Integrity check passed for file:///data/app/vmdl1971837300.tmp
+05-31 11:56:07.928   614   701 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk pkg=com.tmobile.tuesdays isa=x86_64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/oat classLoaderContext=PCL[]{}
+05-31 11:56:08.040 26167 26167 W dex2oat64: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:56:08.040 26167 26167 W dex2oat64: Mismatch between dex2oat instruction set features to use (ISA: X86_64 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86_64 Feature string: ssse3,sse4.1,sse4.2,-avx,-avx2,popcnt) for the command line:
+05-31 11:56:08.040 26167 26167 W dex2oat64: /apex/com.android.art/bin/dex2oat64 --zip-fd=7 --zip-location=base.apk --oat-fd=8 --oat-location=/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/oat/x86_64/base.odex --input-vdex-fd=-1 --output-vdex-fd=9 --swap-fd=10 --classpath-dir=/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ== --class-loader-context=PCL[]{} --compact-dex-level=none --instruction-set=x86_64 --instruction-set-features=default --instruction-set-variant=x86_64 --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info --runtime-arg -Xtarget-sdk-version:30 --runtime-arg -Xhidden-api-policy:enabled --runtime-arg -Xms64m --runtime-arg -Xmx512m
+05-31 11:56:08.040 26167 26167 I dex2oat64: /apex/com.android.art/bin/dex2oat64 --input-vdex-fd=-1 --output-vdex-fd=9 --classpath-dir=/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ== --class-loader-context=PCL[]{} --compact-dex-level=none --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info
+05-31 11:56:09.243 26167 26167 I dex2oat64: dex2oat took 1.212s (3.088s cpu) (threads: 4) arena alloc=0B (0B) java alloc=14MB (15345904B) native alloc=2830KB (2897936B) free=1096KB (1122832B)
+05-31 11:56:09.265   384   384 E installd: Couldn't opendir /data/app/vmdl1971837300.tmp: No such file or directory
+05-31 11:56:09.265   384   384 E installd: Failed to delete /data/app/vmdl1971837300.tmp: No such file or directory
+05-31 11:56:09.264   614   614 W Binder:614_1: type=1400 audit(0.0:527): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:56:09.264   614   614 W Binder:614_1: type=1400 audit(0.0:528): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:56:09.279  1475  1475 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.tmobile.tuesdays. Reason: package android.intent.action.PACKAGE_ADDED
+05-31 11:56:09.264   614   614 W Binder:614_1: type=1400 audit(0.0:529): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 11:56:09.283   614   755 I RoleService: Granting default roles...
+05-31 11:56:09.291   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 11:56:09.292  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 11:56:09.295  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:09.298  2404  2423 I PermissionControllerServiceImpl: Updating user sensitive for uid 10168
+05-31 11:56:09.298 10616 10616 I Finsky:background: [2] adch.g(6): adch - Received: android.intent.action.PACKAGE_ADDED, [_AfEVK38KEQj4J0e_CB9l6l5f6QmfsNvmSZfR5cWBUA]
+05-31 11:56:09.298 10446 10446 I Finsky  : [2] adcs.g(1): adcs - Received: android.intent.action.PACKAGE_ADDED, [_AfEVK38KEQj4J0e_CB9l6l5f6QmfsNvmSZfR5cWBUA]
+05-31 11:56:09.299   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+05-31 11:56:09.301   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+05-31 11:56:09.304  2231  2231 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) }
+05-31 11:56:09.328   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AQA
+05-31 11:56:09.333   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+05-31 11:56:09.334   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+05-31 11:56:09.334   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+05-31 11:56:09.335   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+05-31 11:56:09.335   614   676 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+05-31 11:56:09.341 10446 10446 I Finsky  : [2] akbb.f(9): Clearing split related stale data.
+05-31 11:56:09.348  5669 26181 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:09.354  1312 26016 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 11:56:09.355  1312 26036 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tmobile.tuesdays flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 11:56:09.381   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:09.382 10616 26007 I Finsky:background: [145] ruh.accept(120): Wrote row to frosting DB: 250
+05-31 11:56:09.389   614   675 W PackageManager: Failed registering loading progress callback. Package is fully loaded.
+05-31 11:56:09.392  1705 26038 I Auth    : (REDACTED) [SupervisedAccountIntentOperationV2] onHandleIntent: %s
+05-31 11:56:09.398 10616 26007 I Finsky:background: [145] ruh.accept(120): Wrote row to frosting DB: 251
+05-31 11:56:09.398  1705 26041 I Blockstore: (REDACTED) [DataStoreImpl] Clearing Blockstore Data for package %s
+05-31 11:56:09.398  1705 26041 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+05-31 11:56:09.400  1705 26041 I Dck     : (REDACTED) disableDckSupport: %s
+05-31 11:56:09.404  1705 26041 W Dck     : [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+05-31 11:56:09.404  1705 26041 I Dck     : [WirelessCapabilitiesFeatures] wccMendel: 3 [CONTEXT service_id=289 ]
+05-31 11:56:09.404  1705 26041 I Dck     : [WirelessCapabilitiesFeatures] deviceWccOverride: false [CONTEXT service_id=289 ]
+05-31 11:56:09.405  1705 26041 I Dck     : [WirelessCapabilitiesFeatures] replaceSupportedWccWithWccOverride: true [CONTEXT service_id=289 ]
+05-31 11:56:09.405  1705 26041 I Dck     : [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+05-31 11:56:09.405  1705 26041 I Dck     : (REDACTED) [WirelessCapabilitiesFeatures] wcc: %s
+05-31 11:56:09.405  1705 26041 I Dck     : Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+05-31 11:56:09.406  1705 26041 I Dck     : Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+05-31 11:56:09.406  1705 26041 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+05-31 11:56:09.413 10446 10446 I Finsky  : [2] atbs.c(44): Do not start WearSupportService due to Wear service optimization
+05-31 11:56:09.413 10446 10446 I Finsky  : [2] xem.jr(11): DTU: Received onPackageAdded, replacing: false
+05-31 11:56:09.415 10446 26079 I Finsky  : [288] poo.kh(210): [ContentSync] finished, scheduled=false
+05-31 11:56:09.427   614   698 E VerityUtils: Failed to measure fs-verity, errno 1: /data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk
+05-31 11:56:09.446  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:09.448  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:09.448   614   633 I system_server: Background concurrent copying GC freed 167297(9118KB) AllocSpace objects, 62(2956KB) LOS objects, 50% free, 21MB/43MB, paused 1.592ms,2.668ms total 182.927ms
+05-31 11:56:09.470   175   175 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+05-31 11:56:09.485   614   635 W System  : A resource failed to call close. 
+05-31 11:56:09.535  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:09.556  1705  9970 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-31 11:56:09.567  1705  9970 I Icing   : Indexing done com.google.android.gms-apps
+05-31 11:56:09.585  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:09.587  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:09.646  1705  4316 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@6dd3066
+05-31 11:56:09.731   175   175 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 11:56:09.733   175   175 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+05-31 11:56:09.996  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:10.029   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:10.030 26211 26215 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:10.075  1312 25051 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 11:56:10.084  1312 26216 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 11:56:10.109  1312 26216 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 11:56:10.175  1705 25747 I LocationHistory: [SettingsSyncOneOffTask] Synced ODLH settings for all accounts. [CONTEXT service_id=314 ]
+05-31 11:56:10.177  1312 25051 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 11:56:10.341  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195610.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:10.365  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195610.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:10.435  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:10.437  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:10.691   614  3128 I ActivityManager: Force stopping com.tmobile.tuesdays appid=10168 user=0: from pid 26242
+05-31 11:56:10.741   614   664 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+05-31 11:56:10.762   614  4715 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 11:56:10.762   614  4715 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 11:56:10.763   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@5747fb
+05-31 11:56:11.871   175   175 I servicemanager: Notifying apexservice they have clients: 1
+05-31 11:56:12.080  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:12.108   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:12.108 26264 26266 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:12.393  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195612.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:12.399  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195612.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:12.481  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:12.481  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:13.217  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:13.246   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:13.248 26303 26305 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:13.532  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195613.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:13.539  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195613.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:13.665  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:14.261  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:14.286   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:14.286 26342 26344 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:14.592  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195614.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:14.598  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195614.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:14.694  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:14.695  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:15.058   614  3128 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.tmobile.tuesdays/com.tmobile.tmte.Launcher} from uid 2000
+05-31 11:56:15.062   614  3128 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=25 attached=false
+05-31 11:56:15.099   614   677 I ActivityManager: Start proc 26374:com.tmobile.tuesdays/u0a168 for pre-top-activity {com.tmobile.tuesdays/com.tmobile.tmte.Launcher}
+05-31 11:56:15.109 26374 26374 W mobile.tuesday: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:56:15.121 26374 26374 E mobile.tuesday: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:56:15.152 26374 26374 I MultiDex: VM with version 2.1.0 has multidex support
+05-31 11:56:15.152 26374 26374 I MultiDex: Installing application
+05-31 11:56:15.152 26374 26374 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+05-31 11:56:15.167 26374 26374 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+05-31 11:56:15.178 26374 26374 I FirebaseCrashlytics: Initializing Crashlytics 17.3.0
+05-31 11:56:15.199  2231  2231 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-31 11:56:15.200  2231  2231 E HwDetectorWithState: a: 3
+05-31 11:56:15.212 26374 26374 I FirebaseInitProvider: FirebaseApp initialization successful
+05-31 11:56:15.230 26374 26374 E UALib   : The airship config options is missing URL allow list rules for SCOPE_OPEN. By default only Airship, YouTube, mailto, sms, and tel URLs will be allowed.To suppress this error, specify allow list rules by providing rules for urlAllowListScopeOpenUrl or urlAllowList. Alternatively you can suppress this error and keep the default rules by using the flag suppressAllowListError. For more information, see https://docs.airship.com/platform/android/getting-started/#url-allow-list.
+05-31 11:56:15.242  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 11:56:15.244  1894  1894 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 11:56:15.244   614  3128 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 11:56:15.247   614  3128 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 11:56:15.248   614   614 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@b479a10
+05-31 11:56:15.314 26374 26396 W mobile.tuesday: ClassLoaderContext classpath size mismatch. expected=14, found=0 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[])
+05-31 11:56:15.331 26374 26374 I Apptentive: Registering Apptentive Android SDK 5.6.4
+05-31 11:56:15.335 26374 26435 W Apptentive: [Apptentive Queue] [TROUBLESHOOT] Unable to access device pasteboard
+05-31 11:56:15.350 26374 26396 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:20 and remote module com.google.android.gms.measurement.dynamite:148
+05-31 11:56:15.350 26374 26396 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 148
+05-31 11:56:15.354 26374 26414 E Tuesdays - UALib: The airship config options is missing URL allow list rules for SCOPE_OPEN. By default only Airship, YouTube, mailto, sms, and tel URLs will be allowed.To suppress this error, specify allow list rules by providing rules for urlAllowListScopeOpenUrl or urlAllowList. Alternatively you can suppress this error and keep the default rules by using the flag suppressAllowListError. For more information, see https://docs.airship.com/platform/android/getting-started/#url-allow-list.
+05-31 11:56:15.372 26374 26435 I Apptentive: [Apptentive Queue] [CONVERSATION] Creating 'anonymous' conversation...
+05-31 11:56:15.425 26374 26396 W System  : ClassLoader referenced unknown path: 
+05-31 11:56:15.462 26374 26396 W mobile.tuesday: ClassLoaderContext classpath size mismatch. expected=14, found=2 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk*3453077038:/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk!classes2.dex*422722232])
+05-31 11:56:15.488 26374 26411 I DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
+05-31 11:56:15.489 26374 26411 I DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
+05-31 11:56:15.495 26374 26455 W LOTTIE  : Lottie doesn't support layer effects. If you are using them for  fills, strokes, trim paths etc. then try adding them directly as contents  in your shape. Found: [Set Matte]
+05-31 11:56:15.529 26374 26435 I Apptentive: [Apptentive Queue] [INTERACTIONS] Engage event: 'com.apptentive#app#launch'
+05-31 11:56:15.536 26374 26435 W Apptentive: [Apptentive Queue] [TROUBLESHOOT] Unable to access device pasteboard
+05-31 11:56:15.575   614  3128 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10168 pid=26374
+05-31 11:56:15.585 26374 26401 W mobile.tuesday: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (max-target-q,core-platform-api, reflection, denied)
+05-31 11:56:15.585 26374 26401 W OkHttp  : unable to load android socket classes
+05-31 11:56:15.585 26374 26401 W OkHttp  : java.lang.NoSuchMethodException: com.android.org.conscrypt.OpenSSLSocketImpl.setUseSessionTickets [boolean]
+05-31 11:56:15.585 26374 26401 W OkHttp  : 	at java.lang.Class.getMethod(Class.java:2103)
+05-31 11:56:15.585 26374 26401 W OkHttp  : 	at java.lang.Class.getDeclaredMethod(Class.java:2081)
+05-31 11:56:15.585 26374 26401 W OkHttp  : 	at i.j0.h.g.a.<init>(AndroidSocketAdapter.kt:2)
+05-31 11:56:15.585 26374 26401 W OkHttp  : 	at i.j0.h.g.f.<init>(StandardAndroidSocketAdapter.kt:1)
+05-31 11:56:15.586 26374 26401 W OkHttp  : 	at i.j0.h.g.f$a.a(StandardAndroidSocketAdapter.kt:4)
+05-31 11:56:15.586 26374 26401 W OkHttp  : 	at i.j0.h.g.f$a.b(StandardAndroidSocketAdapter.kt:1)
+05-31 11:56:15.586 26374 26401 W OkHttp  : 	at i.j0.h.a.<init>(AndroidPlatform.kt:2)
+05-31 11:56:15.589   357  1330 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10168 pid=26374
+05-31 11:56:15.589   357  1330 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10168 pid=26374
+05-31 11:56:15.586 26374 26401 W OkHttp  : 	at i.j0.h.a$b.a(AndroidPlatform.kt:1)
+05-31 11:56:15.599 26374 26401 W OkHttp  : 	at i.j0.h.f$a.d(Platform.kt:1)
+05-31 11:56:15.599 26374 26401 W OkHttp  : 	at i.j0.h.f$a.a(Platform.kt:1)
+05-31 11:56:15.599 26374 26401 W OkHttp  : 	at i.j0.h.f.<clinit>(Platform.kt:1)
+05-31 11:56:15.599 26374 26401 W OkHttp  : 	at i.a0.<init>(OkHttpClient.kt:32)
+05-31 11:56:15.599 26374 26401 W OkHttp  : 	at i.a0.<init>(OkHttpClient.kt:50)
+05-31 11:56:15.599 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.k.b.<clinit>(HttpRequest.java:1)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.k.c.a(HttpRequestFactory.java:1)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.h.a.d(AbstractSpiCall.java:1)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.p.j.c.a(DefaultSettingsSpiCall.java:2)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.p.d$a.a(SettingsController.java:2)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.p.d$a.then(SettingsController.java:1)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at e.a.b.c.k.d0.run(com.google.android.gms:play-services-tasks@@17.2.1:1)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.h.v$a$a.a(ExecutorUtils.java:1)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at com.google.firebase.crashlytics.d.h.d.run(BackgroundPriorityRunnable.java:2)
+05-31 11:56:15.612 26374 26401 W OkHttp  : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:15.617   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-31 11:56:15.618 26374 26444 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-31 11:56:15.618 26374 26444 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-31 11:56:15.638 26374 26454 E WM-WorkerWrapper: Didn't find WorkSpec for id 2de0414b-341f-4a0b-9e8b-d0d57e753693
+05-31 11:56:15.640 26374 26454 E WM-WorkerWrapper: Didn't find WorkSpec for id 166f0788-5757-4d7d-b278-7980de555057
+05-31 11:56:15.642 26374 26454 E WM-WorkerWrapper: Didn't find WorkSpec for id 09bd7c63-4247-4871-9023-8132a5f3e5f1
+05-31 11:56:15.647 26374 26418 E WM-WorkerWrapper: Didn't find WorkSpec for id 54b4e618-60ac-41e0-a397-31669409423f
+05-31 11:56:15.649 26374 26418 E WM-WorkerWrapper: Didn't find WorkSpec for id c1119b39-c756-49fd-9428-37f010c645a8
+05-31 11:56:15.664 26374 26411 W mobile.tuesday: ClassLoaderContext classpath size mismatch. expected=14, found=2 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk*3453077038:/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk!classes2.dex*422722232])
+05-31 11:56:15.687   357  1078 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+05-31 11:56:15.688   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:15.688 26374 26444 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:15.698   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+05-31 11:56:15.699 26374 26444 W Gralloc4: allocator 4.x is not supported
+05-31 11:56:15.754 26374 26468 E mobile.tuesday: No package ID 6d found for ID 0x6d0b000f.
+05-31 11:56:15.756 26374 26468 I FA      : App measurement initialized, version: 126000
+05-31 11:56:15.756 26374 26468 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-31 11:56:15.756 26374 26468 I FA      : To enable faster debug mode event logging run:
+05-31 11:56:15.756 26374 26468 I FA      :   adb shell setprop debug.firebase.analytics.app com.tmobile.tuesdays
+05-31 11:56:15.791 26374 26457 E WM-WorkerWrapper: Didn't find WorkSpec for id 09bd7c63-4247-4871-9023-8132a5f3e5f1
+05-31 11:56:15.792 26374 26457 E WM-WorkerWrapper: Didn't find WorkSpec for id 166f0788-5757-4d7d-b278-7980de555057
+05-31 11:56:15.807   614   663 I ActivityTaskManager: Displayed com.tmobile.tuesdays/com.tmobile.tmte.Launcher: +734ms
+05-31 11:56:15.811 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=6ecb167b-9966-4b26-9526-544b2ec17656, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:15.849 26374 26454 E WM-WorkerWrapper: Didn't find WorkSpec for id 54b4e618-60ac-41e0-a397-31669409423f
+05-31 11:56:15.854 26374 26457 E WM-WorkerWrapper: Didn't find WorkSpec for id c1119b39-c756-49fd-9428-37f010c645a8
+05-31 11:56:15.857 26374 26457 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d3f5577d-65cd-423b-8c82-3c15ec28a622, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:15.927 26374 26468 I DynamiteModule: Considering local module com.google.android.gms.tagmanager:214 and remote module com.google.android.gms.tagmanager:218
+05-31 11:56:15.927 26374 26468 I DynamiteModule: Selected remote version of com.google.android.gms.tagmanager, version >= 218
+05-31 11:56:15.941 26374 26468 W mobile.tuesday: ClassLoaderContext classpath size mismatch. expected=14, found=2 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk*3453077038:/data/app/~~RaP9H9ZCkLsyruxVpUjK7Q==/com.tmobile.tuesdays-mUOO-uDA5C5-Oln92NnYvQ==/base.apk!classes2.dex*422722232])
+05-31 11:56:15.960 26374 26468 I GoogleTagManager: Loading container GTM-MPM64NX
+05-31 11:56:15.961 26374 26468 I GoogleTagManager: Installing Tag Manager event handler.
+05-31 11:56:15.962 26374 26468 I GoogleTagManager: Tag Manager event handler installed.
+05-31 11:56:15.962 26374 26468 I GoogleTagManager: Tag Manager initialization took 3ms
+05-31 11:56:16.090   614   637 W InputManager-JNI: Input channel object '202f12 Splash Screen com.tmobile.tuesdays (client)' was disposed without first being removed with the input manager!
+05-31 11:56:16.301   614   755 I RoleService: Granting default roles...
+05-31 11:56:16.312  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 11:56:16.314   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 11:56:16.315  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:16.325   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AQM
+05-31 11:56:16.336  2404  4312 I PermissionControllerServiceImpl: Updating user sensitive for uid 10168
+05-31 11:56:16.347  5669 26500 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:16.368  1705 26496 I AdvertisingIdClient: shouldSendLog 1907810
+05-31 11:56:16.369  1705 26496 I AdvertisingIdClient: GetInfoInternal elapse 72ms
+05-31 11:56:16.376  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:16.377  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:16.408  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:16.443  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:16.451 24291 25004 I BugleRcsEngine: [91] alog.run: delay time out, reset attempts 1 and process SIM event
+05-31 11:56:16.454 24291 25004 W BugleRcsEngine: [91] alod.a: (Sim): process intent: android.intent.action.SIM_STATE_CHANGED
+05-31 11:56:16.454   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:16.454 26503 26509 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:16.460 24291 25004 I BugleRcsEngine: [91] alod.j: (Sim): Processing an intent
+05-31 11:56:16.460 24291 25004 I BugleRcsEngine: [91] alod.w: (Sim): Ignoring duplicate SIM state: LOADED
+05-31 11:56:16.536 26374 26435 I Apptentive: [Apptentive Queue] [CONVERSATION] Application version was changed: Name: null => 6.9.1, Code: null => 4104
+05-31 11:56:16.557  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:16.558  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:16.603  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195616.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:16.611  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195616.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:16.698  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:16.706  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:16.776 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=cbde6c83-2cb0-4d0c-b14b-5bb0483be7ba, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:16.778 10446 17632 I Finsky  : [183] atms.ar(184): Package com.google.android.gms is verified.
+05-31 11:56:16.792  1705 26496 W FA-SVC  : Service response is missing Install Referrer install timestamp
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: Work [ id=63ab3e09-112b-45a2-a2b2-ab99c1acd98f, tags={ airship, com.urbanairship.job.AirshipWorker } ] was cancelled
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: java.util.concurrent.CancellationException: Task was cancelled.
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.c(AbstractFuture.java:1)
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.i(AbstractFuture.java:5)
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.get(AbstractFuture.java:48)
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.k$b.run(WorkerWrapper.java:1)
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.g$a.run(SerialExecutor.java:1)
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:16.814 26374 26418 I WM-WorkerWrapper: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:16.822 26374 26418 E WM-WorkerWrapper: Didn't find WorkSpec for id cbde6c83-2cb0-4d0c-b14b-5bb0483be7ba
+05-31 11:56:16.824 26374 26418 E WM-WorkerWrapper: Didn't find WorkSpec for id 63ab3e09-112b-45a2-a2b2-ab99c1acd98f
+05-31 11:56:16.828 26374 26418 E WM-WorkerWrapper: Didn't find WorkSpec for id 63ab3e09-112b-45a2-a2b2-ab99c1acd98f
+05-31 11:56:16.829 26374 26418 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=a652781d-8985-40fe-a468-c156da7c4f52, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:16.932 26374 26536 I AdvertisingIdClient: shouldSendLog -1
+05-31 11:56:16.933 26374 26536 I AdvertisingIdClient: GetInfoInternal elapse 3ms
+05-31 11:56:16.934 26374 26536 I GoogleTagManager: Obtained fresh AdvertisingId info from GmsCore.
+05-31 11:56:16.953 26374 26374 I AdvertisingIdClient: getting error as 17: API: ClientTelemetry.API is not available on this device. Connection failed with: wn{statusCode=API_DISABLED_FOR_CONNECTION, resolution=null, message=null}
+05-31 11:56:16.956 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:16.966 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:16.967 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:16.967 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:16.969 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:16.971 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:16.972 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:16.975 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:16.978 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.015 26374 26405 W System  : Ignoring header If-None-Match because its value was null.
+05-31 11:56:17.018 26374 26463 W System  : Ignoring header If-None-Match because its value was null.
+05-31 11:56:17.027 26374 26462 W System  : Ignoring header If-None-Match because its value was null.
+05-31 11:56:17.031 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:17.034 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:17.034 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:17.037 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:17.049 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:17.054 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.055 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.055 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.056 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.057 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.057 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.057 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.059 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.064 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:17.069 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.070 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.070 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.070 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.071 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.071 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.072 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.073 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.082 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:17.088 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b8c703dc-22e8-45e1-974e-5a2992f52e1e, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:17.089 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.090 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.090 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.091 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.092 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.092 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.093 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.093 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.099 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:17.103 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.103 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.103 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.103 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.104 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.104 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.105 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.106 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.117 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:17.127 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.127 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.128 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.128 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:17.130 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.130 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.131 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:17.132 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:17.180 26374 26457 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=3c87ef83-f461-408e-85cd-31eaaa01c926, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: Work [ id=8de93a3e-1993-4c01-9d4e-40866945106f, tags={ airship, com.urbanairship.job.AirshipWorker } ] was cancelled
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: java.util.concurrent.CancellationException: Task was cancelled.
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.c(AbstractFuture.java:1)
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.i(AbstractFuture.java:5)
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.get(AbstractFuture.java:48)
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at androidx.work.impl.k$b.run(WorkerWrapper.java:1)
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at androidx.work.impl.utils.g$a.run(SerialExecutor.java:1)
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:17.183 26374 26454 I WM-WorkerWrapper: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:17.205 26374 26454 E WM-WorkerWrapper: Didn't find WorkSpec for id 8de93a3e-1993-4c01-9d4e-40866945106f
+05-31 11:56:17.207 26374 26418 E WM-WorkerWrapper: Didn't find WorkSpec for id 8de93a3e-1993-4c01-9d4e-40866945106f
+05-31 11:56:17.216 26374 26457 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b0a74abf-95fe-4f13-b262-e3020e60e83b, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:17.229 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:17.229 26374 26480 W GoogleTagManager: No user property available for "participant_key" and no default value was defined. Returning "undefined".
+05-31 11:56:17.231 26374 26480 W GoogleTagManager: No user property available for "msisdn_carrier" and no default value was defined. Returning "undefined".
+05-31 11:56:17.231 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:17.232 26374 26480 W GoogleTagManager: No user property available for "participant_key" and no default value was defined. Returning "undefined".
+05-31 11:56:17.234 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:17.263  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:17.304   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:17.304 26559 26561 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:17.444  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195617.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:17.468  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195617.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:17.556  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:17.557  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: Work [ id=dff31cd9-f182-4755-996b-9485b070ac2b, tags={ airship, com.urbanairship.job.AirshipWorker } ] was cancelled
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: java.util.concurrent.CancellationException: Task was cancelled.
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.c(AbstractFuture.java:1)
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.i(AbstractFuture.java:5)
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.n.a.get(AbstractFuture.java:48)
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.k$b.run(WorkerWrapper.java:1)
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at androidx.work.impl.utils.g$a.run(SerialExecutor.java:1)
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:18.008 26374 26418 I WM-WorkerWrapper: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:18.018 26374 26454 E WM-WorkerWrapper: Didn't find WorkSpec for id dff31cd9-f182-4755-996b-9485b070ac2b
+05-31 11:56:18.020 26374 26374 W Glide   : Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+05-31 11:56:18.085 26374 26374 I WebViewFactory: Loading com.google.android.webview version 91.0.4472.114 (code 447211487)
+05-31 11:56:18.138  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:18.162   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:18.163 26618 26620 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:18.221 26374 26374 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+05-31 11:56:18.222 26374 26374 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms.
+05-31 11:56:18.223   614   677 I ActivityManager: Start proc 26625:com.google.android.webview:webview_service/u0a116 for service {com.google.android.webview/org.chromium.android_webview.services.VariationsSeedServer}
+05-31 11:56:18.228 26625 26625 W webview_servic: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:56:18.231 26625 26625 E webview_servic: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:56:18.265   614   677 I ActivityManager: Start proc 26644:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i7 for  {com.tmobile.tuesdays/org.chromium.content.app.SandboxedProcessService0:0}
+05-31 11:56:18.265 26644 26644 W ocessService0:: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:56:18.297 26644 26644 E ocessService0:: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:56:18.321  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195618.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:18.323 26644 26644 I cr_ChildProcessService: Creating new ChildProcessService pid=26644
+05-31 11:56:18.334  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195618.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:18.399  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:18.402  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:18.421 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=60856cdb-22b7-483e-9338-f884cca35eb4, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:18.457 26374 26660 W cr_media: Requires BLUETOOTH permission
+05-31 11:56:18.519 26644 26680 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+05-31 11:56:18.520 26644 26680 I cr_CachingUmaRecorder: Flushed 1 samples from 1 histograms.
+05-31 11:56:18.527 26644 26680 W SystemServiceRegistry: No service published for: uimode
+05-31 11:56:18.577 26374 26374 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+05-31 11:56:18.620   614  2860 I ActivityTaskManager: START u0 {cmp=com.tmobile.tuesdays/com.tmobile.tmte.controller.welcome.WelcomeScreenActivity} from uid 10168
+05-31 11:56:18.631 26374 26418 E WM-WorkerWrapper: Didn't find WorkSpec for id 60856cdb-22b7-483e-9338-f884cca35eb4
+05-31 11:56:18.660   614  1670 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (1995952)
+05-31 11:56:18.732  1475  5135 W MediaProvider: Failed to fetch original file descriptor
+05-31 11:56:18.732  1475  5135 W MediaProvider: java.io.FileNotFoundException: Input file descriptor is already original
+05-31 11:56:18.732  1475  5135 W MediaProvider: 	at com.android.providers.media.MediaProvider.getOriginalMediaFormatFileDescriptor(MediaProvider.java:5718)
+05-31 11:56:18.732  1475  5135 W MediaProvider: 	at com.android.providers.media.MediaProvider.openTypedAssetFileCommon(MediaProvider.java:7134)
+05-31 11:56:18.732  1475  5135 W MediaProvider: 	at com.android.providers.media.MediaProvider.openTypedAssetFile(MediaProvider.java:7115)
+05-31 11:56:18.732  1475  5135 W MediaProvider: 	at android.content.ContentProvider$Transport.openTypedAssetFile(ContentProvider.java:548)
+05-31 11:56:18.732  1475  5135 W MediaProvider: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:327)
+05-31 11:56:18.732  1475  5135 W MediaProvider: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+05-31 11:56:18.732  1475  5135 W MediaProvider: 	at android.os.Binder.execTransact(Binder.java:1143)
+05-31 11:56:18.760   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+05-31 11:56:18.780 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:18.786 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:18.787 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:18.787 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:18.788 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:18.789 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:18.790 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:18.790 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:18.793 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:18.888   387  1879 E AudioSystem: invalid attributes { Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_UNKNOWN Source: AUDIO_SOURCE_INVALID Flags: 0x800 Tags:  } when converting to stream
+05-31 11:56:18.919 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=1a68887e-49b7-455a-8c11-8fad6ccc0c6e, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:18.948   385  1173 I SampleTable: There are reordered frames present.
+05-31 11:56:18.966   387 26725 I GenericSource: start
+05-31 11:56:18.997 26374 26382 I mobile.tuesday: Background concurrent copying GC freed 220030(16MB) AllocSpace objects, 88(10MB) LOS objects, 49% free, 10MB/21MB, paused 342us,171us total 192.364ms
+05-31 11:56:19.129   387 26768 I CCodec  : setting up 'default' as default (vendor) store
+05-31 11:56:19.133   334  1006 I GoldfishComponentStore: in init
+05-31 11:56:19.133   334  1006 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_avcdec.so
+05-31 11:56:19.136   334  1006 I GoldfishComponentStore: Create()
+05-31 11:56:19.144   334  1006 I GoldfishComponentStore: created interface
+05-31 11:56:19.146   334  1006 I GoldfishComponentStore: created component
+05-31 11:56:19.150   387 26768 I CCodec  : Created component [c2.goldfish.h264.decoder]
+05-31 11:56:19.159   387 26768 I CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+05-31 11:56:19.161   387 26768 W ColorUtils: expected specified color aspects (2:0:0:0)
+05-31 11:56:19.166   387 26766 I MediaCodec: [c2.goldfish.h264.decoder] setting surface generation to 396289
+05-31 11:56:19.172   387 26768 W Codec2Client: query -- param skipped: index = 1107298332.
+05-31 11:56:19.172   387 26768 W CCodec  : This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+05-31 11:56:19.173   387 26768 I CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+05-31 11:56:19.175   387 26766 I MediaCodec: MediaCodec will operate in async mode
+05-31 11:56:19.176   387 26768 W Codec2Client: query -- param skipped: index = 1342179345.
+05-31 11:56:19.176   387 26768 W Codec2Client: query -- param skipped: index = 2415921170.
+05-31 11:56:19.176   387 26768 W Codec2Client: query -- param skipped: index = 1610614798.
+05-31 11:56:19.177   387 26768 W Codec2Client: query -- param skipped: index = 2684356609.
+05-31 11:56:19.182   387 26768 I CCodecBufferChannel: [c2.goldfish.h264.decoder#508] Created output block pool with allocatorID 18 => poolID 17 - OK
+05-31 11:56:19.200   614   663 I ActivityTaskManager: Displayed com.tmobile.tuesdays/com.tmobile.tmte.controller.welcome.WelcomeScreenActivity: +573ms
+05-31 11:56:19.203   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:19.204   334 26775 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:19.211   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:19.212   387 26768 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:19.233 26374 26710 W System.err: java.net.UnknownHostException: Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname
+05-31 11:56:19.235 26374 26710 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+05-31 11:56:19.235 26374 26710 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+05-31 11:56:19.236 26374 26710 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+05-31 11:56:19.236 26374 26710 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+05-31 11:56:19.236 26374 26710 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+05-31 11:56:19.237 26374 26710 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+05-31 11:56:19.237 26374 26710 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+05-31 11:56:19.244   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:19.246 26374 26710 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:90)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:30)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.google.firebase.perf.network.e.b(InstrURLConnectionBase.java:5)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.google.firebase.perf.network.d.connect(InstrHttpsURLConnection.java:1)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.tmobile.tmte.p1.d0.L(Util.java:3)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.tmobile.tmte.controller.welcome.splash.SplashScreenActivity.w(SplashScreenActivity.java:7)
+05-31 11:56:19.247 26374 26710 W System.err: 	at com.tmobile.tmte.controller.welcome.splash.h.run(Unknown Source:0)
+05-31 11:56:19.247 26374 26710 W System.err: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.249   334 26775 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:19.258   387 26766 W ResourceManagerService: Ignoring request to add new resource entry with value <= 0
+05-31 11:56:19.258   387 26768 I DMABUFHEAPS: Using DMA-BUF heap named: system
+05-31 11:56:19.322   334 26774 I android.hardware.media.c2@1.0-service-goldfish: successfully allocated 33558528 bytes in goldfish_address_block
+05-31 11:56:19.322   334 26774 I android.hardware.media.c2@1.0-service-goldfish: guest address is 0x75a121dd1000
+05-31 11:56:19.323   334 26774 I android.hardware.media.c2@1.0-service-goldfish: successfully pinged host to allocate memory
+05-31 11:56:19.505 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=dbb9bec6-1d10-41fc-bcfa-a255c5dd9fd8, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:19.527 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=bdf5eab6-1836-45a3-ab3e-cef675e340e4, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:19.536 26374 26793 W Glide   : Load failed for https://kyocmsprdwusto1.blob.core.windows.net/assets/ios/2x/learn_more_wheel.png with size [-2147483648x-2147483648]
+05-31 11:56:19.536 26374 26793 W Glide   : class com.bumptech.glide.load.o.q: Failed to load resource
+05-31 11:56:19.536 26374 26793 W Glide   : There were 3 causes:
+05-31 11:56:19.536 26374 26793 W Glide   : java.net.UnknownHostException(Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname)
+05-31 11:56:19.536 26374 26793 W Glide   : javax.net.ssl.SSLHandshakeException(connection closed)
+05-31 11:56:19.536 26374 26793 W Glide   : com.bumptech.glide.h$e(Failed to find source encoder for data class: class android.net.Uri$StringUri)
+05-31 11:56:19.536 26374 26793 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.536 26374 26793 W Glide   :   Cause (1 of 3): class com.bumptech.glide.load.o.q: Fetching data failed, class java.io.InputStream, REMOTE
+05-31 11:56:19.536 26374 26793 W Glide   : There was 1 cause:
+05-31 11:56:19.536 26374 26793 W Glide   : java.net.UnknownHostException(Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname)
+05-31 11:56:19.536 26374 26793 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.536 26374 26793 W Glide   :     Cause (1 of 1): class java.net.UnknownHostException: Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname
+05-31 11:56:19.536 26374 26793 W Glide   :   Cause (2 of 3): class com.bumptech.glide.load.o.q: Fetching data failed, class java.io.InputStream, REMOTE
+05-31 11:56:19.536 26374 26793 W Glide   : There was 1 cause:
+05-31 11:56:19.536 26374 26793 W Glide   : javax.net.ssl.SSLHandshakeException(connection closed)
+05-31 11:56:19.536 26374 26793 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.536 26374 26793 W Glide   :     Cause (1 of 1): class javax.net.ssl.SSLHandshakeException: connection closed
+05-31 11:56:19.536 26374 26793 W Glide   :   Cause (3 of 3): class com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.536 26374 26793 I Glide   : Root cause (1 of 3)
+05-31 11:56:19.537 26374 26793 I Glide   : Root cause (2 of 3)
+05-31 11:56:19.537 26374 26793 I Glide   : javax.net.ssl.SSLHandshakeException: connection closed
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:363)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:243)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:220)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:90)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:30)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.google.firebase.perf.network.e.b(InstrURLConnectionBase.java:5)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.google.firebase.perf.network.d.connect(InstrHttpsURLConnection.java:1)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.n.j.h(HttpUrlFetcher.java:11)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.n.j.e(HttpUrlFetcher.java:2)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z.h(SourceGenerator.java:3)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:12)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.e(DecodeJob.java:8)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z.g(SourceGenerator.java:1)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z$a.c(SourceGenerator.java:2)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.n.j.e(HttpUrlFetcher.java:8)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z.h(SourceGenerator.java:3)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:12)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.537 26374 26793 I Glide   : Caused by: java.io.EOFException: connection closed
+05-31 11:56:19.537 26374 26793 I Glide   : 	... 34 more
+05-31 11:56:19.537 26374 26793 I Glide   : Root cause (3 of 3)
+05-31 11:56:19.537 26374 26793 I Glide   : com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.h.m(Registry.java:2)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.g.p(DecodeHelper.java:1)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z.b(SourceGenerator.java:2)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:3)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.537 26374 26793 I Glide   : 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: Request threw uncaught throwable
+05-31 11:56:19.537 26374 26793 E GlideExecutor: com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.h.m(Registry.java:2)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.load.o.g.p(DecodeHelper.java:1)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.load.o.z.b(SourceGenerator.java:2)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:3)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.537 26374 26793 E GlideExecutor: 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.624 26374 26614 W Glide   : Load failed for https://kyocmsprdwusto1.blob.core.windows.net/assets/ios/2x/learn_more_swag.png with size [-2147483648x-2147483648]
+05-31 11:56:19.624 26374 26614 W Glide   : class com.bumptech.glide.load.o.q: Failed to load resource
+05-31 11:56:19.624 26374 26614 W Glide   : There were 3 causes:
+05-31 11:56:19.624 26374 26614 W Glide   : java.net.UnknownHostException(Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname)
+05-31 11:56:19.624 26374 26614 W Glide   : javax.net.ssl.SSLHandshakeException(connection closed)
+05-31 11:56:19.624 26374 26614 W Glide   : com.bumptech.glide.h$e(Failed to find source encoder for data class: class android.net.Uri$StringUri)
+05-31 11:56:19.624 26374 26614 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.624 26374 26614 W Glide   :   Cause (1 of 3): class com.bumptech.glide.load.o.q: Fetching data failed, class java.io.InputStream, REMOTE
+05-31 11:56:19.624 26374 26614 W Glide   : There was 1 cause:
+05-31 11:56:19.624 26374 26614 W Glide   : java.net.UnknownHostException(Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname)
+05-31 11:56:19.624 26374 26614 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.624 26374 26614 W Glide   :     Cause (1 of 1): class java.net.UnknownHostException: Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname
+05-31 11:56:19.624 26374 26614 W Glide   :   Cause (2 of 3): class com.bumptech.glide.load.o.q: Fetching data failed, class java.io.InputStream, REMOTE
+05-31 11:56:19.624 26374 26614 W Glide   : There was 1 cause:
+05-31 11:56:19.624 26374 26614 W Glide   : javax.net.ssl.SSLHandshakeException(connection closed)
+05-31 11:56:19.624 26374 26614 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.624 26374 26614 W Glide   :     Cause (1 of 1): class javax.net.ssl.SSLHandshakeException: connection closed
+05-31 11:56:19.624 26374 26614 W Glide   :   Cause (3 of 3): class com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.624 26374 26614 I Glide   : Root cause (1 of 3)
+05-31 11:56:19.626 26374 26616 W Glide   : Load failed for https://kyocmsprdwusto1.blob.core.windows.net/assets/ios/2x/learn_more_offer.png with size [-2147483648x-2147483648]
+05-31 11:56:19.626 26374 26616 W Glide   : class com.bumptech.glide.load.o.q: Failed to load resource
+05-31 11:56:19.626 26374 26616 W Glide   : There were 3 causes:
+05-31 11:56:19.626 26374 26616 W Glide   : java.net.UnknownHostException(Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname)
+05-31 11:56:19.626 26374 26616 W Glide   : javax.net.ssl.SSLHandshakeException(connection closed)
+05-31 11:56:19.626 26374 26616 W Glide   : com.bumptech.glide.h$e(Failed to find source encoder for data class: class android.net.Uri$StringUri)
+05-31 11:56:19.626 26374 26616 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.626 26374 26616 W Glide   :   Cause (1 of 3): class com.bumptech.glide.load.o.q: Fetching data failed, class java.io.InputStream, REMOTE
+05-31 11:56:19.626 26374 26616 W Glide   : There was 1 cause:
+05-31 11:56:19.626 26374 26616 W Glide   : java.net.UnknownHostException(Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname)
+05-31 11:56:19.626 26374 26616 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.626 26374 26616 W Glide   :     Cause (1 of 1): class java.net.UnknownHostException: Unable to resolve host "kyocmsprdwusto1.blob.core.windows.net": No address associated with hostname
+05-31 11:56:19.626 26374 26616 W Glide   :   Cause (2 of 3): class com.bumptech.glide.load.o.q: Fetching data failed, class java.io.InputStream, REMOTE
+05-31 11:56:19.626 26374 26616 W Glide   : There was 1 cause:
+05-31 11:56:19.626 26374 26616 W Glide   : javax.net.ssl.SSLHandshakeException(connection closed)
+05-31 11:56:19.626 26374 26616 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-31 11:56:19.626 26374 26616 W Glide   :     Cause (1 of 1): class javax.net.ssl.SSLHandshakeException: connection closed
+05-31 11:56:19.626 26374 26616 W Glide   :   Cause (3 of 3): class com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.626 26374 26616 I Glide   : Root cause (1 of 3)
+05-31 11:56:19.627 26374 26616 I Glide   : Root cause (2 of 3)
+05-31 11:56:19.627 26374 26616 I Glide   : javax.net.ssl.SSLHandshakeException: connection closed
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:363)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:243)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:220)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:90)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:30)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.google.firebase.perf.network.e.b(InstrURLConnectionBase.java:5)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.google.firebase.perf.network.d.connect(InstrHttpsURLConnection.java:1)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.n.j.h(HttpUrlFetcher.java:11)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.n.j.e(HttpUrlFetcher.java:2)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z.h(SourceGenerator.java:3)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:12)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.e(DecodeJob.java:8)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z.g(SourceGenerator.java:1)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z$a.c(SourceGenerator.java:2)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.n.j.e(HttpUrlFetcher.java:8)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z.h(SourceGenerator.java:3)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:12)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.627 26374 26616 I Glide   : Caused by: java.io.EOFException: connection closed
+05-31 11:56:19.627 26374 26616 I Glide   : 	... 34 more
+05-31 11:56:19.627 26374 26616 I Glide   : Root cause (3 of 3)
+05-31 11:56:19.627 26374 26616 I Glide   : com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.h.m(Registry.java:2)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.g.p(DecodeHelper.java:1)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z.b(SourceGenerator.java:2)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:3)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.627 26374 26616 I Glide   : 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.628 26374 26614 I Glide   : Root cause (2 of 3)
+05-31 11:56:19.628 26374 26614 I Glide   : javax.net.ssl.SSLHandshakeException: connection closed
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:363)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:243)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:220)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:90)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:30)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.google.firebase.perf.network.e.b(InstrURLConnectionBase.java:5)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.google.firebase.perf.network.d.connect(InstrHttpsURLConnection.java:1)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.n.j.h(HttpUrlFetcher.java:11)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.n.j.e(HttpUrlFetcher.java:2)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z.h(SourceGenerator.java:3)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:12)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.e(DecodeJob.java:8)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z.g(SourceGenerator.java:1)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z$a.c(SourceGenerator.java:2)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.n.j.e(HttpUrlFetcher.java:8)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z.h(SourceGenerator.java:3)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:12)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.628 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.628 26374 26614 I Glide   : Caused by: java.io.EOFException: connection closed
+05-31 11:56:19.628 26374 26614 I Glide   : 	... 34 more
+05-31 11:56:19.629 26374 26614 I Glide   : Root cause (3 of 3)
+05-31 11:56:19.629 26374 26614 I Glide   : com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.h.m(Registry.java:2)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.g.p(DecodeHelper.java:1)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z.b(SourceGenerator.java:2)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:3)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.629 26374 26614 I Glide   : 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: Request threw uncaught throwable
+05-31 11:56:19.629 26374 26616 E GlideExecutor: com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.h.m(Registry.java:2)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.load.o.g.p(DecodeHelper.java:1)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.load.o.z.b(SourceGenerator.java:2)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:3)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.629 26374 26616 E GlideExecutor: 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: Request threw uncaught throwable
+05-31 11:56:19.631 26374 26614 E GlideExecutor: com.bumptech.glide.h$e: Failed to find source encoder for data class: class android.net.Uri$StringUri
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.h.m(Registry.java:2)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.load.o.g.p(DecodeHelper.java:1)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.load.o.z.b(SourceGenerator.java:2)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.load.o.z.a(SourceGenerator.java:3)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.load.o.h.P(DecodeJob.java:4)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.load.o.h.R(DecodeJob.java:4)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.load.o.h.run(DecodeJob.java:7)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.631 26374 26614 E GlideExecutor: 	at com.bumptech.glide.load.o.c0.a$b$a.run(GlideExecutor.java:6)
+05-31 11:56:19.641 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=1bbf82f6-8367-479a-b8ff-4459b2e60684, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:19.660 26374 26374 I RadarLogger: 📍️ Radar initialized
+05-31 11:56:19.676 26374 26388 W MediaPlayerNative: info/warning (3, 0)
+05-31 11:56:19.757 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:19.767 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:19.768 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:19.768 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:19.770 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:19.790 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:19.805 26374 26457 E WM-WorkerWrapper: Didn't find WorkSpec for id 1bbf82f6-8367-479a-b8ff-4459b2e60684
+05-31 11:56:19.821   614  2623 W InputManager-JNI: Input channel object '6aa8b8 com.tmobile.tuesdays/com.tmobile.tmte.Launcher (client)' was disposed without first being removed with the input manager!
+05-31 11:56:19.891 26374 26710 W System.err: javax.net.ssl.SSLHandshakeException: connection closed
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:363)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:243)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:220)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:90)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:30)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.google.firebase.perf.network.e.b(InstrURLConnectionBase.java:5)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.google.firebase.perf.network.d.connect(InstrHttpsURLConnection.java:1)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.tmobile.tmte.p1.d0.L(Util.java:3)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.tmobile.tmte.controller.welcome.splash.SplashScreenActivity.w(SplashScreenActivity.java:9)
+05-31 11:56:19.891 26374 26710 W System.err: 	at com.tmobile.tmte.controller.welcome.splash.h.run(Unknown Source:0)
+05-31 11:56:19.891 26374 26710 W System.err: 	at java.lang.Thread.run(Thread.java:920)
+05-31 11:56:19.891 26374 26710 W System.err: Caused by: java.io.EOFException: connection closed
+05-31 11:56:19.891 26374 26710 W System.err: 	... 20 more
+05-31 11:56:20.036 26374 26382 I mobile.tuesday: Background young concurrent copying GC freed 99158(8927KB) AllocSpace objects, 22(1012KB) LOS objects, 45% free, 12MB/21MB, paused 1.095ms,285us total 137.910ms
+05-31 11:56:20.146  1705  1727 I gle.android.gm: Background young concurrent copying GC freed 71862(4170KB) AllocSpace objects, 22(1016KB) LOS objects, 46% free, 19MB/36MB, paused 290us,54us total 272.457ms
+05-31 11:56:20.174  5669 26831 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:20.284 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:20.285 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:20.287 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:20.294 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:20.297 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.297 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:20.297 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.297 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:20.298 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:20.298 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:20.299 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:20.299 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.481 26374 26454 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=a6872040-8e6b-4e19-9c7f-dcd2e7cff1cd, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:20.498  5669 26851 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:20.516 26374 26374 W JavaBridge: type=1400 audit(0.0:530): avc: denied { bind } for scontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.tmobile.tuesdays
+05-31 11:56:20.516 26374 26374 W JavaBridge: type=1400 audit(0.0:531): avc: denied { nlmsg_readpriv } for scontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.tmobile.tuesdays
+05-31 11:56:20.622 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:20.623 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:20.623 26374 26480 W GoogleTagManager: Dropping the invalid UA tag field name Participant_Key
+05-31 11:56:20.625 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:20.673 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:20.681 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.681 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:20.682 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.682 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:20.683 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:20.685 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:20.688 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:20.689 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.695 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:20.696 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:20.696 26374 26480 W GoogleTagManager: Dropping the invalid UA tag field name Participant_Key
+05-31 11:56:20.698 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:20.703 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:20.707 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.707 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:20.707 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.708 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:20.710 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:20.758 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:20.759 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:20.761 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:20.936 26374 26374 W JavaBridge: type=1400 audit(0.0:532): avc: denied { bind } for scontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.tmobile.tuesdays
+05-31 11:56:20.936 26374 26374 W JavaBridge: type=1400 audit(0.0:533): avc: denied { nlmsg_readpriv } for scontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c168,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.tmobile.tuesdays
+05-31 11:56:21.509  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:21.542   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:21.542 26873 26877 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:22.541  5669 26892 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:22.612  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195621.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:22.642  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195621.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:22.742  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:22.980   614   635 W System  : A resource failed to call release. 
+05-31 11:56:23.647   340   340 E android.hardware.power.stats@1.0-service-mock: Failed to getEnergyData
+05-31 11:56:23.725  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:23.744  5669 26941 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:23.747   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:23.747 26936 26944 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:24.607  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195623.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:24.619  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195623.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:24.735  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:24.789  5669 26957 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:25.651  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:25.668   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:25.669 26989 26991 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:26.444  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195625.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:26.477  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195625.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:26.524  5669 27000 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:26.586  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:26.697 26374 26457 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b3e69cb9-adbb-47ad-9b66-ba5bd966e27b, tags={ airship, com.urbanairship.job.AirshipWorker } ]
+05-31 11:56:26.717  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.717  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.727  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.727  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.735 10446 10446 I Finsky  : [2] aipn.onStartJob(126): SCH: job service start with id 9332.
+05-31 11:56:26.743  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.744 10446 26079 I Finsky  : [288] nje.a(184): SCH: Satisfied jobs for 9332 are: 12-1
+05-31 11:56:26.744  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.747 10446 27011 I Finsky  : [291] aioi.accept(105): SCH: Job 12-1 starting
+05-31 11:56:26.751 10446 10446 I Finsky  : [2] ContentSyncJob.i(9): [ContentSync] job started
+05-31 11:56:26.761  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.761  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.776  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.776  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.777  5669 27019 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:26.791  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.791  1705 26496 W FA-SVC  : No number filter for long property. property: _fot
+05-31 11:56:26.869 10446 27014 I Finsky  : [292] nrn.a(199): App states replicator found 7 unowned apps
+05-31 11:56:26.870   175   175 I servicemanager: Notifying apexservice they have clients: 0
+05-31 11:56:26.874   175   175 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 11:56:26.892 10446 27014 I Finsky  : [292] nrs.b(18): Completed 0 account content syncs with 0 successful.
+05-31 11:56:26.895 10446 10446 I Finsky  : [2] ContentSyncJob.a(12): [ContentSync] Installation state replication succeeded.
+05-31 11:56:26.895 10446 10446 I Finsky  : [2] ainv.q(56): SCH: jobFinished: 12-1. TimeElapsed: 148ms.
+05-31 11:56:26.920 10446 10512 I Finsky  : [70] sju.accept(58): SCH: Scheduling phonesky job Id: 1-1337, CT: 1748678741643, Constraints: [{ L: 14399997, D: 47407351, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+05-31 11:56:26.925 10446 10531 I Finsky  : [77] njf.apply(251): SCH: Scheduling 1 system job(s)
+05-31 11:56:26.925 10446 10531 I Finsky  : [77] ains.b(244): SCH: Scheduling system job Id: 9334, L: 554715, D: 33562069, C: false, I: false, N: 1
+05-31 11:56:26.933 10446 27011 I Finsky  : [291] aipn.a(24): SCH: job service finished with id 9332.
+05-31 11:56:27.616  5669 27083 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:27.744   614   755 I RoleService: Granting default roles...
+05-31 11:56:27.766   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AQQ
+05-31 11:56:27.771   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 11:56:27.825  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 11:56:27.827  5669 27096 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:27.832  2404  5895 I PermissionControllerServiceImpl: Updating user sensitive for uid 10168
+05-31 11:56:27.841  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:27.895   334 26774 W C2BqBuffer: last successful dequeue was 4696710 us ago, 0 consecutive failures
+05-31 11:56:28.008  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:28.009  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:28.057  1705 26496 I AdvertisingIdClient: shouldSendLog 1907810
+05-31 11:56:28.057  1705 26496 I AdvertisingIdClient: GetInfoInternal elapse 0ms
+05-31 11:56:28.062 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:28.066 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:28.067 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:28.067 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:28.067 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:28.070 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:28.103  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:28.135 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:28.139 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:28.159 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:28.234  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:28.240  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:28.466  5669 27111 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:29.255  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:29.305   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:29.315 27128 27130 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:30.036  1312 26217 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 11:56:30.039  1312 26216 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 11:56:30.206  1312  1325 I .gms.persisten: Background young concurrent copying GC freed 139243(6884KB) AllocSpace objects, 1(16KB) LOS objects, 19% free, 28MB/34MB, paused 378us,63us total 163.918ms
+05-31 11:56:30.369  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195629.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:30.385  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195629.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:30.518  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:31.340  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:31.388   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:31.389 27173 27177 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:31.586  5669 27184 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:32.153  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195631.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:32.164  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195631.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:32.335  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:32.815  5669 27222 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:33.074  1475  5089 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:33.110   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:33.110 27234 27236 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:33.754  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195633.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:33.815  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195633.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:33.819  5669 27246 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:33.905  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:34.823  5669 27291 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:35.737  5669 27342 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:35.853 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:35.857 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:35.857 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:35.857 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:35.858 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:35.870 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:35.920 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:35.921 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:35.923 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:36.659  5669 27353 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:37.179  1475  4300 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:37.214   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:37.214 27370 27372 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:37.791  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195637.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:37.801  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195637.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:37.927  1475  1748 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:38.328  1705 26496 I AdvertisingIdClient: shouldSendLog 1907810
+05-31 11:56:38.328  1705 26496 I AdvertisingIdClient: GetInfoInternal elapse 0ms
+05-31 11:56:38.455 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:38.461 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:38.462 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:38.462 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:38.463 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:38.465 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:38.467 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:38.468 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:38.471 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:38.623  1475  1745 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:38.672   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:38.672 27415 27417 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:38.738   387 26766 I CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+05-31 11:56:38.739   387 26766 W Codec2Client: query -- param skipped: index = 1342179345.
+05-31 11:56:38.739   387 26766 W Codec2Client: query -- param skipped: index = 2415921170.
+05-31 11:56:38.739   387 26766 W Codec2Client: query -- param skipped: index = 1610614798.
+05-31 11:56:39.261   614   637 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=com.tmobile.tuesdays/com.tmobile.tmte.controller.authentication.AuthenticationActivity (has extras)} from uid 10168
+05-31 11:56:39.327   614   637 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (1999484)
+05-31 11:56:39.373  5669 27428 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:39.476 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:39.511  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195638.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:39.521 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:39.523 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:39.594   614   663 I ActivityTaskManager: Displayed com.tmobile.tuesdays/com.tmobile.tmte.controller.authentication.AuthenticationActivity: +332ms
+05-31 11:56:39.603 26374 26374 I AssistStructure: Flattened final assist data: 5720 bytes, containing 1 windows, 42 views
+05-31 11:56:39.655  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195638.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:39.662 26374 26382 I mobile.tuesday: Background concurrent copying GC freed 185609(15MB) AllocSpace objects, 48(5792KB) LOS objects, 49% free, 13MB/26MB, paused 1.658ms,65us total 190.485ms
+05-31 11:56:39.755  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:39.780   614   614 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-31 11:56:40.094  1705 27458 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+05-31 11:56:40.311 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:40.312 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:40.312 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.313 26374 26480 W GoogleTagManager: Event does not have parameter "page_tag" and no default value was defined. Returning "undefined".
+05-31 11:56:40.313 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.318 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:40.323 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.326 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.326 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.326 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.327 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.327 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.328 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.328 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.329 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.336  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:40.360   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:40.360 27476 27478 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:40.425 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:40.426 26374 26480 W GoogleTagManager: Event does not have parameter "source" and no default value was defined. Returning "undefined".
+05-31 11:56:40.427 26374 26480 W GoogleTagManager: Event does not have parameter "source" and no default value was defined. Returning "undefined".
+05-31 11:56:40.427 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:40.428 26374 26480 W GoogleTagManager: Event does not have parameter "source" and no default value was defined. Returning "undefined".
+05-31 11:56:40.428 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.428 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.428 26374 26480 W GoogleTagManager: Event does not have parameter "message_id" and no default value was defined. Returning "undefined".
+05-31 11:56:40.428 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.428 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.429 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.430 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.430 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.430 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.430 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.430 26374 26480 W GoogleTagManager: Event does not have parameter "link_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.431 26374 26480 W GoogleTagManager: Event does not have parameter "link_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.431 26374 26480 W GoogleTagManager: Event does not have parameter "link_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.431 26374 26480 W GoogleTagManager: Event does not have parameter "link_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.431 26374 26480 W GoogleTagManager: Event does not have parameter "link_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.431 26374 26480 W GoogleTagManager: Event does not have parameter "link_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.431 26374 26480 W GoogleTagManager: Event does not have parameter "source" and no default value was defined. Returning "undefined".
+05-31 11:56:40.433 26374 26480 W GoogleTagManager: Event does not have parameter "page_tag" and no default value was defined. Returning "undefined".
+05-31 11:56:40.433 26374 26480 W GoogleTagManager: Event does not have parameter "link_url" and no default value was defined. Returning "undefined".
+05-31 11:56:40.433 26374 26480 W GoogleTagManager: Event does not have parameter "link_url" and no default value was defined. Returning "undefined".
+05-31 11:56:40.434 26374 26480 W GoogleTagManager: Event does not have parameter "message_id" and no default value was defined. Returning "undefined".
+05-31 11:56:40.434 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.434 26374 26480 W GoogleTagManager: Event does not have parameter "game_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.435 26374 26480 W GoogleTagManager: Event does not have parameter "button_text" and no default value was defined. Returning "undefined".
+05-31 11:56:40.443 26374 26480 W GoogleTagManager: Event does not have parameter "message_id" and no default value was defined. Returning "undefined".
+05-31 11:56:40.443 26374 26480 W GoogleTagManager: Event does not have parameter "link_url" and no default value was defined. Returning "undefined".
+05-31 11:56:40.461 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:40.473 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.478 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.480 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.481 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.481 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.482 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.482 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.482 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.483 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.488   614   666 I ActivityManager: PendingStartActivityUids startActivity to updateOomAdj delay:1159ms, uid:10168
+05-31 11:56:40.497 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.500 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.502 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.502 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.504 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.506 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.527   614   614 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AQU
+05-31 11:56:40.530   614   755 I RoleService: Granting default roles...
+05-31 11:56:40.534   614   768 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 11:56:40.541 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:40.541  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 11:56:40.542 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:40.543  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:40.543 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:40.550 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.555 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.555 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.556 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.556 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.557 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.557 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.558 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.558 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.564  5669 27484 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:40.585  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:40.587  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:40.587  2404  4312 I PermissionControllerServiceImpl: Updating user sensitive for uid 10168
+05-31 11:56:40.601 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:40.601 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:40.602 26374 26480 W GoogleTagManager: Dropping the invalid UA tag field name Participant_Key
+05-31 11:56:40.605 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:40.619 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:40.625 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.631 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.631 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.632 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:40.635 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.635 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.636 26374 26480 W GoogleTagManager: Event does not have parameter "screen_name" and no default value was defined. Returning "undefined".
+05-31 11:56:40.639 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:40.644 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:40.644 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:40.644 26374 26480 W GoogleTagManager: Dropping the invalid UA tag field name Participant_Key
+05-31 11:56:40.645 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:40.691  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:40.749  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195640.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:40.761  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:40.762  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195640.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:40.766  2404 26011 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 11:56:40.831  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:40.832  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:40.939   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:40.989   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:40.992   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:40.997   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:41.002   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:41.002   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:41.022   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:41.039   614   785 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:41.041   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:41.045   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:41.047   614   786 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 11:56:42.425  5669 27569 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:43.170  5669 27577 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:43.652  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:43.673   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:43.673 27592 27594 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:43.930  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195643.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:43.974  5669 27604 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:43.976  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195643.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:44.055  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:44.056  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:44.982  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:45.002   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:45.002 27639 27641 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:45.334  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195645.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:45.343  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195645.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:45.448  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:46.122  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:46.167   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:46.167 27678 27680 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:46.386 24291 27681 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+05-31 11:56:46.407 24291 27681 I BugleDataModel: ParticipantRefresh: ContactContentObserver created
+05-31 11:56:46.407 24291 27681 I BugleDataModel: ParticipantRefresh: ContactContentObserver created
+05-31 11:56:46.410 24291 27681 I BugleDataModel: ParticipantRefresh: Start participant refresh. refreshMode: SELF_ONLY
+05-31 11:56:46.463 24291 27681 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+05-31 11:56:46.476 24291 27681 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+05-31 11:56:46.500 24291 27681 W BugleDataModel: SelfParticipantsData: Failed to update self participants' subscription info. updateCount: 0
+05-31 11:56:46.539   614   677 I ActivityManager: Start proc 27683:android.process.acore/u0a57 for content provider {com.android.providers.contacts/com.android.providers.contacts.ContactsProvider2}
+05-31 11:56:46.552  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195646.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:46.552 27683 27683 W d.process.acor: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 11:56:46.558 27683 27683 E d.process.acor: Not starting debugger since process cannot load the jdwp agent.
+05-31 11:56:46.578  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195646.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:46.638  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:46.639  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:46.649 27683 27683 I ContactsPerf: VoicemailContentProvider.onCreate start
+05-31 11:56:46.653 27683 27683 I ContactsPerf: VoicemailContentProvider.onCreate finish
+05-31 11:56:46.660 27683 27683 I ContactsDatabaseHelper: updateUseStrictPhoneNumberComparison: US
+05-31 11:56:46.726 27683 27706 I CallLogProvider: Syncing call composer pics -- source user=0, isShadow=true, forAllUser=false
+05-31 11:56:46.726 27683 27706 I CallLogProvider: Fetching list of Uris to sync
+05-31 11:56:46.782 27683 27706 I CallLogProvider: Will sync following Uris:[]
+05-31 11:56:46.782 27683 27706 I CallLogProvider: Syncing call composer pics -- got []
+05-31 11:56:46.789 27683 27709 I ContactLocale: AddressBook Labels [[en_US]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, …, א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, …, ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, …, あ, か, さ, た, な, は, ま, や, ら, わ, #, …]
+05-31 11:56:46.889  1312 26217 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 11:56:46.889 24291 27681 I BugleDataModel: ParticipantRefresh: Number of participants refreshed: 0
+05-31 11:56:46.924  1312 23378 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 11:56:47.244  5669 27743 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:48.002  5669 27788 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:48.265 26374 26480 W GoogleTagManager: Event does not have parameter "content_key" and no default value was defined. Returning "undefined".
+05-31 11:56:48.275 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:48.276 26374 26480 W GoogleTagManager: Event does not have parameter "module_type" and no default value was defined. Returning "undefined".
+05-31 11:56:48.276 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:48.277 26374 26480 W GoogleTagManager: Event does not have parameter "scroll_type" and no default value was defined. Returning "undefined".
+05-31 11:56:48.278 26374 26480 W GoogleTagManager: Event does not have parameter "descriptor" and no default value was defined. Returning "undefined".
+05-31 11:56:48.337 26374 26480 W GoogleTagManager: No user property available for "location_primer" and no default value was defined. Returning "undefined".
+05-31 11:56:48.338 26374 26480 W GoogleTagManager: No user property available for "dark_mode" and no default value was defined. Returning "undefined".
+05-31 11:56:48.341 26374 26480 W GoogleTagManager: UniversalAnalyticsTag has been decommissioned.
+05-31 11:56:48.363  1705 26496 I AdvertisingIdClient: shouldSendLog 1907810
+05-31 11:56:48.363  1705 26496 I AdvertisingIdClient: GetInfoInternal elapse 1ms
+05-31 11:56:48.567 27683 27696 W System  : A resource failed to call close. 
+05-31 11:56:48.568 27683 27696 W System  : A resource failed to call close. 
+05-31 11:56:49.534  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:49.551   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:49.551 27816 27818 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:49.618   614  2398 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:56:49.619   614  2398 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:56:49.645   614  2398 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:56:49.645   614  2398 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:56:49.669   614  2916 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:56:49.669   614  2398 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 11:56:49.859  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195649.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:49.873  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195649.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:49.901  5669 27827 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:49.976  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:50.041  1312 26217 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 11:56:50.043  1312 26216 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 11:56:50.380  5669 27851 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:50.700  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:50.721   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:50.721 27868 27870 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:50.869  5669 27874 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:51.007  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195651.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:51.015  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195651.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:51.145  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:52.022  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:52.047   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:52.047 27913 27915 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:52.349  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195652.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:52.355  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195652.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:52.457  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:53.701  5669 28004 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:54.112  5669 28012 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:54.781  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:54.834   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:54.835 28027 28029 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:55.180  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195655.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:55.194  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195655.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:55.266  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:55.267  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:55.544  5669 28046 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:55.790   614  2916 I ActivityManager: Killing 20561:com.google.android.gms.unstable/u0a98 (adj 925): empty #17
+05-31 11:56:55.791   614   678 I libprocessgroup: Successfully killed process cgroup uid 10098 pid 20561 in 0ms
+05-31 11:56:55.799   318   318 I Zygote  : Process 20561 exited due to signal 9 (Killed)
+05-31 11:56:55.802   614  2833 I ActivityManager: Killing 25693:com.android.chrome/u0a115 (adj 985): empty #17
+05-31 11:56:55.806   318   318 I Zygote  : Process 25693 exited due to signal 9 (Killed)
+05-31 11:56:55.822   614   678 I libprocessgroup: Successfully killed process cgroup uid 10115 pid 25693 in 0ms
+05-31 11:56:56.002  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:56.026   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:56.026 28072 28074 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:56.338  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195656.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:56.344  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195656.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:56.428  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:56.428  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:56:56.688  5669 28100 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:56:56.977  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:56:56.992   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:56:56.993 28117 28119 I Gralloc4: mapper 4.x is not supported
+05-31 11:56:57.281  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195657.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:57.288  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195657.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:56:57.402  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:56:59.595  5669 28212 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:00.040  5669 28229 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:00.134  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:57:00.165   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:57:00.165 28233 28237 I Gralloc4: mapper 4.x is not supported
+05-31 11:57:00.456  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195700.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:00.462  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195700.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:00.541  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:57:00.543  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:57:00.752  5669 28263 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:01.037  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:57:01.072   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:57:01.073 28281 28283 I Gralloc4: mapper 4.x is not supported
+05-31 11:57:01.199  5669 28287 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:01.368  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195701.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:01.376  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195701.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:01.449  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:57:01.450  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:57:01.952  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:57:01.995   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:57:01.996 28326 28328 I Gralloc4: mapper 4.x is not supported
+05-31 11:57:02.096  5669 28332 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:02.277  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195702.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:02.292  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195702.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:02.373  1475  4300 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 11:57:02.374  1312  2173 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 11:57:02.501  5669 28348 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:04.779  1475  1748 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 11:57:04.809   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 11:57:04.809 28440 28442 I Gralloc4: mapper 4.x is not supported
+05-31 11:57:04.850  5669 28446 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:05.218  1475  5109 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195705.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:05.228  1475  5109 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_195705.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 11:57:05.321  5669 28459 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 11:57:05.339  1475  5089 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell

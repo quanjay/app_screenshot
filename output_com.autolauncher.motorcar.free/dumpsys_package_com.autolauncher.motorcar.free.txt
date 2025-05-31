@@ -1,0 +1,366 @@
+Activity Resolver Table:
+  Schemes:
+      db-8q1ec0a7tskre7h:
+        7ec06b6 com.autolauncher.motorcar.free/com.dropbox.core.android.AuthActivity filter 4e7fb7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "db-8q1ec0a7tskre7h"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        10fb0db com.autolauncher.motorcar.free/com.autolauncher.motorcar.Speed_Activity filter ff33778
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.HOME"
+          Category: "android.intent.category.CAR_DOCK"
+          Category: "android.intent.category.CAR_MODE"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.MONKEY"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+      android.intent.action.VIEW:
+        10fb0db com.autolauncher.motorcar.free/com.autolauncher.motorcar.Speed_Activity filter ff33778
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.HOME"
+          Category: "android.intent.category.CAR_DOCK"
+          Category: "android.intent.category.CAR_MODE"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.MONKEY"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+      com.novalauncher.THEME:
+        10fb0db com.autolauncher.motorcar.free/com.autolauncher.motorcar.Speed_Activity filter 4455e51
+          Action: "com.novalauncher.THEME"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        ae05324 com.autolauncher.motorcar.free/com.autolauncher.motorcar.StartServicePower filter cb08e8d
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "com.autolauncher.motorcar.action.START"
+          Action: "com.autolauncher.motorcar.action.STOP"
+          Category: "android.intent.category.DEFAULT"
+      com.evernote.android.job.patched.internal.v14.RUN_JOB:
+        3617d90 com.autolauncher.motorcar.free/com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver filter 2248689
+          Action: "com.evernote.android.job.patched.internal.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+      android.intent.action.QUICKBOOT_POWERON:
+        181368e com.autolauncher.motorcar.free/com.evernote.android.job.patched.internal.JobBootReceiver filter 277aeaf
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.autolauncher.motorcar.action.STOP:
+        ae05324 com.autolauncher.motorcar.free/com.autolauncher.motorcar.StartServicePower filter cb08e8d
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "com.autolauncher.motorcar.action.START"
+          Action: "com.autolauncher.motorcar.action.STOP"
+          Category: "android.intent.category.DEFAULT"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        181368e com.autolauncher.motorcar.free/com.evernote.android.job.patched.internal.JobBootReceiver filter 277aeaf
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        ae05324 com.autolauncher.motorcar.free/com.autolauncher.motorcar.StartServicePower filter cb08e8d
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "com.autolauncher.motorcar.action.START"
+          Action: "com.autolauncher.motorcar.action.STOP"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.c2dm.intent.RECEIVE:
+        e88e2bc com.autolauncher.motorcar.free/com.google.firebase.iid.FirebaseInstanceIdReceiver filter ec60245
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BOOT_COMPLETED:
+        a9d842 com.autolauncher.motorcar.free/com.autolauncher.motorcar.SupportClass.UserPresentBroadcastReceiver filter d416053
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.USER_PRESENT"
+          Category: "android.intent.category.DEFAULT"
+        181368e com.autolauncher.motorcar.free/com.evernote.android.job.patched.internal.JobBootReceiver filter 277aeaf
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.USER_PRESENT:
+        a9d842 com.autolauncher.motorcar.free/com.autolauncher.motorcar.SupportClass.UserPresentBroadcastReceiver filter d416053
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.USER_PRESENT"
+          Category: "android.intent.category.DEFAULT"
+      com.autolauncher.motorcar.action.START:
+        ae05324 com.autolauncher.motorcar.free/com.autolauncher.motorcar.StartServicePower filter cb08e8d
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "com.autolauncher.motorcar.action.START"
+          Action: "com.autolauncher.motorcar.action.STOP"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        ae05324 com.autolauncher.motorcar.free/com.autolauncher.motorcar.StartServicePower filter cb08e8d
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "com.autolauncher.motorcar.action.START"
+          Action: "com.autolauncher.motorcar.action.STOP"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        181368e com.autolauncher.motorcar.free/com.evernote.android.job.patched.internal.JobBootReceiver filter 277aeaf
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        ae05324 com.autolauncher.motorcar.free/com.autolauncher.motorcar.StartServicePower filter cb08e8d
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "com.autolauncher.motorcar.action.START"
+          Action: "com.autolauncher.motorcar.action.STOP"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.ACTION_SHUTDOWN:
+        a9d842 com.autolauncher.motorcar.free/com.autolauncher.motorcar.SupportClass.UserPresentBroadcastReceiver filter d416053
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.USER_PRESENT"
+          Category: "android.intent.category.DEFAULT"
+      net.vrallev.android.job.v14.RUN_JOB:
+        3617d90 com.autolauncher.motorcar.free/com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver filter 2248689
+          Action: "com.evernote.android.job.patched.internal.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        a90cd54 com.autolauncher.motorcar.free/com.google.firebase.messaging.FirebaseMessagingService filter 12f34fd
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.service.notification.NotificationListenerService:
+        55e2d9a com.autolauncher.motorcar.free/com.autolauncher.motorcar.info_widget.info_service_update filter a1a86cb permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+        e5f6ea8 com.autolauncher.motorcar.free/com.autolauncher.motorcar.playerwidget.NotificationListener filter 497dc1 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+        7e18966 com.autolauncher.motorcar.free/com.autolauncher.motorcar.playerwidget.NotificationListenerKK filter dc8c4a7 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.autolauncher.motorcar.free/androidx.startup.InitializationProvider:
+    Provider{ac25d47 com.autolauncher.motorcar.free/androidx.startup.InitializationProvider}
+  com.autolauncher.motorcar.free/org.acra.attachment.AcraContentProvider:
+    Provider{9178974 com.autolauncher.motorcar.free/org.acra.attachment.AcraContentProvider}
+  com.autolauncher.motorcar.free/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{e9f0e9d com.autolauncher.motorcar.free/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.autolauncher.motorcar.free/com.squareup.picasso.PicassoProvider:
+    Provider{a9b3f12 com.autolauncher.motorcar.free/com.squareup.picasso.PicassoProvider}
+  com.autolauncher.motorcar.free/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{b3d86e3 com.autolauncher.motorcar.free/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.autolauncher.motorcar.free.androidx-startup]:
+    Provider{ac25d47 com.autolauncher.motorcar.free/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{eddc8e0 com.autolauncher.motorcar.free}
+  [com.autolauncher.motorcar.free.firebaseinitprovider]:
+    Provider{b3d86e3 com.autolauncher.motorcar.free/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{4e2f799 com.autolauncher.motorcar.free}
+  [com.autolauncher.motorcar.free.lifecycle-process]:
+    Provider{e9f0e9d com.autolauncher.motorcar.free/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{56a3a5e com.autolauncher.motorcar.free}
+  [com.autolauncher.motorcar.free.acra]:
+    Provider{9178974 com.autolauncher.motorcar.free/org.acra.attachment.AcraContentProvider}
+      applicationInfo=ApplicationInfo{eb7ae3f com.autolauncher.motorcar.free}
+  [com.autolauncher.motorcar.free.com.squareup.picasso]:
+    Provider{a9b3f12 com.autolauncher.motorcar.free/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{f06930c com.autolauncher.motorcar.free}
+
+Key Set Manager:
+  [com.autolauncher.motorcar.free]
+      Signing KeySets: 79
+
+Packages:
+  Package [com.autolauncher.motorcar.free] (de27455):
+    userId=10148
+    pkg=Package{79b9e6a com.autolauncher.motorcar.free}
+    codePath=/data/app/~~HUAcT-7USAmu4rdVRf4qHg==/com.autolauncher.motorcar.free-CKFQ3GQ9eYCZbILaz5-fcw==
+    resourcePath=/data/app/~~HUAcT-7USAmu4rdVRf4qHg==/com.autolauncher.motorcar.free-CKFQ3GQ9eYCZbILaz5-fcw==
+    legacyNativeLibraryDir=/data/app/~~HUAcT-7USAmu4rdVRf4qHg==/com.autolauncher.motorcar.free-CKFQ3GQ9eYCZbILaz5-fcw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=33015 minSdk=15 targetSdk=30
+    minExtensionVersions=[]
+    versionName=3.3.0.15
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{79b9e6a com.autolauncher.motorcar.free}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=https:///... }, Intent { act=android.intent.action.SEND dat=content://*/* typ=message/rfc822 }, Intent { act=android.intent.action.SEND_MULTIPLE dat=content://*/* typ=message/rfc822 }, Intent { act=android.intent.action.SENDTO }]
+    dataDir=/data/user/0/com.autolauncher.motorcar.free
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-31 14:51:15
+    firstInstallTime=2025-05-31 14:51:15
+    lastUpdateTime=2025-05-31 14:51:15
+    signatures=PackageSignatures{782ef5b version:3, signatures:[33197d95], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.REQUEST_DELETE_PACKAGES
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.SET_WALLPAPER
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BATTERY_STATS
+      android.intent.action.ACTION_POWER_CONNECTED
+      android.intent.action.ACTION_POWER_DISCONNECTED
+      android.permission.DISABLE_KEYGUARD
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.WRITE_SETTINGS
+      android.permission.BIND_APPWIDGET
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.READ_LOGS
+      android.permission.QUERY_ALL_PACKAGES
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=133129 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.autolauncher.motorcar.free:
+      com.google.android.apps.maps
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.autolauncher.motorcar.free
+    com.google.android.settings.intelligence:
+      com.autolauncher.motorcar.free
+    com.google.android.youtube:
+      com.autolauncher.motorcar.free
+    com.google.android.gm:
+      com.autolauncher.motorcar.free
+    com.autolauncher.motorcar.free:
+      com.google.android.setupwizard
+      org.chromium.webview_shell
+      com.android.chrome
+      com.google.android.gm
+      com.google.android.calendar
+      com.google.android.apps.docs
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=8
+  User 0:
+    seq=1, package=com.google.android.apps.docs
+    seq=5, package=com.google.android.gms
+    seq=6, package=io.github.ylimit.droidbotapp
+    seq=7, package=com.autolauncher.motorcar.free
+
+
+Dexopt state:
+  [com.autolauncher.motorcar.free]
+    path: /data/app/~~HUAcT-7USAmu4rdVRf4qHg==/com.autolauncher.motorcar.free-CKFQ3GQ9eYCZbILaz5-fcw==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.autolauncher.motorcar.free]
+     base.apk - 1153
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 940  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:43         now          15       22901           0           0           2           5           2
+          1:43        0:43         139       52017           0           0          11          44           8
+          1:43         now         154       74918           0           0          13          50           8
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:43         now          14           1           0           0           0           0           0           0
+          1:43        0:43         135           2           0           2           0           0           0           0
+          1:43         now         149           3           0           2           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:43         now           1           0           1           1           0           0           0          12
+          1:43        0:43           5           3           2           6           6          25          13          78
+          1:43         now           6           3           3           7           6          25          13          90

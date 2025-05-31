@@ -1,0 +1,538 @@
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 95b97f7
+          Action: "com.gingersoftware.android.keyboard.SEND_MAIL"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_mail"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 4572664
+          Action: "com.gingersoftware.android.keyboard.SEND_FACEBOOK"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_facebook"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter c2600cd
+          Action: "com.gingersoftware.android.keyboard.SEND_CLIPBOARD"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_clipboard"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/plain:
+        d1e031e com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareActivity filter 1eea7ff
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Base MIME Types:
+      text:
+        d1e031e com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareActivity filter 1eea7ff
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      *:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 95b97f7
+          Action: "com.gingersoftware.android.keyboard.SEND_MAIL"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_mail"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 4572664
+          Action: "com.gingersoftware.android.keyboard.SEND_FACEBOOK"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_facebook"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter c2600cd
+          Action: "com.gingersoftware.android.keyboard.SEND_CLIPBOARD"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_clipboard"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      share_mail:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 95b97f7
+          Action: "com.gingersoftware.android.keyboard.SEND_MAIL"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_mail"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      gingerpage:
+        d1e031e com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareActivity filter 80769cc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "gingerpage"
+      share_clipboard:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter c2600cd
+          Action: "com.gingersoftware.android.keyboard.SEND_CLIPBOARD"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_clipboard"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      http:
+        d1e031e com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareActivity filter d2c6415
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.gingersoftware.com": -1
+          Authority: "www.gingersoftware.com": -1
+          Authority: "gingersoftware.com": -1
+          Authority: "gingersoftware.com": -1
+          Path: "PatternMatcher{PREFIX: /store}"
+          Path: "PatternMatcher{PREFIX: /store}"
+          Path: "PatternMatcher{PREFIX: /store}"
+          Path: "PatternMatcher{PREFIX: /store}"
+      https:
+        d1e031e com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareActivity filter d2c6415
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.gingersoftware.com": -1
+          Authority: "www.gingersoftware.com": -1
+          Authority: "gingersoftware.com": -1
+          Authority: "gingersoftware.com": -1
+          Path: "PatternMatcher{PREFIX: /store}"
+          Path: "PatternMatcher{PREFIX: /store}"
+          Path: "PatternMatcher{PREFIX: /store}"
+          Path: "PatternMatcher{PREFIX: /store}"
+      fbconnect:
+        171cb32 com.gingersoftware.android.keyboard/com.facebook.CustomTabActivity filter 408f083
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.gingersoftware.android.keyboard": -1
+      share_facebook:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 4572664
+          Action: "com.gingersoftware.android.keyboard.SEND_FACEBOOK"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_facebook"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        fa3332a com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.StartActivity filter e8fc51b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f2756b8 com.gingersoftware.android.keyboard/org.pocketworkstation.pckeyboard.GingerIMESettings filter a7c2c91
+          Action: "android.intent.action.MAIN"
+        286bada com.gingersoftware.android.keyboard/org.pocketworkstation.pckeyboard.LatinIMESettings filter ee82b0b
+          Action: "android.intent.action.MAIN"
+        b79dde8 com.gingersoftware.android.keyboard/org.pocketworkstation.pckeyboard.LatinIMEDebugSettings filter df05c01
+          Action: "android.intent.action.MAIN"
+        525aaa6 com.gingersoftware.android.keyboard/org.pocketworkstation.pckeyboard.PrefScreenActions filter d6c6ce7
+          Action: "android.intent.action.MAIN"
+          Action: "org.pocketworkstation.pckeyboard.PREFS_ACTIONS"
+          Category: "android.intent.category.DEFAULT"
+        202f094 com.gingersoftware.android.keyboard/org.pocketworkstation.pckeyboard.PrefScreenView filter 705b73d
+          Action: "android.intent.action.MAIN"
+          Action: "org.pocketworkstation.pckeyboard.PREFS_VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.gingersoftware.android.keyboard.CONFIGURE_WIDGET:
+        bfafd82 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.WidgetConfigureActivity filter 7a7bc93
+          Action: "com.gingersoftware.android.keyboard.CONFIGURE_WIDGET"
+          Category: "android.intent.category.DEFAULT"
+      org.pocketworkstation.pckeyboard.PREFS_VIEW:
+        202f094 com.gingersoftware.android.keyboard/org.pocketworkstation.pckeyboard.PrefScreenView filter 705b73d
+          Action: "android.intent.action.MAIN"
+          Action: "org.pocketworkstation.pckeyboard.PREFS_VIEW"
+          Category: "android.intent.category.DEFAULT"
+      org.pocketworkstation.pckeyboard.PREFS_ACTIONS:
+        525aaa6 com.gingersoftware.android.keyboard/org.pocketworkstation.pckeyboard.PrefScreenActions filter d6c6ce7
+          Action: "android.intent.action.MAIN"
+          Action: "org.pocketworkstation.pckeyboard.PREFS_ACTIONS"
+          Category: "android.intent.category.DEFAULT"
+      com.gingersoftware.android.keyboard.PICK_WIDGET:
+        2df6fce com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.GingerWidgetPickerActivity filter 4878eef
+          Action: "com.gingersoftware.android.keyboard.PICK_WIDGET"
+          Category: "android.intent.category.DEFAULT"
+      com.gingersoftware.android.keyboard.HANDLE_NOTIFICATION:
+        71eddfc com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.NotificationHandlerActivity filter caf7c85
+          Action: "com.gingersoftware.android.keyboard.HANDLE_NOTIFICATION"
+          Category: "android.intent.category.DEFAULT"
+      com.gingersoftware.android.keyboard.CONFIGURE_WIDGET_JB:
+        a9244d0 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.WidgetConfigureActivityJB filter a1edcc9
+          Action: "com.gingersoftware.android.keyboard.CONFIGURE_WIDGET_JB"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        d1e031e com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareActivity filter 1eea7ff
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      com.gingersoftware.android.keyboard.SEND_CLIPBOARD:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter c2600cd
+          Action: "com.gingersoftware.android.keyboard.SEND_CLIPBOARD"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_clipboard"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      com.gingersoftware.android.keyboard.SEND_MAIL:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 95b97f7
+          Action: "com.gingersoftware.android.keyboard.SEND_MAIL"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_mail"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      com.gingersoftware.android.keyboard.SEND_FACEBOOK:
+        59957f6 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.activities.ShareHelperActivity filter 4572664
+          Action: "com.gingersoftware.android.keyboard.SEND_FACEBOOK"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "share_facebook"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        1d4ae3a com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter f800aeb
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        b590a5c com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 539a165
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.location.PROVIDERS_CHANGED:
+        7fd0060 com.gingersoftware.android.keyboard/com.batch.android.ProvidersChangedBroadcastReceiver filter 7169919
+          Action: "android.location.PROVIDERS_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        99a7048 com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 4a7eee1
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        ccf64e2 com.gingersoftware.android.keyboard/com.gingersoftware.android.eventdispatcher.EventDispatcherNetworkChangeReceiver filter dd70073
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+        94f7406 com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter ed26ac7
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        c82ed2e com.gingersoftware.android.keyboard/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 79730cf
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        99a7048 com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 4a7eee1
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        9688200 com.gingersoftware.android.keyboard/com.appsflyer.MultipleInstallBroadcastReceiver filter 51b8a39
+          Action: "com.android.vending.INSTALL_REFERRER"
+        1ed687e com.gingersoftware.android.keyboard/com.google.android.gms.analytics.CampaignTrackingReceiver filter 76011df
+          Action: "com.android.vending.INSTALL_REFERRER"
+        ad3be2c com.gingersoftware.android.keyboard/com.gingersoftware.android.app.RefferalReceiverForBI filter 22190f5
+          Action: "com.android.vending.INSTALL_REFERRER"
+        6d49118 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.TMeIntentReceiver filter d474771
+          Action: "com.gingersoftware.android.keyboard.TME_THEME_RECEIVED"
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.gingersoftware.android.keyboard.TME_THEME_RECEIVED:
+        6d49118 com.gingersoftware.android.keyboard/com.gingersoftware.android.app.TMeIntentReceiver filter d474771
+          Action: "com.gingersoftware.android.keyboard.TME_THEME_RECEIVED"
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        1840956 com.gingersoftware.android.keyboard/com.batch.android.BatchPushReceiver filter e945dd7
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.gingersoftware.android.keyboard"
+        50da6c4 com.gingersoftware.android.keyboard/com.gingersoftware.android.internal.push.PushReceiver filter f37e9ad
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.gingersoftware.android.keyboard"
+        2a06b30 com.gingersoftware.android.keyboard/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 61673a9
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        1d4ae3a com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter f800aeb
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        90a48f4 com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.RescheduleReceiver filter c53981d
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        90a48f4 com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.RescheduleReceiver filter c53981d
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        90a48f4 com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.RescheduleReceiver filter c53981d
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        99afdde com.gingersoftware.android.keyboard/com.batch.android.BootCompletedBroadcastReceiver filter 80bebbf
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        b590a5c com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 539a165
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        4f38e8a com.gingersoftware.android.keyboard/com.gingersoftware.android.app.PackageReplacedReceiver filter 9ddecfb
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        b5eca92 com.gingersoftware.android.keyboard/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 800ec63
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        aee7b78 com.gingersoftware.android.keyboard/com.gingersoftware.android.eventdispatcher.EventDispatcherGcmTaskService filter 7f95251 permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+      com.gingersoftware.android.keyboard.wp_service.ACTION_BIND:
+        4d519ea com.gingersoftware.android.keyboard/com.gingersoftware.android.internal.wp.WPService filter 19d84db
+          Action: "com.gingersoftware.android.keyboard.wp_service.ACTION_BIND"
+      android.view.InputMethod:
+        3a1c28c com.gingersoftware.android.keyboard/.GingerLatinIMEAdapter filter 96eadd5 permission android.permission.BIND_INPUT_METHOD
+          Action: "android.view.InputMethod"
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          gingersoftware.com
+          www.gingersoftware.com
+
+Permissions:
+  Permission [com.gingersoftware.android.keyboard.permission.C2D_MESSAGE] (3c55acb):
+    sourcePackage=com.gingersoftware.android.keyboard
+    uid=10152 gids=[] type=0 prot=signature
+    perm=PermissionInfo{b3b2a8 com.gingersoftware.android.keyboard.permission.C2D_MESSAGE}
+
+Registered ContentProviders:
+  com.gingersoftware.android.keyboard/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{2e271c1 com.gingersoftware.android.keyboard/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.gingersoftware.android.keyboard/com.facebook.FacebookContentProvider:
+    Provider{5596d66 com.gingersoftware.android.keyboard/com.facebook.FacebookContentProvider}
+  com.gingersoftware.android.keyboard/androidx.work.impl.WorkManagerInitializer:
+    Provider{94cd8a7 com.gingersoftware.android.keyboard/androidx.work.impl.WorkManagerInitializer}
+  com.gingersoftware.android.keyboard/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{7e55154 com.gingersoftware.android.keyboard/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.gingersoftware.android.keyboard/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{66368fd com.gingersoftware.android.keyboard/com.google.firebase.provider.FirebaseInitProvider}
+  com.gingersoftware.android.keyboard/com.facebook.internal.FacebookInitProvider:
+    Provider{2fef9f2 com.gingersoftware.android.keyboard/com.facebook.internal.FacebookInitProvider}
+  com.gingersoftware.android.keyboard/com.facebook.ads.AudienceNetworkContentProvider:
+    Provider{9e45843 com.gingersoftware.android.keyboard/com.facebook.ads.AudienceNetworkContentProvider}
+  com.gingersoftware.android.keyboard/com.gingersoftware.android.internal.utils.GingerFileProvider:
+    Provider{ff02ec0 com.gingersoftware.android.keyboard/com.gingersoftware.android.internal.utils.GingerFileProvider}
+
+ContentProvider Authorities:
+  [com.gingersoftware.android.keyboard.FacebookInitProvider]:
+    Provider{2fef9f2 com.gingersoftware.android.keyboard/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{297f9 com.gingersoftware.android.keyboard}
+  [com.gingersoftware.android.keyboard.firebaseperfprovider]:
+    Provider{7e55154 com.gingersoftware.android.keyboard/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{efec33e com.gingersoftware.android.keyboard}
+  [com.gingersoftware.android.keyboard.AudienceNetworkContentProvider]:
+    Provider{9e45843 com.gingersoftware.android.keyboard/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{1ea359f com.gingersoftware.android.keyboard}
+  [com.gingersoftware.android.keyboard.workmanager-init]:
+    Provider{94cd8a7 com.gingersoftware.android.keyboard/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{50976ec com.gingersoftware.android.keyboard}
+  [com.gingersoftware.keyboard]:
+    Provider{ff02ec0 com.gingersoftware.android.keyboard/com.gingersoftware.android.internal.utils.GingerFileProvider}
+      applicationInfo=ApplicationInfo{dcbbab5 com.gingersoftware.android.keyboard}
+  [com.facebook.app.FacebookContentProvider356809111036290]:
+    Provider{5596d66 com.gingersoftware.android.keyboard/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{f9fd54a com.gingersoftware.android.keyboard}
+  [com.gingersoftware.android.keyboard.mobileadsinitprovider]:
+    Provider{2e271c1 com.gingersoftware.android.keyboard/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{b468cbb com.gingersoftware.android.keyboard}
+  [com.gingersoftware.android.keyboard.firebaseinitprovider]:
+    Provider{66368fd com.gingersoftware.android.keyboard/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{f8d15d8 com.gingersoftware.android.keyboard}
+
+Key Set Manager:
+  [com.gingersoftware.android.keyboard]
+      Signing KeySets: 83
+
+Packages:
+  Package [com.gingersoftware.android.keyboard] (ad96b59):
+    userId=10152
+    sharedUser=SharedUserSetting{8ca4d31 com.gingersoftware.android.keyboard/10152}
+    pkg=Package{68dfc16 com.gingersoftware.android.keyboard}
+    codePath=/data/app/~~SuM5-72YXIwFCzXpKGJWLQ==/com.gingersoftware.android.keyboard-fBX4o-RSHMptZQDx8v4Teg==
+    resourcePath=/data/app/~~SuM5-72YXIwFCzXpKGJWLQ==/com.gingersoftware.android.keyboard-fBX4o-RSHMptZQDx8v4Teg==
+    legacyNativeLibraryDir=/data/app/~~SuM5-72YXIwFCzXpKGJWLQ==/com.gingersoftware.android.keyboard-fBX4o-RSHMptZQDx8v4Teg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=9000713 minSdk=17 targetSdk=30
+    minExtensionVersions=[]
+    versionName=9.7.3
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{68dfc16 com.gingersoftware.android.keyboard}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    dataDir=/data/user/0/com.gingersoftware.android.keyboard
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-31 14:55:04
+    firstInstallTime=2025-05-31 14:55:04
+    lastUpdateTime=2025-05-31 14:55:04
+    signatures=PackageSignatures{c473997 version:2, signatures:[8a1554cb], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.gingersoftware.android.keyboard.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      com.android.vending.BILLING
+      android.permission.READ_CONTACTS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.GET_ACCOUNTS
+      android.permission.VIBRATE
+      android.permission.READ_USER_DICTIONARY
+      android.permission.WRITE_USER_DICTIONARY
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.GET_TASKS
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.gingersoftware.android.keyboard.permission.C2D_MESSAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      com.gingersoftware.android.keyboard.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_USER_DICTIONARY: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.READ_USER_DICTIONARY: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=133103 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.gingersoftware.android.keyboard
+    com.google.android.settings.intelligence:
+      com.gingersoftware.android.keyboard
+    com.google.android.apps.youtube.music:
+      com.gingersoftware.android.keyboard
+    com.google.android.apps.maps:
+      com.gingersoftware.android.keyboard
+    com.google.android.youtube:
+      com.gingersoftware.android.keyboard
+    com.google.android.apps.photos:
+      com.gingersoftware.android.keyboard
+    com.gingersoftware.android.keyboard:
+      com.google.android.setupwizard
+      org.chromium.webview_shell
+      com.android.chrome
+      com.google.android.apps.docs
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [com.gingersoftware.android.keyboard] (8ca4d31):
+    userId=10152
+    Packages
+      PackageSetting{ad96b59 com.gingersoftware.android.keyboard/10152}
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      com.gingersoftware.android.keyboard.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_USER_DICTIONARY: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.READ_USER_DICTIONARY: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: 
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false
+
+Package Changes:
+  Sequence number=18
+  User 0:
+    seq=5, package=com.google.android.gms
+    seq=9, package=com.autolauncher.motorcar.free
+    seq=11, package=com.google.android.apps.docs
+    seq=15, package=com.yum.pizzahut
+    seq=16, package=io.github.ylimit.droidbotapp
+    seq=17, package=com.gingersoftware.android.keyboard
+
+
+Dexopt state:
+  [com.gingersoftware.android.keyboard]
+    path: /data/app/~~SuM5-72YXIwFCzXpKGJWLQ==/com.gingersoftware.android.keyboard-fBX4o-RSHMptZQDx8v4Teg==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.gingersoftware.android.keyboard]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7128  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:32         now          10       27342           0           0           2           2           0
+          1:32        0:32           9       43814           0           0           4           2           0
+          2:32        1:32          19       32125           0           0           3           4           1
+          3:32        2:32          21       57446           0           0           5           3           1
+          4:32        3:32          19       24319           0           0           3           6           2
+          5:32        4:32         139       52017           0           0          11          44           8
+          5:32         now         217      237063           0           0          28          64           8
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:32         now          10           0           0           0           0           0           0           0
+          1:32        0:32           9           0           0           0           0           0           0           0
+          2:32        1:32          19           0           0           0           0           0           0           0
+          3:32        2:32          21           0           0           0           0           0           0           0
+          4:32        3:32          18           1           0           0           0           0           0           0
+          5:32        4:32         135           2           0           2           0           0           0           0
+          5:32         now         212           3           0           2           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:32         now           1           0           1           0           0           1           0           7
+          1:32        0:32           3           1           0           0           1           0           0           4
+          2:32        1:32           2           0           1           0           0           5           2           9
+          3:32        2:32           5           0           0           0           1           2           1          12
+          4:32        3:32           1           0           2           1           0           1           0          14
+          5:32        4:32           5           3           2           6           6          25          13          78
+          5:32         now          17           4           6           7           8          34          16         124

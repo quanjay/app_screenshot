@@ -1,0 +1,423 @@
+Activity Resolver Table:
+  Schemes:
+      fb1346929395371293:
+        1a4fc95 com.dave/com.facebook.CustomTabActivity filter 87321aa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb1346929395371293"
+      dave:
+        b09c7c6 com.dave/.MainActivity filter 419144c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "dave"
+      http:
+        b09c7c6 com.dave/.MainActivity filter 45822b4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /m}"
+        b09c7c6 com.dave/.MainActivity filter eca9a52
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /app}"
+        b09c7c6 com.dave/.MainActivity filter 1aeb620
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /uni}"
+        b09c7c6 com.dave/.MainActivity filter e54099e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /email-verified}"
+      https:
+        b09c7c6 com.dave/.MainActivity filter f51cedd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /m}"
+        b09c7c6 com.dave/.MainActivity filter 4b4e123
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /app}"
+        b09c7c6 com.dave/.MainActivity filter fa17bd9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /uni}"
+        b09c7c6 com.dave/.MainActivity filter 2ea6c7f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "dave.com": -1
+          Path: "PatternMatcher{PREFIX: /email-verified}"
+      plaid:
+        ee92938 com.dave/com.plaid.internal.LinkRedirectActivity filter d25cd11
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "plaid"
+          Authority: "redirect": -1
+      fbconnect:
+        1a4fc95 com.dave/com.facebook.CustomTabActivity filter c3519b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.dave": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        b09c7c6 com.dave/.MainActivity filter 72c9387
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        b09c7c6 com.dave/.MainActivity filter 72c9387
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        2e4164e com.dave/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 83d736f
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        16be750 com.dave/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 34c0d49
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        230287c com.dave/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 6bf3505
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        86f495a com.dave/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 557d78b
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        6a3a0e4 com.dave/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 309294d
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        230287c com.dave/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 6bf3505
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.google.android.c2dm.intent.RECEIVE:
+        9b9ae76 com.dave/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver filter c7b6c77
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+        40a3c02 com.dave/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 2305913
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        2e4164e com.dave/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 83d736f
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        a955068 com.dave/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8831c81
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        a955068 com.dave/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8831c81
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        a955068 com.dave/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8831c81
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        16be750 com.dave/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 34c0d49
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        fa30b14 com.dave/androidx.work.impl.diagnostics.DiagnosticsReceiver filter b43ffbd
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        f48a126 com.dave/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter c6a6167
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        d0da9b2 com.dave/com.appboy.AppboyFirebaseMessagingService filter a31ad03
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        d2fc480 com.dave/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService filter 635dab9
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        1a8aefe com.dave/com.google.firebase.messaging.FirebaseMessagingService filter 98165f
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          dave.com
+
+Registered ContentProviders:
+  com.dave/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{a296144 com.dave/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  com.dave/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{dd9522d com.dave/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.dave/com.imagepicker.ImagePickerProvider:
+    Provider{85fe362 com.dave/com.imagepicker.ImagePickerProvider}
+  com.dave/androidx.core.content.FileProvider:
+    Provider{7e7dcf3 com.dave/androidx.core.content.FileProvider}
+  com.dave/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{9fd4db0 com.dave/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.dave/expo.modules.filesystem.FileSystemFileProvider:
+    Provider{4a5e429 com.dave/expo.modules.filesystem.FileSystemFileProvider}
+  com.dave/com.burnweb.rnsendintent.FileProvider:
+    Provider{6dcd3ae com.dave/com.burnweb.rnsendintent.FileProvider}
+  com.dave/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{b19554f com.dave/com.google.firebase.provider.FirebaseInitProvider}
+  com.dave/com.facebook.internal.FacebookInitProvider:
+    Provider{be194dc com.dave/com.facebook.internal.FacebookInitProvider}
+  com.dave/cl.json.RNShareFileProvider:
+    Provider{88f99e5 com.dave/cl.json.RNShareFileProvider}
+  com.dave/com.RNFetchBlob.Utils.FileProvider:
+    Provider{2267cba com.dave/com.RNFetchBlob.Utils.FileProvider}
+  com.dave/androidx.startup.InitializationProvider:
+    Provider{63ff76b com.dave/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.dave.imagepickerprovider]:
+    Provider{85fe362 com.dave/com.imagepicker.ImagePickerProvider}
+      applicationInfo=ApplicationInfo{e6122c8 com.dave}
+  [com.dave.lifecycle-process]:
+    Provider{dd9522d com.dave/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{6a4ef61 com.dave}
+  [com.dave.FileSystemFileProvider]:
+    Provider{4a5e429 com.dave/expo.modules.filesystem.FileSystemFileProvider}
+      applicationInfo=ApplicationInfo{b2faa86 com.dave}
+  [com.dave.fileprovider]:
+    Provider{a296144 com.dave/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{2e49f47 com.dave}
+  [com.dave.firebaseinitprovider]:
+    Provider{b19554f com.dave/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{bc9a374 com.dave}
+  [com.dave.FacebookInitProvider]:
+    Provider{be194dc com.dave/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{460209d com.dave}
+  [com.dave.mlkitinitprovider]:
+    Provider{9fd4db0 com.dave/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{d4be912 com.dave}
+  [com.dave.rnshare.fileprovider]:
+    Provider{88f99e5 com.dave/cl.json.RNShareFileProvider}
+      applicationInfo=ApplicationInfo{41e8e3 com.dave}
+  [com.dave.provider]:
+    Provider{7e7dcf3 com.dave/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{39782e0 com.dave}
+  [com.dave.androidx-startup]:
+    Provider{63ff76b com.dave/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{aa32999 com.dave}
+
+Key Set Manager:
+  [com.dave]
+      Signing KeySets: 87
+
+Packages:
+  Package [com.dave] (37b845e):
+    userId=10156
+    pkg=Package{ca0303f com.dave}
+    codePath=/data/app/~~r8isaj3vgN9mbVOgDrKNYA==/com.dave-mrTlJpVtT8e3F1ajULf4lA==
+    resourcePath=/data/app/~~r8isaj3vgN9mbVOgDrKNYA==/com.dave-mrTlJpVtT8e3F1ajULf4lA==
+    legacyNativeLibraryDir=/data/app/~~r8isaj3vgN9mbVOgDrKNYA==/com.dave-mrTlJpVtT8e3F1ajULf4lA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=293 minSdk=22 targetSdk=30
+    minExtensionVersions=[]
+    versionName=2.67.2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{ca0303f com.dave}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.dave
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-31 14:58:47
+    firstInstallTime=2025-05-31 14:58:47
+    lastUpdateTime=2025-05-31 14:58:47
+    signatures=PackageSignatures{ea1ed0c version:3, signatures:[52a34162], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.CAMERA
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.VIBRATE
+      android.permission.USE_BIOMETRIC
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.READ_CONTACTS
+      android.permission.NFC
+      com.google.android.gms.permission.AD_ID
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WAKE_LOCK
+      android.permission.USE_FINGERPRINT
+      android.permission.ACCESS_COARSE_LOCATION
+      com.android.vending.CHECK_LICENSE
+      android.permission.READ_SECURE_SETTINGS
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.FOREGROUND_SERVICE
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.NFC: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=139396 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.READ_PHONE_STATE: granted=false
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.dave
+    com.google.android.settings.intelligence:
+      com.dave
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=30
+  User 0:
+    seq=5, package=com.google.android.gms
+    seq=9, package=com.autolauncher.motorcar.free
+    seq=15, package=com.yum.pizzahut
+    seq=20, package=com.gingersoftware.android.keyboard
+    seq=22, package=com.google.android.apps.docs
+    seq=27, package=com.mercariapp.mercari
+    seq=28, package=io.github.ylimit.droidbotapp
+    seq=29, package=com.dave
+
+
+Dexopt state:
+  [com.dave]
+    path: /data/app/~~r8isaj3vgN9mbVOgDrKNYA==/com.dave-mrTlJpVtT8e3F1ajULf4lA==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.dave]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 2  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:13         now          10       25197           0           0           2           2           0
+          1:13        0:13          10       49819           0           0           3           7           6
+          2:13        1:13          27       29321           0           0           2           6           2
+          3:13        2:13          12       60028           0           0           3           6           2
+          4:13        3:13          24       47620           0           0           3           4           0
+          5:13        4:13           9       43814           0           0           4           2           0
+          6:13        5:13          19       32125           0           0           3           4           1
+          7:13        6:13          21       57446           0           0           5           3           1
+          8:13        7:13          19       24319           0           0           3           6           2
+          9:13        8:13         139       52017           0           0          11          44           8
+          9:13         now         290      421706           0           0          39          89           8
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:13         now          10           0           0           0           0           0           0           0
+          1:13        0:13           9           0           0           1           0           0           0           0
+          2:13        1:13          26           1           0           0           0           0           0           0
+          3:13        2:13          11           1           0           0           0           0           0           0
+          4:13        3:13          24           0           0           0           0           0           0           0
+          5:13        4:13           9           0           0           0           0           0           0           0
+          6:13        5:13          19           0           0           0           0           0           0           0
+          7:13        6:13          21           0           0           0           0           0           0           0
+          8:13        7:13          18           1           0           0           0           0           0           0
+          9:13        8:13         135           2           0           2           0           0           0           0
+          9:13         now         282           5           0           3           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:13         now           1           1           0           1           0           0           0           7
+          1:13        0:13           3           0           0           2           0           0           0           5
+          2:13        1:13           2           0           0           2           1           4           1          17
+          3:13        2:13           3           0           0           0           1           0           0           8
+          4:13        3:13           2           0           1           1           0           4           2          14
+          5:13        4:13           3           1           0           0           1           0           0           4
+          6:13        5:13           2           0           1           0           0           5           2           9
+          7:13        6:13           5           0           0           0           1           2           1          12
+          8:13        7:13           1           0           2           1           0           1           0          14
+          9:13        8:13           5           3           2           6           6          25          13          78
+          9:13         now          27           5           6          13          10          41          19         168

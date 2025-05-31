@@ -1,0 +1,221 @@
+Activity Resolver Table:
+  Schemes:
+      tagmanager.c.com.yum.pizzahut:
+        a3cbbae com.yum.pizzahut/com.google.android.gms.tagmanager.TagManagerPreviewActivity filter 39f1d4f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tagmanager.c.com.yum.pizzahut"
+      pizzahut:
+        e114b62 com.yum.pizzahut/com.isobar.pizzahut.android.MainActivity filter 850f5b0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pizzahut"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e114b62 com.yum.pizzahut/com.isobar.pizzahut.android.MainActivity filter 22124f3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.yum.pizzahut.intent.APPBOY_NOTIFICATION_OPENED:
+        e114b62 com.yum.pizzahut/com.isobar.pizzahut.android.MainActivity filter b746c29
+          Action: "com.yum.pizzahut.intent.APPBOY_NOTIFICATION_OPENED"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.android.vending.INSTALL_REFERRER:
+        f9ce4ba com.yum.pizzahut/com.appsflyer.SingleInstallBroadcastReceiver filter 55a3f6b
+          Action: "com.android.vending.INSTALL_REFERRER"
+        da49286 com.yum.pizzahut/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter d5b6747
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        e81cac8 com.yum.pizzahut/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 7bc7761
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BOOT_COMPLETED:
+        fc7bcdc com.yum.pizzahut/com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver filter 1bea1e5
+          Action: "android.intent.action.BOOT_COMPLETED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        14ccb74 com.yum.pizzahut/com.isobar.pizzahut.android.PizzaHutFirebaseMessagingService filter 368289d
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        6275112 com.yum.pizzahut/com.google.firebase.messaging.FirebaseMessagingService filter f5d30e3
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.yum.pizzahut/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{cfca936 com.yum.pizzahut/com.google.firebase.provider.FirebaseInitProvider}
+  com.yum.pizzahut/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{8e6b037 com.yum.pizzahut/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+
+ContentProvider Authorities:
+  [com.yum.pizzahut.fileprovider]:
+    Provider{8e6b037 com.yum.pizzahut/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{573f9a4 com.yum.pizzahut}
+  [com.yum.pizzahut.firebaseinitprovider]:
+    Provider{cfca936 com.yum.pizzahut/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{149730d com.yum.pizzahut}
+
+Key Set Manager:
+  [com.yum.pizzahut]
+      Signing KeySets: 81
+
+Packages:
+  Package [com.yum.pizzahut] (66222c2):
+    userId=10150
+    pkg=Package{26c18d3 com.yum.pizzahut}
+    codePath=/data/app/~~_EjMjtN_R92KNXz8acXGww==/com.yum.pizzahut-awg_iv1VRbf7jEP6VdSNAw==
+    resourcePath=/data/app/~~_EjMjtN_R92KNXz8acXGww==/com.yum.pizzahut-awg_iv1VRbf7jEP6VdSNAw==
+    legacyNativeLibraryDir=/data/app/~~_EjMjtN_R92KNXz8acXGww==/com.yum.pizzahut-awg_iv1VRbf7jEP6VdSNAw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1752744408 minSdk=24 targetSdk=30
+    minExtensionVersions=[]
+    versionName=5.24.1
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{26c18d3 com.yum.pizzahut}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.yum.pizzahut
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-31 14:53:06
+    firstInstallTime=2025-05-31 14:53:07
+    lastUpdateTime=2025-05-31 14:53:07
+    signatures=PackageSignatures{dc90c10 version:3, signatures:[fcf5046d], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.CAMERA
+      android.permission.VIBRATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.USE_FINGERPRINT
+      android.permission.USE_BIOMETRIC
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=133142 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.READ_PHONE_STATE: granted=false
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.yum.pizzahut
+    com.google.android.settings.intelligence:
+      com.yum.pizzahut
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=14
+  User 0:
+    seq=5, package=com.google.android.gms
+    seq=9, package=com.autolauncher.motorcar.free
+    seq=11, package=com.google.android.apps.docs
+    seq=12, package=io.github.ylimit.droidbotapp
+    seq=13, package=com.yum.pizzahut
+
+
+Dexopt state:
+  [com.yum.pizzahut]
+    path: /data/app/~~_EjMjtN_R92KNXz8acXGww==/com.yum.pizzahut-awg_iv1VRbf7jEP6VdSNAw==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.yum.pizzahut]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 12  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:34         now           9       25735           0           0           1           3           1
+          1:34        0:34          21       57446           0           0           5           3           1
+          2:34        1:34          19       24319           0           0           3           6           2
+          3:34        2:34         139       52017           0           0          11          44           8
+          3:34         now         188      159517           0           0          20          58           8
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:34         now           9           0           0           0           0           0           0           0
+          1:34        0:34          21           0           0           0           0           0           0           0
+          2:34        1:34          18           1           0           0           0           0           0           0
+          3:34        2:34         135           2           0           2           0           0           0           0
+          3:34         now         183           3           0           2           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:34         now           1           0           0           0           0           1           1           6
+          1:34        0:34           5           0           0           0           1           2           1          12
+          2:34        1:34           1           0           2           1           0           1           0          14
+          3:34        2:34           5           3           2           6           6          25          13          78
+          3:34         now          12           3           4           7           7          29          15         110

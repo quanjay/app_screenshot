@@ -1,0 +1,1054 @@
+--------- beginning of main
+05-31 15:08:23.227  1323  1323 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420 
+05-31 15:08:23.230   590  1820 W InputManager-JNI: Input channel object '86625df InputMethod (client)' was disposed without first being removed with the input manager!
+05-31 15:08:23.233  1323  1323 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():109 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+05-31 15:08:23.236  1323  1323 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in eyj
+05-31 15:08:23.237  1323  1323 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fci
+05-31 15:08:23.240  1323  1323 I KeyboardViewController: KeyboardViewController.clearSubViewControllerInternal():411 Clears keyboard sub view controller for keyboardType: null, viewType: HEADER, viewId: 2131428269(#0x7f0b03ad),which has not been set.
+05-31 15:08:23.244  1323  1323 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():514 Destroy existing keyboard group manager in fau
+05-31 15:08:23.248  1323  2196 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroyServiceInternal():81 onDestroyServiceInternal()
+05-31 15:08:23.250  1323  1323 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in eyj.
+05-31 15:08:23.250  1323  1323 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fci.
+05-31 15:08:23.254  1323  1323 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():527 KeyboardGroupManager destroyed in fau.
+--------- beginning of system
+05-31 15:08:23.968   590   628 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-31 15:08:24.137  4952  4952 I abb     : StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+05-31 15:08:24.136   590   590 W Binder:590_1B: type=1400 audit(0.0:185): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 15:08:24.146  4952  4952 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+05-31 15:08:24.136   590   590 W Binder:590_1B: type=1400 audit(0.0:186): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 15:08:24.136   590   590 W Binder:590_1B: type=1400 audit(0.0:187): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 15:08:24.284   590   590 W Binder:590_1B: type=1400 audit(0.0:188): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 15:08:24.444   590   663 I PackageManager: Integrity check passed for file:///data/app/vmdl242171002.tmp
+05-31 15:08:24.488   590   663 I PackageManager: Permission ownership changed. Updating all permissions.
+05-31 15:08:24.532   590   663 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~iVQjodcBAMOQ9ih_qEtMgw==/org.readera-fqnmHTtl46p4h7MC-lm4uQ==/base.apk pkg=org.readera isa=x86_64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~iVQjodcBAMOQ9ih_qEtMgw==/org.readera-fqnmHTtl46p4h7MC-lm4uQ==/oat classLoaderContext=PCL[]{}
+05-31 15:08:24.546  1360  6521 I MediaProvider: Invalidating LocalCallingIdentity cache for package org.readera. Reason: op android:read_external_storage
+05-31 15:08:24.547  1360  6521 I MediaProvider: Invalidating LocalCallingIdentity cache for package org.readera. Reason: op android:read_external_storage
+05-31 15:08:24.547  1360  6521 I MediaProvider: Invalidating LocalCallingIdentity cache for package org.readera. Reason: op android:read_external_storage
+05-31 15:08:24.550 30516 30516 W dex2oat64: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 15:08:24.550 30516 30516 W dex2oat64: Mismatch between dex2oat instruction set features to use (ISA: X86_64 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86_64 Feature string: ssse3,sse4.1,sse4.2,-avx,-avx2,popcnt) for the command line:
+05-31 15:08:24.550 30516 30516 W dex2oat64: /apex/com.android.art/bin/dex2oat64 --zip-fd=7 --zip-location=base.apk --oat-fd=8 --oat-location=/data/app/~~iVQjodcBAMOQ9ih_qEtMgw==/org.readera-fqnmHTtl46p4h7MC-lm4uQ==/oat/x86_64/base.odex --input-vdex-fd=-1 --output-vdex-fd=9 --swap-fd=10 --classpath-dir=/data/app/~~iVQjodcBAMOQ9ih_qEtMgw==/org.readera-fqnmHTtl46p4h7MC-lm4uQ== --class-loader-context=PCL[]{} --compact-dex-level=none --instruction-set=x86_64 --instruction-set-features=default --instruction-set-variant=x86_64 --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info --runtime-arg -Xtarget-sdk-version:30 --runtime-arg -Xhidden-api-policy:enabled --runtime-arg -Xms64m --runtime-arg -Xmx512m
+05-31 15:08:24.550 30516 30516 I dex2oat64: /apex/com.android.art/bin/dex2oat64 --input-vdex-fd=-1 --output-vdex-fd=9 --classpath-dir=/data/app/~~iVQjodcBAMOQ9ih_qEtMgw==/org.readera-fqnmHTtl46p4h7MC-lm4uQ== --class-loader-context=PCL[]{} --compact-dex-level=none --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info
+05-31 15:08:25.040 30516 30516 I dex2oat64: dex2oat took 490.683ms (1.391s cpu) (threads: 4) arena alloc=0B (0B) java alloc=8173KB (8369872B) native alloc=1864KB (1909664B) free=1069KB (1094896B)
+05-31 15:08:25.056   409   409 E installd: Couldn't opendir /data/app/vmdl242171002.tmp: No such file or directory
+05-31 15:08:25.056   409   409 E installd: Failed to delete /data/app/vmdl242171002.tmp: No such file or directory
+05-31 15:08:25.052   590   590 W Binder:590_1B: type=1400 audit(0.0:189): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 15:08:25.070  1360  1360 I MediaProvider: Invalidating LocalCallingIdentity cache for package org.readera. Reason: package android.intent.action.PACKAGE_ADDED
+05-31 15:08:25.052   590   590 W Binder:590_1B: type=1400 audit(0.0:190): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 15:08:25.073   590   698 I RoleService: Granting default roles...
+05-31 15:08:25.052   590   590 W Binder:590_1B: type=1400 audit(0.0:191): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+05-31 15:08:25.085   590   705 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 15:08:25.096  1376  1376 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) }
+05-31 15:08:25.097  1608 26912 I PermissionControllerServiceImpl: Updating user sensitive for uid 10168
+05-31 15:08:25.099  2831  2831 I Finsky  : [2] adcs.g(1): adcs - Received: android.intent.action.PACKAGE_ADDED, [YWxJjCmVzskmLV8JLrCMTCipFy9mwgGs98_SqzAD6ic]
+05-31 15:08:25.101  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 15:08:25.102   590   590 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@APU
+05-31 15:08:25.104 12332 12332 I Finsky:background: [2] adch.g(6): adch - Received: android.intent.action.PACKAGE_ADDED, [YWxJjCmVzskmLV8JLrCMTCipFy9mwgGs98_SqzAD6ic]
+05-31 15:08:25.109   590   638 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+05-31 15:08:25.111   590   638 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+05-31 15:08:25.112   590   638 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+05-31 15:08:25.112   590   638 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+05-31 15:08:25.120  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:25.132   590   638 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+05-31 15:08:25.132   590   638 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+05-31 15:08:25.145   590   638 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+05-31 15:08:25.158   590   660 E VerityUtils: Failed to measure fs-verity, errno 1: /data/app/~~iVQjodcBAMOQ9ih_qEtMgw==/org.readera-fqnmHTtl46p4h7MC-lm4uQ==/base.apk
+05-31 15:08:25.162  2831  2831 I Finsky  : [2] xem.jr(11): DTU: Received onPackageAdded, replacing: false
+05-31 15:08:25.169  2831  2831 I Finsky  : [2] atbs.c(44): Do not start WearSupportService due to Wear service optimization
+05-31 15:08:25.169  2831  2831 I Finsky  : [2] akbb.f(9): Clearing split related stale data.
+05-31 15:08:25.173  1717 30422 I Auth    : (REDACTED) [SupervisedAccountIntentOperationV2] onHandleIntent: %s
+05-31 15:08:25.174  2831 30255 I Finsky  : [364] poo.kh(210): [ContentSync] finished, scheduled=false
+05-31 15:08:25.174  1717 30423 I Blockstore: (REDACTED) [DataStoreImpl] Clearing Blockstore Data for package %s
+05-31 15:08:25.175  1717 30423 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+05-31 15:08:25.175  1717 30423 I Dck     : (REDACTED) disableDckSupport: %s
+05-31 15:08:25.175  1717 30423 W Dck     : [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+05-31 15:08:25.175  1717 30423 I Dck     : [WirelessCapabilitiesFeatures] wccMendel: 3 [CONTEXT service_id=289 ]
+05-31 15:08:25.175  1717 30423 I Dck     : [WirelessCapabilitiesFeatures] deviceWccOverride: false [CONTEXT service_id=289 ]
+05-31 15:08:25.175  1717 30423 I Dck     : [WirelessCapabilitiesFeatures] replaceSupportedWccWithWccOverride: true [CONTEXT service_id=289 ]
+05-31 15:08:25.175   590   637 W PackageManager: Failed registering loading progress callback. Package is fully loaded.
+05-31 15:08:25.175  1717 30423 I Dck     : [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+05-31 15:08:25.175  1717 30423 I Dck     : (REDACTED) [WirelessCapabilitiesFeatures] wcc: %s
+05-31 15:08:25.175  1717 30423 I Dck     : Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+05-31 15:08:25.180  1717 30423 I Dck     : Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+05-31 15:08:25.180  1717 30423 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+05-31 15:08:25.181  1166 30415 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 15:08:25.181  1166 30409 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.readera flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+05-31 15:08:25.188  7079 30525 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:25.199  2831  2871 I Finsky  : [51] bauu.f(49): SCH: Received scheduling request: Id: 37-52, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+05-31 15:08:25.216 12332 30252 I Finsky:background: [150] ruh.accept(120): Wrote row to frosting DB: 250
+05-31 15:08:25.221  1608  1617 I ssioncontrolle: Background young concurrent copying GC freed 13372(928KB) AllocSpace objects, 0(0B) LOS objects, 48% free, 3216KB/6273KB, paused 21.344ms,86us total 59.545ms
+05-31 15:08:25.235  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:25.235  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:25.244   590   605 I system_server: Background concurrent copying GC freed 190993(10MB) AllocSpace objects, 62(2528KB) LOS objects, 49% free, 22MB/44MB, paused 997us,52us total 188.763ms
+05-31 15:08:25.248 12332 30252 I Finsky:background: [150] ruh.accept(120): Wrote row to frosting DB: 251
+05-31 15:08:25.255   590   607 W System  : A resource failed to call close. 
+05-31 15:08:25.270  2831  2883 I Finsky  : [63] sju.accept(58): SCH: Scheduling phonesky job Id: 37-52, CT: 1748704105199, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }, { L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+05-31 15:08:25.276  2831  2891 I Finsky  : [71] njf.apply(251): SCH: Scheduling 1 system job(s)
+05-31 15:08:25.277  2831  2891 I Finsky  : [71] njf.apply(412): SCH: Scheduling expedited system job 9575
+05-31 15:08:25.286  1717 30367 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+05-31 15:08:25.287  2831  2831 I Finsky  : [2] aipn.onStartJob(126): SCH: job service start with id 9575.
+05-31 15:08:25.292  1717 30367 I Icing   : Indexing done com.google.android.gms-apps
+05-31 15:08:25.294  2831 30255 I Finsky  : [364] nje.a(184): SCH: Satisfied jobs for 9575 are: 37-52
+05-31 15:08:25.295  2831 30287 I Finsky  : [372] aioi.accept(105): SCH: Job 37-52 starting
+05-31 15:08:25.296  2831  2831 I Finsky  : [2] PackageAddedOrRemovedEventJob.a(62): Received an install/uninstall event for package org.readera with replacing being false
+05-31 15:08:25.296  2831  2831 I Finsky  : [2] ainv.q(56): SCH: jobFinished: 37-52. TimeElapsed: 0ms.
+05-31 15:08:25.298  2831  2891 I Finsky  : [71] ahth.b(769): Not an active Cubes user. Ignoring package install/uninstall event.
+05-31 15:08:25.312  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:25.316  2831  2883 I Finsky  : [63] sju.accept(58): SCH: Scheduling phonesky job Id: 26-1414141414, CT: 1748679643373, Constraints: [{ L: 43199999, D: 44099999, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+05-31 15:08:25.320  2831  2893 I Finsky  : [73] njf.apply(251): SCH: Scheduling 1 system job(s)
+05-31 15:08:25.320  2831  2893 I Finsky  : [73] ains.b(244): SCH: Scheduling system job Id: 9578, L: 18738052, D: 19638052, C: false, I: false, N: 0
+05-31 15:08:25.327  2831 30287 I Finsky  : [372] aipn.a(24): SCH: job service finished with id 9575.
+05-31 15:08:25.383  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:25.386  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:25.493  1717  4000 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@15bc58a
+05-31 15:08:26.434   176   176 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+05-31 15:08:26.608   176   176 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 15:08:26.611   176   176 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+05-31 15:08:27.039  1360  6409 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:27.073   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:27.073 30560 30562 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:27.420  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230827.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:27.427  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230827.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:27.565  1360  1692 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:27.970   590  3013 I ActivityManager: Force stopping org.readera appid=10168 user=0: from pid 30589
+05-31 15:08:28.015   590   628 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+05-31 15:08:28.021   590   855 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 15:08:28.021   590   855 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 15:08:28.022   590   590 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@86192a6
+05-31 15:08:29.341  1360  1472 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:29.366   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:29.366 30611 30613 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:29.657  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230829.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:29.665  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230829.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:29.705   176   176 I servicemanager: Notifying apexservice they have clients: 1
+05-31 15:08:29.744  1360  6405 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:29.745  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:30.350  1360  6502 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:30.376   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:30.376 30650 30652 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:30.634  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230830.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:30.651  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230830.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:30.750  1360  1472 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:30.751  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:31.335  1360  6401 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:31.361   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:31.361 30689 30691 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:31.724  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230831.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:31.735  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230831.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:31.783  1166 30352 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 15:08:31.788  1166 30697 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 15:08:31.821  1360  1692 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:32.121   590   610 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.readera/com.readera.MainActivity} from uid 2000
+05-31 15:08:32.124   590   610 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=23 attached=false
+05-31 15:08:32.173   590   639 I ActivityManager: Start proc 30723:org.readera/u0a168 for pre-top-activity {org.readera/com.readera.MainActivity}
+05-31 15:08:32.181 30723 30723 W org.readera: Unexpected CPU variant for X86 using defaults: x86_64
+05-31 15:08:32.187 30723 30723 E org.readera: Not starting debugger since process cannot load the jdwp agent.
+05-31 15:08:32.224 30723 30723 I MultiDex: VM with version 2.1.0 has multidex support
+05-31 15:08:32.224 30723 30723 I MultiDex: Installing application
+05-31 15:08:32.224 30723 30723 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+05-31 15:08:32.228 30723 30723 W ComponentDiscovery: Class com.google.firebase.dynamicloading.DynamicLoadingRegistrar is not an found.
+05-31 15:08:32.232 30723 30723 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+05-31 15:08:32.236 30723 30723 I FirebaseCrashlytics: Initializing Firebase Crashlytics 17.3.1
+05-31 15:08:32.274  1376  1376 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-31 15:08:32.274  1376  1376 E HwDetectorWithState: a: 3
+05-31 15:08:32.301 30723 30742 W org.readera: Unsupported class loader
+05-31 15:08:32.303 30723 30723 I FirebaseInitProvider: FirebaseApp initialization successful
+05-31 15:08:32.342 30723 30742 W org.readera: Unsupported class loader
+05-31 15:08:32.343   590   855 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+05-31 15:08:32.343   590   855 E PackageDexUsage: Unsupported context?
+05-31 15:08:32.357 30723 30742 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:46 and remote module com.google.android.gms.measurement.dynamite:148
+05-31 15:08:32.358 30723 30742 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 148
+05-31 15:08:32.396 30723 30742 W System  : ClassLoader referenced unknown path: 
+05-31 15:08:32.437 30723 30742 W org.readera: ClassLoaderContext classpath size mismatch. expected=14, found=1 (DLC[];PCL[base.apk*3123361869:base.apk!classes2.dex*4121727785:base.apk!classes3.dex*577902322:base.apk!classes4.dex*1511137955:base.apk!classes5.dex*3994326502:base.apk!classes6.dex*3899113914:base.apk!classes7.dex*1848497157:base.apk!classes8.dex*1194602846:base.apk!classes9.dex*3560893588:base.apk!classes10.dex*515437853:base.apk!classes11.dex*2917733953:base.apk!classes12.dex*685421462:base.apk!classes13.dex*4084823322:base.apk!classes14.dex*1339497593]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]#PCL[/system/framework/org.apache.http.legacy.jar*2058259660]} | DLC[];PCL[/data/app/~~iVQjodcBAMOQ9ih_qEtMgw==/org.readera-fqnmHTtl46p4h7MC-lm4uQ==/base.apk*4082212045])
+05-31 15:08:32.580   590   610 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+05-31 15:08:32.580   590   610 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+05-31 15:08:32.587   590   590 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@7920996
+05-31 15:08:32.590  1507  1507 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 15:08:32.590  1507  1507 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=126}
+05-31 15:08:32.663   590   610 W UriGrantsManagerService: No permission grants found for org.readera
+05-31 15:08:32.735   354  1072 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10168 pid=30723
+05-31 15:08:32.735   354  1072 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10168 pid=30723
+05-31 15:08:32.755   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-31 15:08:32.756 30723 30763 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-31 15:08:32.758 30723 30763 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-31 15:08:32.814   354  1072 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+05-31 15:08:32.815   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:32.815 30723 30763 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:32.819   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+05-31 15:08:32.819 30723 30763 W Gralloc4: allocator 4.x is not supported
+05-31 15:08:32.966   590   627 I ActivityTaskManager: Displayed org.readera/com.readera.MainActivity: +843ms
+05-31 15:08:33.254   590   610 W InputManager-JNI: Input channel object '15741c8 Splash Screen org.readera (client)' was disposed without first being removed with the input manager!
+05-31 15:08:33.292 30822 30822 I openreadera: Start eraepub v22.07.16+0000+MAINR. Defines: NDEBUG
+05-31 15:08:33.358   590   698 I RoleService: Granting default roles...
+05-31 15:08:33.360   590   705 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+05-31 15:08:33.368   590   590 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@APg
+05-31 15:08:33.376  1608  1622 I PermissionControllerServiceImpl: Updating user sensitive for uid 10168
+05-31 15:08:33.387  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+05-31 15:08:33.389  7079 30831 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:33.391  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:33.434  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:33.435  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:33.444  1360  6401 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:33.493   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:33.493 30836 30838 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:33.515  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:33.573  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:33.576  1608 30380 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+05-31 15:08:33.636  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230833.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:33.644  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230833.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:33.711  1360  6409 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:33.712  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:34.205 30723 30869 I FA      : App measurement disabled via the manifest
+05-31 15:08:34.206 30723 30869 E org.readera: No package ID 6d found for ID 0x6d0b000f.
+05-31 15:08:34.208 30723 30869 I FA      : App measurement initialized, version: 126000
+05-31 15:08:34.208 30723 30869 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-31 15:08:34.209 30723 30869 I FA      : To enable faster debug mode event logging run:
+05-31 15:08:34.209 30723 30869 I FA      :   adb shell setprop debug.firebase.analytics.app org.readera
+05-31 15:08:34.296  1360  6405 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:34.316  1717 30878 I AdvertisingIdClient: shouldSendLog 62943
+05-31 15:08:34.316  1717 30878 I AdvertisingIdClient: GetInfoInternal elapse 12ms
+05-31 15:08:34.335   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:34.335 30876 30879 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:34.508  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230834.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:34.522  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230834.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:34.610  1360  6401 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:34.611  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:35.451  1360  1472 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:35.479   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:35.479 30917 30921 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:35.639  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230835.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:35.650  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230835.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:35.719  1360  1469 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:35.721  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:37.654  7079 31003 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:38.345  1360  1692 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:38.368   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:38.368 31018 31020 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:38.533  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230838.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:38.541  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230838.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:38.632  1360  6409 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:38.632  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:39.247  1360  6502 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:39.271   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:39.271 31057 31059 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:39.398  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230839.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:39.402  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230839.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:39.500  1360  6401 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:39.500  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:39.827  7079 31085 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:40.077  1360  6405 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:40.110   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:40.111 31102 31104 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:40.334  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230840.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:40.339  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230840.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:40.481  1360  1469 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:40.672   590   607 W System  : A resource failed to call release. 
+05-31 15:08:40.795  7079 31128 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:41.813  1717 31187 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+05-31 15:08:41.900  7079 31193 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:42.990  1360  1472 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:43.013   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:43.013 31210 31212 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:43.145  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230843.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:43.150  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230843.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:43.225  1360  6405 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:43.226  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:43.781  7079 31249 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:43.863  1360  1692 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:43.889   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:43.889 31255 31257 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:44.021  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230844.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:44.031  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230844.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:44.108  1360  1472 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:44.109  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:44.650  7079 31297 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:44.701  1360  6502 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:44.702   176   176 I servicemanager: Notifying apexservice they have clients: 0
+05-31 15:08:44.707   176   176 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-31 15:08:44.728   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:44.729 31300 31302 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:44.850  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230844.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:44.856  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230844.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:44.918  1360  1692 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:44.919  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:45.778  7079 31375 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:47.440  1360  6409 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:47.471   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:47.471 31399 31403 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:47.602  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230847.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:47.606  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230847.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:47.682  1360  6405 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:47.683  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:48.382  1360  6401 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:48.408   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:48.409 31438 31440 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:48.549  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230848.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:48.554  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230848.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:48.623  1360  6409 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:48.624  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:48.662  7079 31453 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:49.241  1360  1469 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:49.275   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:49.276 31484 31486 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:49.410   590  1817 W AppOps  : Noting op not finished: uid 10098 pkg com.google.android.gms code 113 startTime of in progress event=1748702983644
+05-31 15:08:49.411   590   638 I ActivityManager: Killing 24724:com.google.android.configupdater/u0a91 (adj 975): empty #17
+05-31 15:08:49.413   590   640 I libprocessgroup: Successfully killed process cgroup uid 10091 pid 24724 in 0ms
+05-31 15:08:49.416   590   855 W AppOps  : Noting op not finished: uid 10098 pkg com.google.android.gms code 113 startTime of in progress event=1748702983644
+05-31 15:08:49.418   318   318 I Zygote  : Process 24724 exited due to signal 9 (Killed)
+05-31 15:08:49.421   590  1810 W AppOps  : Noting op not finished: uid 10098 pkg com.google.android.gms code 79 startTime of in progress event=1748702999561
+05-31 15:08:49.425  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230849.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:49.429  1166  1685 I ActivityScheduler: nextTriggerTime: 1441255, in 238100ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 80000
+05-31 15:08:49.439  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230849.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:49.497  1360  6401 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:49.498  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:49.559  7079 31499 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:50.550  7079 31569 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:51.825  1166 30698 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+05-31 15:08:51.837  1166 31583 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+05-31 15:08:52.068  1360  6502 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:52.092   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:52.092 31595 31597 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:52.223  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230852.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:52.227  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230852.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:52.307  1360  6405 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:52.308  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:52.865  1360  1472 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:52.888   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:52.888 31632 31634 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:53.019  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230853.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:53.025  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230853.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:53.132  1360  6502 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:53.269  7079 31647 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:53.790  1360  1692 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:53.825   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:53.826 31677 31679 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:53.970  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230853.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:53.980  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230853.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:54.085  1360  1472 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:54.171  7079 31692 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:54.995  7079 31753 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:55.370   590  2627 I ActivityTaskManager: START u0 {cmp=org.readera/.PrivacyActivity} from uid 10168
+05-31 15:08:55.406   590  2627 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (1185925)
+05-31 15:08:55.591   590   627 I ActivityTaskManager: Displayed org.readera/.PrivacyActivity: +214ms
+05-31 15:08:56.731   590   719 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 15:08:56.780   590   719 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 15:08:56.786   590   720 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 15:08:56.793   590   720 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 15:08:56.803   590   720 W BestClock: java.time.DateTimeException: Missing NTP fix
+05-31 15:08:56.813  1360  1469 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:56.850   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:56.850 31790 31792 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:56.990  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230856.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:56.994  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230856.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:57.088  1360  6405 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:57.089  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:57.706  1360  6409 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:57.750   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:57.750 31829 31831 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:57.766  7079 31835 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:57.892  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230857.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:57.900  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230857.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:57.971  1360  1469 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:57.972  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:58.552  1360  6401 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:08:58.577   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:08:58.579 31874 31876 I Gralloc4: mapper 4.x is not supported
+05-31 15:08:58.633   590   610 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:08:58.634   590   610 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:08:58.651  7079 31881 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:58.666   590  2627 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:08:58.667   590  2627 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:08:58.692  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.693  3193 31885 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.701  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194653.png. Uid: 10126
+05-31 15:08:58.702  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194658.png. Uid: 10126
+05-31 15:08:58.704  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.705  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.710  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194704.png. Uid: 10126
+05-31 15:08:58.713  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194709.png. Uid: 10126
+05-31 15:08:58.714  3193 31885 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.718  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.719  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230858.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:58.726  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230858.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:08:58.727  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194721.png. Uid: 10126
+05-31 15:08:58.730  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194715.png. Uid: 10126
+05-31 15:08:58.733  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.733  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.742  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194727.png. Uid: 10126
+05-31 15:08:58.743  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194726.png. Uid: 10126
+05-31 15:08:58.745  3193 31885 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.746  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.753  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194732.png. Uid: 10126
+05-31 15:08:58.758  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.760  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194759.png. Uid: 10126
+05-31 15:08:58.762  3193 31885 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.767  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194804.png. Uid: 10126
+05-31 15:08:58.770  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.770  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194805.png. Uid: 10126
+05-31 15:08:58.774  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.779  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194810.png. Uid: 10126
+05-31 15:08:58.782  3193 31885 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.783  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200238.png. Uid: 10126
+05-31 15:08:58.786  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.790  1360  6502 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:08:58.791  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:08:58.792  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200244.png. Uid: 10126
+05-31 15:08:58.793  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200249.png. Uid: 10126
+05-31 15:08:58.795  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.796  3193 31885 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.802  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200250.png. Uid: 10126
+05-31 15:08:58.803  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200255.png. Uid: 10126
+05-31 15:08:58.806  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.808  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.814  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200301.png. Uid: 10126
+05-31 15:08:58.815  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200306.png. Uid: 10126
+05-31 15:08:58.817  3193 31885 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.817  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.825  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200307.png. Uid: 10126
+05-31 15:08:58.825  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200312.png. Uid: 10126
+05-31 15:08:58.827  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.828  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.835  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200313.png. Uid: 10126
+05-31 15:08:58.836  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200318.png. Uid: 10126
+05-31 15:08:58.838  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.843  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.847  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200329.png. Uid: 10126
+05-31 15:08:58.850  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.850  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200324.png. Uid: 10126
+05-31 15:08:58.854  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.863  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200335.png. Uid: 10126
+05-31 15:08:58.864  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200330.png. Uid: 10126
+05-31 15:08:58.866  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.867  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.874  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200341.png. Uid: 10126
+05-31 15:08:58.874  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200346.png. Uid: 10126
+05-31 15:08:58.876  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.879  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.886  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200347.png. Uid: 10126
+05-31 15:08:58.887  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200352.png. Uid: 10126
+05-31 15:08:58.889  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.891  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.897  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200437.png. Uid: 10126
+05-31 15:08:58.899  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200443.png. Uid: 10126
+05-31 15:08:58.907  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.907  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.914  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200448.png. Uid: 10126
+05-31 15:08:58.914  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200449.png. Uid: 10126
+05-31 15:08:58.917  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.917  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.924  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200454.png. Uid: 10126
+05-31 15:08:58.924  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200500.png. Uid: 10126
+05-31 15:08:58.927  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.928  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.935  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200506.png. Uid: 10126
+05-31 15:08:58.935  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200505.png. Uid: 10126
+05-31 15:08:58.938  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.939  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.947  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200517.png. Uid: 10126
+05-31 15:08:58.948  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200511.png. Uid: 10126
+05-31 15:08:58.951  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.952  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.960  1360  6917 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200522.png. Uid: 10126
+05-31 15:08:58.963  1360  6521 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200523.png. Uid: 10126
+05-31 15:08:58.964  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.966  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.974  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200534.png. Uid: 10126
+05-31 15:08:58.977  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.982  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200528.png. Uid: 10126
+05-31 15:08:58.984  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200539.png. Uid: 10126
+05-31 15:08:58.984  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.988  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.992  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200545.png. Uid: 10126
+05-31 15:08:58.997  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:58.997  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200810.png. Uid: 10126
+05-31 15:08:59.001  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.007  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200816.png. Uid: 10126
+05-31 15:08:59.008  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200821.png. Uid: 10126
+05-31 15:08:59.011  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.013  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.020  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200822.png. Uid: 10126
+05-31 15:08:59.023  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.025  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200827.png. Uid: 10126
+05-31 15:08:59.030  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.037  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200833.png. Uid: 10126
+05-31 15:08:59.039  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200838.png. Uid: 10126
+05-31 15:08:59.040  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.043  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.054  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200849.png. Uid: 10126
+05-31 15:08:59.054  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200844.png. Uid: 10126
+05-31 15:08:59.059  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.061  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.068  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200855.png. Uid: 10126
+05-31 15:08:59.070  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200850.png. Uid: 10126
+05-31 15:08:59.071  3193 31894 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.072  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.078  1360  6539 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200906.png. Uid: 10126
+05-31 15:08:59.080  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200901.png. Uid: 10126
+05-31 15:08:59.082  3193 31884 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.083  3193 31887 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.091  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200912.png. Uid: 10126
+05-31 15:08:59.095   590  2627 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:08:59.095   590  2627 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:08:59.112  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.122  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200917.png. Uid: 10126
+05-31 15:08:59.130  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.141  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200912.png. Uid: 10126
+05-31 15:08:59.151  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.160  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200906.png. Uid: 10126
+05-31 15:08:59.171  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.182  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200901.png. Uid: 10126
+05-31 15:08:59.191  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.200  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200855.png. Uid: 10126
+05-31 15:08:59.210  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.219  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200850.png. Uid: 10126
+05-31 15:08:59.228  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.238  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200849.png. Uid: 10126
+05-31 15:08:59.247  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.256  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200844.png. Uid: 10126
+05-31 15:08:59.266  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.276  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200838.png. Uid: 10126
+05-31 15:08:59.284  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.294  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200833.png. Uid: 10126
+05-31 15:08:59.303  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.313  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200827.png. Uid: 10126
+05-31 15:08:59.322  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.337  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200822.png. Uid: 10126
+05-31 15:08:59.346  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.357  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200821.png. Uid: 10126
+05-31 15:08:59.367  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.376  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200816.png. Uid: 10126
+05-31 15:08:59.387  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.399  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200810.png. Uid: 10126
+05-31 15:08:59.408  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.419  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200545.png. Uid: 10126
+05-31 15:08:59.428  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.438  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200539.png. Uid: 10126
+05-31 15:08:59.447  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.456  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200534.png. Uid: 10126
+05-31 15:08:59.464  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.475  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200528.png. Uid: 10126
+05-31 15:08:59.483  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.492  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200523.png. Uid: 10126
+05-31 15:08:59.501  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.511  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200522.png. Uid: 10126
+05-31 15:08:59.522  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.535  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200517.png. Uid: 10126
+05-31 15:08:59.544  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.552  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200511.png. Uid: 10126
+05-31 15:08:59.554  7079 31962 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:08:59.560  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.573  1360  1375 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200506.png. Uid: 10126
+05-31 15:08:59.583  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.597  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200505.png. Uid: 10126
+05-31 15:08:59.606  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.616  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200500.png. Uid: 10126
+05-31 15:08:59.624  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.632  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200454.png. Uid: 10126
+05-31 15:08:59.639  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.648  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200449.png. Uid: 10126
+05-31 15:08:59.657  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.667  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200448.png. Uid: 10126
+05-31 15:08:59.675  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.685  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200443.png. Uid: 10126
+05-31 15:08:59.693  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.701  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200437.png. Uid: 10126
+05-31 15:08:59.709  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.718  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200352.png. Uid: 10126
+05-31 15:08:59.726  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.735  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200347.png. Uid: 10126
+05-31 15:08:59.745  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.754  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200346.png. Uid: 10126
+05-31 15:08:59.762  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.777  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200341.png. Uid: 10126
+05-31 15:08:59.789  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.803  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200335.png. Uid: 10126
+05-31 15:08:59.811  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.820  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200330.png. Uid: 10126
+05-31 15:08:59.831  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.837  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200329.png. Uid: 10126
+05-31 15:08:59.846  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.857  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200324.png. Uid: 10126
+05-31 15:08:59.866  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.875  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200318.png. Uid: 10126
+05-31 15:08:59.885  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.894  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200313.png. Uid: 10126
+05-31 15:08:59.905  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.915  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200312.png. Uid: 10126
+05-31 15:08:59.923  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.934  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200307.png. Uid: 10126
+05-31 15:08:59.941  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.951  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200306.png. Uid: 10126
+05-31 15:08:59.962  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.972  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200301.png. Uid: 10126
+05-31 15:08:59.980  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:08:59.988  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200255.png. Uid: 10126
+05-31 15:08:59.995  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.004  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200250.png. Uid: 10126
+05-31 15:09:00.012  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.025  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200249.png. Uid: 10126
+05-31 15:09:00.035  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.044  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200244.png. Uid: 10126
+05-31 15:09:00.053  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.063  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200238.png. Uid: 10126
+05-31 15:09:00.073  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.082  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194810.png. Uid: 10126
+05-31 15:09:00.090  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.100  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194805.png. Uid: 10126
+05-31 15:09:00.108  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.117  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194804.png. Uid: 10126
+05-31 15:09:00.124  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.133  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194759.png. Uid: 10126
+05-31 15:09:00.141  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.151  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194732.png. Uid: 10126
+05-31 15:09:00.159  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.170  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194727.png. Uid: 10126
+05-31 15:09:00.179  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.189  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194726.png. Uid: 10126
+05-31 15:09:00.198  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.207  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194721.png. Uid: 10126
+05-31 15:09:00.218  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.229  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194715.png. Uid: 10126
+05-31 15:09:00.239  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.249  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194709.png. Uid: 10126
+05-31 15:09:00.257  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.266  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194704.png. Uid: 10126
+05-31 15:09:00.275  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.289  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194658.png. Uid: 10126
+05-31 15:09:00.299  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.308  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194653.png. Uid: 10126
+05-31 15:09:00.326   590   855 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:09:00.326   590   855 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+05-31 15:09:00.346  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.364  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200917.png. Uid: 10126
+05-31 15:09:00.383  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.393  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200912.png. Uid: 10126
+05-31 15:09:00.415  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.432  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200906.png. Uid: 10126
+05-31 15:09:00.441  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.459  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200901.png. Uid: 10126
+05-31 15:09:00.469  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.480  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200855.png. Uid: 10126
+05-31 15:09:00.489  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.502  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200850.png. Uid: 10126
+05-31 15:09:00.509  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.518  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200849.png. Uid: 10126
+05-31 15:09:00.527  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.537  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200844.png. Uid: 10126
+05-31 15:09:00.546  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.557  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200838.png. Uid: 10126
+05-31 15:09:00.565  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.574  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200833.png. Uid: 10126
+05-31 15:09:00.583  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.594  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200827.png. Uid: 10126
+05-31 15:09:00.604  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.614  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200822.png. Uid: 10126
+05-31 15:09:00.627  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.641  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200821.png. Uid: 10126
+05-31 15:09:00.656  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.667  1360  6767 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200816.png. Uid: 10126
+05-31 15:09:00.674  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.690  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200810.png. Uid: 10126
+05-31 15:09:00.699  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.709  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200545.png. Uid: 10126
+05-31 15:09:00.717  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.726  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200539.png. Uid: 10126
+05-31 15:09:00.734  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.743  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200534.png. Uid: 10126
+05-31 15:09:00.752  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.761  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200528.png. Uid: 10126
+05-31 15:09:00.770  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.780  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200523.png. Uid: 10126
+05-31 15:09:00.789  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.797  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200522.png. Uid: 10126
+05-31 15:09:00.808  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.820  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200517.png. Uid: 10126
+05-31 15:09:00.829  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.842  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200511.png. Uid: 10126
+05-31 15:09:00.852  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.862  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200506.png. Uid: 10126
+05-31 15:09:00.872  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.882  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200505.png. Uid: 10126
+05-31 15:09:00.891  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.901  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200500.png. Uid: 10126
+05-31 15:09:00.911  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.922  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200454.png. Uid: 10126
+05-31 15:09:00.930  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.940  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200449.png. Uid: 10126
+05-31 15:09:00.949  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.958  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200448.png. Uid: 10126
+05-31 15:09:00.967  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.979  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200443.png. Uid: 10126
+05-31 15:09:00.986  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:00.993  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200437.png. Uid: 10126
+05-31 15:09:01.000  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.008  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200352.png. Uid: 10126
+05-31 15:09:01.009  1360  6409 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:09:01.017  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.027  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200347.png. Uid: 10126
+05-31 15:09:01.033   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:09:01.034 31986 31988 I Gralloc4: mapper 4.x is not supported
+05-31 15:09:01.037  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.047  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200346.png. Uid: 10126
+05-31 15:09:01.056  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.066  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200341.png. Uid: 10126
+05-31 15:09:01.078  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.088  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200335.png. Uid: 10126
+05-31 15:09:01.095  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.105  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200330.png. Uid: 10126
+05-31 15:09:01.117  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.123  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200329.png. Uid: 10126
+05-31 15:09:01.133  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.144  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200324.png. Uid: 10126
+05-31 15:09:01.153  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.165  1360  6522 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200318.png. Uid: 10126
+05-31 15:09:01.175  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.177  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230901.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:01.188  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200313.png. Uid: 10126
+05-31 15:09:01.193  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230901.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:01.202  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.215  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200312.png. Uid: 10126
+05-31 15:09:01.225  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.235  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200307.png. Uid: 10126
+05-31 15:09:01.246  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.251  1360  1472 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:09:01.251  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:09:01.257  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200306.png. Uid: 10126
+05-31 15:09:01.267  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.276  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200301.png. Uid: 10126
+05-31 15:09:01.284  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.292  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200255.png. Uid: 10126
+05-31 15:09:01.302  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.312  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200250.png. Uid: 10126
+05-31 15:09:01.322  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.333  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200249.png. Uid: 10126
+05-31 15:09:01.343  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.353  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200244.png. Uid: 10126
+05-31 15:09:01.365  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.376  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200238.png. Uid: 10126
+05-31 15:09:01.389  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.400  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194810.png. Uid: 10126
+05-31 15:09:01.408  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.418  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194805.png. Uid: 10126
+05-31 15:09:01.426  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.436  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194804.png. Uid: 10126
+05-31 15:09:01.445  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.454  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194759.png. Uid: 10126
+05-31 15:09:01.463  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.473  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194732.png. Uid: 10126
+05-31 15:09:01.483  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.492  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194727.png. Uid: 10126
+05-31 15:09:01.502  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.511  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194726.png. Uid: 10126
+05-31 15:09:01.522  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.532  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194721.png. Uid: 10126
+05-31 15:09:01.542  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.554  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194715.png. Uid: 10126
+05-31 15:09:01.563  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.572  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194709.png. Uid: 10126
+05-31 15:09:01.579  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.589  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194704.png. Uid: 10126
+05-31 15:09:01.597  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.607  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194658.png. Uid: 10126
+05-31 15:09:01.616  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.630  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194653.png. Uid: 10126
+05-31 15:09:01.658  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.668  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200917.png. Uid: 10126
+05-31 15:09:01.677  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.685  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200912.png. Uid: 10126
+05-31 15:09:01.692  1360  6401 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:09:01.695  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.706  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200906.png. Uid: 10126
+05-31 15:09:01.714  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.718   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:09:01.718 32023 32025 I Gralloc4: mapper 4.x is not supported
+05-31 15:09:01.726  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200901.png. Uid: 10126
+05-31 15:09:01.746  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.759  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200855.png. Uid: 10126
+05-31 15:09:01.767  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.776  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200850.png. Uid: 10126
+05-31 15:09:01.784  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.792  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200849.png. Uid: 10126
+05-31 15:09:01.798  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.806  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200844.png. Uid: 10126
+05-31 15:09:01.813  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.822  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200838.png. Uid: 10126
+05-31 15:09:01.829  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.838  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200833.png. Uid: 10126
+05-31 15:09:01.846  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.854  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200827.png. Uid: 10126
+05-31 15:09:01.854  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230901.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:01.858  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230901.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:01.866  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.878  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200822.png. Uid: 10126
+05-31 15:09:01.893  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.905  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200821.png. Uid: 10126
+05-31 15:09:01.916  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.927  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200816.png. Uid: 10126
+05-31 15:09:01.927  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:09:01.928  1360  1469 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:09:01.937  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.947  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200810.png. Uid: 10126
+05-31 15:09:01.957  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.969  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200545.png. Uid: 10126
+05-31 15:09:01.977  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:01.987  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200539.png. Uid: 10126
+05-31 15:09:01.997  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.009  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200534.png. Uid: 10126
+05-31 15:09:02.018  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.029  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200528.png. Uid: 10126
+05-31 15:09:02.039  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.050  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200523.png. Uid: 10126
+05-31 15:09:02.059  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.070  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200522.png. Uid: 10126
+05-31 15:09:02.079  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.088  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200517.png. Uid: 10126
+05-31 15:09:02.098  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.107  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200511.png. Uid: 10126
+05-31 15:09:02.115  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.123  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200506.png. Uid: 10126
+05-31 15:09:02.134  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.142  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200505.png. Uid: 10126
+05-31 15:09:02.151  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.159  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200500.png. Uid: 10126
+05-31 15:09:02.169  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.184  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200454.png. Uid: 10126
+05-31 15:09:02.196  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.209  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200449.png. Uid: 10126
+05-31 15:09:02.219  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.228  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200448.png. Uid: 10126
+05-31 15:09:02.237  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.246  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200443.png. Uid: 10126
+05-31 15:09:02.255  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.264  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200437.png. Uid: 10126
+05-31 15:09:02.273  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.283  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200352.png. Uid: 10126
+05-31 15:09:02.291  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.300  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200347.png. Uid: 10126
+05-31 15:09:02.310  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.319  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200346.png. Uid: 10126
+05-31 15:09:02.327  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.336  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200341.png. Uid: 10126
+05-31 15:09:02.344  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.353  1360  6575 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200335.png. Uid: 10126
+05-31 15:09:02.360  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.371  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200330.png. Uid: 10126
+05-31 15:09:02.374  1360  1472 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:09:02.374  7079 32067 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:09:02.383  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.389  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200329.png. Uid: 10126
+05-31 15:09:02.397  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.398   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:09:02.398 32062 32070 I Gralloc4: mapper 4.x is not supported
+05-31 15:09:02.409  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200324.png. Uid: 10126
+05-31 15:09:02.418  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.428  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200318.png. Uid: 10126
+05-31 15:09:02.439  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.449  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200313.png. Uid: 10126
+05-31 15:09:02.457  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.466  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200312.png. Uid: 10126
+05-31 15:09:02.474  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.484  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200307.png. Uid: 10126
+05-31 15:09:02.492  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.501  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200306.png. Uid: 10126
+05-31 15:09:02.508  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.518  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200301.png. Uid: 10126
+05-31 15:09:02.526  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.535  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200255.png. Uid: 10126
+05-31 15:09:02.539  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230902.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:02.542  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.545  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230902.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:02.555  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200250.png. Uid: 10126
+05-31 15:09:02.566  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.581  1360  5800 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200249.png. Uid: 10126
+05-31 15:09:02.590  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.602  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200244.png. Uid: 10126
+05-31 15:09:02.610  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.618  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:09:02.619  1360  1692 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:09:02.622  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200238.png. Uid: 10126
+05-31 15:09:02.631  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.642  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194810.png. Uid: 10126
+05-31 15:09:02.651  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.660  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194805.png. Uid: 10126
+05-31 15:09:02.668  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.677  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194804.png. Uid: 10126
+05-31 15:09:02.685  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.695  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194759.png. Uid: 10126
+05-31 15:09:02.705  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.715  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194732.png. Uid: 10126
+05-31 15:09:02.724  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.733  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194727.png. Uid: 10126
+05-31 15:09:02.743  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.753  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194726.png. Uid: 10126
+05-31 15:09:02.764  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.774  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194721.png. Uid: 10126
+05-31 15:09:02.784  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.796  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194715.png. Uid: 10126
+05-31 15:09:02.806  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.817  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194709.png. Uid: 10126
+05-31 15:09:02.822  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.831  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194704.png. Uid: 10126
+05-31 15:09:02.843  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.851  1360  6594 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194658.png. Uid: 10126
+05-31 15:09:02.868  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.879  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194653.png. Uid: 10126
+05-31 15:09:02.905  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.915  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194653.png. Uid: 10126
+05-31 15:09:02.924  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.936  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194658.png. Uid: 10126
+05-31 15:09:02.945  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.955  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194704.png. Uid: 10126
+05-31 15:09:02.967  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.976  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194709.png. Uid: 10126
+05-31 15:09:02.986  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:02.996  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194715.png. Uid: 10126
+05-31 15:09:03.006  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.018  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194721.png. Uid: 10126
+05-31 15:09:03.027  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.038  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194726.png. Uid: 10126
+05-31 15:09:03.047  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.058  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194727.png. Uid: 10126
+05-31 15:09:03.068  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.080  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194732.png. Uid: 10126
+05-31 15:09:03.089  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.101  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194759.png. Uid: 10126
+05-31 15:09:03.110  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.119  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194804.png. Uid: 10126
+05-31 15:09:03.129  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.139  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194805.png. Uid: 10126
+05-31 15:09:03.149  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.158  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_194810.png. Uid: 10126
+05-31 15:09:03.168  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.182  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200238.png. Uid: 10126
+05-31 15:09:03.185  7079 32128 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:09:03.192  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.203  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200244.png. Uid: 10126
+05-31 15:09:03.213  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.225  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200249.png. Uid: 10126
+05-31 15:09:03.236  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.248  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200250.png. Uid: 10126
+05-31 15:09:03.259  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.271  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200255.png. Uid: 10126
+05-31 15:09:03.280  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.290  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200301.png. Uid: 10126
+05-31 15:09:03.300  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.311  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200306.png. Uid: 10126
+05-31 15:09:03.320  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.329  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200307.png. Uid: 10126
+05-31 15:09:03.339  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.350  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200312.png. Uid: 10126
+05-31 15:09:03.359  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.369  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200313.png. Uid: 10126
+05-31 15:09:03.379  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.390  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200318.png. Uid: 10126
+05-31 15:09:03.400  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.411  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200324.png. Uid: 10126
+05-31 15:09:03.424  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.430  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200329.png. Uid: 10126
+05-31 15:09:03.439  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.453  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200330.png. Uid: 10126
+05-31 15:09:03.466  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.483  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200335.png. Uid: 10126
+05-31 15:09:03.495  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.509  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200341.png. Uid: 10126
+05-31 15:09:03.520  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.528  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200346.png. Uid: 10126
+05-31 15:09:03.537  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.548  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200347.png. Uid: 10126
+05-31 15:09:03.557  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.567  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200352.png. Uid: 10126
+05-31 15:09:03.576  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.587  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200437.png. Uid: 10126
+05-31 15:09:03.594  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.605  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200443.png. Uid: 10126
+05-31 15:09:03.613  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.622  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200448.png. Uid: 10126
+05-31 15:09:03.633  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.643  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200449.png. Uid: 10126
+05-31 15:09:03.653  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.663  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200454.png. Uid: 10126
+05-31 15:09:03.671  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.680  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200500.png. Uid: 10126
+05-31 15:09:03.688  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.698  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200505.png. Uid: 10126
+05-31 15:09:03.707  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.718  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200506.png. Uid: 10126
+05-31 15:09:03.726  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.736  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200511.png. Uid: 10126
+05-31 15:09:03.745  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.754  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200517.png. Uid: 10126
+05-31 15:09:03.763  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.774  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200522.png. Uid: 10126
+05-31 15:09:03.784  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.794  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200523.png. Uid: 10126
+05-31 15:09:03.803  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.812  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200528.png. Uid: 10126
+05-31 15:09:03.821  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.830  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200534.png. Uid: 10126
+05-31 15:09:03.838  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.848  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200539.png. Uid: 10126
+05-31 15:09:03.857  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.867  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200545.png. Uid: 10126
+05-31 15:09:03.875  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.888  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200810.png. Uid: 10126
+05-31 15:09:03.898  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.911  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200816.png. Uid: 10126
+05-31 15:09:03.923  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.935  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200821.png. Uid: 10126
+05-31 15:09:03.945  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.955  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200822.png. Uid: 10126
+05-31 15:09:03.963  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.971  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200827.png. Uid: 10126
+05-31 15:09:03.979  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:03.991  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200833.png. Uid: 10126
+05-31 15:09:04.000  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.008  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200838.png. Uid: 10126
+05-31 15:09:04.018  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.026  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200844.png. Uid: 10126
+05-31 15:09:04.033  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.042  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200849.png. Uid: 10126
+05-31 15:09:04.051  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.060  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200850.png. Uid: 10126
+05-31 15:09:04.069  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.081  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200855.png. Uid: 10126
+05-31 15:09:04.094  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.108  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200901.png. Uid: 10126
+05-31 15:09:04.118  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.128  1360  6408 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200906.png. Uid: 10126
+05-31 15:09:04.134  7079 32158 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:09:04.140  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.151  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200912.png. Uid: 10126
+05-31 15:09:04.160  3193  3241 I XmpUtil : XMP parse: only JPEG file is supported
+05-31 15:09:04.174  1360  1388 I MediaProvider: Open with lower FS for /storage/emulated/0/screen_2025-05-31_200917.png. Uid: 10126
+05-31 15:09:04.913  1360  6409 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:09:04.963   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:09:04.964 32173 32175 I Gralloc4: mapper 4.x is not supported
+05-31 15:09:05.134  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230905.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:05.139  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230905.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:05.224  1360  1469 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:09:05.225  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:09:05.858  1360  1692 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:09:05.886   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:09:05.886 32212 32214 I Gralloc4: mapper 4.x is not supported
+05-31 15:09:06.014  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230906.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:06.018  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230906.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:06.092  1360  6409 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:09:06.099  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:09:06.648  1360  1472 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:09:06.675   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:09:06.675 32251 32253 I Gralloc4: mapper 4.x is not supported
+05-31 15:09:06.816  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230906.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:06.828  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230906.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:06.929  1360  1692 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:09:07.157  7079 32275 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:09:07.239   590   628 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+05-31 15:09:07.417   590  1820 W UriGrantsManagerService: No permission grants found for org.readera
+05-31 15:09:07.820   590  1811 W InputManager-JNI: Input channel object '9271f22 org.readera/org.readera.PrivacyActivity (client)' was disposed without first being removed with the input manager!
+05-31 15:09:08.018  7079 32303 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+05-31 15:09:08.534  1360  6401 W MediaProvider: isAppCloneUserPair for user 0: false
+05-31 15:09:08.570   181   181 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-31 15:09:08.570 32320 32322 I Gralloc4: mapper 4.x is not supported
+05-31 15:09:08.687  1360  1926 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230908.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:08.691  1360  1926 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///sdcard/screen_2025-05-31_230908.png flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+05-31 15:09:08.755  1360  1472 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+05-31 15:09:08.756  1166  2130 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+05-31 15:09:08.851  7079 32333 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage

@@ -1,0 +1,333 @@
+Activity Resolver Table:
+  Schemes:
+      com.windstream.residential:
+        9069791 com.windstream.residential/com.windstream.po3.residential.winauth.WinAuthActivity filter 1c8cd64
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.windstream.residential"
+          Authority: "mobile": -1
+      https:
+        9069791 com.windstream.residential/com.windstream.po3.residential.winauth.WinAuthActivity filter a7f7af7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "login.windstream.com": -1
+          Path: "PatternMatcher{PREFIX: /as/authorization.oauth2}"
+      mywin:
+        5cd6421 com.windstream.residential/com.windstream.po3.residential.main.more.EmailManagementActivity filter f7be046
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "emailpassword": -1
+        2380207 com.windstream.residential/com.windstream.po3.residential.main.MainActivity filter ae12f34
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "autopay": -1
+        2380207 com.windstream.residential/com.windstream.po3.residential.main.MainActivity filter 47b215d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "billpayment": -1
+        2380207 com.windstream.residential/com.windstream.po3.residential.main.MainActivity filter 785bad2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "managepaymentmethod": -1
+        2380207 com.windstream.residential/com.windstream.po3.residential.main.MainActivity filter 348b7a3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "paperless": -1
+        2380207 com.windstream.residential/com.windstream.po3.residential.main.MainActivity filter 8fc0aa0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "paymenthistory": -1
+        2380207 com.windstream.residential/com.windstream.po3.residential.main.MainActivity filter 64d7659
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "paperbills": -1
+        2380207 com.windstream.residential/com.windstream.po3.residential.main.MainActivity filter ae0b21e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "billingaddress": -1
+        9252aff com.windstream.residential/com.windstream.po3.residential.billing.view.InvoiceDetailsActivity filter 82730cc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "invoicedetails": -1
+        3561f15 com.windstream.residential/com.windstream.po3.residential.support.SupportTicketActivity filter 861d22a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "fetchticketdetails": -1
+        6c1bcd com.windstream.residential/com.windstream.po3.residential.main.more.ActivityFeedback filter c0e7c82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "appfeedback": -1
+        aa6cf93 com.windstream.residential/com.windstream.po3.residential.main.orders.OrdersFragment filter af75bd0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "orders": -1
+          Authority: "showorders": -1
+          Authority: "order": -1
+        c2ba7c9 com.windstream.residential/com.windstream.po3.residential.setting.Settings filter a2bdece
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "startpage": -1
+        c2ba7c9 com.windstream.residential/com.windstream.po3.residential.setting.Settings filter 3e4d1ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "changepassword": -1
+        a569e0b com.windstream.residential/com.windstream.po3.residential.setting.notifications.NewBillNotificationActivity filter 28ad4e8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mywin"
+          Authority: "addcontact": -1
+      pendo-87b9abba:
+        e3e64fc com.windstream.residential/sdk.pendo.io.activities.PendoGateActivity filter a3df785
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pendo-87b9abba"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        9069791 com.windstream.residential/com.windstream.po3.residential.winauth.WinAuthActivity filter 522e6f6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      87b9abba:
+        e3e64fc com.windstream.residential/sdk.pendo.io.activities.PendoGateActivity filter 3ab19da
+          Action: "87b9abba"
+          Category: "android.intent.category.DEFAULT"
+      com.windstream.LAUNCH_APP:
+        62b781b com.windstream.residential/com.windstream.po3.residential.winauth.ImpersonationActivity filter efc8db8
+          Action: "com.windstream.LAUNCH_APP"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        56b8701 com.windstream.residential/com.launchdarkly.sdk.android.ConnectivityReceiver filter db0f9a6
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.google.android.c2dm.intent.RECEIVE:
+        ccf0fe7 com.windstream.residential/com.google.firebase.iid.FirebaseInstanceIdReceiver filter eac5794
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        288923d com.windstream.residential/com.windstream.po3.residential.pushNotifications.WINFirebaseMessagingService filter 8e30a32
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        a72c383 com.windstream.residential/com.google.firebase.messaging.FirebaseMessagingService filter 4c15900
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          login.windstream.com
+
+Permissions:
+  Permission [com.windstream.residential.security.LAUNCH_APP] (d23fdeb):
+    sourcePackage=com.windstream.residential
+    uid=10172 gids=[] type=0 prot=signature
+    perm=PermissionInfo{e72e748 com.windstream.residential.security.LAUNCH_APP}
+
+Registered ContentProviders:
+  com.windstream.residential/com.windstream.po3.residential.main.more.KineticContentProvider:
+    Provider{31499e1 com.windstream.residential/com.windstream.po3.residential.main.more.KineticContentProvider}
+  com.windstream.residential/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{bae4306 com.windstream.residential/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.windstream.residential/androidx.core.content.FileProvider:
+    Provider{e428dc7 com.windstream.residential/androidx.core.content.FileProvider}
+  com.windstream.residential/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{8732ff4 com.windstream.residential/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.windstream.residential/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{c5ff31d com.windstream.residential/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.windstream.residential.firebaseinitprovider]:
+    Provider{c5ff31d com.windstream.residential/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{65b8992 com.windstream.residential}
+  [com.windstream.residential]:
+    Provider{1d03f63 com.windstream.residential/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{28d5760 com.windstream.residential}
+  [com.windstream.residential.provider]:
+    Provider{31499e1 com.windstream.residential/com.windstream.po3.residential.main.more.KineticContentProvider}
+      applicationInfo=ApplicationInfo{b0da419 com.windstream.residential}
+  [com.windstream.residential.firebaseperfprovider]:
+    Provider{8732ff4 com.windstream.residential/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{124acde com.windstream.residential}
+  [com.windstream.residential.myfileprovider]:
+    Provider{e428dc7 com.windstream.residential/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{afd6ebf com.windstream.residential}
+  [com.windstream.residential.lifecycle-process]:
+    Provider{bae4306 com.windstream.residential/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{c60898c com.windstream.residential}
+
+Key Set Manager:
+  [com.windstream.residential]
+      Signing KeySets: 69
+
+Packages:
+  Package [com.windstream.residential] (d4b68d5):
+    userId=10172
+    pkg=Package{ccab8ea com.windstream.residential}
+    codePath=/data/app/~~0rvD-LTH_KzQfCbnOK4R3g==/com.windstream.residential-WgXxmVQtu4GtNyAFb4ulgA==
+    resourcePath=/data/app/~~0rvD-LTH_KzQfCbnOK4R3g==/com.windstream.residential-WgXxmVQtu4GtNyAFb4ulgA==
+    legacyNativeLibraryDir=/data/app/~~0rvD-LTH_KzQfCbnOK4R3g==/com.windstream.residential-WgXxmVQtu4GtNyAFb4ulgA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1574172040 minSdk=22 targetSdk=31
+    minExtensionVersions=[]
+    versionName=4.9.9
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{ccab8ea com.windstream.residential}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.windstream.residential
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-05-31 12:00:25
+    firstInstallTime=2025-05-31 12:00:25
+    lastUpdateTime=2025-05-31 12:00:25
+    signatures=PackageSignatures{5a437db version:3, signatures:[aae96a92], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.windstream.residential.security.LAUNCH_APP: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.CAMERA
+      android.permission.FOREGROUND_SERVICE
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=132402 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.windstream.residential
+    com.google.android.settings.intelligence:
+      com.windstream.residential
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=81
+  User 0:
+    seq=2, package=com.google.android.apps.messaging
+    seq=9, package=com.google.android.gms
+    seq=15, package=com.google.android.apps.docs
+    seq=27, package=com.cnn.mobile.android.phone
+    seq=32, package=com.geozilla.family
+    seq=42, package=com.mdlive.mobile
+    seq=47, package=com.pandora.android
+    seq=52, package=com.quadpay.quadpay
+    seq=62, package=com.textmeinc.textme
+    seq=70, package=com.tmobile.tuesdays
+    seq=78, package=com.vivint.vivintsky
+    seq=79, package=io.github.ylimit.droidbotapp
+    seq=80, package=com.windstream.residential
+
+
+Dexopt state:
+  [com.windstream.residential]
+    path: /data/app/~~0rvD-LTH_KzQfCbnOK4R3g==/com.windstream.residential-WgXxmVQtu4GtNyAFb4ulgA==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.windstream.residential]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7071  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:34         now          12       13314           0           0           2           3           0
+          1:34        0:34          11       40224           0           0           4           7           5
+          2:34        1:34          28       32490           0           0           3           6           1
+          3:34        2:34           8       28525           0           0           2           2           0
+          4:34        3:34          26       39775           0           0           3           7           2
+          5:34        4:34          10       28261           0           0           1          17           7
+          6:34        5:34          26       33894           0           0           2           5           0
+          7:34        6:34          12       25500           0           0           3           3           1
+          8:34        7:34          23       35080           0           0           1           6           1
+          9:34        8:34          10       23757           0           0           2           2           0
+         36:34         now         556      814876           0           5          73         267          30
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:34         now          12           0           0           0           0           0           0           0
+          1:34        0:34          10           0           1           0           0           0           0           0
+          2:34        1:34          28           0           0           0           0           0           0           0
+          3:34        2:34           8           0           0           0           0           0           0           0
+          4:34        3:34          25           1           0           0           0           0           0           0
+          5:34        4:34           7           0           2           1           0           0           0           0
+          6:34        5:34          26           0           0           0           0           0           0           0
+          7:34        6:34          12           0           0           0           0           0           0           0
+          8:34        7:34          23           0           0           0           0           0           0           0
+          9:34        8:34          10           0           0           0           0           0           0           0
+         36:34         now         536           5           7           5           2           1           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:34         now           1           0           1           0           0           0           1           9
+          1:34        0:34           3           0           1           0           0           0           2           5
+          2:34        1:34           2           1           0           0           2           3           5          15
+          3:34        2:34           2           0           0           1           0           0           1           4
+          4:34        3:34           0           0           3           0           1           4           3          15
+          5:34        4:34           1           0           0           2           2           1           0           4
+          6:34        5:34           1           0           1           1           0           1           3          19
+          7:34        6:34           3           0           0           0           1           0           2           6
+          8:34        7:34           0           0           1           1           1           1           3          16
+          9:34        8:34           2           0           0           0           2           0           1           5
+         36:34         now          48           4          20          23          31          53          72         304

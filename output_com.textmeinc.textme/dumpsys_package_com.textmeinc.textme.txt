@@ -1,0 +1,597 @@
+Activity Resolver Table:
+  Full MIME Types:
+      message/*:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/*:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video/*:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image/*:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      text:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      message:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      com.textmeinc.textme.authenticationactivity:
+        6db9a57 com.textmeinc.textme/com.textmeinc.textme3.ui.activity.authentication.AuthenticationActivity filter ad16944
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.textmeinc.textme.authenticationactivity"
+      textme:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter c9584f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "textme"
+      tel:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 11dd5b0
+          Action: "android.intent.action.DIAL"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tel"
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 6efcc29
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tel"
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 5049bae
+          Action: "android.intent.action.CALL"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tel"
+      fbconnect:
+        f97d4f com.textmeinc.textme/com.facebook.CustomTabActivity filter 8829cdc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.textmeinc.textme": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        de00ff1 com.textmeinc.textme/com.textmeinc.textme3.ui.activity.splash.SplashActivity filter 2a867d6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+        99001e5 com.textmeinc.textme/io.presage.mraid.browser.ShortcutActivity filter f02c4ba
+          Action: "android.intent.action.MAIN"
+        dfa9f6b com.textmeinc.textme/io.presage.mraid.browser.Android8AndLaterShortcutActivity filter 80aaac8
+          Action: "android.intent.action.MAIN"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        7d4ba2d com.textmeinc.textme/com.textmeinc.textme3.ui.activity.proxy.ProxyActivity filter 21b2b62
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          StaticType: "message"
+          StaticType: "text"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        a5e2e55 com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6f5d06a
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        eda583f com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 994f50c
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        826395b com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 52255f8
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        ba05ad1 com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter d988936
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.google.android.gms.analytics.ANALYTICS_DISPATCH:
+        7371199 com.textmeinc.textme/com.google.android.gms.analytics.AnalyticsReceiver filter f254c5e
+          Action: "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        1529309 com.textmeinc.textme/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter aeb890e
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      com.ogury.sdk.intent.ENABLE_LOGS:
+        2242f4b com.textmeinc.textme/com.ogury.core.internal.OguryLogEnablerReceiver filter ed32d28
+          Action: "com.ogury.sdk.intent.ENABLE_LOGS"
+      android.intent.action.DEVICE_STORAGE_OK:
+        826395b com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 52255f8
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        fa1c747 com.textmeinc.textme/com.appsflyer.MultipleInstallBroadcastReceiver filter a83ab74
+          Action: "com.android.vending.INSTALL_REFERRER"
+        805889d com.textmeinc.textme/com.textmeinc.textme3.data.local.receiver.analytics.InstallReferrer filter 693112
+          Action: "com.android.vending.INSTALL_REFERRER"
+        fa990e3 com.textmeinc.textme/com.google.android.gms.analytics.CampaignTrackingReceiver filter 7ea0ae0
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        8dfcf2f com.textmeinc.textme/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 5c5b93c
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+        40856c5 com.textmeinc.textme/com.batch.android.BatchPushMessageReceiver filter 35b281a
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.textmeinc.textme"
+      android.intent.action.BATTERY_LOW:
+        a5e2e55 com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6f5d06a
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        9851037 com.textmeinc.textme/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a22d9a4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        9851037 com.textmeinc.textme/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a22d9a4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        9851037 com.textmeinc.textme/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a22d9a4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.USER_PRESENT:
+        b43d761 com.textmeinc.textme/com.textmeinc.textme3.data.local.receiver.SystemEventReceiver filter d887286
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.USER_UNLOCKED"
+      android.intent.action.USER_UNLOCKED:
+        b43d761 com.textmeinc.textme/com.textmeinc.textme3.data.local.receiver.SystemEventReceiver filter d887286
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.USER_UNLOCKED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        eda583f com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 994f50c
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        e9078d3 com.textmeinc.textme/androidx.work.impl.diagnostics.DiagnosticsReceiver filter e85ec10
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        7fed30d com.textmeinc.textme/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 4dc02c2
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.textmeinc.textme3.auto.ACTION_MESSAGE_REPLY:
+        4047527 com.textmeinc.textme/com.textmeinc.textme3.data.local.service.MessageService filter 4c1f3d4
+          Action: "com.textmeinc.textme3.auto.ACTION_MESSAGE_REPLY"
+      com.google.firebase.MESSAGING_EVENT:
+        c9c9a41 com.textmeinc.textme/com.textmeinc.textme3.data.local.service.FCMService filter 4f3abe6
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        2d251be com.textmeinc.textme/com.google.firebase.messaging.FirebaseMessagingService filter f68e21f
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.accounts.AccountAuthenticator:
+        e347940 com.textmeinc.textme/com.textmeinc.textme3.data.local.service.authenticator.AccountAuthenticatorService filter c95079
+          Action: "android.accounts.AccountAuthenticator"
+      android.service.chooser.ChooserTargetService:
+        83ea072 com.textmeinc.textme/com.textmeinc.textme3.data.local.service.DirectShareService filter 1b93cc3 permission android.permission.BIND_CHOOSER_TARGET_SERVICE
+          Action: "android.service.chooser.ChooserTargetService"
+      com.textmeinc.textme3.auto.ACTION_MESSAGE_READ:
+        4047527 com.textmeinc.textme/com.textmeinc.textme3.data.local.service.MessageService filter 8d7997d
+          Action: "com.textmeinc.textme3.auto.ACTION_MESSAGE_READ"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.textmeinc.textme.batch.permission.INTERNAL_BROADCAST] (1b71546):
+    sourcePackage=com.textmeinc.textme
+    uid=10166 gids=[] type=0 prot=signature
+    perm=PermissionInfo{d939307 com.textmeinc.textme.batch.permission.INTERNAL_BROADCAST}
+
+Registered ContentProviders:
+  com.textmeinc.textme/com.textmeinc.textme3.data.local.provider.RingtoneProvider:
+    Provider{d0bec34 com.textmeinc.textme/com.textmeinc.textme3.data.local.provider.RingtoneProvider}
+  com.textmeinc.textme/androidx.startup.InitializationProvider:
+    Provider{4439a5d com.textmeinc.textme/androidx.startup.InitializationProvider}
+  com.textmeinc.textme/com.ironsource.lifecycle.IronsourceLifecycleProvider:
+    Provider{abf3fd2 com.textmeinc.textme/com.ironsource.lifecycle.IronsourceLifecycleProvider}
+  com.textmeinc.textme/com.flurry.android.agent.FlurryContentProvider:
+    Provider{74c58a3 com.textmeinc.textme/com.flurry.android.agent.FlurryContentProvider}
+  com.textmeinc.textme/com.vungle.warren.utility.VungleProvider:
+    Provider{f9597a0 com.textmeinc.textme/com.vungle.warren.utility.VungleProvider}
+  com.textmeinc.textme/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{ca47f59 com.textmeinc.textme/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.textmeinc.textme/androidx.core.content.FileProvider:
+    Provider{8ad871e com.textmeinc.textme/androidx.core.content.FileProvider}
+  com.textmeinc.textme/com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{41dbff com.textmeinc.textme/com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.textmeinc.textme/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{34c8dcc com.textmeinc.textme/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.textmeinc.textme/com.squareup.picasso.PicassoProvider:
+    Provider{294b815 com.textmeinc.textme/com.squareup.picasso.PicassoProvider}
+  com.textmeinc.textme/com.facebook.internal.FacebookInitProvider:
+    Provider{ea6f72a com.textmeinc.textme/com.facebook.internal.FacebookInitProvider}
+  com.textmeinc.textme/com.smaato.sdk.sys.LifecycleProvider:
+    Provider{e2391b com.textmeinc.textme/com.smaato.sdk.sys.LifecycleProvider}
+  com.textmeinc.textme/com.facebook.ads.AudienceNetworkContentProvider:
+    Provider{39abab8 com.textmeinc.textme/com.facebook.ads.AudienceNetworkContentProvider}
+  com.textmeinc.textme/com.applovin.sdk.AppLovinInitProvider:
+    Provider{15c091 com.textmeinc.textme/com.applovin.sdk.AppLovinInitProvider}
+
+ContentProvider Authorities:
+  [com.textmeinc.textme.RingtoneProvider]:
+    Provider{d0bec34 com.textmeinc.textme/com.textmeinc.textme3.data.local.provider.RingtoneProvider}
+      applicationInfo=ApplicationInfo{b155bf6 com.textmeinc.textme}
+  [com.textmeinc.textme.vungle-provider]:
+    Provider{f9597a0 com.textmeinc.textme/com.vungle.warren.utility.VungleProvider}
+      applicationInfo=ApplicationInfo{614bf7 com.textmeinc.textme}
+  [com.textmeinc.textme.FlurryContentProvider]:
+    Provider{74c58a3 com.textmeinc.textme/com.flurry.android.agent.FlurryContentProvider}
+      applicationInfo=ApplicationInfo{69cca64 com.textmeinc.textme}
+  [com.textmeinc.textme.provider]:
+    Provider{8ad871e com.textmeinc.textme/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{3c4d4cd com.textmeinc.textme}
+  [com.textmeinc.textme.androidx-startup]:
+    Provider{4439a5d com.textmeinc.textme/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{7334182 com.textmeinc.textme}
+  [com.textmeinc.textme.firebaseperfprovider]:
+    Provider{34c8dcc com.textmeinc.textme/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{b54b093 com.textmeinc.textme}
+  [com.textmeinc.textme.AudienceNetworkContentProvider]:
+    Provider{39abab8 com.textmeinc.textme/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{58e28d0 com.textmeinc.textme}
+  [com.textmeinc.textme.com.squareup.picasso]:
+    Provider{294b815 com.textmeinc.textme/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{ed6f0c9 com.textmeinc.textme}
+  [com.textmeinc.textme.smaato-lifecycling]:
+    Provider{e2391b com.textmeinc.textme/com.smaato.sdk.sys.LifecycleProvider}
+      applicationInfo=ApplicationInfo{357f3ce com.textmeinc.textme}
+  [com.textmeinc.textme.applovincontentprovider]:
+    Provider{15c091 com.textmeinc.textme/com.applovin.sdk.AppLovinInitProvider}
+      applicationInfo=ApplicationInfo{80fc2ef com.textmeinc.textme}
+  [com.textmeinc.textme.IronsourceLifecycleProvider]:
+    Provider{abf3fd2 com.textmeinc.textme/com.ironsource.lifecycle.IronsourceLifecycleProvider}
+      applicationInfo=ApplicationInfo{ff501fc com.textmeinc.textme}
+  [com.textmeinc.textme.mobileadsinitprovider]:
+    Provider{ca47f59 com.textmeinc.textme/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{6d4d085 com.textmeinc.textme}
+  [com.textmeinc.textme.smaato-lifecycle-process]:
+    Provider{41dbff com.textmeinc.textme/com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{c037eda com.textmeinc.textme}
+  [com.textmeinc.textme.FacebookInitProvider]:
+    Provider{ea6f72a com.textmeinc.textme/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{4bf9f0b com.textmeinc.textme}
+
+Key Set Manager:
+  [com.textmeinc.textme]
+      Signing KeySets: 63
+
+Packages:
+  Package [com.textmeinc.textme] (58e41e8):
+    userId=10166
+    pkg=Package{716f001 com.textmeinc.textme}
+    codePath=/data/app/~~JrJksQsxockfam0kNoBGyw==/com.textmeinc.textme-z6W83EVoiF7hsFIH-oiqlA==
+    resourcePath=/data/app/~~JrJksQsxockfam0kNoBGyw==/com.textmeinc.textme-z6W83EVoiF7hsFIH-oiqlA==
+    legacyNativeLibraryDir=/data/app/~~JrJksQsxockfam0kNoBGyw==/com.textmeinc.textme-z6W83EVoiF7hsFIH-oiqlA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=333080000 minSdk=23 targetSdk=30
+    minExtensionVersions=[]
+    versionName=3.33.8
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{716f001 com.textmeinc.textme}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=*:/* }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=http:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=androidx.browser.customtabs.CustomTabsService }, Intent { act=android.intent.action.VIEW dat=market:/* }, Intent { act=android.media.browse.MediaBrowserService }, Intent { act=androidx.media2.session.MediaSessionService }, Intent { act=androidx.media2.session.MediaLibraryService }]
+    dataDir=/data/user/0/com.textmeinc.textme
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      android.test.base
+      android.test.mock
+      android.test.runner
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.test.mock.jar
+      /system/framework/android.test.runner.jar
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-05-31 11:54:08
+    firstInstallTime=2025-05-31 11:54:08
+    lastUpdateTime=2025-05-31 11:54:08
+    signatures=PackageSignatures{3aaaea6 version:3, signatures:[be0d1c35], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.textmeinc.textme.batch.permission.INTERNAL_BROADCAST: prot=signature, INSTALLED
+    requested permissions:
+      com.android.vending.BILLING
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.google.android.gms.permission.AD_ID
+      android.permission.ACCESS_MEDIA_LOCATION
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.DISABLE_KEYGUARD
+      android.permission.WAKE_LOCK
+      android.permission.FOREGROUND_SERVICE
+      android.permission.RECORD_AUDIO
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.VIBRATE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.CAMERA
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BROADCAST_STICKY
+      android.permission.CALL_PHONE
+      android.permission.NEW_OUTGOING_CALL
+      android.permission.INTERNET
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_SYNC_STATS
+      android.permission.USE_CREDENTIALS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.GET_ACCOUNTS
+      android.permission.READ_CONTACTS
+      android.permission.READ_PROFILE
+      android.permission.WRITE_CONTACTS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      com.google.android.c2dm.permission.RECEIVE
+      com.textmeinc.textme.batch.permission.INTERNAL_BROADCAST
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      com.textmeinc.textme.batch.permission.INTERNAL_BROADCAST: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=131702 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.BLUETOOTH_CONNECT: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.READ_PHONE_STATE: granted=false
+        android.permission.CALL_PHONE: granted=false
+        android.permission.WRITE_CONTACTS: granted=false
+        android.permission.CAMERA: granted=false
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.GET_ACCOUNTS: granted=false
+        android.permission.RECORD_AUDIO: granted=false
+        android.permission.READ_CONTACTS: granted=false
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.android.contacts:
+      com.textmeinc.textme
+    com.google.android.apps.messaging:
+      com.textmeinc.textme
+    com.google.android.settings.intelligence:
+      com.textmeinc.textme
+    com.google.android.apps.youtube.music:
+      com.textmeinc.textme
+    com.google.android.apps.maps:
+      com.textmeinc.textme
+    com.google.android.youtube:
+      com.textmeinc.textme
+    com.google.android.gm:
+      com.textmeinc.textme
+    com.google.android.apps.photos:
+      com.textmeinc.textme
+    com.textmeinc.textme:
+      com.google.android.setupwizard
+      com.android.dialer
+      com.android.contacts
+      com.google.android.apps.messaging
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.camera2
+      com.google.android.apps.youtube.music
+      com.google.android.apps.maps
+      com.android.chrome
+      com.google.android.youtube
+      com.google.android.gm
+      com.google.android.calendar
+      com.google.android.apps.docs
+      com.google.android.apps.photos
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=60
+  User 0:
+    seq=2, package=com.google.android.apps.messaging
+    seq=9, package=com.google.android.gms
+    seq=15, package=com.google.android.apps.docs
+    seq=27, package=com.cnn.mobile.android.phone
+    seq=32, package=com.geozilla.family
+    seq=42, package=com.mdlive.mobile
+    seq=47, package=com.pandora.android
+    seq=52, package=com.quadpay.quadpay
+    seq=58, package=io.github.ylimit.droidbotapp
+    seq=59, package=com.textmeinc.textme
+
+
+Dexopt state:
+  [com.textmeinc.textme]
+    path: /data/app/~~JrJksQsxockfam0kNoBGyw==/com.textmeinc.textme-z6W83EVoiF7hsFIH-oiqlA==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.textmeinc.textme]
+     base.apk - 5875
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7198  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:17         now           9       12335           0           0           0           2           0
+          1:17        0:17          12       25500           0           0           3           3           1
+          2:17        1:17          23       35080           0           0           1           6           1
+          3:17        2:17          10       23757           0           0           2           2           0
+          4:17        3:17          24       31104           0           0           1           5           2
+          5:17        4:17           9       27952           0           0           3           2           1
+          6:17        5:17          38       69677           0           0           5           7           1
+          7:18        6:17          22       38445           0           0           5           7           2
+          8:18        7:18          17       40400           0           0           1           5           1
+          9:18        8:18          13       12821           0           0           2           3           1
+         30:18         now         444      610728           0           5          56         221          30
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:17         now           9           0           0           0           0           0           0           0
+          1:17        0:17          12           0           0           0           0           0           0           0
+          2:17        1:17          23           0           0           0           0           0           0           0
+          3:17        2:17          10           0           0           0           0           0           0           0
+          4:17        3:17          23           1           0           0           0           0           0           0
+          5:17        4:17           9           0           0           0           0           0           0           0
+          6:17        5:17          38           0           0           0           0           0           0           0
+          7:18        6:17          21           1           0           0           0           0           0           0
+          8:18        7:18          17           0           0           0           0           0           0           0
+          9:18        8:18          13           0           0           0           0           0           0           0
+         30:18         now         429           4           4           4           2           1           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:17         now           0           0           0           1           0           1           0           7
+          1:17        0:17           3           0           0           0           1           0           2           6
+          2:17        1:17           0           0           1           1           1           1           3          16
+          3:17        2:17           2           0           0           0           2           0           1           5
+          4:17        3:17           1           0           0           1           2           1           5          14
+          5:17        4:17           3           0           0           1           0           1           0           4
+          6:17        5:17           3           1           1           2           1           5           5          20
+          7:18        6:17           3           0           2           2           1           1           3          10
+          8:18        7:18           1           0           0           0           1           3           2          10
+          9:18        8:18           2           0           0           1           2           1           0           7
+         30:18         now          38           3          14          20          26          45          57         240

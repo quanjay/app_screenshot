@@ -1,0 +1,796 @@
+Activity Resolver Table:
+  Schemes:
+      pandorav2:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandorav3:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandorav4:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandorav5:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandorav6:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandorav7:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandorav8:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandorav9:
+        a40536f com.pandora.android/.Main filter f7a95a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandorav2"
+          Scheme: "pandorav3"
+          Scheme: "pandorav4"
+          Scheme: "pandorav5"
+          Scheme: "pandorav6"
+          Scheme: "pandorav7"
+          Scheme: "pandorav8"
+          Scheme: "pandorav9"
+      pandora:
+        a40536f com.pandora.android/.Main filter 4ad1505
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pandora"
+      http:
+        a40536f com.pandora.android/.Main filter 4a8b78b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.pandora.com": -1
+          Authority: "www.pandora.com": -1
+          Path: "PatternMatcher{LITERAL: }"
+          Path: "PatternMatcher{LITERAL: /}"
+          Path: "PatternMatcher{LITERAL: /account}"
+          Path: "PatternMatcher{LITERAL: /account/device}"
+          Path: "PatternMatcher{LITERAL: /account/artistMessages}"
+          Path: "PatternMatcher{LITERAL: /account/info}"
+          Path: "PatternMatcher{LITERAL: /account/privacy}"
+          Path: "PatternMatcher{LITERAL: /account/notices}"
+          Path: "PatternMatcher{LITERAL: /account/billing}"
+          Path: "PatternMatcher{LITERAL: /account/help}"
+          Path: "PatternMatcher{LITERAL: /account/reset-password}"
+          Path: "PatternMatcher{GLOB: /album/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*}"
+          Path: "PatternMatcher{GLOB: /backstage/.*}"
+          Path: "PatternMatcher{LITERAL: /browse}"
+          Path: "PatternMatcher{GLOB: /browse/preview/.*}"
+          Path: "PatternMatcher{GLOB: /browse/details/.*}"
+          Path: "PatternMatcher{GLOB: /browse/catalog/.*}"
+          Path: "PatternMatcher{GLOB: /collection/.*}"
+          Path: "PatternMatcher{LITERAL: /feed}"
+          Path: "PatternMatcher{GLOB: /genre/.*}"
+          Path: "PatternMatcher{GLOB: /my-music/.*}"
+          Path: "PatternMatcher{LITERAL: /one}"
+          Path: "PatternMatcher{LITERAL: /password_reset}"
+          Path: "PatternMatcher{GLOB: /playlist/.*}"
+          Path: "PatternMatcher{GLOB: /podcast/.*}"
+          Path: "PatternMatcher{LITERAL: /profile}"
+          Path: "PatternMatcher{GLOB: /profile/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{LITERAL: /settings/info}"
+          Path: "PatternMatcher{LITERAL: /settings/upgrade}"
+          Path: "PatternMatcher{LITERAL: /settings/notices}"
+          Path: "PatternMatcher{LITERAL: /settings/content}"
+          Path: "PatternMatcher{GLOB: /song/play/.*}"
+          Path: "PatternMatcher{GLOB: /station/.*}"
+          Path: "PatternMatcher{LITERAL: /stations}"
+          Path: "PatternMatcher{LITERAL: /stations/new}"
+          Path: "PatternMatcher{GLOB: /track/.*}"
+          Path: "PatternMatcher{LITERAL: /trypremium}"
+          AutoVerify=true
+      https:
+        a40536f com.pandora.android/.Main filter 4a8b78b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.pandora.com": -1
+          Authority: "www.pandora.com": -1
+          Path: "PatternMatcher{LITERAL: }"
+          Path: "PatternMatcher{LITERAL: /}"
+          Path: "PatternMatcher{LITERAL: /account}"
+          Path: "PatternMatcher{LITERAL: /account/device}"
+          Path: "PatternMatcher{LITERAL: /account/artistMessages}"
+          Path: "PatternMatcher{LITERAL: /account/info}"
+          Path: "PatternMatcher{LITERAL: /account/privacy}"
+          Path: "PatternMatcher{LITERAL: /account/notices}"
+          Path: "PatternMatcher{LITERAL: /account/billing}"
+          Path: "PatternMatcher{LITERAL: /account/help}"
+          Path: "PatternMatcher{LITERAL: /account/reset-password}"
+          Path: "PatternMatcher{GLOB: /album/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*}"
+          Path: "PatternMatcher{GLOB: /backstage/.*}"
+          Path: "PatternMatcher{LITERAL: /browse}"
+          Path: "PatternMatcher{GLOB: /browse/preview/.*}"
+          Path: "PatternMatcher{GLOB: /browse/details/.*}"
+          Path: "PatternMatcher{GLOB: /browse/catalog/.*}"
+          Path: "PatternMatcher{GLOB: /collection/.*}"
+          Path: "PatternMatcher{LITERAL: /feed}"
+          Path: "PatternMatcher{GLOB: /genre/.*}"
+          Path: "PatternMatcher{GLOB: /my-music/.*}"
+          Path: "PatternMatcher{LITERAL: /one}"
+          Path: "PatternMatcher{LITERAL: /password_reset}"
+          Path: "PatternMatcher{GLOB: /playlist/.*}"
+          Path: "PatternMatcher{GLOB: /podcast/.*}"
+          Path: "PatternMatcher{LITERAL: /profile}"
+          Path: "PatternMatcher{GLOB: /profile/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{LITERAL: /settings/info}"
+          Path: "PatternMatcher{LITERAL: /settings/upgrade}"
+          Path: "PatternMatcher{LITERAL: /settings/notices}"
+          Path: "PatternMatcher{LITERAL: /settings/content}"
+          Path: "PatternMatcher{GLOB: /song/play/.*}"
+          Path: "PatternMatcher{GLOB: /station/.*}"
+          Path: "PatternMatcher{LITERAL: /stations}"
+          Path: "PatternMatcher{LITERAL: /stations/new}"
+          Path: "PatternMatcher{GLOB: /track/.*}"
+          Path: "PatternMatcher{LITERAL: /trypremium}"
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MEDIA_SEARCH:
+        76efc81 com.pandora.android/.activity.CreateStationApiActivity filter 7f70126
+          Action: "android.intent.action.MEDIA_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        a40536f com.pandora.android/.Main filter da9887c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+      com.google.android.gms.actions.SEARCH_ACTION:
+        a40536f com.pandora.android/.Main filter 444b068
+          Action: "com.google.android.gms.actions.SEARCH_ACTION"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.MEDIA_PLAY_FROM_SEARCH:
+        76efc81 com.pandora.android/.activity.CreateStationApiActivity filter fe94167
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_OPTIONS_CHANGED:
+        24209b2 com.pandora.android/.widget.Widget filter 6be8d03
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_OPTIONS_CHANGED"
+          Action: "update_pandora_widget"
+      android.intent.action.QUICKBOOT_POWERON:
+        80c354f com.pandora.android/com.evernote.android.job.JobBootReceiver filter f8af4dc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.media.ACTION_SCO_AUDIO_STATE_UPDATED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.bluetooth.adapter.action.STATE_CHANGED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        80c354f com.pandora.android/com.evernote.android.job.JobBootReceiver filter f8af4dc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        f80d76b com.pandora.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 34082c8
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      com.google.android.gms.car.media.STATUS:
+        16cbcf3 com.pandora.android/com.pandora.automotive.media.AndroidAutoBroadcastReceiver filter 3d0adb0
+          Action: "com.google.android.gms.car.media.STATUS"
+          Action: "android.app.action.ENTER_CAR_MODE"
+          Action: "android.app.action.EXIT_CAR_MODE"
+      com.pandora.android.ACTION_DISCONNECTED:
+        e2f5257 com.pandora.android/com.pandora.bmwconnect.BMWBroadcastReceiver filter b86c144
+          Action: "com.pandora.android.ACTION_CONNECTED"
+          Action: "com.pandora.android.ACTION_DISCONNECTED"
+      android.app.action.ENTER_CAR_MODE:
+        16cbcf3 com.pandora.android/com.pandora.automotive.media.AndroidAutoBroadcastReceiver filter 3d0adb0
+          Action: "com.google.android.gms.car.media.STATUS"
+          Action: "android.app.action.ENTER_CAR_MODE"
+          Action: "android.app.action.EXIT_CAR_MODE"
+      android.app.action.EXIT_CAR_MODE:
+        16cbcf3 com.pandora.android/com.pandora.automotive.media.AndroidAutoBroadcastReceiver filter 3d0adb0
+          Action: "com.google.android.gms.car.media.STATUS"
+          Action: "android.app.action.ENTER_CAR_MODE"
+          Action: "android.app.action.EXIT_CAR_MODE"
+      com.pandora.android.ACTION_CONNECTED:
+        e2f5257 com.pandora.android/com.pandora.bmwconnect.BMWBroadcastReceiver filter b86c144
+          Action: "com.pandora.android.ACTION_CONNECTED"
+          Action: "com.pandora.android.ACTION_DISCONNECTED"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.waze.sdk.audio.ACTION_INIT:
+        5db322d com.pandora.android/.waze.WazeBroadcastReceiver filter 36c4362
+          Action: "com.waze.sdk.audio.ACTION_INIT"
+      android.intent.action.LOCALE_CHANGED:
+        abd1d0a com.pandora.android/.util.AlarmInitReceiver filter 11a997b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.amazon.inapp.purchasing.NOTIFY:
+        9e08ac com.pandora.android/com.amazon.device.iap.ResponseReceiver filter af64975
+          Action: "com.amazon.inapp.purchasing.NOTIFY"
+      com.google.android.c2dm.intent.RECEIVE:
+        4e86b14 com.pandora.android/com.google.android.gms.gcm.GcmReceiver filter d0ddfbd
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.pandora.android"
+        2ed79e5 com.pandora.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 65edcba
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.pandora.android"
+      android.appwidget.action.APPWIDGET_DELETED:
+        24209b2 com.pandora.android/.widget.Widget filter 6be8d03
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_OPTIONS_CHANGED"
+          Action: "update_pandora_widget"
+      android.intent.action.TIMEZONE_CHANGED:
+        abd1d0a com.pandora.android/.util.AlarmInitReceiver filter 11a997b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+      android.intent.action.TIME_SET:
+        abd1d0a com.pandora.android/.util.AlarmInitReceiver filter 11a997b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.evernote.android.job.v14.RUN_JOB:
+        ae5c429 com.pandora.android/com.evernote.android.job.v14.PlatformAlarmReceiver filter 64f33ae
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+      android.intent.action.BOOT_COMPLETED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        abd1d0a com.pandora.android/.util.AlarmInitReceiver filter 11a997b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+        80c354f com.pandora.android/com.evernote.android.job.JobBootReceiver filter f8af4dc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      HAP_BIND:
+        5c30efe com.pandora.android/.hap.HapBindReceiver filter 912f65f
+          Action: "HAP_BIND"
+      update_pandora_widget:
+        24209b2 com.pandora.android/.widget.Widget filter 6be8d03
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_OPTIONS_CHANGED"
+          Action: "update_pandora_widget"
+      android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        24209b2 com.pandora.android/.widget.Widget filter 6be8d03
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_OPTIONS_CHANGED"
+          Action: "update_pandora_widget"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        abd1d0a com.pandora.android/.util.AlarmInitReceiver filter 3390398
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        def07f1 com.pandora.android/.util.UpgradeBroadcastReceiver filter 897ffd6
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        80c354f com.pandora.android/com.evernote.android.job.JobBootReceiver filter f8af4dc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        16b2480 com.pandora.android/.api.bluetooth.AutoStartReceiver filter abdbab9
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.media.ACTION_SCO_AUDIO_STATE_UPDATED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      net.vrallev.android.job.v14.RUN_JOB:
+        ae5c429 com.pandora.android/com.evernote.android.job.v14.PlatformAlarmReceiver filter 64f33ae
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+
+Service Resolver Table:
+  Schemes:
+      wear:
+        4bec8e3 com.pandora.android/.wear.PandoraWearListenerService filter 902e2e0
+          Action: "com.google.android.gms.wearable.CAPABILITY_CHANGED"
+          Action: "com.google.android.gms.wearable.DATA_CHANGED"
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        c0b103f com.pandora.android/com.google.firebase.iid.FirebaseInstanceIdService filter f634d0c
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        9b0999 com.pandora.android/com.evernote.android.job.gcm.PlatformGcmService filter 445e45e permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+      com.waze.sdk.audio.ACTION_INIT:
+        9a009d com.pandora.android/.media.PandoraBrowserService filter 4304912
+          Action: "android.media.browse.MediaBrowserService"
+          Action: "com.waze.sdk.audio.ACTION_INIT"
+      com.google.android.c2dm.intent.RECEIVE:
+        900cf61 com.pandora.android/.gcm.GCMReceiver filter a8e0a86
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      com.google.android.gms.iid.InstanceID:
+        f537f47 com.pandora.android/.gcm.PandoraInstanceIDListenerService filter f3f0374
+          Action: "com.google.android.gms.iid.InstanceID"
+      android.media.browse.MediaBrowserService:
+        9a009d com.pandora.android/.media.PandoraBrowserService filter 4304912
+          Action: "android.media.browse.MediaBrowserService"
+          Action: "com.waze.sdk.audio.ACTION_INIT"
+
+Domain verification status:
+  com.pandora.android:
+    ID: 746c7158-05be-41bc-b740-253701442578
+    Signatures: [E6:22:71:55:59:94:B1:14:34:E4:E3:DF:FF:F8:ED:B3:1C:8B:50:80:C8:3C:06:05:46:C3:8B:1C:C7:24:0C:49]
+    Domain verification state:
+      www.pandora.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.pandora.com
+
+Permissions:
+  Permission [com.pandora.android.permission.C2D_MESSAGE] (a094bd4):
+    sourcePackage=com.pandora.android
+    uid=10160 gids=[] type=0 prot=signature
+    perm=PermissionInfo{508117d com.pandora.android.permission.C2D_MESSAGE}
+
+Permissions:
+  Permission [com.pandora.android.permission.CONFIG_CONST] (d71b872):
+    sourcePackage=com.pandora.android
+    uid=10160 gids=[] type=0 prot=signature
+    perm=PermissionInfo{9ca74c3 com.pandora.android.permission.CONFIG_CONST}
+
+Registered ContentProviders:
+  com.pandora.android/android.support.v4.content.FileProvider:
+    Provider{c995140 com.pandora.android/android.support.v4.content.FileProvider}
+  com.pandora.android/com.pandora.radio.ondemand.provider.CollectionsProvider:
+    Provider{b894879 com.pandora.android/com.pandora.radio.ondemand.provider.CollectionsProvider}
+  com.pandora.android/com.pandora.radio.provider.NowPlayingProvider:
+    Provider{41ee9be com.pandora.android/com.pandora.radio.provider.NowPlayingProvider}
+  com.pandora.android/com.pandora.radio.provider.StationProvider:
+    Provider{3559a1f com.pandora.android/com.pandora.radio.provider.StationProvider}
+  com.pandora.android/.provider.HomeMenuProvider:
+    Provider{362416c com.pandora.android/.provider.HomeMenuProvider}
+  com.pandora.android/.provider.AppProvider:
+    Provider{64cf335 com.pandora.android/.provider.AppProvider}
+  com.pandora.android/com.facebook.FacebookContentProvider:
+    Provider{dbe3ca com.pandora.android/com.facebook.FacebookContentProvider}
+  com.pandora.android/com.facebook.marketing.internal.MarketingInitProvider:
+    Provider{543b93b com.pandora.android/com.facebook.marketing.internal.MarketingInitProvider}
+  com.pandora.android/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{ee80858 com.pandora.android/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.pandora.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{7668db1 com.pandora.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.pandora.android/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{dbc7296 com.pandora.android/com.google.firebase.provider.FirebaseInitProvider}
+  com.pandora.android/com.facebook.internal.FacebookInitProvider:
+    Provider{a2aae17 com.pandora.android/com.facebook.internal.FacebookInitProvider}
+
+ContentProvider Authorities:
+  [com.pandora.android.fileprovider]:
+    Provider{c995140 com.pandora.android/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{2015204 com.pandora.android}
+  [com.pandora.android.radio.provider]:
+    Provider{3559a1f com.pandora.android/com.pandora.radio.provider.StationProvider}
+      applicationInfo=ApplicationInfo{4a553ed com.pandora.android}
+  [com.pandora.android.ondemand.provider]:
+    Provider{b894879 com.pandora.android/com.pandora.radio.ondemand.provider.CollectionsProvider}
+      applicationInfo=ApplicationInfo{452222 com.pandora.android}
+  [com.pandora.android.lifecycle-trojan]:
+    Provider{7668db1 com.pandora.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{62214b3 com.pandora.android}
+  [com.facebook.app.FacebookContentProvider139475280761]:
+    Provider{dbe3ca com.pandora.android/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{4438a70 com.pandora.android}
+  [com.pandora.android.firebaseperfprovider]:
+    Provider{ee80858 com.pandora.android/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{79041e9 com.pandora.android}
+  [com.pandora.android.MarketingInitProvider]:
+    Provider{543b93b com.pandora.android/com.facebook.marketing.internal.MarketingInitProvider}
+      applicationInfo=ApplicationInfo{fb73e6e com.pandora.android}
+  [com.pandora.android.nowplaying.provider]:
+    Provider{41ee9be com.pandora.android/com.pandora.radio.provider.NowPlayingProvider}
+      applicationInfo=ApplicationInfo{d1f490f com.pandora.android}
+  [com.pandora.android.menu.provider]:
+    Provider{362416c com.pandora.android/.provider.HomeMenuProvider}
+      applicationInfo=ApplicationInfo{f2edd9c com.pandora.android}
+  [com.pandora.android.firebaseinitprovider]:
+    Provider{dbc7296 com.pandora.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{12213a5 com.pandora.android}
+  [com.pandora.android.provider]:
+    Provider{64cf335 com.pandora.android/.provider.AppProvider}
+      applicationInfo=ApplicationInfo{41cd37a com.pandora.android}
+  [com.pandora.android.FacebookInitProvider]:
+    Provider{a2aae17 com.pandora.android/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{311672b com.pandora.android}
+
+Key Set Manager:
+  [com.pandora.android]
+      Signing KeySets: 57
+
+Packages:
+  Package [com.pandora.android] (21a3788):
+    userId=10160
+    pkg=Package{d454521 com.pandora.android}
+    codePath=/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==
+    resourcePath=/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==
+    legacyNativeLibraryDir=/data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=18122009 minSdk=21 targetSdk=28
+    minExtensionVersions=[]
+    versionName=1812.2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{d454521 com.pandora.android}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.pandora.android
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-31 11:48:32
+    firstInstallTime=2025-05-31 11:48:32
+    lastUpdateTime=2025-05-31 11:48:32
+    signatures=PackageSignatures{a14ad46 version:2, signatures:[5b0e52e1], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    declared permissions:
+      com.pandora.android.permission.C2D_MESSAGE: prot=signature, INSTALLED
+      com.pandora.android.permission.CONFIG_CONST: prot=signature, INSTALLED
+    requested permissions:
+      com.android.vending.BILLING
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.FOREGROUND_SERVICE
+      android.permission.GET_ACCOUNTS
+      com.google.android.c2dm.permission.RECEIVE
+      com.pandora.android.permission.C2D_MESSAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.RECORD_AUDIO
+      com.pandora.android.permission.CONFIG_CONST
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_MEDIA_LOCATION
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      com.pandora.android.permission.C2D_MESSAGE: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.pandora.android.permission.CONFIG_CONST: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=131822 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_PHONE_STATE: granted=false
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.GET_ACCOUNTS: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.google.android.apps.maps:
+      com.pandora.android
+  queries via intent:
+    [com.android.providers.settings,com.android.keychain,com.android.server.telecom,com.android.localtransport,com.android.wallpaperbackup,com.android.inputdevices,com.android.dynsystem,android,com.android.settings,com.android.location.fused,com.android.emulator.multidisplay]:
+      com.pandora.android
+    com.android.bluetooth:
+      com.pandora.android
+    com.android.shell:
+      com.pandora.android
+    com.android.managedprovisioning:
+      com.pandora.android
+    com.google.android.tag:
+      com.pandora.android
+    com.android.traceur:
+      com.pandora.android
+    com.google.android.documentsui:
+      com.pandora.android
+    com.google.android.packageinstaller:
+      com.pandora.android
+    com.google.android.captiveportallogin:
+      com.pandora.android
+    com.android.simappdialog:
+      com.pandora.android
+    com.google.android.configupdater:
+      com.pandora.android
+    com.android.contacts:
+      com.pandora.android
+    com.google.android.apps.messaging:
+      com.pandora.android
+    com.google.android.settings.intelligence:
+      com.pandora.android
+    com.google.android.onetimeinitializer:
+      com.pandora.android
+    com.android.camera2:
+      com.pandora.android
+    com.breel.wallpapers18:
+      com.pandora.android
+    com.android.chrome:
+      com.pandora.android
+    com.google.android.webview:
+      com.pandora.android
+    com.android.emergency:
+      com.pandora.android
+    com.android.storagemanager:
+      com.pandora.android
+    com.android.systemui:
+      com.pandora.android
+    com.google.android.hotspot2.osulogin:
+      com.pandora.android
+    com.google.android.cellbroadcastreceiver:
+      com.pandora.android
+    com.google.android.permissioncontroller:
+      com.pandora.android
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=45
+  User 0:
+    seq=2, package=com.google.android.apps.messaging
+    seq=9, package=com.google.android.gms
+    seq=15, package=com.google.android.apps.docs
+    seq=27, package=com.cnn.mobile.android.phone
+    seq=32, package=com.geozilla.family
+    seq=42, package=com.mdlive.mobile
+    seq=43, package=io.github.ylimit.droidbotapp
+    seq=44, package=com.pandora.android
+
+
+Dexopt state:
+  [com.pandora.android]
+    path: /data/app/~~MiDVwsC5YwCKtAsHaAx-4w==/com.pandora.android-XucCb4LZ2pbhS7_NDExOjw==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.pandora.android]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7295  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:41         now          24       50085           0           0           5           6           1
+          1:41        0:41          22       38445           0           0           5           7           2
+          2:41        1:41          17       40400           0           0           1           5           1
+          3:41        2:41          13       12821           0           0           2           3           1
+          4:41        3:41          11       27678           0           0           3           8           5
+          5:41        4:41          18       27370           0           0           1           6           1
+          6:41        5:41           0           0           0           0           0           0           0
+          7:41        6:41           9       26038           0           0           2           2           0
+          8:41        7:41          50       70966           0           0           9          14           2
+          9:41        8:41          31       54865           0           0           5           9           2
+         24:41         now         343      435408           0           5          46         197          30
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:41         now          24           0           0           0           0           0           0           0
+          1:41        0:41          21           1           0           0           0           0           0           0
+          2:41        1:41          17           0           0           0           0           0           0           0
+          3:41        2:41          13           0           0           0           0           0           0           0
+          4:41        3:41          10           0           1           0           0           0           0           0
+          5:41        4:41          18           0           0           0           0           0           0           0
+          6:41        5:41           0           0           0           0           0           0           0           0
+          7:41        6:41           9           0           0           0           0           0           0           0
+          8:41        7:41          49           1           0           0           0           0           0           0
+          9:41        8:41          30           1           0           0           0           0           0           0
+         24:41         now         329           3           4           4           2           1           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:41         now           3           1           1           1           1           1           4          12
+          1:41        0:41           3           0           2           2           1           1           3          10
+          2:41        1:41           1           0           0           0           1           3           2          10
+          3:41        2:41           2           0           0           1           2           1           0           7
+          4:41        3:41           3           0           0           0           0           3           0           5
+          5:41        4:41           0           1           0           0           1           2           4          10
+          6:41        5:41           0           0           0           0           0           0           0           0
+          7:41        6:41           2           0           0           1           0           1           0           5
+          8:41        7:41           4           0           5           2           4           4           6          25
+          9:41        8:41           2           0           3           1           3           2           1          19
+         24:41         now          29           3          13          15          20          37          45         180
