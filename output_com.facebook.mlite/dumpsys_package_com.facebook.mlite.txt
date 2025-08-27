@@ -1,0 +1,656 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter 9d9bfd3
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image/*:
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter a5b2710
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter 516b209
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      text:
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter 9d9bfd3
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      image:
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter a5b2710
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter 516b209
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      fb-messenger:
+        4a23ed4 com.facebook.mlite/.intenthandling.IntentHandlerActivity filter 431887d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb-messenger-lite"
+          Scheme: "fb-messenger"
+      fb-messenger-lite-secure:
+        e5b6372 com.facebook.mlite/.intenthandling.SecureIntentHandlerActivity filter 16243c3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "fb-messenger-lite-secure"
+      fb-messenger-lite:
+        4a23ed4 com.facebook.mlite/.intenthandling.IntentHandlerActivity filter 431887d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb-messenger-lite"
+          Scheme: "fb-messenger"
+
+  Non-Data Actions:
+      com.facebook.mlite.PRIVACY_FLOW_TRIGGER:
+        34e7440 com.facebook.mlite/.privacyflowtrigger.view.PrivacyFlowTriggerActivity filter 9532f79
+          Action: "com.facebook.mlite.PRIVACY_FLOW_TRIGGER"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.CALLCOMPOSER:
+        3c6946c com.facebook.mlite/.composer.view.CallComposerActivity filter 44e4a35
+          Action: "com.facebook.mlite.CALLCOMPOSER"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.GDPR_CONSENTS:
+        2b4c828 com.facebook.mlite/.gdpr.view.GdprConsentActivity filter 2e59941
+          Action: "com.facebook.mlite.GDPR_CONSENTS"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        d49a05b com.facebook.mlite/.coreui.view.MainActivity filter 89730f8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.facebook.mlite.STORY_VIEWER:
+        cbe8b58 com.facebook.mlite/.story.viewer.StoryViewerActivity filter 9a654b1
+          Action: "com.facebook.mlite.STORY_VIEWER"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.ACCOUNTS:
+        ce8b1a com.facebook.mlite/.accounts.view.AccountsActivity filter 66f564b
+          Action: "com.facebook.mlite.ACCOUNTS"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.NICKNAMES:
+        b862d96 com.facebook.mlite/.threadcustomization.view.NicknamesActivity filter 2094d17
+          Action: "com.facebook.mlite.NICKNAMES"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.INBOX:
+        d49a05b com.facebook.mlite/.coreui.view.MainActivity filter 11b99d1
+          Action: "com.facebook.mlite.INBOX"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES:
+        6f8d22 com.facebook.mlite/com.facebook.secure.packagefinder.PackageFinderActivity filter 6cba3b3
+          Action: "com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.LOW_DISK_SPACE:
+        17844be com.facebook.mlite/.lowdisk.view.LowDiskSpaceActivity filter e1b591f
+          Action: "com.facebook.mlite.LOW_DISK_SPACE"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.COMPOSER:
+        debc0e com.facebook.mlite/.composer.view.ComposerActivity filter cf6862f
+          Action: "com.facebook.mlite.COMPOSER"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.PARTICIPANTS:
+        9efeeca com.facebook.mlite/.threadview.view.ParticipantsActivity filter 26683b
+          Action: "com.facebook.mlite.PARTICIPANTS"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.CAMERA:
+        a3d0504 com.facebook.mlite/.camera.view.CameraActivity filter 89a8aed
+          Action: "com.facebook.mlite.CAMERA"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.THREAD_VIEW:
+        f8a64a4 com.facebook.mlite/.threadview.view.ThreadViewActivity filter 36f020d
+          Action: "com.facebook.mlite.THREAD_VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.GDPR_CONTROL_CENTER:
+        9ba3ee6 com.facebook.mlite/.gdpr.view.GdprControlCenterActivity filter f5b0c27
+          Action: "com.facebook.mlite.GDPR_CONTROL_CENTER"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.mlite.UPDATE:
+        933a43c com.facebook.mlite/.update.view.ApkUpdateActivity filter 96f65c5
+          Action: "com.facebook.mlite.UPDATE"
+          Category: "android.intent.category.DEFAULT"
+      com.facebook.crudo.login.action.CrudoLoginActivity:
+        a445c36 com.facebook.mlite/.sso.view.LoginActivity filter af7e737
+          Action: "com.facebook.crudo.login.action.CrudoLoginActivity"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter 9d9bfd3
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter a5b2710
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.SEND_MULTIPLE:
+        bf205c2 com.facebook.mlite/.share.view.ShareActivity filter 516b209
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        6cdf09c com.facebook.mlite/.update.PackageReplacedBroadcastReceiver filter 9a72aa5
+          Action: "android.intent.action.PACKAGE_REPLACED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      android.intent.action.ACTION_SCREEN_OFF:
+        93626ce com.facebook.mlite/com.facebook.errorreporting.lacrima.detector.broadcast.LockScreenBroadcastReceiver filter d3579ef
+          Action: "android.intent.action.ACTION_SCREEN_OFF"
+          Action: "android.intent.action.ACTION_SCREEN_ON"
+      com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IS_MANAGED_APP_CHANGED:
+        14c2ef6 com.facebook.mlite/com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppReceiver filter c0322f7
+          Action: "com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IS_MANAGED_APP_CHANGED"
+      android.accounts.LOGIN_ACCOUNTS_CHANGED:
+        b48fa1e com.facebook.mlite/.sso.accountmanager.MLiteAccountsChangedReceiver filter b7bd2ff
+          Action: "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+      com.facebook.mlite.notify.REPLY_INLINE:
+        7432846 com.facebook.mlite/.notify.NotificationBroadcastReceiver filter cedb734
+          Action: "com.facebook.mlite.notify.REPLY_INLINE"
+      com.facebook.mlite.notify.LIKE:
+        7432846 com.facebook.mlite/.notify.NotificationBroadcastReceiver filter 541095d
+          Action: "com.facebook.mlite.notify.LIKE"
+      com.facebook.rti.fbns.intent.RECEIVE:
+        87982d2 com.facebook.mlite/com.facebook.pushlite.tokenprovider.fbns.PushLiteFbnsListenerService filter 204dfa3
+          Action: "com.facebook.rti.fbns.intent.RECEIVE"
+          Category: "com.facebook.mlite"
+      com.facebook.mlite.alarm:
+        76d70 com.facebook.mlite/.alarm.management.AlarmBroadcastReceiver filter b21e8e9
+          Action: "com.facebook.mlite.alarm"
+      com.google.android.c2dm.intent.RECEIVE:
+        8c5ecfc com.facebook.mlite/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 162df85
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.TIME_SET:
+        177a88 com.facebook.mlite/.util.timechange.TimeChangeReceiver filter e84cc21
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.DATE_CHANGED"
+      com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag:
+        4e295b8 com.facebook.mlite/com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag filter 267ff91
+          Action: "com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag"
+      com.facebook.mlite.rtc.NotificationAction:
+        e3cb8cc com.facebook.mlite/.rtc.receiver.NotificationActionReceiver filter 9f10715
+          Action: "com.facebook.mlite.rtc.NotificationAction"
+      android.intent.action.BOOT_COMPLETED:
+        f9d596e com.facebook.mlite/.boot.BootBroadcastReceiver filter 52c80f
+          Action: "android.intent.action.BOOT_COMPLETED"
+        b069a2a com.facebook.mlite/com.facebook.crudolib.optimisticwrite.BootCompletedReceiver filter b44a01b
+          Action: "android.intent.action.BOOT_COMPLETED"
+        4075564 com.facebook.mlite/com.facebook.lite.mliteburritoexposureloggingexecutor.exposurelogalarms.ExposureLoggingAlarmBootReceiver filter 27c03cd
+          Action: "android.intent.action.BOOT_COMPLETED"
+        69663d0 com.facebook.mlite/com.facebook.errorreporting.lacrima.detector.broadcast.SecureShutdownBootBroadcastReceiver filter 3520fc9
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+      android.intent.action.DATE_CHANGED:
+        177a88 com.facebook.mlite/.util.timechange.TimeChangeReceiver filter e84cc21
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.DATE_CHANGED"
+      com.facebook.GET_PHONE_ID:
+        34912a0 com.facebook.mlite/.familydeviceid.MLiteFamilyDeviceIdRequestReceiver filter 189de59
+          Action: "com.facebook.GET_PHONE_ID"
+      com.facebook.mlite.notify.DELETE:
+        7432846 com.facebook.mlite/.notify.NotificationBroadcastReceiver filter a01aa07
+          Action: "com.facebook.mlite.notify.DELETE"
+      android.intent.action.ACTION_SCREEN_ON:
+        93626ce com.facebook.mlite/com.facebook.errorreporting.lacrima.detector.broadcast.LockScreenBroadcastReceiver filter d3579ef
+          Action: "android.intent.action.ACTION_SCREEN_OFF"
+          Action: "android.intent.action.ACTION_SCREEN_ON"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        bc99e7a com.facebook.mlite/.update.MyPackageReplacedBroadcastReceiver filter f7dd62b
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        5844482 com.facebook.mlite/com.facebook.lite.sharedpackagereplacedreceiver.SharedPackageReplacedReceiver filter 4bcf793
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.ACTION_SHUTDOWN:
+        69663d0 com.facebook.mlite/com.facebook.errorreporting.lacrima.detector.broadcast.SecureShutdownBootBroadcastReceiver filter 3520fc9
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        7dc8d2c com.facebook.mlite/com.facebook.pushlite.tokenprovider.fcm.PushLiteFirebaseMessagingService filter 7f3b3f5
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        202dce8 com.facebook.mlite/.mediaupload.instance.doorstopjob.MediaSendDoorstopGcmService filter df6ef01 permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+        19cdf94 com.facebook.mlite/.jobscheduler.LiteJobSchedulerGcmTaskService filter c627a3d permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+        f5ad232 com.facebook.mlite/com.facebook.analytics2.logger.GooglePlayUploadService filter a62eb83 permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+        a326100 com.facebook.mlite/com.facebook.crudolib.optimisticwrite.GcmNetworkWriteService filter 7017d39 permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+        2dfdf7e com.facebook.mlite/com.facebook.pushlite.PushLiteGCMJobService filter 8debcdf permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+        816758a com.facebook.mlite/.network.graphql.impl.GraphQLGcmTaskService filter c1c47fb permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+      com.google.firebase.MESSAGING_EVENT:
+        d11e1da com.facebook.mlite/com.facebook.pushlite.tokenprovider.fcm.PushLiteFcmListenerService filter c09c60b
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        d1b5018 com.facebook.mlite/com.google.firebase.messaging.FirebaseMessagingService filter 1989a71
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.accounts.AccountAuthenticator:
+        abc41a6 com.facebook.mlite/.sso.accountmanager.MLiteAuthenticatorService filter a8cb7e7
+          Action: "android.accounts.AccountAuthenticator"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.facebook.mlite.permission.C2D_MESSAGE] (d8c1c1f):
+    sourcePackage=com.facebook.mlite
+    uid=10370 gids=[] type=0 prot=signature
+    perm=PermissionInfo{4339b6c com.facebook.mlite.permission.C2D_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.facebook.mlite.provider.ACCESS] (4dc4535):
+    sourcePackage=com.facebook.mlite
+    uid=10370 gids=[] type=0 prot=signature
+    perm=PermissionInfo{addcdca com.facebook.mlite.provider.ACCESS}
+    flags=0x0
+
+Permissions:
+  Permission [com.facebook.permission.prod.FB_APP_COMMUNICATION] (9605b3b):
+    sourcePackage=com.facebook.mlite
+    uid=10370 gids=[] type=0 prot=signature
+    perm=PermissionInfo{4750258 com.facebook.permission.prod.FB_APP_COMMUNICATION}
+    flags=0x0
+
+Permissions:
+  Permission [com.facebook.mlite.BROADCAST] (498ffb1):
+    sourcePackage=com.facebook.mlite
+    uid=10370 gids=[] type=0 prot=signature
+    perm=PermissionInfo{6f2fc96 com.facebook.mlite.BROADCAST}
+    flags=0x0
+
+Registered ContentProviders:
+  com.facebook.mlite/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{6f7017 com.facebook.mlite/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.facebook.mlite/androidx.core.content.FileProvider:
+    Provider{c63ec04 com.facebook.mlite/androidx.core.content.FileProvider}
+  com.facebook.mlite/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{78ce5ed com.facebook.mlite/com.google.firebase.provider.FirebaseInitProvider}
+  com.facebook.mlite/.sso.provider.LoggedInUserProvider:
+    Provider{75a4c22 com.facebook.mlite/.sso.provider.LoggedInUserProvider}
+
+ContentProvider Authorities:
+  [com.facebook.mlite.fileprovider]:
+    Provider{c63ec04 com.facebook.mlite/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{8f0f6b3 com.facebook.mlite}
+  [com.facebook.mlite.sso.MessengerLoggedInUserProvider]:
+    Provider{75a4c22 com.facebook.mlite/.sso.provider.LoggedInUserProvider}
+      applicationInfo=ApplicationInfo{b35c470 com.facebook.mlite}
+  [com.facebook.mlite.lifecycle-process]:
+    Provider{6f7017 com.facebook.mlite/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{65ef3e9 com.facebook.mlite}
+  [com.facebook.mlite.firebaseinitprovider]:
+    Provider{78ce5ed com.facebook.mlite/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{3f5086e com.facebook.mlite}
+
+Key Set Manager:
+  [com.facebook.mlite]
+      Signing KeySets: 216
+
+Packages:
+  Package [com.facebook.mlite] (2999da9):
+    appId=10370
+    pkg=Package{afa4b0f com.facebook.mlite}
+    codePath=/data/app/~~Y2nr91cvAPkUda7lNUP2OQ==/com.facebook.mlite-uXIY0QCpuJ9JqhnwNAFSzw==
+    resourcePath=/data/app/~~Y2nr91cvAPkUda7lNUP2OQ==/com.facebook.mlite-uXIY0QCpuJ9JqhnwNAFSzw==
+    legacyNativeLibraryDir=/data/app/~~Y2nr91cvAPkUda7lNUP2OQ==/com.facebook.mlite-uXIY0QCpuJ9JqhnwNAFSzw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=425824148 minSdk=14 targetSdk=31
+    minExtensionVersions=[]
+    versionName=332.0.0.20.108
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.facebook.appmanager, com.facebook.system, com.facebook.services, com.LogiaGroup.LogiaDeck]
+    queriesIntents=[Intent { act=android.media.browse.MediaBrowserService }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.PICK dat=content://*/... typ=*/* }, Intent { act=android.intent.action.VIEW dat=*:/... }, Intent { act=android.intent.action.MAIN }, Intent { act=com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES }, Intent { act=com.facebook.GET_PHONE_ID }, Intent { act=com.facebook.GET_UNIQUE_ID }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-06 21:03:29
+    lastUpdateTime=2025-08-06 21:03:30
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{c0ab79c version:2, signatures:[c412e90e], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.facebook.mlite.permission.C2D_MESSAGE: prot=signature
+      com.facebook.permission.prod.FB_APP_COMMUNICATION: prot=signature
+      com.facebook.mlite.BROADCAST: prot=signature
+      com.facebook.mlite.provider.ACCESS: prot=signature
+    requested permissions:
+      com.facebook.mlite.permission.C2D_MESSAGE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.MANAGE_ACCOUNTS
+      com.sec.android.provider.badge.permission.READ
+      android.permission.READ_PHONE_NUMBERS
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.facebook.wakizashi.provider.ACCESS
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.READ_PROFILE
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.BATTERY_STATS
+      android.permission.READ_PHONE_STATE
+      android.permission.USE_FULL_SCREEN_INTENT
+      com.facebook.mlite.provider.ACCESS
+      android.permission.READ_MEDIA_IMAGES
+      com.facebook.permission.prod.FB_APP_COMMUNICATION
+      com.facebook.orca.provider.ACCESS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      com.facebook.katana.provider.ACCESS
+      com.facebook.mlite.BROADCAST
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      com.sec.android.provider.badge.permission.WRITE
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.GET_ACCOUNTS
+      com.facebook.pages.app.provider.ACCESS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECORD_AUDIO
+      com.facebook.lite.provider.ACCESS
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+    install permissions:
+      com.facebook.mlite.permission.C2D_MESSAGE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      com.facebook.mlite.provider.ACCESS: granted=true
+      com.facebook.permission.prod.FB_APP_COMMUNICATION: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.facebook.mlite.BROADCAST: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=160123 deDataInode=159629 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.facebook.mlite
+      firstInstallTime=2025-08-06 21:03:30
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_NUMBERS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.ebay.mobile:
+      com.facebook.mlite
+  queries via component:
+    [com.android.nfc,com.miui.tsmclient]:
+      com.facebook.mlite
+    com.xiaomi.aicr:
+      com.facebook.mlite
+    com.android.contacts:
+      com.facebook.mlite
+    com.xiaomi.gamecenter.sdk.service:
+      com.facebook.mlite
+    com.android.settings.intelligence:
+      com.facebook.mlite
+    com.android.camera:
+      com.facebook.mlite
+    com.miui.carlink:
+      com.facebook.mlite
+    com.miui.nextpay:
+      com.facebook.mlite
+    com.xiaomi.mis:
+      com.facebook.mlite
+    com.miui.hybrid:
+      com.facebook.mlite
+    com.xiaomi.market:
+      com.facebook.mlite
+    com.miui.systemAdSolution:
+      com.facebook.mlite
+    com.xiaomi.account:
+      com.facebook.mlite
+    com.miui.greenguard:
+      com.facebook.mlite
+    com.xiaomi.payment:
+      com.facebook.mlite
+    com.xiaomi.xmsf:
+      com.facebook.mlite
+    com.android.providers.downloads.ui:
+      com.facebook.mlite
+    com.mfashiongallery.emag:
+      com.facebook.mlite
+    com.android.calendar:
+      com.facebook.mlite
+    com.android.email:
+      com.facebook.mlite
+    com.miui.gallery:
+      com.facebook.mlite
+    com.android.soundrecorder:
+      com.facebook.mlite
+    com.miui.virtualsim:
+      com.facebook.mlite
+    com.getsurfboard:
+      com.facebook.mlite
+    com.xingin.xhs:
+      com.facebook.mlite
+    com.duokan.reader:
+      com.facebook.mlite
+    com.instagram.android:
+      com.facebook.mlite
+    com.ebay.mobile:
+      com.facebook.mlite
+    com.microsoft.todos:
+      com.facebook.mlite
+    com.miui.video:
+      com.facebook.mlite
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.facebook.mlite
+    com.alibaba.aliexpresshd:
+      com.facebook.mlite
+    cool.monkey.android:
+      com.facebook.mlite
+    com.google.android.apps.magazines:
+      com.facebook.mlite
+    com.spotify.music:
+      com.facebook.mlite
+    com.google.android.apps.youtube.music:
+      com.facebook.mlite
+    com.ss.android.ugc.aweme:
+      com.facebook.mlite
+    com.microsoft.office.outlook:
+      com.facebook.mlite
+    com.ss.android.article.news:
+      com.facebook.mlite
+    com.jijia.bqwnl:
+      com.facebook.mlite
+    com.quark.browser:
+      com.facebook.mlite
+    com.baidu.BaiduMap:
+      com.facebook.mlite
+    com.UCMobile:
+      com.facebook.mlite
+    com.autonavi.minimap:
+      com.facebook.mlite
+    com.dragon.read:
+      com.facebook.mlite
+    com.jijia.jjweather:
+      com.facebook.mlite
+    com.zhuantech.sijiweather:
+      com.facebook.mlite
+    com.suxing.sustream:
+      com.facebook.mlite
+    com.yahoo.mobile.client.android.mail:
+      com.facebook.mlite
+    com.facebook.mlite:
+      [com.xiaomi.bluetooth,com.android.bluetooth]
+      com.google.android.documentsui
+      com.android.imsserviceentitlement
+      com.android.contacts
+      com.xiaomi.gamecenter.sdk.service
+      com.android.mms
+      com.android.music
+      douzifly.list
+      com.sohu.inputmethod.sogou.xiaomi
+      com.google.android.accessibility.switchaccess
+      com.unionpay.tsmservice.mi
+      com.android.healthconnect.controller
+      com.android.cellbroadcastreceiver.module
+      com.wuba.zhuanzhuan
+      com.android.providers.downloads.ui
+      com.mfashiongallery.emag
+      com.miui.calculator
+      com.android.calendar
+      com.miui.cleanmaster
+      com.miui.compass
+      com.android.email
+      org.secuso.privacyfriendlytodolist
+      com.miui.gallery
+      com.miui.securitymanager
+      com.miui.screenrecorder
+      io.appium.settings
+      com.android.soundrecorder
+      com.miui.virtualsim
+      com.miui.weather2
+      com.getsurfboard
+      com.xiaomi.scanner
+      com.android.chrome
+      com.skysoft.kkbox.android
+      com.xingin.xhs
+      com.duokan.reader
+      com.xiaomi.gamecenter
+      com.instagram.android
+      com.google.android.gm
+      com.ebay.mobile
+      com.anydo
+      com.microsoft.todos
+      com.miui.video
+      com.todoist
+      todolist.scheduleplanner.dailyplanner.todo.reminders
+      com.google.android.apps.tasks
+      cn.amazon.mShop.android
+      com.alibaba.aliexpresshd
+      com.einnovation.temu
+      cool.monkey.android
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.google.android.apps.magazines
+      com.cnn.mobile.android.phone
+      com.spotify.music
+      com.google.android.apps.youtube.music
+      com.musicworx
+      ru.mail.mailapp
+      com.ss.android.ugc.aweme
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      tv.danmaku.bili
+      com.jijia.bqwnl
+      com.quark.browser
+      com.kuaishou.nebula
+      cn.ninegame.gamemanager
+      com.baidu.BaiduMap
+      com.UCMobile
+      com.autonavi.minimap
+      com.baidu.searchbox.lite
+      com.dragon.read
+      com.jijia.jjweather
+      com.zhuantech.sijiweather
+      com.suxing.sustream
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+      io.github.ylimit.droidbotapp
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.facebook.mlite]
+    path: /data/app/~~Y2nr91cvAPkUda7lNUP2OQ==/com.facebook.mlite-uXIY0QCpuJ9JqhnwNAFSzw==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~Y2nr91cvAPkUda7lNUP2OQ==/com.facebook.mlite-uXIY0QCpuJ9JqhnwNAFSzw==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 144Kb base.vdex: 8104Kb 
+
+Compiler stats:
+  [com.facebook.mlite]
+    (No recorded stats)

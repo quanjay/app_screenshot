@@ -1,0 +1,418 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        c67059 org.wikipedia.beta/org.wikipedia.search.SearchActivity filter 88f241e
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        c67059 org.wikipedia.beta/org.wikipedia.search.SearchActivity filter f27b4ff
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Base MIME Types:
+      text:
+        c67059 org.wikipedia.beta/org.wikipedia.search.SearchActivity filter 88f241e
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        c67059 org.wikipedia.beta/org.wikipedia.search.SearchActivity filter f27b4ff
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Schemes:
+      http:
+        3787b5d org.wikipedia.beta/org.wikipedia.page.PageActivity filter 6d10cd2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: ".wikipedia.org": -1 WILD
+          Authority: ".wikipedia.org": -1 WILD
+          Authority: ".wikipedia.org": -1 WILD
+          Path: "PatternMatcher{PREFIX: /wiki/}"
+          Path: "PatternMatcher{GLOB: /zh.*}"
+          Path: "PatternMatcher{GLOB: /sr.*}"
+          AutoVerify=true
+      https:
+        3787b5d org.wikipedia.beta/org.wikipedia.page.PageActivity filter 6d10cd2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: ".wikipedia.org": -1 WILD
+          Authority: ".wikipedia.org": -1 WILD
+          Authority: ".wikipedia.org": -1 WILD
+          Path: "PatternMatcher{PREFIX: /wiki/}"
+          Path: "PatternMatcher{GLOB: /zh.*}"
+          Path: "PatternMatcher{GLOB: /sr.*}"
+          AutoVerify=true
+      content:
+        556a1a3 org.wikipedia.beta/org.wikipedia.settings.LicenseActivity filter 234aca0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Path: "PatternMatcher{PREFIX: /android_asset/licenses/}"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        45b4c07 org.wikipedia.beta/org.wikipedia.main.MainActivity filter 73b134
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        c67059 org.wikipedia.beta/org.wikipedia.search.SearchActivity filter 88f241e
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      android.intent.action.PROCESS_TEXT:
+        c67059 org.wikipedia.beta/org.wikipedia.search.SearchActivity filter f27b4ff
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        5d24e82 org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 9033993
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        9ffcf64 org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e73f5cd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        c9c7dd0 org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter bd721c9
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        15ad0ce org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter c9ddbef
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        c9c7dd0 org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter bd721c9
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      .notifications.NotificationPollBroadcastReceiver.ACTION_POLL:
+        e676fb8 org.wikipedia.beta/org.wikipedia.notifications.NotificationPollBroadcastReceiver filter 664d191
+          Action: ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.google.android.c2dm.intent.RECEIVE:
+        7ed98f6 org.wikipedia.beta/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 90944f7
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        5d24e82 org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 9033993
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        213a6fc org.wikipedia.beta/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2271185
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        213a6fc org.wikipedia.beta/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2271185
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        e676fb8 org.wikipedia.beta/org.wikipedia.notifications.NotificationPollBroadcastReceiver filter 664d191
+          Action: ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        213a6fc org.wikipedia.beta/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2271185
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        9ffcf64 org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e73f5cd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        947f2cc org.wikipedia.beta/org.wikipedia.widgets.WidgetProviderSearch filter 564b915
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        785642a org.wikipedia.beta/org.wikipedia.widgets.WidgetProviderFeaturedPage filter acca21b
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        b7236e8 org.wikipedia.beta/androidx.work.impl.diagnostics.DiagnosticsReceiver filter bcc4101
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        3d72bda org.wikipedia.beta/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 696480b
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        ba7d994 org.wikipedia.beta/org.wikipedia.push.WikipediaFirebaseMessagingService filter 73aec3d
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        c3f5c32 org.wikipedia.beta/com.google.firebase.messaging.FirebaseMessagingService filter 5bdad83
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.accounts.AccountAuthenticator:
+        98c2ba6 org.wikipedia.beta/org.wikipedia.auth.AuthenticatorService filter e5f59e7
+          Action: "android.accounts.AccountAuthenticator"
+
+Domain verification status:
+  org.wikipedia.beta:
+    ID: dcb89a3e-52a8-4512-9429-51fff1417995
+    Signatures: [F5:40:E9:37:41:9A:1F:E3:08:E3:35:31:35:9C:23:CE:19:DF:D8:4A:66:01:E2:EF:85:C2:17:C8:23:A7:08:7F]
+    Domain verification state:
+      *.wikipedia.org: 1024
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          *.wikipedia.org
+
+Registered ContentProviders:
+  org.wikipedia.beta/androidx.core.content.FileProvider:
+    Provider{d5b3653 org.wikipedia.beta/androidx.core.content.FileProvider}
+  org.wikipedia.beta/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{1959b90 org.wikipedia.beta/com.google.mlkit.common.internal.MlKitInitProvider}
+  org.wikipedia.beta/leakcanary.internal.PlumberInstaller:
+    Provider{3794c89 org.wikipedia.beta/leakcanary.internal.PlumberInstaller}
+  org.wikipedia.beta/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{aed848e org.wikipedia.beta/com.google.firebase.provider.FirebaseInitProvider}
+  org.wikipedia.beta/androidx.startup.InitializationProvider:
+    Provider{958e4af org.wikipedia.beta/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [org.wikipedia.beta.mlkitinitprovider]:
+    Provider{1959b90 org.wikipedia.beta/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{ee0e0bc org.wikipedia.beta}
+  [org.wikipedia.beta.androidx-startup]:
+    Provider{958e4af org.wikipedia.beta/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{7a12845 org.wikipedia.beta}
+  [org.wikipedia.beta.firebaseinitprovider]:
+    Provider{aed848e org.wikipedia.beta/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{4415b9a org.wikipedia.beta}
+  [org.wikipedia.beta.plumber-installer]:
+    Provider{3794c89 org.wikipedia.beta/leakcanary.internal.PlumberInstaller}
+      applicationInfo=ApplicationInfo{cd91ccb org.wikipedia.beta}
+  [org.wikipedia.beta.fileprovider]:
+    Provider{d5b3653 org.wikipedia.beta/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{f394ca8 org.wikipedia.beta}
+
+Key Set Manager:
+  [org.wikipedia.beta]
+      Signing KeySets: 117
+
+Packages:
+  Package [org.wikipedia.beta] (b66449e):
+    appId=10348
+    pkg=Package{2b103c1 org.wikipedia.beta}
+    codePath=/data/app/~~epO_Z3qJxL3iykOyqSwKLA==/org.wikipedia.beta-JxQp7k6yBRPPA16fKGxemA==
+    resourcePath=/data/app/~~epO_Z3qJxL3iykOyqSwKLA==/org.wikipedia.beta-JxQp7k6yBRPPA16fKGxemA==
+    legacyNativeLibraryDir=/data/app/~~epO_Z3qJxL3iykOyqSwKLA==/org.wikipedia.beta-JxQp7k6yBRPPA16fKGxemA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=50408 minSdk=21 targetSdk=31
+    minExtensionVersions=[]
+    versionName=2.7.50408-beta-2022-06-23
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=https:/... }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-07-29 17:38:55
+    lastUpdateTime=2025-07-29 17:38:55
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{cc99766 version:3, signatures:[7c35f577], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=179811 deDataInode=179818 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/org.wikipedia.beta
+      firstInstallTime=2025-07-29 17:38:55
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.android.nfc,com.miui.tsmclient]:
+      org.wikipedia.beta
+    com.xiaomi.aicr:
+      org.wikipedia.beta
+    com.android.contacts:
+      org.wikipedia.beta
+    com.xiaomi.gamecenter.sdk.service:
+      org.wikipedia.beta
+    com.android.settings.intelligence:
+      org.wikipedia.beta
+    com.miui.nextpay:
+      org.wikipedia.beta
+    com.xiaomi.mis:
+      org.wikipedia.beta
+    com.miui.hybrid:
+      org.wikipedia.beta
+    com.xiaomi.market:
+      org.wikipedia.beta
+    com.miui.systemAdSolution:
+      org.wikipedia.beta
+    com.xiaomi.account:
+      org.wikipedia.beta
+    com.miui.greenguard:
+      org.wikipedia.beta
+    com.xiaomi.payment:
+      org.wikipedia.beta
+    com.xiaomi.xmsf:
+      org.wikipedia.beta
+    com.android.providers.downloads.ui:
+      org.wikipedia.beta
+    com.mfashiongallery.emag:
+      org.wikipedia.beta
+    com.android.calendar:
+      org.wikipedia.beta
+    com.android.email:
+      org.wikipedia.beta
+    com.miui.gallery:
+      org.wikipedia.beta
+    com.android.soundrecorder:
+      org.wikipedia.beta
+    com.miui.virtualsim:
+      org.wikipedia.beta
+    com.getsurfboard:
+      org.wikipedia.beta
+    com.xingin.xhs:
+      org.wikipedia.beta
+    com.duokan.reader:
+      org.wikipedia.beta
+    com.instagram.android:
+      org.wikipedia.beta
+    com.microsoft.todos:
+      org.wikipedia.beta
+    com.miui.video:
+      org.wikipedia.beta
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      org.wikipedia.beta
+    com.alibaba.aliexpresshd:
+      org.wikipedia.beta
+    com.google.android.apps.magazines:
+      org.wikipedia.beta
+    com.spotify.music:
+      org.wikipedia.beta
+    com.google.android.apps.youtube.music:
+      org.wikipedia.beta
+    com.microsoft.office.outlook:
+      org.wikipedia.beta
+    com.ss.android.article.news:
+      org.wikipedia.beta
+    com.jijia.bqwnl:
+      org.wikipedia.beta
+    com.quark.browser:
+      org.wikipedia.beta
+    com.baidu.BaiduMap:
+      org.wikipedia.beta
+    com.UCMobile:
+      org.wikipedia.beta
+    com.autonavi.minimap:
+      org.wikipedia.beta
+    com.dragon.read:
+      org.wikipedia.beta
+    com.jijia.jjweather:
+      org.wikipedia.beta
+    com.zhuantech.sijiweather:
+      org.wikipedia.beta
+    com.suxing.sustream:
+      org.wikipedia.beta
+    com.yahoo.mobile.client.android.mail:
+      org.wikipedia.beta
+    org.wikipedia.beta:
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.chrome
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [org.wikipedia.beta]
+    path: /data/app/~~epO_Z3qJxL3iykOyqSwKLA==/org.wikipedia.beta-JxQp7k6yBRPPA16fKGxemA==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~epO_Z3qJxL3iykOyqSwKLA==/org.wikipedia.beta-JxQp7k6yBRPPA16fKGxemA==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 144Kb base.vdex: 10585Kb 
+
+Compiler stats:
+  [org.wikipedia.beta]
+     base.apk - 394

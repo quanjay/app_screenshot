@@ -1,0 +1,380 @@
+Activity Resolver Table:
+  Schemes:
+      shiptshopper:
+        2b55c8a com.shipt.shopper/com.shiptshopper.MainActivity filter d3e0f18
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "shiptshopper"
+      example:
+        5b273d7 com.shipt.shopper/com.gettipsi.stripe.RedirectUriReceiver filter b9104c4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "example"
+      https:
+        2b55c8a com.shipt.shopper/com.shiptshopper.MainActivity filter 95ed71
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "shopper.shipt.com": -1
+          AutoVerify=true
+        2b55c8a com.shipt.shopper/com.shiptshopper.MainActivity filter 494b756
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "staging-shopper.shipt.com": -1
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2b55c8a com.shipt.shopper/com.shiptshopper.MainActivity filter 626a2fb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      io.intercom.android.sdk.INTERCOM_PUSH_OPENED:
+        7c07673 com.shipt.shopper/io.intercom.android.sdk.push.IntercomPushBroadcastReceiver filter fba930
+          Action: "io.intercom.android.sdk.INTERCOM_PUSH_OPENED"
+      io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED:
+        7c07673 com.shipt.shopper/io.intercom.android.sdk.push.IntercomPushBroadcastReceiver filter 3d3d9a9
+          Action: "io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED"
+      com.google.android.c2dm.intent.RECEIVE:
+        fcaefad com.shipt.shopper/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver filter b3cf2e2
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+        f3b5b2e com.shipt.shopper/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 5a206cf
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BOOT_COMPLETED:
+        72a285c com.shipt.shopper/com.transistorsoft.tsbackgroundfetch.BootReceiver filter 8676765
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        2a5fc3a com.shipt.shopper/com.transistorsoft.locationmanager.BootReceiver filter 26240eb
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        72a285c com.shipt.shopper/com.transistorsoft.tsbackgroundfetch.BootReceiver filter 8676765
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        2a5fc3a com.shipt.shopper/com.transistorsoft.locationmanager.BootReceiver filter 26240eb
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        e2126f4 com.shipt.shopper/io.intercom.android.sdk.fcm.IntercomFcmMessengerService filter 2b41e1d
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-400, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.firebase.MESSAGING_EVENT:
+        45f6e48 com.shipt.shopper/com.shiptshopper.firebase.ShiptFirebaseMessagingService filter 3ec14e1
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        e7a206 com.shipt.shopper/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService filter ca200c7
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        e2126f4 com.shipt.shopper/io.intercom.android.sdk.fcm.IntercomFcmMessengerService filter 2b41e1d
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-400, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        f4bd892 com.shipt.shopper/com.google.firebase.messaging.FirebaseMessagingService filter 233e263
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.shipt.shopper:
+    ID: 6d0c3ec0-3b17-4bbd-8af8-627355f8ada1
+    Signatures: [8C:8C:7F:E7:22:8E:77:AE:39:56:9D:06:52:C9:A1:48:BB:9C:B8:28:8A:7D:7D:2B:87:1A:46:F0:A2:BB:F4:85]
+    Domain verification state:
+      shopper.shipt.com: none
+      staging-shopper.shipt.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          shopper.shipt.com
+          staging-shopper.shipt.com
+
+Registered ContentProviders:
+  com.shipt.shopper/com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider:
+    Provider{1904bc com.shipt.shopper/com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider}
+  com.shipt.shopper/com.transistorsoft.locationmanager.util.LogFileProvider:
+    Provider{f807c45 com.shipt.shopper/com.transistorsoft.locationmanager.util.LogFileProvider}
+  com.shipt.shopper/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{1f01f9a com.shipt.shopper/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.shipt.shopper/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{7fa90cb com.shipt.shopper/com.google.firebase.provider.FirebaseInitProvider}
+  com.shipt.shopper/io.intercom.android.sdk.IntercomInitializeContentProvider:
+    Provider{5cfb0a8 com.shipt.shopper/io.intercom.android.sdk.IntercomInitializeContentProvider}
+  com.shipt.shopper/com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider:
+    Provider{b3197c1 com.shipt.shopper/com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider}
+  com.shipt.shopper/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{a09b66 com.shipt.shopper/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.shipt.shopper/com.imagepicker.ImagePickerProvider:
+    Provider{a9f6ea7 com.shipt.shopper/com.imagepicker.ImagePickerProvider}
+
+ContentProvider Authorities:
+  [com.shipt.shopper.lifecycle-process]:
+    Provider{a09b66 com.shipt.shopper/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{5c32f54 com.shipt.shopper}
+  [com.shipt.shopper.tslocationmanager.fileprovider]:
+    Provider{f807c45 com.shipt.shopper/com.transistorsoft.locationmanager.util.LogFileProvider}
+      applicationInfo=ApplicationInfo{b7eeefd com.shipt.shopper}
+  [com.shipt.shopper.firebaseperfprovider]:
+    Provider{1f01f9a com.shipt.shopper/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{68b07f2 com.shipt.shopper}
+  [com.shipt.shopper.corelibraryloadercontentprovider]:
+    Provider{b3197c1 com.shipt.shopper/com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider}
+      applicationInfo=ApplicationInfo{cca4e43 com.shipt.shopper}
+  [com.shipt.shopper.barcodelibraryloadercontentprovider]:
+    Provider{1904bc com.shipt.shopper/com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider}
+      applicationInfo=ApplicationInfo{cdecc0 com.shipt.shopper}
+  [com.shipt.shopper.imagepickerprovider]:
+    Provider{a9f6ea7 com.shipt.shopper/com.imagepicker.ImagePickerProvider}
+      applicationInfo=ApplicationInfo{2507df9 com.shipt.shopper}
+  [com.shipt.shopper.IntercomInitializeContentProvider]:
+    Provider{5cfb0a8 com.shipt.shopper/io.intercom.android.sdk.IntercomInitializeContentProvider}
+      applicationInfo=ApplicationInfo{a3db13e com.shipt.shopper}
+  [com.shipt.shopper.firebaseinitprovider]:
+    Provider{7fa90cb com.shipt.shopper/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{c398b9f com.shipt.shopper}
+
+Key Set Manager:
+  [com.shipt.shopper]
+      Signing KeySets: 123
+
+Packages:
+  Package [com.shipt.shopper] (90514ec):
+    appId=10354
+    pkg=Package{e1200b5 com.shipt.shopper}
+    codePath=/data/app/~~TjMgb_HrJLlNN1pJ6USICw==/com.shipt.shopper-3QCjpIG9n92G__McCzLKTQ==
+    resourcePath=/data/app/~~TjMgb_HrJLlNN1pJ6USICw==/com.shipt.shopper-3QCjpIG9n92G__McCzLKTQ==
+    legacyNativeLibraryDir=/data/app/~~TjMgb_HrJLlNN1pJ6USICw==/com.shipt.shopper-3QCjpIG9n92G__McCzLKTQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=222664 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=4.38.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=http:/... }, Intent { act=android.intent.action.VIEW dat=https:/... }, Intent { act=android.intent.action.VIEW dat=geo:/... }, Intent { act=android.intent.action.SEND dat=content://*/... typ=*/* }, Intent { act=android.intent.action.DIAL }, Intent { act=android.intent.action.VIEW dat=mailto:xx }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-07-29 17:47:19
+    lastUpdateTime=2025-07-29 17:47:20
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{adfa34a version:3, signatures:[deca4fc2], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      com.huawei.permission.external_app_settings.USE_COMPONENT
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACTIVITY_RECOGNITION
+      oppo.permission.OPPO_COMPONENT_SAFE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_BACKGROUND_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=137208 deDataInode=118577 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.shipt.shopper
+      firstInstallTime=2025-07-29 17:47:20
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.android.nfc,com.miui.tsmclient]:
+      com.shipt.shopper
+    com.xiaomi.aicr:
+      com.shipt.shopper
+    com.android.contacts:
+      com.shipt.shopper
+    com.xiaomi.gamecenter.sdk.service:
+      com.shipt.shopper
+    com.android.settings.intelligence:
+      com.shipt.shopper
+    com.miui.nextpay:
+      com.shipt.shopper
+    com.xiaomi.mis:
+      com.shipt.shopper
+    com.miui.hybrid:
+      com.shipt.shopper
+    com.xiaomi.market:
+      com.shipt.shopper
+    com.miui.systemAdSolution:
+      com.shipt.shopper
+    com.xiaomi.account:
+      com.shipt.shopper
+    com.miui.greenguard:
+      com.shipt.shopper
+    com.xiaomi.payment:
+      com.shipt.shopper
+    com.xiaomi.xmsf:
+      com.shipt.shopper
+    com.android.providers.downloads.ui:
+      com.shipt.shopper
+    com.mfashiongallery.emag:
+      com.shipt.shopper
+    com.android.calendar:
+      com.shipt.shopper
+    com.android.email:
+      com.shipt.shopper
+    com.miui.gallery:
+      com.shipt.shopper
+    com.miui.virtualsim:
+      com.shipt.shopper
+    com.getsurfboard:
+      com.shipt.shopper
+    com.xingin.xhs:
+      com.shipt.shopper
+    com.duokan.reader:
+      com.shipt.shopper
+    com.instagram.android:
+      com.shipt.shopper
+    com.miui.video:
+      com.shipt.shopper
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.shipt.shopper
+    com.ss.android.ugc.aweme:
+      com.shipt.shopper
+    com.microsoft.office.outlook:
+      com.shipt.shopper
+    com.ss.android.article.news:
+      com.shipt.shopper
+    com.jijia.bqwnl:
+      com.shipt.shopper
+    com.quark.browser:
+      com.shipt.shopper
+    com.baidu.BaiduMap:
+      com.shipt.shopper
+    com.UCMobile:
+      com.shipt.shopper
+    com.autonavi.minimap:
+      com.shipt.shopper
+    com.dragon.read:
+      com.shipt.shopper
+    com.jijia.jjweather:
+      com.shipt.shopper
+    com.zhuantech.sijiweather:
+      com.shipt.shopper
+    com.suxing.sustream:
+      com.shipt.shopper
+    com.yahoo.mobile.client.android.mail:
+      com.shipt.shopper
+    com.shipt.shopper:
+      [com.xiaomi.bluetooth,com.android.bluetooth]
+      com.android.contacts
+      com.android.mms
+      com.wuba.zhuanzhuan
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.xiaomi.scanner
+      com.android.chrome
+      com.xingin.xhs
+      com.instagram.android
+      com.google.android.gm
+      com.ebay.mobile
+      com.anydo
+      com.microsoft.todos
+      com.miui.video
+      com.todoist
+      com.google.android.apps.tasks
+      com.alibaba.aliexpresshd
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.ss.android.ugc.aweme
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.baidu.BaiduMap
+      com.UCMobile
+      com.autonavi.minimap
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.shipt.shopper]
+    path: /data/app/~~TjMgb_HrJLlNN1pJ6USICw==/com.shipt.shopper-3QCjpIG9n92G__McCzLKTQ==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.shipt.shopper]
+    (No recorded stats)

@@ -1,0 +1,1087 @@
+{
+  "tag": "2025-05-08_162246",
+  "state_str": "19243b13600cde6a11bf766dc6dd2d51",
+  "state_str_content_free": "c3148880fdbe5889985f4636d6e1a22a",
+  "foreground_activity": "com.getmimo/.ui.onboarding.OnBoardingActivity",
+  "activity_stack": [
+    "com.getmimo/.ui.onboarding.OnBoardingActivity",
+    "com.getmimo/.ui.onboarding.intro.IntroSlidesActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.android.dialer/com.android.voicemail.impl.scheduling.TaskSchedulerJobService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.fedass.trainingcache.service.TrainingCacheService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.shared.util.keepalive.StandaloneKeepAlive",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.setupwizard/.notification.SetupNotificationService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.magictether.service.TetherService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.google.android.gms/.findmydevice.spot.bleadvertising.OfflineBeaconService_Persistent",
+    "com.google.android.gms/.tron.CollectionService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "com.getmimo/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.getmimo/.data.notification.MimoFirebaseMessagingService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.gms/.geotimezone.GeoTimeZoneService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.getmimo/com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.google.android.setupwizard/.predeferred.PreDeferredUpdateService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.android.vending/com.google.android.finsky.externalreferrer.GetInstallReferrerService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.apps.docs/.drive.ipcservice.DriveIpcService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2400,
+  "views": [
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6205e89f884b8d330db80b51268916e4"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "cab26aa37d61dc5e3f35b722e1addd4a"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6564fe21ed32c196304bfa2194cfccc3"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.getmimo:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.getmimo:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "e1c3e1cf5a270ac83139b48423600782"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "e1e473f8441cd4ebb592b95cece0e039"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.getmimo:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.getmimo:id/container[text]None[enabled,,]",
+      "view_str": "895932481a47dcd5093caffbedf24c56"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        8,
+        9,
+        10,
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          63
+        ],
+        [
+          1038,
+          2190
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "996*2127",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "404ec16ce7e1d03a462e19ba418f2154"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          425,
+          121
+        ],
+        [
+          656,
+          168
+        ]
+      ],
+      "resource_id": "com.getmimo:id/tv_onboarding_step_header",
+      "checked": false,
+      "text": "EXPERIENCE",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "231*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.getmimo:id/tv_onboarding_step_header[text]EXPERIENCE[enabled,,]",
+      "view_str": "bace8ef79b29353af2548a0f311ade57",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<p bound_box=425,121,656,168>EXPERIENCE</p>"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          200
+        ],
+        [
+          996,
+          375
+        ]
+      ],
+      "resource_id": "com.getmimo:id/tv_set_experience_slider_title",
+      "checked": false,
+      "text": "How much coding experience do you have?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "912*175",
+      "signature": "[class]android.widget.TextView[resource_id]com.getmimo:id/tv_set_experience_slider_title[text]How much coding experience do you have?[enabled,,]",
+      "view_str": "87bec7858f5a7595cce1b54628480006",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<p bound_box=84,200,996,375>How much coding experience do you have?</p>"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          417
+        ],
+        [
+          1038,
+          1464
+        ]
+      ],
+      "resource_id": "com.getmimo:id/iv_set_experience_slider",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "996*1047",
+      "signature": "[class]android.widget.ImageView[resource_id]com.getmimo:id/iv_set_experience_slider[text]None[enabled,,]",
+      "view_str": "cf045c99430705706152e48d0b439349"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11,
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1591
+        ],
+        [
+          1017,
+          2041
+        ]
+      ],
+      "resource_id": "com.getmimo:id/layout_set_experience_slider_and_text",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 10,
+      "size": "954*450",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.getmimo:id/layout_set_experience_slider_and_text[text]None[enabled,,]",
+      "view_str": "4ca07edf5c4253ded17a46de03a7e72f"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1591
+        ],
+        [
+          1017,
+          1769
+        ]
+      ],
+      "resource_id": "com.getmimo:id/seekbar_set_experience",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "954*178",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.getmimo:id/seekbar_set_experience[text]None[enabled,,]",
+      "view_str": "d3598b7f5066ceb18db4fe6b852fdba9"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        17,
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1591
+        ],
+        [
+          1017,
+          1769
+        ]
+      ],
+      "resource_id": "com.getmimo:id/seekbar_with_intervals",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "954*178",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.getmimo:id/seekbar_with_intervals[text]None[enabled,,]",
+      "view_str": "159f51c02e4d73f327ebf46bf9a099c4"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        15,
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1591
+        ],
+        [
+          1017,
+          1638
+        ]
+      ],
+      "resource_id": "com.getmimo:id/intervals_text",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "954*47",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.getmimo:id/intervals_text[text]None[enabled,,]",
+      "view_str": "c743483fa9b5131286e896d2fc82435b"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1591
+        ],
+        [
+          381,
+          1638
+        ]
+      ],
+      "resource_id": "com.getmimo:id/textViewInterval",
+      "checked": false,
+      "text": "NONE",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "318*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.getmimo:id/textViewInterval[text]NONE[enabled,,]",
+      "view_str": "ad8b4cd70bca0147d9c89b8d30f7d114",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<button bound_box=63,1591,381,1638>NONE</button>"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          381,
+          1591
+        ],
+        [
+          699,
+          1638
+        ]
+      ],
+      "resource_id": "com.getmimo:id/textViewInterval",
+      "checked": false,
+      "text": "A LITTLE",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "318*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.getmimo:id/textViewInterval[text]A LITTLE[enabled,,]",
+      "view_str": "94c72e5dfb24ea8235166fbe32f625c7",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<button bound_box=381,1591,699,1638>A LITTLE</button>"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          699,
+          1591
+        ],
+        [
+          1017,
+          1638
+        ]
+      ],
+      "resource_id": "com.getmimo:id/textViewInterval",
+      "checked": false,
+      "text": "A LOT",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 16,
+      "size": "318*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.getmimo:id/textViewInterval[text]A LOT[enabled,,]",
+      "view_str": "b628be13aebf5d0ff29f937441846c61",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<button bound_box=699,1591,1017,1638>A LOT</button>"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1664
+        ],
+        [
+          1017,
+          1769
+        ]
+      ],
+      "resource_id": "com.getmimo:id/seekbar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.SeekBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 17,
+      "size": "954*105",
+      "signature": "[class]android.widget.SeekBar[resource_id]com.getmimo:id/seekbar[text]None[enabled,,]",
+      "view_str": "1cb8a71ebd3c37af55421730b9d5eb42"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19,
+        20,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1664
+        ],
+        [
+          1017,
+          1769
+        ]
+      ],
+      "resource_id": "com.getmimo:id/intervals_dots",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 18,
+      "size": "954*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.getmimo:id/intervals_dots[text]None[enabled,,]",
+      "view_str": "9c4513e7252c37849763dff96d0e1823"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          1685
+        ],
+        [
+          388,
+          1748
+        ]
+      ],
+      "resource_id": "com.getmimo:id/iv_interval_dot",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "304*63",
+      "signature": "[class]android.widget.ImageView[resource_id]com.getmimo:id/iv_interval_dot[text]None[enabled,,]",
+      "view_str": "68ea2c028ff616e030b2260edf40230c"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          388,
+          1685
+        ],
+        [
+          692,
+          1748
+        ]
+      ],
+      "resource_id": "com.getmimo:id/iv_interval_dot",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 20,
+      "size": "304*63",
+      "signature": "[class]android.widget.ImageView[resource_id]com.getmimo:id/iv_interval_dot[text]None[enabled,,]",
+      "view_str": "68ea2c028ff616e030b2260edf40230c"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          692,
+          1685
+        ],
+        [
+          996,
+          1748
+        ]
+      ],
+      "resource_id": "com.getmimo:id/iv_interval_dot",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 21,
+      "size": "304*63",
+      "signature": "[class]android.widget.ImageView[resource_id]com.getmimo:id/iv_interval_dot[text]None[enabled,,]",
+      "view_str": "68ea2c028ff616e030b2260edf40230c"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          1832
+        ],
+        [
+          1017,
+          1973
+        ]
+      ],
+      "resource_id": "com.getmimo:id/tv_set_experience_slider_description",
+      "checked": false,
+      "text": "You're about to start your journey",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 22,
+      "size": "954*141",
+      "signature": "[class]android.widget.TextView[resource_id]com.getmimo:id/tv_set_experience_slider_description[text]You're about to start your journey[enabled,,]",
+      "view_str": "a7770aae35f1657f6008f64604a7fbd0",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<p bound_box=63,1832,1017,1973>You're about to start your journey</p>"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          68,
+          2073
+        ],
+        [
+          1013,
+          2190
+        ]
+      ],
+      "resource_id": "com.getmimo:id/btn_set_experience_slider_continue",
+      "checked": false,
+      "text": "CONTINUE",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 23,
+      "size": "945*117",
+      "signature": "[class]android.widget.TextView[resource_id]com.getmimo:id/btn_set_experience_slider_continue[text]CONTINUE[enabled,,]",
+      "view_str": "fbad3fe320230f30faff34dbd69ad4b3",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<button bound_box=68,2073,1013,2190>CONTINUE</button>"
+    },
+    {
+      "package": "com.getmimo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 24,
+      "size": "1080*126",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "6c40477241e7fb37c9f255390afcd0a5"
+    }
+  ]
+}

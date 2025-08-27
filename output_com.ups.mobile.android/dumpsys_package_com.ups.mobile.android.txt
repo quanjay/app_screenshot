@@ -1,0 +1,560 @@
+Activity Resolver Table:
+  Schemes:
+      upsmobile:
+        fe9d57b com.ups.mobile.android/.UPSMobile filter ad08e2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "upsmobile"
+          Path: "PatternMatcher{PREFIX: /mychoice}"
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 9ec6f62
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "upsmobile"
+          Path: "PatternMatcher{PREFIX: /webtracking}"
+        fe9d57b com.ups.mobile.android/.UPSMobile filter b6778f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "upsmobile"
+          Path: "PatternMatcher{PREFIX: /login}"
+        fe9d57b com.ups.mobile.android/.UPSMobile filter db255e5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "upsmobile"
+      http:
+        fe9d57b com.ups.mobile.android/.UPSMobile filter dbd8f98
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /track}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 306a3f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /WebTracking/processInputRequest}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 7c80d44
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /WebTracking/mcRequest}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter e000ec8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{GLOB: *}"
+          Path: "PatternMatcher{PREFIX: /pea/preferences}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 5567686
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "wwwapps.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /mcdp}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter f917b47
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /mobile/downloadapp}"
+          AutoVerify=true
+      gigya:
+        e9a3080 com.ups.mobile.android/com.gigya.android.sdk.ui.WebLoginActivity filter 56dd6b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "gigya"
+          Authority: "gsapi": -1
+          Path: "PatternMatcher{PREFIX: /com.ups.mobile.android/login_result}"
+      https:
+        fe9d57b com.ups.mobile.android/.UPSMobile filter d2d6bd6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /WebTracking/processInputRequest}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter b64e57
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /WebTracking/mcRequest}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter dab9b0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /upsmychoice}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter fd4e029
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "ups.com": -1
+          Path: "PatternMatcher{PREFIX: /upsmychoice}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 2a61fae
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /mobile/downloadapp}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter cf6b14f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /track}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 129c0dc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "ups.com": -1
+          Path: "PatternMatcher{PREFIX: /mobile/downloadapp}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter f3888ba
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "ups.com": -1
+          Path: "PatternMatcher{PREFIX: /consumerhub}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter e97136b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{GLOB: *}"
+          Path: "PatternMatcher{PREFIX: /pea/preferences}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 1376b61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "wwwapps.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /mcdp}"
+          AutoVerify=true
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 1137512
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /consumerhub}"
+          AutoVerify=true
+      fbconnect:
+        346fafe com.ups.mobile.android/com.facebook.CustomTabActivity filter fb1d4ac
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.ups.mobile.android": -1
+      com.ups.mobile.android:
+        fe9d57b com.ups.mobile.android/.UPSMobile filter 46b4f74
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.ups.mobile.android"
+          Authority: "ptt.id.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /android/com.ups.mobile.android/callback}"
+        fe9d57b com.ups.mobile.android/.UPSMobile filter b9e5c9d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.ups.mobile.android"
+          Authority: "id.ups.com": -1
+          Path: "PatternMatcher{PREFIX: /android/com.ups.mobile.android/callback}"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        68c2575 com.ups.mobile.android/crc6466778ac8e5630834.SplashActivity filter a93c90a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        346fafe com.ups.mobile.android/com.facebook.CustomTabActivity filter 426725f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      com.nuance.chat.BRANDED_CHAT_ACTIVIY:
+        e084e3 com.ups.mobile.android/com.nuance.chat.components.NuanceMessagingActivity2 filter 2a7eee0
+          Action: "com.nuance.chat.BRANDED_CHAT_ACTIVIY"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.userzoom.sdk.CLOSED_APP:
+        d892599 com.ups.mobile.android/com.userzoom.sdk.coordinator.CloseAppBroadcastReceiver filter a2fd05e
+          Action: "com.userzoom.sdk.CLOSED_APP"
+      android.intent.action.MAIN:
+        224946a com.ups.mobile.android/com.qualtrics.digital.QualtricsNotificationManager filter 2c7ad5b
+          Action: "android.intent.action.MAIN"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        538b9f8 com.ups.mobile.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter fa0eed1
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      com.google.android.c2dm.intent.RECEIVE:
+        e8c8c3f com.ups.mobile.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter c4d190c
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.ups.mobile.android"
+        e8c8c3f com.ups.mobile.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 5bd8255
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      com.google.android.c2dm.intent.REGISTRATION:
+        e8c8c3f com.ups.mobile.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter c4d190c
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.ups.mobile.android"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        69f46c2 com.ups.mobile.android/com.google.firebase.iid.FirebaseInstanceIdService filter 56c6cd3
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.firebase.MESSAGING_EVENT:
+        6ef8d36 com.ups.mobile.android/crc64c3124161a345be72.UPSFirebaseMessagingService filter ec9c437
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        f3b7da4 com.ups.mobile.android/com.google.firebase.messaging.FirebaseMessagingService filter d74a70d
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.ups.mobile.android:
+    ID: 54923e1f-2472-4c3a-8ac7-461675612102
+    Signatures: [18:6B:F3:89:70:3E:CD:05:60:20:08:3D:97:DC:F0:89:06:1B:58:19:6E:D7:20:8F:D9:C4:AC:F9:60:BD:19:FB]
+    Domain verification state:
+      wwwapps.ups.com: verified
+      ups.com: 1024
+      www.ups.com: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          wwwapps.ups.com
+          ups.com
+          www.ups.com
+
+Permissions:
+  Permission [com.ups.mobile.android.permission.C2D_MESSAGE] (61e49a):
+    sourcePackage=com.ups.mobile.android
+    uid=10310 gids=[] type=0 prot=signature
+    perm=PermissionInfo{67171cb com.ups.mobile.android.permission.C2D_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.ups.mobile.android.permission.MAPS_RECEIVE] (cfb7da8):
+    sourcePackage=com.ups.mobile.android
+    uid=10310 gids=[] type=0 prot=signature
+    perm=PermissionInfo{f4de0c1 com.ups.mobile.android.permission.MAPS_RECEIVE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.ups.mobile.android/mono.MonoRuntimeProvider:
+    Provider{4e9b066 com.ups.mobile.android/mono.MonoRuntimeProvider}
+  com.ups.mobile.android/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{235fa7 com.ups.mobile.android/com.google.firebase.provider.FirebaseInitProvider}
+  com.ups.mobile.android/com.facebook.internal.FacebookInitProvider:
+    Provider{85ecc54 com.ups.mobile.android/com.facebook.internal.FacebookInitProvider}
+  com.ups.mobile.android/xamarin.essentials.fileProvider:
+    Provider{f96c7fd com.ups.mobile.android/xamarin.essentials.fileProvider}
+  com.ups.mobile.android/mono.android.MultiDexLoader:
+    Provider{ed06cf2 com.ups.mobile.android/mono.android.MultiDexLoader}
+
+ContentProvider Authorities:
+  [com.ups.mobile.android.firebaseinitprovider]:
+    Provider{235fa7 com.ups.mobile.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{51c4f43 com.ups.mobile.android}
+  [com.ups.mobile.android.FacebookInitProvider]:
+    Provider{85ecc54 com.ups.mobile.android/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{e0659c0 com.ups.mobile.android}
+  [com.ups.mobile.android.fileProvider]:
+    Provider{f96c7fd com.ups.mobile.android/xamarin.essentials.fileProvider}
+      applicationInfo=ApplicationInfo{28ce6f9 com.ups.mobile.android}
+  [com.ups.mobile.android.mono.android.MultiDexLoader.__mono_init__]:
+    Provider{ed06cf2 com.ups.mobile.android/mono.android.MultiDexLoader}
+      applicationInfo=ApplicationInfo{1f4663e com.ups.mobile.android}
+  [com.ups.mobile.android.mono.MonoRuntimeProvider.__mono_init__]:
+    Provider{4e9b066 com.ups.mobile.android/mono.MonoRuntimeProvider}
+      applicationInfo=ApplicationInfo{5d751ec com.ups.mobile.android}
+
+Key Set Manager:
+  [com.ups.mobile.android]
+      Signing KeySets: 186
+
+Packages:
+  Package [com.ups.mobile.android] (fa470d8):
+    appId=10310
+    pkg=Package{fcca84a com.ups.mobile.android}
+    codePath=/data/app/~~BpqRW7Hej7eZAXOr7nVFdg==/com.ups.mobile.android-xBNWAStJYofyotvqMDCQig==
+    resourcePath=/data/app/~~BpqRW7Hej7eZAXOr7nVFdg==/com.ups.mobile.android-xBNWAStJYofyotvqMDCQig==
+    legacyNativeLibraryDir=/data/app/~~BpqRW7Hej7eZAXOr7nVFdg==/com.ups.mobile.android-xBNWAStJYofyotvqMDCQig==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=231 minSdk=24 targetSdk=31
+    minExtensionVersions=[]
+    versionName=9.7.6.7
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.google.ar.core, com.google.android.apps.maps]
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=https:/... }, Intent { act=android.intent.action.VIEW dat=http:/... }, Intent { act=android.intent.action.DIAL dat=tel:xx }, Intent { act=android.intent.action.SENDTO dat=mailto:xx }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-06 16:47:36
+    lastUpdateTime=2025-08-06 16:47:36
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{edda0d8 version:3, signatures:[52fa99ff], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.ups.mobile.android.permission.MAPS_RECEIVE: prot=signature
+      com.ups.mobile.android.permission.C2D_MESSAGE: prot=signature
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.USE_CREDENTIALS
+      android.permission.ACCESS_CHECKIN_PROPERTIES
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.BIND_CARRIER_MESSAGING_SERVICE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      android.permission.GET_ACCOUNTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.USE_BIOMETRIC
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=203349 deDataInode=203326 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.ups.mobile.android
+      firstInstallTime=2025-08-06 16:47:36
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.android.nfc,com.miui.tsmclient]:
+      com.ups.mobile.android
+    com.xiaomi.aicr:
+      com.ups.mobile.android
+    com.android.contacts:
+      com.ups.mobile.android
+    com.xiaomi.gamecenter.sdk.service:
+      com.ups.mobile.android
+    com.android.settings.intelligence:
+      com.ups.mobile.android
+    com.miui.carlink:
+      com.ups.mobile.android
+    com.miui.nextpay:
+      com.ups.mobile.android
+    com.xiaomi.mis:
+      com.ups.mobile.android
+    com.miui.hybrid:
+      com.ups.mobile.android
+    com.xiaomi.market:
+      com.ups.mobile.android
+    com.miui.systemAdSolution:
+      com.ups.mobile.android
+    com.xiaomi.account:
+      com.ups.mobile.android
+    com.miui.greenguard:
+      com.ups.mobile.android
+    com.xiaomi.payment:
+      com.ups.mobile.android
+    com.xiaomi.xmsf:
+      com.ups.mobile.android
+    com.android.providers.downloads.ui:
+      com.ups.mobile.android
+    com.mfashiongallery.emag:
+      com.ups.mobile.android
+    com.android.calendar:
+      com.ups.mobile.android
+    com.android.email:
+      com.ups.mobile.android
+    com.miui.gallery:
+      com.ups.mobile.android
+    com.miui.virtualsim:
+      com.ups.mobile.android
+    com.getsurfboard:
+      com.ups.mobile.android
+    com.skysoft.kkbox.android:
+      com.ups.mobile.android
+    com.xingin.xhs:
+      com.ups.mobile.android
+    com.duokan.reader:
+      com.ups.mobile.android
+    com.instagram.android:
+      com.ups.mobile.android
+    com.google.android.gm:
+      com.ups.mobile.android
+    com.miui.video:
+      com.ups.mobile.android
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.ups.mobile.android
+    com.einnovation.temu:
+      com.ups.mobile.android
+    cool.monkey.android:
+      com.ups.mobile.android
+    com.ups.mobile.android:
+      com.android.contacts
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.android.chrome
+      com.google.android.gm
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+    com.microsoft.emmx:
+      com.ups.mobile.android
+    com.ss.android.ugc.aweme:
+      com.ups.mobile.android
+    com.microsoft.office.outlook:
+      com.ups.mobile.android
+    com.ss.android.article.news:
+      com.ups.mobile.android
+    com.jijia.bqwnl:
+      com.ups.mobile.android
+    com.quark.browser:
+      com.ups.mobile.android
+    cn.ninegame.gamemanager:
+      com.ups.mobile.android
+    com.baidu.BaiduMap:
+      com.ups.mobile.android
+    com.UCMobile:
+      com.ups.mobile.android
+    com.autonavi.minimap:
+      com.ups.mobile.android
+    com.dragon.read:
+      com.ups.mobile.android
+    com.jijia.jjweather:
+      com.ups.mobile.android
+    com.zhuantech.sijiweather:
+      com.ups.mobile.android
+    com.suxing.sustream:
+      com.ups.mobile.android
+    com.yahoo.mobile.client.android.mail:
+      com.ups.mobile.android
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.ups.mobile.android]
+    path: /data/app/~~BpqRW7Hej7eZAXOr7nVFdg==/com.ups.mobile.android-xBNWAStJYofyotvqMDCQig==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~BpqRW7Hej7eZAXOr7nVFdg==/com.ups.mobile.android-xBNWAStJYofyotvqMDCQig==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 144Kb base.vdex: 12515Kb 
+
+Compiler stats:
+  [com.ups.mobile.android]
+    (No recorded stats)

@@ -1,0 +1,422 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/x-ogg:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/ogg:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio/*:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter 1927c31
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/itunes:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      application:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      audio:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter 1927c31
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      file:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      content:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter 1927c31
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8b651ec com.piyush.music/.activities.main.MainActivity filter 343a84a
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Category: "android.intent.category.APP_MUSIC"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.MUSIC_PLAYER:
+        8b651ec com.piyush.music/.activities.main.MainActivity filter 343a84a
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Category: "android.intent.category.APP_MUSIC"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+      android.media.action.MEDIA_PLAY_FROM_SEARCH:
+        8b651ec com.piyush.music/.activities.main.MainActivity filter b1ef9b5
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter aca0d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        45163bb com.piyush.music/.activities.external.ExternalPlayerActivity filter 1927c31
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        ab6f284 com.piyush.music/.appwidgets.WidgetCardColored filter 3e1aa6d
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        650f6a2 com.piyush.music/.appwidgets.WidgetMd2 filter eea8f33
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        5f2b2f0 com.piyush.music/.appwidgets.WidgetText filter 7b8069
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        febdaee com.piyush.music/.appwidgets.WidgetTextWithImage filter 634eb8f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.MEDIA_BUTTON:
+        c1bff16 com.piyush.music/.service.MediaButtonIntentReceiver filter a88097
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.media.browse.MediaBrowserService:
+        3e80e1c com.piyush.music/.service.MusicService filter 3c2ba25
+          Action: "android.media.browse.MediaBrowserService"
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.piyush.music/.misc.GenericFileProvider:
+    Provider{5788e9a com.piyush.music/.misc.GenericFileProvider}
+  com.piyush.music/androidx.core.content.FileProvider:
+    Provider{4e3d3cb com.piyush.music/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.piyush.music.provider]:
+    Provider{5788e9a com.piyush.music/.misc.GenericFileProvider}
+      applicationInfo=ApplicationInfo{98b37a8 com.piyush.music}
+  [com.piyush.music]:
+    Provider{4e3d3cb com.piyush.music/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{f2c12c1 com.piyush.music}
+
+Key Set Manager:
+  [com.piyush.music]
+      Signing KeySets: 157
+
+Packages:
+  Package [com.piyush.music] (ba08ec1):
+    appId=10388
+    pkg=Package{59e1a7 com.piyush.music}
+    codePath=/data/app/~~5X1kDdbtj0xRu0qy-8GdmA==/com.piyush.music-aLkCpKL2D8FHANhay3Oz5w==
+    resourcePath=/data/app/~~5X1kDdbtj0xRu0qy-8GdmA==/com.piyush.music-aLkCpKL2D8FHANhay3Oz5w==
+    legacyNativeLibraryDir=/data/app/~~5X1kDdbtj0xRu0qy-8GdmA==/com.piyush.music-aLkCpKL2D8FHANhay3Oz5w==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=210030002 minSdk=21 targetSdk=29
+    minExtensionVersions=[]
+    versionName=3.0.2
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.media.browse.MediaBrowserService }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2025-07-29 21:29:05
+    lastUpdateTime=2025-07-29 21:29:05
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{6d256f2 version:3, signatures:[fec2cd7b], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.POST_NOTIFICATIONS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.BROADCAST_STICKY
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=182777 deDataInode=182204 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.piyush.music
+      firstInstallTime=2025-07-29 21:29:05
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.android.location.fused,com.xiaomi.gnss.polaris,com.android.settings,com.xiaomi.aon,com.xiaomi.aiasst.vision,com.xiaomi.location.fused,android,vendor.qti.qesdk.sysservice,com.android.localtransport,com.miui.daemon,com.xiaomi.mirror,com.xiaomi.digitalkey,com.xiaomi.mtb,com.xiaomi.joyose,com.android.dynsystem,com.miui.powerkeeper,com.miui.uireporter,com.qti.snapdragon.qdcm_ff,com.android.provision,com.xiaomi.mi_connect_service,com.android.inputdevices,com.wapi.wapicertmanage,com.xiaomi.aiasst.service,com.miui.audiomonitor,com.miui.thirdappassistant,com.xiaomi.touchservice,com.android.DeviceAsWebcam,com.android.keychain,com.miui.misightservice,com.miui.securitycore,com.miui.wmsvc,com.xiaomi.misettings,miui.systemui.plugin,com.android.systemui,com.miui.notification,com.miui.aod,com.miui.bugreport,com.xiaomi.otrpbroker,com.qualcomm.qti.services.systemhelper,com.miui.touchassistant,com.android.server.telecom,com.miui.securitycenter,com.miui.cit,com.bsp.catchlog,com.xiaomi.barrage,com.xiaomi.trustservice,com.qualcomm.qti.xrvd.service,com.miui.contentcatcher,com.android.providers.settings,com.miui.qr]:
+      com.piyush.music
+    [com.miui.tsmclient,com.android.nfc]:
+      com.piyush.music
+    com.xiaomi.aicr:
+      com.piyush.music
+    com.android.contacts:
+      com.piyush.music
+    com.xiaomi.gamecenter.sdk.service:
+      com.piyush.music
+    com.android.settings.intelligence:
+      com.piyush.music
+    com.miui.nextpay:
+      com.piyush.music
+    com.xiaomi.mis:
+      com.piyush.music
+    com.miui.hybrid:
+      com.piyush.music
+    com.xiaomi.market:
+      com.piyush.music
+    com.miui.systemAdSolution:
+      com.piyush.music
+    com.xiaomi.account:
+      com.piyush.music
+    com.miui.greenguard:
+      com.piyush.music
+    com.miui.misound:
+      com.piyush.music
+    com.milink.service:
+      com.piyush.music
+    com.xiaomi.payment:
+      com.piyush.music
+    com.xiaomi.xmsf:
+      com.piyush.music
+    com.android.providers.downloads.ui:
+      com.piyush.music
+    com.mfashiongallery.emag:
+      com.piyush.music
+    com.android.calendar:
+      com.piyush.music
+    com.android.email:
+      com.piyush.music
+    com.miui.gallery:
+      com.piyush.music
+    com.miui.virtualsim:
+      com.piyush.music
+    com.getsurfboard:
+      com.piyush.music
+    com.xingin.xhs:
+      com.piyush.music
+    com.duokan.reader:
+      com.piyush.music
+    com.instagram.android:
+      com.piyush.music
+    com.google.android.gm:
+      com.piyush.music
+    com.miui.video:
+      com.piyush.music
+    com.todoist:
+      com.piyush.music
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.piyush.music
+    com.microsoft.office.outlook:
+      com.piyush.music
+    com.jijia.bqwnl:
+      com.piyush.music
+    com.quark.browser:
+      com.piyush.music
+    com.baidu.BaiduMap:
+      com.piyush.music
+    com.UCMobile:
+      com.piyush.music
+    com.autonavi.minimap:
+      com.piyush.music
+    com.jijia.jjweather:
+      com.piyush.music
+    com.zhuantech.sijiweather:
+      com.piyush.music
+    com.suxing.sustream:
+      com.piyush.music
+    com.piyush.music:
+      [com.xiaomi.bluetooth,com.android.bluetooth]
+      com.android.music
+      com.skysoft.kkbox.android
+      com.spotify.music
+      com.google.android.apps.youtube.music
+      com.tencent.android.qqdownloader
+      com.kuaishou.nebula
+      com.baidu.BaiduMap
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.piyush.music]
+    path: /data/app/~~5X1kDdbtj0xRu0qy-8GdmA==/com.piyush.music-aLkCpKL2D8FHANhay3Oz5w==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~5X1kDdbtj0xRu0qy-8GdmA==/com.piyush.music-aLkCpKL2D8FHANhay3Oz5w==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 112Kb base.vdex: 5948Kb 
+
+Compiler stats:
+  [com.piyush.music]
+     base.apk - 275

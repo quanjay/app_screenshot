@@ -1,0 +1,716 @@
+Activity Resolver Table:
+  Schemes:
+      ihr:
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 3422d97
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "ihr"
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 6db9b84
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ihr"
+      http:
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter fb9f6d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.iheart.com": -1
+          Authority: "mail.iheart.com": -1
+          Path: "PatternMatcher{LITERAL: /}"
+          Path: "PatternMatcher{LITERAL: /your-library/}"
+          Path: "PatternMatcher{LITERAL: /your-library/podcasts/}"
+          Path: "PatternMatcher{LITERAL: /your-library/playlists/}"
+          Path: "PatternMatcher{GLOB: /artist/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*/}"
+          Path: "PatternMatcher{GLOB: /artist/.*/songs/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*/songs/.*/}"
+          Path: "PatternMatcher{GLOB: /artist/.*/albums/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*/albums/.*/}"
+          Path: "PatternMatcher{GLOB: /playlist/.*/}"
+          Path: "PatternMatcher{LITERAL: /playlist/}"
+          Path: "PatternMatcher{LITERAL: /my/music/}"
+          Path: "PatternMatcher{LITERAL: /my/music/songs/}"
+          Path: "PatternMatcher{LITERAL: /my/music/albums/}"
+          Path: "PatternMatcher{LITERAL: /my/music/artists/}"
+          Path: "PatternMatcher{GLOB: /podcast/.*/}"
+          Path: "PatternMatcher{GLOB: /podcast/.*/episode/.*/}"
+          Path: "PatternMatcher{LITERAL: /favorites}"
+          Path: "PatternMatcher{LITERAL: /favorites/}"
+          Path: "PatternMatcher{GLOB: /favorites/.*}"
+          Path: "PatternMatcher{GLOB: /favorites/.*/}"
+          Path: "PatternMatcher{GLOB: /podcast/category/.*}"
+          Path: "PatternMatcher{GLOB: /podcast/category/.*/}"
+          Path: "PatternMatcher{LITERAL: /podcast/}"
+          Path: "PatternMatcher{LITERAL: /live}"
+          Path: "PatternMatcher{GLOB: /live/.*}"
+          Path: "PatternMatcher{GLOB: /live/.*/}"
+          Path: "PatternMatcher{GLOB: /login}"
+          Path: "PatternMatcher{GLOB: /genre/.*}"
+          Path: "PatternMatcher{GLOB: /genre/.*/}"
+          Path: "PatternMatcher{GLOB: /genre-options/}"
+          Path: "PatternMatcher{LITERAL: /playlist/collections}"
+          Path: "PatternMatcher{LITERAL: /playlist/collections/}"
+          Path: "PatternMatcher{GLOB: /playlist/collections/.*}"
+          Path: "PatternMatcher{LITERAL: /goto/upgrade}"
+          Path: "PatternMatcher{LITERAL: /goto/upgrade/}"
+          Path: "PatternMatcher{LITERAL: /mixtape}"
+          Path: "PatternMatcher{LITERAL: /mixtape/}"
+          Path: "PatternMatcher{GLOB: /mixtape.*}"
+          Path: "PatternMatcher{GLOB: /mixtape/.*}"
+          Path: "PatternMatcher{LITERAL: /my/settings/}"
+          Path: "PatternMatcher{GLOB: /uni/wf/.*}"
+          AutoVerify=true
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 5f20c33
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "abmail.test.iheart.com": -1
+          Authority: "s1._domainkey.test.iheart.com": -1
+          Authority: "s2._domainkey.test.iheart.com": -1
+          AutoVerify=true
+      https:
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter fb9f6d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.iheart.com": -1
+          Authority: "mail.iheart.com": -1
+          Path: "PatternMatcher{LITERAL: /}"
+          Path: "PatternMatcher{LITERAL: /your-library/}"
+          Path: "PatternMatcher{LITERAL: /your-library/podcasts/}"
+          Path: "PatternMatcher{LITERAL: /your-library/playlists/}"
+          Path: "PatternMatcher{GLOB: /artist/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*/}"
+          Path: "PatternMatcher{GLOB: /artist/.*/songs/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*/songs/.*/}"
+          Path: "PatternMatcher{GLOB: /artist/.*/albums/.*}"
+          Path: "PatternMatcher{GLOB: /artist/.*/albums/.*/}"
+          Path: "PatternMatcher{GLOB: /playlist/.*/}"
+          Path: "PatternMatcher{LITERAL: /playlist/}"
+          Path: "PatternMatcher{LITERAL: /my/music/}"
+          Path: "PatternMatcher{LITERAL: /my/music/songs/}"
+          Path: "PatternMatcher{LITERAL: /my/music/albums/}"
+          Path: "PatternMatcher{LITERAL: /my/music/artists/}"
+          Path: "PatternMatcher{GLOB: /podcast/.*/}"
+          Path: "PatternMatcher{GLOB: /podcast/.*/episode/.*/}"
+          Path: "PatternMatcher{LITERAL: /favorites}"
+          Path: "PatternMatcher{LITERAL: /favorites/}"
+          Path: "PatternMatcher{GLOB: /favorites/.*}"
+          Path: "PatternMatcher{GLOB: /favorites/.*/}"
+          Path: "PatternMatcher{GLOB: /podcast/category/.*}"
+          Path: "PatternMatcher{GLOB: /podcast/category/.*/}"
+          Path: "PatternMatcher{LITERAL: /podcast/}"
+          Path: "PatternMatcher{LITERAL: /live}"
+          Path: "PatternMatcher{GLOB: /live/.*}"
+          Path: "PatternMatcher{GLOB: /live/.*/}"
+          Path: "PatternMatcher{GLOB: /login}"
+          Path: "PatternMatcher{GLOB: /genre/.*}"
+          Path: "PatternMatcher{GLOB: /genre/.*/}"
+          Path: "PatternMatcher{GLOB: /genre-options/}"
+          Path: "PatternMatcher{LITERAL: /playlist/collections}"
+          Path: "PatternMatcher{LITERAL: /playlist/collections/}"
+          Path: "PatternMatcher{GLOB: /playlist/collections/.*}"
+          Path: "PatternMatcher{LITERAL: /goto/upgrade}"
+          Path: "PatternMatcher{LITERAL: /goto/upgrade/}"
+          Path: "PatternMatcher{LITERAL: /mixtape}"
+          Path: "PatternMatcher{LITERAL: /mixtape/}"
+          Path: "PatternMatcher{GLOB: /mixtape.*}"
+          Path: "PatternMatcher{GLOB: /mixtape/.*}"
+          Path: "PatternMatcher{LITERAL: /my/settings/}"
+          Path: "PatternMatcher{GLOB: /uni/wf/.*}"
+          AutoVerify=true
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 10447a2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "iheartradio.app.link": -1
+          Authority: "iheartradio-alternate.app.link": -1
+          Authority: "iheartradio.test-app.link": -1
+          Authority: "iheartradio-alternate.test-app.link": -1
+          AutoVerify=true
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 5f20c33
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "abmail.test.iheart.com": -1
+          Authority: "s1._domainkey.test.iheart.com": -1
+          Authority: "s2._domainkey.test.iheart.com": -1
+          AutoVerify=true
+      fbconnect:
+        1864f25 com.clearchannel.iheartradio.controller/com.facebook.CustomTabActivity filter deb28fa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.clearchannel.iheartradio.controller": -1
+      vzb0352908332:
+        2b7388f com.clearchannel.iheartradio.controller/tv.vizbee.api.RemoteActivity filter 8d8d71c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "vzb0352908332"
+          Authority: "video": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 6a8b9d8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+      com.google.android.gms.actions.SEARCH_ACTION:
+        a38ebf0 com.clearchannel.iheartradio.controller/com.iheart.activities.SearchActivity filter dbfc569
+          Action: "com.google.android.gms.actions.SEARCH_ACTION"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.MEDIA_PLAY_FROM_SEARCH:
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 98c4016
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        cba40bb com.clearchannel.iheartradio.controller/com.iheart.activities.NavDrawerActivity filter 3872131
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+        a38ebf0 com.clearchannel.iheartradio.controller/com.iheart.activities.SearchActivity filter 1033bee
+          Action: "android.intent.action.SEARCH"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        e41a013 com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 2692250
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.clearchannel.iheartradio.ACTION_DISABLE:
+        5aeb89b com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.throwback.AlarmReceiver filter a860438
+          Action: "com.clearchannel.iheartradio.ACTION_DISABLE"
+          Action: "com.clearchannel.iheartradio.ACTION_DISMISS"
+          Action: "com.clearchannel.iheartradio.ACTION_PLAY"
+          Action: "com.clearchannel.iheartradio.ACTION_THROWBACK"
+      com.clearchannel.iheartradio.ACTION_DISMISS:
+        5aeb89b com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.throwback.AlarmReceiver filter a860438
+          Action: "com.clearchannel.iheartradio.ACTION_DISABLE"
+          Action: "com.clearchannel.iheartradio.ACTION_DISMISS"
+          Action: "com.clearchannel.iheartradio.ACTION_PLAY"
+          Action: "com.clearchannel.iheartradio.ACTION_THROWBACK"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        1584d com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 2083f02
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      sdl.router.startservice:
+        2364377 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.remote.sdl.service.SdlReceiver filter eb32be4
+          Action: "sdl.router.startservice"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        9182c49 com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 63f494e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        19c2a6f com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 546137c
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.clearchannel.iheartradio.controller.intent.APPBOY_PUSH_RECEIVED:
+        21d637f com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.appboy.push.BrazePushReceiver filter e0e3f4c
+          Action: "com.clearchannel.iheartradio.controller.intent.APPBOY_PUSH_RECEIVED"
+          Action: "com.clearchannel.iheartradio.controller.intent.APPBOY_NOTIFICATION_OPENED"
+      com.clearchannel.iheartradio.intent.action.REQUEST_PROFILE:
+        4224b95 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.intents.OnProfileRequestReceiver filter fdfc4aa
+          Action: "com.clearchannel.iheartradio.intent.action.REQUEST_PROFILE"
+      com.clearchannel.iheartradio.ACTION_PLAY:
+        5aeb89b com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.throwback.AlarmReceiver filter a860438
+          Action: "com.clearchannel.iheartradio.ACTION_DISABLE"
+          Action: "com.clearchannel.iheartradio.ACTION_DISMISS"
+          Action: "com.clearchannel.iheartradio.ACTION_PLAY"
+          Action: "com.clearchannel.iheartradio.ACTION_THROWBACK"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        a25eebd com.clearchannel.iheartradio.controller/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 4126cb2
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        9182c49 com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 63f494e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        c503ddd com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.analytics.IHRReferralReceiver filter 6f1dd52
+          Action: "com.android.vending.INSTALL_REFERRER"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        2364377 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.remote.sdl.service.SdlReceiver filter eb32be4
+          Action: "sdl.router.startservice"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      com.samsung.accessory.action.REGISTER_AGENT:
+        271b8a1 com.clearchannel.iheartradio.controller/com.samsung.android.sdk.accessory.RegisterUponInstallReceiver filter e32dac6
+          Action: "com.samsung.accessory.action.REGISTER_AGENT"
+      com.clearchannel.action.offline_expiration_date_alarm:
+        f97dad9 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.offline.OfflineExpirationDateReceiver filter 52c7c9e
+          Action: "com.clearchannel.action.offline_expiration_date_alarm"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.waze.sdk.audio.ACTION_INIT:
+        573aa87 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.auto.waze.WazeWakeUpReceiver filter b9eedb4
+          Action: "com.waze.sdk.audio.ACTION_INIT"
+          Category: "android.intent.category.DEFAULT"
+      com.clearchannel.iheartradio.controller.intent.APPBOY_NOTIFICATION_OPENED:
+        21d637f com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.appboy.push.BrazePushReceiver filter e0e3f4c
+          Action: "com.clearchannel.iheartradio.controller.intent.APPBOY_PUSH_RECEIVED"
+          Action: "com.clearchannel.iheartradio.controller.intent.APPBOY_NOTIFICATION_OPENED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        ca2b403 com.clearchannel.iheartradio.controller/androidx.profileinstaller.ProfileInstallReceiver filter 171bf80
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        e08f867 com.clearchannel.iheartradio.controller/com.google.firebase.iid.FirebaseInstanceIdReceiver filter c2b5614
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        e41a013 com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 2692250
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        6ae4405 com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 1caac5a
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        6ae4405 com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 1caac5a
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        f97dad9 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.offline.OfflineExpirationDateReceiver filter 52c7c9e
+          Action: "com.clearchannel.action.offline_expiration_date_alarm"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        2364377 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.remote.sdl.service.SdlReceiver filter eb32be4
+          Action: "sdl.router.startservice"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+        6ae4405 com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 1caac5a
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        1584d com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 2083f02
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.clearchannel.iheartradio.LOG:
+        5d66823 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.debug.LogInfoReceiver filter e173120
+          Action: "com.clearchannel.iheartradio.LOG"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        ba90c11 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.homescreenwidget.PlayerWidgetProvider filter ecd8176
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.clearchannel.iheartradio.homescreenwidget.PLAYER_INTENT"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        9d41b81 com.clearchannel.iheartradio.controller/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 6773426
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.clearchannel.iheartradio.ACTION_THROWBACK:
+        5aeb89b com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.throwback.AlarmReceiver filter a860438
+          Action: "com.clearchannel.iheartradio.ACTION_DISABLE"
+          Action: "com.clearchannel.iheartradio.ACTION_DISMISS"
+          Action: "com.clearchannel.iheartradio.ACTION_PLAY"
+          Action: "com.clearchannel.iheartradio.ACTION_THROWBACK"
+      com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED:
+        ef8ceab com.clearchannel.iheartradio.controller/com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver filter 22a4908
+          Action: "com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        2364377 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.remote.sdl.service.SdlReceiver filter eb32be4
+          Action: "sdl.router.startservice"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        b6afe8b com.clearchannel.iheartradio.controller/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 9eeb68
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.clearchannel.iheartradio.homescreenwidget.PLAYER_INTENT:
+        ba90c11 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.homescreenwidget.PlayerWidgetProvider filter ecd8176
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.clearchannel.iheartradio.homescreenwidget.PLAYER_INTENT"
+
+Service Resolver Table:
+  Schemes:
+      wear:
+        2c7b9b9 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.wear.WearListenerService filter 7b6a1fe
+          Action: "com.google.android.gms.wearable.CAPABILITY_CHANGED"
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+
+  Non-Data Actions:
+      org.openudid.GETUDID:
+        3213875 com.clearchannel.iheartradio.controller/org.openudid.OpenUDID_service filter 3d6e00a
+          Action: "org.openudid.GETUDID"
+      com.google.firebase.MESSAGING_EVENT:
+        6928d5f com.clearchannel.iheartradio.controller/com.braze.push.BrazeFirebaseMessagingService filter 9f353ac
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        b2ac957 com.clearchannel.iheartradio.controller/com.google.firebase.messaging.FirebaseMessagingService filter ada6c44
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.smartdevicelink.router.service:
+        c7ca07b com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.remote.sdl.service.SdlRouterService filter 417fe98
+          Action: "com.smartdevicelink.router.service"
+      android.media.browse.MediaBrowserService:
+        f59e6f1 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.remote.mbs.service.RadioService filter d0af2d6
+          Action: "android.media.browse.MediaBrowserService"
+
+Domain verification status:
+  com.clearchannel.iheartradio.controller:
+    ID: 7f73e5b0-9638-4841-91ab-eae65cdb6c56
+    Signatures: [BA:46:BD:0F:3F:58:42:EE:69:6B:57:1F:89:F8:58:C0:7C:4B:76:D6:DE:14:06:67:26:1A:B6:F5:C3:5F:14:76]
+    Invalid autoVerify domains:
+      s2._domainkey.test.iheart.com
+      s1._domainkey.test.iheart.com
+    Domain verification state:
+      iheartradio.app.link: 1024
+      mail.iheart.com: verified
+      abmail.test.iheart.com: 1024
+      iheartradio-alternate.app.link: 1024
+      iheartradio.test-app.link: 1024
+      iheartradio-alternate.test-app.link: none
+      www.iheart.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          iheartradio.app.link
+          mail.iheart.com
+          abmail.test.iheart.com
+          iheartradio-alternate.app.link
+          iheartradio.test-app.link
+          iheartradio-alternate.test-app.link
+          www.iheart.com
+
+Registered ContentProviders:
+  com.clearchannel.iheartradio.controller/com.snapchat.kit.sdk.SnapKitInitProvider:
+    Provider{8eb9e4b com.clearchannel.iheartradio.controller/com.snapchat.kit.sdk.SnapKitInitProvider}
+  com.clearchannel.iheartradio.controller/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{f8f7028 com.clearchannel.iheartradio.controller/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.clearchannel.iheartradio.controller/com.facebook.internal.FacebookInitProvider:
+    Provider{b2f2141 com.clearchannel.iheartradio.controller/com.facebook.internal.FacebookInitProvider}
+  com.clearchannel.iheartradio.controller/androidx.startup.InitializationProvider:
+    Provider{87926e6 com.clearchannel.iheartradio.controller/androidx.startup.InitializationProvider}
+  com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.utils.SnapChatFileProvider:
+    Provider{153d427 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.utils.SnapChatFileProvider}
+  com.clearchannel.iheartradio.controller/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{87f66d4 com.clearchannel.iheartradio.controller/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.clearchannel.iheartradio.controller/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{b8b907d com.clearchannel.iheartradio.controller/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.clearchannel.iheartradio.controller/androidx.core.content.FileProvider:
+    Provider{e20cb72 com.clearchannel.iheartradio.controller/androidx.core.content.FileProvider}
+  com.clearchannel.iheartradio.controller/com.facebook.FacebookContentProvider:
+    Provider{e1f8bc3 com.clearchannel.iheartradio.controller/com.facebook.FacebookContentProvider}
+
+ContentProvider Authorities:
+  [com.clearchannel.iheartradio.controller.mobileadsinitprovider]:
+    Provider{b8b907d com.clearchannel.iheartradio.controller/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{bd61c40 com.clearchannel.iheartradio.controller}
+  [com.clearchannel.iheartradio.controller.fileprovider]:
+    Provider{153d427 com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.utils.SnapChatFileProvider}
+      applicationInfo=ApplicationInfo{45b779 com.clearchannel.iheartradio.controller}
+  [com.clearchannel.iheartradio.controller.lifecycle-process]:
+    Provider{87f66d4 com.clearchannel.iheartradio.controller/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{c2c2cbe com.clearchannel.iheartradio.controller}
+  [com.clearchannel.iheartradio.controller.FacebookInitProvider]:
+    Provider{b2f2141 com.clearchannel.iheartradio.controller/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{d65211f com.clearchannel.iheartradio.controller}
+  [com.facebook.app.FacebookContentProvider121897277851831]:
+    Provider{e1f8bc3 com.clearchannel.iheartradio.controller/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{120bc6c com.clearchannel.iheartradio.controller}
+  [com.clearchannel.iheartradio.controller.SnapKitInitProvider]:
+    Provider{8eb9e4b com.clearchannel.iheartradio.controller/com.snapchat.kit.sdk.SnapKitInitProvider}
+      applicationInfo=ApplicationInfo{be15235 com.clearchannel.iheartradio.controller}
+  [com.clearchannel.iheartradio.controller.androidx-startup]:
+    Provider{87926e6 com.clearchannel.iheartradio.controller/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{ffa56ca com.clearchannel.iheartradio.controller}
+  [com.clearchannel.iheartradio.controller]:
+    Provider{e20cb72 com.clearchannel.iheartradio.controller/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{e44b03b com.clearchannel.iheartradio.controller}
+  [com.clearchannel.iheartradio.controller.firebaseperfprovider]:
+    Provider{f8f7028 com.clearchannel.iheartradio.controller/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{9933358 com.clearchannel.iheartradio.controller}
+
+Key Set Manager:
+  [com.clearchannel.iheartradio.controller]
+      Signing KeySets: 226
+
+Packages:
+  Package [com.clearchannel.iheartradio.controller] (69b1845):
+    appId=10380
+    pkg=Package{b61dcb1 com.clearchannel.iheartradio.controller}
+    codePath=/data/app/~~ZWq82heNtV8l6s6G0dbzSg==/com.clearchannel.iheartradio.controller-G3Z_aAp5dpilukVqrkgk-g==
+    resourcePath=/data/app/~~ZWq82heNtV8l6s6G0dbzSg==/com.clearchannel.iheartradio.controller-G3Z_aAp5dpilukVqrkgk-g==
+    legacyNativeLibraryDir=/data/app/~~ZWq82heNtV8l6s6G0dbzSg==/com.clearchannel.iheartradio.controller-G3Z_aAp5dpilukVqrkgk-g==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=710110101 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=10.11.1
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.waze]
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=http:/... }, Intent { act=android.intent.action.SEND dat=content://*/... typ=image/* }, Intent { act=android.speech.RecognitionService }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      android.test.base
+      android.test.mock
+      android.test.runner
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.test.mock.jar
+      /system/framework/android.test.runner.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-06 21:11:05
+    lastUpdateTime=2025-08-06 21:11:05
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{bcf1596 version:2, signatures:[b8cac274], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.READ_PHONE_NUMBERS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.INTERNET
+      android.permission.TRANSMIT_IR
+      com.android.vending.BILLING
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.ACCESS_NETWORK_STATE
+      com.clearchannel.iheartradio.companion.controller.permission.C2D_MESSAGE
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      com.samsung.WATCH_APP_TYPE.Companion
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACTIVITY_RECOGNITION
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECORD_AUDIO
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.TRANSMIT_IR: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=203199 deDataInode=204994 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.clearchannel.iheartradio.controller
+      firstInstallTime=2025-08-06 21:11:05
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_NUMBERS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACTIVITY_RECOGNITION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [miui.systemui.plugin,com.xiaomi.aon,com.xiaomi.aiasst.service,com.miui.securitycenter,com.miui.notification,com.xiaomi.digitalkey,android,com.android.settings,com.xiaomi.aiasst.vision,com.miui.uireporter,com.qualcomm.qti.services.systemhelper,com.android.dynsystem,com.miui.misightservice,com.bsp.catchlog,com.wapi.wapicertmanage,com.android.providers.settings,com.xiaomi.otrpbroker,com.xiaomi.joyose,com.miui.audiomonitor,com.xiaomi.mi_connect_service,com.qti.snapdragon.qdcm_ff,com.xiaomi.barrage,vendor.qti.qesdk.sysservice,com.android.DeviceAsWebcam,com.xiaomi.mirror,com.android.keychain,com.qualcomm.qti.xrvd.service,com.miui.cit,com.miui.touchassistant,com.android.inputdevices,com.android.systemui,com.miui.daemon,com.miui.wmsvc,com.miui.thirdappassistant,com.miui.powerkeeper,com.xiaomi.misettings,com.xiaomi.location.fused,com.android.provision,com.android.localtransport,com.miui.qr,com.android.server.telecom,com.xiaomi.gnss.polaris,com.miui.securitycore,com.xiaomi.mtb,com.xiaomi.touchservice,com.miui.bugreport,com.xiaomi.trustservice,com.android.location.fused,com.miui.contentcatcher,com.miui.aod]:
+      com.clearchannel.iheartradio.controller
+    [com.miui.tsmclient,com.android.nfc]:
+      com.clearchannel.iheartradio.controller
+    com.xiaomi.aicr:
+      com.clearchannel.iheartradio.controller
+    com.android.contacts:
+      com.clearchannel.iheartradio.controller
+    com.xiaomi.gamecenter.sdk.service:
+      com.clearchannel.iheartradio.controller
+    com.android.settings.intelligence:
+      com.clearchannel.iheartradio.controller
+    com.miui.carlink:
+      com.clearchannel.iheartradio.controller
+    com.miui.nextpay:
+      com.clearchannel.iheartradio.controller
+    com.xiaomi.mis:
+      com.clearchannel.iheartradio.controller
+    com.miui.hybrid:
+      com.clearchannel.iheartradio.controller
+    com.xiaomi.market:
+      com.clearchannel.iheartradio.controller
+    com.miui.systemAdSolution:
+      com.clearchannel.iheartradio.controller
+    com.xiaomi.account:
+      com.clearchannel.iheartradio.controller
+    com.miui.greenguard:
+      com.clearchannel.iheartradio.controller
+    com.miui.misound:
+      com.clearchannel.iheartradio.controller
+    com.milink.service:
+      com.clearchannel.iheartradio.controller
+    com.xiaomi.payment:
+      com.clearchannel.iheartradio.controller
+    com.xiaomi.xmsf:
+      com.clearchannel.iheartradio.controller
+    com.android.providers.downloads.ui:
+      com.clearchannel.iheartradio.controller
+    com.mfashiongallery.emag:
+      com.clearchannel.iheartradio.controller
+    com.android.calendar:
+      com.clearchannel.iheartradio.controller
+    com.android.email:
+      com.clearchannel.iheartradio.controller
+    com.miui.gallery:
+      com.clearchannel.iheartradio.controller
+    com.miui.virtualsim:
+      com.clearchannel.iheartradio.controller
+    com.getsurfboard:
+      com.clearchannel.iheartradio.controller
+    com.xingin.xhs:
+      com.clearchannel.iheartradio.controller
+    com.duokan.reader:
+      com.clearchannel.iheartradio.controller
+    com.instagram.android:
+      com.clearchannel.iheartradio.controller
+    com.miui.video:
+      com.clearchannel.iheartradio.controller
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.clearchannel.iheartradio.controller
+    cool.monkey.android:
+      com.clearchannel.iheartradio.controller
+    com.ss.android.ugc.aweme:
+      com.clearchannel.iheartradio.controller
+    com.microsoft.office.outlook:
+      com.clearchannel.iheartradio.controller
+    com.ss.android.article.news:
+      com.clearchannel.iheartradio.controller
+    com.jijia.bqwnl:
+      com.clearchannel.iheartradio.controller
+    com.quark.browser:
+      com.clearchannel.iheartradio.controller
+    com.baidu.BaiduMap:
+      com.clearchannel.iheartradio.controller
+    com.UCMobile:
+      com.clearchannel.iheartradio.controller
+    com.autonavi.minimap:
+      com.clearchannel.iheartradio.controller
+    com.dragon.read:
+      com.clearchannel.iheartradio.controller
+    com.jijia.jjweather:
+      com.clearchannel.iheartradio.controller
+    com.zhuantech.sijiweather:
+      com.clearchannel.iheartradio.controller
+    com.suxing.sustream:
+      com.clearchannel.iheartradio.controller
+    com.yahoo.mobile.client.android.mail:
+      com.clearchannel.iheartradio.controller
+    com.clearchannel.iheartradio.controller:
+      [com.xiaomi.bluetooth,com.android.bluetooth]
+      com.android.mms
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.xiaomi.scanner
+      com.android.chrome
+      com.xingin.xhs
+      com.instagram.android
+      com.google.android.gm
+      com.ebay.mobile
+      com.microsoft.todos
+      com.miui.video
+      com.todoist
+      com.alibaba.aliexpresshd
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.ss.android.ugc.aweme
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.clearchannel.iheartradio.controller]
+    path: /data/app/~~ZWq82heNtV8l6s6G0dbzSg==/com.clearchannel.iheartradio.controller-G3Z_aAp5dpilukVqrkgk-g==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~ZWq82heNtV8l6s6G0dbzSg==/com.clearchannel.iheartradio.controller-G3Z_aAp5dpilukVqrkgk-g==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 496Kb base.vdex: 44195Kb 
+
+Compiler stats:
+  [com.clearchannel.iheartradio.controller]
+    (No recorded stats)

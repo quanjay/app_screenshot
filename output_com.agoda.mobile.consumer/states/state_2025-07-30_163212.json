@@ -1,0 +1,2127 @@
+{
+  "tag": "2025-07-30_163212",
+  "state_str": "bb7c69b19036c6cb0e21c8e4262a8617",
+  "state_str_content_free": "cdff93d9f30a7cc5cac613d0cfadca22",
+  "foreground_activity": "com.agoda.mobile.consumer/.screens.universallogin.UniversalLoginActivity",
+  "activity_stack": [
+    "com.agoda.mobile.consumer/.screens.universallogin.UniversalLoginActivity",
+    "com.agoda.mobile.consumer/.screens.splash.AppLauncherActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.xiaomi.aicr/.access.AiCrCognitionService",
+    "com.alibaba.aliexpresshd/anetwork.channel.aidl.NetworkService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.ss.android.ugc.aweme/com.bytedance.novel.audio.notification.session.MediaSessionService",
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "com.qti.phone/.ExtTelephonyService",
+    "com.quark.browser/com.alibaba.analytics.AnalyticsService",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.miui.miwallpaper/.wallpaperservice.ImageWallpaper",
+    "com.spotify.music/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "org.codeaurora.ims/.ImsService",
+    "com.alibaba.aliexpresshd/com.alibaba.analytics.AnalyticsService",
+    "com.xiaomi.mi_connect_service/.MiConnectService",
+    "com.miui.newhome/.TTLiveService",
+    "com.android.providers.downloads/.remote.service.DebugLogService",
+    "com.miui.securitycenter/com.miui.securityscan.fileobserver.ImageProtectService",
+    "com.milink.service/com.milink.runtime.SentryService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.ContinuityServiceManagerService",
+    "com.xiaomi.xmsf/.services.ServiceBoxService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.qualcomm.location/.LocationService",
+    "com.miui.home/.recents.TouchInteractionService",
+    "com.spotify.music/com.spotify.app.music.service.SpotifyService",
+    "com.android.providers.downloads/.service.DownloadService",
+    "com.miui.powerkeeper/.feedbackcontrol.FeedbackControlService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.qualcomm.qti.devicestatisticsservice/.DeviceStatisticsService",
+    "com.zhuantech.sijiweather/org.chromium.content.app.SandboxedProcessService0",
+    "com.miui.analytics/.onetrack.OneTrackService",
+    "com.xingin.xhs/.push.simple.component.service.SimplePushService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.VideoToolBoxService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.minearby.MiuiBluetoothParamsConfigService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.miui.newhome/.service.FeedOverlayService",
+    "com.ss.android.ugc.aweme/.player.plugin.mediasession.common.MediaSessionService",
+    "com.google.android.gms/org.chromium.content.app.SandboxedProcessService0",
+    "com.qualcomm.location/.izat.IzatService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.alibaba.aliexpresshd/org.android.agoo.accs.AgooService",
+    "com.miui.voiceassist/com.xiaomi.voiceassistant.AssistInteractionService",
+    "com.netease.newsreader.activity/org.chromium.content.app.SandboxedProcessService0",
+    "com.milink.service/com.xiaomi.dist.hardware.service.DistributedHardwareService",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionService",
+    "com.milink.service/com.xiaomi.iot.spec.service.IoTSpecService",
+    "com.miui.dmregservice/cn.richinfo.dm.service.DMService",
+    "com.miui.securitycenter/com.miui.antivirus.service.GuardService",
+    "com.miui.misightservice/.MiSightManagerService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.miui.video/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.xiaomi.mirror/.MainService",
+    "com.miui.powerkeeper/.powerchecker.PowerCheckerService",
+    "com.miui.video/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.qualcomm.qti.workloadclassifier/.WLCService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.NotificationListener",
+    "com.miui.carlink/com.carwith.common.telecom.InCallServiceImpl",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.xiaomi.xmsf/com.miui.server.appupdate.AppUpdateService",
+    "ru.mail.mailapp/com.google.firebase.sessions.SessionLifecycleService",
+    "com.xiaomi.xmsf/.services.MainProcBridgeService",
+    "com.alibaba.aliexpresshd/com.taobao.orange.service.OrangeApiService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.miui.hybrid/.host.HostService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.proxy.ProxyServiceManagerService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.networking.service.NetworkingService",
+    "com.android.thememanager/.aiwallpaper.core.AIWallpaperService",
+    "org.codeaurora.ims/.QtiImsExtService",
+    "com.xiaomi.account/.XiaomiAccountService",
+    "com.quark.browser/com.taobao.accs.ChannelService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokGeocodeService",
+    "com.milink.service/com.xiaomi.dist.camera.kit.CameraControllerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.miui.systemAdSolution/.splashscreen.SplashScreenService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyServiceV2",
+    "com.android.mtp/.MtpService",
+    "com.alibaba.aliexpresshd/com.taobao.accs.ChannelService",
+    "com.miui.securitycenter/com.miui.networkassistant.vpn.miui.MiuiVpnManageService",
+    "com.alibaba.aliexpresshd/com.aidc.immortal.DaemonService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.main.PreLaunchService",
+    "com.instagram.android/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "vendor.qti.data.ntnsatapp/.NtnDataServiceImpl",
+    "com.android.updater/.UpdateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.xiaomi.misettings/.usagestats.widget.desktop.service.UsageStatsUpdateService",
+    "com.xiaomi.phone/com.xiaomi.services.telephony.MiTelephonyService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.GameBoosterService",
+    "com.alibaba.aliexpresshd/.TaobaoIntentService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.agoda.mobile.consumer/com.agoda.mobile.analytics.AnalyticsService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.musicfx/.KeepAliveService",
+    "com.miui.securitycenter/com.miui.gamebooster.beauty.BeautyService",
+    "com.miui.analytics/.onetrack.TrackService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "ru.mail.mailapp/ru.mail.util.push.gcm.MailMessagingService",
+    "com.miui.powerkeeper/.thermal.ThermalService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.headset.BluetoothHeadsetService",
+    "com.android.quicksearchbox/.overlay.SearchOverlayService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.netbus.service.NetBusService",
+    "com.android.phone/com.android.internal.telephony.data.CellularDataService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "com.miui.securitycenter/com.miui.powercenter.provider.PowerSaveService",
+    "com.alibaba.aliexpresshd/com.taobao.uc.service.SandboxedPrivilegedProcessService0",
+    "com.miui.securitycenter/com.miui.gamebooster.mutiwindow.FreeformWindowService",
+    "com.miui.thirdappassistant/.persistent.PersistentBackgroundService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.miui.securitycenter/com.miui.antispam.service.AntiSpamService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "vendor.qti.qesdk.sysservice/.QesdkSysService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.push.service.XMPushService",
+    "com.xiaomi.aicr/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/androidx.room.MultiInstanceInvalidationService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "com.android.providers.downloads.ui/.service.DataLimitService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyService",
+    "com.yahoo.mobile.client.android.mail/com.yahoo.mail.flux.push.MailFirebaseMessagingService",
+    "com.miui.guardprovider/.manager.SecurityService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.permissioncontroller/.permission.service.PermissionControllerServiceImpl",
+    "com.google.android.gms/.personalsafety.service.PSAService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionServiceReal",
+    "com.android.phone/.LowLatencyAidlService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.xiaomi.misettings/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/com.xiaomi.xms.auth.AuthService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.ipc.FinAppAIDLService",
+    "com.qualcomm.atfwd2/.AtFwdService",
+    "com.miui.securitycenter/com.miui.ai.service.OperationListCollectService",
+    "com.miui.daemon/.performance.SysoptService",
+    "com.agoda.mobile.consumer/org.chromium.content.app.SandboxedProcessService0",
+    "com.miui.cloudservice/.keybag.binder.MiCloudKeyBagService",
+    "com.qti.dpmserviceapp/.DpmServiceApp",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.xiaomi.bluetooth/.mma.MiuiMMAService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.xiaomi.xmsfkeeper/.KeeperService",
+    "com.cnn.mobile.android.phone/com.google.firebase.sessions.SessionLifecycleService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.xiaomi.registration/.autoregistration.RegistrationService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "com.miui.analytics/.internal.WakeupService",
+    "com.xiaomi.joyose/.gameInfo.GameInfoService",
+    "com.miui.powerkeeper/.WakelockManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AppPredictService",
+    "com.android.browser/com.miui.org.chromium.content.app.SandboxedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.xms.core.XmsCoreService",
+    "vendor.qti.data.txpwradmin/.StxPwrService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "com.miui.carlink/com.carwith.launcher.wms.UCarWindowManagerService",
+    "com.miui.misightservice/.misightserviceability.DetectionService",
+    "com.milink.service/com.miui.miplay.audio.service.CoreService",
+    "com.yahoo.mobile.client.android.mail/com.google.firebase.sessions.SessionLifecycleService",
+    "com.miui.powerkeeper/.PowerKeeperBackgroundService",
+    "com.qualcomm.qti.dynamicddsservice/.DynamicDDSService",
+    "com.cnn.mobile.android.phone/com.mapbox.common.LifecycleService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "com.android.smspush/.WapPushManager",
+    "com.miui.securitycenter/.service.RemoteService",
+    "com.xiaomi.bluetooth/.MiuiBluetoothPlatformService",
+    "com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.google.android.apps.magazines/androidx.work.impl.background.gcm.WorkManagerGcmService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.quark.browser/com.uc.quark.filedownloader.services.FileDownloadService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.miui.securitycenter/com.miui.apppredict.service.AiService",
+    "com.miui.wmsvc/.WMService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.xiaomi.gnss.polaris/.PolarisService",
+    "com.android.soundrecorder/.RecorderService",
+    "com.xiaomi.joyose/.smartop.SmartOpService",
+    "com.miui.powerkeeper/.statemachine.PowerStateMachineService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokLocationService",
+    "com.android.providers.downloads/.remote.service.LimitSpeedService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.xiaomi.mirror/.SynergyService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.FirewallService",
+    "com.miui.daemon/.performance.MiuiPerfService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.android.browser/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.qualcomm.qti.services.systemhelper/.SysHelperService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.alibaba.aliexpresshd/com.aidc.immortal.ProcessStateService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.tm.TrafficManageService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "org.ifaa.aidl.manager/.IfaaService",
+    "com.android.vending/com.google.android.finsky.externalreferrer.GetInstallReferrerService",
+    "com.miui.hybrid/com.xiaomi.mipush.sdk.MessageHandleService",
+    "com.xiaomi.location.fused/.FusedLocationService",
+    "com.miui.miwallpaper/.server.MiuiWallPaperControllerService",
+    "com.miui.personalassistant/.core.overlay.AssistantOverlayService",
+    "com.quark.browser/com.iqiyi.android.qigsaw.core.splitinstall.SplitCleanService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.xiaomi.account/.tzservice.SecurityDeviceSignService",
+    "com.android.vending/com.google.android.finsky.setup.DseService",
+    "com.lbe.security.miui/com.lbe.security.service.SecurityService",
+    "com.miui.hybrid/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.milink.service/com.xiaomi.miplay.mylibrary.MiPlayAudioService",
+    "com.alibaba.aliexpresshd/com.taobao.accs.data.MsgDistributeService",
+    "com.xiaomi.aicr/.access.AiCrCoreService",
+    "com.quark.browser/com.uc.push.accs.AccsPushIntentService",
+    "com.tencent.soter.soterserver/.SoterService",
+    "com.xiaomi.touchservice/.TouchService",
+    "com.skysoft.kkbox.android/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.gms/.personalsafety.service.LockingTrustAgentService",
+    "com.android.providers.downloads/.remote.service.DownloadSettingsProviderService"
+  ],
+  "width": 1200,
+  "height": 2670,
+  "views": [
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        45,
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1200*2670",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "744047e4b227eb5a1130003ce46a42e6"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1200*2622",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "80e3ff37956aee1acaff80a5f868946c"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "bbacce3c7c56ca775f070f8a00b04aa3"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.agoda.mobile.consumer:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.agoda.mobile.consumer:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "fb6afa3e1fcfdd0a7cb54edaaace934e"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "824b4847d715a2eb07dc8b4556a19d6f"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a4621fe36abe11445ef7693e05d58601"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.agoda.mobile.consumer:id/universal_login_fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.agoda.mobile.consumer:id/universal_login_fragment_container[text]None[enabled,,]",
+      "view_str": "74193f5a7fe6b3134cf1d8e9dfe6f453"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.agoda.mobile.consumer:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.agoda.mobile.consumer:id/container[text]None[enabled,,]",
+      "view_str": "6a72ed7e2781b43979d98a856bcc97b3"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.webkit.WebView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1200*2506",
+      "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+      "view_str": "33d8c705dffeb548df2649f29baae698"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Agoda",
+      "class": "android.webkit.WebView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1200*2506",
+      "signature": "[class]android.webkit.WebView[resource_id]None[text]Agoda[enabled,,]",
+      "view_str": "b7c4dd444573163a209dfeff26a5f6b0",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<p bound_box=0,116,1200,2622>Agoda</p>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2621
+        ]
+      ],
+      "resource_id": "root",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1200*2505",
+      "signature": "[class]android.view.View[resource_id]root[text][enabled,,]",
+      "view_str": "159768b50fcfa4a12550caa1460595f5"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 13,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        14,
+        15,
+        16,
+        19,
+        22,
+        25,
+        26,
+        27,
+        28,
+        37,
+        38,
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2621
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1200*2505",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "7ea1cd7123a6dda38bda8d4136610755"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          36,
+          116
+        ],
+        [
+          150,
+          248
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "114*132",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "4bd147b15fd95729ac7d1c99bfc3b0b1"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          36,
+          143
+        ],
+        [
+          132,
+          221
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Go back to previous page button",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "96*78",
+      "signature": "[class]android.widget.Button[resource_id]None[text]Go back to previous page button[enabled,,]",
+      "view_str": "27dde80647b08c796ade6ae2557ffe56",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<button bound_box=36,143,132,221>Go back to previous page button</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          296
+        ],
+        [
+          1152,
+          371
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u767b\u5f55\u6216\u521b\u5efa\u8d26\u6237",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "1104*75",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u767b\u5f55\u6216\u521b\u5efa\u8d26\u6237[enabled,,]",
+      "view_str": "d8bc81e6bd320baee01a718df99d9aed",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<p bound_box=48,296,1152,371>\u767b\u5f55\u6216\u521b\u5efa\u8d26\u6237</p>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          401
+        ],
+        [
+          1152,
+          458
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u514d\u8d39\u6ce8\u518c\u6216\u767b\u5f55\uff0c\u4eab\u53d7\u8d85\u503c\u4f18\u60e0\u548c\u798f\u5229\uff01",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 15,
+      "size": "1104*57",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u514d\u8d39\u6ce8\u518c\u6216\u767b\u5f55\uff0c\u4eab\u53d7\u8d85\u503c\u4f18\u60e0\u548c\u798f\u5229\uff01[enabled,,]",
+      "view_str": "45edf14eb180f10d40555b74d2dbd6dc",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<p bound_box=48,401,1152,458>\u514d\u8d39\u6ce8\u518c\u6216\u767b\u5f55\uff0c\u4eab\u53d7\u8d85\u503c\u4f18\u60e0\u548c\u798f\u5229\uff01</p>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          524
+        ],
+        [
+          1152,
+          659
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 16,
+      "size": "1104*135",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "085dc6fd68fcb12f150a37d83904de7e"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          330,
+          563
+        ],
+        [
+          381,
+          617
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "social login icon",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "51*54",
+      "signature": "[class]android.widget.Image[resource_id]None[text]social login icon[enabled,,]",
+      "view_str": "aa945fbe2560265a01d245570ecc5140",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<button bound_box=330,563,381,617>social login icon</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          450,
+          560
+        ],
+        [
+          894,
+          623
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4f7f\u7528Google\u8d26\u53f7\u767b\u5f55",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "444*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u4f7f\u7528Google\u8d26\u53f7\u767b\u5f55[enabled,,]",
+      "view_str": "a7486303854932148aa678fddf17b6a2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<button bound_box=450,560,894,623>\u4f7f\u7528Google\u8d26\u53f7\u767b\u5f55</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          728
+        ],
+        [
+          1152,
+          869
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 19,
+      "size": "1104*141",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "67162f9c6e1149e344e016d30c55b8a2"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          291,
+          761
+        ],
+        [
+          366,
+          836
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "social login icon",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "75*75",
+      "signature": "[class]android.widget.Image[resource_id]None[text]social login icon[enabled,,]",
+      "view_str": "aa945fbe2560265a01d245570ecc5140",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<button bound_box=291,761,366,836>social login icon</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          435,
+          767
+        ],
+        [
+          933,
+          830
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4f7f\u7528Facebook\u8d26\u53f7\u767b\u5f55",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "498*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u4f7f\u7528Facebook\u8d26\u53f7\u767b\u5f55[enabled,,]",
+      "view_str": "f97f57d2d18fce1c06c159566d1ddd4d",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<button bound_box=435,767,933,830>\u4f7f\u7528Facebook\u8d26\u53f7\u767b\u5f55</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          938
+        ],
+        [
+          1152,
+          1073
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 22,
+      "size": "1104*135",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "b882a6f265354c5961707ab5fe760674"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          381,
+          974
+        ],
+        [
+          432,
+          1034
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "social login icon",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "51*60",
+      "signature": "[class]android.widget.Image[resource_id]None[text]social login icon[enabled,,]",
+      "view_str": "aa945fbe2560265a01d245570ecc5140",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<button bound_box=381,974,432,1034>social login icon</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          501,
+          974
+        ],
+        [
+          843,
+          1037
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u901a\u8fc7 Apple \u767b\u5f55",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 24,
+      "size": "342*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u901a\u8fc7 Apple \u767b\u5f55[enabled,,]",
+      "view_str": "3108555832458ced38dee024b93e1393",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "9",
+      "desc": "<button bound_box=501,974,843,1037>\u901a\u8fc7 Apple \u767b\u5f55</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1115
+        ],
+        [
+          555,
+          1121
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 25,
+      "size": "483*6",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "c83cde866709052100ee57735cefdd14"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          576,
+          1091
+        ],
+        [
+          621,
+          1148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u6216",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 26,
+      "size": "45*57",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u6216[enabled,,]",
+      "view_str": "1442165975efbdf9a3d2d9e7b653be35",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "10",
+      "desc": "<p bound_box=576,1091,621,1148>\u6216</p>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          645,
+          1115
+        ],
+        [
+          1128,
+          1121
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 27,
+      "size": "483*6",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "c83cde866709052100ee57735cefdd14"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1214
+        ],
+        [
+          1152,
+          1394
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 28,
+      "size": "1104*180",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "cdd1ec30e8b1c5be533f889137aa4fed"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30,
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1214
+        ],
+        [
+          1152,
+          1394
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "1104*180",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "45571d60e0a3132fbd3ece2c5695ecbe"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1214
+        ],
+        [
+          1152,
+          1394
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "1104*180",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "c8a2dae939c61d97cbafab1a6db36ea7"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          99,
+          1229
+        ],
+        [
+          246,
+          1277
+        ]
+      ],
+      "resource_id": "ec9e760b44a398",
+      "checked": false,
+      "text": "\u7535\u5b50\u90ae\u4ef6",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "147*48",
+      "signature": "[class]android.widget.TextView[resource_id]ec9e760b44a398[text]\u7535\u5b50\u90ae\u4ef6[enabled,,]",
+      "view_str": "e6f7f2105cda681209e0419eb068cdbd",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "11",
+      "desc": "<p bound_box=99,1229,246,1277>\u7535\u5b50\u90ae\u4ef6</p>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1250
+        ],
+        [
+          1152,
+          1394
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 32,
+      "size": "1104*144",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "6528160f857ee1a07280fb44d9f90940"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        34,
+        36
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1250
+        ],
+        [
+          1104,
+          1394
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "1056*144",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "b1a6e4b71f1f89488e8d20f3314a452e"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1250
+        ],
+        [
+          1152,
+          1442
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "1104*192",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "91beb41f5d594e1d8d9314def936d31a"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          1292
+        ],
+        [
+          363,
+          1448
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "id@email.com",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "267*156",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]id@email.com[enabled,,]",
+      "view_str": "0ea08d146c3062797623d28d43640967",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "12",
+      "desc": "<p bound_box=96,1292,363,1448>id@email.com</p>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1292
+        ],
+        [
+          1200,
+          1400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 36,
+      "size": "1152*108",
+      "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]",
+      "view_str": "92640afe74b13b990806960ff55eca74"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": false,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1439
+        ],
+        [
+          1152,
+          1574
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4e0b\u4e00\u6b65",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 37,
+      "size": "1104*135",
+      "signature": "[class]android.widget.Button[resource_id]None[text]\u4e0b\u4e00\u6b65[,,]",
+      "view_str": "69a29944127ff755d67f95cee05a63b0",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "13",
+      "desc": "<button bound_box=48,1439,1152,1574>\u4e0b\u4e00\u6b65</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1619
+        ],
+        [
+          1152,
+          1754
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4f7f\u7528\u5176\u4ed6\u65b9\u5f0f\u767b\u5f55",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 38,
+      "size": "1104*135",
+      "signature": "[class]android.widget.Button[resource_id]None[text]\u4f7f\u7528\u5176\u4ed6\u65b9\u5f0f\u767b\u5f55[enabled,,]",
+      "view_str": "8600c6b61b242066913d268eb6183fc6",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "14",
+      "desc": "<button bound_box=48,1619,1152,1754>\u4f7f\u7528\u5176\u4ed6\u65b9\u5f0f\u767b\u5f55</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        40,
+        42,
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          1799
+        ],
+        [
+          1152,
+          1865
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 39,
+      "size": "1104*66",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "6d7e8fa54e9677e1defdf553b0dae514"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u4f7f\u7528\u6761\u6b3e",
+      "children": [
+        41
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          435,
+          1805
+        ],
+        [
+          582,
+          1859
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "147*54",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "6b627eb8fcc969f510e8a365af62ab7b",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "15",
+      "desc": "<button text='\u4f7f\u7528\u6761\u6b3e' bound_box=435,1805,582,1859></button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          435,
+          1811
+        ],
+        [
+          582,
+          1856
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4f7f\u7528\u6761\u6b3e",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "147*45",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u4f7f\u7528\u6761\u6b3e[enabled,,]",
+      "view_str": "c864b89e18fdde263cdd1e32bd488f86",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "16",
+      "desc": "<button bound_box=435,1811,582,1856>\u4f7f\u7528\u6761\u6b3e</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          579,
+          1811
+        ],
+        [
+          618,
+          1856
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u53ca",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 42,
+      "size": "39*45",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u53ca[enabled,,]",
+      "view_str": "603f2ba46606eb4b24109be3ba85ad7e",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "17",
+      "desc": "<p bound_box=579,1811,618,1856>\u53ca</p>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u9690\u79c1\u653f\u7b56",
+      "children": [
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          618,
+          1805
+        ],
+        [
+          765,
+          1859
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 43,
+      "size": "147*54",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "aeec0e2769f2f5f0d2e6be712696736d",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "18",
+      "desc": "<button text='\u9690\u79c1\u653f\u7b56' bound_box=618,1805,765,1859></button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          618,
+          1811
+        ],
+        [
+          765,
+          1856
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u9690\u79c1\u653f\u7b56",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "147*45",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u9690\u79c1\u653f\u7b56[enabled,,]",
+      "view_str": "0fa0543e8b757d629f8e824ac241f4f5",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "19",
+      "desc": "<button bound_box=618,1811,765,1856>\u9690\u79c1\u653f\u7b56</button>"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          116
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 45,
+      "size": "1200*116",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "88828889232157aaf25e40370dbcb0f7"
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2622
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 46,
+      "size": "1200*48",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "2c235b4aba89fbe53e95286aa3b6acc2"
+    }
+  ]
+}

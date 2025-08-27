@@ -1,0 +1,309 @@
+Activity Resolver Table:
+  Schemes:
+      https:
+        2d23704 com.getmimo/.ui.SplashActivity filter 9b50f22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Path: "PatternMatcher{LITERAL: /login}"
+          Path: "PatternMatcher{LITERAL: /register}"
+          Path: "PatternMatcher{LITERAL: /onboarding/experience}"
+          Path: "PatternMatcher{LITERAL: /onboarding/goal}"
+          Path: "PatternMatcher{LITERAL: /resetpassword}"
+          AutoVerify=true
+        4b8fb6e com.getmimo/.ui.main.MainActivity filter 472c20f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Authority: "getmimo.com": -1
+          Path: "PatternMatcher{LITERAL: /profile}"
+          Path: "PatternMatcher{GLOB: /learn/.*}"
+          Path: "PatternMatcher{LITERAL: /learn}"
+          Path: "PatternMatcher{GLOB: /survey/.*}"
+          Path: "PatternMatcher{GLOB: /explore/.*}"
+          Path: "PatternMatcher{LITERAL: /currentlesson}"
+          Path: "PatternMatcher{LITERAL: /currentchallenge}"
+          Path: "PatternMatcher{LITERAL: /suggestafeature}"
+          Path: "PatternMatcher{GLOB: /leaderboard/.*}"
+          Path: "PatternMatcher{GLOB: /invite/.*}"
+          Path: "PatternMatcher{LITERAL: /leaderboard}"
+          Path: "PatternMatcher{GLOB: /allplans}"
+          Path: "PatternMatcher{GLOB: /upgradeapp}"
+          Path: "PatternMatcher{LITERAL: /webtab}"
+      fbconnect:
+        2fffdb3 com.getmimo/com.facebook.CustomTabActivity filter ebed2e9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.getmimo": -1
+      genericidp:
+        3fd607a com.getmimo/com.google.firebase.auth.internal.GenericIdpActivity filter ea3702b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        4060c88 com.getmimo/com.google.firebase.auth.internal.RecaptchaActivity filter 794f621
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      com.getmimo:
+        297629c com.getmimo/com.auth0.android.provider.RedirectActivity filter b28b4a5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.getmimo"
+          Authority: "auth.getmimo.com": -1
+          Path: "PatternMatcher{PREFIX: /android/com.getmimo/callback}"
+      fb587330438096854:
+        2fffdb3 com.getmimo/com.facebook.CustomTabActivity filter 1bdbf70
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb587330438096854"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2d23704 com.getmimo/.ui.SplashActivity filter 15cd4ed
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        72384d2 com.getmimo/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 903b9a3
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      com.android.vending.INSTALL_REFERRER:
+        bf10a46 com.getmimo/com.adjust.sdk.AdjustReferrerReceiver filter ee6e407
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        6336934 com.getmimo/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 29d35d
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        37e4a0 com.getmimo/.data.notification.MimoFirebaseMessagingService filter 3354859
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        46aacc com.getmimo/com.google.firebase.messaging.FirebaseMessagingService filter be91115
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.firebase.auth.api.gms.service.START:
+        7911c1e com.getmimo/com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService filter c8e4cff
+          Action: "com.google.firebase.auth.api.gms.service.START"
+          Category: "android.intent.category.DEFAULT"
+
+Domain verification status:
+  com.getmimo:
+    ID: f59aa4a6-0ccd-44eb-978f-c72fa9415921
+    Signatures: [2B:74:02:1A:AC:DE:B0:37:77:73:66:6F:48:A4:85:3A:2E:10:64:CE:17:92:A3:9C:AB:04:89:AB:99:76:63:D8]
+    Domain verification state:
+      getmimo.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          getmimo.com
+
+Permissions:
+  Permission [com.getmimo.permission.C2D_MESSAGE] (3abf9c9):
+    sourcePackage=com.getmimo
+    uid=10173 gids=[] type=0 prot=signature
+    perm=PermissionInfo{cac8ce com.getmimo.permission.C2D_MESSAGE}
+
+Registered ContentProviders:
+  com.getmimo/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{cda73ef com.getmimo/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.getmimo/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{2305efc com.getmimo/com.google.firebase.provider.FirebaseInitProvider}
+  com.getmimo/com.facebook.internal.FacebookInitProvider:
+    Provider{e716985 com.getmimo/com.facebook.internal.FacebookInitProvider}
+  com.getmimo/com.canhub.cropper.CropFileProvider:
+    Provider{64ea3da com.getmimo/com.canhub.cropper.CropFileProvider}
+  com.getmimo/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{a04600b com.getmimo/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.getmimo/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{ca26ee8 com.getmimo/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.getmimo/androidx.core.content.FileProvider:
+    Provider{e641901 com.getmimo/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.getmimo.lifecycle-process]:
+    Provider{a04600b com.getmimo/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{80323a6 com.getmimo}
+  [com.getmimo.firebaseinitprovider]:
+    Provider{2305efc com.getmimo/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{696f1e7 com.getmimo}
+  [com.getmimo.mobileadsinitprovider]:
+    Provider{ca26ee8 com.getmimo/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{ba39194 com.getmimo}
+  [com.getmimo.fileprovider]:
+    Provider{e641901 com.getmimo/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{778443d com.getmimo}
+  [com.getmimo.FacebookInitProvider]:
+    Provider{e716985 com.getmimo/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{72dd432 com.getmimo}
+  [com.getmimo.firebaseperfprovider]:
+    Provider{cda73ef com.getmimo/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{5d6c583 com.getmimo}
+  [com.getmimo.cropper.fileprovider]:
+    Provider{64ea3da com.getmimo/com.canhub.cropper.CropFileProvider}
+      applicationInfo=ApplicationInfo{2f23300 com.getmimo}
+
+Key Set Manager:
+  [com.getmimo]
+      Signing KeySets: 87
+
+Packages:
+  Package [com.getmimo] (ea9e739):
+    userId=10173
+    pkg=Package{1e1017e com.getmimo}
+    codePath=/data/app/~~SM_dFFkHYy6FWk6wqDPM1w==/com.getmimo-kkKT-p7cWvpoYMa_D3fXBQ==
+    resourcePath=/data/app/~~SM_dFFkHYy6FWk6wqDPM1w==/com.getmimo-kkKT-p7cWvpoYMa_D3fXBQ==
+    legacyNativeLibraryDir=/data/app/~~SM_dFFkHYy6FWk6wqDPM1w==/com.getmimo-kkKT-p7cWvpoYMa_D3fXBQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1627294356 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=3.44
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{1e1017e com.getmimo}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    queriesIntents=[Intent { act=android.intent.action.GET_CONTENT cat=[android.intent.category.OPENABLE] dat=content://*/* typ=*/* }, Intent { act=android.media.action.IMAGE_CAPTURE }]
+    dataDir=/data/user/0/com.getmimo
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-05-08 08:21:56
+    firstInstallTime=2025-05-08 08:21:56
+    lastUpdateTime=2025-05-08 08:21:56
+    signatures=PackageSignatures{b636df version:3, signatures:[b5c301a6], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.getmimo.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      com.getmimo.permission.C2D_MESSAGE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.WAKE_LOCK
+      android.permission.VIBRATE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      com.android.vending.BILLING
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      com.getmimo.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=139342 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.getmimo
+    com.google.android.settings.intelligence:
+      com.getmimo
+    com.getmimo:
+      com.google.android.documentsui
+      com.android.camera2
+      com.google.android.apps.docs
+      com.google.android.apps.photos
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=19
+  User 0:
+    seq=8, package=com.google.android.gms
+    seq=14, package=com.Dominos
+    seq=16, package=com.google.android.apps.docs
+    seq=17, package=io.github.ylimit.droidbotapp
+    seq=18, package=com.getmimo
+
+
+Dexopt state:
+  [com.getmimo]
+    path: /data/app/~~SM_dFFkHYy6FWk6wqDPM1w==/com.getmimo-kkKT-p7cWvpoYMa_D3fXBQ==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.getmimo]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 6942  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:24         now          10       19856           0           0           2           3           0
+          1:24        0:24          17       45926           0           0           3           8           4
+          2:24        1:24          23       32294           0           0           3           3           0
+          3:24        2:24         159       74628           0           2          14          83          17
+          3:24         now         209      172704           0           2          22          98          17
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:24         now          10           0           0           0           0           0           0           0
+          1:24        0:24          16           0           1           0           0           0           0           0
+          2:24        1:24          23           0           0           0           0           0           0           0
+          3:24        2:24         151           2           3           1           2           0           0           0
+          3:24         now         200           2           4           1           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:24         now           2           0           0           0           0           0           0           8
+          1:24        0:24           3           0           0           1           1           2           2           8
+          2:24        1:24           2           0           1           0           1           4           2          13
+          3:24        2:24           6           4           3           6           7          28          16          88
+          3:24         now          13           4           4           7           9          34          20         117

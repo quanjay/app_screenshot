@@ -1,0 +1,744 @@
+Activity Resolver Table:
+  Schemes:
+      jdpauth:
+        d869495 com.agoda.mobile.consumer/com.jdpaysdk.author.AuthorActivity filter 3d0d9aa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jdpauth"
+      http:
+        909a138 com.agoda.mobile.consumer/.screens.splash.AppLauncherActivity filter 93ae676
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.agoda.com": -1
+          Path: "PatternMatcher{GLOB: /city/..*}"
+          Path: "PatternMatcher{GLOB: /..-..\/city/..*}"
+          Path: "PatternMatcher{GLOB: /partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partners/partnersearch.aspx}"
+          Path: "PatternMatcher{LITERAL: /partners/partnersearch.aspx}"
+          Path: "PatternMatcher{GLOB: /flights}"
+          Path: "PatternMatcher{GLOB: /flights/}"
+          Path: "PatternMatcher{LITERAL: /index.html}"
+          Path: "PatternMatcher{GLOB: /..*\/index.html}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /c/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/c\/..*}"
+          AutoVerify=true
+        e5398e4 com.agoda.mobile.consumer/.screens.splash.alias.IconEventAppLauncherActivityAlias filter 666f402
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.agoda.com": -1
+          Path: "PatternMatcher{GLOB: /city/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/city/..*}"
+          Path: "PatternMatcher{GLOB: /partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partners/partnersearch.aspx}"
+          Path: "PatternMatcher{LITERAL: /partners/partnersearch.aspx}"
+          Path: "PatternMatcher{GLOB: /flights}"
+          Path: "PatternMatcher{GLOB: /flights/}"
+          Path: "PatternMatcher{LITERAL: /index.html}"
+          Path: "PatternMatcher{GLOB: /..*\/index.html}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /c/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/c\/..*}"
+          AutoVerify=true
+        235f50 com.agoda.mobile.consumer/.screens.splash.alias.JapanEventAppLauncherActivityAlias filter a544e4e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.agoda.com": -1
+          Path: "PatternMatcher{GLOB: /city/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/city/..*}"
+          Path: "PatternMatcher{GLOB: /partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partners/partnersearch.aspx}"
+          Path: "PatternMatcher{LITERAL: /partners/partnersearch.aspx}"
+          Path: "PatternMatcher{GLOB: /flights}"
+          Path: "PatternMatcher{GLOB: /flights/}"
+          Path: "PatternMatcher{LITERAL: /index.html}"
+          Path: "PatternMatcher{GLOB: /..*\/index.html}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /c/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/c\/..*}"
+          AutoVerify=true
+      agoda:
+        909a138 com.agoda.mobile.consumer/.screens.splash.AppLauncherActivity filter 5904477
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "agoda"
+        e5398e4 com.agoda.mobile.consumer/.screens.splash.alias.IconEventAppLauncherActivityAlias filter 3bab113
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "agoda"
+        235f50 com.agoda.mobile.consumer/.screens.splash.alias.JapanEventAppLauncherActivityAlias filter 4154b6f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "agoda"
+      https:
+        909a138 com.agoda.mobile.consumer/.screens.splash.AppLauncherActivity filter 93ae676
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.agoda.com": -1
+          Path: "PatternMatcher{GLOB: /city/..*}"
+          Path: "PatternMatcher{GLOB: /..-..\/city/..*}"
+          Path: "PatternMatcher{GLOB: /partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partners/partnersearch.aspx}"
+          Path: "PatternMatcher{LITERAL: /partners/partnersearch.aspx}"
+          Path: "PatternMatcher{GLOB: /flights}"
+          Path: "PatternMatcher{GLOB: /flights/}"
+          Path: "PatternMatcher{LITERAL: /index.html}"
+          Path: "PatternMatcher{GLOB: /..*\/index.html}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /c/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/c\/..*}"
+          AutoVerify=true
+        e5398e4 com.agoda.mobile.consumer/.screens.splash.alias.IconEventAppLauncherActivityAlias filter 666f402
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.agoda.com": -1
+          Path: "PatternMatcher{GLOB: /city/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/city/..*}"
+          Path: "PatternMatcher{GLOB: /partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partners/partnersearch.aspx}"
+          Path: "PatternMatcher{LITERAL: /partners/partnersearch.aspx}"
+          Path: "PatternMatcher{GLOB: /flights}"
+          Path: "PatternMatcher{GLOB: /flights/}"
+          Path: "PatternMatcher{LITERAL: /index.html}"
+          Path: "PatternMatcher{GLOB: /..*\/index.html}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /c/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/c\/..*}"
+          AutoVerify=true
+        235f50 com.agoda.mobile.consumer/.screens.splash.alias.JapanEventAppLauncherActivityAlias filter a544e4e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.agoda.com": -1
+          Path: "PatternMatcher{GLOB: /city/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/city/..*}"
+          Path: "PatternMatcher{GLOB: /partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partnership/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/partners/partnersearch.aspx}"
+          Path: "PatternMatcher{LITERAL: /partners/partnersearch.aspx}"
+          Path: "PatternMatcher{GLOB: /flights}"
+          Path: "PatternMatcher{GLOB: /flights/}"
+          Path: "PatternMatcher{LITERAL: /index.html}"
+          Path: "PatternMatcher{GLOB: /..*\/index.html}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*DestinationSearchResult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /.*/destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: .*destinationsearchresult.*\.aspx}"
+          Path: "PatternMatcher{GLOB: /c/..*}"
+          Path: "PatternMatcher{GLOB: /..*\/c\/..*}"
+          AutoVerify=true
+      jdpauthjdjr111666397001:
+        d869495 com.agoda.mobile.consumer/com.jdpaysdk.author.AuthorActivity filter 5baa99b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jdpauthjdjr111666397001"
+      fbconnect:
+        2ab015a com.agoda.mobile.consumer/com.facebook.CustomTabActivity filter 2d52f8b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.agoda.mobile.consumer": -1
+      com.agoda.mobile.consumer.braintree:
+        e7207c com.agoda.mobile.consumer/com.agoda.mobile.booking.engine.payments.braintree.PayPalSDKHelperActivity filter a36cd05
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.agoda.mobile.consumer.braintree"
+      alipaysdk:
+        29c447f com.agoda.mobile.consumer/com.alipay.sdk.app.AlipayResultActivity filter 2a20c4c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "alipaysdk"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        909a138 com.agoda.mobile.consumer/.screens.splash.AppLauncherActivity filter 188e511
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+        e5398e4 com.agoda.mobile.consumer/.screens.splash.alias.IconEventAppLauncherActivityAlias filter 685c14d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+        235f50 com.agoda.mobile.consumer/.screens.splash.alias.JapanEventAppLauncherActivityAlias filter dfa2549
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+        9c3c868 com.agoda.mobile.consumer/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity filter 7dc3481
+          Action: "android.intent.action.MAIN"
+        d87d926 com.agoda.mobile.consumer/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity filter 653967
+          Action: "android.intent.action.MAIN"
+        f410314 com.agoda.mobile.consumer/androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity filter 31697bd
+          Action: "android.intent.action.MAIN"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.agoda.mobile.consumer.intent.APPBOY_NOTIFICATION_OPENED:
+        bf6750a com.agoda.mobile.consumer/.messaging.AppboyPushBroadcastReceiver filter f55117b
+          Action: "com.agoda.mobile.consumer.intent.APPBOY_NOTIFICATION_OPENED"
+          Action: "com.agoda.mobile.consumer.intent.APPBOY_PUSH_RECEIVED"
+      android.intent.action.BATTERY_OKAY:
+        ac90bae com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter fbd2d4f
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        9d0c5b0 com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 3ffc29
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      cn.jpush.android.intent.CONNECTION:
+        c0861b2 com.agoda.mobile.consumer/.messaging.JPushBroadcastReceiver filter f020503
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.agoda.mobile.consumer"
+      cn.jpush.android.intent.MESSAGE_RECEIVED:
+        c0861b2 com.agoda.mobile.consumer/.messaging.JPushBroadcastReceiver filter f020503
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.agoda.mobile.consumer"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        1748cdc com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter fb331e5
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        49e34ba com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter d494f6b
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.google.android.gms.analytics.ANALYTICS_DISPATCH:
+        a71a0ac com.agoda.mobile.consumer/com.google.android.gms.analytics.AnalyticsReceiver filter 25e0175
+          Action: "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        9355944 com.agoda.mobile.consumer/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter b81ea2d
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        1748cdc com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter fb331e5
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        4b53c80 com.agoda.mobile.consumer/com.appsflyer.MultipleInstallBroadcastReceiver filter 499f2b9
+          Action: "com.android.vending.INSTALL_REFERRER"
+        196e6fe com.agoda.mobile.consumer/.tracking.AgodaInstallReceiver filter e15ee5f
+          Action: "com.android.vending.INSTALL_REFERRER"
+        2ae1b98 com.agoda.mobile.consumer/com.google.android.gms.analytics.CampaignTrackingReceiver filter 1a3ff1
+          Action: "com.android.vending.INSTALL_REFERRER"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        2a112 com.agoda.mobile.consumer/androidx.profileinstaller.ProfileInstallReceiver filter 41e40e3
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.agoda.mobile.consumer.intent.APPBOY_PUSH_RECEIVED:
+        bf6750a com.agoda.mobile.consumer/.messaging.AppboyPushBroadcastReceiver filter f55117b
+          Action: "com.agoda.mobile.consumer.intent.APPBOY_NOTIFICATION_OPENED"
+          Action: "com.agoda.mobile.consumer.intent.APPBOY_PUSH_RECEIVED"
+      com.google.android.c2dm.intent.RECEIVE:
+        7789b62 com.agoda.mobile.consumer/com.google.firebase.iid.FirebaseInstanceIdReceiver filter d7e34f3
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        ac90bae com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter fbd2d4f
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        62b9ac8 com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 86a0761
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        62b9ac8 com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 86a0761
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        62b9ac8 com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 86a0761
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      cn.jpush.android.intent.NOTIFICATION_OPENED:
+        c0861b2 com.agoda.mobile.consumer/.messaging.JPushBroadcastReceiver filter f020503
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.agoda.mobile.consumer"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        9d0c5b0 com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 3ffc29
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        1c39b74 com.agoda.mobile.consumer/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 95eb89d
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      cn.jpush.android.intent.REGISTRATION:
+        c0861b2 com.agoda.mobile.consumer/.messaging.JPushBroadcastReceiver filter f020503
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.agoda.mobile.consumer"
+      cn.jpush.android.intent.NOTIFICATION_RECEIVED:
+        c0861b2 com.agoda.mobile.consumer/.messaging.JPushBroadcastReceiver filter f020503
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.agoda.mobile.consumer"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        ed7d6 com.agoda.mobile.consumer/com.adyen.threeds2.internal.AppUpgradeBroadcastReceiver filter 1994a57
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        96ae286 com.agoda.mobile.consumer/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter d2b7747
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        b38fae0 com.agoda.mobile.consumer/com.agoda.mobile.push.service.PushMessagingService filter cf34199
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        6e5bc5e com.agoda.mobile.consumer/com.google.firebase.messaging.FirebaseMessagingService filter dea083f
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.agoda.mobile.consumer:
+    ID: 22fa5426-74af-422b-9fca-6e3cd68ee375
+    Signatures: [95:77:55:B4:AD:AD:A7:34:E6:BC:FB:0E:EA:1A:07:9F:54:4E:6F:8E:F2:87:A2:4A:F8:39:21:2F:10:13:8E:1C]
+    Domain verification state:
+      www.agoda.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.agoda.com
+
+Permissions:
+  Permission [com.agoda.mobile.consumer.permission.ACCESS_DEVELOPER_SETTINGS] (b6e981a):
+    sourcePackage=com.agoda.mobile.consumer
+    uid=10398 gids=[] type=0 prot=signature
+    perm=PermissionInfo{e8adf4b com.agoda.mobile.consumer.permission.ACCESS_DEVELOPER_SETTINGS}
+    flags=0x0
+
+Registered ContentProviders:
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.BookingContentProvider:
+    Provider{2c1d28 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.BookingContentProvider}
+  com.agoda.mobile.consumer/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{89aca41 com.agoda.mobile.consumer/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.agoda.mobile.consumer/androidx.core.content.FileProvider:
+    Provider{2ce1be6 com.agoda.mobile.consumer/androidx.core.content.FileProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.analytics.AnalyticsInitProvider:
+    Provider{8262527 com.agoda.mobile.consumer/com.agoda.mobile.analytics.AnalyticsInitProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.ReservationContentProvider:
+    Provider{ab9e3d4 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.ReservationContentProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.MessageContentProvider:
+    Provider{e88c97d com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.MessageContentProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.InboxSyncTimeContentProvider:
+    Provider{1501072 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.InboxSyncTimeContentProvider}
+  com.agoda.mobile.consumer/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider:
+    Provider{e45ecc3 com.agoda.mobile.consumer/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.UserContentProvider:
+    Provider{3bb6940 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.UserContentProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.ConversationContentProvider:
+    Provider{85d8079 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.ConversationContentProvider}
+  com.agoda.mobile.consumer/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{38ac1be com.agoda.mobile.consumer/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.PropertyContentProvider:
+    Provider{10921f com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.PropertyContentProvider}
+  com.agoda.mobile.consumer/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{68dd96c com.agoda.mobile.consumer/com.google.firebase.provider.FirebaseInitProvider}
+  com.agoda.mobile.consumer/com.facebook.internal.FacebookInitProvider:
+    Provider{82cab35 com.agoda.mobile.consumer/com.facebook.internal.FacebookInitProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.AttachmentMessageContentProvider:
+    Provider{72d3bca com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.AttachmentMessageContentProvider}
+  com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.TranslatedMessageContentProvider:
+    Provider{eb6313b com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.TranslatedMessageContentProvider}
+  com.agoda.mobile.consumer/androidx.startup.InitializationProvider:
+    Provider{5352058 com.agoda.mobile.consumer/androidx.startup.InitializationProvider}
+  com.agoda.mobile.consumer/.provider.DevConsoleContentProvider:
+    Provider{389c5b1 com.agoda.mobile.consumer/.provider.DevConsoleContentProvider}
+  com.agoda.mobile.consumer/io.flutter.plugins.imagepicker.ImagePickerFileProvider:
+    Provider{3cb4a96 com.agoda.mobile.consumer/io.flutter.plugins.imagepicker.ImagePickerFileProvider}
+
+ContentProvider Authorities:
+  [com.agoda.mobile.consumer.flutter.image_provider]:
+    Provider{3cb4a96 com.agoda.mobile.consumer/io.flutter.plugins.imagepicker.ImagePickerFileProvider}
+      applicationInfo=ApplicationInfo{44ca617 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.messages]:
+    Provider{e88c97d com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.MessageContentProvider}
+      applicationInfo=ApplicationInfo{c07ea04 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.inbox_sync_time]:
+    Provider{1501072 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.InboxSyncTimeContentProvider}
+      applicationInfo=ApplicationInfo{bc40bed com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.provider]:
+    Provider{2ce1be6 com.agoda.mobile.consumer/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{4697a22 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.AnalyticsInitProvider]:
+    Provider{8262527 com.agoda.mobile.consumer/com.agoda.mobile.analytics.AnalyticsInitProvider}
+      applicationInfo=ApplicationInfo{c6b8cb3 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.users]:
+    Provider{3bb6940 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.UserContentProvider}
+      applicationInfo=ApplicationInfo{41ba270 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.console]:
+    Provider{389c5b1 com.agoda.mobile.consumer/.provider.DevConsoleContentProvider}
+      applicationInfo=ApplicationInfo{de279e9 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.reservations]:
+    Provider{ab9e3d4 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.ReservationContentProvider}
+      applicationInfo=ApplicationInfo{dc9166e com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.androidx-startup]:
+    Provider{5352058 com.agoda.mobile.consumer/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{a88410f com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.attachment_messages]:
+    Provider{72d3bca com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.AttachmentMessageContentProvider}
+      applicationInfo=ApplicationInfo{70759c com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.mapboxtelemetryinitprovider]:
+    Provider{e45ecc3 com.agoda.mobile.consumer/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+      applicationInfo=ApplicationInfo{65fcba5 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.mobileadsinitprovider]:
+    Provider{89aca41 com.agoda.mobile.consumer/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{d742b7a com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.translated_messages]:
+    Provider{eb6313b com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.TranslatedMessageContentProvider}
+      applicationInfo=ApplicationInfo{a11df2b com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.mlkitinitprovider]:
+    Provider{38ac1be com.agoda.mobile.consumer/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{1dd4f88 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.bookings]:
+    Provider{2c1d28 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.BookingContentProvider}
+      applicationInfo=ApplicationInfo{4a67d21 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.firebaseinitprovider]:
+    Provider{68dd96c com.agoda.mobile.consumer/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{d898546 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.properties]:
+    Provider{10921f com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.PropertyContentProvider}
+      applicationInfo=ApplicationInfo{44d4307 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.FacebookInitProvider]:
+    Provider{82cab35 com.agoda.mobile.consumer/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{dbbdc34 com.agoda.mobile.consumer}
+  [com.agoda.mobile.consumer.data.conversations]:
+    Provider{85d8079 com.agoda.mobile.consumer/com.agoda.mobile.core.data.db.providers.ConversationContentProvider}
+      applicationInfo=ApplicationInfo{a4cca5d com.agoda.mobile.consumer}
+
+Key Set Manager:
+  [com.agoda.mobile.consumer]
+      Signing KeySets: 167
+
+Packages:
+  Package [com.agoda.mobile.consumer] (948afd2):
+    appId=10398
+    pkg=Package{7f108a3 com.agoda.mobile.consumer}
+    codePath=/data/app/~~2deKXWdOE6QyEBpWn30f6Q==/com.agoda.mobile.consumer-rkvj7VwBFnZ-IWD4GKig9w==
+    resourcePath=/data/app/~~2deKXWdOE6QyEBpWn30f6Q==/com.agoda.mobile.consumer-rkvj7VwBFnZ-IWD4GKig9w==
+    legacyNativeLibraryDir=/data/app/~~2deKXWdOE6QyEBpWn30f6Q==/com.agoda.mobile.consumer-rkvj7VwBFnZ-IWD4GKig9w==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=125602 minSdk=23 targetSdk=31
+    minExtensionVersions=[]
+    versionName=10.29.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.tencent.mm, com.globe.gcash.android, com.venmo, com.paypal.android.p2pmobile, androidx.test.orchestrator, androidx.test.services, com.google.android.apps.common.testing.services]
+    queriesIntents=[Intent { act=android.intent.action.DIAL dat=tel:xx }, Intent { act=android.intent.action.SENDTO dat=mailto:xx }, Intent { act=android.intent.action.SENDTO dat=smsto:xx }, Intent { act=android.intent.action.VIEW dat=geo:/... }, Intent { act=android.intent.action.VIEW dat=http:/... }, Intent { act=android.intent.action.VIEW dat=https:/... }, Intent { act=android.intent.action.VIEW dat=content://*/... typ=application/pdf }, Intent { act=android.intent.action.GET_CONTENT dat=content://*/... typ=image/* }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-07-30 16:31:40
+    lastUpdateTime=2025-07-30 16:31:41
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{35487a0 version:3, signatures:[53830a6f], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.agoda.mobile.consumer.permission.ACCESS_DEVELOPER_SETTINGS: prot=signature
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.READ_CALENDAR
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.GET_ACCOUNTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=183482 deDataInode=177954 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.agoda.mobile.consumer
+      firstInstallTime=2025-07-30 16:31:41
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.android.nfc,com.miui.tsmclient]:
+      com.agoda.mobile.consumer
+    com.xiaomi.aicr:
+      com.agoda.mobile.consumer
+    com.android.contacts:
+      com.agoda.mobile.consumer
+    com.xiaomi.gamecenter.sdk.service:
+      com.agoda.mobile.consumer
+    com.android.settings.intelligence:
+      com.agoda.mobile.consumer
+    com.miui.nextpay:
+      com.agoda.mobile.consumer
+    com.xiaomi.mis:
+      com.agoda.mobile.consumer
+    com.miui.hybrid:
+      com.agoda.mobile.consumer
+    com.xiaomi.market:
+      com.agoda.mobile.consumer
+    com.miui.systemAdSolution:
+      com.agoda.mobile.consumer
+    com.xiaomi.account:
+      com.agoda.mobile.consumer
+    com.miui.greenguard:
+      com.agoda.mobile.consumer
+    com.xiaomi.payment:
+      com.agoda.mobile.consumer
+    com.xiaomi.xmsf:
+      com.agoda.mobile.consumer
+    com.android.providers.downloads.ui:
+      com.agoda.mobile.consumer
+    com.mfashiongallery.emag:
+      com.agoda.mobile.consumer
+    com.android.calendar:
+      com.agoda.mobile.consumer
+    com.android.email:
+      com.agoda.mobile.consumer
+    com.miui.gallery:
+      com.agoda.mobile.consumer
+    com.miui.virtualsim:
+      com.agoda.mobile.consumer
+    com.getsurfboard:
+      com.agoda.mobile.consumer
+    com.xingin.xhs:
+      com.agoda.mobile.consumer
+    com.duokan.reader:
+      com.agoda.mobile.consumer
+    com.instagram.android:
+      com.agoda.mobile.consumer
+    com.miui.video:
+      com.agoda.mobile.consumer
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.agoda.mobile.consumer
+    com.ss.android.ugc.aweme:
+      com.agoda.mobile.consumer
+    com.microsoft.office.outlook:
+      com.agoda.mobile.consumer
+    com.ss.android.article.news:
+      com.agoda.mobile.consumer
+    com.jijia.bqwnl:
+      com.agoda.mobile.consumer
+    com.quark.browser:
+      com.agoda.mobile.consumer
+    com.baidu.BaiduMap:
+      com.agoda.mobile.consumer
+    com.UCMobile:
+      com.agoda.mobile.consumer
+    com.autonavi.minimap:
+      com.agoda.mobile.consumer
+    com.dragon.read:
+      com.agoda.mobile.consumer
+    com.jijia.jjweather:
+      com.agoda.mobile.consumer
+    com.zhuantech.sijiweather:
+      com.agoda.mobile.consumer
+    com.suxing.sustream:
+      com.agoda.mobile.consumer
+    com.yahoo.mobile.client.android.mail:
+      com.agoda.mobile.consumer
+    com.agoda.mobile.consumer:
+      com.google.android.documentsui
+      com.android.contacts
+      com.android.mms
+      com.sohu.inputmethod.sogou.xiaomi
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.miui.gallery
+      com.android.chrome
+      com.skysoft.kkbox.android
+      com.duokan.reader
+      com.google.android.gm
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.baidu.BaiduMap
+      com.UCMobile
+      com.autonavi.minimap
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.agoda.mobile.consumer]
+    path: /data/app/~~2deKXWdOE6QyEBpWn30f6Q==/com.agoda.mobile.consumer-rkvj7VwBFnZ-IWD4GKig9w==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.agoda.mobile.consumer]
+    (No recorded stats)

@@ -1,0 +1,1268 @@
+Activity Resolver Table:
+  Full MIME Types:
+      multipart/related:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c0cc8c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 3fbb21a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5032279
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        6ab07cc com.brave.browser/org.chromium.chrome.browser.printing.PrintShareActivity filter 6faaa15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+      text/html:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      audio/*:
+        4a1636c com.brave.browser/org.chromium.chrome.browser.media.AudioLauncherActivity filter 68a6d35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      */*:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5762c41
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video/*:
+        96cbbbe com.brave.browser/org.chromium.chrome.browser.media.MediaLauncherActivity filter 774041f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/xhtml+xml:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      text/plain:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5032279
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        6ab07cc com.brave.browser/org.chromium.chrome.browser.printing.PrintShareActivity filter 6faaa15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        9cb012a com.brave.browser/org.chromium.chrome.browser.send_tab_to_self.SendTabToSelfShareActivity filter 6467b1b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        766d4b8 com.brave.browser/org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardShareActivity filter 9e8d291
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      message/rfc822:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c8af14b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5032279
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        6ab07cc com.brave.browser/org.chromium.chrome.browser.printing.PrintShareActivity filter 6faaa15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+      image/*:
+        96cbbbe com.brave.browser/org.chromium.chrome.browser.media.MediaLauncherActivity filter 774041f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      multipart:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c0cc8c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 3fbb21a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5032279
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        6ab07cc com.brave.browser/org.chromium.chrome.browser.printing.PrintShareActivity filter 6faaa15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+      text:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5032279
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        6ab07cc com.brave.browser/org.chromium.chrome.browser.printing.PrintShareActivity filter 6faaa15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        9cb012a com.brave.browser/org.chromium.chrome.browser.send_tab_to_self.SendTabToSelfShareActivity filter 6467b1b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        766d4b8 com.brave.browser/org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardShareActivity filter 9e8d291
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      message:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c8af14b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5032279
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        6ab07cc com.brave.browser/org.chromium.chrome.browser.printing.PrintShareActivity filter 6faaa15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+      application:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+
+  Wild MIME Types:
+      *:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5762c41
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio:
+        4a1636c com.brave.browser/org.chromium.chrome.browser.media.AudioLauncherActivity filter 68a6d35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        96cbbbe com.brave.browser/org.chromium.chrome.browser.media.MediaLauncherActivity filter 774041f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        96cbbbe com.brave.browser/org.chromium.chrome.browser.media.MediaLauncherActivity filter 774041f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      googlechrome:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 9b7730e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      com.brave.binance:
+        9ba42c9 com.brave.browser/org.chromium.chrome.browser.widget.crypto.binance.BinanceActivity filter 51dddce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "com.brave.binance"
+      file:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c0cc8c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c8af14b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 7afc728
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5762c41
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        96cbbbe com.brave.browser/org.chromium.chrome.browser.media.MediaLauncherActivity filter 774041f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        4a1636c com.brave.browser/org.chromium.chrome.browser.media.AudioLauncherActivity filter 68a6d35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      http:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 9b7730e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 7ce2dd4
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+      about:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 9b7730e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      https:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 9b7730e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 7ce2dd4
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+        4108464 com.brave.browser/org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity filter d8e8b82
+          Action: "android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "https"
+      content:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 3fbb21a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c8af14b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        96cbbbe com.brave.browser/org.chromium.chrome.browser.media.MediaLauncherActivity filter 774041f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        4a1636c com.brave.browser/org.chromium.chrome.browser.media.AudioLauncherActivity filter 68a6d35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      org.chromium.chrome.browser.webapps.ActivateWebApkActivity.ACTIVATE:
+        8c4f11e com.brave.browser/org.chromium.chrome.browser.webapps.ActivateWebApkActivity filter 885fdff
+          Action: "org.chromium.chrome.browser.webapps.ActivateWebApkActivity.ACTIVATE"
+          Category: "android.intent.category.DEFAULT"
+      com.brave.browser.ADDBOOKMARK:
+        b20da5 com.brave.browser/org.chromium.chrome.browser.bookmarks.BookmarkAddActivity filter e96457a
+          Action: "com.brave.browser.ADDBOOKMARK"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MEDIA_SEARCH:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 12d5e6
+          Action: "android.intent.action.MEDIA_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.webapps.WebappManager.ACTION_START_SECURE_WEBAPP:
+        6bd2634 com.brave.browser/org.chromium.chrome.browser.webapps.SecureWebAppLauncher filter 654c5d
+          Action: "org.chromium.chrome.browser.webapps.WebappManager.ACTION_START_SECURE_WEBAPP"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 193e509
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+        18a5422 com.brave.browser/com.google.android.apps.chrome.Main filter 1d45eb3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.APP_BROWSER"
+        19b4285 com.brave.browser/org.chromium.android_webview.devui.MonochromeLauncherActivity filter 53e08da
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP:
+        edadf21 com.brave.browser/org.chromium.chrome.browser.webapps.WebappLauncherActivity filter 7b33f46
+          Action: "com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP"
+          Category: "android.intent.category.DEFAULT"
+      com.android.webview.SHOW_DEV_UI:
+        2a064ef com.brave.browser/org.chromium.android_webview.devui.MainActivity filter ce5fbfc
+          Action: "com.android.webview.SHOW_DEV_UI"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.dummy.action:
+        1f74a58 com.brave.browser/org.chromium.chrome.browser.customtabs.CustomTabActivity filter 701a7b1
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        b28496 com.brave.browser/org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity filter 26c5817
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        3c2b404 com.brave.browser/org.chromium.chrome.browser.ChromeTabbedActivity filter bd80ded
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        18a5422 com.brave.browser/com.google.android.apps.chrome.Main filter db90c70
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        8349be9 com.brave.browser/org.chromium.chrome.browser.ChromeTabbedActivity2 filter 51d906e
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        2ac330f com.brave.browser/org.chromium.chrome.browser.vr.VrFirstRunActivity filter 77a7f9c
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        55409d2 com.brave.browser/org.chromium.chrome.browser.webapps.WebappActivity filter a325aa3
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        c2071a0 com.brave.browser/org.chromium.chrome.browser.webapps.SameTaskWebApkActivity filter e2f5159
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        57005f6 com.brave.browser/org.chromium.chrome.browser.vr.VrCancelAnimationActivity filter 4c7adf7
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+      org.webapk.ACTION_START_WEBAPK:
+        edadf21 com.brave.browser/org.chromium.chrome.browser.webapps.WebappLauncherActivity filter abd7507
+          Action: "org.webapk.ACTION_START_WEBAPK"
+          Category: "android.intent.category.DEFAULT"
+      android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA:
+        4108464 com.brave.browser/org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity filter cb706cd
+          Action: "android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA"
+          Category: "android.intent.category.DEFAULT"
+      android.settings.WEBVIEW_LICENSE:
+        4b8610b com.brave.browser/org.chromium.android_webview.nonembedded.LicenseActivity filter 994dbe8
+          Action: "android.settings.WEBVIEW_LICENSE"
+          Category: "android.intent.category.DEFAULT"
+      android.web.action.APP_ATTRIBUTION:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5f63ec3
+          Action: "android.web.action.APP_ATTRIBUTION"
+          Category: "android.intent.category.DEFAULT"
+      android.speech.action.VOICE_SEARCH_RESULTS:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter b155727
+          Action: "android.speech.action.VOICE_SEARCH_RESULTS"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.translate.TRANSLATE_TAB:
+        3dd4cc2 com.brave.browser/com.google.android.apps.chrome.TranslateDispatcher filter 2a8fad3
+          Action: "org.chromium.chrome.browser.translate.TRANSLATE_TAB"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity.ACTIVATE:
+        582f12b com.brave.browser/org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity filter 7df988
+          Action: "org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity.ACTIVATE"
+          Category: "android.intent.category.DEFAULT"
+      android.hardware.usb.action.USB_ACCESSORY_ATTACHED:
+        cbf3293 com.brave.browser/org.chromium.chrome.browser.webauth.authenticator.CableAuthenticatorActivity filter f8382d0
+          Action: "android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+      com.sec.android.airview.HOVER:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 7266a72
+          Action: "com.sec.android.airview.HOVER"
+      org.chromium.chrome.browser.incognito.OPEN_PRIVATE_TAB:
+        234d5ca com.brave.browser/org.chromium.chrome.browser.incognito.IncognitoTabLauncher filter ddec33b
+          Action: "org.chromium.chrome.browser.incognito.OPEN_PRIVATE_TAB"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.WEB_SEARCH:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter eca5340
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter ab84b7d
+          Action: "android.intent.action.SEARCH"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5032279
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        6ab07cc com.brave.browser/org.chromium.chrome.browser.printing.PrintShareActivity filter 6faaa15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "multipart/related"
+          StaticType: "message/rfc822"
+        9cb012a com.brave.browser/org.chromium.chrome.browser.send_tab_to_self.SendTabToSelfShareActivity filter 6467b1b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        766d4b8 com.brave.browser/org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardShareActivity filter 9e8d291
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      android.intent.action.VIEW:
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 2fe712f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 62cb33c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c0cc8c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 3fbb21a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter c8af14b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        914610 com.brave.browser/com.google.android.apps.chrome.IntentDispatcher filter 5762c41
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        96cbbbe com.brave.browser/org.chromium.chrome.browser.media.MediaLauncherActivity filter 774041f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        4a1636c com.brave.browser/org.chromium.chrome.browser.media.AudioLauncherActivity filter 68a6d35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        e9e683 com.brave.browser/org.chromium.chrome.browser.browserservices.ClientAppBroadcastReceiver filter 4254000
+          Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION:
+        3feed71 com.brave.browser/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 649b756
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+      android.intent.action.LOCALE_CHANGED:
+        8e43d3d com.brave.browser/org.chromium.chrome.browser.notifications.channels.LocaleChangedBroadcastReceiver filter e04d932
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.google.android.c2dm.intent.RECEIVE:
+        7e17673 com.brave.browser/com.google.firebase.iid.FirebaseInstanceIdReceiver filter d08a930
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.USER_PRESENT:
+        cd28201 com.brave.browser/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver filter 703d8a6
+          Action: "android.intent.action.USER_PRESENT"
+      DEEP_LINK:
+        5c373d7 com.brave.browser/org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService filter ce04c4
+          Action: "DEEP_LINK"
+      .BOOKMARK_APPWIDGET_UPDATE:
+        48ad6f5 com.brave.browser/com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider filter 31a5c8a
+          Action: ".BOOKMARK_APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION:
+        3feed71 com.brave.browser/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 649b756
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        d5c7039 com.brave.browser/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderSearch filter fa3567e
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        5a67df com.brave.browser/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderDino filter 79e5c2c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        48ad6f5 com.brave.browser/com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider filter 31a5c8a
+          Action: ".BOOKMARK_APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        727a2fb com.brave.browser/org.chromium.chrome.browser.searchwidget.SearchWidgetProvider filter 8ab0f18
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        f0a02e7 com.brave.browser/org.chromium.chrome.browser.upgrade.PackageReplacedBroadcastReceiver filter 9cfce94
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        c3efad com.brave.browser/org.chromium.chrome.browser.upgrade.BravePackageReplacedBroadcastReceiver filter 341f2e2
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      org.chromium.intent.action.UPDATE_PAYMENT_DETAILS:
+        2f300c7 com.brave.browser/org.chromium.components.payments.PaymentDetailsUpdateService filter c9e26f4
+          Action: "org.chromium.intent.action.UPDATE_PAYMENT_DETAILS"
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        b5cd9a9 com.brave.browser/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService filter 2905b2e permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+        f806765 com.brave.browser/org.chromium.components.background_task_scheduler.internal.BackgroundTaskGcmTaskService filter 64afc3a permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+        5a340eb com.brave.browser/org.chromium.chrome.browser.ChromeBackgroundService filter 50c6e48 permission com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+      com.google.firebase.MESSAGING_EVENT:
+        6d306cf com.brave.browser/org.chromium.chrome.browser.services.gcm.ChromeGcmListenerService filter 707285c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        e941bf com.brave.browser/com.google.firebase.messaging.FirebaseMessagingService filter e13608c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.support.customtabs.action.CustomTabsService:
+        39514e1 com.brave.browser/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService filter 9dca206
+          Action: "android.support.customtabs.action.CustomTabsService"
+          Category: "androidx.browser.customtabs.category.ColorSchemeCustomization"
+          Category: "androidx.browser.customtabs.category.NavBarColorCustomization"
+          Category: "androidx.browser.trusted.category.ImmersiveMode"
+          Category: "androidx.browser.trusted.category.LaunchSiteSettings"
+          Category: "androidx.browser.trusted.category.LaunchWebApkSiteSettings"
+          Category: "androidx.browser.trusted.category.TrustedWebActivities"
+          Category: "androidx.browser.trusted.category.TrustedWebActivitySplashScreensV1"
+          Category: "androidx.browser.trusted.category.WebShareTargetV2"
+      android.intent.action.MEDIA_BUTTON:
+        3ed1e1d com.brave.browser/org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$PlaybackListenerService filter 290d892
+          Action: "android.intent.action.MEDIA_BUTTON"
+        c94e263 com.brave.browser/org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$PresentationListenerService filter 3f0be60
+          Action: "android.intent.action.MEDIA_BUTTON"
+        5c27f19 com.brave.browser/org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$CastListenerService filter cdfebde
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.brave.browser.permission.DEBUG] (3a6048c):
+    sourcePackage=com.brave.browser
+    uid=10350 gids=[] type=0 prot=signature
+    perm=PermissionInfo{35ac7d5 com.brave.browser.permission.DEBUG}
+    flags=0x0
+
+Permissions:
+  Permission [com.brave.browser.permission.TRANSLATE] (a482bea):
+    sourcePackage=com.brave.browser
+    uid=10350 gids=[] type=0 prot=signature
+    perm=PermissionInfo{f182edb com.brave.browser.permission.TRANSLATE}
+    flags=0x0
+
+Permissions:
+  Permission [com.brave.browser.permission.READ_WRITE_BOOKMARK_FOLDERS] (3f4dd78):
+    sourcePackage=com.brave.browser
+    uid=10350 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{d8d0c51 com.brave.browser.permission.READ_WRITE_BOOKMARK_FOLDERS}
+    flags=0x0
+
+Permissions:
+  Permission [com.brave.browser.TOS_ACKED] (6751cb6):
+    sourcePackage=com.brave.browser
+    uid=10350 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{960ddb7 com.brave.browser.TOS_ACKED}
+    flags=0x0
+
+Permissions:
+  Permission [com.brave.browser.permission.CHILD_SERVICE] (4565924):
+    sourcePackage=com.brave.browser
+    uid=10350 gids=[] type=0 prot=signature
+    perm=PermissionInfo{dc51c8d com.brave.browser.permission.CHILD_SERVICE}
+    flags=0x0
+
+Permissions:
+  Permission [com.brave.browser.permission.C2D_MESSAGE] (dae4e42):
+    sourcePackage=com.brave.browser
+    uid=10350 gids=[] type=0 prot=signature
+    perm=PermissionInfo{81b9e53 com.brave.browser.permission.C2D_MESSAGE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.brave.browser/org.chromium.android_webview.services.SafeModeContentProvider:
+    Provider{531e390 com.brave.browser/org.chromium.android_webview.services.SafeModeContentProvider}
+  com.brave.browser/org.chromium.chrome.browser.download.DownloadFileProvider:
+    Provider{af3f489 com.brave.browser/org.chromium.chrome.browser.download.DownloadFileProvider}
+  com.brave.browser/org.chromium.android_webview.nonembedded.LicenseContentProvider:
+    Provider{9570c8e com.brave.browser/org.chromium.android_webview.nonembedded.LicenseContentProvider}
+  com.brave.browser/org.chromium.chrome.browser.util.ChromeFileProvider:
+    Provider{3b7ccaf com.brave.browser/org.chromium.chrome.browser.util.ChromeFileProvider}
+  com.brave.browser/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{3f9a8bc com.brave.browser/com.google.firebase.provider.FirebaseInitProvider}
+  com.brave.browser/org.chromium.chrome.browser.attribution_reporting.AttributionReportingProvider:
+    Provider{1e5045 com.brave.browser/org.chromium.chrome.browser.attribution_reporting.AttributionReportingProvider}
+  com.brave.browser/org.chromium.android_webview.services.DeveloperModeContentProvider:
+    Provider{3bb639a com.brave.browser/org.chromium.android_webview.services.DeveloperModeContentProvider}
+  com.brave.browser/org.chromium.chrome.browser.provider.ChromeBrowserProvider:
+    Provider{23e84cb com.brave.browser/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+
+ContentProvider Authorities:
+  [com.brave.browser.LicenseContentProvider]:
+    Provider{9570c8e com.brave.browser/org.chromium.android_webview.nonembedded.LicenseContentProvider}
+      applicationInfo=ApplicationInfo{11694a8 com.brave.browser}
+  [com.brave.browser.SafeModeContentProvider]:
+    Provider{531e390 com.brave.browser/org.chromium.android_webview.services.SafeModeContentProvider}
+      applicationInfo=ApplicationInfo{9d8abc1 com.brave.browser}
+  [com.brave.browser.ChromeBrowserProvider]:
+    Provider{23e84cb com.brave.browser/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+      applicationInfo=ApplicationInfo{ddc1f66 com.brave.browser}
+  [com.brave.browser]:
+    Provider{23e84cb com.brave.browser/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+      applicationInfo=ApplicationInfo{72ea2a7 com.brave.browser}
+  [com.brave.browser.browser]:
+    Provider{23e84cb com.brave.browser/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+      applicationInfo=ApplicationInfo{8945354 com.brave.browser}
+  [com.brave.browser.DeveloperModeContentProvider]:
+    Provider{3bb639a com.brave.browser/org.chromium.android_webview.services.DeveloperModeContentProvider}
+      applicationInfo=ApplicationInfo{f8342fd com.brave.browser}
+  [com.brave.browser.DownloadFileProvider]:
+    Provider{af3f489 com.brave.browser/org.chromium.chrome.browser.download.DownloadFileProvider}
+      applicationInfo=ApplicationInfo{5facbf2 com.brave.browser}
+  [com.brave.browser.FileProvider]:
+    Provider{3b7ccaf com.brave.browser/org.chromium.chrome.browser.util.ChromeFileProvider}
+      applicationInfo=ApplicationInfo{518c243 com.brave.browser}
+  [com.brave.browser.firebaseinitprovider]:
+    Provider{3f9a8bc com.brave.browser/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{98d50c0 com.brave.browser}
+  [com.brave.browser.AttributionReporting]:
+    Provider{1e5045 com.brave.browser/org.chromium.chrome.browser.attribution_reporting.AttributionReportingProvider}
+      applicationInfo=ApplicationInfo{44611f9 com.brave.browser}
+
+Key Set Manager:
+  [com.brave.browser]
+      Signing KeySets: 119
+
+Packages:
+  Package [com.brave.browser] (62d573a):
+    appId=10350
+    pkg=Package{ae5b53e com.brave.browser}
+    codePath=/data/app/~~WjGUQzjUmAgJjs4MBn6ETw==/com.brave.browser-Rbwop9XxkZEh93lgrEGc6g==
+    resourcePath=/data/app/~~WjGUQzjUmAgJjs4MBn6ETw==/com.brave.browser-Rbwop9XxkZEh93lgrEGc6g==
+    legacyNativeLibraryDir=/data/app/~~WjGUQzjUmAgJjs4MBn6ETw==/com.brave.browser-Rbwop9XxkZEh93lgrEGc6g==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=arm64-v8a
+    cpuAbiOverride=null
+    versionCode=413510223 minSdk=24 targetSdk=31
+    minExtensionVersions=[]
+    versionName=1.35.102
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-07-29 17:42:25
+    lastUpdateTime=2025-07-29 17:42:25
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{cfb3f9f version:3, signatures:[dd946fc5], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.brave.browser.permission.CHILD_SERVICE: prot=signature
+      com.brave.browser.permission.READ_WRITE_BOOKMARK_FOLDERS: prot=signature|privileged
+      com.brave.browser.TOS_ACKED: prot=signature|privileged
+      com.brave.browser.permission.C2D_MESSAGE: prot=signature
+      com.brave.browser.permission.DEBUG: prot=signature
+      com.brave.browser.permission.TRANSLATE: prot=signature
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      android.permission.READ_EXTERNAL_STORAGE
+      com.brave.browser.permission.READ_WRITE_BOOKMARK_FOLDERS
+      com.chrome.permission.DEVICE_EXTRAS
+      android.permission.ACCESS_COARSE_LOCATION
+      com.brave.browser.TOS_ACKED
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      android.permission.READ_SYNC_STATS
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.USE_BIOMETRIC
+      com.brave.browser.permission.C2D_MESSAGE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.brave.browser.permission.READ_WRITE_BOOKMARK_FOLDERS: granted=true
+      com.brave.browser.TOS_ACKED: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.brave.browser.permission.C2D_MESSAGE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=51656 deDataInode=41744 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.brave.browser
+      firstInstallTime=2025-07-29 17:42:25
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [vendor.qti.qesdk.sysservice,com.xiaomi.touchservice,com.qualcomm.qti.xrvd.service,com.xiaomi.aon,com.android.providers.settings,com.miui.bugreport,com.qti.snapdragon.qdcm_ff,com.miui.qr,com.android.location.fused,com.android.systemui,com.android.DeviceAsWebcam,com.xiaomi.trustservice,com.miui.touchassistant,com.xiaomi.mi_connect_service,com.xiaomi.digitalkey,com.miui.cit,com.miui.contentcatcher,com.miui.securitycenter,com.miui.notification,com.android.keychain,com.xiaomi.misettings,com.xiaomi.gnss.polaris,com.xiaomi.location.fused,com.miui.audiomonitor,com.xiaomi.barrage,com.xiaomi.mtb,com.bsp.catchlog,android,com.android.settings,com.miui.daemon,com.wapi.wapicertmanage,com.xiaomi.mirror,com.miui.aod,miui.systemui.plugin,com.xiaomi.aiasst.service,com.android.dynsystem,com.android.inputdevices,com.android.server.telecom,com.miui.uireporter,com.xiaomi.otrpbroker,com.android.provision,com.miui.wmsvc,com.qualcomm.qti.services.systemhelper,com.miui.powerkeeper,com.android.localtransport,com.miui.thirdappassistant,com.miui.misightservice,com.xiaomi.joyose,com.xiaomi.aiasst.vision,com.miui.securitycore]:
+      com.brave.browser
+    [com.android.nfc,com.miui.tsmclient]:
+      com.brave.browser
+    com.android.captiveportallogin:
+      com.brave.browser
+    com.android.vending:
+      com.brave.browser
+    com.xiaomi.aicr:
+      com.brave.browser
+    [com.google.android.gms,com.google.android.gsf]:
+      com.brave.browser
+    com.android.contacts:
+      com.brave.browser
+    com.xiaomi.gamecenter.sdk.service:
+      com.brave.browser
+    com.android.settings.intelligence:
+      com.brave.browser
+    com.miui.nextpay:
+      com.brave.browser
+    com.xiaomi.mis:
+      com.brave.browser
+    com.miui.hybrid:
+      com.brave.browser
+    com.xiaomi.market:
+      com.brave.browser
+    com.miui.systemAdSolution:
+      com.brave.browser
+    com.xiaomi.account:
+      com.brave.browser
+    com.miui.greenguard:
+      com.brave.browser
+    com.xiaomi.payment:
+      com.brave.browser
+    com.google.android.accessibility.switchaccess:
+      com.brave.browser
+    com.xiaomi.xmsf:
+      com.brave.browser
+    com.android.systemui.accessibility.accessibilitymenu:
+      com.brave.browser
+    com.wuba.zhuanzhuan:
+      com.brave.browser
+    com.android.providers.downloads.ui:
+      com.brave.browser
+    com.mfashiongallery.emag:
+      com.brave.browser
+    com.android.calendar:
+      com.brave.browser
+    com.android.email:
+      com.brave.browser
+    com.miui.gallery:
+      com.brave.browser
+    com.android.soundrecorder:
+      com.brave.browser
+    com.miui.virtualsim:
+      com.brave.browser
+    com.getsurfboard:
+      com.brave.browser
+    com.skysoft.kkbox.android:
+      com.brave.browser
+    com.xingin.xhs:
+      com.brave.browser
+    com.duokan.reader:
+      com.brave.browser
+    com.instagram.android:
+      com.brave.browser
+    com.google.android.gm:
+      com.brave.browser
+    com.ebay.mobile:
+      com.brave.browser
+    com.anydo:
+      com.brave.browser
+    com.microsoft.todos:
+      com.brave.browser
+    com.miui.video:
+      com.brave.browser
+    com.todoist:
+      com.brave.browser
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.brave.browser
+    com.google.android.apps.tasks:
+      com.brave.browser
+    com.alibaba.aliexpresshd:
+      com.brave.browser
+    com.einnovation.temu:
+      com.brave.browser
+    com.microsoft.emmx:
+      com.brave.browser
+    com.google.android.apps.magazines:
+      com.brave.browser
+    com.cnn.mobile.android.phone:
+      com.brave.browser
+    com.spotify.music:
+      com.brave.browser
+    com.google.android.apps.youtube.music:
+      com.brave.browser
+    com.musicworx:
+      com.brave.browser
+    ru.mail.mailapp:
+      com.brave.browser
+    com.ss.android.ugc.aweme:
+      com.brave.browser
+    com.microsoft.office.outlook:
+      com.brave.browser
+    com.ss.android.article.news:
+      com.brave.browser
+    com.jijia.bqwnl:
+      com.brave.browser
+    com.quark.browser:
+      com.brave.browser
+    com.baidu.BaiduMap:
+      com.brave.browser
+    com.UCMobile:
+      com.brave.browser
+    com.autonavi.minimap:
+      com.brave.browser
+    com.dragon.read:
+      com.brave.browser
+    com.jijia.jjweather:
+      com.brave.browser
+    com.zhuantech.sijiweather:
+      com.brave.browser
+    com.suxing.sustream:
+      com.brave.browser
+    com.yahoo.mobile.client.android.mail:
+      com.brave.browser
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.brave.browser]
+    path: /data/app/~~WjGUQzjUmAgJjs4MBn6ETw==/com.brave.browser-Rbwop9XxkZEh93lgrEGc6g==/base.apk
+      arm: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~WjGUQzjUmAgJjs4MBn6ETw==/com.brave.browser-Rbwop9XxkZEh93lgrEGc6g==/oat/arm/base.odex]
+      arm64: [status=verify] [reason=install]
+        [location is /data/app/~~WjGUQzjUmAgJjs4MBn6ETw==/com.brave.browser-Rbwop9XxkZEh93lgrEGc6g==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 192Kb base.vdex: 9425Kb 
+
+Compiler stats:
+  [com.brave.browser]
+     base.apk - 416

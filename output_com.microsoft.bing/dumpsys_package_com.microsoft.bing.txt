@@ -1,0 +1,663 @@
+Activity Resolver Table:
+  Schemes:
+      opaldebug:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter b16d922
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bing"
+          Scheme: "bingnews"
+          Scheme: "opal"
+          Scheme: "bingdebug"
+          Scheme: "opaldebug"
+          Scheme: "sapphire"
+      bingdebug:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter b16d922
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bing"
+          Scheme: "bingnews"
+          Scheme: "opal"
+          Scheme: "bingdebug"
+          Scheme: "opaldebug"
+          Scheme: "sapphire"
+      bing:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter b16d922
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bing"
+          Scheme: "bingnews"
+          Scheme: "opal"
+          Scheme: "bingdebug"
+          Scheme: "opaldebug"
+          Scheme: "sapphire"
+      http:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter 12effb3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Authority: "cn.bing.com": -1
+          Authority: "cn.bing.com": -1
+          Path: "PatternMatcher{LITERAL: /sapphirerredirect}"
+          Path: "PatternMatcher{LITERAL: /sapphireredirect}"
+          Path: "PatternMatcher{LITERAL: /sapphirerredirect}"
+          Path: "PatternMatcher{LITERAL: /sapphireredirect}"
+          AutoVerify=true
+        a5d9970 com.microsoft.bing/com.microsoft.sapphire.app.browser.IntentDispatchActivity filter b3aa4e9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+        a5d9970 com.microsoft.bing/com.microsoft.sapphire.app.browser.IntentDispatchActivity filter b6d656e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Path: "PatternMatcher{GLOB: /.*/search}"
+          Path: "PatternMatcher{GLOB: /.*/search}"
+          Path: "PatternMatcher{LITERAL: /search}"
+          Path: "PatternMatcher{LITERAL: /search}"
+          AutoVerify=true
+      opal:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter b16d922
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bing"
+          Scheme: "bingnews"
+          Scheme: "opal"
+          Scheme: "bingdebug"
+          Scheme: "opaldebug"
+          Scheme: "sapphire"
+      https:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter 12effb3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Authority: "cn.bing.com": -1
+          Authority: "cn.bing.com": -1
+          Path: "PatternMatcher{LITERAL: /sapphirerredirect}"
+          Path: "PatternMatcher{LITERAL: /sapphireredirect}"
+          Path: "PatternMatcher{LITERAL: /sapphirerredirect}"
+          Path: "PatternMatcher{LITERAL: /sapphireredirect}"
+          AutoVerify=true
+        a5d9970 com.microsoft.bing/com.microsoft.sapphire.app.browser.IntentDispatchActivity filter b3aa4e9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+        a5d9970 com.microsoft.bing/com.microsoft.sapphire.app.browser.IntentDispatchActivity filter b6d656e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Authority: "www.bing.com": -1
+          Path: "PatternMatcher{GLOB: /.*/search}"
+          Path: "PatternMatcher{GLOB: /.*/search}"
+          Path: "PatternMatcher{LITERAL: /search}"
+          Path: "PatternMatcher{LITERAL: /search}"
+          AutoVerify=true
+      bingnews:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter b16d922
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bing"
+          Scheme: "bingnews"
+          Scheme: "opal"
+          Scheme: "bingdebug"
+          Scheme: "opaldebug"
+          Scheme: "sapphire"
+      sapphire:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter b16d922
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bing"
+          Scheme: "bingnews"
+          Scheme: "opal"
+          Scheme: "bingdebug"
+          Scheme: "opaldebug"
+          Scheme: "sapphire"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1487104 com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity filter b5f86ed
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        38fe40f com.microsoft.bing/com.microsoft.sapphire.shells.bing.AutoSuggestActivityAlias filter e5adc9c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        fb92b01 com.microsoft.bing/com.microsoft.beacon.internal.PowerStatusReceiver filter b7cda6
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        fb92b01 com.microsoft.bing/com.microsoft.beacon.internal.PowerStatusReceiver filter b7cda6
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.net.wifi.WIFI_STATE_CHANGED:
+        678cbc9 com.microsoft.bing/com.microsoft.beacon.network.WifiStatusReceiver filter 5fc32ce
+          Action: "android.net.wifi.WIFI_STATE_CHANGED"
+      android.intent.action.QUICKBOOT_POWERON:
+        bd8d8df com.microsoft.bing/com.microsoft.smsplatform.service.BootReceiver filter 8e2792c
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.AIRPLANE_MODE:
+        fb92b01 com.microsoft.bing/com.microsoft.beacon.internal.PowerStatusReceiver filter b7cda6
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.mobiledatalabs.mileiq.ACTION_TIMER_ALARM:
+        6395b85 com.microsoft.bing/com.microsoft.beacon.internal.IQAlarmReceiver filter e2cadda
+          Action: "com.mobiledatalabs.mileiq.ACTION_TIMER_ALARM"
+          Action: "com.mobiledatalabs.mileiq.ACTION_CHECK_LOCATION_ALARM"
+      com.microsoft.bing.SEARCH_SETTINGS:
+        88fa6a5 com.microsoft.bing/com.microsoft.clients.bing.widget.SearchBoxWidgetProvider filter 28e6a7a
+          Action: "com.microsoft.bing.SEARCH_SETTINGS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        f70b22b com.microsoft.bing/com.microsoft.clients.bing.widget.SearchBoxRoundedWidgetProvider filter 1872688
+          Action: "com.microsoft.bing.SEARCH_SETTINGS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.android.vending.INSTALL_REFERRER:
+        13d055d com.microsoft.bing/com.adjust.sdk.AdjustReferrerReceiver filter 18bced2
+          Action: "com.android.vending.INSTALL_REFERRER"
+        2b34783 com.microsoft.bing/com.learnium.RNDeviceInfo.RNDeviceReceiver filter 8718d00
+          Action: "com.android.vending.INSTALL_REFERRER"
+      android.location.MODE_CHANGED:
+        34f53e7 com.microsoft.bing/com.microsoft.beacon.location.LocationProvidersChangedReceiver filter 14b94
+          Action: "android.location.MODE_CHANGED"
+      com.mobiledatalabs.mileiq.drive.ACTION_PROCESS_UPDATES:
+        69aa20b com.microsoft.bing/com.microsoft.beacon.internal.UserGeofenceBroadcastReceiver filter cb888e8
+          Action: "com.mobiledatalabs.mileiq.drive.ACTION_PROCESS_UPDATES"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        f4f3939 com.microsoft.bing/androidx.profileinstaller.ProfileInstallReceiver filter 340eb7e
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        e0c763d com.microsoft.bing/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 7831e32
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        fb92b01 com.microsoft.bing/com.microsoft.beacon.internal.PowerStatusReceiver filter b7cda6
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.BOOT_COMPLETED:
+        d3095ef com.microsoft.bing/com.microsoft.beacon.services.BootReceiver filter 138d8fc
+          Action: "android.intent.action.BOOT_COMPLETED"
+        bd8d8df com.microsoft.bing/com.microsoft.smsplatform.service.BootReceiver filter 8e2792c
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        fb92b01 com.microsoft.bing/com.microsoft.beacon.internal.PowerStatusReceiver filter b7cda6
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        88fa6a5 com.microsoft.bing/com.microsoft.clients.bing.widget.SearchBoxWidgetProvider filter 28e6a7a
+          Action: "com.microsoft.bing.SEARCH_SETTINGS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        f70b22b com.microsoft.bing/com.microsoft.clients.bing.widget.SearchBoxRoundedWidgetProvider filter 1872688
+          Action: "com.microsoft.bing.SEARCH_SETTINGS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        9790821 com.microsoft.bing/com.microsoft.sapphire.services.widgets.news.NewsWidgetStandardProvider filter 388b446
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        c464607 com.microsoft.bing/com.microsoft.sapphire.services.widgets.news.NewsWidgetListProvider filter 3ac2334
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        9f73ba3 com.microsoft.bing/com.microsoft.clients.bing.widget.TrendingSearchesWidgetProvider filter 5823ea0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        7499a59 com.microsoft.bing/com.microsoft.clients.bing.widget.TrendingSearchesImageWidgetProvider filter 134061e
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        637eeff com.microsoft.bing/com.microsoft.clients.bing.widget.ComboWidgetProvider filter 8dca4cc
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        1f08315 com.microsoft.bing/com.microsoft.clients.bing.widget.WallpaperSearchBoxWidgetProvider filter 296662a
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        ba67c1b com.microsoft.bing/com.microsoft.clients.bing.widget.dynamic.RewardsWidgetProvider filter 79541b8
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e33b91 com.microsoft.bing/com.microsoft.clients.bing.widget.dynamic.RewardsSimpleWidgetProvider filter cbaf6
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        6a6bef7 com.microsoft.bing/com.microsoft.sapphire.services.widgets.weather.WeatherWidgetProvider filter d38c164
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.mobiledatalabs.mileiq.ACTION_CHECK_LOCATION_ALARM:
+        6395b85 com.microsoft.bing/com.microsoft.beacon.internal.IQAlarmReceiver filter e2cadda
+          Action: "com.mobiledatalabs.mileiq.ACTION_TIMER_ALARM"
+          Action: "com.mobiledatalabs.mileiq.ACTION_CHECK_LOCATION_ALARM"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        fb92b01 com.microsoft.bing/com.microsoft.beacon.internal.PowerStatusReceiver filter b7cda6
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      notification_deleted:
+        36effcd com.microsoft.bing/com.microsoft.sapphire.services.notifications.NotificationDeleteReceiver filter dc19082
+          Action: "notification_deleted"
+      android.intent.action.MEDIA_BUTTON:
+        bfe5393 com.microsoft.bing/com.microsoft.sapphire.toolkit.readaloud.SapphireMediaButtonReceiver filter f728fd0
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        d612ff5 com.microsoft.bing/com.microsoft.sapphire.services.notifications.SapphireMessagingService filter b7c418a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        27f04d7 com.microsoft.bing/com.google.firebase.messaging.FirebaseMessagingService filter 8d8c1c4
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.microsoft.tokenshare.TokenSharingService:
+        ec68ad com.microsoft.bing/com.microsoft.tokenshare.TokenSharingService filter f5b77e2
+          Action: "com.microsoft.tokenshare.TokenSharingService"
+      android.service.wallpaper.WallpaperService:
+        a9c23fb com.microsoft.bing/com.microsoft.sapphire.features.wallpaper.auto.services.WallpaperService filter 693fc18 permission android.permission.BIND_WALLPAPER
+          Action: "android.service.wallpaper.WallpaperService"
+          mPriority=1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        661d671 com.microsoft.bing/com.microsoft.sapphire.features.wallpaper.live.LiveWallpaperService filter 364ec56 permission android.permission.BIND_WALLPAPER
+          Action: "android.service.wallpaper.WallpaperService"
+          mPriority=1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.microsoft.bing:
+    ID: 707e48c3-c3d7-46b6-9905-a282a6dd4fde
+    Signatures: [AC:46:AB:A9:23:6E:BD:5A:ED:35:99:4E:9E:88:EE:75:D1:D6:B5:10:E1:D5:F1:41:B7:19:DA:62:DC:35:86:FA]
+    Domain verification state:
+      www.bing.com: none
+      cn.bing.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.bing.com
+          cn.bing.com
+
+Registered ContentProviders:
+  com.microsoft.bing/androidx.startup.InitializationProvider:
+    Provider{fc33bdb com.microsoft.bing/androidx.startup.InitializationProvider}
+  com.microsoft.bing/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{8bf6678 com.microsoft.bing/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  com.microsoft.bing/com.microsoft.sapphire.features.update.UpdateFileProvider:
+    Provider{3876151 com.microsoft.bing/com.microsoft.sapphire.features.update.UpdateFileProvider}
+  com.microsoft.bing/com.imagepicker.ImagePickerProvider:
+    Provider{5f14db6 com.microsoft.bing/com.imagepicker.ImagePickerProvider}
+  com.microsoft.bing/androidx.core.content.FileProvider:
+    Provider{e2fbab7 com.microsoft.bing/androidx.core.content.FileProvider}
+  com.microsoft.bing/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{5c07224 com.microsoft.bing/com.google.firebase.provider.FirebaseInitProvider}
+  com.microsoft.bing/cl.json.RNShareFileProvider:
+    Provider{18fc18d com.microsoft.bing/cl.json.RNShareFileProvider}
+  com.microsoft.bing/com.RNFetchBlob.Utils.FileProvider:
+    Provider{73c8f42 com.microsoft.bing/com.RNFetchBlob.Utils.FileProvider}
+
+ContentProvider Authorities:
+  [com.microsoft.bing.rnshare.fileprovider]:
+    Provider{18fc18d com.microsoft.bing/cl.json.RNShareFileProvider}
+      applicationInfo=ApplicationInfo{77b4b53 com.microsoft.bing}
+  [com.microsoft.bing.imagepickerprovider]:
+    Provider{5f14db6 com.microsoft.bing/com.imagepicker.ImagePickerProvider}
+      applicationInfo=ApplicationInfo{5a48c90 com.microsoft.bing}
+  [com.microsoft.bing.fileprovider]:
+    Provider{8bf6678 com.microsoft.bing/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{143e989 com.microsoft.bing}
+  [com.microsoft.bing.provider]:
+    Provider{e2fbab7 com.microsoft.bing/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{4085d8e com.microsoft.bing}
+  [com.microsoft.bing.UpdateFileProvider]:
+    Provider{3876151 com.microsoft.bing/com.microsoft.sapphire.features.update.UpdateFileProvider}
+      applicationInfo=ApplicationInfo{de549af com.microsoft.bing}
+  [com.microsoft.bing.androidx-startup]:
+    Provider{fc33bdb com.microsoft.bing/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{36de1bc com.microsoft.bing}
+  [com.microsoft.bing.firebaseinitprovider]:
+    Provider{5c07224 com.microsoft.bing/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{3f89545 com.microsoft.bing}
+
+Key Set Manager:
+  [com.microsoft.bing]
+      Signing KeySets: 147
+
+Packages:
+  Package [com.microsoft.bing] (6b0c49a):
+    appId=10378
+    pkg=Package{e46d1cb com.microsoft.bing}
+    codePath=/data/app/~~fKWrThrwLCNwt7_J7tzhdQ==/com.microsoft.bing-g-ZrnMfPL-yl0TtgplMPUw==
+    resourcePath=/data/app/~~fKWrThrwLCNwt7_J7tzhdQ==/com.microsoft.bing-g-ZrnMfPL-yl0TtgplMPUw==
+    legacyNativeLibraryDir=/data/app/~~fKWrThrwLCNwt7_J7tzhdQ==/com.microsoft.bing-g-ZrnMfPL-yl0TtgplMPUw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=400729302 minSdk=24 targetSdk=31
+    minExtensionVersions=[]
+    versionName=23.0.400729302
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.microsoft.emmx, com.microsoft.sapphire.bing.daily, com.microsoft.sapphire.bing.dogfood, com.microsoft.bingintl, com.microsoft.bing, com.microsoft.sapphire.news.daily, com.microsoft.msn.news, com.microsoft.start.cn, com.microsoft.start.cn.daily, com.microsoft.amp.apps.bingnews, com.microsoft.sapphire.daily, com.microsoft.sapphire.dogfood, com.microsoft.sapphire, com.microsoft.sapphire.test, com.microsoft.sapphire.test.appium.espresso, com.tencent.mm, com.azure.authenticator, com.microsoft.identity.testuserapp, com.microsoft.windowsintune.companyportal]
+    queriesIntents=[Intent { act=android.intent.action.SEND }, Intent { act=android.intent.action.SEND cat=[android.intent.category.DEFAULT] dat=content://*/... typ=text/plain }, Intent { act=android.intent.action.VIEW }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-07-29 21:18:59
+    lastUpdateTime=2025-07-29 21:19:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{6155da8 version:2, signatures:[9192125c], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.webkit.PermissionRequest
+      android.permission.MICROPHONE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.HIGH_SAMPLING_RATE_SENSORS
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.SET_WALLPAPER
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.INSTALL_SHORTCUT
+      android.permission.RECORD_AUDIO
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.HIGH_SAMPLING_RATE_SENSORS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=117219 deDataInode=117085 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.microsoft.bing
+      firstInstallTime=2025-07-29 21:19:00
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.miui.notes:
+      com.microsoft.bing
+    com.microsoft.office.outlook:
+      com.microsoft.bing
+    com.microsoft.bing:
+      com.microsoft.emmx
+  queries via component:
+    [com.qualcomm.qti.xrvd.service,com.xiaomi.barrage,com.miui.wmsvc,com.android.settings,com.miui.uireporter,com.miui.touchassistant,com.android.inputdevices,com.miui.bugreport,com.xiaomi.mi_connect_service,com.bsp.catchlog,com.xiaomi.digitalkey,com.android.keychain,com.miui.qr,vendor.qti.qesdk.sysservice,miui.systemui.plugin,android,com.miui.powerkeeper,com.xiaomi.aiasst.vision,com.miui.misightservice,com.miui.contentcatcher,com.miui.daemon,com.android.provision,com.miui.aod,com.xiaomi.location.fused,com.xiaomi.mtb,com.android.localtransport,com.android.providers.settings,com.miui.cit,com.xiaomi.otrpbroker,com.android.location.fused,com.xiaomi.misettings,com.xiaomi.trustservice,com.xiaomi.touchservice,com.miui.securitycore,com.miui.audiomonitor,com.qti.snapdragon.qdcm_ff,com.android.DeviceAsWebcam,com.xiaomi.mirror,com.android.server.telecom,com.xiaomi.joyose,com.xiaomi.aon,com.qualcomm.qti.services.systemhelper,com.android.systemui,com.xiaomi.aiasst.service,com.wapi.wapicertmanage,com.xiaomi.gnss.polaris,com.miui.notification,com.miui.thirdappassistant,com.miui.securitycenter,com.android.dynsystem]:
+      com.microsoft.bing
+    [com.android.nfc,com.miui.tsmclient]:
+      com.microsoft.bing
+    com.android.wallpaperbackup:
+      com.microsoft.bing
+    com.android.vending:
+      com.microsoft.bing
+    com.xiaomi.aicr:
+      com.microsoft.bing
+    [com.google.android.gms,com.google.android.gsf]:
+      com.microsoft.bing
+    com.android.contacts:
+      com.microsoft.bing
+    com.xiaomi.gamecenter.sdk.service:
+      com.microsoft.bing
+    com.android.settings.intelligence:
+      com.microsoft.bing
+    com.miui.nextpay:
+      com.microsoft.bing
+    com.xiaomi.mis:
+      com.microsoft.bing
+    com.miui.hybrid:
+      com.microsoft.bing
+    com.xiaomi.market:
+      com.microsoft.bing
+    com.miui.systemAdSolution:
+      com.microsoft.bing
+    com.xiaomi.account:
+      com.microsoft.bing
+    com.miui.greenguard:
+      com.microsoft.bing
+    com.xiaomi.payment:
+      com.microsoft.bing
+    com.google.android.accessibility.switchaccess:
+      com.microsoft.bing
+    com.xiaomi.xmsf:
+      com.microsoft.bing
+    com.android.systemui.accessibility.accessibilitymenu:
+      com.microsoft.bing
+    com.wuba.zhuanzhuan:
+      com.microsoft.bing
+    com.android.providers.downloads.ui:
+      com.microsoft.bing
+    com.mfashiongallery.emag:
+      com.microsoft.bing
+    com.android.calendar:
+      com.microsoft.bing
+    com.android.email:
+      com.microsoft.bing
+    com.miui.gallery:
+      com.microsoft.bing
+    com.miui.virtualsim:
+      com.microsoft.bing
+    com.getsurfboard:
+      com.microsoft.bing
+    com.skysoft.kkbox.android:
+      com.microsoft.bing
+    com.xingin.xhs:
+      com.microsoft.bing
+    com.duokan.reader:
+      com.microsoft.bing
+    com.instagram.android:
+      com.microsoft.bing
+    com.google.android.gm:
+      com.microsoft.bing
+    com.anydo:
+      com.microsoft.bing
+    com.microsoft.todos:
+      com.microsoft.bing
+    com.miui.video:
+      com.microsoft.bing
+    com.todoist:
+      com.microsoft.bing
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.microsoft.bing
+    com.google.android.apps.tasks:
+      com.microsoft.bing
+    com.alibaba.aliexpresshd:
+      com.microsoft.bing
+    com.einnovation.temu:
+      com.microsoft.bing
+    com.microsoft.emmx:
+      com.microsoft.bing
+    com.google.android.apps.magazines:
+      com.microsoft.bing
+    com.cnn.mobile.android.phone:
+      com.microsoft.bing
+    com.spotify.music:
+      com.microsoft.bing
+    com.google.android.apps.youtube.music:
+      com.microsoft.bing
+    com.musicworx:
+      com.microsoft.bing
+    ru.mail.mailapp:
+      com.microsoft.bing
+    com.ss.android.ugc.aweme:
+      com.microsoft.bing
+    com.microsoft.office.outlook:
+      com.microsoft.bing
+    com.ss.android.article.news:
+      com.microsoft.bing
+    com.jijia.bqwnl:
+      com.microsoft.bing
+    com.quark.browser:
+      com.microsoft.bing
+    com.baidu.BaiduMap:
+      com.microsoft.bing
+    com.UCMobile:
+      com.microsoft.bing
+    com.autonavi.minimap:
+      com.microsoft.bing
+    com.dragon.read:
+      com.microsoft.bing
+    com.jijia.jjweather:
+      com.microsoft.bing
+    com.zhuantech.sijiweather:
+      com.microsoft.bing
+    com.suxing.sustream:
+      com.microsoft.bing
+    com.yahoo.mobile.client.android.mail:
+      com.microsoft.bing
+    com.microsoft.bing:
+      [com.xiaomi.bluetooth,com.android.bluetooth]
+      com.android.contacts
+      com.xiaomi.gamecenter.sdk.service
+      com.android.mms
+      com.unionpay.tsmservice.mi
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+      com.wuba.zhuanzhuan
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.miui.virtualsim
+      com.android.chrome
+      com.xingin.xhs
+      com.instagram.android
+      com.google.android.gm
+      com.anydo
+      com.microsoft.todos
+      com.miui.video
+      com.todoist
+      com.google.android.apps.tasks
+      com.alibaba.aliexpresshd
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.ss.android.ugc.aweme
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.jijia.bqwnl
+      com.quark.browser
+      com.kuaishou.nebula
+      com.baidu.BaiduMap
+      com.UCMobile
+      com.autonavi.minimap
+      com.baidu.searchbox.lite
+      com.dragon.read
+      com.jijia.jjweather
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.microsoft.bing]
+    path: /data/app/~~fKWrThrwLCNwt7_J7tzhdQ==/com.microsoft.bing-g-ZrnMfPL-yl0TtgplMPUw==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.microsoft.bing]
+    (No recorded stats)

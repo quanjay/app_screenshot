@@ -1,0 +1,571 @@
+Activity Resolver Table:
+  Schemes:
+      monkey:
+        8f7b964 cool.monkey.android/.activity.WelcomeActivity filter 23ab93
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "monkey"
+      https:
+        8f7b964 cool.monkey.android/.activity.WelcomeActivity filter 454882
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "monkey.onelink.me": -1
+          Path: "PatternMatcher{PREFIX: /ytsI}"
+          AutoVerify=true
+      fbconnect:
+        42907d0 cool.monkey.android/com.facebook.CustomTabActivity filter b9e3c9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.cool.monkey.android": -1
+      genericidp:
+        9036ace cool.monkey.android/com.google.firebase.auth.internal.GenericIdpActivity filter a536def
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        6ded0fc cool.monkey.android/com.google.firebase.auth.internal.RecaptchaActivity filter f73f385
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8f7b964 cool.monkey.android/.activity.WelcomeActivity filter 34e97cd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        3b60500 cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 8065139
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        e64d632 cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 6de9f83
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        f73b9c4 cool.monkey.android/androidx.profileinstaller.ProfileInstallReceiver filter 4f66f73
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        66e05a6 cool.monkey.android/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter 6f52be7
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        286237e cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 361b0df
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        ff6712c cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 671c7f5
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        2c600e8 cool.monkey.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter e054301
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        286237e cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 361b0df
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        f73b9c4 cool.monkey.android/androidx.profileinstaller.ProfileInstallReceiver filter 87800ad
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        56e4394 cool.monkey.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 1020e3d
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        3b60500 cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 8065139
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        66f65da cool.monkey.android/.service.TimeChangeReceiver filter f12fa0b
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+        5dcf98a cool.monkey.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter dda7bfb
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        66f65da cool.monkey.android/.service.TimeChangeReceiver filter f12fa0b
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+        5dcf98a cool.monkey.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter dda7bfb
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        f73b9c4 cool.monkey.android/androidx.profileinstaller.ProfileInstallReceiver filter e1b2fe2
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        f73b9c4 cool.monkey.android/androidx.profileinstaller.ProfileInstallReceiver filter 8d4ae30
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        5dcf98a cool.monkey.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter dda7bfb
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        e64d632 cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 6de9f83
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        f192456 cool.monkey.android/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 74adcd7
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        6ef7418 cool.monkey.android/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter be3ee71
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      cool.monkey.android.messenger:
+        f3e59eb cool.monkey.android/com.blankj.utilcode.util.MessengerUtils$ServerService filter 3b41348
+          Action: "cool.monkey.android.messenger"
+      zendesk.messaging.android.push.OPEN_NOTIFICATION:
+        2be8fcf cool.monkey.android/zendesk.messaging.android.push.internal.ShowConversationActionService filter 40e7d5c
+          Action: "zendesk.messaging.android.push.OPEN_NOTIFICATION"
+      com.google.firebase.MESSAGING_EVENT:
+        8c0faa9 cool.monkey.android/.service.AppFirebaseMessagingService filter e40682e
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        5859865 cool.monkey.android/com.google.firebase.messaging.FirebaseMessagingService filter 16ed93a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  cool.monkey.android:
+    ID: fae99b0c-86cd-4bdf-b4bb-c780b9d16f0d
+    Signatures: [5F:6A:02:4C:EE:B1:E7:A8:02:74:F7:0D:B1:5D:C0:B8:58:8D:1B:CF:12:78:68:8B:20:B3:A4:E4:9B:29:B1:46]
+    Domain verification state:
+      monkey.onelink.me: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          monkey.onelink.me
+
+Permissions:
+  Permission [cool.monkey.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (b93dd8b):
+    sourcePackage=cool.monkey.android
+    uid=10397 gids=[] type=0 prot=signature
+    perm=PermissionInfo{ff7de68 cool.monkey.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  cool.monkey.android/com.squareup.picasso.PicassoProvider:
+    Provider{ebd9281 cool.monkey.android/com.squareup.picasso.PicassoProvider}
+  cool.monkey.android/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{a20df26 cool.monkey.android/com.google.firebase.provider.FirebaseInitProvider}
+  cool.monkey.android/com.facebook.internal.FacebookInitProvider:
+    Provider{160c767 cool.monkey.android/com.facebook.internal.FacebookInitProvider}
+  cool.monkey.android/com.applovin.sdk.AppLovinInitProvider:
+    Provider{3a07914 cool.monkey.android/com.applovin.sdk.AppLovinInitProvider}
+  cool.monkey.android/.util.MyProvider:
+    Provider{9afd5bd cool.monkey.android/.util.MyProvider}
+  cool.monkey.android/androidx.startup.InitializationProvider:
+    Provider{2bc7b2 cool.monkey.android/androidx.startup.InitializationProvider}
+  cool.monkey.android/com.vungle.ads.internal.util.VungleProvider:
+    Provider{f287303 cool.monkey.android/com.vungle.ads.internal.util.VungleProvider}
+  cool.monkey.android/com.ironsource.lifecycle.IronsourceLifecycleProvider:
+    Provider{e961280 cool.monkey.android/com.ironsource.lifecycle.IronsourceLifecycleProvider}
+  cool.monkey.android/com.blankj.utilcode.util.UtilsFileProvider:
+    Provider{e8910b9 cool.monkey.android/com.blankj.utilcode.util.UtilsFileProvider}
+  cool.monkey.android/com.tramini.plugin.api.TraminiContentProvider:
+    Provider{b8aacfe cool.monkey.android/com.tramini.plugin.api.TraminiContentProvider}
+  cool.monkey.android/me.jessyan.autosize.InitProvider:
+    Provider{5353c5f cool.monkey.android/me.jessyan.autosize.InitProvider}
+  cool.monkey.android/androidx.core.content.FileProvider:
+    Provider{89d6ac cool.monkey.android/androidx.core.content.FileProvider}
+  cool.monkey.android/com.facebook.FacebookContentProvider:
+    Provider{f20ff75 cool.monkey.android/com.facebook.FacebookContentProvider}
+  cool.monkey.android/com.snapchat.kit.sdk.SnapKitInitProvider:
+    Provider{8609b0a cool.monkey.android/com.snapchat.kit.sdk.SnapKitInitProvider}
+  cool.monkey.android/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{41b3f7b cool.monkey.android/com.google.mlkit.common.internal.MlKitInitProvider}
+
+ContentProvider Authorities:
+  [cool.monkey.android.androidx-startup]:
+    Provider{2bc7b2 cool.monkey.android/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{113b198 cool.monkey.android}
+  [cool.monkey.android.firebaseinitprovider]:
+    Provider{a20df26 cool.monkey.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{90f1df1 cool.monkey.android}
+  [cool.monkey.android.zendesk.messaging.fileprovider]:
+    Provider{89d6ac cool.monkey.android/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{ff55dd6 cool.monkey.android}
+  [cool.monkey.android.IronsourceLifecycleProvider]:
+    Provider{e961280 cool.monkey.android/com.ironsource.lifecycle.IronsourceLifecycleProvider}
+      applicationInfo=ApplicationInfo{7945857 cool.monkey.android}
+  [cool.monkey.android.FacebookInitProvider]:
+    Provider{160c767 cool.monkey.android/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{75e4f44 cool.monkey.android}
+  [cool.monkey.android.applovininitprovider]:
+    Provider{3a07914 cool.monkey.android/com.applovin.sdk.AppLovinInitProvider}
+      applicationInfo=ApplicationInfo{1e6a82d cool.monkey.android}
+  [cool.monkey.android.SnapKitInitProvider]:
+    Provider{8609b0a cool.monkey.android/com.snapchat.kit.sdk.SnapKitInitProvider}
+      applicationInfo=ApplicationInfo{6418162 cool.monkey.android}
+  [cool.monkey.android.initprovider]:
+    Provider{b8aacfe cool.monkey.android/com.tramini.plugin.api.TraminiContentProvider}
+      applicationInfo=ApplicationInfo{31c22f3 cool.monkey.android}
+  [cool.monkey.android.utilcode.provider]:
+    Provider{e8910b9 cool.monkey.android/com.blankj.utilcode.util.UtilsFileProvider}
+      applicationInfo=ApplicationInfo{931bb0 cool.monkey.android}
+  [cool.monkey.android.autosize-init-provider]:
+    Provider{5353c5f cool.monkey.android/me.jessyan.autosize.InitProvider}
+      applicationInfo=ApplicationInfo{b329a29 cool.monkey.android}
+  [cool.monkey.android.com.squareup.picasso]:
+    Provider{ebd9281 cool.monkey.android/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{43a51ae cool.monkey.android}
+  [cool.monkey.android.fileprovider]:
+    Provider{9afd5bd cool.monkey.android/.util.MyProvider}
+      applicationInfo=ApplicationInfo{c4bfb4f cool.monkey.android}
+  [cool.monkey.android.vungle-provider]:
+    Provider{f287303 cool.monkey.android/com.vungle.ads.internal.util.VungleProvider}
+      applicationInfo=ApplicationInfo{10642dc cool.monkey.android}
+  [com.facebook.app.FacebookContentProvider1731011946972323]:
+    Provider{f20ff75 cool.monkey.android/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{a31afe5 cool.monkey.android}
+  [cool.monkey.android.mlkitinitprovider]:
+    Provider{41b3f7b cool.monkey.android/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{adddaba cool.monkey.android}
+
+Key Set Manager:
+  [cool.monkey.android]
+      Signing KeySets: 243
+
+Packages:
+  Package [cool.monkey.android] (bdddec3):
+    appId=10397
+    pkg=Package{ef6fd6b cool.monkey.android}
+    codePath=/data/app/~~QbvK3NWNRUDX0ohRqFdd2Q==/cool.monkey.android-YjTy-knp4pX-_8G_wsUGIQ==
+    resourcePath=/data/app/~~QbvK3NWNRUDX0ohRqFdd2Q==/cool.monkey.android-YjTy-knp4pX-_8G_wsUGIQ==
+    legacyNativeLibraryDir=/data/app/~~QbvK3NWNRUDX0ohRqFdd2Q==/cool.monkey.android-YjTy-knp4pX-_8G_wsUGIQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2025071721 minSdk=21 targetSdk=34
+    minExtensionVersions=[]
+    versionName=7.48.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.snapchat.android, com.facebook.katana, com.instagram.android, com.snapchat.android, com.facebook.katana, com.facebook.orca, com.instagram.android, com.whatsapp, com.twitter.android]
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.GET_CONTENT dat=content://*/... typ=*/* }, Intent { act=com.android.vending.billing.InAppBillingService.BIND }, Intent { act=com.applovin.am.intent.action.APPHUB_SERVICE }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=androidx.browser.customtabs.CustomTabsService }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=http:/... }, Intent { act=android.intent.action.VIEW dat=market:/... }, Intent { act=com.appsflyer.referrer.INSTALL_PROVIDER }, Intent { act=com.digitalturbine.ignite.cl.IgniteRemoteService }, Intent { act=android.intent.action.MAIN }, Intent { act=android.intent.action.VIEW }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      android.ext.adservices
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-06 21:40:50
+    lastUpdateTime=2025-08-06 21:40:50
+    installerPackageName=com.android.vending
+    installerPackageUid=10124
+    initiatingPackageName=com.android.vending
+    originatingPackageName=null
+    updateOwnerPackageName=com.android.vending
+    packageSource=0
+    appMetadataFilePath=/data/app/~~QbvK3NWNRUDX0ohRqFdd2Q==/cool.monkey.android-YjTy-knp4pX-_8G_wsUGIQ==/app.metadata
+    appMetadataSource=2
+    signatures=PackageSignatures{c22b0c8 version:3, signatures:[bde6bd5e], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      cool.monkey.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      cool.monkey.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.sec.android.provider.badge.permission.READ
+      android.permission.FOREGROUND_SERVICE
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_ADSERVICES_AD_ID
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.READ_PROFILE
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_APP_BADGE
+      android.permission.READ_MEDIA_IMAGES
+      com.majeur.launcher.permission.UPDATE_BADGE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      com.oppo.launcher.permission.READ_SETTINGS
+      android.permission.CAMERA
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+      android.permission.READ_MEDIA_VIDEO
+      com.sec.android.provider.badge.permission.WRITE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      android.permission.ACCESS_WIFI_STATE
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      android.permission.RECORD_AUDIO
+      android.permission.RECORD_VIDEO
+      com.google.android.gms.permission.AD_ID
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      cool.monkey.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.ACCESS_ADSERVICES_AD_ID: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=140871 deDataInode=183128 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=4
+      dataDir=/data/user/0/cool.monkey.android
+      firstInstallTime=2025-08-06 21:40:50
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      lastDisabledCaller: com.android.vending
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    cool.monkey.android:
+      com.instagram.android
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      cool.monkey.android
+    com.xiaomi.aicr:
+      cool.monkey.android
+    com.android.contacts:
+      cool.monkey.android
+    com.xiaomi.gamecenter.sdk.service:
+      cool.monkey.android
+    com.android.settings.intelligence:
+      cool.monkey.android
+    com.miui.carlink:
+      cool.monkey.android
+    com.miui.nextpay:
+      cool.monkey.android
+    com.xiaomi.mis:
+      cool.monkey.android
+    com.miui.hybrid:
+      cool.monkey.android
+    com.xiaomi.market:
+      cool.monkey.android
+    com.miui.systemAdSolution:
+      cool.monkey.android
+    com.xiaomi.account:
+      cool.monkey.android
+    com.miui.greenguard:
+      cool.monkey.android
+    com.xiaomi.payment:
+      cool.monkey.android
+    com.xiaomi.xmsf:
+      cool.monkey.android
+    com.android.providers.downloads.ui:
+      cool.monkey.android
+    com.mfashiongallery.emag:
+      cool.monkey.android
+    com.android.calendar:
+      cool.monkey.android
+    com.android.email:
+      cool.monkey.android
+    com.miui.gallery:
+      cool.monkey.android
+    com.miui.virtualsim:
+      cool.monkey.android
+    com.getsurfboard:
+      cool.monkey.android
+    com.xingin.xhs:
+      cool.monkey.android
+    com.duokan.reader:
+      cool.monkey.android
+    com.instagram.android:
+      cool.monkey.android
+    com.miui.video:
+      cool.monkey.android
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      cool.monkey.android
+    com.ss.android.ugc.aweme:
+      cool.monkey.android
+    com.microsoft.office.outlook:
+      cool.monkey.android
+    com.ss.android.article.news:
+      cool.monkey.android
+    com.jijia.bqwnl:
+      cool.monkey.android
+    com.quark.browser:
+      cool.monkey.android
+    com.baidu.BaiduMap:
+      cool.monkey.android
+    com.UCMobile:
+      cool.monkey.android
+    com.autonavi.minimap:
+      cool.monkey.android
+    com.dragon.read:
+      cool.monkey.android
+    com.jijia.jjweather:
+      cool.monkey.android
+    com.zhuantech.sijiweather:
+      cool.monkey.android
+    com.suxing.sustream:
+      cool.monkey.android
+    com.yahoo.mobile.client.android.mail:
+      cool.monkey.android
+    cool.monkey.android:
+      com.google.android.documentsui
+      com.android.imsserviceentitlement
+      com.android.contacts
+      com.xiaomi.gamecenter.sdk.service
+      com.android.mms
+      com.android.music
+      douzifly.list
+      com.sohu.inputmethod.sogou.xiaomi
+      com.google.android.accessibility.switchaccess
+      com.unionpay.tsmservice.mi
+      com.android.healthconnect.controller
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+      com.android.cellbroadcastreceiver.module
+      com.wuba.zhuanzhuan
+      com.android.providers.downloads.ui
+      com.mfashiongallery.emag
+      com.miui.calculator
+      com.android.calendar
+      com.miui.cleanmaster
+      com.miui.compass
+      com.android.email
+      org.secuso.privacyfriendlytodolist
+      com.miui.gallery
+      com.miui.securitymanager
+      com.miui.screenrecorder
+      io.appium.settings
+      com.android.soundrecorder
+      com.miui.virtualsim
+      com.miui.weather2
+      com.getsurfboard
+      com.xiaomi.scanner
+      com.android.chrome
+      com.skysoft.kkbox.android
+      com.xingin.xhs
+      com.duokan.reader
+      com.xiaomi.gamecenter
+      com.instagram.android
+      com.google.android.gm
+      com.ebay.mobile
+      com.anydo
+      com.microsoft.todos
+      com.miui.video
+      com.todoist
+      todolist.scheduleplanner.dailyplanner.todo.reminders
+      com.google.android.apps.tasks
+      cn.amazon.mShop.android
+      com.alibaba.aliexpresshd
+      com.einnovation.temu
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.google.android.apps.magazines
+      com.cnn.mobile.android.phone
+      com.spotify.music
+      com.google.android.apps.youtube.music
+      com.musicworx
+      ru.mail.mailapp
+      com.ss.android.ugc.aweme
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      tv.danmaku.bili
+      com.jijia.bqwnl
+      com.quark.browser
+      com.kuaishou.nebula
+      cn.ninegame.gamemanager
+      com.baidu.BaiduMap
+      com.UCMobile
+      com.autonavi.minimap
+      com.baidu.searchbox.lite
+      com.dragon.read
+      com.jijia.jjweather
+      com.zhuantech.sijiweather
+      com.suxing.sustream
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+      io.github.ylimit.droidbotapp
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [cool.monkey.android]
+    path: /data/app/~~QbvK3NWNRUDX0ohRqFdd2Q==/cool.monkey.android-YjTy-knp4pX-_8G_wsUGIQ==/base.apk
+      arm64: [status=speed-profile] [reason=install-dm] [primary-abi]
+        [location is /data/app/~~QbvK3NWNRUDX0ohRqFdd2Q==/cool.monkey.android-YjTy-knp4pX-_8G_wsUGIQ==/oat/arm64/base.odex]
+    base APK odex file size: base.art: 2109Kb base.odex: 14976Kb base.vdex: 53781Kb 
+
+Compiler stats:
+  [cool.monkey.android]
+    (No recorded stats)

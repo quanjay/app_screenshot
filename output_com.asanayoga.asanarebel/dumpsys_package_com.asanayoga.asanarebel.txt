@@ -1,0 +1,383 @@
+Activity Resolver Table:
+  Schemes:
+      tl-22643142:
+        75ce7ef com.asanayoga.asanarebel/.splashscreen.SplashScreenActivity filter 5baa7da
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tl-22643142"
+      fb1033587110026033:
+        873e5e7 com.asanayoga.asanarebel/com.facebook.CustomTabActivity filter 10f7594
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb1033587110026033"
+      asanarebel:
+        75ce7ef com.asanayoga.asanarebel/.splashscreen.SplashScreenActivity filter fbafd85
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "asanarebel"
+      http:
+        cb2ed01 com.asanayoga.asanarebel/.ui.onboarding.login.LoginActivity filter c2b67a6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "api.asanarebel.com": -1
+      https:
+        c3a140b com.asanayoga.asanarebel/.ui.home.today.TodayTabActivity filter 25812e8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "asanarebel.page.link/": -1
+      fbconnect:
+        873e5e7 com.asanayoga.asanarebel/com.facebook.CustomTabActivity filter de0583d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.asanayoga.asanarebel": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        75ce7ef com.asanayoga.asanarebel/.splashscreen.SplashScreenActivity filter 313c2fc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        6c56bc4 com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 67ccaad
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        7f30656 com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter aec16d7
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        77cbb8a com.asanayoga.asanarebel/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter 7fc15fb
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        7b131e2 com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter a714973
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        88f8030 com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 34864a9
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        44be32c com.asanayoga.asanarebel/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 38f51f5
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        7b131e2 com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter a714973
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        1b72548 com.asanayoga.asanarebel/com.adjust.sdk.AdjustReferrerReceiver filter 606ffe1
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        d385700 com.asanayoga.asanarebel/com.appboy.AppboyFcmReceiver filter 57f3b39
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.asanayoga.asanarebel"
+        2a0618 com.asanayoga.asanarebel/com.google.firebase.iid.FirebaseInstanceIdReceiver filter e501871
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      zendesk.support:
+        24dc57e com.asanayoga.asanarebel/zendesk.support.DeepLinkingBroadcastReceiver filter abdaadf
+          Action: "zendesk.support"
+      android.intent.action.BATTERY_LOW:
+        6c56bc4 com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 67ccaad
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        8348a2e com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.RescheduleReceiver filter e0d09cf
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        8348a2e com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.RescheduleReceiver filter e0d09cf
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        8348a2e com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.RescheduleReceiver filter e0d09cf
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        7f30656 com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter aec16d7
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        3831b3a com.asanayoga.asanarebel/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 9fa73eb
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        9a46f5c com.asanayoga.asanarebel/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 219a265
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      android.intent.action.MEDIA_BUTTON:
+        f965832 com.asanayoga.asanarebel/androidx.media.session.MediaButtonReceiver filter a8ef983
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.android.exoplayer.downloadService.action.RESTART:
+        ebd4df4 com.asanayoga.asanarebel/.offlineplayback.DownloadWorkoutService filter 312b91d
+          Action: "com.google.android.exoplayer.downloadService.action.RESTART"
+          Category: "android.intent.category.DEFAULT"
+      com.google.firebase.MESSAGING_EVENT:
+        ccdd792 com.asanayoga.asanarebel/com.google.firebase.messaging.FirebaseMessagingService filter 83f7563
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.media.browse.MediaBrowserService:
+        bf7b106 com.asanayoga.asanarebel/.musicplayer.MusicService filter 10a63c7
+          Action: "android.media.browse.MediaBrowserService"
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          api.asanarebel.com
+
+Registered ContentProviders:
+  com.asanayoga.asanarebel/androidx.core.content.FileProvider:
+    Provider{79467b6 com.asanayoga.asanarebel/androidx.core.content.FileProvider}
+  com.asanayoga.asanarebel/zendesk.support.SupportSdkStartupProvider:
+    Provider{e8dccb7 com.asanayoga.asanarebel/zendesk.support.SupportSdkStartupProvider}
+  com.asanayoga.asanarebel/com.facebook.FacebookContentProvider:
+    Provider{34a1c24 com.asanayoga.asanarebel/com.facebook.FacebookContentProvider}
+  com.asanayoga.asanarebel/zendesk.support.guide.GuideSdkStartupProvider:
+    Provider{2f9238d com.asanayoga.asanarebel/zendesk.support.guide.GuideSdkStartupProvider}
+  com.asanayoga.asanarebel/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{8f74942 com.asanayoga.asanarebel/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.asanayoga.asanarebel/.core.DummyFileProvider:
+    Provider{4a87d53 com.asanayoga.asanarebel/.core.DummyFileProvider}
+  com.asanayoga.asanarebel/com.squareup.picasso.PicassoProvider:
+    Provider{31ed690 com.asanayoga.asanarebel/com.squareup.picasso.PicassoProvider}
+  com.asanayoga.asanarebel/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{ce16b89 com.asanayoga.asanarebel/com.google.firebase.provider.FirebaseInitProvider}
+  com.asanayoga.asanarebel/com.facebook.internal.FacebookInitProvider:
+    Provider{fb4b78e com.asanayoga.asanarebel/com.facebook.internal.FacebookInitProvider}
+  com.asanayoga.asanarebel/zendesk.belvedere.BelvedereFileProvider:
+    Provider{5b39baf com.asanayoga.asanarebel/zendesk.belvedere.BelvedereFileProvider}
+
+ContentProvider Authorities:
+  [com.asanayoga.asanarebel.FacebookInitProvider]:
+    Provider{fb4b78e com.asanayoga.asanarebel/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{f42cbbc com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel.firebaseperfprovider]:
+    Provider{8f74942 com.asanayoga.asanarebel/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{8ec3745 com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel]:
+    Provider{4a87d53 com.asanayoga.asanarebel/.core.DummyFileProvider}
+      applicationInfo=ApplicationInfo{9c8be9a com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel.com.squareup.picasso]:
+    Provider{31ed690 com.asanayoga.asanarebel/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{9a843cb com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel.zendesk.support.SupportSdkStartupProvider]:
+    Provider{e8dccb7 com.asanayoga.asanarebel/zendesk.support.SupportSdkStartupProvider}
+      applicationInfo=ApplicationInfo{b4ee7a8 com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel.zendesk.support.GuideSdkStartupProvider]:
+    Provider{2f9238d com.asanayoga.asanarebel/zendesk.support.guide.GuideSdkStartupProvider}
+      applicationInfo=ApplicationInfo{f1e02c1 com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel.belvedere2.attachments]:
+    Provider{5b39baf com.asanayoga.asanarebel/zendesk.belvedere.BelvedereFileProvider}
+      applicationInfo=ApplicationInfo{6e42a66 com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel.easyphotopicker.fileprovider]:
+    Provider{79467b6 com.asanayoga.asanarebel/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{4f551a7 com.asanayoga.asanarebel}
+  [com.asanayoga.asanarebel.firebaseinitprovider]:
+    Provider{ce16b89 com.asanayoga.asanarebel/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{97ed654 com.asanayoga.asanarebel}
+  [com.facebook.app.FacebookContentProvider1033587110026033]:
+    Provider{34a1c24 com.asanayoga.asanarebel/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{94709fd com.asanayoga.asanarebel}
+
+Key Set Manager:
+  [com.asanayoga.asanarebel]
+      Signing KeySets: 128
+
+Packages:
+  Package [com.asanayoga.asanarebel] (ef886f2):
+    userId=10186
+    pkg=Package{a1b6143 com.asanayoga.asanarebel}
+    codePath=/data/app/~~R5fwCEqQ6UV2DpH-6UXKow==/com.asanayoga.asanarebel-JL76vxDj0qqDQkOcibrRpg==
+    resourcePath=/data/app/~~R5fwCEqQ6UV2DpH-6UXKow==/com.asanayoga.asanarebel-JL76vxDj0qqDQkOcibrRpg==
+    legacyNativeLibraryDir=/data/app/~~R5fwCEqQ6UV2DpH-6UXKow==/com.asanayoga.asanarebel-JL76vxDj0qqDQkOcibrRpg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=6274 minSdk=21 targetSdk=31
+    minExtensionVersions=[]
+    versionName=6.0.0.6274
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{a1b6143 com.asanayoga.asanarebel}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=http:///... }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.GET_CONTENT }, Intent { act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC] }]
+    dataDir=/data/user/0/com.asanayoga.asanarebel
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-05-18 03:31:51
+    firstInstallTime=2025-05-18 03:31:51
+    lastUpdateTime=2025-05-18 03:31:51
+    signatures=PackageSignatures{21d03c0 version:3, signatures:[9db98d0c], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.VIBRATE
+      com.android.vending.BILLING
+      com.android.vending.CHECK_LICENSE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.HIGH_SAMPLING_RATE_SENSORS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_WIFI_STATE
+      com.google.android.gms.permission.AD_ID
+      android.permission.POST_NOTIFICATIONS
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.HIGH_SAMPLING_RATE_SENSORS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147856 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.asanayoga.asanarebel
+    com.google.android.settings.intelligence:
+      com.asanayoga.asanarebel
+    com.asanayoga.asanarebel:
+      com.google.android.setupwizard
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.camera2
+      com.google.android.apps.youtube.music
+      com.android.chrome
+      com.google.android.calendar
+      com.google.android.apps.docs
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=110
+  User 0:
+    seq=0, package=com.android.bluetooth
+    seq=5, package=com.cnn.mobile.android.phone
+    seq=11, package=com.google.android.gms
+    seq=13, package=com.android.vending
+    seq=14, package=com.google.android.contactkeys
+    seq=15, package=com.google.android.safetycore
+    seq=16, package=com.google.ar.core
+    seq=17, package=com.google.android.trichromelibrary_710308738
+    seq=24, package=com.google.android.apps.wellbeing
+    seq=26, package=com.google.android.tts
+    seq=27, package=com.google.android.deskclock
+    seq=29, package=com.android.chrome
+    seq=52, package=com.google.android.googlequicksearchbox
+    seq=55, package=com.google.android.apps.docs
+    seq=66, package=com.google.android.inputmethod.latin
+    seq=70, package=com.google.android.partnersetup
+    seq=73, package=com.google.android.calendar
+    seq=74, package=com.google.android.apps.maps
+    seq=83, package=com.google.android.gm
+    seq=87, package=com.audiobooks.androidapp
+    seq=101, package=com.google.android.apps.youtube.music
+    seq=108, package=io.github.ylimit.droidbotapp
+    seq=109, package=com.asanayoga.asanarebel
+
+
+Dexopt state:
+  [com.asanayoga.asanarebel]
+    path: /data/app/~~R5fwCEqQ6UV2DpH-6UXKow==/com.asanayoga.asanarebel-JL76vxDj0qqDQkOcibrRpg==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.asanayoga.asanarebel]
+     base.apk - 4387
+
+APEX session state:
+  Session ID: 1216320661
+    State: STAGED
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 23  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:12         now           9       16971           0           0           1           3           1
+          1:12        0:12          15       32151           0           0           6          13           6
+          2:12        1:12          16       32562           0           0           1           8           2
+          3:12        2:12           0           0           0           0           0           0           0
+          4:12        3:12           0           0           0           0           0           0           0
+          5:12        4:12           0           0           0           0           0           0           0
+          6:12        5:12           0           0           0           0           0           0           0
+          7:12        6:12           0           0           0           0           0           0           0
+          8:12        7:12           0           0           0           0           0           0           0
+          9:12        8:12           0           0           0           0           0           0           0
+      01:48:13         now         648     1059840           0           5         107         421          52
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:12         now           9           0           0           0           0           0           0           0
+          1:12        0:12          13           0           1           1           0           0           0           0
+          2:12        1:12          14           2           0           0           0           0           0           0
+          3:12        2:12           0           0           0           0           0           0           0           0
+          4:12        3:12           0           0           0           0           0           0           0           0
+          5:12        4:12           0           0           0           0           0           0           0           0
+          6:12        5:12           0           0           0           0           0           0           0           0
+          7:12        6:12           0           0           0           0           0           0           0           0
+          8:12        7:12           0           0           0           0           0           0           0           0
+          9:12        8:12           0           0           0           0           0           0           0           0
+      01:48:13         now         616           8          10           9           2           2           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:12         now           0           1           0           0           0           0           2           6
+          1:12        0:12           6           0           0           1           0           1           0           7
+          2:12        1:12           1           0           0           0           1           0           2          12
+          3:12        2:12           0           0           0           0           0           0           0           0
+          4:12        3:12           0           0           0           0           0           0           0           0
+          5:12        4:12           0           0           0           0           0           0           0           0
+          6:12        5:12           0           0           0           0           0           0           0           0
+          7:12        6:12           0           0           0           0           0           0           0           0
+          8:12        7:12           0           0           0           0           0           0           0           0
+          9:12        8:12           0           0           0           0           0           0           0           0
+      01:48:13         now          78           9          19          30          13          63          51         384

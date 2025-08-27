@@ -1,0 +1,231 @@
+Activity Resolver Table:
+  Schemes:
+      fmhapp:
+        2348812 com.jardogs.fmhmobile/.library.activities.EntryPointActivity filter 4a6b9e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fmhvv"
+          Scheme: "fmhsvv"
+          Scheme: "fmhapp"
+      fmhsvv:
+        2348812 com.jardogs.fmhmobile/.library.activities.EntryPointActivity filter 4a6b9e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fmhvv"
+          Scheme: "fmhsvv"
+          Scheme: "fmhapp"
+      fmh:
+        d836a74 com.jardogs.fmhmobile/.library.activities.LoginSelectorActivity filter 51bdb9d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fmh"
+      fmhvv:
+        2348812 com.jardogs.fmhmobile/.library.activities.EntryPointActivity filter 4a6b9e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fmhvv"
+          Scheme: "fmhsvv"
+          Scheme: "fmhapp"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2348812 com.jardogs.fmhmobile/.library.activities.EntryPointActivity filter 1bf9be3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.google.android.c2dm.intent.RECEIVE:
+        adf9499 com.jardogs.fmhmobile/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 7cf135e
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        3c6133f com.jardogs.fmhmobile/.library.service.FMHNotificationListenerService filter 6ed940c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        38be155 com.jardogs.fmhmobile/com.google.firebase.messaging.FirebaseMessagingService filter df5076a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.jardogs.fmhmobile/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{f015a4b com.jardogs.fmhmobile/com.google.firebase.provider.FirebaseInitProvider}
+  com.jardogs.fmhmobile/androidx.startup.InitializationProvider:
+    Provider{e187c28 com.jardogs.fmhmobile/androidx.startup.InitializationProvider}
+  com.jardogs.fmhmobile/androidx.core.content.FileProvider:
+    Provider{5313d41 com.jardogs.fmhmobile/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.jardogs.fmhmobile.firebaseinitprovider]:
+    Provider{f015a4b com.jardogs.fmhmobile/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{7e712e6 com.jardogs.fmhmobile}
+  [com.jardogs.fmhmobile.androidx-startup]:
+    Provider{e187c28 com.jardogs.fmhmobile/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{9095027 com.jardogs.fmhmobile}
+  [com.jardogs.fmhmobile.library.fileprovider]:
+    Provider{5313d41 com.jardogs.fmhmobile/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{48d32d4 com.jardogs.fmhmobile}
+
+Key Set Manager:
+  [com.jardogs.fmhmobile]
+      Signing KeySets: 89
+
+Packages:
+  Package [com.jardogs.fmhmobile] (9936c7d):
+    userId=10175
+    pkg=Package{4817772 com.jardogs.fmhmobile}
+    codePath=/data/app/~~ttnfWZAibiiCwUa8StRjGA==/com.jardogs.fmhmobile-MtRvtGEutBjvNOj6qbtUmw==
+    resourcePath=/data/app/~~ttnfWZAibiiCwUa8StRjGA==/com.jardogs.fmhmobile-MtRvtGEutBjvNOj6qbtUmw==
+    legacyNativeLibraryDir=/data/app/~~ttnfWZAibiiCwUa8StRjGA==/com.jardogs.fmhmobile-MtRvtGEutBjvNOj6qbtUmw==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1525 minSdk=28 targetSdk=33
+    minExtensionVersions=[]
+    versionName=23.4
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{4817772 com.jardogs.fmhmobile}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.jardogs.fmhmobile
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      android.test.mock
+      android.test.runner
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.test.mock.jar
+      /system/framework/android.test.runner.jar
+    timeStamp=2025-05-08 08:23:52
+    firstInstallTime=2025-05-08 08:23:52
+    lastUpdateTime=2025-05-08 08:23:52
+    signatures=PackageSignatures{1b0c7c3 version:3, signatures:[f87efe1b], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CAMERA
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.google.android.gms.permission.AD_ID
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.FOREGROUND_SERVICE
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=139765 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.jardogs.fmhmobile
+    com.google.android.settings.intelligence:
+      com.jardogs.fmhmobile
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=23
+  User 0:
+    seq=8, package=com.google.android.gms
+    seq=14, package=com.Dominos
+    seq=16, package=com.google.android.apps.docs
+    seq=20, package=com.getmimo
+    seq=21, package=io.github.ylimit.droidbotapp
+    seq=22, package=com.jardogs.fmhmobile
+
+
+Dexopt state:
+  [com.jardogs.fmhmobile]
+    path: /data/app/~~ttnfWZAibiiCwUa8StRjGA==/com.jardogs.fmhmobile-MtRvtGEutBjvNOj6qbtUmw==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.jardogs.fmhmobile]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 5022  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:21         now          12       19418           0           0           3           4           1
+          1:21        0:21          12       41136           0           0           4           7           5
+          2:21        1:21          23       33063           0           0           3           5           0
+          3:21        2:21          17       45926           0           0           3           8           4
+          4:21        3:21          23       32294           0           0           3           3           0
+          5:21        4:21         159       74628           0           2          14          83          17
+          5:21         now         246      246465           0           2          30         112          17
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:21         now          12           0           0           0           0           0           0           0
+          1:21        0:21          11           0           1           0           0           0           0           0
+          2:21        1:21          23           0           0           0           0           0           0           0
+          3:21        2:21          16           0           1           0           0           0           0           0
+          4:21        3:21          23           0           0           0           0           0           0           0
+          5:21        4:21         151           2           3           1           2           0           0           0
+          5:21         now         236           2           5           1           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:21         now           2           0           1           0           1           0           1           7
+          1:21        0:21           4           0           0           2           0           1           0           5
+          2:21        1:21           3           0           0           0           2           0           4          14
+          3:21        2:21           3           0           0           1           1           2           2           8
+          4:21        3:21           2           0           1           0           1           4           2          13
+          5:21        4:21           6           4           3           6           7          28          16          88
+          5:21         now          20           4           5           9          12          35          25         135

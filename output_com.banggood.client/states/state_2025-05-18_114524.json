@@ -1,0 +1,2322 @@
+{
+  "tag": "2025-05-18_114524",
+  "state_str": "d2d7f701859feb9503b36b01b9714860",
+  "state_str_content_free": "1c7d7af9c5380876edf47e780c88420c",
+  "foreground_activity": "com.banggood.client/.module.login.SignInActivity",
+  "activity_stack": [
+    "com.banggood.client/.module.login.SignInActivity",
+    "com.banggood.client/.module.home.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.android.vending/com.google.android.finsky.setup.dse.impl.DseService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.setupwizard/.notification.SetupNotificationService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.analytics.service.AnalyticsService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.google.android.gms/.findmydevice.spot.bleadvertising.OfflineBeaconService_Persistent",
+    "com.google.android.gms/.tron.CollectionService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.gms/.geotimezone.GeoTimeZoneService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.gms/.wallet.service.PaymentService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.google.android.googlequicksearchbox/androidx.work.impl.background.gcm.WorkManagerGcmService",
+    "com.android.vending/com.google.android.finsky.externalreferrer.GetInstallReferrerService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.googlequicksearchbox/com.google.android.libraries.notifications.platform.entrypoints.firebase.FirebaseMessagingServiceImpl",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService",
+    "com.google.android.setupwizard/.compat.SetupCompatService",
+    "com.android.bluetooth/.btservice.AdapterService"
+  ],
+  "width": 1080,
+  "height": 2400,
+  "views": [
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        55,
+        56
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "108e175d1c15d315a538788db654f1dd"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "cb11d7386dbbfff7bd8e8c2cd99c9c9c"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ed0ee7ee59918643c3a7ca34c8d1a2ae"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "01ff57dc767dd16d79b30e1e21ec3832"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "d3c54505f5e9ea85e82fab727d8c7770"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.banggood.client:id/fragment_container[text]None[enabled,,]",
+      "view_str": "6f93e2aae9bf98d5a3dd708969ea608d"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.ScrollView[resource_id]None[text]None[enabled,,]",
+      "view_str": "cbf302da003bd8ea66adbe22366ca312"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        47,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1522
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*1459",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b1bdda74c44df5f7389bcb4ff5982dc3"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9,
+        10,
+        11,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1078
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/item_signin_header",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1080*1015",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/item_signin_header[text]None[enabled,,]",
+      "view_str": "f6241cad155a7c100cc2373d784520eb"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          16,
+          63
+        ],
+        [
+          121,
+          168
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/iv_close",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "105*105",
+      "signature": "[class]android.widget.ImageView[resource_id]com.banggood.client:id/iv_close[text]None[enabled,,]",
+      "view_str": "89c4fab0fb8fd5ac92c1534ab8cbd868"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          401,
+          168
+        ],
+        [
+          679,
+          231
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "278*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "4234769d86d563dfe9b5680c96f69bc3"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          302
+        ],
+        [
+          1080,
+          428
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/tabLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.HorizontalScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 11,
+      "size": "1080*126",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.banggood.client:id/tabLayout[text]None[enabled,,]",
+      "view_str": "6b63b03693eee8f1eec66f8c4b80f952"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          302
+        ],
+        [
+          1080,
+          428
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1080*126",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "83420d0520cf4a0f4ab0a7b8ec1fb59f"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Sign In",
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          302
+        ],
+        [
+          540,
+          428
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "540*126",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "01028901b8e095f0b5321d5d8772478b",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [
+        "selected"
+      ],
+      "local_id": "0",
+      "desc": "<p text='Sign In' bound_box=0,302,540,428></p>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          191,
+          336
+        ],
+        [
+          348,
+          393
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "SIGN IN",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "157*57",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]SIGN IN[enabled,,selected]",
+      "view_str": "e0ea6046341b7cbfc20ed3581303f679",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [
+        "selected"
+      ],
+      "local_id": "1",
+      "desc": "<p bound_box=191,336,348,393>SIGN IN</p>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Register",
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          302
+        ],
+        [
+          1080,
+          428
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 15,
+      "size": "540*126",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f6a27f05db0b9afb73650fdf25434679",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<button text='Register' bound_box=540,302,1080,428></button>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          714,
+          336
+        ],
+        [
+          905,
+          393
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "REGISTER",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "191*57",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]REGISTER[enabled,,]",
+      "view_str": "5c52fd31781841c94dd2d9da4cd11c6d",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<button bound_box=714,336,905,393>REGISTER</button>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          428
+        ],
+        [
+          1080,
+          1078
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/viewPage",
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 17,
+      "size": "1080*650",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]com.banggood.client:id/viewPage[text]None[enabled,,]",
+      "view_str": "8118638e17dc98160b93ee274158efc7",
+      "allowed_actions": [
+        "scroll up",
+        "scroll down"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<scrollbar bound_box=0,428,1080,1078></scrollbar>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19,
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          428
+        ],
+        [
+          1080,
+          1078
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1080*650",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]None[text]None[enabled,,]",
+      "view_str": "75ce87c25e5ba2e757332fbd4f577225",
+      "allowed_actions": [
+        "scroll up",
+        "scroll down"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<scrollbar bound_box=0,428,1080,1078></scrollbar>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20,
+        22,
+        30,
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          428
+        ],
+        [
+          1080,
+          1078
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1080*650",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "30ad7501082a89f41e0a60234645b59d"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          470
+        ],
+        [
+          1038,
+          575
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/view_email",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "996*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/view_email[text]None[enabled,,]",
+      "view_str": "0550b5ad0e826c3ca89e281ab6bcf27e"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          470
+        ],
+        [
+          1038,
+          575
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/et_email",
+      "checked": false,
+      "text": "Email",
+      "class": "android.widget.AutoCompleteTextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "996*105",
+      "signature": "[class]android.widget.AutoCompleteTextView[resource_id]com.banggood.client:id/et_email[text]Email[enabled,,]",
+      "view_str": "d2149472f4ac4ccff9ae2da84e4cdb8b",
+      "allowed_actions": [
+        "touch",
+        "set_text",
+        "long_touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<input bound_box=42,470,1038,575>Email</input>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          607
+        ],
+        [
+          1038,
+          712
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/view_password",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 22,
+      "size": "996*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/view_password[text]None[enabled,,]",
+      "view_str": "dc7ff0b4c0ccd9b376de50342a2ec14d"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          607
+        ],
+        [
+          1038,
+          712
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/til_pwd",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "996*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/til_pwd[text]None[enabled,,]",
+      "view_str": "e06cbcc4c1d59548a7ffcdd72ba2f6d8"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25,
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          607
+        ],
+        [
+          1038,
+          712
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "996*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ac3fe52fb52a28f55b20299eac7e4610"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": true,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          607
+        ],
+        [
+          1038,
+          712
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/et_pwd",
+      "checked": false,
+      "text": "Password",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "996*105",
+      "signature": "[class]android.widget.EditText[resource_id]com.banggood.client:id/et_pwd[text]Password[enabled,,]",
+      "view_str": "2e039eda5018c0b2ff13a5cbe8a1e0a1",
+      "allowed_actions": [
+        "touch",
+        "set_text",
+        "long_touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<input bound_box=42,607,1038,712>Password</input>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          607
+        ],
+        [
+          42,
+          712
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 26,
+      "size": "0*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "15c0db20c30925b7df7d1d7d9caaf7da"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        28
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          901,
+          607
+        ],
+        [
+          1038,
+          712
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 27,
+      "size": "137*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2b5520b04fcb08909056ba47cc7851cc"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          901,
+          607
+        ],
+        [
+          1038,
+          712
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "137*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "79b63bb4418057c88472b9f2bec0cb21"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Show password",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          912,
+          607
+        ],
+        [
+          1038,
+          712
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/text_input_end_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "126*105",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.banggood.client:id/text_input_end_icon[text]None[enabled,,]",
+      "view_str": "453bf75276620a129da8eddabd24c95b",
+      "allowed_actions": [
+        "select",
+        "unselect"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<checkbox text='Show password' bound_box=912,607,1038,712></checkbox>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          722,
+          738
+        ],
+        [
+          1038,
+          788
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/tv_forgot_password",
+      "checked": false,
+      "text": "Forgot password ?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 30,
+      "size": "316*50",
+      "signature": "[class]android.widget.TextView[resource_id]com.banggood.client:id/tv_forgot_password[text]Forgot password ?[enabled,,]",
+      "view_str": "b06409a83a7b45232f328b69450c624e",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "9",
+      "desc": "<button bound_box=722,738,1038,788>Forgot password ?</button>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          851
+        ],
+        [
+          1038,
+          956
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/btn_sign_in",
+      "checked": false,
+      "text": "SIGN IN",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 31,
+      "size": "996*105",
+      "signature": "[class]android.widget.Button[resource_id]com.banggood.client:id/btn_sign_in[text]SIGN IN[enabled,,]",
+      "view_str": "89ccfb28dcc4d4af52c5974cb8e4ae8c",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "10",
+      "desc": "<button bound_box=42,851,1038,956>SIGN IN</button>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 6,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33,
+        34,
+        35,
+        37,
+        45,
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          428
+        ],
+        [
+          1080,
+          1078
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 32,
+      "size": "0*650",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "7577f20a70aaa763e57bdf7305d341ad"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          470
+        ],
+        [
+          1080,
+          557
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/tv_register_reward",
+      "checked": false,
+      "text": "Register and get a great value New User Benefits!",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "-42*87",
+      "signature": "[class]android.widget.TextView[resource_id]com.banggood.client:id/tv_register_reward[text]Register and get a great value New User Benefits![enabled,,]",
+      "view_str": "bb62359e1e8a8fd55d84f88d86d8b5ec"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1619,
+          557
+        ],
+        [
+          1080,
+          589
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/space_register_reward",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 34,
+      "size": "-539*32",
+      "signature": "[class]android.view.View[resource_id]com.banggood.client:id/space_register_reward[text]None[enabled,,]",
+      "view_str": "1297200a81d1a1c4f063ca64022c16e4"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          589
+        ],
+        [
+          1080,
+          694
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/view_email",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 35,
+      "size": "-42*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/view_email[text]None[enabled,,]",
+      "view_str": "0550b5ad0e826c3ca89e281ab6bcf27e"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          589
+        ],
+        [
+          1080,
+          694
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/et_email",
+      "checked": false,
+      "text": "Email",
+      "class": "android.widget.AutoCompleteTextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "-42*105",
+      "signature": "[class]android.widget.AutoCompleteTextView[resource_id]com.banggood.client:id/et_email[text]Email[enabled,,]",
+      "view_str": "d2149472f4ac4ccff9ae2da84e4cdb8b"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/view_password",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 37,
+      "size": "-42*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/view_password[text]None[enabled,,]",
+      "view_str": "dc7ff0b4c0ccd9b376de50342a2ec14d"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/til_pwd",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "-42*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.banggood.client:id/til_pwd[text]None[enabled,,]",
+      "view_str": "e06cbcc4c1d59548a7ffcdd72ba2f6d8"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        40,
+        41,
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "-42*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ac3fe52fb52a28f55b20299eac7e4610"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": true,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/et_pwd",
+      "checked": false,
+      "text": "Password",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "-42*105",
+      "signature": "[class]android.widget.EditText[resource_id]com.banggood.client:id/et_pwd[text]Password[enabled,,]",
+      "view_str": "2e039eda5018c0b2ff13a5cbe8a1e0a1"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 41,
+      "size": "-42*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "15c0db20c30925b7df7d1d7d9caaf7da"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1981,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 42,
+      "size": "-901*105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2b5520b04fcb08909056ba47cc7851cc"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1981,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "-901*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "79b63bb4418057c88472b9f2bec0cb21"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Show password",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1992,
+          726
+        ],
+        [
+          1080,
+          831
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/text_input_end_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "-912*105",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.banggood.client:id/text_input_end_icon[text]None[enabled,,]",
+      "view_str": "453bf75276620a129da8eddabd24c95b"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          857
+        ],
+        [
+          1080,
+          910
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/cb_gdpr",
+      "checked": true,
+      "text": "I agree to Banggood Terms of Use and Privacy Policy",
+      "class": "android.widget.CheckBox",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 45,
+      "size": "-42*53",
+      "signature": "[class]android.widget.CheckBox[resource_id]com.banggood.client:id/cb_gdpr[text]None[enabled,checked,]",
+      "view_str": "072027f53102dd3a98da06f4f8e98343"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1122,
+          973
+        ],
+        [
+          1080,
+          1078
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/btn_sign_in",
+      "checked": false,
+      "text": "REGISTER",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 46,
+      "size": "-42*105",
+      "signature": "[class]android.widget.Button[resource_id]com.banggood.client:id/btn_sign_in[text]REGISTER[enabled,,]",
+      "view_str": "c7064492778446c5ef0e1376a87af534"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1078
+        ],
+        [
+          1080,
+          1275
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 47,
+      "size": "1080*197",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "a42340ec2caa65bb0e7d6c9c267b8b8a"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 6,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1275
+        ],
+        [
+          1080,
+          1496
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/item_signin_social",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 48,
+      "size": "1080*221",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.banggood.client:id/item_signin_social[text]None[enabled,,]",
+      "view_str": "76d123812c4b7765d72432cc3bcc1f33"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1296
+        ],
+        [
+          410,
+          1297
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "237*1",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "a9f1ac2c76903890f64e2ee83ec62f17"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          410,
+          1275
+        ],
+        [
+          671,
+          1318
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/tv_quick_access",
+      "checked": false,
+      "text": "Quick access with",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 50,
+      "size": "261*43",
+      "signature": "[class]android.widget.TextView[resource_id]com.banggood.client:id/tv_quick_access[text]Quick access with[enabled,,]",
+      "view_str": "a27ee593fc267e736f43b492ebf837b5",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "11",
+      "desc": "<p bound_box=410,1275,671,1318>Quick access with</p>"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          671,
+          1296
+        ],
+        [
+          907,
+          1297
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 51,
+      "size": "236*1",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "a9f1ac2c76903890f64e2ee83ec62f17"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          1318
+        ],
+        [
+          1038,
+          1344
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/space_quick_access",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 52,
+      "size": "996*26",
+      "signature": "[class]android.view.View[resource_id]com.banggood.client:id/space_quick_access[text]None[enabled,,]",
+      "view_str": "400e794bcec07bbce89768a330341952"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          273,
+          1344
+        ],
+        [
+          425,
+          1496
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/btn_sign_facebook",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 53,
+      "size": "152*152",
+      "signature": "[class]android.widget.ImageView[resource_id]com.banggood.client:id/btn_sign_facebook[text]None[enabled,,]",
+      "view_str": "a52e6e80c133c5dc0522e945050e5afe"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          655,
+          1344
+        ],
+        [
+          807,
+          1496
+        ]
+      ],
+      "resource_id": "com.banggood.client:id/btn_sign_google",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 54,
+      "size": "152*152",
+      "signature": "[class]android.widget.ImageView[resource_id]com.banggood.client:id/btn_sign_google[text]None[enabled,,]",
+      "view_str": "29d0877bc7a83221519336c0400549c2"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          63
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 55,
+      "size": "1080*63",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "d7a8eef281f839e60f6331b96cbdad6e"
+    },
+    {
+      "package": "com.banggood.client",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 56,
+      "size": "1080*126",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "91e63f6a7639d6523481e219dab55d8d"
+    }
+  ]
+}

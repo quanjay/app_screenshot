@@ -1,0 +1,39 @@
+add device 1: /dev/input/event9
+  name:     "pineapple-mtp-snd-card Button Jack"
+add device 2: /dev/input/event8
+  name:     "pineapple-mtp-snd-card Headset Jack"
+add device 3: /dev/input/event7
+  name:     "synaptics_tcm_touch"
+add device 4: /dev/input/event6
+  name:     "qcom-hv-haptics"
+add device 5: /dev/input/event5
+  name:     "pmic_pwrkey_bark"
+add device 6: /dev/input/event4
+  name:     "pmic_pwrkey_resin_bark"
+add device 7: /dev/input/event3
+  name:     "pmic_resin"
+add device 8: /dev/input/event2
+  name:     "pmic_pwrkey"
+add device 9: /dev/input/event1
+  name:     "uinput-goodix"
+add device 10: /dev/input/event0
+  name:     "gpio-keys"
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_FF        0000                 00000001            
+[    1705.109352] /dev/input/event6: EV_SYN       SYN_REPORT           00000001            
+[   28855.922372] /dev/input/event7: EV_ABS       ABS_MT_TRACKING_ID   00000754            
+[   28855.922372] /dev/input/event7: EV_KEY       BTN_TOUCH            DOWN                
+[   28855.922372] /dev/input/event7: EV_KEY       BTN_TOOL_FINGER      DOWN                
+[   28855.922372] /dev/input/event7: EV_ABS       ABS_MT_POSITION_X    00010aea            
+[   28855.922372] /dev/input/event7: EV_ABS       ABS_MT_POSITION_Y    00014ae6            
+[   28855.922372] /dev/input/event7: EV_SYN       SYN_REPORT           00000000            
+[   28856.015450] /dev/input/event7: EV_ABS       ABS_MT_TRACKING_ID   ffffffff            
+[   28856.015450] /dev/input/event7: EV_KEY       BTN_TOUCH            UP                  
+[   28856.015450] /dev/input/event7: EV_KEY       BTN_TOOL_FINGER      UP                  
+[   28856.015450] /dev/input/event7: EV_SYN       SYN_REPORT           00000000            

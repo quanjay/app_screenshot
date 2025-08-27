@@ -1,0 +1,302 @@
+Activity Resolver Table:
+  Schemes:
+      swaexternalpaymentredirect:
+        d46509f com.southwestairlines.mobile/.splash.SplashActivity filter 4d0cdb5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "southwest"
+          Scheme: "swaexternalpaymentredirect"
+      southwest:
+        d46509f com.southwestairlines.mobile/.splash.SplashActivity filter 4d0cdb5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "southwest"
+          Scheme: "swaexternalpaymentredirect"
+      https:
+        d46509f com.southwestairlines.mobile/.splash.SplashActivity filter a92ec4a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "link.swa.info": -1
+          Authority: "southwest.app.link": -1
+          Authority: "southwest-alternate.app.link": -1
+          Authority: "b.itravel.southwest.com": -1
+          Authority: "b.iheart.southwest.com": -1
+          AutoVerify=true
+        d46509f com.southwestairlines.mobile/.splash.SplashActivity filter fc957bb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.southwest.com": -1
+          Authority: "mobile.southwest.com": -1
+          Path: "PatternMatcher{PREFIX: /redirect/}"
+          Path: "PatternMatcher{PREFIX: /redirect/}"
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        d46509f com.southwestairlines.mobile/.splash.SplashActivity filter d7af5ec
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        71784d8 com.southwestairlines.mobile/.core.ui.SettingsActivity filter 68d9031
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        6ec1684 com.southwestairlines.mobile/com.qualtrics.digital.QualtricsNotificationManager filter f79fe6d
+          Action: "android.intent.action.MAIN"
+      com.google.android.c2dm.intent.RECEIVE:
+        7c4baa2 com.southwestairlines.mobile/com.google.firebase.iid.FirebaseInstanceIdReceiver filter aed0333
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        31b8316 com.southwestairlines.mobile/.login.RelocatePasswordReceiver filter dabb497
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        a5616f0 com.southwestairlines.mobile/.gcm.SwaGcmReceiverListenerService filter f451469
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        ed7deee com.southwestairlines.mobile/com.google.firebase.messaging.FirebaseMessagingService filter 1ea9f8f
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.southwestairlines.mobile:
+    ID: 8bb5741b-5688-44fd-9733-f14dd82938c6
+    Signatures: [52:95:6F:59:94:0C:58:9F:96:C8:E4:C0:7A:D5:C6:3F:6A:80:10:B5:1B:28:9E:0E:05:F8:7C:1E:E3:12:DB:23]
+    Domain verification state:
+      b.iheart.southwest.com: none
+      mobile.southwest.com: none
+      b.itravel.southwest.com: none
+      www.southwest.com: none
+      southwest.app.link: none
+      southwest-alternate.app.link: none
+      link.swa.info: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          b.iheart.southwest.com
+          mobile.southwest.com
+          b.itravel.southwest.com
+          www.southwest.com
+          southwest.app.link
+          southwest-alternate.app.link
+          link.swa.info
+
+Registered ContentProviders:
+  com.southwestairlines.mobile/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{91535d6 com.southwestairlines.mobile/com.google.firebase.provider.FirebaseInitProvider}
+  com.southwestairlines.mobile/androidx.core.content.FileProvider:
+    Provider{df35057 com.southwestairlines.mobile/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.southwestairlines.mobile.fileprovider]:
+    Provider{df35057 com.southwestairlines.mobile/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{d5de744 com.southwestairlines.mobile}
+  [com.southwestairlines.mobile.firebaseinitprovider]:
+    Provider{91535d6 com.southwestairlines.mobile/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{a602d com.southwestairlines.mobile}
+
+Key Set Manager:
+  [com.southwestairlines.mobile]
+      Signing KeySets: 136
+
+Packages:
+  Package [com.southwestairlines.mobile] (d86d962):
+    userId=10194
+    pkg=Package{c729af3 com.southwestairlines.mobile}
+    codePath=/data/app/~~gomMeP15_ErmK8jam1WbLg==/com.southwestairlines.mobile-NH_xCcoInR_okslqk063Tg==
+    resourcePath=/data/app/~~gomMeP15_ErmK8jam1WbLg==/com.southwestairlines.mobile-NH_xCcoInR_okslqk063Tg==
+    legacyNativeLibraryDir=/data/app/~~gomMeP15_ErmK8jam1WbLg==/com.southwestairlines.mobile-NH_xCcoInR_okslqk063Tg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=903020 minSdk=28 targetSdk=30
+    minExtensionVersions=[]
+    versionName=9.3.2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{c729af3 com.southwestairlines.mobile}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=https:///... }, Intent { act=android.intent.action.VIEW dat=content:/* }]
+    dataDir=/data/user/0/com.southwestairlines.mobile
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-18 03:40:04
+    firstInstallTime=2025-05-18 03:40:04
+    lastUpdateTime=2025-05-18 03:40:04
+    signatures=PackageSignatures{2f433b0 version:2, signatures:[6f0c7e15], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    requested permissions:
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      android.permission.VIBRATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.CAMERA
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.ACCESS_COARSE_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147521 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_CALENDAR: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.southwestairlines.mobile
+    com.google.android.settings.intelligence:
+      com.southwestairlines.mobile
+    com.southwestairlines.mobile:
+      com.google.android.setupwizard
+      com.google.android.apps.messaging
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.chrome
+      com.google.android.calendar
+      com.google.android.apps.docs
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=141
+  User 0:
+    seq=0, package=com.android.bluetooth
+    seq=5, package=com.cnn.mobile.android.phone
+    seq=11, package=com.google.android.gms
+    seq=13, package=com.android.vending
+    seq=14, package=com.google.android.contactkeys
+    seq=15, package=com.google.android.safetycore
+    seq=16, package=com.google.ar.core
+    seq=17, package=com.google.android.trichromelibrary_710308738
+    seq=24, package=com.google.android.apps.wellbeing
+    seq=26, package=com.google.android.tts
+    seq=27, package=com.google.android.deskclock
+    seq=29, package=com.android.chrome
+    seq=52, package=com.google.android.googlequicksearchbox
+    seq=55, package=com.google.android.apps.docs
+    seq=66, package=com.google.android.inputmethod.latin
+    seq=70, package=com.google.android.partnersetup
+    seq=73, package=com.google.android.calendar
+    seq=74, package=com.google.android.apps.maps
+    seq=83, package=com.google.android.gm
+    seq=87, package=com.audiobooks.androidapp
+    seq=101, package=com.google.android.apps.youtube.music
+    seq=111, package=com.asanayoga.asanarebel
+    seq=123, package=com.microsoft.translator
+    seq=130, package=org.findmykids.app
+    seq=138, package=com.scee.psxandroid
+    seq=139, package=io.github.ylimit.droidbotapp
+    seq=140, package=com.southwestairlines.mobile
+
+
+Dexopt state:
+  [com.southwestairlines.mobile]
+    path: /data/app/~~gomMeP15_ErmK8jam1WbLg==/com.southwestairlines.mobile-NH_xCcoInR_okslqk063Tg==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.southwestairlines.mobile]
+    (No recorded stats)
+
+APEX session state:
+  Session ID: 1216320661
+    State: STAGED
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 3554  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:25         now          11       19491           0           0           2           4           1
+          1:25        0:25          12       34614           0           0           3           3           1
+          2:25        1:25          26       42611           0           0           4          10           4
+          3:25        2:25           9       35103           0           0           3           4           3
+          4:25        3:25          27       44191           0           0           3           9           3
+          5:25        4:25          11       33924           0           0           4           3           1
+          6:25        5:25          32       41197           0           0           5           5           1
+          7:25        6:25          12       33147           0           0           5           5           2
+          8:25        7:25          23       27136           0           0           3           5           1
+          9:25        8:25          15       32151           0           0           6          13           6
+      01:56:25         now         802     1354283           0           5         138         471          52
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:25         now          11           0           0           0           0           0           0           0
+          1:25        0:25          12           0           0           0           0           0           0           0
+          2:25        1:25          25           0           1           0           0           0           0           0
+          3:25        2:25           8           0           1           0           0           0           0           0
+          4:25        3:25          26           0           1           0           0           0           0           0
+          5:25        4:25          11           0           0           0           0           0           0           0
+          6:25        5:25          32           0           0           0           0           0           0           0
+          7:25        6:25          11           1           0           0           0           0           0           0
+          8:25        7:25          23           0           0           0           0           0           0           0
+          9:25        8:25          13           0           1           1           0           0           0           0
+      01:56:25         now         766           9          13           9           2           2           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:25         now           1           0           1           0           0           1           1           7
+          1:25        0:25           3           0           0           0           0           2           0           7
+          2:25        1:25           2           1           1           0           1           2           4          15
+          3:25        2:25           3           0           0           1           0           1           0           4
+          4:25        3:25           2           0           1           3           0           1           5          15
+          5:25        4:25           3           1           0           0           1           0           1           5
+          6:25        5:25           4           1           0           0           0           8           2          17
+          7:25        6:25           3           1           1           0           0           1           0           6
+          8:25        7:25           2           1           0           0           0           2           2          16
+          9:25        8:25           6           0           0           1           0           1           0           7
+      01:56:25         now         101          13          23          34          15          81          64         470

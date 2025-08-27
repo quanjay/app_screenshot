@@ -1,0 +1,1920 @@
+{
+  "tag": "2025-08-06_170521",
+  "state_str": "02dadc45e9a28f4763508b0effcd68fe",
+  "state_str_content_free": "e65e1771f8e0b6ba012eaff80a88d0e6",
+  "foreground_activity": "com.microsoft.skydrive/com.microsoft.authorization.SignInActivity",
+  "activity_stack": [
+    "com.microsoft.skydrive/com.microsoft.authorization.SignInActivity",
+    "com.microsoft.skydrive/com.microsoft.authorization.StartSignInActivity",
+    "com.microsoft.skydrive/.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.xiaomi.aicr/.access.AiCrCognitionService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "com.qti.phone/.ExtTelephonyService",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.miui.miwallpaper/.wallpaperservice.ImageWallpaper",
+    "com.spotify.music/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "org.codeaurora.ims/.ImsService",
+    "com.xiaomi.mi_connect_service/.MiConnectService",
+    "com.android.providers.downloads/.remote.service.DebugLogService",
+    "com.miui.personalassistant/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.miui.securitycenter/com.miui.securityscan.fileobserver.ImageProtectService",
+    "com.milink.service/com.milink.runtime.SentryService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.ContinuityServiceManagerService",
+    "com.xiaomi.xmsf/.services.ServiceBoxService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.qualcomm.location/.LocationService",
+    "com.miui.home/.recents.TouchInteractionService",
+    "com.spotify.music/com.spotify.app.music.service.SpotifyService",
+    "com.miui.powerkeeper/.feedbackcontrol.FeedbackControlService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.qualcomm.qti.devicestatisticsservice/.DeviceStatisticsService",
+    "com.zhuantech.sijiweather/org.chromium.content.app.SandboxedProcessService0",
+    "com.miui.analytics/.onetrack.OneTrackService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.VideoToolBoxService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/.droidguard.DroidGuardService",
+    "com.google.android.gms/org.chromium.content.app.SandboxedProcessService0",
+    "com.qualcomm.location/.izat.IzatService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.miui.voiceassist/com.xiaomi.voiceassistant.AssistInteractionService",
+    "com.google.android.gms/.instantapps.service.InstantAppsService",
+    "com.netease.newsreader.activity/org.chromium.content.app.SandboxedProcessService0",
+    "com.milink.service/com.xiaomi.dist.hardware.service.DistributedHardwareService",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionService",
+    "com.miui.dmregservice/cn.richinfo.dm.service.DMService",
+    "com.miui.securitycenter/com.miui.antivirus.service.GuardService",
+    "com.miui.misightservice/.MiSightManagerService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.xiaomi.mirror/.MainService",
+    "com.miui.powerkeeper/.powerchecker.PowerCheckerService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.sina.news/org.eclipse.paho.android.service.MqttService",
+    "com.qualcomm.qti.workloadclassifier/.WLCService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.NotificationListener",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.xiaomi.xmsf/com.miui.server.appupdate.AppUpdateService",
+    "com.microsoft.skydrive/com.microsoft.odsp.pushnotification.ODSPInstanceIDService",
+    "com.xiaomi.xmsf/.services.MainProcBridgeService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.miui.hybrid/.host.HostService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.proxy.ProxyServiceManagerService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.networking.service.NetworkingService",
+    "com.android.thememanager/.aiwallpaper.core.AIWallpaperService",
+    "org.codeaurora.ims/.QtiImsExtService",
+    "com.ebay.mobile/com.google.firebase.sessions.SessionLifecycleService",
+    "com.xiaomi.account/.XiaomiAccountService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokGeocodeService",
+    "com.milink.service/com.xiaomi.dist.camera.kit.CameraControllerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.miui.systemAdSolution/.splashscreen.SplashScreenService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyServiceV2",
+    "com.android.mtp/.MtpService",
+    "com.miui.securitycenter/com.miui.networkassistant.vpn.miui.MiuiVpnManageService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.main.PreLaunchService",
+    "com.instagram.android/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "vendor.qti.data.ntnsatapp/.NtnDataServiceImpl",
+    "com.android.updater/.UpdateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.xiaomi.misettings/.usagestats.widget.desktop.service.UsageStatsUpdateService",
+    "com.xiaomi.phone/com.xiaomi.services.telephony.MiTelephonyService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.GameBoosterService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.musicfx/.KeepAliveService",
+    "com.xiaomi.aicr/.common.download.DownloadService",
+    "com.miui.securitycenter/com.miui.gamebooster.beauty.BeautyService",
+    "com.miui.analytics/.onetrack.TrackService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.miui.powerkeeper/.thermal.ThermalService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.headset.BluetoothHeadsetService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.netbus.service.NetBusService",
+    "com.android.phone/com.android.internal.telephony.data.CellularDataService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "com.miui.securitycenter/com.miui.powercenter.provider.PowerSaveService",
+    "com.miui.securitycenter/com.miui.gamebooster.mutiwindow.FreeformWindowService",
+    "com.miui.thirdappassistant/.persistent.PersistentBackgroundService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.miui.securitycenter/com.miui.antispam.service.AntiSpamService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "vendor.qti.qesdk.sysservice/.QesdkSysService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.push.service.XMPushService",
+    "com.xiaomi.aicr/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/androidx.room.MultiInstanceInvalidationService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "com.android.providers.downloads.ui/.service.DataLimitService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyService",
+    "com.miui.guardprovider/.manager.SecurityService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.personalsafety.service.PSAService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionServiceReal",
+    "com.sina.news/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.phone/.LowLatencyAidlService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.xiaomi.misettings/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/com.xiaomi.xms.auth.AuthService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.ipc.FinAppAIDLService",
+    "com.qualcomm.atfwd2/.AtFwdService",
+    "com.android.vending/com.google.android.finsky.dfenotification.impl.PhoneskyFirebaseMessagingService",
+    "com.miui.securitycenter/com.miui.ai.service.OperationListCollectService",
+    "com.miui.daemon/.performance.SysoptService",
+    "com.miui.cloudservice/.keybag.binder.MiCloudKeyBagService",
+    "com.qti.dpmserviceapp/.DpmServiceApp",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.xiaomi.bluetooth/.mma.MiuiMMAService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.xiaomi.xmsfkeeper/.KeeperService",
+    "com.cnn.mobile.android.phone/com.google.firebase.sessions.SessionLifecycleService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.xiaomi.registration/.autoregistration.RegistrationService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "tv.danmaku.bili/tv.danmaku.ijk.media.player.services.IjkMediaPlayerService",
+    "com.miui.analytics/.internal.WakeupService",
+    "com.xiaomi.joyose/.gameInfo.GameInfoService",
+    "com.miui.powerkeeper/.WakelockManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AppPredictService",
+    "com.android.browser/com.miui.org.chromium.content.app.SandboxedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.xms.core.XmsCoreService",
+    "vendor.qti.data.txpwradmin/.StxPwrService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "com.miui.misightservice/.misightserviceability.DetectionService",
+    "com.milink.service/com.miui.miplay.audio.service.CoreService",
+    "com.yahoo.mobile.client.android.mail/com.google.firebase.sessions.SessionLifecycleService",
+    "com.miui.powerkeeper/.PowerKeeperBackgroundService",
+    "com.qualcomm.qti.dynamicddsservice/.DynamicDDSService",
+    "com.cnn.mobile.android.phone/com.mapbox.common.LifecycleService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "com.android.smspush/.WapPushManager",
+    "com.miui.securitycenter/.service.RemoteService",
+    "com.xiaomi.bluetooth/.MiuiBluetoothPlatformService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.miui.tsmclient/.service.NfcEventMonitorService",
+    "com.instagram.android/com.instagram.jobscheduler.bgfetch.scheduler.IgBgFetchTaskLifeService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AiService",
+    "com.miui.wmsvc/.WMService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.xiaomi.gnss.polaris/.PolarisService",
+    "com.android.soundrecorder/.RecorderService",
+    "com.xiaomi.joyose/.smartop.SmartOpService",
+    "com.miui.powerkeeper/.statemachine.PowerStateMachineService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokLocationService",
+    "com.android.providers.downloads/.remote.service.LimitSpeedService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.xiaomi.mirror/.SynergyService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.FirewallService",
+    "com.miui.daemon/.performance.MiuiPerfService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.android.browser/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.qualcomm.qti.services.systemhelper/.SysHelperService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.musicworx/com.google.firebase.sessions.SessionLifecycleService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.tm.TrafficManageService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "com.microsoft.skydrive/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.mms/org.rcs.service.isl.RcsService",
+    "com.xiaomi.location.fused/.FusedLocationService",
+    "com.miui.miwallpaper/.server.MiuiWallPaperControllerService",
+    "com.miui.personalassistant/.core.overlay.AssistantOverlayService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.vending/com.google.android.finsky.services.LicensingService",
+    "com.android.vending/com.google.android.finsky.setup.DseService",
+    "com.lbe.security.miui/com.lbe.security.service.SecurityService",
+    "com.google.android.gms/.gcm.PushMessagingRegistrarProxy",
+    "com.milink.service/com.xiaomi.miplay.mylibrary.MiPlayAudioService",
+    "com.xiaomi.aicr/.access.AiCrCoreService",
+    "com.xiaomi.touchservice/.TouchService",
+    "com.skysoft.kkbox.android/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.gms/.personalsafety.service.LockingTrustAgentService",
+    "com.android.providers.downloads/.remote.service.DownloadSettingsProviderService"
+  ],
+  "width": 1200,
+  "height": 2670,
+  "views": [
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        40,
+        41
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1200*2670",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "5d3e39d5f69f5f8c55bc77cb7af0a16d"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1200*2622",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d55c061e40d232fe29370c67581f240b"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f17d2e8ba95fbc141a9759721740870c"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.microsoft.skydrive:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.microsoft.skydrive:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "25a4760abac18113dadebff106442220"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "6766a7a2cb0c7cfe566042cb4b41f2ae"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "0980a42a16680c9f7dc8daac73601d23"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.microsoft.skydrive:id/authentication_signin_fragment",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.microsoft.skydrive:id/authentication_signin_fragment[text]None[enabled,,]",
+      "view_str": "858bf04ff9e8cf41acde7ffd54870ee8"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.microsoft.skydrive:id/authentication_signin_fragment",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.microsoft.skydrive:id/authentication_signin_fragment[text]None[enabled,,]",
+      "view_str": "49a40fc1f615023e97801cdf3f3bced8"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "80e5bee3a14edc5af379e79705969447"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.webkit.WebView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1200*2506",
+      "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+      "view_str": "d7b182dc84fb5b67cea6e64070b518b7"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4e2a\u4eba\u6570\u636e\u5bfc\u51fa\u8bb8\u53ef",
+      "class": "android.webkit.WebView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1200*2506",
+      "signature": "[class]android.webkit.WebView[resource_id]None[text]\u4e2a\u4eba\u6570\u636e\u5bfc\u51fa\u8bb8\u53ef[enabled,,]",
+      "view_str": "2531ec16aed55d65899b3d322adf6d75",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<p bound_box=0,116,1200,2622>\u4e2a\u4eba\u6570\u636e\u5bfc\u51fa\u8bb8\u53ef</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          24,
+          140
+        ],
+        [
+          1176,
+          143
+        ]
+      ],
+      "resource_id": "root",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1152*3",
+      "signature": "[class]android.view.View[resource_id]root[text][enabled,,]",
+      "view_str": "0e29f97e6c9291c7067a30e833185e46"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1200*2506",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "51a23de1bc4e2a3fbd55bd0d493ddfdf"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2408
+        ]
+      ],
+      "resource_id": "middle",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1200*2292",
+      "signature": "[class]android.view.View[resource_id]middle[text][enabled,,]",
+      "view_str": "e25c913b5d18b77f80f3e61898cd4bbd"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2072
+        ]
+      ],
+      "resource_id": "inner",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1200*1956",
+      "signature": "[class]android.view.View[resource_id]inner[text][enabled,,]",
+      "view_str": "49130fdd89cdc1ea3f67983f1ef93eaf"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          188
+        ],
+        [
+          1128,
+          2000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "1056*1812",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "4cbd8cd7fa541e994b1428b9486546c8"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          429,
+          188
+        ],
+        [
+          771,
+          260
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Microsoft",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "342*72",
+      "signature": "[class]android.widget.Image[resource_id]None[text]Microsoft[enabled,,]",
+      "view_str": "a3d423ff1b2d0db92114b74bbac9e9e2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<p bound_box=429,188,771,260>Microsoft</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 14,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          356
+        ],
+        [
+          1128,
+          2000
+        ]
+      ],
+      "resource_id": "view",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "1056*1644",
+      "signature": "[class]android.view.View[resource_id]view[text][enabled,,]",
+      "view_str": "47e68c9728aefd97b4474cd1c4bb66eb"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          356
+        ],
+        [
+          1128,
+          452
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1056*96",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "28953171fc7cdcfbfaf5320bfb02ac0d"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          356
+        ],
+        [
+          1128,
+          452
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1056*96",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "488751cee4c2e163d21f1f6fe922eda5"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          309,
+          350
+        ],
+        [
+          888,
+          458
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4e2a\u4eba\u6570\u636e\u5bfc\u51fa\u8bb8\u53ef",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "579*108",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u4e2a\u4eba\u6570\u636e\u5bfc\u51fa\u8bb8\u53ef[enabled,,]",
+      "view_str": "fc6bd10246f965a3e7a51e99caecdaa1",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<p bound_box=309,350,888,458>\u4e2a\u4eba\u6570\u636e\u5bfc\u51fa\u8bb8\u53ef</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          545
+        ],
+        [
+          411,
+          608
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5f53\u4f60\u4f7f\u7528\u672c\u4ea7\u54c1\u548c",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 21,
+      "size": "339*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u5f53\u4f60\u4f7f\u7528\u672c\u4ea7\u54c1\u548c[enabled,,]",
+      "view_str": "aa8d87e031aad6902fd9deba0c8efb22",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<p bound_box=72,545,411,608>\u5f53\u4f60\u4f7f\u7528\u672c\u4ea7\u54c1\u548c</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          408,
+          545
+        ],
+        [
+          663,
+          608
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 22,
+      "size": "255*63",
+      "signature": "[class]android.widget.Button[resource_id]None[text]\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f[enabled,,]",
+      "view_str": "5dc59d74c585b79c8d135d88c2569c03",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<button bound_box=408,545,663,608>\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          545
+        ],
+        [
+          1125,
+          968
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5217\u51fa\u4e2d\u7684\u5176\u4ed6\u4ea7\u54c1\u548c\u670d\u52a1(\u7edf\u79f0\u201c\u4ea7\u54c1\u201d)\u65f6\uff0cMicrosoft \u4f1a\u5c06\u5b89\u5168\u5730\u63d0\u4f9b\u548c\u8fd0\u884c\u4ea7\u54c1\u6240\u9700\u7684\u4e2a\u4eba\u4fe1\u606f\u4f20\u8f93\u5230\u4e2d\u56fd\u5883\u5916\u3002\u4e00\u4e9b\u4ea7\u54c1\u5141\u8bb8\u4f60\u53d1\u9001\u989d\u5916\u7684\u53ef\u9009\u6570\u636e\uff0c\u5982\u679c\u4f60\u9009\u62e9\u53d1\u9001\uff0c\u8fd9\u4e9b\u6570\u636e\u4e5f\u5c06\u53d1\u9001\u5230\u4e2d\u56fd\u5883\u5916\u3002\u6570\u636e\u5728\u4f20\u8f93\u8fc7\u7a0b\u4e2d\u52a0\u5bc6\u3002\u9664\u975e\u4f60\u91c7\u53d6\u4e3b\u52a8\u64cd\u4f5c\u8fdb\u884c\u4f20\u8f93\uff0c\u4f8b\u5982\u5c06\u6570\u636e\u5b58\u50a8\u5728\u5883\u5916\u4e91\u63d0\u4f9b\u5546\u5904\uff0c\u5426\u5219\u4e0d\u4f1a\u4f20\u8f93\u4f60\u7684\u8bbe\u5907\u4e0a\u672c\u5730\u5b58\u50a8\u7684\u6570\u636e\u3002",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 23,
+      "size": "1053*423",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "c540b5c352533fa473b511a05d257bec",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<p bound_box=72,545,1125,968>\u5217\u51fa\u4e2d\u7684\u5176\u4ed6\u4ea7\u54c1\u548c\u670d\u52a1(\u7edf\u79f0\u201c\u4ea7\u54c1\u201d)\u65f6\uff0cMicrosoft \u4f1a\u5c06\u5b89\u5168\u5730\u63d0\u4f9b\u548c\u8fd0\u884c\u4ea7\u54c1\u6240\u9700\u7684\u4e2a\u4eba\u4fe1\u606f\u4f20\u8f93\u5230\u4e2d\u56fd\u5883\u5916\u3002\u4e00\u4e9b\u4ea7\u54c1\u5141\u8bb8\u4f60\u53d1\u9001\u989d\u5916\u7684\u53ef\u9009\u6570\u636e\uff0c\u5982\u679c\u4f60\u9009\u62e9\u53d1\u9001\uff0c\u8fd9\u4e9b\u6570\u636e\u4e5f\u5c06\u53d1\u9001\u5230\u4e2d\u56fd\u5883\u5916\u3002\u6570\u636e\u5728\u4f20\u8f93\u8fc7\u7a0b\u4e2d\u52a0\u5bc6\u3002\u9664\u975e\u4f60\u91c7\u53d6\u4e3b\u52a8\u64cd\u4f5c\u8fdb\u884c\u4f20\u8f93\uff0c\u4f8b\u5982\u5c06\u6570\u636e\u5b58\u50a8\u5728\u5883\u5916\u4e91\u63d0\u4f9b\u5546\u5904\uff0c\u5426\u5219\u4e0d\u4f1a\u4f20\u8f93\u4f60\u7684\u8bbe\u5907\u4e0a\u672c\u5730\u5b58\u50a8\u7684\u6570\u636e\u3002</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1061
+        ],
+        [
+          747,
+          1124
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5982\u679c\u4f60\u4e0d\u540c\u610f\u4f20\u8f93\u5bf9\u4e8e\u63d0\u4f9b\u672c\u4ea7\u54c1\u6216",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 24,
+      "size": "675*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u5982\u679c\u4f60\u4e0d\u540c\u610f\u4f20\u8f93\u5bf9\u4e8e\u63d0\u4f9b\u672c\u4ea7\u54c1\u6216[enabled,,]",
+      "view_str": "e03be7c26df7d67f75ef24923fa614fc",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<p bound_box=72,1061,747,1124>\u5982\u679c\u4f60\u4e0d\u540c\u610f\u4f20\u8f93\u5bf9\u4e8e\u63d0\u4f9b\u672c\u4ea7\u54c1\u6216</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          744,
+          1061
+        ],
+        [
+          999,
+          1124
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 25,
+      "size": "255*63",
+      "signature": "[class]android.widget.Button[resource_id]None[text]\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f[enabled,,]",
+      "view_str": "5dc59d74c585b79c8d135d88c2569c03",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<button bound_box=744,1061,999,1124>\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1061
+        ],
+        [
+          1125,
+          1364
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4e2d\u5217\u51fa\u7684\u5176\u4ed6\u4ea7\u54c1\u6240\u5fc5\u9700\u7684\u6570\u636e\uff0c\u53ef\u9009\u62e9\u4e0b\u9762\u7684\u201c\u62d2\u7edd\u5e76\u9000\u51fa\u201d\u3002\u53ef\u5728\u4ea7\u54c1\u7684\u4f7f\u7528\u6761\u6b3e\u4e2d\u4e86\u89e3\u662f\u5426\u80fd\u83b7\u5f97\u9000\u6b3e\u3002\u6b32\u4e86\u89e3\u5173\u4e8e\u5411 Microsoft Store \u9000\u8fd8\u4ea7\u54c1\u7684\u4fe1\u606f\uff0c\u8bf7\u8bbf\u95ee https://aka.ms/refund\u3002",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 26,
+      "size": "1053*303",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "c540b5c352533fa473b511a05d257bec",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<p bound_box=72,1061,1125,1364>\u4e2d\u5217\u51fa\u7684\u5176\u4ed6\u4ea7\u54c1\u6240\u5fc5\u9700\u7684\u6570\u636e\uff0c\u53ef\u9009\u62e9\u4e0b\u9762\u7684\u201c\u62d2\u7edd\u5e76\u9000\u51fa\u201d\u3002\u53ef\u5728\u4ea7\u54c1\u7684\u4f7f\u7528\u6761\u6b3e\u4e2d\u4e86\u89e3\u662f\u5426\u80fd\u83b7\u5f97\u9000\u6b3e\u3002\u6b32\u4e86\u89e3\u5173\u4e8e\u5411 Microsoft Store \u9000\u8fd8\u4ea7\u54c1\u7684\u4fe1\u606f\uff0c\u8bf7\u8bbf\u95ee https://aka.ms/refund\u3002</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1457
+        ],
+        [
+          402,
+          1520
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Microsoft \u5c06\u6839\u636e ",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 27,
+      "size": "330*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Microsoft \u5c06\u6839\u636e [enabled,,]",
+      "view_str": "1acd0e03a29bea5ff6914757fee1d892",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "9",
+      "desc": "<p bound_box=72,1457,402,1520>Microsoft \u5c06\u6839\u636e </p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          399,
+          1457
+        ],
+        [
+          771,
+          1520
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Microsoft \u9690\u79c1\u58f0\u660e",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 28,
+      "size": "372*63",
+      "signature": "[class]android.widget.Button[resource_id]None[text]Microsoft \u9690\u79c1\u58f0\u660e[enabled,,]",
+      "view_str": "99d08fee44a9194bf026d76b62e87213",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "10",
+      "desc": "<button bound_box=399,1457,771,1520>Microsoft \u9690\u79c1\u58f0\u660e</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1457
+        ],
+        [
+          1125,
+          1640
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5904\u7406\u548c\u4f20\u8f93\u4f60\u7684\u6570\u636e\u3002\u6b32\u4e86\u89e3\u5173\u4e8e\u5728\u4e2d\u56fd\u5883\u5916\u4f20\u8f93\u6570\u636e\u7684\u4fe1\u606f\u4ee5\u53ca\u5982\u4f55\u8054\u7cfb Microsoft\uff0c\u53ef\u67e5\u770b\u6b64\u5904: ",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 29,
+      "size": "1053*183",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "c540b5c352533fa473b511a05d257bec",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "11",
+      "desc": "<p bound_box=72,1457,1125,1640>\u5904\u7406\u548c\u4f20\u8f93\u4f60\u7684\u6570\u636e\u3002\u6b32\u4e86\u89e3\u5173\u4e8e\u5728\u4e2d\u56fd\u5883\u5916\u4f20\u8f93\u6570\u636e\u7684\u4fe1\u606f\u4ee5\u53ca\u5982\u4f55\u8054\u7cfb Microsoft\uff0c\u53ef\u67e5\u770b\u6b64\u5904: </p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          525,
+          1577
+        ],
+        [
+          780,
+          1640
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 30,
+      "size": "255*63",
+      "signature": "[class]android.widget.Button[resource_id]None[text]\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f[enabled,,]",
+      "view_str": "5dc59d74c585b79c8d135d88c2569c03",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "12",
+      "desc": "<button bound_box=525,1577,780,1640>\u4e86\u89e3\u8be6\u7ec6\u4fe1\u606f</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          777,
+          1577
+        ],
+        [
+          822,
+          1640
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u3002",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 31,
+      "size": "45*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u3002[enabled,,]",
+      "view_str": "d0a9c916769724deeb1601a8a9a2fd25",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "13",
+      "desc": "<p bound_box=777,1577,822,1640>\u3002</p>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1736
+        ],
+        [
+          1128,
+          1850
+        ]
+      ],
+      "resource_id": "nextButton",
+      "checked": false,
+      "text": "\u540c\u610f\u5e76\u7ee7\u7eed",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 32,
+      "size": "1056*114",
+      "signature": "[class]android.widget.Button[resource_id]nextButton[text]\u540c\u610f\u5e76\u7ee7\u7eed[enabled,,]",
+      "view_str": "b0c280953ac13ad9ead1d73e3e6e0ac1",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "14",
+      "desc": "<button bound_box=72,1736,1128,1850>\u540c\u610f\u5e76\u7ee7\u7eed</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1886
+        ],
+        [
+          1128,
+          2000
+        ]
+      ],
+      "resource_id": "cancelButton",
+      "checked": false,
+      "text": "\u62d2\u7edd\u5e76\u9000\u51fa",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 33,
+      "size": "1056*114",
+      "signature": "[class]android.widget.Button[resource_id]cancelButton[text]\u62d2\u7edd\u5e76\u9000\u51fa[enabled,,]",
+      "view_str": "89f5e759c9416286e27d7da08c2d0c91",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "15",
+      "desc": "<button bound_box=72,1886,1128,2000>\u62d2\u7edd\u5e76\u9000\u51fa</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35,
+        36,
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2477
+        ],
+        [
+          1200,
+          2552
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 34,
+      "size": "1200*75",
+      "signature": "[class]android.view.View[resource_id]None[text][enabled,,]",
+      "view_str": "4126c516cd48bfc50e697a717f48f2e0"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          303,
+          2477
+        ],
+        [
+          378,
+          2516
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5e2e\u52a9",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "75*39",
+      "signature": "[class]android.widget.Button[resource_id]None[text]\u5e2e\u52a9[enabled,,]",
+      "view_str": "0ace919182588709aa5d976e46d4a4f2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "16",
+      "desc": "<button bound_box=303,2477,378,2516>\u5e2e\u52a9</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u4f7f\u7528\u6761\u6b3e",
+      "children": [
+        37
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          447,
+          2477
+        ],
+        [
+          594,
+          2516
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 36,
+      "size": "147*39",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "56336b131c8f1e5031a8c956251f7f66",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "17",
+      "desc": "<button text='\u4f7f\u7528\u6761\u6b3e' bound_box=447,2477,594,2516></button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          447,
+          2483
+        ],
+        [
+          594,
+          2537
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4f7f\u7528\u6761\u6b3e",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "147*54",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u4f7f\u7528\u6761\u6b3e[enabled,,]",
+      "view_str": "d69b1d4b6e372aff778d617a3e7f3cae",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "18",
+      "desc": "<button bound_box=447,2483,594,2537>\u4f7f\u7528\u6761\u6b3e</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u9690\u79c1\u4e0e Cookie",
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          663,
+          2477
+        ],
+        [
+          897,
+          2516
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 38,
+      "size": "234*39",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "9c554152dbbe430d4cfe732fe7a8cb83",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "19",
+      "desc": "<button text='\u9690\u79c1\u4e0e Cookie' bound_box=663,2477,897,2516></button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          663,
+          2483
+        ],
+        [
+          897,
+          2537
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u9690\u79c1\u4e0e Cookie",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "234*54",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u9690\u79c1\u4e0e Cookie[enabled,,]",
+      "view_str": "82dea4b9f95374d454f3783efad84719",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "20",
+      "desc": "<button bound_box=663,2483,897,2537>\u9690\u79c1\u4e0e Cookie</button>"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          116
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 40,
+      "size": "1200*116",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "dd0c71cd14f8fc63ff434faf162bc10d"
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2622
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 41,
+      "size": "1200*48",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "3ddd405aa7d9922a08c08a96d504561f"
+    }
+  ]
+}

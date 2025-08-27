@@ -1,0 +1,279 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/x-tar:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+      application/rar:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+      application/zip:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+      */*:
+        15c9494 com.speedsoftware.explorer/.ExplorerGetContent filter 8288b3d
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/plain:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+
+  Base MIME Types:
+      text:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+      application:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      *:
+        15c9494 com.speedsoftware.explorer/.ExplorerGetContent filter 8288b3d
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      db-m9yldioziutat80:
+        eb86600 com.speedsoftware.explorer/com.dropbox.core.android.AuthActivity filter 7979e39
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "db-m9yldioziutat80"
+
+  Non-Data Actions:
+      android.hardware.usb.action.USB_DEVICE_ATTACHED:
+        1de0f32 com.speedsoftware.explorer/com.speedsoftware.rootexplorer.RootExplorerUsb filter 6d9e483
+          Action: "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+      android.intent.action.MAIN:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 495aea6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        ccdf001 com.speedsoftware.explorer/.Explorer filter 95620e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Path: "PatternMatcher{GLOB: *.db}"
+          StaticType: "application/zip"
+          StaticType: "application/x-tar"
+          StaticType: "application/rar"
+          StaticType: "text/plain"
+      android.intent.action.GET_CONTENT:
+        15c9494 com.speedsoftware.explorer/.ExplorerGetContent filter 8288b3d
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.speedsoftware.explorer/android.support.v4.content.FileProvider:
+    Provider{9156de3 com.speedsoftware.explorer/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.speedsoftware.explorer.fileprovider]:
+    Provider{9156de3 com.speedsoftware.explorer/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{62d23e0 com.speedsoftware.explorer}
+
+Key Set Manager:
+  [com.speedsoftware.explorer]
+      Signing KeySets: 151
+
+Packages:
+  Package [com.speedsoftware.explorer] (166b699):
+    userId=10176
+    pkg=Package{7b48d5e com.speedsoftware.explorer}
+    codePath=/data/app/~~R1afg-1VIZ8-weJOHydv1g==/com.speedsoftware.explorer-JeMiA_YRmFPk19c5LhKlKA==
+    resourcePath=/data/app/~~R1afg-1VIZ8-weJOHydv1g==/com.speedsoftware.explorer-JeMiA_YRmFPk19c5LhKlKA==
+    legacyNativeLibraryDir=/data/app/~~R1afg-1VIZ8-weJOHydv1g==/com.speedsoftware.explorer-JeMiA_YRmFPk19c5LhKlKA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=146 minSdk=14 targetSdk=31
+    minExtensionVersions=[]
+    versionName=3.11.3
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{7b48d5e com.speedsoftware.explorer}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.speedsoftware.explorer
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    timeStamp=2025-05-18 06:15:48
+    firstInstallTime=2025-05-18 06:15:48
+    lastUpdateTime=2025-05-18 06:15:48
+    signatures=PackageSignatures{fa7053f version:3, signatures:[291198be], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.INTERNET
+      android.permission.WAKE_LOCK
+      android.permission.GET_ACCOUNTS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.FOREGROUND_SERVICE
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=148165 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.speedsoftware.explorer
+    com.google.android.settings.intelligence:
+      com.speedsoftware.explorer
+    com.google.android.gm:
+      com.speedsoftware.explorer
+    com.google.android.youtube:
+      com.speedsoftware.explorer
+    com.google.android.apps.docs:
+      com.speedsoftware.explorer
+    com.android.emergency:
+      com.speedsoftware.explorer
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=23
+  User 0:
+    seq=4, package=com.google.android.deskclock
+    seq=8, package=com.google.android.gms
+    seq=12, package=com.airasia.mobile
+    seq=14, package=com.google.android.apps.docs
+    seq=20, package=com.babbel.mobile.android.en
+    seq=21, package=io.github.ylimit.droidbotapp
+    seq=22, package=com.speedsoftware.explorer
+
+
+Dexopt state:
+  [com.speedsoftware.explorer]
+    path: /data/app/~~R1afg-1VIZ8-weJOHydv1g==/com.speedsoftware.explorer-JeMiA_YRmFPk19c5LhKlKA==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.speedsoftware.explorer]
+     base.apk - 745
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 6646  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:59         now          13       32877           0           0           2           4           1
+          1:59        0:59          35       35573           0           0           5           6           1
+          2:59        1:59           9       19743           0           0           1           2           1
+          3:59        2:59          26       50379           0           1           3         102          74
+          4:59        3:59         156       87243           0           2          13          89          21
+          4:59         now         239      225815           0           3          24         205          74
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:59         now          13           0           0           0           0           0           0           0
+          1:59        0:59          35           0           0           0           0           0           0           0
+          2:59        1:59           9           0           0           0           0           0           0           0
+          3:59        2:59          20           2           2           1           0           0           1           0
+          4:59        3:59         148           2           3           1           1           1           0           0
+          4:59         now         225           4           5           2           1           1           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:59         now           1           0           1           0           0           1           1           9
+          1:59        0:59           5           0           0           2           1           5           5          17
+          2:59        1:59           1           0           0           0           1           0           0           7
+          3:59        2:59           3           0           0           1           2           1           4          15
+          4:59        3:59          10           1           1           5           4          24          25          85
+          4:59         now          20           1           2           8           8          31          35         133

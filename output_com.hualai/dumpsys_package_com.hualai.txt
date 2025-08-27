@@ -1,0 +1,439 @@
+Activity Resolver Table:
+  Schemes:
+      paypal-result-detail:
+        c8b3b05 com.hualai/com.wyze.shop.profile.WyzeMyOrdersTwoDetailsActivity filter e21d75a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "paypal-result-detail"
+      amzn:
+        da24d8b com.hualai/com.amazon.identity.auth.device.workflow.WorkflowActivity filter 63d8e68
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "amzn"
+          Authority: "com.hualai": -1
+      http:
+        5ba0f13 com.hualai/.home.profile.WyzeAlexaLinkYourActivty filter c826550
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "universal-link.wyzecam.com": -1
+          AutoVerify=true
+      wyze:
+        7b5c277 com.hualai/.home.scheme.WyzeDeepLinkPage filter 8ae3ee4
+          Action: "android.intent.action.VIEW"
+          Action: "com.wyze.home"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "wyze"
+          Authority: "wyzeapp": 8080
+          Path: "PatternMatcher{LITERAL: /v2}"
+      https:
+        5ba0f13 com.hualai/.home.profile.WyzeAlexaLinkYourActivty filter c826550
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "universal-link.wyzecam.com": -1
+          AutoVerify=true
+      paypal-result-review:
+        a43b349 com.hualai/com.wyze.shop.page.WyzeStoreReviewsActivity filter 2e9c44e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "paypal-result-review"
+      paypal-result-carts:
+        9ac896f com.hualai/com.wyze.shop.page.WyzeStoreCartsActivity filter b30867c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "paypal-result-carts"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        da6b311 com.hualai/.home.StartActivity filter aaf9c76
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.wyze.action.home.mainhome:
+        1b26f4d com.hualai/.home.SmartHomeMainActivity filter 9710a02
+          Action: "com.wyze.action.home.mainhome"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      device_list_widget_open_plugin:
+        de63767 com.hualai/com.wyze.widget.DeviceListWidget filter 912914
+          Action: "device_list_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      device_widget_open_plugin:
+        6098281 com.hualai/com.wyze.widget.DeviceWidget filter 8960f26
+          Action: "device_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        e9d982d com.hualai/androidx.profileinstaller.ProfileInstallReceiver filter d45b162
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        855c857 com.hualai/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 9daff44
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        e9d982d com.hualai/androidx.profileinstaller.ProfileInstallReceiver filter 68492f3
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      event_widget_open_plugin:
+        1cac5bd com.hualai/com.wyze.widget.EventWidget filter 8c3f7b2
+          Action: "event_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.BOOT_COMPLETED:
+        1a9ef75 com.hualai/com.wyzeband.base.BootBroadcastReceiver filter 5cecb0a
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.DEFAULT"
+        3370df1 com.hualai/com.ryeex.watch.receiver.BootBroadcastReceiver filter e168dd6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.DEFAULT"
+      event_list_widget_open_plugin:
+        694e303 com.hualai/com.wyze.widget.EventListWidget filter 1e1c280
+          Action: "event_list_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.provider.Telephony.SMS_RECEIVED:
+        ef8ac5f com.hualai/com.wyzeband.home_screen.notify.SmsListener filter 4e086ac
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+        ea5af7b com.hualai/com.ryeex.watch.notification.SmsListener filter c256198
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        6098281 com.hualai/com.wyze.widget.DeviceWidget filter 8960f26
+          Action: "device_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        de63767 com.hualai/com.wyze.widget.DeviceListWidget filter 912914
+          Action: "device_list_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        1cac5bd com.hualai/com.wyze.widget.EventWidget filter 8c3f7b2
+          Action: "event_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        694e303 com.hualai/com.wyze.widget.EventListWidget filter 1e1c280
+          Action: "event_list_widget_open_plugin"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        56300b9 com.hualai/com.wyze.hms.widget.HmsStatusWidget filter d75dcfe
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.yunding.ydbleapi.ota.action.DFU_UPLOAD:
+        8d69fe5 com.hualai/com.yunding.ydbleapi.ota.DfuService filter 8380aba
+          Action: "com.yunding.ydbleapi.ota.action.DFU_UPLOAD"
+          Category: "android.intent.category.DEFAULT"
+      com.google.firebase.INSTANCE_ID_EVENT:
+        62acbb0 com.hualai/.home.fcm.FCMService filter f5181ae
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+      com.google.firebase.MESSAGING_EVENT:
+        62acbb0 com.hualai/.home.fcm.FCMService filter 4688a29
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        3037547 com.hualai/com.google.firebase.messaging.FirebaseMessagingService filter 21ec174
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.telecom.ConnectionService:
+        5cb6b4f com.hualai/.home.voip.WyzeCallConnectionService filter 68f2dc permission android.permission.BIND_TELECOM_CONNECTION_SERVICE
+          Action: "android.telecom.ConnectionService"
+      android.service.notification.NotificationListenerService:
+        8fd6d6b com.hualai/com.wyzeband.home_screen.notify.NotificationMonitorService filter 70060c8 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+        b565561 com.hualai/com.ryeex.watch.common.notification.AppNotificationListenerService filter bcc1886 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+
+Domain verification status:
+  com.hualai:
+    ID: 845f9206-64b8-4e4d-a38a-bf5aecaad755
+    Signatures: [78:61:3B:D2:C1:41:51:27:C5:09:3B:60:D2:9F:F8:5A:51:B3:96:F2:82:57:C7:50:12:25:7D:75:31:D9:6A:2A]
+    Domain verification state:
+      universal-link.wyzecam.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          universal-link.wyzecam.com
+
+Registered ContentProviders:
+  com.hualai/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{bc61841 com.hualai/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.hualai/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{20251e6 com.hualai/com.google.firebase.provider.FirebaseInitProvider}
+  com.hualai/androidx.startup.InitializationProvider:
+    Provider{dd52327 com.hualai/androidx.startup.InitializationProvider}
+  com.hualai/com.wyze.mercury.common.utils.XiaYiYe5FileProvider:
+    Provider{ba009d4 com.hualai/com.wyze.mercury.common.utils.XiaYiYe5FileProvider}
+  com.hualai/com.wyze.sweeprobot.common.utils.VenusFileProvider:
+    Provider{41af77d com.hualai/com.wyze.sweeprobot.common.utils.VenusFileProvider}
+  com.hualai/com.wyze.hms.utils.HmsFileProvider:
+    Provider{e91a672 com.hualai/com.wyze.hms.utils.HmsFileProvider}
+  com.hualai/androidx.core.content.FileProvider:
+    Provider{2e6cac3 com.hualai/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.hualai.firebaseinitprovider]:
+    Provider{20251e6 com.hualai/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{3ddef40 com.hualai}
+  [com.hualai.externalFileProvider]:
+    Provider{2e6cac3 com.hualai/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{fe48e79 com.hualai}
+  [com.hualai.fileprovider5]:
+    Provider{ba009d4 com.hualai/com.wyze.mercury.common.utils.XiaYiYe5FileProvider}
+      applicationInfo=ApplicationInfo{24fb7be com.hualai}
+  [com.hualai.firebaseperfprovider]:
+    Provider{bc61841 com.hualai/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{e1501f com.hualai}
+  [com.hualai.venusfileprovider]:
+    Provider{41af77d com.hualai/com.wyze.sweeprobot.common.utils.VenusFileProvider}
+      applicationInfo=ApplicationInfo{d52bf6c com.hualai}
+  [com.hualai.androidx-startup]:
+    Provider{dd52327 com.hualai/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{c169935 com.hualai}
+  [com.hualai.hms.fileprovider]:
+    Provider{e91a672 com.hualai/com.wyze.hms.utils.HmsFileProvider}
+      applicationInfo=ApplicationInfo{c4b91ca com.hualai}
+
+Key Set Manager:
+  [com.hualai]
+      Signing KeySets: 265
+
+Packages:
+  Package [com.hualai] (ed4cf3b):
+    appId=10420
+    pkg=Package{a626658 com.hualai}
+    codePath=/data/app/~~mfWz-KGTt_GGSzD5-77sgw==/com.hualai-kJdcOzH7VTdnhtr5Fhw47Q==
+    resourcePath=/data/app/~~mfWz-KGTt_GGSzD5-77sgw==/com.hualai-kJdcOzH7VTdnhtr5Fhw47Q==
+    legacyNativeLibraryDir=/data/app/~~mfWz-KGTt_GGSzD5-77sgw==/com.hualai-kJdcOzH7VTdnhtr5Fhw47Q==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=61817 minSdk=24 targetSdk=30
+    minExtensionVersions=[]
+    versionName=2.37.0.117
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.google.android.apps.maps]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-08-07 15:31:03
+    lastUpdateTime=2025-08-07 15:31:04
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{72493b1 version:3, signatures:[47fd8274], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.READ_SMS
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_CALL_LOG
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.USE_CREDENTIALS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.ANSWER_PHONE_CALLS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.SYSTEM_OVERLAY_WINDOW
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.PEERS_MAC_ADDRESS
+      android.permission.RECEIVE_SMS
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.INTERNET
+      android.permission.TRANSMIT_IR
+      android.permission.REORDER_TASKS
+      com.android.vending.BILLING
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_COARWAKE_LOCKSE_LOCATION
+      android.permission.CALL_PHONE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.DISABLE_KEYGUARD
+      android.permission.CAMERA
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.MANAGE_OWN_CALLS
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.CONNECTIVITY_INTERNAL
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.RECORD_AUDIO
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.TRANSMIT_IR: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.MANAGE_OWN_CALLS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=166628 deDataInode=169002 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.hualai
+      firstInstallTime=2025-08-07 15:31:04
+      uninstallReason=0
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_SMS: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CALL_LOG: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECEIVE_SMS: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.hualai
+    com.xiaomi.aicr:
+      com.hualai
+    com.android.contacts:
+      com.hualai
+    com.xiaomi.gamecenter.sdk.service:
+      com.hualai
+    com.android.settings.intelligence:
+      com.hualai
+    com.miui.carlink:
+      com.hualai
+    com.miui.nextpay:
+      com.hualai
+    com.xiaomi.mis:
+      com.hualai
+    com.miui.hybrid:
+      com.hualai
+    com.xiaomi.market:
+      com.hualai
+    com.miui.systemAdSolution:
+      com.hualai
+    com.xiaomi.account:
+      com.hualai
+    com.miui.greenguard:
+      com.hualai
+    com.xiaomi.payment:
+      com.hualai
+    com.xiaomi.xmsf:
+      com.hualai
+    com.android.providers.downloads.ui:
+      com.hualai
+    com.mfashiongallery.emag:
+      com.hualai
+    com.android.calendar:
+      com.hualai
+    com.android.email:
+      com.hualai
+    com.miui.gallery:
+      com.hualai
+    com.miui.virtualsim:
+      com.hualai
+    com.getsurfboard:
+      com.hualai
+    com.xingin.xhs:
+      com.hualai
+    com.duokan.reader:
+      com.hualai
+    com.instagram.android:
+      com.hualai
+    com.miui.video:
+      com.hualai
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.hualai
+    com.ss.android.ugc.aweme:
+      com.hualai
+    com.microsoft.office.outlook:
+      com.hualai
+    com.ss.android.article.news:
+      com.hualai
+    com.jijia.bqwnl:
+      com.hualai
+    com.quark.browser:
+      com.hualai
+    com.baidu.BaiduMap:
+      com.hualai
+    com.UCMobile:
+      com.hualai
+    com.autonavi.minimap:
+      com.hualai
+    com.dragon.read:
+      com.hualai
+    com.jijia.jjweather:
+      com.hualai
+    com.zhuantech.sijiweather:
+      com.hualai
+    com.suxing.sustream:
+      com.hualai
+    com.yahoo.mobile.client.android.mail:
+      com.hualai
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.hualai]
+    path: /data/app/~~mfWz-KGTt_GGSzD5-77sgw==/com.hualai-kJdcOzH7VTdnhtr5Fhw47Q==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.hualai]
+    (No recorded stats)

@@ -1,0 +1,893 @@
+Activity Resolver Table:
+  Schemes:
+      fb581443778609845:
+        29855b7 com.airasia.mobile/com.facebook.CustomTabActivity filter 7847124
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb581443778609845"
+      airasia:
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter d4e7365
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "airasia"
+          Authority: "home": -1
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 7f17578
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "airasia"
+          Authority: "flightsearch": -1
+          Authority: "bigrewards": -1
+          Authority: "rewards": -1
+          Authority: "notifications": -1
+          Authority: "searchflight": -1
+          Authority: "mmb-flights": -1
+          Authority: "mmb-hotels": -1
+          Authority: "mmb": -1
+          Authority: "nickname": -1
+          Authority: "checkin": -1
+          Authority: "check-in": -1
+          Authority: "life": -1
+          Authority: "chat": -1
+          Authority: "game": -1
+          Authority: "inappbrowser": -1
+          Authority: "deals": -1
+          Authority: "faces": -1
+          Authority: "hotel": -1
+          Authority: "snap": -1
+          Authority: "food": -1
+          Authority: "ride": -1
+          Authority: "xpress": -1
+          Authority: "passes": -1
+          Authority: "apps": -1
+          Authority: "orderdetail": -1
+          Authority: "orderlisting": -1
+          Authority: "accounts": -1
+          Authority: "deeplink": -1
+          Authority: "aapocket": -1
+          Authority: "money-pocket": -1
+          Authority: "feedback": -1
+          Authority: "superplus": -1
+          Authority: "explore": -1
+          Authority: "flight": -1
+      http:
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter a5e2ceb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /hotel}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter e37e0e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /snap}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 670acc7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /food}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter b8862f4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /ride}"
+          Path: "PatternMatcher{PREFIX: /beauty}"
+          Path: "PatternMatcher{PREFIX: /grocer}"
+          Path: "PatternMatcher{PREFIX: /shop}"
+          Path: "PatternMatcher{PREFIX: /xpress}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter bb7492
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /bigrewards}"
+          Path: "PatternMatcher{PREFIX: /rewards}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter d42ba60
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /check-in}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 91847de
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "stgcheckin.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /check-in}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 891c8c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /orderdetail}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter fdd03ea
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /orderlisting}"
+          AutoVerify=true
+      https:
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter a55e45c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /mmb}"
+          Path: "PatternMatcher{PREFIX: /flights/select}"
+          Path: "PatternMatcher{PREFIX: /superplus}"
+          Path: "PatternMatcher{PREFIX: /flight}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 6ae183a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /hotel}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 48aea48
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /snap}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 3557e06
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /food}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 3f0aa1d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /bigrewards}"
+          Path: "PatternMatcher{PREFIX: /rewards}"
+          Path: "PatternMatcher{PREFIX: /aa/money-pocket}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 8414e63
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /ride}"
+          Path: "PatternMatcher{PREFIX: /beauty}"
+          Path: "PatternMatcher{PREFIX: /grocer}"
+          Path: "PatternMatcher{PREFIX: /shop}"
+          Path: "PatternMatcher{PREFIX: /xpress}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 72cb19
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /check-in}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 8f06dbf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "stgcheckin.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /check-in}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 15bffd5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /orderdetail}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 94826db
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /orderlisting}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 669c451
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "airasia.onelink.me": -1
+          Authority: "app.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /F4uy}"
+          Path: "PatternMatcher{PREFIX: /F4uy}"
+          AutoVerify=true
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter c7f74b6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "store.airasia.com": -1
+          Path: "PatternMatcher{PREFIX: /apps}"
+          AutoVerify=true
+      fbconnect:
+        29855b7 com.airasia.mobile/com.facebook.CustomTabActivity filter 3b5548d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.airasia.mobile": -1
+      optly2472360027:
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 77732cf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "optly2472360027"
+      tagmanager.c.com.airasia.mobile:
+        6062642 com.airasia.mobile/com.google.android.gms.tagmanager.PreviewActivity filter 9529653
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tagmanager.c.com.airasia.mobile"
+        bd2c0bc com.airasia.mobile/com.google.android.gms.tagmanager.TagManagerPreviewActivity filter cdd8845
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tagmanager.c.com.airasia.mobile"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 3b9b72e
+          Action: "com.airasia.mobile.MESSAGE"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b54648e com.airasia.mobile/com.airasia.sendbird_call.ui.CallMainActivity filter d6644af
+          Action: "android.intent.action.MAIN"
+      android.intent.action.VIEW:
+        9297b90 com.airasia.mobile/com.airasia.miniapps.ui.naluri.MiniAppActivity filter bafac89
+          Action: "android.intent.action.VIEW"
+      com.airasia.mobile.MESSAGE:
+        42225a9 com.airasia.mobile/.SplashScreenActivity filter 3b9b72e
+          Action: "com.airasia.mobile.MESSAGE"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        df17afd com.airasia.mobile/com.baidu.android.pushservice.RegistrationReceiver filter dfdba43
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        d1141ee com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter e83c68f
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        7375184 com.airasia.mobile/com.clevertap.android.xps.XiaomiMessageReceiver filter e1deda2
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter 9341aa7
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        39a01f0 com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 4ca2369
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.xiaomi.mipush.ERROR:
+        7375184 com.airasia.mobile/com.clevertap.android.xps.XiaomiMessageReceiver filter e71ba33
+          Action: "com.xiaomi.mipush.ERROR"
+      android.intent.action.MEDIA_MOUNTED:
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter 9341aa7
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.baidu.android.pushservice.action.notification.CLICK:
+        2e90d3e com.airasia.mobile/.PushReceiverBaidu filter b37b79f
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+        378616 com.airasia.mobile/com.ekoapp.push.EkoBaiduMessageReceiver filter d82fb97
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+      com.baidu.android.pushservice.action.media.CLICK:
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.baidu.android.pushservice.action.BIND_SYNC:
+        df17afd com.airasia.mobile/com.baidu.android.pushservice.RegistrationReceiver filter ff8a3f2
+          Action: "com.baidu.android.pushservice.action.METHOD"
+          Action: "com.baidu.android.pushservice.action.BIND_SYNC"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        6354d1c com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 1d88d25
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        4363b9a com.airasia.mobile/com.xiaomi.push.service.receivers.NetworkStatusReceiver filter 45c7ccb
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Category: "android.intent.category.DEFAULT"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter 9341aa7
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        3d38efa com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 6003cab
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.google.android.gms.analytics.ANALYTICS_DISPATCH:
+        4a5d0ec com.airasia.mobile/com.google.android.gms.analytics.AnalyticsReceiver filter 2ca0cb5
+          Action: "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+      com.baidu.android.pushservice.action.notification.SHOW:
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter 9341aa7
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        d5423b4 com.airasia.mobile/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter ec3bdd
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        6354d1c com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 1d88d25
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        69ae8c0 com.airasia.mobile/com.google.android.gms.analytics.CampaignTrackingReceiver filter 75fc9f9
+          Action: "com.android.vending.INSTALL_REFERRER"
+        8e4bf4a com.airasia.mobile/com.google.android.gms.tagmanager.InstallReferrerReceiver filter 8ea2ebb
+          Action: "com.android.vending.INSTALL_REFERRER"
+        5950fd8 com.airasia.mobile/com.appsflyer.SingleInstallBroadcastReceiver filter 45bbf31
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        8c10352 com.airasia.mobile/com.google.firebase.iid.FirebaseInstanceIdReceiver filter c9d9623
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        d1141ee com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter e83c68f
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        7d81f08 com.airasia.mobile/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8a9d6a1
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        7d81f08 com.airasia.mobile/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8a9d6a1
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter 9341aa7
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        7d81f08 com.airasia.mobile/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8a9d6a1
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.USER_PRESENT:
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter 9341aa7
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.baidu.android.pushservice.action.MESSAGE:
+        2e90d3e com.airasia.mobile/.PushReceiverBaidu filter b37b79f
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+        378616 com.airasia.mobile/com.ekoapp.push.EkoBaiduMessageReceiver filter d82fb97
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+      com.baidu.android.pushservice.action.RECEIVE:
+        2e90d3e com.airasia.mobile/.PushReceiverBaidu filter b37b79f
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+        378616 com.airasia.mobile/com.ekoapp.push.EkoBaiduMessageReceiver filter d82fb97
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter 9341aa7
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        72c7766 com.airasia.mobile/com.baidu.android.pushservice.PushServiceReceiver filter f786b54
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+        39a01f0 com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 4ca2369
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.baidu.android.pushservice.action.METHOD:
+        df17afd com.airasia.mobile/com.baidu.android.pushservice.RegistrationReceiver filter ff8a3f2
+          Action: "com.baidu.android.pushservice.action.METHOD"
+          Action: "com.baidu.android.pushservice.action.BIND_SYNC"
+      com.xiaomi.push.PING_TIMER:
+        9692ca8 com.airasia.mobile/com.xiaomi.push.service.receivers.PingReceiver filter f5363c1
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        7375184 com.airasia.mobile/com.clevertap.android.xps.XiaomiMessageReceiver filter d7c1d6d
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        13ba0c6 com.airasia.mobile/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 83f887
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        b21e1e4 com.airasia.mobile/com.sendbird.android.SendBirdFirebaseInstanceIDService filter a98d64d
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+      com.clevertap.PUSH_EVENT:
+        e74354c com.airasia.mobile/com.clevertap.android.sdk.pushnotification.CTNotificationIntentService filter 4800995
+          Action: "com.clevertap.PUSH_EVENT"
+      com.google.firebase.MESSAGING_EVENT:
+        bc8029e com.airasia.mobile/com.airasia.service.MyFirebaseMessagingService filter 929717f
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        93c776 com.airasia.mobile/com.google.firebase.messaging.FirebaseMessagingService filter f61177
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        ece502 com.airasia.mobile/com.sendbird.android.SendBirdFirebaseMessagingService filter 4304e13
+          Action: "com.google.firebase.MESSAGING_EVENT"
+      com.baidu.android.pushservice.action.PUSH_SERVICE:
+        4e9c720 com.airasia.mobile/com.baidu.android.pushservice.PushService filter 4f5b8d9
+          Action: "com.baidu.android.pushservice.action.PUSH_SERVICE"
+      com.clevertap.BG_EVENT:
+        a555a38 com.airasia.mobile/com.clevertap.android.sdk.pushnotification.amp.CTBackgroundIntentService filter 724aa11 permission android.permission.BIND_JOB_SERVICE
+          Action: "com.clevertap.BG_EVENT"
+      android.media.browse.MediaBrowserService:
+        badaaaa com.airasia.mobile/com.airasia.aaradio.mediacontrols.MusicPlayerService filter c6da69b
+          Action: "android.media.browse.MediaBrowserService"
+      com.huawei.push.action.MESSAGING_EVENT:
+        60d3850 com.airasia.mobile/com.sendbird.android.SendBirdHmsMessagingService filter 8a98a49
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+
+Domain verification status:
+  com.airasia.mobile:
+    ID: ec2e40bf-8fb0-412b-9a6d-1a7c3c3fc1b1
+    Signatures: [EE:07:44:3B:B2:C0:64:CA:E9:A6:4F:B8:C7:6F:A1:F4:54:F8:AF:7F:1A:DA:6E:6D:B7:C2:DD:47:1F:4C:EE:32]
+    Domain verification state:
+      airasia.onelink.me: none
+      store.airasia.com: none
+      app.airasia.com: none
+      stgcheckin.airasia.com: none
+      www.airasia.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          airasia.onelink.me
+          store.airasia.com
+          app.airasia.com
+          stgcheckin.airasia.com
+          www.airasia.com
+
+Permissions:
+  Permission [baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile.com.airasia.mobile] (68ca7ed):
+    sourcePackage=com.airasia.mobile
+    uid=10148 gids=[] type=0 prot=signature
+    perm=PermissionInfo{35be622 baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile.com.airasia.mobile}
+
+Permissions:
+  Permission [com.airasia.mobile.com.airasia.mobile.permission.MIPUSH_RECEIVE] (e8b88b3):
+    sourcePackage=com.airasia.mobile
+    uid=10148 gids=[] type=0 prot=signature
+    perm=PermissionInfo{281ee70 com.airasia.mobile.com.airasia.mobile.permission.MIPUSH_RECEIVE}
+
+Permissions:
+  Permission [com.airasia.mobile.permission.MIPUSH_RECEIVE] (298d5e9):
+    sourcePackage=com.airasia.mobile
+    uid=10148 gids=[] type=0 prot=signature
+    perm=PermissionInfo{776426e com.airasia.mobile.permission.MIPUSH_RECEIVE}
+
+Permissions:
+  Permission [baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile] (4abfd0f):
+    sourcePackage=com.airasia.mobile
+    uid=10148 gids=[] type=0 prot=signature
+    perm=PermissionInfo{cef819c baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile}
+
+Registered ContentProviders:
+  com.airasia.mobile/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{61fe7a5 com.airasia.mobile/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.airasia.mobile/com.imagepicker.ImagePickerProvider:
+    Provider{2c8177a com.airasia.mobile/com.imagepicker.ImagePickerProvider}
+  com.airasia.mobile/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{8b55b2b com.airasia.mobile/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.airasia.mobile/androidx.core.content.FileProvider:
+    Provider{5411b88 com.airasia.mobile/androidx.core.content.FileProvider}
+  com.airasia.mobile/com.facebook.FacebookContentProvider:
+    Provider{64c5921 com.airasia.mobile/com.facebook.FacebookContentProvider}
+  com.airasia.mobile/com.baidu.android.pushservice.PushInfoProvider:
+    Provider{2303146 com.airasia.mobile/com.baidu.android.pushservice.PushInfoProvider}
+  com.airasia.mobile/androidx.work.impl.WorkManagerInitializer:
+    Provider{fac7f07 com.airasia.mobile/androidx.work.impl.WorkManagerInitializer}
+  com.airasia.mobile/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{1906834 com.airasia.mobile/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.airasia.mobile/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{674665d com.airasia.mobile/com.google.firebase.provider.FirebaseInitProvider}
+  com.airasia.mobile/com.facebook.internal.FacebookInitProvider:
+    Provider{fae1bd2 com.airasia.mobile/com.facebook.internal.FacebookInitProvider}
+  com.airasia.mobile/com.ekoapp.push.PushInitProvider:
+    Provider{804a3 com.airasia.mobile/com.ekoapp.push.PushInitProvider}
+  com.airasia.mobile/com.RNFetchBlob.Utils.FileProvider:
+    Provider{de5d3a0 com.airasia.mobile/com.RNFetchBlob.Utils.FileProvider}
+  com.airasia.mobile/io.sentry.android.core.SentryInitProvider:
+    Provider{f160b59 com.airasia.mobile/io.sentry.android.core.SentryInitProvider}
+  com.airasia.mobile/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{3ae231e com.airasia.mobile/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+
+ContentProvider Authorities:
+  [com.airasia.mobile.fileprovider]:
+    Provider{3ae231e com.airasia.mobile/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{70c47ff com.airasia.mobile}
+  [com.airasia.mobile.firebaseinitprovider]:
+    Provider{674665d com.airasia.mobile/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{c6489cc com.airasia.mobile}
+  [com.airasia.mobile.provider]:
+    Provider{5411b88 com.airasia.mobile/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{8930415 com.airasia.mobile}
+  [com.airasia.mobile.com.airasia.mobile.bdpush]:
+    Provider{2303146 com.airasia.mobile/com.baidu.android.pushservice.PushInfoProvider}
+      applicationInfo=ApplicationInfo{f15532a com.airasia.mobile}
+  [com.airasia.mobile.push.init.provider]:
+    Provider{804a3 com.airasia.mobile/com.ekoapp.push.PushInitProvider}
+      applicationInfo=ApplicationInfo{7e7651b com.airasia.mobile}
+  [com.airasia.mobile.FacebookInitProvider]:
+    Provider{fae1bd2 com.airasia.mobile/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{c3676b8 com.airasia.mobile}
+  [com.facebook.app.com.airasia.mobile.FacebookContentProvider241246239643612]:
+    Provider{64c5921 com.airasia.mobile/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{5accc91 com.airasia.mobile}
+  [com.airasia.mobile.SentryInitProvider]:
+    Provider{f160b59 com.airasia.mobile/io.sentry.android.core.SentryInitProvider}
+      applicationInfo=ApplicationInfo{a0d77f6 com.airasia.mobile}
+  [com.airasia.mobile.workmanager-init]:
+    Provider{fac7f07 com.airasia.mobile/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{8d37f7 com.airasia.mobile}
+  [com.airasia.mobile.firebaseperfprovider]:
+    Provider{1906834 com.airasia.mobile/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{3384664 com.airasia.mobile}
+  [com.airasia.mobile.mobileadsinitprovider]:
+    Provider{8b55b2b com.airasia.mobile/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{9c0a0cd com.airasia.mobile}
+  [com.airasia.mobile.lifecycle-process]:
+    Provider{61fe7a5 com.airasia.mobile/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{3911d82 com.airasia.mobile}
+  [com.airasia.mobile.imagepickerprovider]:
+    Provider{2c8177a com.airasia.mobile/com.imagepicker.ImagePickerProvider}
+      applicationInfo=ApplicationInfo{535c93 com.airasia.mobile}
+
+Key Set Manager:
+  [com.airasia.mobile]
+      Signing KeySets: 147
+
+Packages:
+  Package [com.airasia.mobile] (66564d0):
+    userId=10148
+    pkg=Package{6c37cc9 com.airasia.mobile}
+    codePath=/data/app/~~Oiak3X1sOLv2ZID7uK9ReA==/com.airasia.mobile-dAdnFNt1dyeAsx4FeQpccQ==
+    resourcePath=/data/app/~~Oiak3X1sOLv2ZID7uK9ReA==/com.airasia.mobile-dAdnFNt1dyeAsx4FeQpccQ==
+    legacyNativeLibraryDir=/data/app/~~Oiak3X1sOLv2ZID7uK9ReA==/com.airasia.mobile-dAdnFNt1dyeAsx4FeQpccQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=4044 minSdk=23 targetSdk=30
+    minExtensionVersions=[]
+    versionName=11.28.1
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{6c37cc9 com.airasia.mobile}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    queriesIntents=[Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=com.appsflyer.oem.PRELOAD_PROVIDER }]
+    dataDir=/data/user/0/com.airasia.mobile
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.simalliance.openmobileapi
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-18 06:11:32
+    firstInstallTime=2025-05-18 06:11:38
+    lastUpdateTime=2025-05-18 06:11:38
+    signatures=PackageSignatures{db78fce version:3, signatures:[1029c38e], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.airasia.mobile.com.airasia.mobile.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile.com.airasia.mobile: prot=signature, INSTALLED
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile: prot=signature, INSTALLED
+      com.airasia.mobile.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.INTERNET
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.GET_TASKS
+      android.permission.DISABLE_KEYGUARD
+      android.permission.WRITE_CONTACTS
+      android.permission.READ_PROFILE
+      android.permission.WRITE_SETTINGS
+      android.permission.NFC
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS
+      org.simalliance.openmobileapi.SMARTCARD
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.WRITE_APN_SETTINGS
+      android.permission.CAMERA
+      android.permission.VIBRATE
+      android.permission.READ_CONTACTS
+      android.permission.GET_ACCOUNTS
+      android.permission.USE_CREDENTIALS
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.USE_FINGERPRINT
+      com.airasia.mobile.com.airasia.mobile.permission.MIPUSH_RECEIVE
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile.com.airasia.mobile
+      android.permission.FOREGROUND_SERVICE
+      android.permission.BLUETOOTH
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.WAKE_LOCK
+      com.android.vending.CHECK_LICENSE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_DOWNLOAD_MANAGER
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.EXPAND_STATUS_BAR
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile
+      com.airasia.mobile.permission.MIPUSH_RECEIVE
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.NFC: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile.com.airasia.mobile: granted=true
+      com.airasia.mobile.com.airasia.mobile.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      com.airasia.mobile.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.airasia.mobile: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147899 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.READ_PHONE_STATE: granted=false
+        android.permission.WRITE_CONTACTS: granted=false
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_CALENDAR: granted=false
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.GET_ACCOUNTS: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false
+        android.permission.READ_CONTACTS: granted=false
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.airasia.mobile
+    com.google.android.settings.intelligence:
+      com.airasia.mobile
+    com.google.android.gm:
+      com.airasia.mobile
+    com.google.android.youtube:
+      com.airasia.mobile
+    com.airasia.mobile:
+      com.android.chrome
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=10
+  User 0:
+    seq=1, package=com.google.android.apps.docs
+    seq=3, package=io.github.ylimit.droidbotapp
+    seq=4, package=com.google.android.deskclock
+    seq=8, package=com.google.android.gms
+    seq=9, package=com.airasia.mobile
+
+
+Dexopt state:
+  [com.airasia.mobile]
+    path: /data/app/~~Oiak3X1sOLv2ZID7uK9ReA==/com.airasia.mobile-dAdnFNt1dyeAsx4FeQpccQ==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.airasia.mobile]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 245  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:49         now         155       86301           0           2          13          89          21
+          0:49         now         155       86301           0           2          13          89          21
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:49         now         147           2           3           1           1           1           0           0
+          0:49         now         147           2           3           1           1           1           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:49         now          10           1           1           5           4          24          25          84
+          0:49         now          10           1           1           5           4          24          25          84

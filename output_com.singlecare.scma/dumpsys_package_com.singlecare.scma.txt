@@ -1,0 +1,406 @@
+Activity Resolver Table:
+  Schemes:
+      singlecaremobile:
+        148564b com.singlecare.scma/.view.activity.login.SetPasswordActivity filter fe69941
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "singlecaremobile"
+          Authority: "path": -1
+          AutoVerify=true
+      https:
+        148564b com.singlecare.scma/.view.activity.login.SetPasswordActivity filter f19c828
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "links.singlecare.com": -1
+          Path: "PatternMatcher{PREFIX: /a}"
+          AutoVerify=true
+        148564b com.singlecare.scma/.view.activity.login.SetPasswordActivity filter 1273ee6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "qa.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /forgot-password}"
+          AutoVerify=true
+        148564b com.singlecare.scma/.view.activity.login.SetPasswordActivity filter ec40c27
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "qa.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /change-password}"
+          AutoVerify=true
+        148564b com.singlecare.scma/.view.activity.login.SetPasswordActivity filter 2573ed4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /change-password}"
+          AutoVerify=true
+        148564b com.singlecare.scma/.view.activity.login.SetPasswordActivity filter 42887d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /forgot-password}"
+          AutoVerify=true
+        f986372 com.singlecare.scma/.view.activity.MainActivity filter e5b43c3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "singlecare.onelink.me": -1
+          AutoVerify=true
+        5742f79 com.singlecare.scma/.view.activity.AccountActivity filter 98544be
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "qa.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /signin}"
+        5742f79 com.singlecare.scma/.view.activity.AccountActivity filter 1a4591f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "qa.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /signup}"
+        5742f79 com.singlecare.scma/.view.activity.AccountActivity filter 31b946c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /signup}"
+          AutoVerify=true
+        5742f79 com.singlecare.scma/.view.activity.AccountActivity filter 17f4a35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.singlecare.com": -1
+          Path: "PatternMatcher{GLOB: /signin}"
+          AutoVerify=true
+      fbconnect:
+        5cceeca com.singlecare.scma/com.facebook.CustomTabActivity filter 33f683b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.singlecare.scma": -1
+      singlecareapp:
+        f986372 com.singlecare.scma/.view.activity.MainActivity filter 7537440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "singlecareapp"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        86065c5 com.singlecare.scma/.view.activity.SplashScreenActivity filter b6b8b1a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        aec8d22 com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 404a3b3
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        f320504 com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter aeb8aed
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        922b734 com.singlecare.scma/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter dd2095d
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        f4c6d70 com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 182e8e9
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        4ea596e com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 81bc80f
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        9302846 com.singlecare.scma/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 1eaaa07
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        f4c6d70 com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 182e8e9
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        c638b58 com.singlecare.scma/com.appsflyer.SingleInstallBroadcastReceiver filter 8e754b1
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        8332d96 com.singlecare.scma/com.google.firebase.iid.FirebaseInstanceIdReceiver filter db24d17
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        aec8d22 com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 404a3b3
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        562f09c com.singlecare.scma/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5182aa5
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        562f09c com.singlecare.scma/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5182aa5
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        562f09c com.singlecare.scma/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5182aa5
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        f320504 com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter aeb8aed
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        2fc7a88 com.singlecare.scma/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 5cc21
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        8e69e7a com.singlecare.scma/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter ad6d62b
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        c3682d2 com.singlecare.scma/pushnotification.MyFirebaseMessagingService filter f7ddfa3
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          Category: "android.intent.category.BROWSABLE"
+        dce12a0 com.singlecare.scma/com.google.firebase.messaging.FirebaseMessagingService filter 22ade59
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.singlecare.scma:
+    ID: dba70e25-e061-46d7-9449-986260043fe8
+    Signatures: [1A:3D:8E:67:AD:B2:83:37:D5:5E:4A:D9:55:27:C8:5F:A3:25:CC:60:37:41:A3:99:DA:40:B0:70:69:22:26:86]
+    Domain verification state:
+      links.singlecare.com: verified
+      www.singlecare.com: verified
+      singlecare.onelink.me: verified
+      qa.singlecare.com: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          links.singlecare.com
+          www.singlecare.com
+          singlecare.onelink.me
+          qa.singlecare.com
+
+Registered ContentProviders:
+  com.singlecare.scma/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{aba6513 com.singlecare.scma/com.google.firebase.provider.FirebaseInitProvider}
+  com.singlecare.scma/com.facebook.internal.FacebookInitProvider:
+    Provider{bdb0350 com.singlecare.scma/com.facebook.internal.FacebookInitProvider}
+  com.singlecare.scma/androidx.startup.InitializationProvider:
+    Provider{722f949 com.singlecare.scma/androidx.startup.InitializationProvider}
+  com.singlecare.scma/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{94e924e com.singlecare.scma/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.singlecare.scma/androidx.core.content.FileProvider:
+    Provider{d5c3f6f com.singlecare.scma/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.singlecare.scma.firebaseinitprovider]:
+    Provider{aba6513 com.singlecare.scma/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{a75047c com.singlecare.scma}
+  [com.singlecare.scma.FacebookInitProvider]:
+    Provider{bdb0350 com.singlecare.scma/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{f18e105 com.singlecare.scma}
+  [com.singlecare.scma.androidx-startup]:
+    Provider{722f949 com.singlecare.scma/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{105855a com.singlecare.scma}
+  [com.singlecare.scma.lifecycle-process]:
+    Provider{94e924e com.singlecare.scma/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{b97638b com.singlecare.scma}
+  [com.singlecare.scma]:
+    Provider{d5c3f6f com.singlecare.scma/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{84bec68 com.singlecare.scma}
+
+Key Set Manager:
+  [com.singlecare.scma]
+      Signing KeySets: 174
+
+Packages:
+  Package [com.singlecare.scma] (acb8881):
+    userId=10199
+    pkg=Package{1069d26 com.singlecare.scma}
+    codePath=/data/app/~~TePMdWvMyMyK3yV0tW-V4w==/com.singlecare.scma-JrYQWz78Uu640JmOGlVtxA==
+    resourcePath=/data/app/~~TePMdWvMyMyK3yV0tW-V4w==/com.singlecare.scma-JrYQWz78Uu640JmOGlVtxA==
+    legacyNativeLibraryDir=/data/app/~~TePMdWvMyMyK3yV0tW-V4w==/com.singlecare.scma-JrYQWz78Uu640JmOGlVtxA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=13393 minSdk=23 targetSdk=31
+    minExtensionVersions=[]
+    versionName=5.4.6
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{1069d26 com.singlecare.scma}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    queriesIntents=[Intent { act=com.appsflyer.referrer.INSTALL_PROVIDER }]
+    dataDir=/data/user/0/com.singlecare.scma
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-18 07:34:45
+    firstInstallTime=2025-05-18 07:34:45
+    lastUpdateTime=2025-05-18 07:34:45
+    signatures=PackageSignatures{516ad67 version:2, signatures:[507a0459], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.INTERNET
+      android.permission.CALL_PHONE
+      com.singlecare.scma.permission.MAPS_RECEIVE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      com.google.android.gms.permission.AD_ID
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      android.permission.POST_NOTIFICATIONS
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147590 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CALL_PHONE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.singlecare.scma
+    com.google.android.settings.intelligence:
+      com.singlecare.scma
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=96
+  User 0:
+    seq=4, package=com.google.android.deskclock
+    seq=8, package=com.google.android.gms
+    seq=12, package=com.airasia.mobile
+    seq=24, package=com.speedsoftware.explorer
+    seq=26, package=com.google.android.apps.docs
+    seq=34, package=com.babbel.mobile.android.en
+    seq=35, package=com.google.android.googlequicksearchbox
+    seq=47, package=com.rsupport.mvagent
+    seq=50, package=com.google.android.apps.photos
+    seq=52, package=com.microsoft.office.outlook
+    seq=71, package=com.affirm.central
+    seq=75, package=com.cisco.connect.cloud
+    seq=80, package=com.wakefern.shoprite
+    seq=84, package=net.cozic.joplin
+    seq=88, package=com.traveloka.android
+    seq=94, package=io.github.ylimit.droidbotapp
+    seq=95, package=com.singlecare.scma
+
+
+Dexopt state:
+  [com.singlecare.scma]
+    path: /data/app/~~TePMdWvMyMyK3yV0tW-V4w==/com.singlecare.scma-JrYQWz78Uu640JmOGlVtxA==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.singlecare.scma]
+     base.apk - 838
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 3  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:55         now          19       63833           0           0           5           6           1
+          1:55        0:55          10         662           0           0           3           1           1
+          2:55        1:55          11       23687           0           0           1           4           1
+          3:55        2:55          21       44708           0           1           7          27          19
+          4:55        3:55           9       18345           0           0           1           2           0
+          5:55        4:55          14       38057           0           0           3           2           0
+          6:55        5:55          12       35767           0           0           2           3           0
+          7:55        6:55          24       39999           0           0           5          10           4
+          8:55        7:55           7       28846           0           0           1           2           1
+          9:55        8:55          18       29534           0           0           3           4           2
+      01:23:56         now         619     1116059           0           4          98         355          74
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:55         now          19           0           0           0           0           0           0           0
+          1:55        0:55          10           0           0           0           0           0           0           0
+          2:55        1:55          11           0           0           0           0           0           0           0
+          3:55        2:55          19           0           1           0           1           0           0           0
+          4:55        3:55           9           0           0           0           0           0           0           0
+          5:55        4:55          14           0           0           0           0           0           0           0
+          6:55        5:55          12           0           0           0           0           0           0           0
+          7:55        6:55          23           0           1           0           0           0           0           0
+          8:55        7:55           7           0           0           0           0           0           0           0
+          9:55        8:55          17           1           0           0           0           0           0           0
+      01:23:56         now         592           8          12           3           2           1           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:55         now           4           0           1           0           0           0           1          13
+          1:55        0:55           2           0           1           0           0           3           1           3
+          2:55        1:55           0           0           1           0           0           0           0          10
+          3:55        2:55           6           0           1           2           0           0           2          10
+          4:55        3:55           0           0           1           0           0           0           2           6
+          5:55        4:55           3           0           0           2           0           0           3           6
+          6:55        5:55           1           0           1           0           0           1           2           7
+          7:55        6:55           4           0           1           0           0           2           2          15
+          8:55        7:55           1           0           0           1           0           0           0           5
+          9:55        8:55           3           0           0           0           3           3           1           8
+      01:23:56         now          75           5          17          20          22          58          74         347

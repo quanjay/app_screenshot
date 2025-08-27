@@ -1,0 +1,684 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/x-vcard:
+        371ebf2 com.kohls.mcommerce.opal/com.google.zxing.client.android.encode.EncodeActivity filter 8a970c0
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/x-vcard"
+      text/plain:
+        371ebf2 com.kohls.mcommerce.opal/com.google.zxing.client.android.encode.EncodeActivity filter 4ffb1f9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Base MIME Types:
+      text:
+        371ebf2 com.kohls.mcommerce.opal/com.google.zxing.client.android.encode.EncodeActivity filter 8a970c0
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/x-vcard"
+        371ebf2 com.kohls.mcommerce.opal/com.google.zxing.client.android.encode.EncodeActivity filter 4ffb1f9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Schemes:
+      com.kohls.mcommerce.opal:
+        4982c8e com.kohls.mcommerce.opal/.framework.view.activity.HomeActivity filter 1c324cb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.kohls.mcommerce.opal"
+          Authority: "masterpass": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      kohlsphone:
+        f7e4bc1 com.kohls.mcommerce.opal/.framework.view.activity.ProductDetailsActivity filter c213f66
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "kohlsphone"
+          Authority: "kohls.com": -1
+      com.kohls.mcommerce.opal.braintree:
+        4982c8e com.kohls.mcommerce.opal/.framework.view.activity.HomeActivity filter 6326caf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.kohls.mcommerce.opal.braintree"
+      cs-com.kohls.mcommerce.opal:
+        d7f5984 com.kohls.mcommerce.opal/com.contentsquare.android.analytics.internal.features.deeplink.DeepLinkActivity filter c97856d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "cs-com.kohls.mcommerce.opal"
+          Authority: "contentsquare.com": -1
+      com.kohls.mcommerce.opal.braintree.deeplinkhandler:
+        fee4e16 com.kohls.mcommerce.opal/com.braintreepayments.api.BraintreeDeepLinkActivity filter f462397
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.kohls.mcommerce.opal.braintree.deeplinkhandler"
+      http:
+        4982c8e com.kohls.mcommerce.opal/.framework.view.activity.HomeActivity filter 1ee839a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Path: "PatternMatcher{PREFIX: /checkout/checkout.jsp}"
+          Path: "PatternMatcher{PREFIX: /checkout/shopping_cart.jsp}"
+          Path: "PatternMatcher{PREFIX: /myaccount/dashboard.jsp}"
+          Path: "PatternMatcher{PREFIX: /product/}"
+          Path: "PatternMatcher{PREFIX: /catalog/}"
+          Path: "PatternMatcher{PREFIX: /catalog.jsp}"
+          Path: "PatternMatcher{PREFIX: /search.jsp}"
+          Path: "PatternMatcher{PREFIX: /walletpage}"
+          Path: "PatternMatcher{PREFIX: /feature/walletpage}"
+          Path: "PatternMatcher{PREFIX: /wifi/email.html}"
+          Path: "PatternMatcher{PREFIX: /feature/rewards.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/account.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/home.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/kccm.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/kohlspay.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/helpandcontact.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/instoretool.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/storelocator.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/orderstatus.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/feedback.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/holidaygift.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/departments.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/flipp.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/coupons-deals.jsp}"
+          Path: "PatternMatcher{GLOB: /feature/birthday-Perks}"
+          Path: "PatternMatcher{GLOB: /feature/shopping-Preferences}"
+          Path: "PatternMatcher{PREFIX: /feature/outfit.jsp}"
+          AutoVerify=true
+      https:
+        4982c8e com.kohls.mcommerce.opal/.framework.view.activity.HomeActivity filter 8a9f045
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.kohls.com": -1
+          Path: "PatternMatcher{PREFIX: /babyregistry}"
+        4982c8e com.kohls.mcommerce.opal/.framework.view.activity.HomeActivity filter 1ee839a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Authority: "www.kohls.com": -1
+          Path: "PatternMatcher{PREFIX: /checkout/checkout.jsp}"
+          Path: "PatternMatcher{PREFIX: /checkout/shopping_cart.jsp}"
+          Path: "PatternMatcher{PREFIX: /myaccount/dashboard.jsp}"
+          Path: "PatternMatcher{PREFIX: /product/}"
+          Path: "PatternMatcher{PREFIX: /catalog/}"
+          Path: "PatternMatcher{PREFIX: /catalog.jsp}"
+          Path: "PatternMatcher{PREFIX: /search.jsp}"
+          Path: "PatternMatcher{PREFIX: /walletpage}"
+          Path: "PatternMatcher{PREFIX: /feature/walletpage}"
+          Path: "PatternMatcher{PREFIX: /wifi/email.html}"
+          Path: "PatternMatcher{PREFIX: /feature/rewards.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/account.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/home.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/kccm.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/kohlspay.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/helpandcontact.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/instoretool.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/storelocator.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/orderstatus.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/feedback.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/holidaygift.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/departments.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/flipp.jsp}"
+          Path: "PatternMatcher{PREFIX: /feature/coupons-deals.jsp}"
+          Path: "PatternMatcher{GLOB: /feature/birthday-Perks}"
+          Path: "PatternMatcher{GLOB: /feature/shopping-Preferences}"
+          Path: "PatternMatcher{PREFIX: /feature/outfit.jsp}"
+          AutoVerify=true
+      zxing:
+        a5d42a7 com.kohls.mcommerce.opal/com.google.zxing.client.android.CaptureActivity filter 9e2e2fd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "zxing"
+          Authority: "scan": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      android-app:
+        4982c8e com.kohls.mcommerce.opal/.framework.view.activity.HomeActivity filter 54eb4a8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "android-app"
+
+  Non-Data Actions:
+      com.google.zxing.client.android.ENCODE:
+        371ebf2 com.kohls.mcommerce.opal/com.google.zxing.client.android.encode.EncodeActivity filter c916243
+          Action: "com.google.zxing.client.android.ENCODE"
+          Category: "android.intent.category.DEFAULT"
+      com.google.zxing.client.android.SHARE:
+        d14d8ec com.kohls.mcommerce.opal/com.google.zxing.client.android.share.ShareActivity filter e8074b5
+          Action: "com.google.zxing.client.android.SHARE"
+          Category: "android.intent.category.DEFAULT"
+      com.google.zxing.client.android.SCAN:
+        a5d42a7 com.kohls.mcommerce.opal/com.google.zxing.client.android.CaptureActivity filter 82e7354
+          Action: "com.google.zxing.client.android.SCAN"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        a2c3e53 com.kohls.mcommerce.opal/.framework.view.activity.KohlsSplashScreen filter 7060390
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        93f074a com.kohls.mcommerce.opal/com.google.zxing.client.android.history.HistoryActivity filter 14ad6bb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        9ec97d8 com.kohls.mcommerce.opal/com.google.zxing.client.android.HelpActivity filter 910a731
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.google.zxing.client.android.SEARCH_BOOK_CONTENTS:
+        8aed53e com.kohls.mcommerce.opal/com.google.zxing.client.android.book.SearchBookContentsActivity filter 35ddf9f
+          Action: "com.google.zxing.client.android.SEARCH_BOOK_CONTENTS"
+          Category: "android.intent.category.DEFAULT"
+      com.kohls.mcommerce.opal.Kohls.NOTIFICATION:
+        a2c3e53 com.kohls.mcommerce.opal/.framework.view.activity.KohlsSplashScreen filter 4059489
+          Action: "com.kohls.mcommerce.opal.Kohls.NOTIFICATION"
+          Category: "android.intent.category.DEFAULT"
+      com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION:
+        67935a2 com.kohls.mcommerce.opal/com.urbanairship.actions.RateAppActivity filter d3f6233
+          Action: "com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION"
+          Category: "android.intent.category.DEFAULT"
+      com.kohls.mcommerce.opal.kohlsphone.NOTIFICATION:
+        4982c8e com.kohls.mcommerce.opal/.framework.view.activity.HomeActivity filter eefc8bc
+          Action: "com.kohls.mcommerce.opal.kohlsphone.NOTIFICATION"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        371ebf2 com.kohls.mcommerce.opal/com.google.zxing.client.android.encode.EncodeActivity filter 8a970c0
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/x-vcard"
+        371ebf2 com.kohls.mcommerce.opal/com.google.zxing.client.android.encode.EncodeActivity filter 4ffb1f9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        f83997f com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b073d4c
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        a9a0d9 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 811ca9e
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        af1f613 com.kohls.mcommerce.opal/androidx.profileinstaller.ProfileInstallReceiver filter c14174e
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        b8a7195 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 6cbf2aa
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        2424e9b com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 110e238
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.amazon.device.messaging.intent.REGISTRATION:
+        d612087 com.kohls.mcommerce.opal/com.urbanairship.push.adm.AdmPushReceiver filter 9ae2bb4
+          Action: "com.amazon.device.messaging.intent.REGISTRATION"
+          Action: "com.amazon.device.messaging.intent.RECEIVE"
+          Category: "com.kohls.mcommerce.opal"
+      android.intent.action.DEVICE_STORAGE_OK:
+        b8a7195 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 6cbf2aa
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        a5a89f0 com.kohls.mcommerce.opal/com.analytics.helper.GPBroadcastReceiver filter e340b69
+          Action: "com.android.vending.INSTALL_REFERRER"
+        3d909ee com.kohls.mcommerce.opal/com.appsflyer.SingleInstallBroadcastReceiver filter 83ee8f
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.urbanairship.push.OPENED:
+        1b1a3dd com.kohls.mcommerce.opal/com.urbanairship.push.NotificationProxyReceiver filter 27e4b52
+          Action: "com.urbanairship.push.OPENED"
+          Category: "com.kohls.mcommerce.opal"
+          mPriority=-999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START:
+        97a917c com.kohls.mcommerce.opal/androidx.tracing.perfetto.TracingReceiver filter 36bea05
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING"
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START"
+          Action: "androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START"
+      androidx.tracing.perfetto.action.ENABLE_TRACING:
+        97a917c com.kohls.mcommerce.opal/androidx.tracing.perfetto.TracingReceiver filter 36bea05
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING"
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START"
+          Action: "androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START"
+      android.intent.action.LOCALE_CHANGED:
+        e253e23 com.kohls.mcommerce.opal/com.urbanairship.locale.LocaleChangeReceiver filter dc4f20
+          Action: "android.intent.action.LOCALE_CHANGED"
+      androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START:
+        97a917c com.kohls.mcommerce.opal/androidx.tracing.perfetto.TracingReceiver filter 36bea05
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING"
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START"
+          Action: "androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        af1f613 com.kohls.mcommerce.opal/androidx.profileinstaller.ProfileInstallReceiver filter 7b1c050
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        868bea1 com.kohls.mcommerce.opal/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 3468c6
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        f83997f com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b073d4c
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        86d9211 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 34e8f76
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        86d9211 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 34e8f76
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        af1f613 com.kohls.mcommerce.opal/androidx.profileinstaller.ProfileInstallReceiver filter d277249
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        af1f613 com.kohls.mcommerce.opal/androidx.profileinstaller.ProfileInstallReceiver filter 7fbe06f
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        34fd6fa com.kohls.mcommerce.opal/com.gimbal.internal.service.GimbalServiceStartStopReceiver filter bdae4ab
+          Action: "android.intent.action.BOOT_COMPLETED"
+        86d9211 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 34e8f76
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        b1e5a5a com.kohls.mcommerce.opal/com.instacart.library.truetime.BootCompletedBroadcastReceiver filter 710148b
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        a9a0d9 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 811ca9e
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.amazon.device.messaging.intent.RECEIVE:
+        d612087 com.kohls.mcommerce.opal/com.urbanairship.push.adm.AdmPushReceiver filter 9ae2bb4
+          Action: "com.amazon.device.messaging.intent.REGISTRATION"
+          Action: "com.amazon.device.messaging.intent.RECEIVE"
+          Category: "com.kohls.mcommerce.opal"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        b883e4d com.kohls.mcommerce.opal/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 88c2d02
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.urbanairship.automation.alarms.ALARM_FIRED:
+        c76551c com.kohls.mcommerce.opal/com.urbanairship.automation.alarms.AlarmOperationReceiver filter bf8f525
+          Action: "com.urbanairship.automation.alarms.ALARM_FIRED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        36d3977 com.kohls.mcommerce.opal/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 60de9e4
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      android.intent.action.ACTION_SHUTDOWN:
+        34fd6fa com.kohls.mcommerce.opal/com.gimbal.internal.service.GimbalServiceStartStopReceiver filter 521a708
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        69d4968 com.kohls.mcommerce.opal/.MyFcmListenerService filter bc62181
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        6b19414 com.kohls.mcommerce.opal/com.gimbal.internal.push.FcmListenerService filter 3254bd
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        26ddab2 com.kohls.mcommerce.opal/com.urbanairship.push.fcm.AirshipFirebaseMessagingService filter 9148a03
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        11ddd80 com.kohls.mcommerce.opal/com.google.firebase.messaging.FirebaseMessagingService filter 4347fb9
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.kohls.mcommerce.opal.service.GIMBAL_SERVICE:
+        c57c226 com.kohls.mcommerce.opal/com.gimbal.internal.service.GimbalService filter de96e67
+          Action: "com.kohls.mcommerce.opal.service.GIMBAL_SERVICE"
+
+Domain verification status:
+  com.kohls.mcommerce.opal:
+    ID: 8528c018-faf5-49cb-b205-a425afa868c6
+    Signatures: [EB:22:F0:0F:E0:D1:58:49:34:29:B4:A5:0F:CD:B1:7C:AE:13:C2:96:FF:26:27:07:42:65:F2:65:D4:D5:33:93]
+    Domain verification state:
+      www.kohls.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.kohls.com
+
+Permissions:
+  Permission [com.kohls.mcommerce.opal.permission.RECEIVE_ADM_MESSAGE] (2ae5462):
+    sourcePackage=com.kohls.mcommerce.opal
+    uid=10177 gids=[] type=0 prot=signature
+    perm=PermissionInfo{7bbf9f3 com.kohls.mcommerce.opal.permission.RECEIVE_ADM_MESSAGE}
+
+Permissions:
+  Permission [com.kohls.mcommerce.opal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (623a6b0):
+    sourcePackage=com.kohls.mcommerce.opal
+    uid=10177 gids=[] type=0 prot=signature
+    perm=PermissionInfo{617c929 com.kohls.mcommerce.opal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  com.kohls.mcommerce.opal/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{62154ae com.kohls.mcommerce.opal/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.kohls.mcommerce.opal/androidx.core.content.FileProvider:
+    Provider{92424f com.kohls.mcommerce.opal/androidx.core.content.FileProvider}
+  com.kohls.mcommerce.opal/.common.util.ChoosePhotoFileProvider:
+    Provider{6947ddc com.kohls.mcommerce.opal/.common.util.ChoosePhotoFileProvider}
+  com.kohls.mcommerce.opal/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{fbacee5 com.kohls.mcommerce.opal/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.kohls.mcommerce.opal/com.squareup.picasso.PicassoProvider:
+    Provider{7b20dba com.kohls.mcommerce.opal/com.squareup.picasso.PicassoProvider}
+  com.kohls.mcommerce.opal/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{edab46b com.kohls.mcommerce.opal/com.google.firebase.provider.FirebaseInitProvider}
+  com.kohls.mcommerce.opal/com.contentsquare.android.internal.features.initialize.AutoStart:
+    Provider{bd99bc8 com.kohls.mcommerce.opal/com.contentsquare.android.internal.features.initialize.AutoStart}
+  com.kohls.mcommerce.opal/androidx.startup.InitializationProvider:
+    Provider{dce7461 com.kohls.mcommerce.opal/androidx.startup.InitializationProvider}
+  com.kohls.mcommerce.opal/com.kohls.network.NetworkProvider:
+    Provider{c634b86 com.kohls.mcommerce.opal/com.kohls.network.NetworkProvider}
+
+ContentProvider Authorities:
+  [com.kohls.network.NetworkProvider]:
+    Provider{c634b86 com.kohls.mcommerce.opal/com.kohls.network.NetworkProvider}
+      applicationInfo=ApplicationInfo{6ee2c47 com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.androidx-startup]:
+    Provider{dce7461 com.kohls.mcommerce.opal/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{ad0ac74 com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.firebaseinitprovider]:
+    Provider{edab46b com.kohls.mcommerce.opal/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{51cf59d com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.CSAutoStart]:
+    Provider{bd99bc8 com.kohls.mcommerce.opal/com.contentsquare.android.internal.features.initialize.AutoStart}
+      applicationInfo=ApplicationInfo{4989a12 com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.com.vansuita.pickimage.provider]:
+    Provider{92424f com.kohls.mcommerce.opal/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{fd745e3 com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.mobileadsinitprovider]:
+    Provider{62154ae com.kohls.mcommerce.opal/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{6861be0 com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.com.squareup.picasso]:
+    Provider{7b20dba com.kohls.mcommerce.opal/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{2d84e99 com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.fileprovider]:
+    Provider{6947ddc com.kohls.mcommerce.opal/.common.util.ChoosePhotoFileProvider}
+      applicationInfo=ApplicationInfo{162455e com.kohls.mcommerce.opal}
+  [com.kohls.mcommerce.opal.mlkitinitprovider]:
+    Provider{fbacee5 com.kohls.mcommerce.opal/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{cae5d3f com.kohls.mcommerce.opal}
+
+Key Set Manager:
+  [com.kohls.mcommerce.opal]
+      Signing KeySets: 91
+
+Packages:
+  Package [com.kohls.mcommerce.opal] (461160c):
+    userId=10177
+    pkg=Package{b563b55 com.kohls.mcommerce.opal}
+    codePath=/data/app/~~lH42fknY_-pSRQRUW55XpQ==/com.kohls.mcommerce.opal-wilCPRvq-lb7oFuVBOS6yg==
+    resourcePath=/data/app/~~lH42fknY_-pSRQRUW55XpQ==/com.kohls.mcommerce.opal-wilCPRvq-lb7oFuVBOS6yg==
+    legacyNativeLibraryDir=/data/app/~~lH42fknY_-pSRQRUW55XpQ==/com.kohls.mcommerce.opal-wilCPRvq-lb7oFuVBOS6yg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=319 minSdk=28 targetSdk=34
+    minExtensionVersions=[]
+    versionName=8.2.17
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{b563b55 com.kohls.mcommerce.opal}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.SENDTO dat=*:/* }, Intent { act=android.intent.action.DIAL dat=*:/* }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.INSERT dat=content://*/* typ=vnd.android.cursor.dir/event }, Intent { act=android.intent.action.VIEW dat=sms:xx }, Intent { act=android.intent.action.DIAL }, Intent { act=com.appsflyer.referrer.INSTALL_PROVIDER }]
+    dataDir=/data/user/0/com.kohls.mcommerce.opal
+    supportsScreens=[medium, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      android.ext.adservices
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-05-08 08:25:54
+    firstInstallTime=2025-05-08 08:25:55
+    lastUpdateTime=2025-05-08 08:25:55
+    signatures=PackageSignatures{289596a version:2, signatures:[9ab9df97], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.kohls.mcommerce.opal.permission.RECEIVE_ADM_MESSAGE: prot=signature, INSTALLED
+      com.kohls.mcommerce.opal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.USE_FINGERPRINT
+      android.permission.REORDER_TASKS
+      android.permission.READ_PHONE_STATE
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.WAKE_LOCK
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.ACCESS_FINE_LOCATION
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.CAMERA
+      android.permission.EXPAND_STATUS_BAR
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.RECORD_AUDIO
+      android.permission.VIBRATE
+      android.permission.FLASHLIGHT
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.CHANGE_WIFI_STATE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.google.android.gms.permission.AD_ID
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+      android.permission.ACCESS_ADSERVICES_AD_ID
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_BASIC_PHONE_STATE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.USE_BIOMETRIC
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.BLUETOOTH_SCAN
+      android.permission.ACCESS_ADSERVICES_TOPICS
+      com.amazon.device.messaging.permission.RECEIVE
+      com.kohls.mcommerce.opal.permission.RECEIVE_ADM_MESSAGE
+      android.permission.FOREGROUND_SERVICE
+      com.kohls.mcommerce.opal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.samsung.android.mapsagent.permission.READ_APP_INFO
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      com.kohls.mcommerce.opal.permission.RECEIVE_ADM_MESSAGE: granted=true
+      com.kohls.mcommerce.opal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=139764 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.READ_PHONE_STATE: granted=false
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false
+        android.permission.BLUETOOTH_SCAN: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.kohls.mcommerce.opal:
+      com.google.android.apps.maps
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.kohls.mcommerce.opal
+    com.google.android.settings.intelligence:
+      com.kohls.mcommerce.opal
+    com.google.android.apps.youtube.music:
+      com.kohls.mcommerce.opal
+    com.google.android.apps.maps:
+      com.kohls.mcommerce.opal
+    com.google.android.gm:
+      com.kohls.mcommerce.opal
+    com.google.android.youtube:
+      com.kohls.mcommerce.opal
+    com.google.android.apps.photos:
+      com.kohls.mcommerce.opal
+    com.kohls.mcommerce.opal:
+      com.google.android.setupwizard
+      com.android.dialer
+      com.google.android.apps.messaging
+      org.chromium.webview_shell
+      com.android.camera2
+      com.android.chrome
+      com.google.android.gm
+      com.google.android.calendar
+      com.google.android.apps.docs
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=27
+  User 0:
+    seq=8, package=com.google.android.gms
+    seq=14, package=com.Dominos
+    seq=16, package=com.google.android.apps.docs
+    seq=20, package=com.getmimo
+    seq=24, package=com.jardogs.fmhmobile
+    seq=25, package=io.github.ylimit.droidbotapp
+    seq=26, package=com.kohls.mcommerce.opal
+
+
+Dexopt state:
+  [com.kohls.mcommerce.opal]
+    path: /data/app/~~lH42fknY_-pSRQRUW55XpQ==/com.kohls.mcommerce.opal-wilCPRvq-lb7oFuVBOS6yg==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.kohls.mcommerce.opal]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7071  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:22         now           9       17574           0           0           1           4           1
+          1:22        0:22           8       34409           0           0           3           2           1
+          2:22        1:22          23       27944           0           0           4           5           1
+          3:22        2:22          12       41136           0           0           4           7           5
+          4:22        3:22          23       33063           0           0           3           5           0
+          5:22        4:22          17       45926           0           0           3           8           4
+          6:22        5:22          23       32294           0           0           3           3           0
+          7:22        6:22         159       74628           0           2          14          83          17
+          7:22         now         274      306974           0           2          35         120          17
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:22         now           9           0           0           0           0           0           0           0
+          1:22        0:22           8           0           0           0           0           0           0           0
+          2:22        1:22          23           0           0           0           0           0           0           0
+          3:22        2:22          11           0           1           0           0           0           0           0
+          4:22        3:22          23           0           0           0           0           0           0           0
+          5:22        4:22          16           0           1           0           0           0           0           0
+          6:22        5:22          23           0           0           0           0           0           0           0
+          7:22        6:22         151           2           3           1           2           0           0           0
+          7:22         now         264           2           5           1           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:22         now           1           0           0           0           1           0           0           7
+          1:22        0:22           3           0           0           0           0           1           0           4
+          2:22        1:22           3           0           1           0           2           1           3          13
+          3:22        2:22           4           0           0           2           0           1           0           5
+          4:22        3:22           3           0           0           0           2           0           4          14
+          5:22        4:22           3           0           0           1           1           2           2           8
+          6:22        5:22           2           0           1           0           1           4           2          13
+          7:22        6:22           6           4           3           6           7          28          16          88
+          7:22         now          25           4           5           9          14          37          27         152

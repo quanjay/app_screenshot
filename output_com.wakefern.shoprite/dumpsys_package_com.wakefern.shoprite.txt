@@ -1,0 +1,470 @@
+Activity Resolver Table:
+  Schemes:
+      com.wakefern.shoprite:
+        cef294 com.wakefern.shoprite/com.thryveai.grocery.MainActivity filter 5f2a400
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.wakefern.shoprite"
+          Authority: "": -1
+        cef294 com.wakefern.shoprite/com.thryveai.grocery.MainActivity filter e480439
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.wakefern.shoprite"
+          Authority: "": -1
+        2de002c com.wakefern.shoprite/net.openid.appauth.RedirectUriReceiverActivity filter a9baaf5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.wakefern.shoprite"
+      tagmanager.c.com.wakefern.shoprite:
+        7ec3b56 com.wakefern.shoprite/com.google.android.gms.tagmanager.TagManagerPreviewActivity filter 42da7d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tagmanager.c.com.wakefern.shoprite"
+      com.wakefern.shoprite.shopriteapp.payment:
+        cef294 com.wakefern.shoprite/com.thryveai.grocery.MainActivity filter 5be5a83
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.wakefern.shoprite.shopriteapp.payment"
+          Authority: "": -1
+      https:
+        cef294 com.wakefern.shoprite/com.thryveai.grocery.MainActivity filter 529d32
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "wakefern.page.link": -1
+      fbconnect:
+        3095a7e com.wakefern.shoprite/com.facebook.CustomTabActivity filter 21bdf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.wakefern.shoprite": -1
+      genericidp:
+        dca08a com.wakefern.shoprite/com.google.firebase.auth.internal.GenericIdpActivity filter b9696fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        240f318 com.wakefern.shoprite/com.google.firebase.auth.internal.RecaptchaActivity filter c490171
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        cef294 com.wakefern.shoprite/com.thryveai.grocery.MainActivity filter 87e913d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        7de28c4 com.wakefern.shoprite/co.acoustic.mobile.push.sdk.wi.AlarmReceiver filter 4baea73
+          Action: "android.intent.action.PACKAGE_REPLACED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      co.acoustic.mobile.push.sdk.NOTIFIER:
+        8556da9 com.wakefern.shoprite/co.acoustic.mobile.push.RNAcousticMobilePushBroadcastReceiver filter d7f5f2e
+          Action: "co.acoustic.mobile.push.sdk.NOTIFIER"
+      android.intent.action.BATTERY_OKAY:
+        c8c28e1 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b282606
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        db734eb com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 1e35248
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        a5234c7 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9ff4af4
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        741721d com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 7109c92
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        56e3b65 com.wakefern.shoprite/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter b26403a
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        a5234c7 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9ff4af4
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.intent.action.LOCALE_CHANGED:
+        7de28c4 com.wakefern.shoprite/co.acoustic.mobile.push.sdk.wi.AlarmReceiver filter ef70d30
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.google.android.c2dm.intent.RECEIVE:
+        9cfbacf com.wakefern.shoprite/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 377cc5c
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        c8c28e1 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b282606
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        7de28c4 com.wakefern.shoprite/co.acoustic.mobile.push.sdk.wi.AlarmReceiver filter 688b6e2
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        cb35663 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 402260
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        cb35663 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 402260
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        7de28c4 com.wakefern.shoprite/co.acoustic.mobile.push.sdk.wi.AlarmReceiver filter 59b43ad
+          Action: "android.intent.action.BOOT_COMPLETED"
+        cb35663 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 402260
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        4fdc7d5 com.wakefern.shoprite/com.transistorsoft.tsbackgroundfetch.BootReceiver filter 6af2bea
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        8f32edb com.wakefern.shoprite/com.transistorsoft.locationmanager.BootReceiver filter 33dd78
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        db734eb com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 1e35248
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        67af5bf com.wakefern.shoprite/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 9f5048c
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        4fdc7d5 com.wakefern.shoprite/com.transistorsoft.tsbackgroundfetch.BootReceiver filter 6af2bea
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        8f32edb com.wakefern.shoprite/com.transistorsoft.locationmanager.BootReceiver filter 33dd78
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        c081319 com.wakefern.shoprite/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 397efde
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        6600c51 com.wakefern.shoprite/co.acoustic.mobile.push.sdk.messaging.fcm.FcmMessagingService filter 24c1cb6
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        5ebddb7 com.wakefern.shoprite/com.google.firebase.messaging.FirebaseMessagingService filter 5855924
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          wakefern.page.link
+
+Permissions:
+  Permission [com.wakefern.shoprite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (b1594a8):
+    sourcePackage=com.wakefern.shoprite
+    uid=10191 gids=[] type=0 prot=signature
+    perm=PermissionInfo{d6babc1 com.wakefern.shoprite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  com.wakefern.shoprite/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{d731f66 com.wakefern.shoprite/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.wakefern.shoprite/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{c79a2a7 com.wakefern.shoprite/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  com.wakefern.shoprite/co.acoustic.mobile.push.sdk.db.Provider:
+    Provider{3835354 com.wakefern.shoprite/co.acoustic.mobile.push.sdk.db.Provider}
+  com.wakefern.shoprite/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider:
+    Provider{94642fd com.wakefern.shoprite/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider}
+  com.wakefern.shoprite/androidx.core.content.FileProvider:
+    Provider{801cbf2 com.wakefern.shoprite/androidx.core.content.FileProvider}
+  com.wakefern.shoprite/com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider:
+    Provider{413c243 com.wakefern.shoprite/com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider}
+  com.wakefern.shoprite/com.transistorsoft.locationmanager.util.LogFileProvider:
+    Provider{46c50c0 com.wakefern.shoprite/com.transistorsoft.locationmanager.util.LogFileProvider}
+  com.wakefern.shoprite/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{73911f9 com.wakefern.shoprite/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.wakefern.shoprite/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider:
+    Provider{65cb53e com.wakefern.shoprite/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider}
+  com.wakefern.shoprite/com.squareup.picasso.PicassoProvider:
+    Provider{a63f9f com.wakefern.shoprite/com.squareup.picasso.PicassoProvider}
+  com.wakefern.shoprite/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{225b8ec com.wakefern.shoprite/com.google.firebase.provider.FirebaseInitProvider}
+  com.wakefern.shoprite/com.facebook.internal.FacebookInitProvider:
+    Provider{aefd4b5 com.wakefern.shoprite/com.facebook.internal.FacebookInitProvider}
+  com.wakefern.shoprite/cl.json.RNShareFileProvider:
+    Provider{3eae74a com.wakefern.shoprite/cl.json.RNShareFileProvider}
+  com.wakefern.shoprite/androidx.startup.InitializationProvider:
+    Provider{ab936bb com.wakefern.shoprite/androidx.startup.InitializationProvider}
+  com.wakefern.shoprite/io.sentry.android.core.SentryPerformanceProvider:
+    Provider{f2b77d8 com.wakefern.shoprite/io.sentry.android.core.SentryPerformanceProvider}
+  com.wakefern.shoprite/io.sentry.android.core.SentryInitProvider:
+    Provider{d160731 com.wakefern.shoprite/io.sentry.android.core.SentryInitProvider}
+  com.wakefern.shoprite/com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider:
+    Provider{9782e16 com.wakefern.shoprite/com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider}
+
+ContentProvider Authorities:
+  [com.wakefern.shoprite.MCE_PROVIDER]:
+    Provider{3835354 com.wakefern.shoprite/co.acoustic.mobile.push.sdk.db.Provider}
+      applicationInfo=ApplicationInfo{13a8397 com.wakefern.shoprite}
+  [com.wakefern.shoprite.SentryPerformanceProvider]:
+    Provider{f2b77d8 com.wakefern.shoprite/io.sentry.android.core.SentryPerformanceProvider}
+      applicationInfo=ApplicationInfo{7cc3984 com.wakefern.shoprite}
+  [com.wakefern.shoprite.com.squareup.picasso]:
+    Provider{a63f9f com.wakefern.shoprite/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{b92e56d com.wakefern.shoprite}
+  [com.wakefern.shoprite.AGCInitializeProvider]:
+    Provider{d731f66 com.wakefern.shoprite/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{ec115a2 com.wakefern.shoprite}
+  [com.wakefern.shoprite.fileprovider]:
+    Provider{801cbf2 com.wakefern.shoprite/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{a19c233 com.wakefern.shoprite}
+  [com.wakefern.shoprite.tslocationmanager.fileprovider]:
+    Provider{46c50c0 com.wakefern.shoprite/com.transistorsoft.locationmanager.util.LogFileProvider}
+      applicationInfo=ApplicationInfo{c9569f0 com.wakefern.shoprite}
+  [com.wakefern.shoprite.SentryInitProvider]:
+    Provider{d160731 com.wakefern.shoprite/io.sentry.android.core.SentryInitProvider}
+      applicationInfo=ApplicationInfo{1856b69 com.wakefern.shoprite}
+  [com.wakefern.shoprite.mlkitinitprovider]:
+    Provider{73911f9 com.wakefern.shoprite/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{8bee9ee com.wakefern.shoprite}
+  [com.wakefern.shoprite.firebaseinitprovider]:
+    Provider{225b8ec com.wakefern.shoprite/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{a44e8f com.wakefern.shoprite}
+  [com.wakefern.shoprite.FacebookInitProvider]:
+    Provider{aefd4b5 com.wakefern.shoprite/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{77f351c com.wakefern.shoprite}
+  [com.wakefern.shoprite.reactnativefirebasecrashlyticsinitprovider]:
+    Provider{94642fd com.wakefern.shoprite/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider}
+      applicationInfo=ApplicationInfo{3005525 com.wakefern.shoprite}
+  [com.wakefern.shoprite.rnshare.fileprovider]:
+    Provider{3eae74a com.wakefern.shoprite/cl.json.RNShareFileProvider}
+      applicationInfo=ApplicationInfo{b3b6fa com.wakefern.shoprite}
+  [com.wakefern.shoprite.reactnativefirebaseappinitprovider]:
+    Provider{65cb53e com.wakefern.shoprite/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider}
+      applicationInfo=ApplicationInfo{da144ab com.wakefern.shoprite}
+  [com.wakefern.shoprite.corelibraryloadercontentprovider]:
+    Provider{9782e16 com.wakefern.shoprite/com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider}
+      applicationInfo=ApplicationInfo{7d88708 com.wakefern.shoprite}
+  [com.wakefern.shoprite.barcodelibraryloadercontentprovider]:
+    Provider{413c243 com.wakefern.shoprite/com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider}
+      applicationInfo=ApplicationInfo{8861ea1 com.wakefern.shoprite}
+  [com.wakefern.shoprite.androidx-startup]:
+    Provider{ab936bb com.wakefern.shoprite/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{ff648c6 com.wakefern.shoprite}
+
+Key Set Manager:
+  [com.wakefern.shoprite]
+      Signing KeySets: 166
+
+Packages:
+  Package [com.wakefern.shoprite] (52d8087):
+    userId=10191
+    pkg=Package{f30bb4 com.wakefern.shoprite}
+    codePath=/data/app/~~tdCztLyiX99Oo03Wub4OCA==/com.wakefern.shoprite-Rbk3aFu-ySsansyMJSVQDA==
+    resourcePath=/data/app/~~tdCztLyiX99Oo03Wub4OCA==/com.wakefern.shoprite-Rbk3aFu-ySsansyMJSVQDA==
+    legacyNativeLibraryDir=/data/app/~~tdCztLyiX99Oo03Wub4OCA==/com.wakefern.shoprite-Rbk3aFu-ySsansyMJSVQDA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=377542 minSdk=28 targetSdk=34
+    minExtensionVersions=[]
+    versionName=24.43.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{f30bb4 com.wakefern.shoprite}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=https:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=androidx.camera.extensions.action.VENDOR_ACTION }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    dataDir=/data/user/0/com.wakefern.shoprite
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.camera.extensions.impl
+      android.ext.adservices
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-18 07:26:54
+    firstInstallTime=2025-05-18 07:26:54
+    lastUpdateTime=2025-05-18 07:26:54
+    signatures=PackageSignatures{64503dd version:3, signatures:[5a9bbbae], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.wakefern.shoprite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.VIBRATE
+      android.permission.CAMERA
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.CALL_PHONE
+      android.permission.WRITE_SETTINGS
+      android.permission.POST_NOTIFICATIONS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.CHANGE_WIFI_STATE
+      com.google.android.gms.permission.AD_ID
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+      android.permission.ACCESS_ADSERVICES_AD_ID
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.FOREGROUND_SERVICE
+      com.wakefern.shoprite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.ACTIVITY_RECOGNITION
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      com.huawei.hms.permission.ACTIVITY_RECOGNITION
+      android.permission.FOREGROUND_SERVICE_HEALTH
+      android.permission.FOREGROUND_SERVICE_LOCATION
+      oppo.permission.OPPO_COMPONENT_SAFE
+      com.huawei.permission.external_app_settings.USE_COMPONENT
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.wakefern.shoprite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147590 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.CALL_PHONE: granted=false
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_CALENDAR: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACTIVITY_RECOGNITION: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.wakefern.shoprite:
+      com.google.android.apps.maps
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.wakefern.shoprite
+    com.google.android.settings.intelligence:
+      com.wakefern.shoprite
+    com.wakefern.shoprite:
+      com.google.android.setupwizard
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.chrome
+      com.google.android.calendar
+      com.google.android.apps.docs
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=78
+  User 0:
+    seq=4, package=com.google.android.deskclock
+    seq=8, package=com.google.android.gms
+    seq=12, package=com.airasia.mobile
+    seq=24, package=com.speedsoftware.explorer
+    seq=26, package=com.google.android.apps.docs
+    seq=34, package=com.babbel.mobile.android.en
+    seq=35, package=com.google.android.googlequicksearchbox
+    seq=47, package=com.rsupport.mvagent
+    seq=50, package=com.google.android.apps.photos
+    seq=52, package=com.microsoft.office.outlook
+    seq=71, package=com.affirm.central
+    seq=75, package=com.cisco.connect.cloud
+    seq=76, package=io.github.ylimit.droidbotapp
+    seq=77, package=com.wakefern.shoprite
+
+
+Dexopt state:
+  [com.wakefern.shoprite]
+    path: /data/app/~~tdCztLyiX99Oo03Wub4OCA==/com.wakefern.shoprite-Rbk3aFu-ySsansyMJSVQDA==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.wakefern.shoprite]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7182  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:04         now           4        3222           0           0           0           1           0
+          1:05        0:04           7       28846           0           0           1           2           1
+          2:05        1:05          18       29534           0           0           3           4           2
+          3:05        2:05          11       18531           0           0           2           4           1
+          4:05        3:05          42       71079           0           0           8           9           2
+          5:05        4:05          11       25664           0           0           2           3           1
+          6:05        5:05          12       95547           0           0           3          11           5
+          7:05        6:05          13       33122           0           0           3           4           1
+          8:05        7:05           9       45514           0           0           5           5           3
+          9:05        8:05          22       34795           0           0           1           4           1
+      01:16:05         now         503      854223           0           3          71         297          74
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:04         now           4           0           0           0           0           0           0           0
+          1:05        0:04           7           0           0           0           0           0           0           0
+          2:05        1:05          17           1           0           0           0           0           0           0
+          3:05        2:05          11           0           0           0           0           0           0           0
+          4:05        3:05          41           1           0           0           0           0           0           0
+          5:05        4:05          11           0           0           0           0           0           0           0
+          6:05        5:05          10           0           2           0           0           0           0           0
+          7:05        6:05          13           0           0           0           0           0           0           0
+          8:05        7:05           8           0           1           0           0           0           0           0
+          9:05        8:05          22           0           0           0           0           0           0           0
+      01:16:05         now         479           8          10           3           1           1           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:04         now           0           0           0           0           0           0           0           4
+          1:05        0:04           1           0           0           1           0           0           0           5
+          2:05        1:05           3           0           0           0           3           3           1           8
+          3:05        2:05           1           0           1           0           0           0           1           8
+          4:05        3:05           7           0           1           3           4           1           9          17
+          5:05        4:05           0           1           1           0           0           0           0           9
+          6:05        5:05           3           0           0           1           0           0           0           8
+          7:05        6:05           2           0           1           0           0           0           0          10
+          8:05        7:05           4           0           1           0           0           1           0           3
+          9:05        8:05           0           1           0           0           1           4           2          14
+      01:16:05         now          55           5          10          16          22          52          61         281

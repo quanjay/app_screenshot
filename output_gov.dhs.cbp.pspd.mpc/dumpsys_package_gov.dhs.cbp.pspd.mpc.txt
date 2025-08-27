@@ -1,0 +1,195 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        adb4607 gov.dhs.cbp.pspd.mpc/gov.cbp.pspd.mpc.ui.BaseActivity filter f1d2334
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Domain verification status:
+
+Registered ContentProviders:
+  gov.dhs.cbp.pspd.mpc/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{bd8380a gov.dhs.cbp.pspd.mpc/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+
+ContentProvider Authorities:
+  [gov.dhs.cbp.pspd.mpc.lifecycle-process]:
+    Provider{bd8380a gov.dhs.cbp.pspd.mpc/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{b951698 gov.dhs.cbp.pspd.mpc}
+
+Key Set Manager:
+  [gov.dhs.cbp.pspd.mpc]
+      Signing KeySets: 129
+
+Packages:
+  Package [gov.dhs.cbp.pspd.mpc] (addd159):
+    appId=10360
+    pkg=Package{ced1ef1 gov.dhs.cbp.pspd.mpc}
+    codePath=/data/app/~~HQzLzgI2bBtj9DcLtIOL4A==/gov.dhs.cbp.pspd.mpc-MBFOoYcapVlVT-ylsUyxbg==
+    resourcePath=/data/app/~~HQzLzgI2bBtj9DcLtIOL4A==/gov.dhs.cbp.pspd.mpc-MBFOoYcapVlVT-ylsUyxbg==
+    legacyNativeLibraryDir=/data/app/~~HQzLzgI2bBtj9DcLtIOL4A==/gov.dhs.cbp.pspd.mpc-MBFOoYcapVlVT-ylsUyxbg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=87 minSdk=24 targetSdk=31
+    minExtensionVersions=[]
+    versionName=1.2.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-07-29 20:56:55
+    lastUpdateTime=2025-07-29 20:56:56
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{fc9cad6 version:3, signatures:[1548a8a2], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      android.permission.POST_NOTIFICATIONS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.USE_BIOMETRIC
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+    User 0: ceDataInode=48794 deDataInode=29536 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/gov.dhs.cbp.pspd.mpc
+      firstInstallTime=2025-07-29 20:56:56
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.android.nfc,com.miui.tsmclient]:
+      gov.dhs.cbp.pspd.mpc
+    com.xiaomi.aicr:
+      gov.dhs.cbp.pspd.mpc
+    com.android.contacts:
+      gov.dhs.cbp.pspd.mpc
+    com.xiaomi.gamecenter.sdk.service:
+      gov.dhs.cbp.pspd.mpc
+    com.android.settings.intelligence:
+      gov.dhs.cbp.pspd.mpc
+    com.miui.nextpay:
+      gov.dhs.cbp.pspd.mpc
+    com.xiaomi.mis:
+      gov.dhs.cbp.pspd.mpc
+    com.miui.hybrid:
+      gov.dhs.cbp.pspd.mpc
+    com.xiaomi.market:
+      gov.dhs.cbp.pspd.mpc
+    com.miui.systemAdSolution:
+      gov.dhs.cbp.pspd.mpc
+    com.xiaomi.account:
+      gov.dhs.cbp.pspd.mpc
+    com.miui.greenguard:
+      gov.dhs.cbp.pspd.mpc
+    com.xiaomi.payment:
+      gov.dhs.cbp.pspd.mpc
+    com.xiaomi.xmsf:
+      gov.dhs.cbp.pspd.mpc
+    com.android.providers.downloads.ui:
+      gov.dhs.cbp.pspd.mpc
+    com.mfashiongallery.emag:
+      gov.dhs.cbp.pspd.mpc
+    com.android.calendar:
+      gov.dhs.cbp.pspd.mpc
+    com.android.email:
+      gov.dhs.cbp.pspd.mpc
+    com.miui.gallery:
+      gov.dhs.cbp.pspd.mpc
+    com.miui.virtualsim:
+      gov.dhs.cbp.pspd.mpc
+    com.getsurfboard:
+      gov.dhs.cbp.pspd.mpc
+    com.xingin.xhs:
+      gov.dhs.cbp.pspd.mpc
+    com.duokan.reader:
+      gov.dhs.cbp.pspd.mpc
+    com.instagram.android:
+      gov.dhs.cbp.pspd.mpc
+    com.miui.video:
+      gov.dhs.cbp.pspd.mpc
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      gov.dhs.cbp.pspd.mpc
+    com.microsoft.office.outlook:
+      gov.dhs.cbp.pspd.mpc
+    com.jijia.bqwnl:
+      gov.dhs.cbp.pspd.mpc
+    com.quark.browser:
+      gov.dhs.cbp.pspd.mpc
+    com.baidu.BaiduMap:
+      gov.dhs.cbp.pspd.mpc
+    com.UCMobile:
+      gov.dhs.cbp.pspd.mpc
+    com.autonavi.minimap:
+      gov.dhs.cbp.pspd.mpc
+    com.jijia.jjweather:
+      gov.dhs.cbp.pspd.mpc
+    com.zhuantech.sijiweather:
+      gov.dhs.cbp.pspd.mpc
+    com.suxing.sustream:
+      gov.dhs.cbp.pspd.mpc
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [gov.dhs.cbp.pspd.mpc]
+    path: /data/app/~~HQzLzgI2bBtj9DcLtIOL4A==/gov.dhs.cbp.pspd.mpc-MBFOoYcapVlVT-ylsUyxbg==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~HQzLzgI2bBtj9DcLtIOL4A==/gov.dhs.cbp.pspd.mpc-MBFOoYcapVlVT-ylsUyxbg==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 144Kb base.vdex: 10422Kb 
+
+Compiler stats:
+  [gov.dhs.cbp.pspd.mpc]
+     base.apk - 311

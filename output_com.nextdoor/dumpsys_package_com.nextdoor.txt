@@ -1,0 +1,3827 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        1c79778 com.nextdoor/.chat.MessagesActivity filter f23e51
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 1f65fb7
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image/*:
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 59ab324
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 74b6e8d
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      text:
+        1c79778 com.nextdoor/.chat.MessagesActivity filter f23e51
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 1f65fb7
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      image:
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 59ab324
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 74b6e8d
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      com.nextdoor:
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 1874053
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.nextdoor"
+          Authority: "open": -1
+      stripesdk:
+        c31c7e3 com.nextdoor/com.stripe.android.payments.StripeBrowserLauncherActivity filter 8ab75e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "stripesdk"
+          Authority: "payment_return_url": -1
+          Path: "PatternMatcher{LITERAL: /com.nextdoor}"
+      https:
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter f61dd90
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.app.link": -1
+          Authority: "nextdoor-alternate.app.link": -1
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter b8d6689
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "link.ms.email.nextdoor.com": -1
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 768968e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "links.itr.email.nextdoor.com": -1
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 53b8eaf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          Path: "PatternMatcher{PREFIX: /p/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter a2f42bc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          Path: "PatternMatcher{PREFIX: /popular}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 5dce245
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          Path: "PatternMatcher{PREFIX: /remove_popular_post/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 25b8d9a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          Path: "PatternMatcher{PREFIX: /news_feed/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 53c66cb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          Path: "PatternMatcher{PREFIX: /digest}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter e0bcea8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          Path: "PatternMatcher{PREFIX: /post/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 1ee5dc1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          Path: "PatternMatcher{PREFIX: /offers/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 754e966
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          Path: "PatternMatcher{PREFIX: /for_sale_and_free/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 928a4a7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          Path: "PatternMatcher{PREFIX: /profile}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 8a32d54
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pages/.*/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 84214fd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          Path: "PatternMatcher{PREFIX: /pages/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter f3635f2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 9b0e443
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          Path: "PatternMatcher{PREFIX: /like_post/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 4afcac0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          Path: "PatternMatcher{PREFIX: /like_comment/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter f2003f9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          Path: "PatternMatcher{PREFIX: /events/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter d6dbf3e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          Path: "PatternMatcher{PREFIX: /events/calendar/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ff3819f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          Path: "PatternMatcher{PREFIX: /local_events/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter c26d2ec
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          Path: "PatternMatcher{PREFIX: /services/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter f53e6b5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          Path: "PatternMatcher{GLOB: /services/responses/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter c02914a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          Path: "PatternMatcher{GLOB: /services/requests/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter e9898bb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          Path: "PatternMatcher{GLOB: /services/.*/profiles/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 12431d8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          Path: "PatternMatcher{GLOB: /map/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 8a93931
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          Path: "PatternMatcher{GLOB: /groups/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter c607816
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          Path: "PatternMatcher{GLOB: /g/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ae0597
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          Path: "PatternMatcher{GLOB: /hashtag/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 9969384
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          Path: "PatternMatcher{GLOB: /recommendations/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 227376d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          Path: "PatternMatcher{GLOB: /recommendations/winners}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 8e3ffa2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          Path: "PatternMatcher{GLOB: /inbox}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter a436433
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          Path: "PatternMatcher{GLOB: /inbox/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 9ab63f0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_email/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 20cdd69
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_postcards/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 32673ee
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_letters/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 6c6108f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          Path: "PatternMatcher{GLOB: /invitation_link/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 8facf1c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          Path: "PatternMatcher{GLOB: /invite_accepted/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 98ce725
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          Path: "PatternMatcher{GLOB: /cheer/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter b09e0fa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          Path: "PatternMatcher{GLOB: /unverified}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 11d26ab
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          Path: "PatternMatcher{PREFIX: /treat_map}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter e73c108
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          Path: "PatternMatcher{PREFIX: /vote_map}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 49d0a1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          Path: "PatternMatcher{PREFIX: /cheer_map}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter a8512c6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          Path: "PatternMatcher{PREFIX: /garagesale}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 1858287
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          Path: "PatternMatcher{PREFIX: /help_map}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter f07e5b4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          Path: "PatternMatcher{PREFIX: /gifts/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter b91d5dd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          Path: "PatternMatcher{PREFIX: /delivery/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 22f9552
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          Path: "PatternMatcher{PREFIX: /helpmap}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter d2dc023
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          Path: "PatternMatcher{PREFIX: /pet_directory}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter b17a920
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          Path: "PatternMatcher{GLOB: /pet_profile/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter d5af2d9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/home-dashboard/*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 28db49e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          Path: "PatternMatcher{GLOB: /real-estate/*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 3923b7f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          Path: "PatternMatcher{GLOB: /channels/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 69e374c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          Path: "PatternMatcher{GLOB: /real-estate-listings/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 6fee395
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          Path: "PatternMatcher{GLOB: /email_prefs}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter e1c7caa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          Path: "PatternMatcher{GLOB: /settings/email}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 599109b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          Path: "PatternMatcher{GLOB: /settings/notifications}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 81d7c38
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          Path: "PatternMatcher{GLOB: /deactivate/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter bb72411
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          Path: "PatternMatcher{PREFIX: /helloneighbor}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 1db976
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          Path: "PatternMatcher{PREFIX: /share}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 26e1b77
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter a4a23e4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          Path: "PatternMatcher{PREFIX: /business-home}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ed8f04d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/business-privacy}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 423f702
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          Path: "PatternMatcher{PREFIX: /insights}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 61ef813
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          Path: "PatternMatcher{PREFIX: /your-reputation}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter c779a50
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          Path: "PatternMatcher{PREFIX: /business-offers}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 9d14449
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          Path: "PatternMatcher{GLOB: /sponsorship}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter a5e814e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          Path: "PatternMatcher{GLOB: /sponsorships}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 5f7026f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          Path: "PatternMatcher{PREFIX: /manage-listings}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter dc40b7c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          Path: "PatternMatcher{PREFIX: /content}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 5e0dc05
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          Path: "PatternMatcher{PREFIX: /neighbor-comments}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 4a5645a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          Path: "PatternMatcher{PREFIX: /business-inbox}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 69b568b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          Path: "PatternMatcher{PREFIX: /business-profile}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter f046368
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 5983381
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/photos}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 8456c26
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-profile/preview/recommendations}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 7e6d067
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          Path: "PatternMatcher{PREFIX: /business-get-recommendations}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 7704e14
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          Path: "PatternMatcher{PREFIX: /businesses}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter a1386bd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          Path: "PatternMatcher{PREFIX: /create-business}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 8c24b2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          Path: "PatternMatcher{PREFIX: /reset_password/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 2860c03
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          Path: "PatternMatcher{PREFIX: /role_invitation}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 80e3780
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          Path: "PatternMatcher{PREFIX: /open_composer/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ff6d1b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          Path: "PatternMatcher{PREFIX: /posts/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter e13d9fe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          Path: "PatternMatcher{PREFIX: /settings/newsfeed_preferences}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 353655f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          Path: "PatternMatcher{PREFIX: /business-best-practices}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 9df4bac
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          Path: "PatternMatcher{PREFIX: /moderation_feed}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 29d075
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          Path: "PatternMatcher{PREFIX: /reported_content}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ecf980a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          Path: "PatternMatcher{PREFIX: /inbox/chat}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 72f87b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          Path: "PatternMatcher{PREFIX: /neighborhood/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 2cb7698
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          Path: "PatternMatcher{PREFIX: /contact_sync}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 53fef1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          Path: "PatternMatcher{GLOB: /search/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ad72ad6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          Path: "PatternMatcher{PREFIX: /business-leads}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 42ea157
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          Path: "PatternMatcher{PREFIX: /recommend_business}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter d4d6444
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          Path: "PatternMatcher{PREFIX: /settings/privacy}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter f18992d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          Path: "PatternMatcher{PREFIX: /notifications/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 1f31e62
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          Path: "PatternMatcher{PREFIX: /new_neighbors}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 991fbf3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          Path: "PatternMatcher{PREFIX: /welcome_message}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ede80b0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          Path: "PatternMatcher{PREFIX: /welcome_team}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 8129b29
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          Path: "PatternMatcher{PREFIX: /lead_tools}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 5e8beae
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          Path: "PatternMatcher{PREFIX: /community_review}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 6c6644f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          Path: "PatternMatcher{GLOB: /login/otp/magiclink/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 922f7dc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          Path: "PatternMatcher{PREFIX: /developersettings}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter b90c0e5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          Path: "PatternMatcher{PREFIX: /developersettings/blocks}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter d8617ba
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          Path: "PatternMatcher{PREFIX: /spark}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 12ef66b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          Path: "PatternMatcher{PREFIX: /more_menu}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 1d5b5c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          Path: "PatternMatcher{PREFIX: /write_post}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 6118661
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          Path: "PatternMatcher{PREFIX: /settings/account}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter c6df586
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          Path: "PatternMatcher{PREFIX: /booking_request}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 7448e47
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          Path: "PatternMatcher{PREFIX: /login/magic/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter d746674
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          Path: "PatternMatcher{PREFIX: /appeals/}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter 37f279d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          Path: "PatternMatcher{GLOB: /booking_request_fan_out/.*}"
+          AutoVerify=true
+        4db3842 com.nextdoor/.activity.DeepLinkActivity filter ba3e412
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nextdoor.com": -1
+          Authority: "nextdoor.nl": -1
+          Authority: "nextdoor.co.uk": -1
+          Authority: "nextdoor.de": -1
+          Authority: "ca.nextdoor.com": -1
+          Authority: "it.nextdoor.com": -1
+          Authority: "au.nextdoor.com": -1
+          Authority: "fr.nextdoor.com": -1
+          Authority: "es.nextdoor.com": -1
+          Authority: "dk.nextdoor.com": -1
+          Authority: "se.nextdoor.com": -1
+          Authority: "no.nextdoor.com": -1
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          Path: "PatternMatcher{PREFIX: /ads-management}"
+          AutoVerify=true
+      fbconnect:
+        a2ba099 com.nextdoor/com.facebook.CustomTabActivity filter ed82f5e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.nextdoor": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        29d5ea com.nextdoor/.registrationUi.nux.LoadAppConfigurationActivity filter df990db
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        1c79778 com.nextdoor/.chat.MessagesActivity filter f23e51
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 1f65fb7
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 59ab324
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.SEND_MULTIPLE:
+        9c766b6 com.nextdoor/.composition.activity.PostComposerActivity filter 74b6e8d
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      notification_cancelled:
+        8b7c9d1 com.nextdoor/.pushNotification.NotificationDismissedReceiver filter e64cc36
+          Action: "notification_cancelled"
+      android.intent.action.BATTERY_OKAY:
+        92c362f com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 7af943c
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        e08e209 com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a9d2c0e
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        75495c5 com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 3fb1a
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        850064b com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 4ffb828
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.AIRPLANE_MODE:
+        11e846c com.nextdoor/com.incognia.core.LocationReceiver filter ddf7a35
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        5146fd3 com.nextdoor/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 3f81710
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        75495c5 com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 3fb1a
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.incognia.core.AlarmTriggeredEvent:
+        fb2b4be com.nextdoor/com.incognia.core.AlarmHelperReceiver filter b1d091f
+          Action: "com.incognia.core.AlarmTriggeredEvent"
+      com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES:
+        ee79737 com.nextdoor/com.mapbox.common.location.LocationUpdatesReceiver filter 43854a4
+          Action: "com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        8a8f3c3 com.nextdoor/androidx.profileinstaller.ProfileInstallReceiver filter 6076440
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        9e320d com.nextdoor/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 9a975c2
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.app.action.APP_BLOCK_STATE_CHANGED:
+        12eff3f com.nextdoor/.pushNotification.NotificationSettingsListener filter c82100c
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+      android.intent.action.BATTERY_LOW:
+        92c362f com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 7af943c
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        1edc941 com.nextdoor/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ed6aee6
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        1edc941 com.nextdoor/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ed6aee6
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        8a8f3c3 com.nextdoor/androidx.profileinstaller.ProfileInstallReceiver filter b315f79
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      android.intent.action.BOOT_COMPLETED:
+        1edc941 com.nextdoor/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ed6aee6
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        11e846c com.nextdoor/com.incognia.core.LocationReceiver filter ddf7a35
+          Action: "android.intent.action.AIRPLANE_MODE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED:
+        89e505b com.nextdoor/.pushNotification.NotificationGroupChannelSettingListener filter 94620f8
+          Action: "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        e08e209 com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a9d2c0e
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED:
+        98cad55 com.nextdoor/.pushNotification.NotificationIndividualChannelSettingListener filter 273e36a
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        38cb87d com.nextdoor/androidx.work.impl.diagnostics.DiagnosticsReceiver filter ced372
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        696bc27 com.nextdoor/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 8ac2ed4
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        9615eca com.nextdoor/.pushNotification.NextdoorFirebaseMessagingService filter 393183b
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        fa57b58 com.nextdoor/com.google.firebase.messaging.FirebaseMessagingService filter 31a84b1
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.nextdoor:
+    ID: 9fe81feb-ce78-4586-93ca-ba460f3d0d8a
+    Signatures: [6B:00:39:75:7B:36:66:40:46:26:F2:D6:06:EE:17:B5:6A:D4:77:70:F5:AE:BA:D2:D7:B7:32:68:82:19:0D:BD]
+    Domain verification state:
+      es.nextdoor.com: none
+      nextdoor.co.uk: none
+      nextdoor.app.link: none
+      nextdoor.com: none
+      links.itr.email.nextdoor.com: none
+      it.nextdoor.com: none
+      au.nextdoor.com: none
+      ca.nextdoor.com: none
+      link.ms.email.nextdoor.com: none
+      fr.nextdoor.com: none
+      nextdoor.de: none
+      nextdoor.nl: none
+      se.nextdoor.com: none
+      dk.nextdoor.com: none
+      no.nextdoor.com: none
+      nextdoor-alternate.app.link: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          es.nextdoor.com
+          nextdoor.co.uk
+          nextdoor.app.link
+          nextdoor.com
+          links.itr.email.nextdoor.com
+          it.nextdoor.com
+          au.nextdoor.com
+          ca.nextdoor.com
+          link.ms.email.nextdoor.com
+          fr.nextdoor.com
+          nextdoor.de
+          nextdoor.nl
+          se.nextdoor.com
+          dk.nextdoor.com
+          no.nextdoor.com
+          nextdoor-alternate.app.link
+
+Permissions:
+  Permission [com.nextdoor.permission.C2D_MESSAGE] (1987b9d):
+    sourcePackage=com.nextdoor
+    uid=10402 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c04a812 com.nextdoor.permission.C2D_MESSAGE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.nextdoor/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{91d3be3 com.nextdoor/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.nextdoor/androidx.core.content.FileProvider:
+    Provider{e43d9e0 com.nextdoor/androidx.core.content.FileProvider}
+  com.nextdoor/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider:
+    Provider{2863499 com.nextdoor/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+  com.nextdoor/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{e81335e com.nextdoor/com.google.firebase.provider.FirebaseInitProvider}
+  com.nextdoor/com.facebook.internal.FacebookInitProvider:
+    Provider{35db33f com.nextdoor/com.facebook.internal.FacebookInitProvider}
+  com.nextdoor/androidx.startup.InitializationProvider:
+    Provider{d3cb40c com.nextdoor/androidx.startup.InitializationProvider}
+  com.nextdoor/io.sentry.android.core.SentryPerformanceProvider:
+    Provider{efc8155 com.nextdoor/io.sentry.android.core.SentryPerformanceProvider}
+  com.nextdoor/io.sentry.android.core.SentryInitProvider:
+    Provider{da9276a com.nextdoor/io.sentry.android.core.SentryInitProvider}
+  com.nextdoor/com.flurry.android.agent.FlurryContentProvider:
+    Provider{104445b com.nextdoor/com.flurry.android.agent.FlurryContentProvider}
+
+ContentProvider Authorities:
+  [com.nextdoor.fileprovider]:
+    Provider{e43d9e0 com.nextdoor/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{50704f8 com.nextdoor}
+  [com.nextdoor.firebaseinitprovider]:
+    Provider{e81335e com.nextdoor/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{750ddd1 com.nextdoor}
+  [com.nextdoor.mobileadsinitprovider]:
+    Provider{91d3be3 com.nextdoor/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{1aa5036 com.nextdoor}
+  [com.nextdoor.FacebookInitProvider]:
+    Provider{35db33f com.nextdoor/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{9b8cb37 com.nextdoor}
+  [com.nextdoor.mapboxtelemetryinitprovider]:
+    Provider{2863499 com.nextdoor/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+      applicationInfo=ApplicationInfo{52378a4 com.nextdoor}
+  [com.nextdoor.FlurryContentProvider]:
+    Provider{104445b com.nextdoor/com.flurry.android.agent.FlurryContentProvider}
+      applicationInfo=ApplicationInfo{1b4860d com.nextdoor}
+  [com.nextdoor.androidx-startup]:
+    Provider{d3cb40c com.nextdoor/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{5c339c2 com.nextdoor}
+  [com.nextdoor.SentryPerformanceProvider]:
+    Provider{efc8155 com.nextdoor/io.sentry.android.core.SentryPerformanceProvider}
+      applicationInfo=ApplicationInfo{dc4e3d3 com.nextdoor}
+  [com.nextdoor.SentryInitProvider]:
+    Provider{da9276a com.nextdoor/io.sentry.android.core.SentryInitProvider}
+      applicationInfo=ApplicationInfo{2717b10 com.nextdoor}
+
+Key Set Manager:
+  [com.nextdoor]
+      Signing KeySets: 171
+
+Packages:
+  Package [com.nextdoor] (81f5a2):
+    appId=10402
+    pkg=Package{c307609 com.nextdoor}
+    codePath=/data/app/~~EGMWZ4P8zpLSSvWjEU01Zg==/com.nextdoor-26vcfE9B4qy5RQ3lczrguw==
+    resourcePath=/data/app/~~EGMWZ4P8zpLSSvWjEU01Zg==/com.nextdoor-26vcfE9B4qy5RQ3lczrguw==
+    legacyNativeLibraryDir=/data/app/~~EGMWZ4P8zpLSSvWjEU01Zg==/com.nextdoor-26vcfE9B4qy5RQ3lczrguw==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=550083 minSdk=23 targetSdk=30
+    minExtensionVersions=[]
+    versionName=3.103.9
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.google.android.gm, com.microsoft.office.outlook, com.samsung.android.email.provider, com.yahoo.mobile.client.android.mail, com.instagram.android, com.facebook.katana, com.facebook.orca, com.whatsapp, com.twitter.android, com.android.chrome, com.google.android.apps.maps]
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.provider.Telephony.SMS_DELIVER }, Intent { act=android.intent.action.SENDTO dat=smsto:xx }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=androidx.camera.extensions.action.VENDOR_ACTION }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      android.test.mock
+      android.test.runner
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+      org.apache.http.legacy
+      androidx.camera.extensions.impl
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.test.mock.jar
+      /system/framework/android.test.runner.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+      /system/framework/org.apache.http.legacy.jar
+      /vendor/framework/androidx.camera.extensions.impl.jar
+    timeStamp=2025-07-30 16:38:13
+    lastUpdateTime=2025-07-30 16:38:13
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{88f300e version:3, signatures:[c428c70e], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.nextdoor.permission.C2D_MESSAGE: prot=signature
+    requested permissions:
+      com.nextdoor.permission.C2D_MESSAGE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_PROFILE
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACTIVITY_RECOGNITION
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+    install permissions:
+      com.nextdoor.permission.C2D_MESSAGE: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=94551 deDataInode=83029 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.nextdoor
+      firstInstallTime=2025-07-30 16:38:13
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACTIVITY_RECOGNITION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.nextdoor:
+      com.android.chrome
+      com.instagram.android
+      com.google.android.gm
+      com.microsoft.office.outlook
+      com.yahoo.mobile.client.android.mail
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.nextdoor
+    com.xiaomi.aicr:
+      com.nextdoor
+    com.android.contacts:
+      com.nextdoor
+    com.xiaomi.gamecenter.sdk.service:
+      com.nextdoor
+    com.android.settings.intelligence:
+      com.nextdoor
+    com.android.camera:
+      com.nextdoor
+    com.miui.nextpay:
+      com.nextdoor
+    com.xiaomi.mis:
+      com.nextdoor
+    com.miui.hybrid:
+      com.nextdoor
+    com.xiaomi.market:
+      com.nextdoor
+    com.miui.systemAdSolution:
+      com.nextdoor
+    com.xiaomi.account:
+      com.nextdoor
+    com.miui.greenguard:
+      com.nextdoor
+    com.xiaomi.payment:
+      com.nextdoor
+    com.xiaomi.xmsf:
+      com.nextdoor
+    com.android.providers.downloads.ui:
+      com.nextdoor
+    com.mfashiongallery.emag:
+      com.nextdoor
+    com.android.calendar:
+      com.nextdoor
+    com.android.email:
+      com.nextdoor
+    com.miui.gallery:
+      com.nextdoor
+    com.android.soundrecorder:
+      com.nextdoor
+    com.miui.virtualsim:
+      com.nextdoor
+    com.getsurfboard:
+      com.nextdoor
+    com.xingin.xhs:
+      com.nextdoor
+    com.duokan.reader:
+      com.nextdoor
+    com.instagram.android:
+      com.nextdoor
+    com.ebay.mobile:
+      com.nextdoor
+    com.microsoft.todos:
+      com.nextdoor
+    com.miui.video:
+      com.nextdoor
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.nextdoor
+    com.alibaba.aliexpresshd:
+      com.nextdoor
+    com.google.android.apps.magazines:
+      com.nextdoor
+    com.spotify.music:
+      com.nextdoor
+    com.google.android.apps.youtube.music:
+      com.nextdoor
+    com.microsoft.office.outlook:
+      com.nextdoor
+    com.ss.android.article.news:
+      com.nextdoor
+    com.jijia.bqwnl:
+      com.nextdoor
+    com.quark.browser:
+      com.nextdoor
+    com.baidu.BaiduMap:
+      com.nextdoor
+    com.UCMobile:
+      com.nextdoor
+    com.autonavi.minimap:
+      com.nextdoor
+    com.dragon.read:
+      com.nextdoor
+    com.jijia.jjweather:
+      com.nextdoor
+    com.zhuantech.sijiweather:
+      com.nextdoor
+    com.suxing.sustream:
+      com.nextdoor
+    com.yahoo.mobile.client.android.mail:
+      com.nextdoor
+    com.nextdoor:
+      com.android.mms
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.chrome
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.nextdoor]
+    path: /data/app/~~EGMWZ4P8zpLSSvWjEU01Zg==/com.nextdoor-26vcfE9B4qy5RQ3lczrguw==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~EGMWZ4P8zpLSSvWjEU01Zg==/com.nextdoor-26vcfE9B4qy5RQ3lczrguw==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 640Kb base.vdex: 84037Kb 
+
+Compiler stats:
+  [com.nextdoor]
+    (No recorded stats)

@@ -1,0 +1,384 @@
+Activity Resolver Table:
+  Schemes:
+      appboy13b57f97-58a5-4bde-b093-0fb46519711e:
+        bc3d41 com.baskinrobbins.app/.MainActivity filter 8e3c7c3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "appboy13b57f97-58a5-4bde-b093-0fb46519711e"
+      baskin:
+        bc3d41 com.baskinrobbins.app/.MainActivity filter 2ce6c7d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "baskin"
+      tagmanager.c.com.baskinrobbins.app:
+        3aba840 com.baskinrobbins.app/com.google.android.gms.tagmanager.TagManagerPreviewActivity filter eda5379
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tagmanager.c.com.baskinrobbins.app"
+       :
+        bc3d41 com.baskinrobbins.app/.MainActivity filter 1d432d4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: " "
+          Authority: "api.baskinrobbins.com": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Path: "PatternMatcher{PREFIX: /categories}"
+          Path: "PatternMatcher{PREFIX: /builder}"
+          Path: "PatternMatcher{PREFIX: /coupons}"
+          Path: "PatternMatcher{PREFIX: /store-selection}"
+          Path: "PatternMatcher{PREFIX: /home}"
+          Path: "PatternMatcher{PREFIX: /menu}"
+          Path: "PatternMatcher{PREFIX: /menu-details}"
+          Path: "PatternMatcher{PREFIX: /promo-details}"
+          Path: "PatternMatcher{PREFIX: /}"
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        bc3d41 com.baskinrobbins.app/.MainActivity filter ca07772
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: " "
+          Authority: " ": -1
+          Path: "PatternMatcher{PREFIX: /}"
+      orders.baskinrobbins:
+        bc3d41 com.baskinrobbins.app/.MainActivity filter 30c5027
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "orders.baskinrobbins"
+      https:
+        bc3d41 com.baskinrobbins.app/.MainActivity filter 1d432d4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: " "
+          Authority: "api.baskinrobbins.com": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Authority: " ": -1
+          Path: "PatternMatcher{PREFIX: /categories}"
+          Path: "PatternMatcher{PREFIX: /builder}"
+          Path: "PatternMatcher{PREFIX: /coupons}"
+          Path: "PatternMatcher{PREFIX: /store-selection}"
+          Path: "PatternMatcher{PREFIX: /home}"
+          Path: "PatternMatcher{PREFIX: /menu}"
+          Path: "PatternMatcher{PREFIX: /menu-details}"
+          Path: "PatternMatcher{PREFIX: /promo-details}"
+          Path: "PatternMatcher{PREFIX: /}"
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        fa98be com.baskinrobbins.app/org.apache.cordova.firebase.DynamicLinkActivity filter 6311d1f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "tillster.page.link": -1
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        bc3d41 com.baskinrobbins.app/.MainActivity filter c1612e6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.google.android.gms.analytics.ANALYTICS_DISPATCH:
+        ec3086c com.baskinrobbins.app/com.google.android.gms.analytics.AnalyticsReceiver filter 523ae35
+          Action: "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        d0e3f58 com.baskinrobbins.app/de.appplant.cordova.plugin.localnotification.RestoreReceiver filter c6df8b1
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.android.vending.INSTALL_REFERRER:
+        14382ca com.baskinrobbins.app/com.google.android.gms.analytics.CampaignTrackingReceiver filter dd46c3b
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        67f0196 com.baskinrobbins.app/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 6939117
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BOOT_COMPLETED:
+        d0e3f58 com.baskinrobbins.app/de.appplant.cordova.plugin.localnotification.RestoreReceiver filter c6df8b1
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        1d3f904 com.baskinrobbins.app/com.braze.push.BrazeFirebaseMessagingService filter a386eed
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        421a122 com.baskinrobbins.app/com.google.firebase.messaging.FirebaseMessagingService filter 3b627b3
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.baskinrobbins.app:
+    ID: fbd5850c-0eb8-4c71-8fcc-d4b889dfbb42
+    Signatures: [64:C6:D1:1A:15:83:C1:BF:1E:66:C0:C2:92:D4:74:5F:EE:D3:5E:2F:E8:DA:56:7E:43:34:26:8B:A1:63:7B:95]
+    Invalid autoVerify domains:
+       
+    Domain verification state:
+      tillster.page.link: 1024
+      api.baskinrobbins.com: 1024
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          tillster.page.link
+          api.baskinrobbins.com
+
+Registered ContentProviders:
+  com.baskinrobbins.app/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{dc253a3 com.baskinrobbins.app/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.baskinrobbins.app/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{44b76a0 com.baskinrobbins.app/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.baskinrobbins.app/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{2067259 com.baskinrobbins.app/com.google.firebase.provider.FirebaseInitProvider}
+  com.baskinrobbins.app/de.appplant.cordova.plugin.notification.util.AssetProvider:
+    Provider{d6bfe1e com.baskinrobbins.app/de.appplant.cordova.plugin.notification.util.AssetProvider}
+
+ContentProvider Authorities:
+  [com.baskinrobbins.app.lifecycle-process]:
+    Provider{dc253a3 com.baskinrobbins.app/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{79c86ff com.baskinrobbins.app}
+  [com.baskinrobbins.app.firebaseperfprovider]:
+    Provider{44b76a0 com.baskinrobbins.app/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{7015ccc com.baskinrobbins.app}
+  [com.baskinrobbins.app.provider]:
+    Provider{d6bfe1e com.baskinrobbins.app/de.appplant.cordova.plugin.notification.util.AssetProvider}
+      applicationInfo=ApplicationInfo{7a2db15 com.baskinrobbins.app}
+  [com.baskinrobbins.app.firebaseinitprovider]:
+    Provider{2067259 com.baskinrobbins.app/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{655de2a com.baskinrobbins.app}
+
+Key Set Manager:
+  [com.baskinrobbins.app]
+      Signing KeySets: 228
+
+Packages:
+  Package [com.baskinrobbins.app] (e712a0f):
+    appId=10382
+    pkg=Package{abc941b com.baskinrobbins.app}
+    codePath=/data/app/~~S2HWal-SfuKIIyB30M5lnQ==/com.baskinrobbins.app-lddjHC-GZipB64H-yx4h6g==
+    resourcePath=/data/app/~~S2HWal-SfuKIIyB30M5lnQ==/com.baskinrobbins.app-lddjHC-GZipB64H-yx4h6g==
+    legacyNativeLibraryDir=/data/app/~~S2HWal-SfuKIIyB30M5lnQ==/com.baskinrobbins.app-lddjHC-GZipB64H-yx4h6g==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=30000350 minSdk=22 targetSdk=30
+    minExtensionVersions=[]
+    versionName=3.0.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-08-06 21:13:27
+    lastUpdateTime=2025-08-06 21:13:27
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{f4d79b8 version:2, signatures:[b8ca3f86], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.sec.android.provider.badge.permission.READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_APP_BADGE
+      android.permission.WRITE_CONTACTS
+      com.majeur.launcher.permission.UPDATE_BADGE
+      android.permission.ACCESS_NETWORK_STATE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.sec.android.provider.badge.permission.WRITE
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.GET_ACCOUNTS
+      android.permission.VIBRATE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=44212 deDataInode=44170 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.baskinrobbins.app
+      firstInstallTime=2025-08-06 21:13:27
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.baskinrobbins.app
+    com.xiaomi.aicr:
+      com.baskinrobbins.app
+    com.android.contacts:
+      com.baskinrobbins.app
+    com.xiaomi.gamecenter.sdk.service:
+      com.baskinrobbins.app
+    com.android.settings.intelligence:
+      com.baskinrobbins.app
+    com.miui.carlink:
+      com.baskinrobbins.app
+    com.miui.nextpay:
+      com.baskinrobbins.app
+    com.xiaomi.mis:
+      com.baskinrobbins.app
+    com.miui.hybrid:
+      com.baskinrobbins.app
+    com.xiaomi.market:
+      com.baskinrobbins.app
+    com.miui.systemAdSolution:
+      com.baskinrobbins.app
+    com.xiaomi.account:
+      com.baskinrobbins.app
+    com.miui.greenguard:
+      com.baskinrobbins.app
+    com.xiaomi.payment:
+      com.baskinrobbins.app
+    com.xiaomi.xmsf:
+      com.baskinrobbins.app
+    com.android.providers.downloads.ui:
+      com.baskinrobbins.app
+    com.mfashiongallery.emag:
+      com.baskinrobbins.app
+    com.android.calendar:
+      com.baskinrobbins.app
+    com.android.email:
+      com.baskinrobbins.app
+    com.miui.gallery:
+      com.baskinrobbins.app
+    com.miui.virtualsim:
+      com.baskinrobbins.app
+    com.getsurfboard:
+      com.baskinrobbins.app
+    com.xingin.xhs:
+      com.baskinrobbins.app
+    com.duokan.reader:
+      com.baskinrobbins.app
+    com.instagram.android:
+      com.baskinrobbins.app
+    com.miui.video:
+      com.baskinrobbins.app
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.baskinrobbins.app
+    cool.monkey.android:
+      com.baskinrobbins.app
+    com.ss.android.ugc.aweme:
+      com.baskinrobbins.app
+    com.microsoft.office.outlook:
+      com.baskinrobbins.app
+    com.ss.android.article.news:
+      com.baskinrobbins.app
+    com.jijia.bqwnl:
+      com.baskinrobbins.app
+    com.quark.browser:
+      com.baskinrobbins.app
+    com.baidu.BaiduMap:
+      com.baskinrobbins.app
+    com.UCMobile:
+      com.baskinrobbins.app
+    com.autonavi.minimap:
+      com.baskinrobbins.app
+    com.dragon.read:
+      com.baskinrobbins.app
+    com.jijia.jjweather:
+      com.baskinrobbins.app
+    com.zhuantech.sijiweather:
+      com.baskinrobbins.app
+    com.suxing.sustream:
+      com.baskinrobbins.app
+    com.yahoo.mobile.client.android.mail:
+      com.baskinrobbins.app
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.baskinrobbins.app]
+    path: /data/app/~~S2HWal-SfuKIIyB30M5lnQ==/com.baskinrobbins.app-lddjHC-GZipB64H-yx4h6g==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~S2HWal-SfuKIIyB30M5lnQ==/com.baskinrobbins.app-lddjHC-GZipB64H-yx4h6g==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 112Kb base.vdex: 6858Kb 
+
+Compiler stats:
+  [com.baskinrobbins.app]
+    (No recorded stats)

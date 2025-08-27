@@ -1,0 +1,438 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        a84e595 com.microsoft.todos/.ui.takenote.NoteToSelfActivity filter ec756aa
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        8c3e29b com.microsoft.todos/.ui.newtodo.NewTodoActivity filter 954e638
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image/*:
+        8c3e29b com.microsoft.todos/.ui.newtodo.NewTodoActivity filter e9b4611
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      text:
+        a84e595 com.microsoft.todos/.ui.takenote.NoteToSelfActivity filter ec756aa
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        8c3e29b com.microsoft.todos/.ui.newtodo.NewTodoActivity filter 954e638
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      image:
+        8c3e29b com.microsoft.todos/.ui.newtodo.NewTodoActivity filter e9b4611
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      https:
+        1d56fb4 com.microsoft.todos/.deeplinks.DeepLinkActivity filter 92197dd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "public.todo.microsoft.com": -1
+          Path: "PatternMatcher{PREFIX: /download/}"
+          AutoVerify=true
+        1d56fb4 com.microsoft.todos/.deeplinks.DeepLinkActivity filter 1812f52
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "to-do.microsoft.com": -1
+          Authority: "to-do.microsoft.com": -1
+          Path: "PatternMatcher{LITERAL: /sharing}"
+          Path: "PatternMatcher{LITERAL: /tasks/sharing}"
+          AutoVerify=true
+        1d56fb4 com.microsoft.todos/.deeplinks.DeepLinkActivity filter e33d320
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "to-do.microsoft.com": -1
+          Authority: "to-do.microsoft.com": -1
+          Path: "PatternMatcher{LITERAL: /importer-success}"
+          Path: "PatternMatcher{LITERAL: /tasks/importer-success}"
+          AutoVerify=true
+      ms-to-do:
+        1d56fb4 com.microsoft.todos/.deeplinks.DeepLinkActivity filter bd85223
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ms-to-do"
+          Authority: "sharing": -1
+          Authority: "settings": -1
+          Authority: "search": -1
+          Authority: "myday": -1
+          Authority: "inbox": -1
+          Authority: "list": -1
+          Authority: "wunderlist-import-code": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        124d4d9 com.microsoft.todos/.ui.LaunchActivity filter e5eee9e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        99c3376 com.microsoft.todos/.widget.configuration.WidgetConfigurationActivity filter 2740d77
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      android.intent.action.SEARCH:
+        753ed7f com.microsoft.todos/.search.SearchActivity filter 53014c
+          Action: "android.intent.action.SEARCH"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        8c3e29b com.microsoft.todos/.ui.newtodo.NewTodoActivity filter 954e638
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        8c3e29b com.microsoft.todos/.ui.newtodo.NewTodoActivity filter e9b4611
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      com.google.android.gm.action.AUTO_SEND:
+        a84e595 com.microsoft.todos/.ui.takenote.NoteToSelfActivity filter ec756aa
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        bcad814 com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6ac48bd
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        3566626 com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 64d4267
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.QUICKBOOT_POWERON:
+        9ea4d68 com.microsoft.todos/com.evernote.android.job.JobBootReceiver filter 2c8d581
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        9ea4d68 com.microsoft.todos/com.evernote.android.job.JobBootReceiver filter 2c8d581
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        4b2beb2 com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 5e19e03
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        8876180 com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter a59b3b9
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        101102 com.microsoft.todos/.reminder.AlarmReceiver filter 5920a13
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        4b2beb2 com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 5e19e03
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.google.android.c2dm.intent.RECEIVE:
+        9ef720a com.microsoft.todos/com.google.firebase.iid.FirebaseInstanceIdReceiver filter d6eca7b
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        bcad814 com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6ac48bd
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        70a13fe com.microsoft.todos/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5d6175f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        70a13fe com.microsoft.todos/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5d6175f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      com.evernote.android.job.v14.RUN_JOB:
+        ababe5a com.microsoft.todos/com.evernote.android.job.v14.PlatformAlarmReceiver filter b1ea88b
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+      android.intent.action.BOOT_COMPLETED:
+        88e2de4 com.microsoft.todos/.sync.AlarmSyncBootReceiver filter 8dd324d
+          Action: "android.intent.action.BOOT_COMPLETED"
+        101102 com.microsoft.todos/.reminder.AlarmReceiver filter 5920a13
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+        bf24450 com.microsoft.todos/.reminder.AlarmBootReceiver filter cd7a649
+          Action: "android.intent.action.BOOT_COMPLETED"
+        9ea4d68 com.microsoft.todos/com.evernote.android.job.JobBootReceiver filter 2c8d581
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        70a13fe com.microsoft.todos/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5d6175f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        3566626 com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 64d4267
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        b3f557c com.microsoft.todos/com.microsoft.intune.mam.client.service.MAMBackgroundReceiver filter feb5e05
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        1f23b4e com.microsoft.todos/.widget.WidgetProvider filter e89346f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        9ea4d68 com.microsoft.todos/com.evernote.android.job.JobBootReceiver filter 2c8d581
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        9c115ac com.microsoft.todos/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter ad8d275
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      net.vrallev.android.job.v14.RUN_JOB:
+        ababe5a com.microsoft.todos/com.evernote.android.job.v14.PlatformAlarmReceiver filter b1ea88b
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.quicksettings.action.QS_TILE:
+        11aa4d6 com.microsoft.todos/.tile.ToDoTile filter a159357 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+      com.google.firebase.MESSAGING_EVENT:
+        fffe098 com.microsoft.todos/.notification.TodoFirebaseMessagingService filter 3f120f1
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        a5e6e44 com.microsoft.todos/com.google.firebase.messaging.FirebaseMessagingService filter c65db2d
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.microsoft.tokenshare.TokenSharingService:
+        1f43862 com.microsoft.todos/com.microsoft.tokenshare.TokenSharingService filter bf60df3
+          Action: "com.microsoft.tokenshare.TokenSharingService"
+
+Domain verification status:
+  com.microsoft.todos:
+    ID: 2183e660-385a-4c86-ae73-b7aebc67981d
+    Signatures: [5F:A5:E6:BE:06:D6:FB:98:3F:26:2E:CE:61:34:C5:26:08:45:0C:B1:1D:C3:06:12:F7:80:59:D8:E7:69:AC:A1]
+    Domain verification state:
+      to-do.microsoft.com: none
+      public.todo.microsoft.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          to-do.microsoft.com
+          public.todo.microsoft.com
+
+Registered ContentProviders:
+  com.microsoft.todos/androidx.core.content.FileProvider:
+    Provider{cd9d46 com.microsoft.todos/androidx.core.content.FileProvider}
+  com.microsoft.todos/androidx.work.impl.WorkManagerInitializer:
+    Provider{79b7b07 com.microsoft.todos/androidx.work.impl.WorkManagerInitializer}
+  com.microsoft.todos/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{b19b434 com.microsoft.todos/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.microsoft.todos.workmanager-init]:
+    Provider{79b7b07 com.microsoft.todos/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{311c25d com.microsoft.todos}
+  [com.microsoft.todos.fileprovider]:
+    Provider{cd9d46 com.microsoft.todos/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{8b647d2 com.microsoft.todos}
+  [com.microsoft.todos.firebaseinitprovider]:
+    Provider{b19b434 com.microsoft.todos/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{deac0a3 com.microsoft.todos}
+
+Key Set Manager:
+  [com.microsoft.todos]
+      Signing KeySets: 99
+
+Packages:
+  Package [com.microsoft.todos] (4b7dfa0):
+    userId=10185
+    pkg=Package{e2d2759 com.microsoft.todos}
+    codePath=/data/app/~~z8iTv3ysH9u8kxG_VfyyKw==/com.microsoft.todos-446yelMuh1VtsGwTbbVD2g==
+    resourcePath=/data/app/~~z8iTv3ysH9u8kxG_VfyyKw==/com.microsoft.todos-446yelMuh1VtsGwTbbVD2g==
+    legacyNativeLibraryDir=/data/app/~~z8iTv3ysH9u8kxG_VfyyKw==/com.microsoft.todos-446yelMuh1VtsGwTbbVD2g==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=259 minSdk=23 targetSdk=30
+    minExtensionVersions=[]
+    versionName=2.68.259
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{e2d2759 com.microsoft.todos}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=https:///... }, Intent { act=android.intent.action.VIEW dat=http:///... }, Intent { act=android.intent.action.VIEW dat=mailto:xx }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.DIAL }, Intent { act=android.intent.action.SEND dat=content://*/* typ=text/plain }, Intent { act=android.intent.action.SENDTO }, Intent { act=android.speech.action.RECOGNIZE_SPEECH }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    dataDir=/data/user/0/com.microsoft.todos
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-05-08 08:35:27
+    firstInstallTime=2025-05-08 08:35:27
+    lastUpdateTime=2025-05-08 08:35:27
+    signatures=PackageSignatures{30d0f1e version:2, signatures:[d9e3e45c], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.GET_ACCOUNTS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.USE_CREDENTIALS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS
+      android.permission.AUTHENTICATE_ACCOUNTS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.READ_PHONE_STATE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=140123 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.microsoft.todos
+    com.google.android.settings.intelligence:
+      com.microsoft.todos
+    com.google.android.apps.youtube.music:
+      com.microsoft.todos
+    com.google.android.apps.maps:
+      com.microsoft.todos
+    com.google.android.youtube:
+      com.microsoft.todos
+    com.google.android.apps.photos:
+      com.microsoft.todos
+    com.microsoft.todos:
+      com.google.android.setupwizard
+      com.android.dialer
+      com.google.android.apps.messaging
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.camera2
+      com.android.chrome
+      com.google.android.gm
+      com.google.android.calendar
+      com.google.android.apps.docs
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=57
+  User 0:
+    seq=8, package=com.google.android.gms
+    seq=14, package=com.Dominos
+    seq=16, package=com.google.android.apps.docs
+    seq=20, package=com.getmimo
+    seq=24, package=com.jardogs.fmhmobile
+    seq=34, package=com.kohls.mcommerce.opal
+    seq=39, package=com.wakefern.shoprite
+    seq=45, package=com.rsupport.mvagent
+    seq=54, package=com.what3words.android
+    seq=55, package=io.github.ylimit.droidbotapp
+    seq=56, package=com.microsoft.todos
+
+
+Dexopt state:
+  [com.microsoft.todos]
+    path: /data/app/~~z8iTv3ysH9u8kxG_VfyyKw==/com.microsoft.todos-446yelMuh1VtsGwTbbVD2g==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.microsoft.todos]
+     base.apk - 1284
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 6270  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:55         now          29       61062           0           0           6          15           9
+          1:55        0:55          14       25599           0           0           0           2           0
+          2:55        1:55          18       50389           0           1           3          18          12
+          3:55        2:55           2       34301           0           0           0           0           0
+          4:55        3:55          10        6734           0           0           0           0           0
+          5:55        4:55          25       60277           0           0           4          15           8
+          6:55        5:55           3        9004           0           0           0           0           0
+          7:55        6:55          29       58455           0           0           5           7           1
+          8:55        7:55          11       37999           0           0           3           3           2
+          9:55        8:55          28       50731           0           0           3           8           2
+         16:55         now         434      683951           0           3          58         190          17
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:55         now          28           0           0           1           0           0           0           0
+          1:55        0:55          14           0           0           0           0           0           0           0
+          2:55        1:55          17           0           0           0           1           0           0           0
+          3:55        2:55           2           0           0           0           0           0           0           0
+          4:55        3:55          10           0           0           0           0           0           0           0
+          5:55        4:55          24           0           0           1           0           0           0           0
+          6:55        5:55           3           0           0           0           0           0           0           0
+          7:55        6:55          29           0           0           0           0           0           0           0
+          8:55        7:55          10           1           0           0           0           0           0           0
+          9:55        8:55          27           1           0           0           0           0           0           0
+         16:55         now         419           4           5           3           3           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:55         now           5           0           1           1           1           0           2          19
+          1:55        0:55           0           0           0           2           1           1           2           8
+          2:55        1:55           3           0           0           2           1           1           0          11
+          3:55        2:55           0           0           0           0           0           0           0           2
+          4:55        3:55           0           0           0           0           2           1           4           3
+          5:55        4:55           4           0           0           2           0           3           3          13
+          6:55        5:55           0           0           0           0           0           0           1           2
+          7:55        6:55           4           0           1           1           3           2           3          15
+          8:55        7:55           3           0           0           0           0           1           1           6
+          9:55        8:55           2           0           1           0           3           3           1          18
+         16:55         now          45           4           8          17          24          49          44         242

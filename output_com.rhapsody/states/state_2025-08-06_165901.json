@@ -1,0 +1,1478 @@
+{
+  "tag": "2025-08-06_165901",
+  "state_str": "2c7860477f6115b88ac31920df56112d",
+  "state_str_content_free": "6e54758e4254fd61f738b6cbd02234d4",
+  "foreground_activity": "com.rhapsody/com.rhapsodycore.activity.signin.SocialSignInActivity",
+  "activity_stack": [
+    "com.rhapsody/com.rhapsodycore.activity.signin.SocialSignInActivity",
+    "com.rhapsody/com.rhapsodycore.activity.signin.PreSignInActivity",
+    "com.rhapsody/com.rhapsodycore.activity.StartActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.xiaomi.aicr/.access.AiCrCognitionService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "com.qti.phone/.ExtTelephonyService",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.miui.miwallpaper/.wallpaperservice.ImageWallpaper",
+    "com.spotify.music/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "org.codeaurora.ims/.ImsService",
+    "com.xiaomi.mi_connect_service/.MiConnectService",
+    "com.android.providers.downloads/.remote.service.DebugLogService",
+    "com.miui.personalassistant/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.miui.securitycenter/com.miui.securityscan.fileobserver.ImageProtectService",
+    "com.milink.service/com.milink.runtime.SentryService",
+    "com.google.android.gms/.cast.media.CastMediaRoute2ProviderService_Persistent",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.ContinuityServiceManagerService",
+    "com.xiaomi.xmsf/.services.ServiceBoxService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.qualcomm.location/.LocationService",
+    "com.miui.home/.recents.TouchInteractionService",
+    "com.spotify.music/com.spotify.app.music.service.SpotifyService",
+    "com.miui.powerkeeper/.feedbackcontrol.FeedbackControlService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.qualcomm.qti.devicestatisticsservice/.DeviceStatisticsService",
+    "com.zhuantech.sijiweather/org.chromium.content.app.SandboxedProcessService0",
+    "com.miui.analytics/.onetrack.OneTrackService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.VideoToolBoxService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/.droidguard.DroidGuardService",
+    "com.google.android.gms/org.chromium.content.app.SandboxedProcessService0",
+    "com.qualcomm.location/.izat.IzatService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.miui.voiceassist/com.xiaomi.voiceassistant.AssistInteractionService",
+    "com.google.android.gms/.instantapps.service.InstantAppsService",
+    "com.netease.newsreader.activity/org.chromium.content.app.SandboxedProcessService0",
+    "com.milink.service/com.xiaomi.dist.hardware.service.DistributedHardwareService",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionService",
+    "com.miui.dmregservice/cn.richinfo.dm.service.DMService",
+    "com.miui.securitycenter/com.miui.antivirus.service.GuardService",
+    "com.miui.misightservice/.MiSightManagerService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.xiaomi.mirror/.MainService",
+    "com.miui.powerkeeper/.powerchecker.PowerCheckerService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.sina.news/org.eclipse.paho.android.service.MqttService",
+    "com.qualcomm.qti.workloadclassifier/.WLCService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.NotificationListener",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.xiaomi.xmsf/com.miui.server.appupdate.AppUpdateService",
+    "com.xiaomi.xmsf/.services.MainProcBridgeService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.miui.hybrid/.host.HostService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.proxy.ProxyServiceManagerService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.networking.service.NetworkingService",
+    "com.android.thememanager/.aiwallpaper.core.AIWallpaperService",
+    "org.codeaurora.ims/.QtiImsExtService",
+    "com.ebay.mobile/com.google.firebase.sessions.SessionLifecycleService",
+    "com.xiaomi.account/.XiaomiAccountService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokGeocodeService",
+    "com.milink.service/com.xiaomi.dist.camera.kit.CameraControllerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.miui.systemAdSolution/.splashscreen.SplashScreenService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyServiceV2",
+    "com.android.mtp/.MtpService",
+    "com.miui.securitycenter/com.miui.networkassistant.vpn.miui.MiuiVpnManageService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.main.PreLaunchService",
+    "com.instagram.android/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "vendor.qti.data.ntnsatapp/.NtnDataServiceImpl",
+    "com.android.updater/.UpdateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.xiaomi.misettings/.usagestats.widget.desktop.service.UsageStatsUpdateService",
+    "com.xiaomi.phone/com.xiaomi.services.telephony.MiTelephonyService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.GameBoosterService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.musicfx/.KeepAliveService",
+    "com.xiaomi.aicr/.common.download.DownloadService",
+    "com.miui.securitycenter/com.miui.gamebooster.beauty.BeautyService",
+    "com.miui.analytics/.onetrack.TrackService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.miui.powerkeeper/.thermal.ThermalService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.headset.BluetoothHeadsetService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.netbus.service.NetBusService",
+    "com.android.phone/com.android.internal.telephony.data.CellularDataService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "com.miui.securitycenter/com.miui.powercenter.provider.PowerSaveService",
+    "com.miui.securitycenter/com.miui.gamebooster.mutiwindow.FreeformWindowService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.miui.securitycenter/com.miui.antispam.service.AntiSpamService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "vendor.qti.qesdk.sysservice/.QesdkSysService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.push.service.XMPushService",
+    "com.xiaomi.aicr/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/androidx.room.MultiInstanceInvalidationService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "com.android.providers.downloads.ui/.service.DataLimitService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyService",
+    "com.miui.guardprovider/.manager.SecurityService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.personalsafety.service.PSAService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionServiceReal",
+    "com.sina.news/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.phone/.LowLatencyAidlService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.xiaomi.misettings/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/com.xiaomi.xms.auth.AuthService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.ipc.FinAppAIDLService",
+    "com.qualcomm.atfwd2/.AtFwdService",
+    "com.android.vending/com.google.android.finsky.dfenotification.impl.PhoneskyFirebaseMessagingService",
+    "com.miui.securitycenter/com.miui.ai.service.OperationListCollectService",
+    "com.miui.daemon/.performance.SysoptService",
+    "com.miui.cloudservice/.keybag.binder.MiCloudKeyBagService",
+    "com.qti.dpmserviceapp/.DpmServiceApp",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.xiaomi.bluetooth/.mma.MiuiMMAService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.xiaomi.xmsfkeeper/.KeeperService",
+    "com.cnn.mobile.android.phone/com.google.firebase.sessions.SessionLifecycleService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.xiaomi.registration/.autoregistration.RegistrationService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "tv.danmaku.bili/tv.danmaku.ijk.media.player.services.IjkMediaPlayerService",
+    "com.miui.analytics/.internal.WakeupService",
+    "com.xiaomi.joyose/.gameInfo.GameInfoService",
+    "com.miui.powerkeeper/.WakelockManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AppPredictService",
+    "com.android.browser/com.miui.org.chromium.content.app.SandboxedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.xms.core.XmsCoreService",
+    "vendor.qti.data.txpwradmin/.StxPwrService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "com.miui.misightservice/.misightserviceability.DetectionService",
+    "com.milink.service/com.miui.miplay.audio.service.CoreService",
+    "com.yahoo.mobile.client.android.mail/com.google.firebase.sessions.SessionLifecycleService",
+    "com.miui.powerkeeper/.PowerKeeperBackgroundService",
+    "com.qualcomm.qti.dynamicddsservice/.DynamicDDSService",
+    "com.cnn.mobile.android.phone/com.mapbox.common.LifecycleService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "com.miui.contentcatcher/.autofill.services.MiuiAutofillService",
+    "com.android.smspush/.WapPushManager",
+    "com.miui.securitycenter/.service.RemoteService",
+    "com.xiaomi.bluetooth/.MiuiBluetoothPlatformService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.miui.tsmclient/.service.NfcEventMonitorService",
+    "com.instagram.android/com.instagram.jobscheduler.bgfetch.scheduler.IgBgFetchTaskLifeService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AiService",
+    "com.miui.wmsvc/.WMService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.xiaomi.gnss.polaris/.PolarisService",
+    "com.android.soundrecorder/.RecorderService",
+    "com.xiaomi.joyose/.smartop.SmartOpService",
+    "com.miui.powerkeeper/.statemachine.PowerStateMachineService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokLocationService",
+    "com.android.providers.downloads/.remote.service.LimitSpeedService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.xiaomi.mirror/.SynergyService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.FirewallService",
+    "com.miui.daemon/.performance.MiuiPerfService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.android.browser/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.qualcomm.qti.services.systemhelper/.SysHelperService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.musicworx/com.google.firebase.sessions.SessionLifecycleService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.tm.TrafficManageService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "com.android.mms/org.rcs.service.isl.RcsService",
+    "com.xiaomi.location.fused/.FusedLocationService",
+    "com.miui.miwallpaper/.server.MiuiWallPaperControllerService",
+    "com.rhapsody/com.rhapsodycore.push.NapsterFirebaseMessagingService",
+    "com.miui.personalassistant/.core.overlay.AssistantOverlayService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.vending/com.google.android.finsky.services.LicensingService",
+    "com.android.vending/com.google.android.finsky.setup.DseService",
+    "com.lbe.security.miui/com.lbe.security.service.SecurityService",
+    "com.google.android.gms/.gcm.PushMessagingRegistrarProxy",
+    "com.milink.service/com.xiaomi.miplay.mylibrary.MiPlayAudioService",
+    "com.xiaomi.aicr/.access.AiCrCoreService",
+    "com.xiaomi.touchservice/.TouchService",
+    "com.skysoft.kkbox.android/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.gms/.personalsafety.service.LockingTrustAgentService",
+    "com.android.providers.downloads/.remote.service.DownloadSettingsProviderService"
+  ],
+  "width": 1200,
+  "height": 2670,
+  "views": [
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        30,
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1200*2670",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "168bc36491bfea21cfd9d22a7e64f736"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1200*2622",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "cccd0fcad3c638a0dac5b789eafa0051"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4491b4e26833b04561329721ab80ba3f"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.rhapsody:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "dc78c67c5e58c1dee823bd0334b8878c"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "b79fe740d3be388f2fb57458cb8c6b40"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        28
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7f6b484cfd2babb65a94cbc0af841111"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/root_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1200*2506",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.rhapsody:id/root_layout[text]None[enabled,,]",
+      "view_str": "10425b1f31036aacfd2b6182d33b4a73"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          284
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/appbar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1200*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.rhapsody:id/appbar[text]None[enabled,,]",
+      "view_str": "20fdf1097f40fae3031ba79b881ae0aa"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9,
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          284
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1200*168",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.rhapsody:id/toolbar[text]None[enabled,,]",
+      "view_str": "b560eb03214985f48b1cb53d4ddcd3c1"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Navigate up",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          168,
+          284
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "168*168",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "2f6f956b01c0b09d550453c75cc2030a",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<button text='Navigate up' bound_box=0,116,168,284></button>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1200,
+          116
+        ],
+        [
+          1200,
+          284
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "0*168",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "8a84b776a78769acc94558487438ce01"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/signinScreen",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 11,
+      "size": "1200*2338",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.rhapsody:id/signinScreen[text]None[enabled,,]",
+      "view_str": "bf6649cef199ea3a1603bb72cc12d136"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 8,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        14,
+        15,
+        18,
+        24,
+        25,
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          284
+        ],
+        [
+          1128,
+          1698
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/base_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1056*1414",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.rhapsody:id/base_layout[text]None[enabled,,]",
+      "view_str": "b0faba55e4ca93a994f74b6892c2d02d"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          536,
+          332
+        ],
+        [
+          665,
+          452
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/logoImageView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "129*120",
+      "signature": "[class]android.widget.ImageView[resource_id]com.rhapsody:id/logoImageView[text]None[enabled,,]",
+      "view_str": "51a9c2516cb4eae22dd4e3b2a15c68b6"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          507,
+          524
+        ],
+        [
+          693,
+          612
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/messageTextView",
+      "checked": false,
+      "text": "Hello",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "186*88",
+      "signature": "[class]android.widget.TextView[resource_id]com.rhapsody:id/messageTextView[text]Hello[enabled,,]",
+      "view_str": "08102fcbbba3286b5d961ab84cc14d6a",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<p bound_box=507,524,693,612>Hello</p>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          708
+        ],
+        [
+          1128,
+          905
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/emailTextField",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 15,
+      "size": "1056*197",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.rhapsody:id/emailTextField[text]None[enabled,,]",
+      "view_str": "5569027a901b469279258adae0d0411c"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          724
+        ],
+        [
+          1128,
+          905
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1056*181",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "15fc8117ef95df90ed9cb5fabcadde34"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          724
+        ],
+        [
+          1128,
+          905
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/editUserName",
+      "checked": false,
+      "text": "Email",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1056*181",
+      "signature": "[class]android.widget.EditText[resource_id]com.rhapsody:id/editUserName[text]Email[enabled,,]",
+      "view_str": "d29291b2a2b0b190b3cf06c7145e597c",
+      "allowed_actions": [
+        "touch",
+        "set_text",
+        "long_touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<input bound_box=72,724,1128,905>Email</input>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          953
+        ],
+        [
+          1128,
+          1150
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/passwordTextField",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 18,
+      "size": "1056*197",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.rhapsody:id/passwordTextField[text]None[enabled,,]",
+      "view_str": "7a489c99cdd76840f1e41851d92dbdd0"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          969
+        ],
+        [
+          1128,
+          1150
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1056*181",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "33b100f5485042ddabe69357265f32da"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": true,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          969
+        ],
+        [
+          1128,
+          1150
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/editPassword",
+      "checked": false,
+      "text": "Password",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1056*181",
+      "signature": "[class]android.widget.EditText[resource_id]com.rhapsody:id/editPassword[text]Password[enabled,,]",
+      "view_str": "f102eb1ea547c06ff5f984592c8a1663",
+      "allowed_actions": [
+        "touch",
+        "set_text",
+        "long_touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<input bound_box=72,969,1128,1150>Password</input>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          972,
+          969
+        ],
+        [
+          1128,
+          1150
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "156*181",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4e07c681bf54e11d33825f11d84e8ccf"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          972,
+          969
+        ],
+        [
+          1128,
+          1150
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "156*181",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "927201ece2579f947af22369130b0175"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Show password",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          984,
+          987
+        ],
+        [
+          1128,
+          1131
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/text_input_end_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "144*144",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.rhapsody:id/text_input_end_icon[text]None[enabled,,]",
+      "view_str": "25e7400f2a1adabcdcbf3b696f24afe4",
+      "allowed_actions": [
+        "select",
+        "unselect"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<checkbox text='Show password' bound_box=984,987,1128,1131></checkbox>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1246
+        ],
+        [
+          1128,
+          1390
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/btn_signin",
+      "checked": false,
+      "text": "Log In",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 24,
+      "size": "1056*144",
+      "signature": "[class]android.widget.Button[resource_id]com.rhapsody:id/btn_signin[text]Log In[enabled,,]",
+      "view_str": "18886f102546583f97dad4b87c096533",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<button bound_box=72,1246,1128,1390>Log In</button>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          400,
+          1510
+        ],
+        [
+          801,
+          1580
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/hrefForgotPassword",
+      "checked": false,
+      "text": "Forgotten Password?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 25,
+      "size": "401*70",
+      "signature": "[class]android.widget.TextView[resource_id]com.rhapsody:id/hrefForgotPassword[text]Forgotten Password?[enabled,,]",
+      "view_str": "4ae0d21bc0f0e6091ddf1df2d0fa7e0e",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<button bound_box=400,1510,801,1580>Forgotten Password?</button>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          345,
+          1628
+        ],
+        [
+          694,
+          1698
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/noAccountTextView",
+      "checked": false,
+      "text": "Need an account?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 26,
+      "size": "349*70",
+      "signature": "[class]android.widget.TextView[resource_id]com.rhapsody:id/noAccountTextView[text]Need an account?[enabled,,]",
+      "view_str": "bb76a12027dc1ace905feee2bd4534b1",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<p bound_box=345,1628,694,1698>Need an account?</p>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          706,
+          1628
+        ],
+        [
+          856,
+          1698
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/signUpTextView",
+      "checked": false,
+      "text": "Sign Up",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 27,
+      "size": "150*70",
+      "signature": "[class]android.widget.TextView[resource_id]com.rhapsody:id/signUpTextView[text]Sign Up[enabled,,]",
+      "view_str": "05d817c869140cc5a57938d6e4142ad0",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<button bound_box=706,1628,856,1698>Sign Up</button>"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2622
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/bottom_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 28,
+      "size": "1200*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.rhapsody:id/bottom_bar[text]None[enabled,,]",
+      "view_str": "d3e7b27b986eae26842dbef27924bc2d"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2622
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "com.rhapsody:id/mini_player_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "1200*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.rhapsody:id/mini_player_container[text]None[enabled,,]",
+      "view_str": "ce7fb81903c28b1020b281f0fdbf7f6c"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          116
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 30,
+      "size": "1200*116",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "6f921804a881399234921ab1fb61a600"
+    },
+    {
+      "package": "com.rhapsody",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2622
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 31,
+      "size": "1200*48",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "a48543ed5ee58b3e6d1783aa2de789ce"
+    }
+  ]
+}

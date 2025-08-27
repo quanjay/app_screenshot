@@ -1,0 +1,452 @@
+Activity Resolver Table:
+  Schemes:
+      http:
+        5a81516 com.rhapsody/com.rhapsodycore.deeplink.DeeplinkHandlerActivity filter 401de97
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "play.napster.com": -1
+          AutoVerify=true
+      https:
+        5a81516 com.rhapsody/com.rhapsodycore.deeplink.DeeplinkHandlerActivity filter 401de97
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "play.napster.com": -1
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        630e1bb com.rhapsody/com.rhapsodycore.SplashScreen filter 93946d8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.media.action.MEDIA_PLAY_FROM_SEARCH:
+        630e1bb com.rhapsody/com.rhapsodycore.SplashScreen filter 4092a31
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.CREATE_SHORTCUT:
+        667f884 com.rhapsody/com.rhapsodycore.activity.ShortcutsActivity filter 215386d
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        c627c4c com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6964495
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        e15319e com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 258747f
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        71ec9aa com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter d09d99b
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        6611138 com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 3e39511
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        71ec9aa com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter d09d99b
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.samsung.accessory.action.REGISTER_AGENT:
+        b886ca2 com.rhapsody/com.samsung.android.sdk.accessory.RegisterUponInstallReceiver filter 17bcd33
+          Action: "com.samsung.accessory.action.REGISTER_AGENT"
+      com.google.android.c2dm.intent.RECEIVE:
+        8b19e20 com.rhapsody/com.google.firebase.iid.FirebaseInstanceIdReceiver filter e8e43d9
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      zendesk.support:
+        1494252 com.rhapsody/zendesk.support.DeepLinkingBroadcastReceiver filter bd26923
+          Action: "zendesk.support"
+      android.intent.action.BATTERY_LOW:
+        c627c4c com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6964495
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        b77d676 com.rhapsody/androidx.work.impl.background.systemalarm.RescheduleReceiver filter aa27477
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        24b0ee com.rhapsody/com.rhapsodycore.offline.security.SecureClock$ClockChangedReceiver filter 39c098f
+          Action: "android.intent.action.TIME_SET"
+        b77d676 com.rhapsody/androidx.work.impl.background.systemalarm.RescheduleReceiver filter aa27477
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        7f3d41c com.rhapsody/com.rhapsodycore.offline.security.SecureClock$TimeTickReceiver filter 71a0825
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+        76defc6 com.rhapsody/com.rhapsodycore.notification.local.BootCompletedIntentReceiver filter 2019b87
+          Action: "android.intent.action.BOOT_COMPLETED"
+        b77d676 com.rhapsody/androidx.work.impl.background.systemalarm.RescheduleReceiver filter aa27477
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        e15319e com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 258747f
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        62eedfa com.rhapsody/com.rhapsodycore.widget.StandardWidgetProvider filter 7d9afab
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        4781608 com.rhapsody/com.rhapsodycore.widget.SmallWidgetProvider filter 801a1
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        782e402 com.rhapsody/androidx.work.impl.diagnostics.DiagnosticsReceiver filter fbfe113
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED:
+        2ae18f0 com.rhapsody/com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver filter 959ee69
+          Action: "com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        1b208e4 com.rhapsody/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter bdb714d
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      android.intent.action.ACTION_SHUTDOWN:
+        7f3d41c com.rhapsody/com.rhapsodycore.offline.security.SecureClock$TimeTickReceiver filter 71a0825
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+      android.intent.action.MEDIA_BUTTON:
+        97c8ab4 com.rhapsody/androidx.media.session.MediaButtonReceiver filter 78216dd
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        2f8cf50 com.rhapsody/com.rhapsodycore.push.NapsterFirebaseMessagingService filter afad549
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        3a3907c com.rhapsody/com.google.firebase.messaging.FirebaseMessagingService filter e927d05
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.media.browse.MediaBrowserService:
+        93f3e4e com.rhapsody/com.napster.player.player_v2.service.PlaybackService filter 33d7b6f
+          Action: "android.media.browse.MediaBrowserService"
+
+Domain verification status:
+  com.rhapsody:
+    ID: f8144765-28e4-4969-bdbe-875999d4d857
+    Signatures: [EF:0B:C9:D7:B5:8E:CA:33:A5:98:C6:D9:F4:C8:03:8A:30:DF:27:E3:18:F9:4B:AD:6C:9F:BE:6A:B5:61:D4:1A]
+    Domain verification state:
+      play.napster.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          play.napster.com
+
+Permissions:
+  Permission [com.rhapsody.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (b7dc602):
+    sourcePackage=com.rhapsody
+    uid=10350 gids=[] type=0 prot=signature
+    perm=PermissionInfo{4d38150 com.rhapsody.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.rhapsody/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{795556f com.rhapsody/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.rhapsody/androidx.core.content.FileProvider:
+    Provider{d77627c com.rhapsody/androidx.core.content.FileProvider}
+  com.rhapsody/zendesk.support.SupportSdkStartupProvider:
+    Provider{3bee705 com.rhapsody/zendesk.support.SupportSdkStartupProvider}
+  com.rhapsody/zendesk.support.guide.GuideSdkStartupProvider:
+    Provider{58a135a com.rhapsody/zendesk.support.guide.GuideSdkStartupProvider}
+  com.rhapsody/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{f4bd98b com.rhapsody/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.rhapsody/com.squareup.picasso.PicassoProvider:
+    Provider{c162a68 com.rhapsody/com.squareup.picasso.PicassoProvider}
+  com.rhapsody/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{acbee81 com.rhapsody/com.google.firebase.provider.FirebaseInitProvider}
+  com.rhapsody/com.rhapsodycore.files.LoggingFileProvider:
+    Provider{4460b26 com.rhapsody/com.rhapsodycore.files.LoggingFileProvider}
+  com.rhapsody/zendesk.belvedere.BelvedereFileProvider:
+    Provider{e9c8367 com.rhapsody/zendesk.belvedere.BelvedereFileProvider}
+  com.rhapsody/androidx.startup.InitializationProvider:
+    Provider{1578514 com.rhapsody/androidx.startup.InitializationProvider}
+  com.rhapsody/com.rhapsodycore.content.search.GlobalSearchProvider:
+    Provider{e47f1bd com.rhapsody/com.rhapsodycore.content.search.GlobalSearchProvider}
+
+ContentProvider Authorities:
+  [com.rhapsody.belvedere2.attachments]:
+    Provider{e9c8367 com.rhapsody/zendesk.belvedere.BelvedereFileProvider}
+      applicationInfo=ApplicationInfo{577b3b2 com.rhapsody}
+  [com.rhapsody.loggingfileprovider]:
+    Provider{4460b26 com.rhapsody/com.rhapsodycore.files.LoggingFileProvider}
+      applicationInfo=ApplicationInfo{a63ef03 com.rhapsody}
+  [com.rhapsody.firebaseperfprovider]:
+    Provider{f4bd98b com.rhapsody/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{eb1de80 com.rhapsody}
+  [com.rhapsody.com.squareup.picasso]:
+    Provider{c162a68 com.rhapsody/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{a86ecb9 com.rhapsody}
+  [com.rhapsody.zendesk.support.GuideSdkStartupProvider]:
+    Provider{58a135a com.rhapsody/zendesk.support.guide.GuideSdkStartupProvider}
+      applicationInfo=ApplicationInfo{7a958fe com.rhapsody}
+  [com.rhapsody.androidx-startup]:
+    Provider{1578514 com.rhapsody/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{eac785f com.rhapsody}
+  [com.rhapsody.fileprovider]:
+    Provider{d77627c com.rhapsody/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{49662ac com.rhapsody}
+  [com.rhapsody.zendesk.support.SupportSdkStartupProvider]:
+    Provider{3bee705 com.rhapsody/zendesk.support.SupportSdkStartupProvider}
+      applicationInfo=ApplicationInfo{3209b75 com.rhapsody}
+  [com.rhapsody.mobileadsinitprovider]:
+    Provider{795556f com.rhapsody/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{5be070a com.rhapsody}
+  [com.rhapsody.content.GlobalSearchProvider]:
+    Provider{e47f1bd com.rhapsody/com.rhapsodycore.content.search.GlobalSearchProvider}
+      applicationInfo=ApplicationInfo{3ca3b7b com.rhapsody}
+  [com.rhapsody.firebaseinitprovider]:
+    Provider{acbee81 com.rhapsody/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{75cfd98 com.rhapsody}
+
+Key Set Manager:
+  [com.rhapsody]
+      Signing KeySets: 196
+
+Packages:
+  Package [com.rhapsody] (4732fe7):
+    appId=10350
+    pkg=Package{36c79f1 com.rhapsody}
+    codePath=/data/app/~~jWp-fJ5TI_GU9FAaScz4XA==/com.rhapsody-28aDZ6YRcavwx-AhGhpQZQ==
+    resourcePath=/data/app/~~jWp-fJ5TI_GU9FAaScz4XA==/com.rhapsody-28aDZ6YRcavwx-AhGhpQZQ==
+    legacyNativeLibraryDir=/data/app/~~jWp-fJ5TI_GU9FAaScz4XA==/com.rhapsody-28aDZ6YRcavwx-AhGhpQZQ==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1041 minSdk=23 targetSdk=31
+    minExtensionVersions=[]
+    versionName=8.1.3.1041
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_TASK_REPARENTING ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=http:/... }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.GET_CONTENT }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.OPEN_DOCUMENT dat=content://*/... typ=*/* }, Intent { act=android.intent.action.GET_CONTENT dat=content://*/... typ=*/* }, Intent { act=com.android.vending.billing.InAppBillingService.BIND }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-08-06 16:58:16
+    lastUpdateTime=2025-08-06 16:58:16
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{3bd89d6 version:2, signatures:[bee7acd9], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_TASK_REPARENTING ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.rhapsody.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.samsung.wmanager.ENABLE_NOTIFICATION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      com.rhapsody.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.READ_MEDIA_IMAGES
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      com.samsung.WATCH_APP_TYPE.Companion
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
+      android.permission.ACCESS_WIFI_STATE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      com.rhapsody.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=123170 deDataInode=108041 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.rhapsody
+      firstInstallTime=2025-08-06 16:58:16
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.xiaomi.mtb,com.android.keychain,com.xiaomi.mirror,com.miui.touchassistant,com.android.dynsystem,com.miui.daemon,com.xiaomi.barrage,com.android.provision,com.xiaomi.otrpbroker,com.qualcomm.qti.services.systemhelper,com.xiaomi.digitalkey,com.xiaomi.aiasst.vision,com.android.systemui,com.miui.audiomonitor,vendor.qti.qesdk.sysservice,com.miui.thirdappassistant,com.qti.snapdragon.qdcm_ff,com.miui.notification,com.miui.cit,com.xiaomi.location.fused,com.xiaomi.mi_connect_service,com.xiaomi.joyose,com.miui.securitycore,android,com.xiaomi.trustservice,com.android.settings,com.miui.contentcatcher,com.android.DeviceAsWebcam,com.miui.misightservice,com.android.localtransport,com.android.providers.settings,com.bsp.catchlog,miui.systemui.plugin,com.miui.aod,com.miui.wmsvc,com.xiaomi.misettings,com.xiaomi.aon,com.xiaomi.gnss.polaris,com.android.location.fused,com.qualcomm.qti.xrvd.service,com.android.inputdevices,com.xiaomi.touchservice,com.wapi.wapicertmanage,com.xiaomi.aiasst.service,com.miui.uireporter,com.miui.powerkeeper,com.android.server.telecom,com.miui.bugreport,com.miui.securitycenter,com.miui.qr]:
+      com.rhapsody
+    [com.android.nfc,com.miui.tsmclient]:
+      com.rhapsody
+    com.xiaomi.aicr:
+      com.rhapsody
+    com.android.contacts:
+      com.rhapsody
+    com.xiaomi.gamecenter.sdk.service:
+      com.rhapsody
+    com.android.settings.intelligence:
+      com.rhapsody
+    com.miui.carlink:
+      com.rhapsody
+    com.miui.nextpay:
+      com.rhapsody
+    com.xiaomi.mis:
+      com.rhapsody
+    com.miui.hybrid:
+      com.rhapsody
+    com.xiaomi.market:
+      com.rhapsody
+    com.miui.systemAdSolution:
+      com.rhapsody
+    com.xiaomi.account:
+      com.rhapsody
+    com.miui.greenguard:
+      com.rhapsody
+    com.miui.misound:
+      com.rhapsody
+    com.milink.service:
+      com.rhapsody
+    com.xiaomi.payment:
+      com.rhapsody
+    com.xiaomi.xmsf:
+      com.rhapsody
+    com.android.providers.downloads.ui:
+      com.rhapsody
+    com.mfashiongallery.emag:
+      com.rhapsody
+    com.android.calendar:
+      com.rhapsody
+    com.android.email:
+      com.rhapsody
+    com.miui.gallery:
+      com.rhapsody
+    com.miui.virtualsim:
+      com.rhapsody
+    com.getsurfboard:
+      com.rhapsody
+    com.xingin.xhs:
+      com.rhapsody
+    com.duokan.reader:
+      com.rhapsody
+    com.instagram.android:
+      com.rhapsody
+    com.miui.video:
+      com.rhapsody
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.rhapsody
+    cool.monkey.android:
+      com.rhapsody
+    com.microsoft.office.outlook:
+      com.rhapsody
+    com.jijia.bqwnl:
+      com.rhapsody
+    com.quark.browser:
+      com.rhapsody
+    com.baidu.BaiduMap:
+      com.rhapsody
+    com.UCMobile:
+      com.rhapsody
+    com.autonavi.minimap:
+      com.rhapsody
+    com.jijia.jjweather:
+      com.rhapsody
+    com.zhuantech.sijiweather:
+      com.rhapsody
+    com.suxing.sustream:
+      com.rhapsody
+    com.yahoo.mobile.client.android.mail:
+      com.rhapsody
+    com.rhapsody:
+      com.google.android.documentsui
+      com.android.contacts
+      com.android.music
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.miui.gallery
+      com.android.soundrecorder
+      com.android.chrome
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.rhapsody]
+    path: /data/app/~~jWp-fJ5TI_GU9FAaScz4XA==/com.rhapsody-28aDZ6YRcavwx-AhGhpQZQ==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~jWp-fJ5TI_GU9FAaScz4XA==/com.rhapsody-28aDZ6YRcavwx-AhGhpQZQ==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 320Kb base.vdex: 23303Kb 
+
+Compiler stats:
+  [com.rhapsody]
+    (No recorded stats)

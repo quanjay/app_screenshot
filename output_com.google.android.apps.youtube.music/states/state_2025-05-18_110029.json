@@ -1,0 +1,5458 @@
+{
+  "tag": "2025-05-18_110029",
+  "state_str": "d7b2042617724d12aaecfe8b4fac0f46",
+  "state_str_content_free": "4268cec1ea41ffb422fd9132a7fb1660",
+  "foreground_activity": "com.google.android.apps.youtube.music/.activities.MusicActivity",
+  "activity_stack": [
+    "com.google.android.apps.youtube.music/.activities.MusicActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.android.vending/com.google.android.finsky.setup.dse.impl.DseService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService_Persistent",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.setupwizard/.notification.SetupNotificationService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.google.android.gms/.findmydevice.spot.bleadvertising.OfflineBeaconService_Persistent",
+    "com.google.android.gms/.tron.CollectionService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.gms/.geotimezone.GeoTimeZoneService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.google.android.googlequicksearchbox/androidx.work.impl.background.gcm.WorkManagerGcmService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.vending/com.google.frameworks.client.data.android.server.play.MainProcessEndpointService",
+    "com.google.android.googlequicksearchbox/com.google.android.libraries.notifications.platform.entrypoints.firebase.FirebaseMessagingServiceImpl",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService",
+    "com.google.android.setupwizard/.compat.SetupCompatService",
+    "com.android.bluetooth/.btservice.AdapterService"
+  ],
+  "width": 1080,
+  "height": 2400,
+  "views": [
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        140
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "fac7b2c6cf17e1c3066a2273a947936a"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "be177181306e34efd06eea4806d3c650"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "dedb6ca8d107747ad32649cca4a69c62"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "ebb8c842ada04e2d3590d1b88d456fbd"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "365958529714269b94e19cf8f7367cc1"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        139
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/accessibility_layer_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/accessibility_layer_container[text]None[enabled,,]",
+      "view_str": "1935c6d2dbc7875ad99fc9ec125b7f9e"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/main_layout_wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/main_layout_wrapper[text]None[enabled,,]",
+      "view_str": "f0cc023a210a985cab90df5e7bb861dc"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          0
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/waze_bar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/waze_bar_container[text]None[enabled,,]",
+      "view_str": "0f4b166670169884c989c6baf2ddea56"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9,
+        124,
+        125
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/watch_while_layout_wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/watch_while_layout_wrapper[text]None[enabled,,]",
+      "view_str": "cce078a8117e7f4b2b4c77ac2961682f"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/mpp_watch_while_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1080*2400",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.google.android.apps.youtube.music:id/mpp_watch_while_layout[text]None[enabled,,]",
+      "view_str": "7caa283816d80ab3b439db2a8a766613"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/fragment_container[text]None[enabled,,]",
+      "view_str": "04fadef2fcbbcc81a80cb81126a52f86"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        16,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/coordinator_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*2274",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.google.android.apps.youtube.music:id/coordinator_layout[text]None[enabled,,]",
+      "view_str": "7a9b7a522efcf6625575302b7d852212"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        14,
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1050
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/background_image_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1080*1050",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.google.android.apps.youtube.music:id/background_image_container[text]None[enabled,,]",
+      "view_str": "4fca54ff4ea4bf97a3272938612dceb3"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1050
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/background_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*1050",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/background_image[text]None[enabled,,]",
+      "view_str": "90efcf32c6b51d0e2ee434fa3f937166"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1050
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/background_overlay_gradient",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "1080*1050",
+      "signature": "[class]android.view.View[resource_id]com.google.android.apps.youtube.music:id/background_overlay_gradient[text]None[enabled,,]",
+      "view_str": "b969ebf669ef8c942ef4f32feb499694"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1050
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/background_scrim",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 15,
+      "size": "1080*1050",
+      "signature": "[class]android.view.View[resource_id]com.google.android.apps.youtube.music:id/background_scrim[text]None[enabled,,]",
+      "view_str": "dae405ef867422e6b166b512cb8664ac"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/app_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 16,
+      "size": "1080*126",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/app_bar[text]None[enabled,,]",
+      "view_str": "d3611a19dd2a600653ae7d44fcdab6a0"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18,
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1080*126",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.google.android.apps.youtube.music:id/toolbar[text]None[enabled,,]",
+      "view_str": "79770a237ae9d09981af976b41e56c72"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          94
+        ],
+        [
+          252,
+          157
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "210*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "6cfa6cecc3b6bc26287a7bc2a7b75d87"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          816,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 19,
+      "size": "264*126",
+      "signature": "[class]android.support.v7.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "2f297929cb98760a9f5a65cfc6bb6085"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": false,
+      "content_description": "Cast. Disconnected",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          816,
+          63
+        ],
+        [
+          943,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "127*126",
+      "signature": "[class]android.view.View[resource_id]None[text]None[,,]",
+      "view_str": "14300ca95ca1fb58ee668ec94898bdf5",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<button text='Cast. Disconnected' bound_box=816,63,943,189></button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Account",
+      "children": [
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          943,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/avatar_menu_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "137*126",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/avatar_menu_button[text]None[enabled,,]",
+      "view_str": "ebe983bcd51de503e7369b261bdd47df",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<button text='Account' bound_box=943,63,1080,189></button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          964,
+          84
+        ],
+        [
+          1048,
+          168
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/avatar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "84*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/avatar[text]None[enabled,,]",
+      "view_str": "a3f37baab11700dd8b542f0dd28e86bc"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/header_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 23,
+      "size": "1080*0",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.google.android.apps.youtube.music:id/header_container[text]None[enabled,,]",
+      "view_str": "18f9c80ebb93476eebad419eb4395b27"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/browse_content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 24,
+      "size": "1080*2085",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/browse_content[text]None[enabled,,]",
+      "view_str": "b419527cb5b1c24887257417afad1000"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/tabbed_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "1080*2085",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/tabbed_view[text]None[enabled,,]",
+      "view_str": "b505143bfc4f79b00571e1fb48cbc151"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "1080*2085",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]None[text]None[enabled,,]",
+      "view_str": "496bcc2a4b7e35d62c4e8fe48fa1f07c"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        28
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "1080*2085",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "d08b9f2ddc975dad7d0d830ffed43f58"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29,
+        37,
+        45,
+        53,
+        61
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/section_list_content",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "1080*2085",
+      "signature": "[class]android.support.v7.widget.RecyclerView[resource_id]com.google.android.apps.youtube.music:id/section_list_content[text]None[enabled,,]",
+      "view_str": "73adb23b95cb7dff4a31f65337076805"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          340
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_item_chrome",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "1080*151",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/music_item_chrome[text]None[enabled,,]",
+      "view_str": "bc550f25565b2cf9115fae3a554bb6cd"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          340
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_shelf_header",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/music_shelf_header[text]None[enabled,,]",
+      "view_str": "2977f4f51f87569c7c1bf6818bce6149"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32,
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          340
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "243fddf611236b19232b208f86649b23"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          933,
+          340
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "933*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/title_container[text]None[enabled,,]",
+      "view_str": "6398cbfeb4974b6ac084a3d9fd8c5dde"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          220
+        ],
+        [
+          891,
+          309
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title",
+      "checked": false,
+      "text": "Playlists",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "849*89",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/title[text]Playlists[enabled,,]",
+      "view_str": "fe4814a261e69834a07c01268be7376e",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<button bound_box=42,220,891,309>Playlists</button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          191
+        ],
+        [
+          1080,
+          338
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_links",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 34,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/icon_links[text]None[enabled,,]",
+      "view_str": "cefe0db6df9e08aa396d09b147c7ae9a"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          191
+        ],
+        [
+          1080,
+          338
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "42f7df84b1c85aa2afa5dc4379215803"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "See more button",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          191
+        ],
+        [
+          1080,
+          338
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_link",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "147*147",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/icon_link[text]None[enabled,,]",
+      "view_str": "55d251e656a16d124b70c079dd0b46af",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<button text='See more button' bound_box=933,191,1080,338></button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          340
+        ],
+        [
+          1080,
+          491
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_item_chrome",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 37,
+      "size": "1080*151",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/music_item_chrome[text]None[enabled,,]",
+      "view_str": "bc550f25565b2cf9115fae3a554bb6cd"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          340
+        ],
+        [
+          1080,
+          491
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_shelf_header",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/music_shelf_header[text]None[enabled,,]",
+      "view_str": "2977f4f51f87569c7c1bf6818bce6149"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        40,
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          340
+        ],
+        [
+          1080,
+          491
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "243fddf611236b19232b208f86649b23"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          340
+        ],
+        [
+          933,
+          491
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "933*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/title_container[text]None[enabled,,]",
+      "view_str": "a96942e2f743eb76b6b42ab3bf68aa6d"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          371
+        ],
+        [
+          891,
+          460
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title",
+      "checked": false,
+      "text": "Albums",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "849*89",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/title[text]Albums[enabled,,]",
+      "view_str": "6cd689a31bd55846e3d4ffca09e93288",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<button bound_box=42,371,891,460>Albums</button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          342
+        ],
+        [
+          1080,
+          489
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_links",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 42,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/icon_links[text]None[enabled,,]",
+      "view_str": "cefe0db6df9e08aa396d09b147c7ae9a"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          342
+        ],
+        [
+          1080,
+          489
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "42f7df84b1c85aa2afa5dc4379215803"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "See more button",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          342
+        ],
+        [
+          1080,
+          489
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_link",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "147*147",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/icon_link[text]None[enabled,,]",
+      "view_str": "55d251e656a16d124b70c079dd0b46af",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<button text='See more button' bound_box=933,342,1080,489></button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          491
+        ],
+        [
+          1080,
+          642
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_item_chrome",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 45,
+      "size": "1080*151",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/music_item_chrome[text]None[enabled,,]",
+      "view_str": "bc550f25565b2cf9115fae3a554bb6cd"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          491
+        ],
+        [
+          1080,
+          642
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_shelf_header",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 45,
+      "temp_id": 46,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/music_shelf_header[text]None[enabled,,]",
+      "view_str": "2977f4f51f87569c7c1bf6818bce6149"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        48,
+        50
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          491
+        ],
+        [
+          1080,
+          642
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "243fddf611236b19232b208f86649b23"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          491
+        ],
+        [
+          933,
+          642
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 48,
+      "size": "933*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/title_container[text]None[enabled,,]",
+      "view_str": "4b57f66feb9f50ee3f996db3d86d3213"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          522
+        ],
+        [
+          891,
+          611
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title",
+      "checked": false,
+      "text": "Songs",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "849*89",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/title[text]Songs[enabled,,]",
+      "view_str": "44ea303fbe0585056ee12bccca2e6087",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<button bound_box=42,522,891,611>Songs</button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          493
+        ],
+        [
+          1080,
+          640
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_links",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 50,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/icon_links[text]None[enabled,,]",
+      "view_str": "cefe0db6df9e08aa396d09b147c7ae9a"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          493
+        ],
+        [
+          1080,
+          640
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "42f7df84b1c85aa2afa5dc4379215803"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "See more button",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          493
+        ],
+        [
+          1080,
+          640
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_link",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "147*147",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/icon_link[text]None[enabled,,]",
+      "view_str": "55d251e656a16d124b70c079dd0b46af",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<button text='See more button' bound_box=933,493,1080,640></button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        54
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          642
+        ],
+        [
+          1080,
+          793
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_item_chrome",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 53,
+      "size": "1080*151",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/music_item_chrome[text]None[enabled,,]",
+      "view_str": "bc550f25565b2cf9115fae3a554bb6cd"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        55
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          642
+        ],
+        [
+          1080,
+          793
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_shelf_header",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 54,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/music_shelf_header[text]None[enabled,,]",
+      "view_str": "2977f4f51f87569c7c1bf6818bce6149"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        56,
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          642
+        ],
+        [
+          1080,
+          793
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "1080*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "243fddf611236b19232b208f86649b23"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        57
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          642
+        ],
+        [
+          933,
+          793
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 56,
+      "size": "933*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/title_container[text]None[enabled,,]",
+      "view_str": "2c6860923515354b5d7702c3a3fd1523"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          673
+        ],
+        [
+          891,
+          762
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title",
+      "checked": false,
+      "text": "Artists",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 57,
+      "size": "849*89",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/title[text]Artists[enabled,,]",
+      "view_str": "f7552f4cc4d9e144551a6197473aa610",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<button bound_box=42,673,891,762>Artists</button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        59
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          644
+        ],
+        [
+          1080,
+          791
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_links",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 58,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/icon_links[text]None[enabled,,]",
+      "view_str": "cefe0db6df9e08aa396d09b147c7ae9a"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        60
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          644
+        ],
+        [
+          1080,
+          791
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 58,
+      "temp_id": 59,
+      "size": "147*147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "42f7df84b1c85aa2afa5dc4379215803"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "See more button",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          644
+        ],
+        [
+          1080,
+          791
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon_link",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 60,
+      "size": "147*147",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/icon_link[text]None[enabled,,]",
+      "view_str": "55d251e656a16d124b70c079dd0b46af",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "9",
+      "desc": "<button text='See more button' bound_box=933,644,1080,791></button>"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        62,
+        63
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          793
+        ],
+        [
+          1080,
+          856
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/shelf_divider",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 61,
+      "size": "1080*63",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/shelf_divider[text]None[enabled,,]",
+      "view_str": "3dd1cad1f5b22ab8ccc3afeb486b8df8"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          793
+        ],
+        [
+          1080,
+          856
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/divider",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 62,
+      "size": "1080*63",
+      "signature": "[class]android.view.View[resource_id]com.google.android.apps.youtube.music:id/divider[text]None[enabled,,]",
+      "view_str": "a2af7655dbe5f0f64cc8d342b3071dbf"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          856
+        ],
+        [
+          1080,
+          856
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/divider_after",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 63,
+      "size": "1080*0",
+      "signature": "[class]android.view.View[resource_id]com.google.android.apps.youtube.music:id/divider_after[text]None[enabled,,]",
+      "view_str": "11e08590cc370d074c67233085a94607"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        65,
+        87,
+        88,
+        116
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2400
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_page",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 64,
+      "size": "1080*0",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.google.android.apps.youtube.music:id/player_page[text]None[enabled,,]",
+      "view_str": "0b43a71d708a263711d4a49a58c4b8e3"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        66,
+        80,
+        86
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2400
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_page_bottom_layer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 65,
+      "size": "1080*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/player_page_bottom_layer[text]None[enabled,,]",
+      "view_str": "4043c8228499e4b78acf0716492f234c"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        67
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3882
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_playback_controls",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 66,
+      "size": "1080*-1482",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/music_playback_controls[text]None[enabled,,]",
+      "view_str": "fee15c392a28e385029db6735d9636d4"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        68,
+        69
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          3903
+        ],
+        [
+          1038,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 66,
+      "temp_id": 67,
+      "size": "996*-1503",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ebf81b35481e4456ca4235e3b9403a4f"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "0 minutes 0 seconds of 0 minutes 0 seconds",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          105,
+          3924
+        ],
+        [
+          975,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/time_bar",
+      "checked": false,
+      "text": "0:00",
+      "class": "android.widget.SeekBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 68,
+      "size": "870*-1524",
+      "signature": "[class]android.widget.SeekBar[resource_id]com.google.android.apps.youtube.music:id/time_bar[text]0:00[enabled,,]",
+      "view_str": "1e9eb7f1437fba00265c5f84a8834955"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 7,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        70,
+        71,
+        72,
+        73,
+        77,
+        78,
+        79
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          4008
+        ],
+        [
+          1038,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/controls_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 69,
+      "size": "996*-1608",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/controls_container[text]None[enabled,,]",
+      "view_str": "bdd8354aa873d9fe5fe76551259dc425"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          4129
+        ],
+        [
+          102,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 70,
+      "size": "60*-1729",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "6e3e22bbb0bca99e0ac60d07b889bc96"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Shuffle off",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          4065
+        ],
+        [
+          229,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/queue_shuffle_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 71,
+      "size": "127*-1665",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/queue_shuffle_button[text]None[enabled,,]",
+      "view_str": "e63f5cffd3ce1bdc69c815be0029821c"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          229,
+          4129
+        ],
+        [
+          244,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 72,
+      "size": "15*-1729",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "6e3e22bbb0bca99e0ac60d07b889bc96"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        74,
+        75,
+        76
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          244,
+          4034
+        ],
+        [
+          835,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 73,
+      "size": "591*-1634",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "dcd6b10a6d52461ec0aadfee5a4333d5"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Previous song disabled",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          244,
+          4049
+        ],
+        [
+          403,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_control_previous_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 73,
+      "temp_id": 74,
+      "size": "159*-1649",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/player_control_previous_button[text]None[enabled,,]",
+      "view_str": "0e2d505ad5115d937bd90855f00d943d"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Replay video",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          445,
+          4034
+        ],
+        [
+          634,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_control_play_pause_replay_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 73,
+      "temp_id": 75,
+      "size": "189*-1634",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/player_control_play_pause_replay_button[text]None[enabled,,]",
+      "view_str": "844ebcf15fb586ccd8de2c55acf0674b"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Next song disabled",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          676,
+          4049
+        ],
+        [
+          835,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_control_next_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 73,
+      "temp_id": 76,
+      "size": "159*-1649",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/player_control_next_button[text]None[enabled,,]",
+      "view_str": "9f12ef6bda46c7679224f7142acf9df8"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          835,
+          4129
+        ],
+        [
+          850,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 77,
+      "size": "15*-1729",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "6e3e22bbb0bca99e0ac60d07b889bc96"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Repeat off",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          850,
+          4065
+        ],
+        [
+          977,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/queue_loop",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 78,
+      "size": "127*-1665",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/queue_loop[text]None[enabled,,]",
+      "view_str": "238ba43070c02507ceb62d24ec415434"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          977,
+          4129
+        ],
+        [
+          1038,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 79,
+      "size": "61*-1729",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "6e3e22bbb0bca99e0ac60d07b889bc96"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        81,
+        85
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3699
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/current_song_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 80,
+      "size": "1080*-1299",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/current_song_view[text]None[enabled,,]",
+      "view_str": "894f44c6b6186adfb8429f0d2dd793c8"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        82,
+        83,
+        84
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          3699
+        ],
+        [
+          996,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 81,
+      "size": "912*-1299",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "61e3aff2f17a379b5d82c96ff2be064b"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": false,
+      "content_description": "Dislike",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          3699
+        ],
+        [
+          210,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/dislike_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 82,
+      "size": "126*-1299",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/dislike_button[text]None[,,]",
+      "view_str": "5299a6832297d5629986523763e17b9b"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          210,
+          3708
+        ],
+        [
+          870,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/title",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 83,
+      "size": "660*-1308",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/title[text]None[enabled,,selected]",
+      "view_str": "ccd008c5852c54e2e3f7cd043a0a3c04"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": false,
+      "content_description": "Like",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          870,
+          3699
+        ],
+        [
+          996,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/like_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 84,
+      "size": "126*-1299",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/like_button[text]None[,,]",
+      "view_str": "7b6eeb01f7f0bdad5458bf29abadd20d"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          3825
+        ],
+        [
+          540,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/artist",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 85,
+      "size": "0*-1425",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/artist[text]None[enabled,,]",
+      "view_str": "c14b06b0f36f5d1b9fa5e1734037761d"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2400
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_top_section",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 86,
+      "size": "1080*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/player_top_section[text]None[enabled,,]",
+      "view_str": "a76e2876395cbf4f9e1d62da6f09b376"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2426
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/mpp_player_view_pager_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 87,
+      "size": "1080*-26",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/mpp_player_view_pager_container[text]None[enabled,,]",
+      "view_str": "af9dbb7057bd870c4c08fde8edcdbfa9"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        89
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/watch_fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 88,
+      "size": "126*-26",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/watch_fragment_container[text]None[enabled,,]",
+      "view_str": "444f93b8bbd951e60af732c20a199d4a"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Video player",
+      "children": [
+        90,
+        95
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/watch_fragment",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 89,
+      "size": "126*-26",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/watch_fragment[text]None[enabled,,]",
+      "view_str": "04017bcaa2b9565f3c265a331c3636c7"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        91
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/watch_player",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 89,
+      "temp_id": 90,
+      "size": "126*-26",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.google.android.apps.youtube.music:id/watch_player[text]None[enabled,,]",
+      "view_str": "4ca55ed0a446c2f7c1ca808abd96f556"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        92
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 90,
+      "temp_id": 91,
+      "size": "126*-26",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "7902f1673f2942ea9bf3965e3a0e13c1"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        93,
+        94
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 92,
+      "size": "126*-26",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "dec7dc845f9fcd674a3dfe7794407e04"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 92,
+      "temp_id": 93,
+      "size": "126*-26",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "8e6276ffcaba78c3670dbb4788a76fcb"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 92,
+      "temp_id": 94,
+      "size": "126*-26",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "8e6276ffcaba78c3670dbb4788a76fcb"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        96,
+        98
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 89,
+      "temp_id": 95,
+      "size": "126*-26",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "d2caa2b3182cd7a788a24653717be517"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        97
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 95,
+      "temp_id": 96,
+      "size": "126*-26",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "001cbd91f678c23a66c0fadc6d169c92"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 96,
+      "temp_id": 97,
+      "size": "126*-26",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "90896bb2b34a7991678a9b12648b5911"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        99,
+        106,
+        115
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 95,
+      "temp_id": 98,
+      "size": "126*-26",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "98aaa6659c020d942c70ba8954d9e36f"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        100,
+        101,
+        104,
+        105
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/controls_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 99,
+      "size": "126*-26",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.google.android.apps.youtube.music:id/controls_layout[text]None[enabled,,]",
+      "view_str": "ea8c44a903d9f52bf8ca42a5c8379062"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_top_ui_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 99,
+      "temp_id": 100,
+      "size": "126*-26",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.google.android.apps.youtube.music:id/player_top_ui_container[text]None[enabled,,]",
+      "view_str": "8cd869a1db3343033495ed26a8f72640"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        102
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_bottom_ui_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 99,
+      "temp_id": 101,
+      "size": "126*-26",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.google.android.apps.youtube.music:id/player_bottom_ui_container[text]None[enabled,,]",
+      "view_str": "d9ece19ec7ec99b21f763e500df9511d"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        103
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          42,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/time_bar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 102,
+      "size": "0*-26",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.google.android.apps.youtube.music:id/time_bar_container[text]None[enabled,,]",
+      "view_str": "78eb39cb35987c32a85b844ffe8f0b04"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          42,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/current_time_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 102,
+      "temp_id": 103,
+      "size": "0*-26",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/current_time_container[text]None[enabled,,]",
+      "view_str": "cfe4a9c25bb29dbe63f37cf550179e9f"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          2447
+        ],
+        [
+          147,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_loading_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ProgressBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 99,
+      "temp_id": 104,
+      "size": "84*-47",
+      "signature": "[class]android.widget.ProgressBar[resource_id]com.google.android.apps.youtube.music:id/player_loading_view[text]None[enabled,,]",
+      "view_str": "3575e7bcae7bcfd3fd113135018ed49d"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          2531
+        ],
+        [
+          63,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/audio_video_switch_button_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 99,
+      "temp_id": 105,
+      "size": "0*-131",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.youtube.music:id/audio_video_switch_button_container[text]None[enabled,,]",
+      "view_str": "aeb3249a064ebbe2d5ee1c37889b2b70"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        107,
+        108
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_playback_error_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 106,
+      "size": "126*-26",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.google.android.apps.youtube.music:id/music_playback_error_root[text]None[enabled,,]",
+      "view_str": "ab62d9d0e4bca0152d847c3a91756442"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Minimize",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_error_collapse_button_v2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 106,
+      "temp_id": 107,
+      "size": "126*-26",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/player_error_collapse_button_v2[text]None[enabled,,]",
+      "view_str": "2671a91125372d1c70a8ec62d456f993"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        109,
+        110,
+        111,
+        114
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/music_playback_error_v2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 106,
+      "temp_id": 108,
+      "size": "126*-26",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/music_playback_error_v2[text]None[enabled,,]",
+      "view_str": "34122bc5f48a40593571204aae5963c9"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2426
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_error_icon_v2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 108,
+      "temp_id": 109,
+      "size": "126*-26",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/player_error_icon_v2[text]None[enabled,,]",
+      "view_str": "0691f511d0ff9f8dcc3bf607dd97d96f"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2552
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_error_text_v2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 108,
+      "temp_id": 110,
+      "size": "126*-152",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/player_error_text_v2[text]None[enabled,,]",
+      "view_str": "57532b7525a922f33e3f659a389524ad"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        112,
+        113
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2552
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 108,
+      "temp_id": 111,
+      "size": "126*-152",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "29e69cb6677170ab3b9488f030ffa251"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2552
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_error_retry_v2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 111,
+      "temp_id": 112,
+      "size": "126*-152",
+      "signature": "[class]android.widget.Button[resource_id]com.google.android.apps.youtube.music:id/player_error_retry_v2[text]None[enabled,,]",
+      "view_str": "9105b63e910b44e27ae2c463f895d024"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          2552
+        ],
+        [
+          189,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_error_browse_v2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 111,
+      "temp_id": 113,
+      "size": "21*-152",
+      "signature": "[class]android.widget.Button[resource_id]com.google.android.apps.youtube.music:id/player_error_browse_v2[text]None[enabled,,]",
+      "view_str": "b8ceeb4375fd85efbc62c66230bcd40b"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          2552
+        ],
+        [
+          168,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/player_error_subtext_v2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 108,
+      "temp_id": 114,
+      "size": "126*-152",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/player_error_subtext_v2[text]None[enabled,,]",
+      "view_str": "19bc37b6e8176ed7f7bf9f56500da3a6"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          50,
+          2468
+        ],
+        [
+          159,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/fast_forward_rewind_triangles",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 115,
+      "size": "109*-68",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/fast_forward_rewind_triangles[text]None[enabled,,]",
+      "view_str": "d2042803292e2919637700c91a1e05bd"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        117,
+        118
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          4505
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/mpp_player_bottom_sheet",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 116,
+      "size": "1080*-2105",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/mpp_player_bottom_sheet[text]None[enabled,,]",
+      "view_str": "58e9ed19d71683634b662d40754a247e"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Drag to move",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          492,
+          4505
+        ],
+        [
+          587,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/bottom_sheet_drag_handle",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 116,
+      "temp_id": 117,
+      "size": "95*-2105",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/bottom_sheet_drag_handle[text]None[enabled,,]",
+      "view_str": "d64560beaa9a6cce8119bdff98ae08bc"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        119,
+        121,
+        123
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          4548
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/bottom_sheet_tabbed_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 116,
+      "temp_id": 118,
+      "size": "1080*-2148",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.google.android.apps.youtube.music:id/bottom_sheet_tabbed_view[text]None[enabled,,]",
+      "view_str": "fa4ee0ad2f7dda96966a78ecceea93dc"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        120
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          4548
+        ],
+        [
+          1038,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.HorizontalScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 118,
+      "temp_id": 119,
+      "size": "996*-2148",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]None[text]None[enabled,,]",
+      "view_str": "64cf3c0d5836cce9fb8aee383227fab6"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          4548
+        ],
+        [
+          1038,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 119,
+      "temp_id": 120,
+      "size": "996*-2148",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "3569f80ccef72894392b1a550154b1af"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        122
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          4674
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 118,
+      "temp_id": 121,
+      "size": "1080*-2274",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d275349a2abd4fabd19ecadcfff45e35"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          4674
+        ],
+        [
+          1038,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 121,
+      "temp_id": 122,
+      "size": "996*-2274",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "91313dd9b798576e2ed3d38fb3607359"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          4677
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 118,
+      "temp_id": 123,
+      "size": "1080*-2277",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]None[text]None[enabled,,]",
+      "view_str": "1445361f2f90b177a7ce766a3e945e93"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/floating_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 124,
+      "size": "1080*0",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.google.android.apps.youtube.music:id/floating_layout[text]None[enabled,,]",
+      "view_str": "151813377bab85a74a645897f5784a5c"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        126
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/pivot_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.HorizontalScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 125,
+      "size": "1080*126",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.google.android.apps.youtube.music:id/pivot_bar[text]None[enabled,,]",
+      "view_str": "7e1c330b7219ed6502a869a90883f0a7"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        127,
+        131,
+        135
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 125,
+      "temp_id": 126,
+      "size": "1080*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b6f2fd488371aa818589b5933dc6c263"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        128
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 127,
+      "size": "360*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9a19868968a71d2c527b618784e70673"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        129,
+        130
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          752,
+          2274
+        ],
+        [
+          1048,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 127,
+      "temp_id": 128,
+      "size": "296*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1c1c5d51899225fb11f4046afc529bae"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          868,
+          2290
+        ],
+        [
+          931,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 128,
+      "temp_id": 129,
+      "size": "63*-16",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/icon[text]None[enabled,,]",
+      "view_str": "a7c5fac9b6060a8b9a77131bcf59c625"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          752,
+          2353
+        ],
+        [
+          1048,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/text1",
+      "checked": false,
+      "text": "Library",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 128,
+      "temp_id": 130,
+      "size": "296*-79",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/text1[text]Library[enabled,,]",
+      "view_str": "62b7326f44bd899f2e8ac47a6d041407"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        132
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          2274
+        ],
+        [
+          720,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 131,
+      "size": "360*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9a19868968a71d2c527b618784e70673"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        133,
+        134
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          392,
+          2274
+        ],
+        [
+          688,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 131,
+      "temp_id": 132,
+      "size": "296*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "485fde9fd80a7d168bc157b6bccbcafc"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          508,
+          2290
+        ],
+        [
+          571,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 132,
+      "temp_id": 133,
+      "size": "63*-16",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/icon[text]None[enabled,,]",
+      "view_str": "a7c5fac9b6060a8b9a77131bcf59c625"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          392,
+          2353
+        ],
+        [
+          688,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/text1",
+      "checked": false,
+      "text": "Explore",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 132,
+      "temp_id": 134,
+      "size": "296*-79",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/text1[text]Explore[enabled,,]",
+      "view_str": "30901ec8dd05255fbe5c8de150323446"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        136
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          360,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 135,
+      "size": "360*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9a19868968a71d2c527b618784e70673"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        137,
+        138
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          32,
+          2274
+        ],
+        [
+          328,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 135,
+      "temp_id": 136,
+      "size": "296*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f5a21310600051b610b9a826fda821a9"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          148,
+          2290
+        ],
+        [
+          211,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 136,
+      "temp_id": 137,
+      "size": "63*-16",
+      "signature": "[class]android.widget.ImageView[resource_id]com.google.android.apps.youtube.music:id/icon[text]None[enabled,,]",
+      "view_str": "a7c5fac9b6060a8b9a77131bcf59c625"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          32,
+          2353
+        ],
+        [
+          328,
+          2274
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/text1",
+      "checked": false,
+      "text": "Home",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 136,
+      "temp_id": 138,
+      "size": "296*-79",
+      "signature": "[class]android.widget.TextView[resource_id]com.google.android.apps.youtube.music:id/text1[text]Home[enabled,,]",
+      "view_str": "2970e2308279d55bac15b724e733862e"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "resource_id": "com.google.android.apps.youtube.music:id/foreground_detection_fragment",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 139,
+      "size": "1*1",
+      "signature": "[class]android.view.View[resource_id]com.google.android.apps.youtube.music:id/foreground_detection_fragment[text]None[enabled,,]",
+      "view_str": "d1855d32d5e9158932ba63e3d7c0e73b"
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          63
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 140,
+      "size": "1080*63",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "58e472e44f252eba096e4113defe7111"
+    }
+  ]
+}

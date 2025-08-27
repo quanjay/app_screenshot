@@ -1,0 +1,1080 @@
+Activity Resolver Table:
+  Full MIME Types:
+      image/jpeg:
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter 50ed135
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter f0b69ca
+          Action: "com.perfectcorp.action.BCPOST"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "video/mp4"
+        1efe46e com.cyberlink.youcammakeup/.activity.EditViewActivityForIntent filter 5d1f70f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+      text/plain:
+        4328321 com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.ShareInWrapperActivity filter 9fc1346
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      video/mp4:
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter f0b69ca
+          Action: "com.perfectcorp.action.BCPOST"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "video/mp4"
+
+  Base MIME Types:
+      text:
+        4328321 com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.ShareInWrapperActivity filter 9fc1346
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image:
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter 50ed135
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter f0b69ca
+          Action: "com.perfectcorp.action.BCPOST"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "video/mp4"
+        1efe46e com.cyberlink.youcammakeup/.activity.EditViewActivityForIntent filter 5d1f70f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+      video:
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter f0b69ca
+          Action: "com.perfectcorp.action.BCPOST"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "video/mp4"
+
+  Schemes:
+      ybc_ymk:
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter e4bbfe9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ybc_ymk"
+          Authority: "makeuptip": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 74d3ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ybc_ymk"
+          Scheme: "ybcbc"
+          Authority: "launcher": -1
+          Authority: "launcher": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 896fa73
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Scheme: "ybc_ymk"
+          Scheme: "ybcbc"
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+      ybc:
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 3f828ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ybc"
+          Scheme: "ymkbc"
+          Authority: "search": -1
+          Authority: "search": -1
+      yct:
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 301fe58
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymk"
+          Scheme: "yct"
+          Authority: "action_takephoto": -1
+          Authority: "action_pickphoto": -1
+          Authority: "action_consult": -1
+          Authority: "action_trymakeupcamlooks": -1
+          Authority: "promotion_page": -1
+          Authority: "action_redirect": -1
+          Authority: "action_makeupcam": -1
+          Authority: "action_getShareLook": -1
+          Authority: "feedback": -1
+          Authority: "action_applymakeup": -1
+          Authority: "action_trylooks": -1
+          Authority: "pickphoto": -1
+          Authority: "takephoto": -1
+          Authority: "faq": -1
+          Authority: "brand_sku_preview": -1
+          Authority: "brand_sku_colorPicker": -1
+          Authority: "action_createlook": -1
+          Authority: "makeupcam_videomode": -1
+          Authority: "action_consultation": -1
+          Authority: "action": -1
+          Authority: "extra": -1
+          Authority: "secret_page": -1
+      ymk:
+        b494679 com.cyberlink.youcammakeup/.activity.CameraPostActivity filter c420fbe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymk"
+          Authority: "camera_post_replay": -1
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter aa8d76c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymk"
+          Authority: "launcher": -1
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 301fe58
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymk"
+          Scheme: "yct"
+          Authority: "action_takephoto": -1
+          Authority: "action_pickphoto": -1
+          Authority: "action_consult": -1
+          Authority: "action_trymakeupcamlooks": -1
+          Authority: "promotion_page": -1
+          Authority: "action_redirect": -1
+          Authority: "action_makeupcam": -1
+          Authority: "action_getShareLook": -1
+          Authority: "feedback": -1
+          Authority: "action_applymakeup": -1
+          Authority: "action_trylooks": -1
+          Authority: "pickphoto": -1
+          Authority: "takephoto": -1
+          Authority: "faq": -1
+          Authority: "brand_sku_preview": -1
+          Authority: "brand_sku_colorPicker": -1
+          Authority: "action_createlook": -1
+          Authority: "makeupcam_videomode": -1
+          Authority: "action_consultation": -1
+          Authority: "action": -1
+          Authority: "extra": -1
+          Authority: "secret_page": -1
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 6e64070
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymk"
+          Authority: "makeup_tips": -1
+        f40f52b com.cyberlink.youcammakeup/.activity.SponsorAdActivity filter 39dad88
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymk"
+          Authority: "sponsor": -1
+        c57b907 com.cyberlink.youcammakeup/.activity.CameraLiveAudienceActivity filter e241a34
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymk"
+          Authority: "camera_live_audience": -1
+      http:
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 3684bb1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.youcamapps.com": -1
+          Path: "PatternMatcher{LITERAL: }"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 65e5896
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.youcamapps.com": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter f2d9c17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.youcamapps.com": -1
+          Path: "PatternMatcher{PREFIX: /post}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter cc4a804
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.beautycircle.com": -1
+          Path: "PatternMatcher{LITERAL: }"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 204f1ed
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.beautycircle.com": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 81f6822
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.beautycircle.com": -1
+          Path: "PatternMatcher{PREFIX: /post}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 365e2b3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "m.beautycircle.com": -1
+          Path: "PatternMatcher{PREFIX: /ap/ymk}"
+      https:
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 3684bb1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.youcamapps.com": -1
+          Path: "PatternMatcher{LITERAL: }"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 65e5896
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.youcamapps.com": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter f2d9c17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.youcamapps.com": -1
+          Path: "PatternMatcher{PREFIX: /post}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter cc4a804
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.beautycircle.com": -1
+          Path: "PatternMatcher{LITERAL: }"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 204f1ed
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.beautycircle.com": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 81f6822
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.beautycircle.com": -1
+          Path: "PatternMatcher{PREFIX: /post}"
+        e53c73b com.cyberlink.youcammakeup/.activity.DeepLinkActivity filter 365e2b3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "m.beautycircle.com": -1
+          Path: "PatternMatcher{PREFIX: /ap/ymk}"
+      ybcbc:
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 74d3ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ybc_ymk"
+          Scheme: "ybcbc"
+          Authority: "launcher": -1
+          Authority: "launcher": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 896fa73
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Scheme: "ybc_ymk"
+          Scheme: "ybcbc"
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+      ymkbc:
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 5561dd2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "followus": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 52cdea3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "main": -1
+          Authority: "main": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 502a5a0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "feed": -1
+          Authority: "feed": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter a577559
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "discover": -1
+          Authority: "discover": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 8d4451e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "product": -1
+          Authority: "product": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 2a4c1ff
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "post": -1
+          Authority: "post": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter d7c7bcc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "profile": -1
+          Authority: "profile": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 7810e15
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "shop": -1
+          Authority: "shop": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter d7b952a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "notifications": -1
+          Authority: "notifications": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter d8d7f1b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "circle": -1
+          Authority: "circle": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter bdb88b8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "create_post": -1
+          Authority: "create_post": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 6717691
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "resume": -1
+          Authority: "resume": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 595d9f6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "free_sample": -1
+          Authority: "free_sample": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 37af1f7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "event": -1
+          Authority: "event": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter d1c7864
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "free_sample_apply": -1
+          Authority: "free_sample_apply": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 325eacd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "free_sample_listuser": -1
+          Authority: "free_sample_listuser": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter c3d9f82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "free_sample_message": -1
+          Authority: "free_sample_message": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter d62b693
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "beautyist": -1
+          Authority: "beautyist": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter f5ab6d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "contest": -1
+          Authority: "contest": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 23366c9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "looksalon": -1
+          Authority: "looksalon": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 1aa31ce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "searchtag": -1
+          Authority: "searchtag": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 3f828ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ybc"
+          Scheme: "ymkbc"
+          Authority: "search": -1
+          Authority: "search": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 4fc6ffc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "weeklypicks": -1
+          Authority: "weeklypicks": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 282a685
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "bcmessage": -1
+          Authority: "bcmessage": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 3b9cda
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "messages": -1
+          Authority: "messages": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter dc8650b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "feedback": -1
+          Authority: "feedback": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter e9e8fe8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "horoscope": -1
+          Authority: "horoscope": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter ecc2601
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "weeklystar": -1
+          Authority: "weeklystar": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 646aca6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "comment": -1
+          Authority: "comment": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 31646e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "signup": -1
+          Authority: "signup": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 7c0c294
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "signupdialog": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter ad4213d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "mycoin": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter a0ed32
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "engagement_list": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 3766a83
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "live": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 2317400
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "live_schedule": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 8669439
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "live_show_schedule": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 1ecaa7e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "onairlive": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 92b2bdf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "reward_page": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter c39d02c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "live": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 133af5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "live_schedule": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 2a4f08a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "live_show_schedule": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 640a6fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "onairlive": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter d89c318
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "reward_page": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 9a99171
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "upgrade": -1
+          Authority: "upgrade": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 5e98b56
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "specialevent": -1
+          Authority: "specialevent": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 768b7d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "shoplist": -1
+          Authority: "shoplist": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 6e3f8c4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "use_account": -1
+          Authority: "use_account": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter f0b06e2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "action": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 896fa73
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Scheme: "ybc_ymk"
+          Scheme: "ybcbc"
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+          Authority: "action_redirect": -1
+        d93305d com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.DeepLinkActivity filter 89dd30
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ymkbc"
+          Authority: "challenge": -1
+        f37fda9 com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.PfSearchActivity filter 3d6af2e
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "ymkbc"
+          Authority: "pick_post": -1
+          Authority: "pick_post": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        a5ec2c3 com.cyberlink.youcammakeup/.activity.SplashActivity filter f828740
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        75ccacf com.cyberlink.youcammakeup/com.cyberlink.you.activity.ChatDialogActivity filter 3679c5c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.cyberlink.action.EDIT:
+        1efe46e com.cyberlink.youcammakeup/.activity.EditViewActivityForIntent filter 846f39c
+          Action: "com.cyberlink.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+      com.cyberlink.action.EXTRA_DOWNLOAD:
+        b1771a5 com.cyberlink.youcammakeup/.activity.ExtraDownloadActivity filter 839d97a
+          Action: "com.cyberlink.action.EXTRA_DOWNLOAD"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter 50ed135
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+        1efe46e com.cyberlink.youcammakeup/.activity.EditViewActivityForIntent filter 5d1f70f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+        4328321 com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.activity.ShareInWrapperActivity filter 9fc1346
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      android.intent.action.SEND_MULTIPLE:
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter 50ed135
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+      com.perfectcorp.action.BCPOST:
+        3e0c81f com.cyberlink.youcammakeup/.activity.LauncherActivity filter f0b69ca
+          Action: "com.perfectcorp.action.BCPOST"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "video/mp4"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        7b36663 com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 426f260
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        39f021d com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter cc6ec92
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        8aea319 com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 6633fde
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        b30b8e1 com.cyberlink.youcammakeup/com.pf.heartbeat.HeartbeatReceiver filter b197606
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        96c05bf com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter d78d48c
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        f489c51 com.cyberlink.youcammakeup/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 9316cb6
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        8aea319 com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 6633fde
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        fe9cb65 com.cyberlink.youcammakeup/.referral.ReferralReceiver filter 7a2903a
+          Action: "com.android.vending.INSTALL_REFERRER"
+        3eeedb7 com.cyberlink.youcammakeup/com.facebook.CampaignTrackingReceiver filter bb32924
+          Action: "com.android.vending.INSTALL_REFERRER"
+        57aae53 com.cyberlink.youcammakeup/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter d8bb390
+          Action: "com.android.vending.INSTALL_REFERRER"
+      android.intent.action.LOCALE_CHANGED:
+        a7144c7 com.cyberlink.youcammakeup/com.pf.common.LocaleChangeReceiver filter e191af4
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.google.android.c2dm.intent.RECEIVE:
+        7a9ac8d com.cyberlink.youcammakeup/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 7df9e42
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        7b36663 com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 426f260
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        d7d57d5 com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2df7bea
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        d7d57d5 com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2df7bea
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        f0544eb com.cyberlink.youcammakeup/.unit.dau.DauPromoteBootReceiver filter 9002248
+          Action: "android.intent.action.BOOT_COMPLETED"
+        b30b8e1 com.cyberlink.youcammakeup/com.pf.heartbeat.HeartbeatReceiver filter b197606
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        d7d57d5 com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2df7bea
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        39f021d com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter cc6ec92
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        1e53edb com.cyberlink.youcammakeup/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 24ad78
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        ff7dcaf com.cyberlink.youcammakeup/com.pf.common.push.FirebaseMessagingServicePf filter 2078bc
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        4e045 com.cyberlink.youcammakeup/com.google.firebase.messaging.FirebaseMessagingService filter 8c6b39a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.accounts.AccountAuthenticator:
+        6918489 com.cyberlink.youcammakeup/com.cyberlink.beautycircle.controller.authenticator.AuthenticatorService filter d4d5c8e
+          Action: "android.accounts.AccountAuthenticator"
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.youcamapps.com
+          www.beautycircle.com
+          m.beautycircle.com
+
+Registered ContentProviders:
+  com.cyberlink.youcammakeup/com.crashlytics.android.CrashlyticsInitProvider:
+    Provider{7c447d8 com.cyberlink.youcammakeup/com.crashlytics.android.CrashlyticsInitProvider}
+  com.cyberlink.youcammakeup/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{5869731 com.cyberlink.youcammakeup/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.cyberlink.youcammakeup/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{d457e16 com.cyberlink.youcammakeup/com.google.firebase.provider.FirebaseInitProvider}
+  com.cyberlink.youcammakeup/com.facebook.internal.FacebookInitProvider:
+    Provider{e059397 com.cyberlink.youcammakeup/com.facebook.internal.FacebookInitProvider}
+  com.cyberlink.youcammakeup/com.facebook.ads.AudienceNetworkContentProvider:
+    Provider{9220984 com.cyberlink.youcammakeup/com.facebook.ads.AudienceNetworkContentProvider}
+  com.cyberlink.youcammakeup/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{27c756d com.cyberlink.youcammakeup/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.cyberlink.youcammakeup/com.facebook.FacebookContentProvider:
+    Provider{a1365a2 com.cyberlink.youcammakeup/com.facebook.FacebookContentProvider}
+  com.cyberlink.youcammakeup/androidx.work.impl.WorkManagerInitializer:
+    Provider{85d233 com.cyberlink.youcammakeup/androidx.work.impl.WorkManagerInitializer}
+  com.cyberlink.youcammakeup/com.pf.common.PfFileProvider:
+    Provider{57839f0 com.cyberlink.youcammakeup/com.pf.common.PfFileProvider}
+
+ContentProvider Authorities:
+  [com.cyberlink.youcammakeup.mobileadsinitprovider]:
+    Provider{27c756d com.cyberlink.youcammakeup/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{577fb69 com.cyberlink.youcammakeup}
+  [com.cyberlink.youcammakeup.firebaseperfprovider]:
+    Provider{5869731 com.cyberlink.youcammakeup/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{ee639ee com.cyberlink.youcammakeup}
+  [com.facebook.app.FacebookContentProvider1444478892460715]:
+    Provider{a1365a2 com.cyberlink.youcammakeup/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{9c15e8f com.cyberlink.youcammakeup}
+  [com.cyberlink.youcammakeup.pffileprovider]:
+    Provider{57839f0 com.cyberlink.youcammakeup/com.pf.common.PfFileProvider}
+      applicationInfo=ApplicationInfo{3bf051c com.cyberlink.youcammakeup}
+  [com.cyberlink.youcammakeup.AudienceNetworkContentProvider]:
+    Provider{9220984 com.cyberlink.youcammakeup/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{b8be525 com.cyberlink.youcammakeup}
+  [com.cyberlink.youcammakeup.firebaseinitprovider]:
+    Provider{d457e16 com.cyberlink.youcammakeup/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{a0006fa com.cyberlink.youcammakeup}
+  [com.cyberlink.youcammakeup.FacebookInitProvider]:
+    Provider{e059397 com.cyberlink.youcammakeup/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{37f54ab com.cyberlink.youcammakeup}
+  [com.cyberlink.youcammakeup.workmanager-init]:
+    Provider{85d233 com.cyberlink.youcammakeup/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{455708 com.cyberlink.youcammakeup}
+  [com.cyberlink.youcammakeup.crashlyticsinitprovider]:
+    Provider{7c447d8 com.cyberlink.youcammakeup/com.crashlytics.android.CrashlyticsInitProvider}
+      applicationInfo=ApplicationInfo{63aaea1 com.cyberlink.youcammakeup}
+
+Key Set Manager:
+  [com.cyberlink.youcammakeup]
+      Signing KeySets: 149
+
+Packages:
+  Package [com.cyberlink.youcammakeup] (9b798c6):
+    appId=10380
+    pkg=Package{2dc9087 com.cyberlink.youcammakeup}
+    codePath=/data/app/~~ijk74PmpYwRJ1jS66SinXg==/com.cyberlink.youcammakeup-Ws4g1Ng1GW0Jprcxh0wyQg==
+    resourcePath=/data/app/~~ijk74PmpYwRJ1jS66SinXg==/com.cyberlink.youcammakeup-Ws4g1Ng1GW0Jprcxh0wyQg==
+    legacyNativeLibraryDir=/data/app/~~ijk74PmpYwRJ1jS66SinXg==/com.cyberlink.youcammakeup-Ws4g1Ng1GW0Jprcxh0wyQg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=57010 minSdk=21 targetSdk=28
+    minExtensionVersions=[]
+    versionName=5.70.1
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-07-29 21:21:33
+    lastUpdateTime=2025-07-29 21:21:34
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{b5cdbb4 version:3, signatures:[e11eb4d0], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.USE_CREDENTIALS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=182106 deDataInode=181427 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.cyberlink.youcammakeup
+      firstInstallTime=2025-07-29 21:21:34
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.cyberlink.youcammakeup
+    com.xiaomi.aicr:
+      com.cyberlink.youcammakeup
+    com.android.contacts:
+      com.cyberlink.youcammakeup
+    com.xiaomi.gamecenter.sdk.service:
+      com.cyberlink.youcammakeup
+    com.android.settings.intelligence:
+      com.cyberlink.youcammakeup
+    com.miui.nextpay:
+      com.cyberlink.youcammakeup
+    com.xiaomi.mis:
+      com.cyberlink.youcammakeup
+    com.miui.hybrid:
+      com.cyberlink.youcammakeup
+    com.xiaomi.market:
+      com.cyberlink.youcammakeup
+    com.miui.systemAdSolution:
+      com.cyberlink.youcammakeup
+    com.xiaomi.account:
+      com.cyberlink.youcammakeup
+    com.miui.greenguard:
+      com.cyberlink.youcammakeup
+    com.xiaomi.payment:
+      com.cyberlink.youcammakeup
+    com.xiaomi.xmsf:
+      com.cyberlink.youcammakeup
+    com.android.providers.downloads.ui:
+      com.cyberlink.youcammakeup
+    com.mfashiongallery.emag:
+      com.cyberlink.youcammakeup
+    com.android.calendar:
+      com.cyberlink.youcammakeup
+    com.android.email:
+      com.cyberlink.youcammakeup
+    com.miui.gallery:
+      com.cyberlink.youcammakeup
+    com.android.soundrecorder:
+      com.cyberlink.youcammakeup
+    com.miui.virtualsim:
+      com.cyberlink.youcammakeup
+    com.getsurfboard:
+      com.cyberlink.youcammakeup
+    com.skysoft.kkbox.android:
+      com.cyberlink.youcammakeup
+    com.xingin.xhs:
+      com.cyberlink.youcammakeup
+    com.duokan.reader:
+      com.cyberlink.youcammakeup
+    com.instagram.android:
+      com.cyberlink.youcammakeup
+    com.google.android.gm:
+      com.cyberlink.youcammakeup
+    com.ebay.mobile:
+      com.cyberlink.youcammakeup
+    com.microsoft.todos:
+      com.cyberlink.youcammakeup
+    com.miui.video:
+      com.cyberlink.youcammakeup
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.cyberlink.youcammakeup
+    com.alibaba.aliexpresshd:
+      com.cyberlink.youcammakeup
+    com.einnovation.temu:
+      com.cyberlink.youcammakeup
+    com.microsoft.emmx:
+      com.cyberlink.youcammakeup
+    com.google.android.apps.magazines:
+      com.cyberlink.youcammakeup
+    com.spotify.music:
+      com.cyberlink.youcammakeup
+    com.google.android.apps.youtube.music:
+      com.cyberlink.youcammakeup
+    com.ss.android.ugc.aweme:
+      com.cyberlink.youcammakeup
+    com.microsoft.office.outlook:
+      com.cyberlink.youcammakeup
+    com.ss.android.article.news:
+      com.cyberlink.youcammakeup
+    com.jijia.bqwnl:
+      com.cyberlink.youcammakeup
+    com.quark.browser:
+      com.cyberlink.youcammakeup
+    cn.ninegame.gamemanager:
+      com.cyberlink.youcammakeup
+    com.baidu.BaiduMap:
+      com.cyberlink.youcammakeup
+    com.UCMobile:
+      com.cyberlink.youcammakeup
+    com.autonavi.minimap:
+      com.cyberlink.youcammakeup
+    com.dragon.read:
+      com.cyberlink.youcammakeup
+    com.jijia.jjweather:
+      com.cyberlink.youcammakeup
+    com.zhuantech.sijiweather:
+      com.cyberlink.youcammakeup
+    com.suxing.sustream:
+      com.cyberlink.youcammakeup
+    com.yahoo.mobile.client.android.mail:
+      com.cyberlink.youcammakeup
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.cyberlink.youcammakeup]
+    path: /data/app/~~ijk74PmpYwRJ1jS66SinXg==/com.cyberlink.youcammakeup-Ws4g1Ng1GW0Jprcxh0wyQg==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.cyberlink.youcammakeup]
+    (No recorded stats)

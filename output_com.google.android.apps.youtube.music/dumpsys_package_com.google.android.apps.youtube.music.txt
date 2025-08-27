@@ -1,0 +1,1105 @@
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.dir/audio:
+        e2d1d6 com.google.android.apps.youtube.music/.activities.MusicPickerActivity filter e06bc57
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "vnd.android.cursor.dir/audio"
+      application/x-ogg:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/ogg:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio/*:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/itunes:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        e2d1d6 com.google.android.apps.youtube.music/.activities.MusicPickerActivity filter e06bc57
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "vnd.android.cursor.dir/audio"
+      application:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      audio:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      vnd.youtube.music.launch:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter 439e1f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "vnd.youtube.music"
+          Scheme: "vnd.youtube.music.launch"
+      cardboard:
+        e2133e5 com.google.android.apps.youtube.music/com.google.cardboard.sdk.HeadsetDetectionActivity filter a110eba
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "cardboard"
+      file:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      http:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        71de29 com.google.android.apps.youtube.music/.deeplink.MusicServiceDeepLinkActivity filter ee245ae
+          Action: "android.intent.action.VIEW"
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "music.youtube.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          AutoVerify=true
+      https:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        71de29 com.google.android.apps.youtube.music/.deeplink.MusicServiceDeepLinkActivity filter ee245ae
+          Action: "android.intent.action.VIEW"
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "music.youtube.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          AutoVerify=true
+      content:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      vnd.youtube.music:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter 439e1f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "vnd.youtube.music"
+          Scheme: "vnd.youtube.music.launch"
+
+  Non-Data Actions:
+      com.google.android.youtube.music.action.shortcut:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter f6f637b
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.youtube.music.action.shortcut"
+          Action: "com.google.android.youtube.music.action.navigate"
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Action: "com.google.android.youtube.music.action.play"
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+      android.intent.action.MAIN:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter f6f637b
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.youtube.music.action.shortcut"
+          Action: "com.google.android.youtube.music.action.navigate"
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Action: "com.google.android.youtube.music.action.play"
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+      com.google.android.libraries.strictmode.STRICTMODE_TARGET:
+        a26df4f com.google.android.apps.youtube.music/com.google.android.libraries.strictmode.penalties.notification.FullStackTraceActivity filter b156dc
+          Action: "com.google.android.libraries.strictmode.STRICTMODE_TARGET"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MUSIC_PLAYER:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter f6f637b
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.youtube.music.action.shortcut"
+          Action: "com.google.android.youtube.music.action.navigate"
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Action: "com.google.android.youtube.music.action.play"
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+      com.google.android.youtube.music.action.play:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter f6f637b
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.youtube.music.action.shortcut"
+          Action: "com.google.android.youtube.music.action.navigate"
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Action: "com.google.android.youtube.music.action.play"
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+      android.media.action.MEDIA_PLAY_FROM_SEARCH:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter f6f637b
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.youtube.music.action.shortcut"
+          Action: "com.google.android.youtube.music.action.navigate"
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Action: "com.google.android.youtube.music.action.play"
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+      com.google.android.youtube.music.action.unlimited:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter edf0598
+          Action: "com.google.android.youtube.music.action.unlimited"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.youtube.music.action.navigate:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter f6f637b
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.youtube.music.action.shortcut"
+          Action: "com.google.android.youtube.music.action.navigate"
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Action: "com.google.android.youtube.music.action.play"
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+      android.intent.action.SEARCH:
+        19ecf0a com.google.android.apps.youtube.music/.activities.MusicActivity filter f6f637b
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.youtube.music.action.shortcut"
+          Action: "com.google.android.youtube.music.action.navigate"
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Action: "com.google.android.youtube.music.action.play"
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+
+  MIME Typed Actions:
+      android.intent.action.PICK:
+        e2d1d6 com.google.android.apps.youtube.music/.activities.MusicPickerActivity filter e06bc57
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "vnd.android.cursor.dir/audio"
+      android.intent.action.VIEW:
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter ef9ac2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter a923562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 850c6f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        88ae344 com.google.android.apps.youtube.music/.audiopreview.AudioPreviewPlayerActivity filter 9f4efb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.google.android.youtube.music.pendingintent.controller_widget_request_data:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      android.accounts.action.ACCOUNT_REMOVED:
+        661a399 com.google.android.apps.youtube.music/com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver filter 8c1765e
+          Action: "android.accounts.action.ACCOUNT_REMOVED"
+      com.google.android.apps.music.player.widget.FORCE_WIDGET_PROVIDER_REFRESH:
+        34afa9d com.google.android.apps.youtube.music/.player.widget.MusicWidgetProvider filter 1b6bb12
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.google.android.apps.music.player.widget.FORCE_WIDGET_PROVIDER_REFRESH"
+      android.intent.action.BATTERY_OKAY:
+        514bad3 com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter cf20610
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        84c50d com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 1a00cc2
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        145a509 com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter e6330e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        66312f com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 7d9733c
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.accounts.LOGIN_ACCOUNTS_CHANGED:
+        69fe055 com.google.android.apps.youtube.music/com.google.android.libraries.youtube.account.service.AccountsChangedReceiver filter f2a9a6a
+          Action: "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        145a509 com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter e6330e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.google.android.youtube.music.pendingintent.controller_widget_pause:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      com.google.android.youtube.music.pendingintent.controller_widget_retry:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      com.google.android.youtube.music.pendingintent.controller_widget_like:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      com.google.android.youtube.music.pendingintent.controller_widget_next:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      com.google.android.youtube.music.pendingintent.controller_widget_play:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      com.waze.sdk.audio.ACTION_INIT:
+        d96947 com.google.android.apps.youtube.music/.mediabrowser.waze.MusicWazeBroadcastReceiver filter e8fa574
+          Action: "com.waze.sdk.audio.ACTION_INIT"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.youtube.music.pendingintent.controller_widget_dislike:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      com.google.android.c2dm.intent.RECEIVE:
+        e93237 com.google.android.apps.youtube.music/com.google.firebase.iid.FirebaseInstanceIdReceiver filter e2153a4
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        514bad3 com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter cf20610
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        51a88c5 com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.RescheduleReceiver filter f56721a
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        51a88c5 com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.RescheduleReceiver filter f56721a
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      com.google.android.youtube.music.pendingintent.controller_widget_previous:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      android.intent.action.BOOT_COMPLETED:
+        82c3b5b com.google.android.apps.youtube.music/com.google.android.libraries.youtube.mdx.background.MdxBackgroundScanBootReceiver filter 84d2ff8
+          Action: "android.intent.action.BOOT_COMPLETED"
+        f4b2cd1 com.google.android.apps.youtube.music/com.google.android.libraries.youtube.mdx.notification.continueontv.ContinueWatchingOnTvNotificationBroadcastReceiver filter 54ff336
+          Action: "android.intent.action.BOOT_COMPLETED"
+        51a88c5 com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.RescheduleReceiver filter f56721a
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        84c50d com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 1a00cc2
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        34afa9d com.google.android.apps.youtube.music/.player.widget.MusicWidgetProvider filter 1b6bb12
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.google.android.apps.music.player.widget.FORCE_WIDGET_PROVIDER_REFRESH"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        19fec41 com.google.android.apps.youtube.music/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 65995e6
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.google.android.youtube.music.pendingintent.controller_widget_launch_app:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        99c216b com.google.android.apps.youtube.music/.offline.OfflineStorePackageReplacedReceiver filter d6b04c8
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        8aeb14b com.google.android.apps.youtube.music/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 7688728
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.google.android.youtube.music.pendingintent.controller_widget_replay:
+        9b952e3 com.google.android.apps.youtube.music/.player.widget.PendingIntentReceiver filter 9bba4e0
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_play"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_pause"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_replay"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_retry"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_previous"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_next"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_dislike"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_like"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_launch_app"
+          Action: "com.google.android.youtube.music.pendingintent.controller_widget_request_data"
+      android.intent.action.MEDIA_BUTTON:
+        cb62961 com.google.android.apps.youtube.music/androidx.media.session.MediaButtonReceiver filter c315c86
+          Action: "android.intent.action.MEDIA_BUTTON"
+      com.google.android.gms.phenotype.UPDATE:
+        7243a3f com.google.android.apps.youtube.music/com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver filter fe62f0c
+          Action: "com.google.android.gms.phenotype.UPDATE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        fbe0b7d com.google.android.apps.youtube.music/.notifications.FcmMessageListenerService filter b192a72
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        4a4e279 com.google.android.apps.youtube.music/com.google.firebase.messaging.FirebaseMessagingService filter 9cb7bbe
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService:
+        ad1fec3 com.google.android.apps.youtube.music/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService filter 4db1340
+          Action: "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+      android.media.browse.MediaBrowserService:
+        5b51727 com.google.android.apps.youtube.music/.mediabrowser.MusicBrowserService filter a52edd4
+          Action: "android.media.browse.MediaBrowserService"
+          Action: "android.intent.action.MEDIA_BUTTON"
+      android.intent.action.MEDIA_BUTTON:
+        5b51727 com.google.android.apps.youtube.music/.mediabrowser.MusicBrowserService filter a52edd4
+          Action: "android.media.browse.MediaBrowserService"
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Domain verification status:
+  com.google.android.apps.youtube.music:
+    ID: 44ce2b8b-1461-4898-890d-b22ee1820092
+    Signatures: [A2:A1:AD:7B:A7:F4:1D:FC:A4:51:4E:2A:FE:B9:06:91:71:9A:F6:D0:FD:BE:D4:B0:9B:BF:0E:D8:97:70:1C:EB]
+    Domain verification state:
+      music.youtube.com: system_configured
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          music.youtube.com
+
+Registered ContentProviders:
+  com.google.android.apps.youtube.music/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{53c0820 com.google.android.apps.youtube.music/com.google.firebase.provider.FirebaseInitProvider}
+  com.google.android.apps.youtube.music/.util.MusicFileProviderCompat:
+    Provider{dc965d9 com.google.android.apps.youtube.music/.util.MusicFileProviderCompat}
+  com.google.android.apps.youtube.music/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{a9eab9e com.google.android.apps.youtube.music/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+
+ContentProvider Authorities:
+  [com.google.android.apps.youtube.music.firebaseinitprovider]:
+    Provider{53c0820 com.google.android.apps.youtube.music/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{3dc3995 com.google.android.apps.youtube.music}
+  [com.google.android.apps.youtube.music.fileprovider]:
+    Provider{dc965d9 com.google.android.apps.youtube.music/.util.MusicFileProviderCompat}
+      applicationInfo=ApplicationInfo{c8e1aaa com.google.android.apps.youtube.music}
+  [com.google.android.apps.youtube.music.lifecycle-process]:
+    Provider{a9eab9e com.google.android.apps.youtube.music/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{e1d569b com.google.android.apps.youtube.music}
+
+Key Set Manager:
+  [com.google.android.apps.youtube.music]
+      Signing KeySets: 122
+
+Packages:
+  Package [com.google.android.apps.youtube.music] (bc5e3aa):
+    userId=10113
+    pkg=Package{e1beb9b com.google.android.apps.youtube.music}
+    codePath=/product/app/YouTubeMusicPrebuilt
+    resourcePath=/product/app/YouTubeMusicPrebuilt
+    legacyNativeLibraryDir=/product/app/YouTubeMusicPrebuilt/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=43356280 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=4.33.56
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{e1beb9b com.google.android.apps.youtube.music}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL }, Intent { act=android.intent.action.SEND dat=content://*/* typ=text/plain }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=http://www.example.com/... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    dataDir=/data/user/0/com.google.android.apps.youtube.music
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2009-01-01 00:00:00
+    firstInstallTime=2009-01-01 00:00:00
+    lastUpdateTime=2009-01-01 00:00:00
+    signatures=PackageSignatures{88ebb38 version:3, signatures:[f113c076], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE LARGE_HEAP ]
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.INTERNET
+      android.permission.NFC
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.android.vending.BILLING
+      android.permission.RECORD_AUDIO
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.NFC: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147481 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|APPLY_RESTRICTION]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      disabledComponents:
+        androidx.mediarouter.media.MediaTransferReceiver
+      enabledComponents:
+        com.google.android.apps.youtube.music.mediabrowser.waze.MusicWazeBroadcastReceiver
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.google.android.apps.youtube.music:
+      com.google.android.apps.maps
+      com.google.android.youtube
+    com.google.android.apps.maps:
+      com.google.android.apps.youtube.music
+    com.google.android.gm:
+      com.google.android.apps.youtube.music
+    com.google.android.youtube:
+      com.google.android.apps.youtube.music
+  queries via intent:
+    [com.android.emulator.multidisplay,com.android.keychain,com.android.dynsystem,com.android.wallpaperbackup,android,com.android.localtransport,com.android.location.fused,com.android.server.telecom,com.android.providers.settings,com.android.settings,com.android.inputdevices]:
+      com.google.android.apps.youtube.music
+    com.android.bluetooth:
+      com.google.android.apps.youtube.music
+    com.android.shell:
+      com.google.android.apps.youtube.music
+    com.android.managedprovisioning:
+      com.google.android.apps.youtube.music
+    com.google.android.tag:
+      com.google.android.apps.youtube.music
+    com.google.android.documentsui:
+      com.google.android.apps.youtube.music
+    com.android.traceur:
+      com.google.android.apps.youtube.music
+    com.google.android.packageinstaller:
+      com.google.android.apps.youtube.music
+    com.google.android.captiveportallogin:
+      com.google.android.apps.youtube.music
+    com.android.simappdialog:
+      com.google.android.apps.youtube.music
+    com.google.android.configupdater:
+      com.google.android.apps.youtube.music
+    com.android.contacts:
+      com.google.android.apps.youtube.music
+    com.google.android.apps.messaging:
+      com.google.android.apps.youtube.music
+    com.google.android.settings.intelligence:
+      com.google.android.apps.youtube.music
+    com.google.android.onetimeinitializer:
+      com.google.android.apps.youtube.music
+    com.android.camera2:
+      com.google.android.apps.youtube.music
+    com.breel.wallpapers18:
+      com.google.android.apps.youtube.music
+    com.google.android.apps.youtube.music:
+      com.android.musicfx
+      com.google.android.setupwizard
+      com.google.android.apps.messaging
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.chrome
+      com.google.android.gm
+      com.google.android.apps.docs
+    com.google.android.deskclock:
+      com.google.android.apps.youtube.music
+    com.google.android.gm:
+      com.google.android.apps.youtube.music
+    com.google.android.apps.docs:
+      com.google.android.apps.youtube.music
+    com.android.emergency:
+      com.google.android.apps.youtube.music
+    com.android.storagemanager:
+      com.google.android.apps.youtube.music
+    com.android.systemui:
+      com.google.android.apps.youtube.music
+    com.google.android.cellbroadcastreceiver:
+      com.google.android.apps.youtube.music
+    com.google.android.hotspot2.osulogin:
+      com.google.android.apps.youtube.music
+    com.google.android.permissioncontroller:
+      com.google.android.apps.youtube.music
+  queryable via interaction:
+    User 0:
+      [com.android.emulator.multidisplay,com.android.keychain,com.android.dynsystem,com.android.wallpaperbackup,android,com.android.localtransport,com.android.location.fused,com.android.server.telecom,com.android.providers.settings,com.android.settings,com.android.inputdevices]:
+        com.google.android.apps.youtube.music
+      [com.google.android.gsf,com.google.android.gms]:
+        com.google.android.apps.youtube.music
+      com.google.android.apps.youtube.music:
+        [com.android.emulator.multidisplay,com.android.keychain,com.android.dynsystem,com.android.wallpaperbackup,android,com.android.localtransport,com.android.location.fused,com.android.server.telecom,com.android.providers.settings,com.android.settings,com.android.inputdevices]
+      com.google.android.inputmethod.latin:
+        com.google.android.apps.youtube.music
+      com.google.android.providers.media.module:
+        com.google.android.apps.youtube.music
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=103
+  User 0:
+    seq=0, package=com.android.bluetooth
+    seq=5, package=com.cnn.mobile.android.phone
+    seq=11, package=com.google.android.gms
+    seq=13, package=com.android.vending
+    seq=14, package=com.google.android.contactkeys
+    seq=15, package=com.google.android.safetycore
+    seq=16, package=com.google.ar.core
+    seq=17, package=com.google.android.trichromelibrary_710308738
+    seq=24, package=com.google.android.apps.wellbeing
+    seq=26, package=com.google.android.tts
+    seq=27, package=com.google.android.deskclock
+    seq=29, package=com.android.chrome
+    seq=52, package=com.google.android.googlequicksearchbox
+    seq=55, package=com.google.android.apps.docs
+    seq=66, package=com.google.android.inputmethod.latin
+    seq=70, package=com.google.android.partnersetup
+    seq=73, package=com.google.android.calendar
+    seq=74, package=com.google.android.apps.maps
+    seq=83, package=com.google.android.gm
+    seq=87, package=com.audiobooks.androidapp
+    seq=101, package=com.google.android.apps.youtube.music
+    seq=102, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [com.google.android.apps.youtube.music]
+    path: /product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk
+      x86_64: [status=verify] [reason=prebuilt]
+      known secondary dex files:
+        /data/user/0/com.google.android.apps.youtube.music/cache/1731536186208.jar
+          class loader context: PCL[];PCL[/product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk]{PCL[/system/framework/org.apache.http.legacy.jar]}
+
+
+Compiler stats:
+  [com.google.android.apps.youtube.music]
+    (No recorded stats)
+
+APEX session state:
+  Session ID: 1216320661
+    State: STAGED
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 275  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:18         now           8       12685           0           0           0           3           2
+          1:18        0:18           7        6946           0           0           0           6           5
+          2:18        1:18           8       23197           0           0           2           1           0
+          3:18        2:18          38       72761           0           0          10          15           5
+          4:18        3:18          10        8749           0           0           3           3           2
+          5:18        4:18           8       20007           0           0           1           2           1
+          6:18        5:18           0           0           0           0           0           0           0
+          7:18        6:18           0           0           0           0           0           0           0
+          8:18        7:18           0           0           0           0           0           0           0
+          9:18        8:18           0           0           0           0           0           0           0
+      01:16:18         now         598      954097           0           5          96         394          52
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:18         now           7           1           0           0           0           0           0           0
+          1:18        0:18           6           0           1           0           0           0           0           0
+          2:18        1:18           8           0           0           0           0           0           0           0
+          3:18        2:18          37           0           1           0           0           0           0           0
+          4:18        3:18           9           1           0           0           0           0           0           0
+          5:18        4:18           8           0           0           0           0           0           0           0
+          6:18        5:18           0           0           0           0           0           0           0           0
+          7:18        6:18           0           0           0           0           0           0           0           0
+          8:18        7:18           0           0           0           0           0           0           0           0
+          9:18        8:18           0           0           0           0           0           0           0           0
+      01:16:18         now         570           6           9           8           2           2           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:18         now           0           0           0           1           0           0           0           7
+          1:18        0:18           0           0           0           0           0           1           2           4
+          2:18        1:18           2           0           0           1           0           0           0           5
+          3:18        2:18          10           0           0           2           2           3           1          20
+          4:18        3:18           2           0           1           0           0           0           2           5
+          5:18        4:18           1           0           0           0           0           0           0           7
+          6:18        5:18           0           0           0           0           0           0           0           0
+          7:18        6:18           0           0           0           0           0           0           0           0
+          8:18        7:18           0           0           0           0           0           0           0           0
+          9:18        8:18           0           0           0           0           0           0           0           0
+      01:16:18         now          69           8          18          29          12          62          47         352

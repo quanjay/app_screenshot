@@ -1,0 +1,681 @@
+Activity Resolver Table:
+  Schemes:
+      genericidp:
+        45bcfcc pedometer.steptracker.calorieburner.stepcounter/com.google.firebase.auth.internal.GenericIdpActivity filter 82fd215
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        f9d092a pedometer.steptracker.calorieburner.stepcounter/com.google.firebase.auth.internal.RecaptchaActivity filter f23e31b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        806791e pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.activity.SplashActivity filter edce5ff
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.CREATE_SHORTCUT:
+        806791e pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.activity.SplashActivity filter edce5ff
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.SCREEN_OFF:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      android.intent.action.BATTERY_OKAY:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+        7a210da pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 3bfc90b
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      pedometer.steptracker.calorieburner.stepcounter.BROADCAST_STATUS:
+        a5a8df6 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.WidgetUpdateReceiver filter 21395f7
+          Action: "pedometer.steptracker.calorieburner.stepcounter.BROADCAST_STATUS"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+        c58c3fc pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e6a6a85
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.bluetooth.adapter.action.STATE_CHANGED:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      android.intent.action.SCREEN_ON:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        16c23e8 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter b6c2a01
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        fa060a6 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter b1feae7
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      android.intent.action.DEVICE_STORAGE_OK:
+        16c23e8 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter b6c2a01
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      android.intent.action.BATTERY_LOW:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+        7a210da pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 3bfc90b
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+        bd39694 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b70653d
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        bd39694 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b70653d
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+        bd39694 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b70653d
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.USER_PRESENT:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+        c58c3fc pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e6a6a85
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        a999382 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.PedometerAppWidget1 filter 6e19a93
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        bd9cad0 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.PedometerAppWidget3 filter 466eac9
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        bd165ce pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.PedometerAppWidget4 filter 814cef
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        69d8800 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 831839
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        e124c64 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.OnUpgradeReceiver filter a692ecd
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB:
+        35c1cb8 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.receiver.PedometerReceiver filter d487a91
+          Action: "android.intent.action.SCREEN_OFF"
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.intent.action.SCREEN_ON"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_REMINDER"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_SNOOZE_REMINDER_WATER"
+          Action: "android.intent.action.BATTERY_LOW"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_GOAL"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_CLICK_NEW_RECORD"
+          Action: "pedometer.steptracker.calorieburner.stepcounter.ACTION_BROADCAST_ALARM_JOB"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        7e1e132 pedometer.steptracker.calorieburner.stepcounter/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter c764e83
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.notification.NotificationListenerService:
+        d53242c pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.service.MusicControllerService filter 773fef5 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+      service.keeper.restart:
+        e48de7e pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.service.CounterService filter c454fdf
+          Action: "service.keeper.restart"
+
+Domain verification status:
+
+Registered ContentProviders:
+  pedometer.steptracker.calorieburner.stepcounter/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{9be8abf pedometer.steptracker.calorieburner.stepcounter/com.google.android.gms.ads.MobileAdsInitProvider}
+  pedometer.steptracker.calorieburner.stepcounter/androidx.core.content.FileProvider:
+    Provider{321758c pedometer.steptracker.calorieburner.stepcounter/androidx.core.content.FileProvider}
+  pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.WorkOutProvider:
+    Provider{d57e4d5 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.WorkOutProvider}
+  pedometer.steptracker.calorieburner.stepcounter/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{7e384ea pedometer.steptracker.calorieburner.stepcounter/com.google.firebase.provider.FirebaseInitProvider}
+  pedometer.steptracker.calorieburner.stepcounter/com.zjlib.kotpref.initializer.KotprefInitProvider:
+    Provider{55b13db pedometer.steptracker.calorieburner.stepcounter/com.zjlib.kotpref.initializer.KotprefInitProvider}
+  pedometer.steptracker.calorieburner.stepcounter/com.facebook.ads.AudienceNetworkContentProvider:
+    Provider{e365e78 pedometer.steptracker.calorieburner.stepcounter/com.facebook.ads.AudienceNetworkContentProvider}
+  pedometer.steptracker.calorieburner.stepcounter/androidx.startup.InitializationProvider:
+    Provider{6bef951 pedometer.steptracker.calorieburner.stepcounter/androidx.startup.InitializationProvider}
+  pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.PedometerProvider:
+    Provider{4ed05b6 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.PedometerProvider}
+  pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.utils.MultiprocessPreferences:
+    Provider{16d12b7 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.utils.MultiprocessPreferences}
+  pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.MyFileProvider:
+    Provider{7aeea24 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.MyFileProvider}
+  pedometer.steptracker.calorieburner.stepcounter/com.my.target.common.MyTargetContentProvider:
+    Provider{ca8d98d pedometer.steptracker.calorieburner.stepcounter/com.my.target.common.MyTargetContentProvider}
+
+ContentProvider Authorities:
+  [pedometer.steptracker.calorieburner.stepcounter.AudienceNetworkContentProvider]:
+    Provider{e365e78 pedometer.steptracker.calorieburner.stepcounter/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{63bc742 pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.androidx-startup]:
+    Provider{6bef951 pedometer.steptracker.calorieburner.stepcounter/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{d362353 pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.PROVIDER]:
+    Provider{4ed05b6 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.PedometerProvider}
+      applicationInfo=ApplicationInfo{4028490 pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.workout.PROVIDER]:
+    Provider{d57e4d5 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.WorkOutProvider}
+      applicationInfo=ApplicationInfo{d68189 pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.firebaseinitprovider]:
+    Provider{7e384ea pedometer.steptracker.calorieburner.stepcounter/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{fc3158e pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.kotprefinitprovider]:
+    Provider{55b13db pedometer.steptracker.calorieburner.stepcounter/com.zjlib.kotpref.initializer.KotprefInitProvider}
+      applicationInfo=ApplicationInfo{75a1af pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.fileprovider]:
+    Provider{7aeea24 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.provider.MyFileProvider}
+      applicationInfo=ApplicationInfo{5b359bc pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.PREFFERENCE_AUTHORITY]:
+    Provider{16d12b7 pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.utils.MultiprocessPreferences}
+      applicationInfo=ApplicationInfo{61cad45 pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.mytargetcontentprovider]:
+    Provider{ca8d98d pedometer.steptracker.calorieburner.stepcounter/com.my.target.common.MyTargetContentProvider}
+      applicationInfo=ApplicationInfo{f5efc9a pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.helper]:
+    Provider{321758c pedometer.steptracker.calorieburner.stepcounter/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{584a9cb pedometer.steptracker.calorieburner.stepcounter}
+  [pedometer.steptracker.calorieburner.stepcounter.mobileadsinitprovider]:
+    Provider{9be8abf pedometer.steptracker.calorieburner.stepcounter/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{33a55a8 pedometer.steptracker.calorieburner.stepcounter}
+
+Key Set Manager:
+  [pedometer.steptracker.calorieburner.stepcounter]
+      Signing KeySets: 179
+
+Packages:
+  Package [pedometer.steptracker.calorieburner.stepcounter] (f2e4cf5):
+    appId=10295
+    pkg=Package{2a04866 pedometer.steptracker.calorieburner.stepcounter}
+    codePath=/data/app/~~VV5u9eUvbs6-CK-tdM88fg==/pedometer.steptracker.calorieburner.stepcounter-7RtEpVT-NNHFMt4nwrUDkQ==
+    resourcePath=/data/app/~~VV5u9eUvbs6-CK-tdM88fg==/pedometer.steptracker.calorieburner.stepcounter-7RtEpVT-NNHFMt4nwrUDkQ==
+    legacyNativeLibraryDir=/data/app/~~VV5u9eUvbs6-CK-tdM88fg==/pedometer.steptracker.calorieburner.stepcounter-7RtEpVT-NNHFMt4nwrUDkQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=90 minSdk=19 targetSdk=31
+    minExtensionVersions=[]
+    versionName=1.3.3
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.facebook.katana, com.twitter.android, com.instagram.android, cn.nubia.security, com.coloros.oppoguardelf, com.coloros.safecenter, com.coloros.phonemanager, com.huawei.systemmanager, com.iqoo.powersaving, com.lenovo.powersetting, com.lenovo.security, com.meizu.safe, com.miui.powerkeeper, com.miui.securitycenter, com.samsung.android.lool, com.samsung.android.sm, com.samsung.android.sm_cn, com.vivo.abe, com.vivo.permissionmanager, com.google.android.gm, com.android.chrome, com.facebook.lite, com.facebook.orca]
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=audio/*:/... }, Intent { act=android.intent.action.MEDIA_BUTTON }, Intent { act=android.intent.action.TTS_SERVICE }, Intent { act=android.intent.action.GET_CONTENT dat=*/*:/... }, Intent { act=android.intent.action.PICK dat=image/*:/... }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-06 16:40:36
+    lastUpdateTime=2025-08-06 16:40:36
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{93217a7 version:3, signatures:[9747f9b1], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.USE_CREDENTIALS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.HIGH_SAMPLING_RATE_SENSORS
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACTIVITY_RECOGNITION
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_BACKGROUND_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.HIGH_SAMPLING_RATE_SENSORS: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=205232 deDataInode=205298 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/pedometer.steptracker.calorieburner.stepcounter
+      firstInstallTime=2025-08-06 16:40:36
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACTIVITY_RECOGNITION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    pedometer.steptracker.calorieburner.stepcounter:
+      com.android.chrome
+      com.instagram.android
+      com.google.android.gm
+    ru.mail.mailapp:
+      pedometer.steptracker.calorieburner.stepcounter
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xiaomi.aicr:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.android.contacts:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xiaomi.gamecenter.sdk.service:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.android.settings.intelligence:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.carlink:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.nextpay:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xiaomi.mis:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.hybrid:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xiaomi.market:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.systemAdSolution:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xiaomi.account:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.greenguard:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xiaomi.payment:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xiaomi.xmsf:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.android.providers.downloads.ui:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.mfashiongallery.emag:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.android.calendar:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.android.email:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.gallery:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.virtualsim:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.getsurfboard:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.xingin.xhs:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.duokan.reader:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.instagram.android:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.miui.video:
+      pedometer.steptracker.calorieburner.stepcounter
+    pedometer.steptracker.calorieburner.stepcounter:
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.chrome
+      com.skysoft.kkbox.android
+      com.duokan.reader
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.spotify.music
+      com.google.android.apps.youtube.music
+      com.musicworx
+      com.ss.android.ugc.aweme
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.microsoft.office.outlook:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.jijia.bqwnl:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.quark.browser:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.baidu.BaiduMap:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.UCMobile:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.autonavi.minimap:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.jijia.jjweather:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.zhuantech.sijiweather:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.suxing.sustream:
+      pedometer.steptracker.calorieburner.stepcounter
+    com.yahoo.mobile.client.android.mail:
+      pedometer.steptracker.calorieburner.stepcounter
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [pedometer.steptracker.calorieburner.stepcounter]
+    path: /data/app/~~VV5u9eUvbs6-CK-tdM88fg==/pedometer.steptracker.calorieburner.stepcounter-7RtEpVT-NNHFMt4nwrUDkQ==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~VV5u9eUvbs6-CK-tdM88fg==/pedometer.steptracker.calorieburner.stepcounter-7RtEpVT-NNHFMt4nwrUDkQ==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 208Kb base.vdex: 13663Kb 
+
+Compiler stats:
+  [pedometer.steptracker.calorieburner.stepcounter]
+    (No recorded stats)

@@ -1,0 +1,436 @@
+Activity Resolver Table:
+  Schemes:
+      amzn:
+        89909f0 com.jabra.moments/com.amazon.identity.auth.device.workflow.WorkflowActivity filter 9d08b69
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "amzn"
+          Authority: "com.jabra.moments": -1
+      ama-com.jabra.moments:
+        f6c056d com.jabra.moments/.ui.splash.SplashActivity filter b67e233
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ama-com.jabra.moments"
+          Authority: "main": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        f6c056d com.jabra.moments/.ui.splash.SplashActivity filter 9f3b5a2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        76dbe23 com.jabra.moments/com.jabra.sdk.impl.PackageActivityReceiver filter bbacf20
+          Action: "android.intent.action.PACKAGE_INSTALL"
+          Action: "android.intent.action.PACKAGE_ADDED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      android.bluetooth.adapter.action.STATE_CHANGED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      com.gnnetcom.jabraservice.action.STATE_CHANGED:
+        47b89ee com.jabra.moments/.jabralib.connections.broadcasts.JabraSDKDeviceConnectionReceiver filter 8b46e8f
+          Action: "com.gnnetcom.jabraservice.action.STATE_CHANGED"
+        b153ea1 com.jabra.moments/com.gnnetcom.jabraservice.LaunchBroadcastReceiver filter 2a6e8c6
+          Action: "com.gnnetcom.jabraservice.action.STATE_CHANGED"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      android.bluetooth.device.action.ACTION_STATE_CHANGED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        1cd51c com.jabra.moments/androidx.profileinstaller.ProfileInstallReceiver filter 4dd7525
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        69364ab com.jabra.moments/com.google.firebase.iid.FirebaseInstanceIdReceiver filter cb02708
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        1cd51c com.jabra.moments/androidx.profileinstaller.ProfileInstallReceiver filter b9a56fa
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      com.gnnetcom.jabraservice.action.JabraServiceHelper.REQUEST_ID:
+        2a623dd com.jabra.moments/com.gnnetcom.jabraservice.JabraServiceLeaderBroadcastReceiver filter 998cb52
+          Action: "com.gnnetcom.jabraservice.action.JabraServiceHelper.REQUEST_ID"
+      android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      android.bluetooth.headset.action.STATE_CHANGED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      android.intent.action.ACTION_SHUTDOWN:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+      android.bluetooth.device.action.BOND_STATE_CHANGED:
+        b21a087 com.jabra.moments/com.gnnetcom.jabraservice.BootBroadcastReceiver filter ba4abb4
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.headset.action.STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+          Category: "android.intent.category.HOME"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.gnnetcom.jabraservice.JabraService:
+        c1ace9b com.jabra.moments/com.gnnetcom.jabraservice.JabraService filter 93f6238
+          Action: "com.gnnetcom.jabraservice.JabraService"
+      com.gnnetcom.jabraservice.JabraServiceHelperService:
+        f3a1211 com.jabra.moments/com.gnnetcom.jabraservice.JabraServiceHelperService filter 7610f76
+          Action: "com.gnnetcom.jabraservice.JabraServiceHelperService"
+      com.google.firebase.MESSAGING_EVENT:
+        c6620d9 com.jabra.moments/.pushnotifications.FirebaseMessagingService filter 6544a9e
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        4d4197f com.jabra.moments/com.google.firebase.messaging.FirebaseMessagingService filter 54dbd4c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        68ef195 com.jabra.moments/com.flurry.android.marketing.messaging.FCM.FlurryMessageListenerService filter 6b672aa
+          Action: "com.google.firebase.MESSAGING_EVENT"
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.jabra.moments/androidx.core.content.FileProvider:
+    Provider{566d4bd com.jabra.moments/androidx.core.content.FileProvider}
+  com.jabra.moments/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider:
+    Provider{8c85ab2 com.jabra.moments/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+  com.jabra.moments/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{9d0a03 com.jabra.moments/com.google.firebase.provider.FirebaseInitProvider}
+  com.jabra.moments/androidx.startup.InitializationProvider:
+    Provider{d3c5d80 com.jabra.moments/androidx.startup.InitializationProvider}
+  com.jabra.moments/com.flurry.android.agent.FlurryContentProvider:
+    Provider{830ffb9 com.jabra.moments/com.flurry.android.agent.FlurryContentProvider}
+
+ContentProvider Authorities:
+  [com.jabra.moments.mapboxtelemetryinitprovider]:
+    Provider{8c85ab2 com.jabra.moments/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+      applicationInfo=ApplicationInfo{cdd6ffe com.jabra.moments}
+  [com.jabra.moments.provider]:
+    Provider{566d4bd com.jabra.moments/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{edc435f com.jabra.moments}
+  [com.jabra.moments.FlurryContentProvider]:
+    Provider{830ffb9 com.jabra.moments/com.flurry.android.agent.FlurryContentProvider}
+      applicationInfo=ApplicationInfo{ac9d1ac com.jabra.moments}
+  [com.jabra.moments.androidx-startup]:
+    Provider{d3c5d80 com.jabra.moments/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{cd8de75 com.jabra.moments}
+  [com.jabra.moments.firebaseinitprovider]:
+    Provider{9d0a03 com.jabra.moments/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{f9c8e0a com.jabra.moments}
+
+Key Set Manager:
+  [com.jabra.moments]
+      Signing KeySets: 206
+
+Packages:
+  Package [com.jabra.moments] (eabb67b):
+    appId=10360
+    pkg=Package{ed85c98 com.jabra.moments}
+    codePath=/data/app/~~fBhVu_6HDWBMV8ub0Gw0KA==/com.jabra.moments-DLzG6Y-nIz35PD1IyrILxQ==
+    resourcePath=/data/app/~~fBhVu_6HDWBMV8ub0Gw0KA==/com.jabra.moments-DLzG6Y-nIz35PD1IyrILxQ==
+    legacyNativeLibraryDir=/data/app/~~fBhVu_6HDWBMV8ub0Gw0KA==/com.jabra.moments-DLzG6Y-nIz35PD1IyrILxQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=506018412 minSdk=24 targetSdk=31
+    minExtensionVersions=[]
+    versionName=5.6.1.0.8412.757cc43e1
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.example.store, com.example.services, com.amazon.dee.app, com.baidu.duer.superapp, com.spotify.music, com.google.android.apps.maps]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-06 17:09:23
+    lastUpdateTime=2025-08-06 17:09:24
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{3e5ecf1 version:3, signatures:[f25e91ff], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.BODY_SENSORS
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.SET_ALARM
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.BROADCAST_STICKY
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.BODY_SENSORS_BACKGROUND
+      android.permission.ACCESS_NETWORK_STATE
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.REQUEST_DELETE_PACKAGES
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=38014 deDataInode=37943 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.jabra.moments
+      firstInstallTime=2025-08-06 17:09:24
+      uninstallReason=0
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BODY_SENSORS_BACKGROUND: granted=false, flags=[ REVOKE_WHEN_REQUESTED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.jabra.moments:
+      com.spotify.music
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.jabra.moments
+    com.xiaomi.aicr:
+      com.jabra.moments
+    com.android.contacts:
+      com.jabra.moments
+    com.xiaomi.gamecenter.sdk.service:
+      com.jabra.moments
+    com.android.settings.intelligence:
+      com.jabra.moments
+    com.miui.carlink:
+      com.jabra.moments
+    com.miui.nextpay:
+      com.jabra.moments
+    com.xiaomi.mis:
+      com.jabra.moments
+    com.miui.hybrid:
+      com.jabra.moments
+    com.xiaomi.market:
+      com.jabra.moments
+    com.miui.systemAdSolution:
+      com.jabra.moments
+    com.xiaomi.account:
+      com.jabra.moments
+    com.miui.greenguard:
+      com.jabra.moments
+    com.xiaomi.payment:
+      com.jabra.moments
+    com.xiaomi.xmsf:
+      com.jabra.moments
+    com.android.providers.downloads.ui:
+      com.jabra.moments
+    com.mfashiongallery.emag:
+      com.jabra.moments
+    com.android.calendar:
+      com.jabra.moments
+    com.android.email:
+      com.jabra.moments
+    com.miui.gallery:
+      com.jabra.moments
+    com.miui.virtualsim:
+      com.jabra.moments
+    com.getsurfboard:
+      com.jabra.moments
+    com.xingin.xhs:
+      com.jabra.moments
+    com.duokan.reader:
+      com.jabra.moments
+    com.instagram.android:
+      com.jabra.moments
+    com.miui.video:
+      com.jabra.moments
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.jabra.moments
+    cool.monkey.android:
+      com.jabra.moments
+    com.microsoft.office.outlook:
+      com.jabra.moments
+    com.jijia.bqwnl:
+      com.jabra.moments
+    com.quark.browser:
+      com.jabra.moments
+    com.baidu.BaiduMap:
+      com.jabra.moments
+    com.UCMobile:
+      com.jabra.moments
+    com.autonavi.minimap:
+      com.jabra.moments
+    com.jijia.jjweather:
+      com.jabra.moments
+    com.zhuantech.sijiweather:
+      com.jabra.moments
+    com.suxing.sustream:
+      com.jabra.moments
+    com.yahoo.mobile.client.android.mail:
+      com.jabra.moments
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.jabra.moments]
+    path: /data/app/~~fBhVu_6HDWBMV8ub0Gw0KA==/com.jabra.moments-DLzG6Y-nIz35PD1IyrILxQ==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.jabra.moments]
+    (No recorded stats)

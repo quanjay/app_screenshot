@@ -1,0 +1,787 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter c217067
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 95c71b9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image/*:
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter 4468c26
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter 1266e14
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 7065780
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 518f9fe
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      text:
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter c217067
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 95c71b9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      image:
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter 4468c26
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter 1266e14
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 7065780
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 518f9fe
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      http:
+        106b80a com.p1.mobile.putong/.ui.splash.SplashProxyAct filter c514157
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "l.tantanapp.com": -1
+          Path: "PatternMatcher{PREFIX: /app}"
+        106b80a com.p1.mobile.putong/.ui.splash.SplashProxyAct filter cb8444
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "t.p1.cn": -1
+      https:
+        106b80a com.p1.mobile.putong/.ui.splash.SplashProxyAct filter 9604ad6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "l.tantanapp.com": -1
+          Path: "PatternMatcher{PREFIX: /app}"
+          AutoVerify=true
+        106b80a com.p1.mobile.putong/.ui.splash.SplashProxyAct filter 98c392d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "t.p1.cn": -1
+      fbconnect:
+        42055f com.p1.mobile.putong/com.facebook.CustomTabActivity filter a497075
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.p1.mobile.putong": -1
+      tantanapp:
+        106b80a com.p1.mobile.putong/.ui.splash.SplashProxyAct filter dab987b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tantanapp"
+      fb350461505345910:
+        42055f com.p1.mobile.putong/com.facebook.CustomTabActivity filter 396bac
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb350461505345910"
+      tantanexternal:
+        fee3e62 com.p1.mobile.putong/.ui.ZhiMaAuthAct filter 13e9bf3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tantanexternal"
+          Authority: "tantan": -1
+          Path: "PatternMatcher{LITERAL: /verification}"
+      tencent1101365593:
+        875deae com.p1.mobile.putong/com.tencent.tauth.AuthActivity filter c9d044f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent1101365593"
+
+  Non-Data Actions:
+      cn.jpush.android.ui.PushActivity:
+        c1ea0b0 com.p1.mobile.putong/cn.jpush.android.ui.PushActivity filter 6203b29
+          Action: "cn.jpush.android.ui.PushActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.p1.mobile.putong"
+      android.intent.action.MAIN:
+        106b80a com.p1.mobile.putong/.ui.splash.SplashProxyAct filter 4a79698
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      cn.jpush.android.intent.JNotifyActivity:
+        a4517dc com.p1.mobile.putong/cn.jpush.android.service.JNotifyActivity filter cd860e5
+          Action: "cn.jpush.android.intent.JNotifyActivity"
+          Category: "com.p1.mobile.putong"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY:
+        bc537ba com.p1.mobile.putong/com.sina.weibo.sdk.share.WbShareResultActivity filter 2f9d5c8
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+          Category: "android.intent.category.DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        bc537ba com.p1.mobile.putong/com.sina.weibo.sdk.share.WbShareResultActivity filter dcf966b
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      oppo.push.click:
+        106b80a com.p1.mobile.putong/.ui.splash.SplashProxyAct filter ccd9ef1
+          Action: "oppo.push.click"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        a5f26bd com.p1.mobile.putong/.core.ui.map.MapAct filter b7f44b2
+          Action: "android.intent.action.SEARCH"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter 4468c26
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter c217067
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 7065780
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 95c71b9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      android.intent.action.SEND_MULTIPLE:
+        a69d381 com.p1.mobile.putong/.feed.ui.moments.CaptionAct filter 1266e14
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        fcaac03 com.p1.mobile.putong/.core.ui.messages.SelectContactAct filter 518f9fe
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        d61d20d com.p1.mobile.putong/cn.jpush.android.service.PushReceiver filter 3c83710
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Action: "android.intent.action.PACKAGE_ADDED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        9ed9f3f com.p1.mobile.putong/com.tantanapp.push.xiaomi.MiPushReceiver filter bfc4d55
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+        1c0a64b com.p1.mobile.putong/com.cosmos.photon.push.thirdparty.mi.MiMessageReceiver filter 15f6941
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY:
+        d61d20d com.p1.mobile.putong/cn.jpush.android.service.PushReceiver filter 3b495c2
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+          Category: "com.p1.mobile.putong"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.xiaomi.mipush.ERROR:
+        9ed9f3f com.p1.mobile.putong/com.tantanapp.push.xiaomi.MiPushReceiver filter ebb036a
+          Action: "com.xiaomi.mipush.ERROR"
+        1c0a64b com.p1.mobile.putong/com.cosmos.photon.push.thirdparty.mi.MiMessageReceiver filter f7cee6
+          Action: "com.xiaomi.mipush.ERROR"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        ea6f05b com.p1.mobile.putong/com.xiaomi.push.service.receivers.NetworkStatusReceiver filter bb240f8
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Category: "android.intent.category.DEFAULT"
+        d61d20d com.p1.mobile.putong/cn.jpush.android.service.PushReceiver filter f910fd3
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.USER_PRESENT"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        ed2d62f com.p1.mobile.putong/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 461b43c
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      com.android.vending.INSTALL_REFERRER:
+        84667e3 com.p1.mobile.putong/com.appsflyer.MultipleInstallBroadcastReceiver filter 63395e0
+          Action: "com.android.vending.INSTALL_REFERRER"
+      cn.jpush.android.intent.RECEIVE_MESSAGE:
+        cda3737 com.p1.mobile.putong/com.tantanapp.push.jiguang.JPushReceiver filter 14674a4
+          Action: "cn.jpush.android.intent.RECEIVE_MESSAGE"
+          Category: "com.p1.mobile.putong"
+      com.vivo.pushclient.action.RECEIVE:
+        6e14099 com.p1.mobile.putong/com.tantanapp.push.vivo.ViVoPushReceiver filter eed4f5e
+          Action: "com.vivo.pushclient.action.RECEIVE"
+        6715c27 com.p1.mobile.putong/com.cosmos.photon.push.thirdparty.vivo.VivoPushReceiver filter 5824ed4
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      android.intent.action.LOCALE_CHANGED:
+        4332661 com.p1.mobile.putong/.live.external.square.home.LiveLocaleChangedReceiver filter f7f1586
+          Action: "android.intent.action.LOCALE_CHANGED"
+        21ac79d com.p1.mobile.putong/.core.app.LocalChangedListener filter ea70412
+          Action: "android.intent.action.LOCALE_CHANGED"
+      read:
+        d4f2e47 com.p1.mobile.putong/.core.ui.notifications.SysnotifListener filter cba8674
+          Action: "read"
+          Action: "reply"
+          Action: "dismiss"
+      reply:
+        d4f2e47 com.p1.mobile.putong/.core.ui.notifications.SysnotifListener filter cba8674
+          Action: "read"
+          Action: "reply"
+          Action: "dismiss"
+      com.google.android.c2dm.intent.RECEIVE:
+        3668209 com.p1.mobile.putong/com.google.firebase.iid.FirebaseInstanceIdReceiver filter a3a4c0e
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      zendesk.support:
+        4ec35c5 com.p1.mobile.putong/zendesk.support.DeepLinkingBroadcastReceiver filter c531b1a
+          Action: "zendesk.support"
+      android.intent.action.USER_PRESENT:
+        d61d20d com.p1.mobile.putong/cn.jpush.android.service.PushReceiver filter f910fd3
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.USER_PRESENT"
+      com.xiaomi.push.PING_TIMER:
+        28169d1 com.p1.mobile.putong/com.xiaomi.push.service.receivers.PingReceiver filter 7fdec36
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        9ed9f3f com.p1.mobile.putong/com.tantanapp.push.xiaomi.MiPushReceiver filter a6c300c
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+        1c0a64b com.p1.mobile.putong/com.cosmos.photon.push.thirdparty.mi.MiMessageReceiver filter ab3d828
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      dismiss:
+        d4f2e47 com.p1.mobile.putong/.core.ui.notifications.SysnotifListener filter cba8674
+          Action: "read"
+          Action: "reply"
+          Action: "dismiss"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.immomo.momo.prepare_mk:
+        53c7d70 com.p1.mobile.putong/immomo.com.mklibrary.service.MKPrepareService filter d99b8e9
+          Action: "com.immomo.momo.prepare_mk"
+      cn.jiguang.user.service.action:
+        a6bb83b com.p1.mobile.putong/com.tantanapp.push.jiguang.PushService filter aa19b58
+          Action: "cn.jiguang.user.service.action"
+      cn.jpush.android.intent.PUSH_TIME:
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 547bd96
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "com.p1.mobile.putong.intent.FRIEND"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 3539d17
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      cn.jpush.android.intent.REPORT:
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 547bd96
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "com.p1.mobile.putong.intent.FRIEND"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 3539d17
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      com.google.firebase.MESSAGING_EVENT:
+        336ff79 com.p1.mobile.putong/com.tantanapp.push.fcm.MessagingService filter d7d4be
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        b411504 com.p1.mobile.putong/com.cosmos.photon.push.thirdparty.fcm.FcmPushReceiver filter 4355aed
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        cba1d22 com.p1.mobile.putong/com.google.firebase.messaging.FirebaseMessagingService filter a6af3b3
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.p1.mobile.putong.intent.FRIEND:
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 547bd96
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "com.p1.mobile.putong.intent.FRIEND"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      com.p1.mobile.putong.push.scheduler:
+        244009c com.p1.mobile.putong/com.cosmos.photon.push.service.SchedulerPushService filter 3cbfaa5
+          Action: "com.p1.mobile.putong.push.scheduler"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        9f1a35 com.p1.mobile.putong/com.heytap.mcssdk.AppPushService filter 7b87eca permission com.heytap.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+        4de8a88 com.p1.mobile.putong/com.cosmos.photon.push.thirdparty.oppo.OppoAppPushService filter e269c21 permission com.heytap.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        7aba91f com.p1.mobile.putong/com.tantanapp.push.oppo.OPushService filter e98a46c permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+        4d62e7a com.p1.mobile.putong/com.cosmos.photon.push.thirdparty.oppo.OppoPushService filter db7262b permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      cn.jpush.android.intent.PushService:
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 547bd96
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "com.p1.mobile.putong.intent.FRIEND"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 3539d17
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      com.p1.mobile.putong.push.core:
+        e00e96e com.p1.mobile.putong/com.cosmos.photon.push.service.PushService filter 697180f
+          Action: "com.p1.mobile.putong.push.core"
+      android.service.chooser.ChooserTargetService:
+        878587d com.p1.mobile.putong/.core.ui.messages.ChooserTargetService filter 3e1f372 permission android.permission.BIND_CHOOSER_TARGET_SERVICE
+          Action: "android.service.chooser.ChooserTargetService"
+      cn.jpush.android.intent.REGISTER:
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 547bd96
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "com.p1.mobile.putong.intent.FRIEND"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+        23424b1 com.p1.mobile.putong/cn.jpush.android.service.PushService filter 3539d17
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      com.p1.putong.mobile.invoke.action.STARTUP_OPTIMIZER:
+        b8d93c3 com.p1.mobile.putong/.app.alive.PullAliveService filter a1f8440
+          Action: "com.p1.putong.mobile.invoke.action.STARTUP_OPTIMIZER"
+
+Domain verification status:
+  com.p1.mobile.putong:
+    ID: 3b8e177f-5b7b-4b5f-a1b9-16dcb435ad6b
+    Signatures: [03:47:75:B6:D1:DA:32:AB:E9:DC:0E:30:DB:12:33:EB:6B:F9:DD:E9:06:8F:AF:61:9B:C7:B4:DA:F4:D5:F4:A0]
+    Domain verification state:
+      l.tantanapp.com: none
+      t.p1.cn: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          l.tantanapp.com
+          t.p1.cn
+
+Permissions:
+  Permission [com.p1.mobile.putong.permission.MIPUSH_RECEIVE] (209d1a6):
+    sourcePackage=com.p1.mobile.putong
+    uid=10348 gids=[] type=0 prot=signature
+    perm=PermissionInfo{87307e7 com.p1.mobile.putong.permission.MIPUSH_RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [com.p1.mobile.putong.permission.JPUSH_MESSAGE] (90cef94):
+    sourcePackage=com.p1.mobile.putong
+    uid=10348 gids=[] type=0 prot=signature
+    perm=PermissionInfo{bf94a3d com.p1.mobile.putong.permission.JPUSH_MESSAGE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.p1.mobile.putong/zendesk.support.guide.GuideSdkStartupProvider:
+    Provider{5f16232 com.p1.mobile.putong/zendesk.support.guide.GuideSdkStartupProvider}
+  com.p1.mobile.putong/com.squareup.picasso.PicassoProvider:
+    Provider{85e3b83 com.p1.mobile.putong/com.squareup.picasso.PicassoProvider}
+  com.p1.mobile.putong/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{937100 com.p1.mobile.putong/com.google.firebase.provider.FirebaseInitProvider}
+  com.p1.mobile.putong/cn.jpush.android.service.DownloadProvider:
+    Provider{1354d39 com.p1.mobile.putong/cn.jpush.android.service.DownloadProvider}
+  com.p1.mobile.putong/com.facebook.internal.FacebookInitProvider:
+    Provider{44f6f7e com.p1.mobile.putong/com.facebook.internal.FacebookInitProvider}
+  com.p1.mobile.putong/com.tantanapp.beatles.BeatlesProvider:
+    Provider{33f0cdf com.p1.mobile.putong/com.tantanapp.beatles.BeatlesProvider}
+  com.p1.mobile.putong/zendesk.belvedere.BelvedereFileProvider:
+    Provider{b3e9d2c com.p1.mobile.putong/zendesk.belvedere.BelvedereFileProvider}
+  com.p1.mobile.putong/com.cosmos.photon.push.MoPushProvider:
+    Provider{99483f5 com.p1.mobile.putong/com.cosmos.photon.push.MoPushProvider}
+  com.p1.mobile.putong/cn.jpush.android.service.DataProvider:
+    Provider{8ef058a com.p1.mobile.putong/cn.jpush.android.service.DataProvider}
+  com.p1.mobile.putong/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{43197fb com.p1.mobile.putong/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.p1.mobile.putong/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{c8e6018 com.p1.mobile.putong/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.p1.mobile.putong/androidx.core.content.FileProvider:
+    Provider{4766a71 com.p1.mobile.putong/androidx.core.content.FileProvider}
+  com.p1.mobile.putong/zendesk.support.SupportSdkStartupProvider:
+    Provider{f3ff056 com.p1.mobile.putong/zendesk.support.SupportSdkStartupProvider}
+
+ContentProvider Authorities:
+  [files.com.p1.mobile.putong]:
+    Provider{4766a71 com.p1.mobile.putong/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{1f7b8d7 com.p1.mobile.putong}
+  [com.p1.mobile.putong.zendesk.support.GuideSdkStartupProvider]:
+    Provider{5f16232 com.p1.mobile.putong/zendesk.support.guide.GuideSdkStartupProvider}
+      applicationInfo=ApplicationInfo{e1565c4 com.p1.mobile.putong}
+  [com.p1.mobile.putong.push.provider]:
+    Provider{99483f5 com.p1.mobile.putong/com.cosmos.photon.push.MoPushProvider}
+      applicationInfo=ApplicationInfo{db63cad com.p1.mobile.putong}
+  [com.p1.mobile.putong.lifecycle-process]:
+    Provider{43197fb com.p1.mobile.putong/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{7e2bbe2 com.p1.mobile.putong}
+  [com.p1.mobile.putong.belvedere2.attachments]:
+    Provider{b3e9d2c com.p1.mobile.putong/zendesk.belvedere.BelvedereFileProvider}
+      applicationInfo=ApplicationInfo{3950b73 com.p1.mobile.putong}
+  [com.p1.mobile.putong.com.squareup.picasso]:
+    Provider{85e3b83 com.p1.mobile.putong/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{de51a30 com.p1.mobile.putong}
+  [com.p1.mobile.putong.zendesk.support.SupportSdkStartupProvider]:
+    Provider{f3ff056 com.p1.mobile.putong/zendesk.support.SupportSdkStartupProvider}
+      applicationInfo=ApplicationInfo{9a6f6a9 com.p1.mobile.putong}
+  [com.p1.mobile.putong.mobileadsinitprovider]:
+    Provider{c8e6018 com.p1.mobile.putong/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{af4b42e com.p1.mobile.putong}
+  [com.p1.mobile.putong.DataProvider]:
+    Provider{8ef058a com.p1.mobile.putong/cn.jpush.android.service.DataProvider}
+      applicationInfo=ApplicationInfo{2aaebcf com.p1.mobile.putong}
+  [com.p1.mobile.putong.DownloadProvider]:
+    Provider{1354d39 com.p1.mobile.putong/cn.jpush.android.service.DownloadProvider}
+      applicationInfo=ApplicationInfo{7b9a95c com.p1.mobile.putong}
+  [com.p1.mobile.putong.firebaseinitprovider]:
+    Provider{937100 com.p1.mobile.putong/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{4cf5465 com.p1.mobile.putong}
+  [com.p1.mobile.putong.FacebookInitProvider]:
+    Provider{44f6f7e com.p1.mobile.putong/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{31be53a com.p1.mobile.putong}
+  [com.tantanapp.beatles.beatles_provider]:
+    Provider{33f0cdf com.p1.mobile.putong/com.tantanapp.beatles.BeatlesProvider}
+      applicationInfo=ApplicationInfo{79475eb com.p1.mobile.putong}
+
+Key Set Manager:
+  [com.p1.mobile.putong]
+      Signing KeySets: 194
+
+Packages:
+  Package [com.p1.mobile.putong] (4e5ff48):
+    appId=10348
+    pkg=Package{365d1e1 com.p1.mobile.putong}
+    codePath=/data/app/~~g393TiK0m6u_dcx_02FBTA==/com.p1.mobile.putong-r_LCdZklR3Ew3MccUl8I2g==
+    resourcePath=/data/app/~~g393TiK0m6u_dcx_02FBTA==/com.p1.mobile.putong-r_LCdZklR3Ew3MccUl8I2g==
+    legacyNativeLibraryDir=/data/app/~~g393TiK0m6u_dcx_02FBTA==/com.p1.mobile.putong-r_LCdZklR3Ew3MccUl8I2g==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2546120 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=5.4.6.1
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-06 16:55:43
+    lastUpdateTime=2025-08-06 16:55:43
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{d531b06 version:2, signatures:[3742f45], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    apexModuleName=null
+    declared permissions:
+      com.p1.mobile.putong.permission.MIPUSH_RECEIVE: prot=signature
+      com.p1.mobile.putong.permission.JPUSH_MESSAGE: prot=signature
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      org.adw.launcher_donut.permission.READ_SETTINGS
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.android.launcher2.permission.READ_SETTINGS
+      com.android.launcher3.permission.READ_SETTINGS
+      android.hardware.sensor.accelerometer
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.RESTART_PACKAGES
+      com.android.launcher2.permission.WRITE_SETTINGS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      org.adw.launcher.permission.READ_SETTINGS
+      com.p1.mobile.putong.permission.MIPUSH_RECEIVE
+      com.android.mylauncher.permission.READ_SETTINGS
+      com.miui.mihome2.permission.WRITE_SETTINGS
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      android.permission.SYSTEM_OVERLAY_WINDOW
+      com.lge.launcher.permission.READ_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      com.huawei.launcher3.permission.WRITE_SETTINGS
+      dianxin.permission.ACCESS_LAUNCHER_DATA
+      net.qihoo.launcher.permission.WRITE_SETTINGS
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.sec.android.provider.badge.permission.READ
+      com.tencent.qqlauncher.permission.READ_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WRITE_SYNC_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.android.launcher3.permission.WRITE_SETTINGS
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      com.android.mylauncher.permission.WRITE_SETTINGS
+      com.sec.android.app.twlauncher.settings.READ_SETTINGS
+      com.qihoo360.launcher.permission.WRITE_SETTINGS
+      MediaStore.Images.Media.EXTERNAL_CONTENT_URI
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      com.android.vending.CHECK_LICENSE
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      android.permission.REORDER_TASKS
+      com.android.vending.BILLING
+      com.anddoes.launcher.permission.READ_SETTINGS
+      android.permission.RECEIVE_USER_PRESENT
+      android.permission.READ_EXTERNAL_STORAGE
+      com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.android.launcher.permission.WRITE_SETTINGS
+      com.fede.launcher.permission.WRITE_SETTINGS
+      net.oneplus.launcher.permission.WRITE_SETTINGS
+      com.sec.android.app.twlauncher.settings.WRITE_SETTINGS
+      com.htc.launcher.permission.WRITE_SETTINGS
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_APP_BADGE
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+      android.permission.READ_MEDIA_IMAGES
+      com.p1.mobile.putong.permission.JPUSH_MESSAGE
+      android.permission.CHANGE_WIFI_STATE
+      org.adwfreak.launcher.permission.WRITE_SETTINGS
+      com.majeur.launcher.permission.UPDATE_BADGE
+      android.permission.ACCESS_NETWORK_STATE
+      com.oppo.launcher.permission.READ_SETTINGS
+      android.permission.CAMERA
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      org.adw.launcher.permission.WRITE_SETTINGS
+      org.adwfreak.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_AUDIO
+      com.qihoo360.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_VIDEO
+      com.sec.android.provider.badge.permission.WRITE
+      org.adw.launcher_donut.permission.WRITE_SETTINGS
+      com.huawei.launcher2.permission.READ_SETTINGS
+      com.huawei.launcher3.permission.READ_SETTINGS
+      net.qihoo.launcher.permission.READ_SETTINGS
+      com.miui.mihome2.permission.READ_SETTINGS
+      net.oneplus.launcher.permission.READ_SETTINGS
+      android.permission.BLUETOOTH_ADVERTISE
+      com.ebproductions.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_APP_BADGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      telecom.mdesk.permission.WRITE_SETTINGS
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.fede.launcher.permission.READ_SETTINGS
+      android.permission.ACCESS_WIFI_STATE
+      com.lge.launcher.permission.WRITE_SETTINGS
+      telecom.mdesk.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.ebproductions.android.launcher.permission.WRITE_SETTINGS
+      android.permission.RECORD_AUDIO
+      com.anddoes.launcher.permission.WRITE_SETTINGS
+      MediaStore.Images.Media.INTERNAL_CONTENT_URI
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      com.huawei.launcher2.permission.WRITE_SETTINGS
+      android.permission.BLUETOOTH_SCAN
+      com.tencent.qqlauncher.permission.WRITE_SETTINGS
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.p1.mobile.putong.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      com.p1.mobile.putong.permission.JPUSH_MESSAGE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=65504 deDataInode=206322 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.p1.mobile.putong
+      firstInstallTime=2025-08-06 16:55:43
+      uninstallReason=0
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.miui.notes:
+      com.p1.mobile.putong
+    com.duokan.reader:
+      com.p1.mobile.putong
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.p1.mobile.putong
+    com.xiaomi.aicr:
+      com.p1.mobile.putong
+    com.android.contacts:
+      com.p1.mobile.putong
+    com.xiaomi.gamecenter.sdk.service:
+      com.p1.mobile.putong
+    com.android.settings.intelligence:
+      com.p1.mobile.putong
+    com.android.camera:
+      com.p1.mobile.putong
+    com.miui.carlink:
+      com.p1.mobile.putong
+    com.miui.nextpay:
+      com.p1.mobile.putong
+    com.xiaomi.mis:
+      com.p1.mobile.putong
+    com.miui.hybrid:
+      com.p1.mobile.putong
+    com.xiaomi.market:
+      com.p1.mobile.putong
+    com.miui.systemAdSolution:
+      com.p1.mobile.putong
+    com.xiaomi.account:
+      com.p1.mobile.putong
+    com.miui.greenguard:
+      com.p1.mobile.putong
+    com.xiaomi.payment:
+      com.p1.mobile.putong
+    com.xiaomi.xmsf:
+      com.p1.mobile.putong
+    com.android.providers.downloads.ui:
+      com.p1.mobile.putong
+    com.mfashiongallery.emag:
+      com.p1.mobile.putong
+    com.android.calendar:
+      com.p1.mobile.putong
+    com.android.email:
+      com.p1.mobile.putong
+    com.miui.gallery:
+      com.p1.mobile.putong
+    com.android.soundrecorder:
+      com.p1.mobile.putong
+    com.miui.virtualsim:
+      com.p1.mobile.putong
+    com.getsurfboard:
+      com.p1.mobile.putong
+    com.xingin.xhs:
+      com.p1.mobile.putong
+    com.duokan.reader:
+      com.p1.mobile.putong
+    com.instagram.android:
+      com.p1.mobile.putong
+    com.ebay.mobile:
+      com.p1.mobile.putong
+    com.microsoft.todos:
+      com.p1.mobile.putong
+    com.miui.video:
+      com.p1.mobile.putong
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.p1.mobile.putong
+    com.alibaba.aliexpresshd:
+      com.p1.mobile.putong
+    cool.monkey.android:
+      com.p1.mobile.putong
+    com.google.android.apps.magazines:
+      com.p1.mobile.putong
+    com.spotify.music:
+      com.p1.mobile.putong
+    com.google.android.apps.youtube.music:
+      com.p1.mobile.putong
+    com.ss.android.ugc.aweme:
+      com.p1.mobile.putong
+    com.microsoft.office.outlook:
+      com.p1.mobile.putong
+    com.ss.android.article.news:
+      com.p1.mobile.putong
+    com.jijia.bqwnl:
+      com.p1.mobile.putong
+    com.quark.browser:
+      com.p1.mobile.putong
+    com.baidu.BaiduMap:
+      com.p1.mobile.putong
+    com.UCMobile:
+      com.p1.mobile.putong
+    com.autonavi.minimap:
+      com.p1.mobile.putong
+    com.dragon.read:
+      com.p1.mobile.putong
+    com.jijia.jjweather:
+      com.p1.mobile.putong
+    com.zhuantech.sijiweather:
+      com.p1.mobile.putong
+    com.suxing.sustream:
+      com.p1.mobile.putong
+    com.yahoo.mobile.client.android.mail:
+      com.p1.mobile.putong
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.p1.mobile.putong]
+    path: /data/app/~~g393TiK0m6u_dcx_02FBTA==/com.p1.mobile.putong-r_LCdZklR3Ew3MccUl8I2g==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.p1.mobile.putong]
+    (No recorded stats)

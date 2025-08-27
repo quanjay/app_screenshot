@@ -1,0 +1,356 @@
+Activity Resolver Table:
+  Schemes:
+      http:
+        ee5b66a com.roku.remote/.ui.activities.SplashActivity filter 2e3abf8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "therokuchannel.roku.com": -1
+          Authority: "watch.staging.roku.com": -1
+          Authority: "watch.qa.roku.com": -1
+          Authority: "watch.web.roku.com": -1
+          AutoVerify=true
+      https:
+        ee5b66a com.roku.remote/.ui.activities.SplashActivity filter 2e3abf8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "therokuchannel.roku.com": -1
+          Authority: "watch.staging.roku.com": -1
+          Authority: "watch.qa.roku.com": -1
+          Authority: "watch.web.roku.com": -1
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ee5b66a com.roku.remote/.ui.activities.SplashActivity filter 55f275b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        42df109 com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter cf68f0e
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        3926d3 com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter c5c0210
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        7655d2f com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9e72f3c
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        c3b94c5 com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 2108e1a
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        7655d2f com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9e72f3c
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.google.android.c2dm.intent.RECEIVE:
+        540510d com.roku.remote/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 222a8c2
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        42df109 com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter cf68f0e
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        e749d4b com.roku.remote/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2960328
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        e749d4b com.roku.remote/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2960328
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      roku.remote.BUTTON:
+        c5ede37 com.roku.remote/.receivers.PLBroadcastReceiver filter 1a38fa4
+          Action: "roku.remote.BUTTON"
+      android.intent.action.BOOT_COMPLETED:
+        e749d4b com.roku.remote/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 2960328
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        3926d3 com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter c5c0210
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        325f8d1 com.roku.remote/.widget.WidgetUi filter ba0cf36
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        fedc327 com.roku.remote/androidx.work.impl.diagnostics.DiagnosticsReceiver filter dc29d4
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        7c5b841 com.roku.remote/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 9971e6
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        74977d com.roku.remote/.notifications.FCMService filter f7ac672
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        de96ac3 com.roku.remote/com.google.firebase.messaging.FirebaseMessagingService filter bc0f40
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.roku.remote:
+    ID: 0938d0c1-a253-45b1-8884-c5f5f4cabbe8
+    Signatures: [CC:5E:A1:08:4F:54:80:01:8D:A1:9D:E8:CB:8E:DB:B0:00:85:59:5A:38:50:1D:7D:BA:73:AC:6B:03:74:F0:00]
+    Domain verification state:
+      watch.staging.roku.com: none
+      watch.web.roku.com: none
+      therokuchannel.roku.com: none
+      watch.qa.roku.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          watch.staging.roku.com
+          watch.web.roku.com
+          therokuchannel.roku.com
+          watch.qa.roku.com
+
+Registered ContentProviders:
+  com.roku.remote/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{984eb38 com.roku.remote/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.roku.remote/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{2936711 com.roku.remote/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.roku.remote/androidx.core.content.FileProvider:
+    Provider{a504076 com.roku.remote/androidx.core.content.FileProvider}
+  com.roku.remote/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{9139677 com.roku.remote/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.roku.remote/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{c3982e4 com.roku.remote/com.google.firebase.provider.FirebaseInitProvider}
+  com.roku.remote/androidx.startup.InitializationProvider:
+    Provider{ab6634d com.roku.remote/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.roku.remote.firebaseperfprovider]:
+    Provider{9139677 com.roku.remote/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{c77ee02 com.roku.remote}
+  [com.roku.remote.mobileadsinitprovider]:
+    Provider{2936711 com.roku.remote/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{1212313 com.roku.remote}
+  [com.roku.remote.androidx-startup]:
+    Provider{ab6634d com.roku.remote/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{77de950 com.roku.remote}
+  [com.roku.android.fileprovider]:
+    Provider{a504076 com.roku.remote/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{97ae84e com.roku.remote}
+  [com.roku.remote.firebaseinitprovider]:
+    Provider{c3982e4 com.roku.remote/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{4604a7c com.roku.remote}
+  [com.roku.remote.lifecycle-process]:
+    Provider{984eb38 com.roku.remote/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{b99af05 com.roku.remote}
+
+Key Set Manager:
+  [com.roku.remote]
+      Signing KeySets: 177
+
+Packages:
+  Package [com.roku.remote] (c1ee9):
+    appId=10408
+    pkg=Package{6a13b5a com.roku.remote}
+    codePath=/data/app/~~f_j8CUmmWrXuYSoGAqPdNg==/com.roku.remote-gcvtlfJHObqBqrNWvD_46g==
+    resourcePath=/data/app/~~f_j8CUmmWrXuYSoGAqPdNg==/com.roku.remote-gcvtlfJHObqBqrNWvD_46g==
+    legacyNativeLibraryDir=/data/app/~~f_j8CUmmWrXuYSoGAqPdNg==/com.roku.remote-gcvtlfJHObqBqrNWvD_46g==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=128 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=7.8.3.735316
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-07-30 16:44:04
+    lastUpdateTime=2025-07-30 16:44:05
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{457e18b version:2, signatures:[2859d746], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=157953 deDataInode=136955 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.roku.remote
+      firstInstallTime=2025-07-30 16:44:05
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.roku.remote
+    com.xiaomi.aicr:
+      com.roku.remote
+    com.android.contacts:
+      com.roku.remote
+    com.xiaomi.gamecenter.sdk.service:
+      com.roku.remote
+    com.android.settings.intelligence:
+      com.roku.remote
+    com.miui.nextpay:
+      com.roku.remote
+    com.xiaomi.mis:
+      com.roku.remote
+    com.miui.hybrid:
+      com.roku.remote
+    com.xiaomi.market:
+      com.roku.remote
+    com.miui.systemAdSolution:
+      com.roku.remote
+    com.xiaomi.account:
+      com.roku.remote
+    com.miui.greenguard:
+      com.roku.remote
+    com.xiaomi.payment:
+      com.roku.remote
+    com.xiaomi.xmsf:
+      com.roku.remote
+    com.android.providers.downloads.ui:
+      com.roku.remote
+    com.mfashiongallery.emag:
+      com.roku.remote
+    com.android.calendar:
+      com.roku.remote
+    com.android.email:
+      com.roku.remote
+    com.miui.gallery:
+      com.roku.remote
+    com.miui.virtualsim:
+      com.roku.remote
+    com.getsurfboard:
+      com.roku.remote
+    com.xingin.xhs:
+      com.roku.remote
+    com.duokan.reader:
+      com.roku.remote
+    com.instagram.android:
+      com.roku.remote
+    com.miui.video:
+      com.roku.remote
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.roku.remote
+    com.microsoft.office.outlook:
+      com.roku.remote
+    com.jijia.bqwnl:
+      com.roku.remote
+    com.quark.browser:
+      com.roku.remote
+    com.baidu.BaiduMap:
+      com.roku.remote
+    com.UCMobile:
+      com.roku.remote
+    com.autonavi.minimap:
+      com.roku.remote
+    com.jijia.jjweather:
+      com.roku.remote
+    com.zhuantech.sijiweather:
+      com.roku.remote
+    com.suxing.sustream:
+      com.roku.remote
+    com.yahoo.mobile.client.android.mail:
+      com.roku.remote
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.roku.remote]
+    path: /data/app/~~f_j8CUmmWrXuYSoGAqPdNg==/com.roku.remote-gcvtlfJHObqBqrNWvD_46g==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~f_j8CUmmWrXuYSoGAqPdNg==/com.roku.remote-gcvtlfJHObqBqrNWvD_46g==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 240Kb base.vdex: 20272Kb 
+
+Compiler stats:
+  [com.roku.remote]
+    (No recorded stats)

@@ -1,0 +1,454 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1c972d com.mi.android.globallauncher/com.miui.home.launcher.Launcher filter c0a4462
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.HOME"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.MONKEY"
+        70129f3 com.mi.android.globallauncher/com.miui.home.launcher.SplashActivity filter b3916b0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1752461 com.mi.android.globallauncher/com.miui.home.launcher.SecondaryDisplayLauncher filter 3fc3b86
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.SECONDARY_HOME"
+          Category: "android.intent.category.DEFAULT"
+      android.content.pm.action.CONFIRM_PIN_APPWIDGET:
+        8587929 com.mi.android.globallauncher/com.miui.home.launcher.AddItemActivity filter 14c44ae
+          Action: "android.content.pm.action.CONFIRM_PIN_SHORTCUT"
+          Action: "android.content.pm.action.CONFIRM_PIN_APPWIDGET"
+      com.mi.android.globallauncher.Setting:
+        6fa724f com.mi.android.globallauncher/com.miui.home.settings.HomeSettingsActivity filter f90eddc
+          Action: "com.mi.android.globallauncher.Setting"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+      stockassistant.action.main:
+        47ea59d com.mi.android.globallauncher/com.mi.android.pocolauncher.assistant.stock.home.HomeActivity filter 4d08a12
+          Action: "stockassistant.action.main"
+          Category: "android.intent.category.DEFAULT"
+      com.miui.home.action.LAUNCHER_PERSONAL_ASSISTANT_SETTING:
+        d567ee5 com.mi.android.globallauncher/com.miui.home.settings.SwitchAssistantSettings filter 29bfdba
+          Action: "com.miui.home.action.LAUNCHER_PERSONAL_ASSISTANT_SETTING"
+          Category: "android.intent.category.DEFAULT"
+      android.content.pm.action.CONFIRM_PIN_SHORTCUT:
+        8587929 com.mi.android.globallauncher/com.miui.home.launcher.AddItemActivity filter 14c44ae
+          Action: "android.content.pm.action.CONFIRM_PIN_SHORTCUT"
+          Action: "android.content.pm.action.CONFIRM_PIN_APPWIDGET"
+      android.intent.action.CREATE_SHORTCUT:
+        6fa724f com.mi.android.globallauncher/com.miui.home.settings.HomeSettingsActivity filter f90eddc
+          Action: "com.mi.android.globallauncher.Setting"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+        b95e46b com.mi.android.globallauncher/com.miui.home.launcher.shortcuts.WallpaperShortcutActivity filter 2d0bc8
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+        c2c5c47 com.mi.android.globallauncher/com.miui.home.gamebooster.ui.GameCardShortcutActivity filter 8eb1c74
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+        ea4fe99 com.mi.android.globallauncher/com.mi.android.newsflow.activity.NewsCardShortcutActivity filter 529355e
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+      com.mi.android.globallauncher.REQUEST_PERMISSION_DIALOG:
+        2c875e3 com.mi.android.globallauncher/com.mi.android.pocolauncher.assistant.cards.ola.activity.AuthorizeWebViewActivity filter 3d78be0
+          Action: "com.mi.android.globallauncher.REQUEST_PERMISSION_DIALOG"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.miui.cloudbackup.action.CLOUD_RESTORE_FINISH:
+        99cbe5b com.mi.android.globallauncher/com.miui.home.launcher.cloudbackup.CloudRestoreFinishReceiver filter f1ef6f8
+          Action: "com.miui.cloudbackup.action.CLOUD_RESTORE_FINISH"
+      android.app.action.DEVICE_ADMIN_ENABLED:
+        c5ee537 com.mi.android.globallauncher/com.miui.home.launcher.gadget.LockReceiver filter dc88aa4
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+      com.miui.home.launcher.action.INSTALL_WIDGET:
+        b3ee7d1 com.mi.android.globallauncher/com.miui.home.launcher.InstallWidgetReceiver filter 1109236
+          Action: "com.miui.home.launcher.action.INSTALL_WIDGET"
+      com.miui.home.launcher.action.UNINSTALL_SHORTCUT:
+        f3deb55 com.mi.android.globallauncher/com.miui.home.launcher.UninstallShortcutReceiver filter 3cf496a
+          Action: "com.miui.home.launcher.action.UNINSTALL_SHORTCUT"
+      com.google.android.c2dm.intent.RECEIVE:
+        779300d com.mi.android.globallauncher/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 24b9bc2
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      com.android.launcher.action.INSTALL_SHORTCUT:
+        5828d3f com.mi.android.globallauncher/com.miui.home.launcher.InstallShortcutReceiver filter d59860c
+          Action: "com.android.launcher.action.INSTALL_SHORTCUT"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        db29dd3 com.mi.android.globallauncher/com.market.sdk.DownloadCompleteReceiver filter 555ad10
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.notification.MusicListenerService:
+        4c5f44b com.mi.android.globallauncher/miui.maml.elements.MusicListenerService filter 5ba0e28 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.MusicListenerService"
+      com.miui.home.action_GADGET_DISABLE:
+        a95c009 com.mi.android.globallauncher/com.miui.home.launcher.gadget.GadgetAutoChangeService filter 23bb20e
+          Action: "com.miui.home.action_GADGET_MTZ_READY"
+          Action: "com.miui.home.action_GADGET_ENABLE"
+          Action: "com.miui.home.action_GADGET_DISABLE"
+      com.miui.home.action_GADGET_MTZ_READY:
+        a95c009 com.mi.android.globallauncher/com.miui.home.launcher.gadget.GadgetAutoChangeService filter 23bb20e
+          Action: "com.miui.home.action_GADGET_MTZ_READY"
+          Action: "com.miui.home.action_GADGET_ENABLE"
+          Action: "com.miui.home.action_GADGET_DISABLE"
+      miui.action.CLOUD_BACKUP_SETTINGS:
+        b786741 com.mi.android.globallauncher/com.miui.home.launcher.cloudbackup.MiuiHomeCloudBackupService filter efff4e6 permission com.xiaomi.permission.CLOUD_MANAGER
+          Action: "miui.action.CLOUD_BACKUP_SETTINGS"
+          Action: "miui.action.CLOUD_RESTORE_SETTINGS"
+      com.miui.home.action.RESTORE_HOME:
+        2d153c5 com.mi.android.globallauncher/com.miui.home.launcher.cloudbackup.BackupRestoreHomeService filter a04e11a permission miui.permission.USE_INTERNAL_GENERAL_API
+          Action: "com.miui.home.action.BACKUP_HOME"
+          Action: "com.miui.home.action.RESTORE_HOME"
+      com.miui.home.snapshot_helper_intent:
+        87f442f com.mi.android.globallauncher/com.miui.home.launcher.snapshot.HomeSnapshotHelperService filter 508a3c
+          Action: "com.miui.home.snapshot_helper_intent"
+      android.service.notification.NotificationListenerService:
+        f7d8a27 com.mi.android.globallauncher/com.miui.home.launcher.notification.NotificationListener filter 9b5e4d4 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+      com.miui.home.action_GADGET_ENABLE:
+        a95c009 com.mi.android.globallauncher/com.miui.home.launcher.gadget.GadgetAutoChangeService filter 23bb20e
+          Action: "com.miui.home.action_GADGET_MTZ_READY"
+          Action: "com.miui.home.action_GADGET_ENABLE"
+          Action: "com.miui.home.action_GADGET_DISABLE"
+      miui.action.CLOUD_RESTORE_SETTINGS:
+        b786741 com.mi.android.globallauncher/com.miui.home.launcher.cloudbackup.MiuiHomeCloudBackupService filter efff4e6 permission com.xiaomi.permission.CLOUD_MANAGER
+          Action: "miui.action.CLOUD_BACKUP_SETTINGS"
+          Action: "miui.action.CLOUD_RESTORE_SETTINGS"
+      com.miui.home.action.BACKUP_HOME:
+        2d153c5 com.mi.android.globallauncher/com.miui.home.launcher.cloudbackup.BackupRestoreHomeService filter a04e11a permission miui.permission.USE_INTERNAL_GENERAL_API
+          Action: "com.miui.home.action.BACKUP_HOME"
+          Action: "com.miui.home.action.RESTORE_HOME"
+
+Domain verification status:
+
+Permissions:
+  Permission [poco.personalassistant.permission.READ_ASSISTANT_PROVIDER] (e21702a):
+    sourcePackage=com.mi.android.globallauncher
+    uid=10193 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{ee5be1b poco.personalassistant.permission.READ_ASSISTANT_PROVIDER}
+
+Permissions:
+  Permission [com.mi.android.globallauncher.permission.WRITE_SETTINGS] (ba05bb8):
+    sourcePackage=com.mi.android.globallauncher
+    uid=10193 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{7894d91 com.mi.android.globallauncher.permission.WRITE_SETTINGS}
+
+Permissions:
+  Permission [com.miui.home.launcher.permission.INSTALL_WIDGET] (a3e64f6):
+    sourcePackage=com.mi.android.globallauncher
+    uid=10193 gids=[] type=0 prot=normal
+    perm=PermissionInfo{b9820f7 com.miui.home.launcher.permission.INSTALL_WIDGET}
+
+Permissions:
+  Permission [com.miui.home.launcher.permission.UNINSTALL_SHORTCUT] (fdb7b64):
+    sourcePackage=com.mi.android.globallauncher
+    uid=10193 gids=[] type=0 prot=normal
+    perm=PermissionInfo{36431cd com.miui.home.launcher.permission.UNINSTALL_SHORTCUT}
+
+Registered ContentProviders:
+  com.mi.android.globallauncher/com.mi.android.pocolauncher.assistant.cards.data.AssistantProvider:
+    Provider{a63da82 com.mi.android.globallauncher/com.mi.android.pocolauncher.assistant.cards.data.AssistantProvider}
+  com.mi.android.globallauncher/com.market.sdk.LazyFileProvider:
+    Provider{ba3d593 com.mi.android.globallauncher/com.market.sdk.LazyFileProvider}
+  com.mi.android.globallauncher/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{286e9d0 com.mi.android.globallauncher/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.mi.android.globallauncher/androidx.core.content.FileProvider:
+    Provider{58f1dc9 com.mi.android.globallauncher/androidx.core.content.FileProvider}
+  com.mi.android.globallauncher/com.miui.home.launcher.LauncherProvider:
+    Provider{b791cce com.mi.android.globallauncher/com.miui.home.launcher.LauncherProvider}
+  com.mi.android.globallauncher/com.squareup.picasso.PicassoProvider:
+    Provider{eac37ef com.mi.android.globallauncher/com.squareup.picasso.PicassoProvider}
+  com.mi.android.globallauncher/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{a38d2fc com.mi.android.globallauncher/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.mi.android.globallauncher.selfupdate.fileprovider]:
+    Provider{ba3d593 com.mi.android.globallauncher/com.market.sdk.LazyFileProvider}
+      applicationInfo=ApplicationInfo{562cd85 com.mi.android.globallauncher}
+  [com.mi.android.globallauncher.firebaseinitprovider]:
+    Provider{a38d2fc com.mi.android.globallauncher/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{f8e37da com.mi.android.globallauncher}
+  [com.mi.android.globallauncher.launcher.settings]:
+    Provider{b791cce com.mi.android.globallauncher/com.miui.home.launcher.LauncherProvider}
+      applicationInfo=ApplicationInfo{12e640b com.mi.android.globallauncher}
+  [poco.launcher.personal_assistant]:
+    Provider{a63da82 com.mi.android.globallauncher/com.mi.android.pocolauncher.assistant.cards.data.AssistantProvider}
+      applicationInfo=ApplicationInfo{ebe22e8 com.mi.android.globallauncher}
+  [com.mi.android.globallauncher.lifecycle-process]:
+    Provider{286e9d0 com.mi.android.globallauncher/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{d07bd01 com.mi.android.globallauncher}
+  [com.mi.android.globallauncher.com.squareup.picasso]:
+    Provider{eac37ef com.mi.android.globallauncher/com.squareup.picasso.PicassoProvider}
+      applicationInfo=ApplicationInfo{7a7f7a6 com.mi.android.globallauncher}
+  [com.mi.android.globallauncher.fileprovider]:
+    Provider{58f1dc9 com.mi.android.globallauncher/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{5d35e7 com.mi.android.globallauncher}
+
+Key Set Manager:
+  [com.mi.android.globallauncher]
+      Signing KeySets: 107
+
+Packages:
+  Package [com.mi.android.globallauncher] (5c68594):
+    userId=10193
+    pkg=Package{6b2283d com.mi.android.globallauncher}
+    codePath=/data/app/~~FHUX2OnkJs-q2AcvIu1Bug==/com.mi.android.globallauncher-BVofdtG_31E1AF1l70DHJw==
+    resourcePath=/data/app/~~FHUX2OnkJs-q2AcvIu1Bug==/com.mi.android.globallauncher-BVofdtG_31E1AF1l70DHJw==
+    legacyNativeLibraryDir=/data/app/~~FHUX2OnkJs-q2AcvIu1Bug==/com.mi.android.globallauncher-BVofdtG_31E1AF1l70DHJw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2070428 minSdk=26 targetSdk=29
+    minExtensionVersions=[]
+    versionName=2.7.4.28
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{6b2283d com.mi.android.globallauncher}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.mi.android.globallauncher
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2025-05-08 09:10:09
+    firstInstallTime=2025-05-08 09:10:09
+    lastUpdateTime=2025-05-08 09:10:09
+    signatures=PackageSignatures{e4be832 version:2, signatures:[6c02dd51], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE LARGE_HEAP ]
+    declared permissions:
+      com.miui.home.launcher.permission.UNINSTALL_SHORTCUT: prot=normal, INSTALLED
+      com.miui.home.launcher.permission.INSTALL_WIDGET: prot=normal, INSTALLED
+      com.mi.android.globallauncher.permission.WRITE_SETTINGS: prot=signature|privileged, INSTALLED
+      poco.personalassistant.permission.READ_ASSISTANT_PROVIDER: prot=signature|privileged, INSTALLED
+    requested permissions:
+      android.permission.SET_WALLPAPER_COMPONENT
+      android.permission.ACCESS_THEME
+      com.miui.weather2.permission.WRITE_DB
+      android.permission.BIND_WALLPAPER
+      android.permission.ACCESS_DOWNLOAD_MANAGER
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.BIND_APPWIDGET
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.CALL_PHONE
+      android.permission.CHANGE_CONFIGURATION
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.DELETE_PACKAGES
+      android.permission.DUMP
+      android.permission.INTERNET
+      android.permission.EXPAND_STATUS_BAR
+      android.permission.GET_TASKS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.READ_FRAME_BUFFER
+      android.permission.STATUS_BAR
+      android.permission.SET_WALLPAPER
+      android.permission.SET_WALLPAPER_HINTS
+      android.permission.UPDATE_DEVICE_STATS
+      android.permission.VIBRATE
+      android.permission.WRITE_SETTINGS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_SYNC_STATS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.UPDATE_APP_OPS_STATS
+      android.permission.MEDIA_CONTENT_CONTROL
+      com.mi.android.globallauncher.permission.WRITE_SETTINGS
+      com.android.alarm.permission.SET_ALARM
+      com.android.SystemUI.permission.TIGGER_TOGGLE
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE
+      com.miui.notes.permission.ACCESS_NOTE
+      android.permission.SET_PROCESS_LIMIT
+      miui.permission.SHELL
+      miui.permission.EXTRA_NETWORK
+      miui.permission.USE_INTERNAL_GENERAL_API
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.BROADCAST_STICKY
+      com.android.settings.permission.POWER_MODE_CHANGE
+      android.miui.permission.SHELL
+      miui.os.permisson.INIT_MIUI_ENVIRONMENT
+      com.xiaomi.gallery.permission.CLOUD
+      com.miui.calendar.permission.READ_CALENDAR
+      android.permission.WRITE_SECURE_SETTINGS
+      com.android.settings.permission.CLOUD_SETTINGS_PROVIDER
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.MANAGE_USERS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      miui.personalassistant.ACCESS_PROVIDER
+      miui.personalassistant.RECEIVE_TRANSPROXY_DATA
+      com.miui.yellowpage.permission.ACCESS_YELLOWPAGE
+      android.permission.READ_MIPOCKET
+      miui.permission.READ_STEPS
+      miui.personalassistant.permission.READ_ASSISTANT_PROVIDER
+      miui.personalassistant.permission.RECEIVE_TRANSPROXY_DATA
+      android.permission.SET_PREFERRED_APPLICATIONS
+      android.permission.USE_FINGERPRINT
+      android.permission.RESET_FINGERPRINT_LOCKOUT
+      android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+      android.permission.KILL_BACKGROUND_PROCESSES
+      android.permission.USE_CREDENTIALS
+      android.permission.MANAGE_ACCOUNTS
+      com.google.android.c2dm.permission.REGISTER
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.STATUS_BAR_SERVICE
+      com.android.provision.provider.READ_PROVIDER
+      android.permission.READ_CONTACTS
+      android.permission.REQUEST_DELETE_PACKAGES
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.FORCE_STOP_PACKAGES
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.READ_CALENDAR
+      com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER
+      com.mi.health.debug.permission.DEFAULT_READ_DATA
+      com.mi.health.permission.DEFAULT_READ_DATA
+      android.permission.WAKE_LOCK
+      com.miui.systemAdSolution.adSwitch.PROVIDER
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      android.permission.BLUETOOTH: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.mi.android.globallauncher.permission.WRITE_SETTINGS: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.SET_WALLPAPER_HINTS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=140549 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.CALL_PHONE: granted=false
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.settings.intelligence:
+      com.mi.android.globallauncher
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=81
+  User 0:
+    seq=8, package=com.google.android.gms
+    seq=14, package=com.Dominos
+    seq=16, package=com.google.android.apps.docs
+    seq=20, package=com.getmimo
+    seq=24, package=com.jardogs.fmhmobile
+    seq=34, package=com.kohls.mcommerce.opal
+    seq=39, package=com.wakefern.shoprite
+    seq=45, package=com.rsupport.mvagent
+    seq=54, package=com.what3words.android
+    seq=65, package=com.microsoft.todos
+    seq=74, package=com.actionlauncher.playstore
+    seq=78, package=com.chatous.chatous
+    seq=79, package=io.github.ylimit.droidbotapp
+    seq=80, package=com.mi.android.globallauncher
+
+
+Dexopt state:
+  [com.mi.android.globallauncher]
+    path: /data/app/~~FHUX2OnkJs-q2AcvIu1Bug==/com.mi.android.globallauncher-BVofdtG_31E1AF1l70DHJw==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.mi.android.globallauncher]
+     base.apk - 1379
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 535  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:36         now          17       44179           0           0           4           5           3
+          1:36        0:36          11       27350           0           1           3          18          16
+          2:36        1:36          21       36989           0           0           2           5           1
+          3:36        2:36          12       42060           0           0           5           7           4
+          4:36        3:36          25       38230           0           0           4           9           3
+          5:36        4:36           0           0           0           0           0           0           0
+          6:36        5:36           0           0           0           0           0           0           0
+          7:36        6:36           0           0           0           0           0           0           0
+          8:36        7:36           0           0           0           0           0           0           0
+          9:36        8:36           0           0           0           0           0           0           0
+         51:37         now         583     1017011           0           4          87         255          17
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:36         now          16           0           1           0           0           0           0           0
+          1:36        0:36          10           0           0           0           1           0           0           0
+          2:36        1:36          21           0           0           0           0           0           0           0
+          3:36        2:36          11           0           1           0           0           0           0           0
+          4:36        3:36          24           0           1           0           0           0           0           0
+          5:36        4:36           0           0           0           0           0           0           0           0
+          6:36        5:36           0           0           0           0           0           0           0           0
+          7:36        6:36           0           0           0           0           0           0           0           0
+          8:36        7:36           0           0           0           0           0           0           0           0
+          9:36        8:36           0           0           0           0           0           0           0           0
+         51:37         now         563           4           9           3           4           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:36         now           3           0           1           0           0           1           1          11
+          1:36        0:36           2           0           1           0           0           1           0           7
+          2:36        1:36           1           0           1           0           0           1           4          14
+          3:36        2:36           5           0           0           2           0           0           0           5
+          4:36        3:36           4           0           0           2           1           1           2          15
+          5:36        4:36           0           0           0           0           0           0           0           0
+          6:36        5:36           0           0           0           0           0           0           0           0
+          7:36        6:36           0           0           0           0           0           0           0           0
+          8:36        7:36           0           0           0           0           0           0           0           0
+          9:36        8:36           0           0           0           0           0           0           0           0
+         51:37         now          69           4          13          21          29          59          56         331

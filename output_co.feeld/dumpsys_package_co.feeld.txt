@@ -1,0 +1,494 @@
+Activity Resolver Table:
+  Schemes:
+      feeld:
+        1b1f530 co.feeld/.MainActivity filter 49a35a9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "feeld"
+      https:
+        1b1f530 co.feeld/.MainActivity filter bb8872e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "feeld.app.link": -1
+          AutoVerify=true
+      fbconnect:
+        70edb19 co.feeld/com.facebook.CustomTabActivity filter 66b17de
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.co.feeld": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        255c2cf co.feeld/.Pride5 filter af9345c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5378365 co.feeld/.Pride4 filter 7c9e83a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c95bceb co.feeld/.Pride3 filter 4133a48
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3a1f0e1 co.feeld/.Pride2 filter 25e4e06
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c913cc7 co.feeld/.Pride1 filter 345b2f4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        debba1d co.feeld/.Incognito filter f814492
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7dade63 co.feeld/.Default filter b850a60
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        135c124 co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter a94648d
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED:
+        5e673f2 co.feeld/app.notifee.core.AlarmPermissionBroadcastReceiver filter 99f4a43
+          Action: "android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        75c44b6 co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 9fce5b7
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.QUICKBOOT_POWERON:
+        1dbb54 co.feeld/app.notifee.core.RebootBroadcastReceiver filter 2b48afd
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        44538c0 co.feeld/app.notifee.core.NotificationAlarmReceiver filter d43d9f9
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      io.intercom.android.sdk.INTERCOM_PUSH_OPENED:
+        83b6db co.feeld/io.intercom.android.sdk.push.IntercomPushBroadcastReceiver filter 22dc578
+          Action: "io.intercom.android.sdk.INTERCOM_PUSH_OPENED"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        1dbb54 co.feeld/app.notifee.core.RebootBroadcastReceiver filter 2b48afd
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        44538c0 co.feeld/app.notifee.core.NotificationAlarmReceiver filter d43d9f9
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        add4766 co.feeld/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter adcaaa7
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        9dff642 co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter a702653
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        49fcb90 co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 96fbc89
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        3597ca8 co.feeld/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 30573c1
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        9dff642 co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter a702653
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED:
+        83b6db co.feeld/io.intercom.android.sdk.push.IntercomPushBroadcastReceiver filter 277d451
+          Action: "io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED"
+      com.google.android.c2dm.intent.RECEIVE:
+        92fdbf co.feeld/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver filter 8a06c8c
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+        da90fd5 co.feeld/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 78cd3ea
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.app.action.APP_BLOCK_STATE_CHANGED:
+        1e3dd3e co.feeld/app.notifee.core.BlockStateBroadcastReceiver filter 762479f
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.intent.action.BATTERY_LOW:
+        135c124 co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter a94648d
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        afb348e co.feeld/androidx.work.impl.background.systemalarm.RescheduleReceiver filter accd4af
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        afb348e co.feeld/androidx.work.impl.background.systemalarm.RescheduleReceiver filter accd4af
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        afb348e co.feeld/androidx.work.impl.background.systemalarm.RescheduleReceiver filter accd4af
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        1dbb54 co.feeld/app.notifee.core.RebootBroadcastReceiver filter 2b48afd
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        44538c0 co.feeld/app.notifee.core.NotificationAlarmReceiver filter d43d9f9
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED:
+        1e3dd3e co.feeld/app.notifee.core.BlockStateBroadcastReceiver filter 762479f
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        75c44b6 co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 9fce5b7
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED:
+        1e3dd3e co.feeld/app.notifee.core.BlockStateBroadcastReceiver filter 762479f
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        f7a0b9a co.feeld/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 99c0ccb
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        5e10bc co.feeld/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter e8e9845
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        4bc8f4a co.feeld/io.intercom.android.sdk.fcm.IntercomFcmMessengerService filter 52dbebb
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-400, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.firebase.MESSAGING_EVENT:
+        aa520ec co.feeld/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService filter adf1cb5
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        4bc8f4a co.feeld/io.intercom.android.sdk.fcm.IntercomFcmMessengerService filter 52dbebb
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-400, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        4395fd8 co.feeld/com.google.firebase.messaging.FirebaseMessagingService filter b1cf31
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  co.feeld:
+    ID: bfdf9bc6-bc7d-4b28-8e38-217494659821
+    Signatures: [10:AD:8F:49:71:4A:44:C1:3A:3C:60:04:3B:27:99:1D:60:02:D5:48:EE:EF:01:50:0C:15:67:65:BA:16:74:BA]
+    Domain verification state:
+      feeld.app.link: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          feeld.app.link
+
+Registered ContentProviders:
+  co.feeld/com.imagepicker.ImagePickerProvider:
+    Provider{d045ad3 co.feeld/com.imagepicker.ImagePickerProvider}
+  co.feeld/com.ReactNativeBlobUtil.Utils.FileProvider:
+    Provider{b92610 co.feeld/com.ReactNativeBlobUtil.Utils.FileProvider}
+  co.feeld/androidx.core.content.FileProvider:
+    Provider{8ce4509 co.feeld/androidx.core.content.FileProvider}
+  co.feeld/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider:
+    Provider{6d2530e co.feeld/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider}
+  co.feeld/expo.modules.filesystem.FileSystemFileProvider:
+    Provider{7afd12f co.feeld/expo.modules.filesystem.FileSystemFileProvider}
+  co.feeld/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{f2933c co.feeld/com.google.firebase.provider.FirebaseInitProvider}
+  co.feeld/com.facebook.internal.FacebookInitProvider:
+    Provider{c8d28c5 co.feeld/com.facebook.internal.FacebookInitProvider}
+  co.feeld/androidx.startup.InitializationProvider:
+    Provider{7e4921a co.feeld/androidx.startup.InitializationProvider}
+  co.feeld/io.intercom.android.sdk.IntercomInitializeContentProvider:
+    Provider{af2514b co.feeld/io.intercom.android.sdk.IntercomInitializeContentProvider}
+  co.feeld/io.invertase.notifee.NotifeeInitProvider:
+    Provider{8f3a728 co.feeld/io.invertase.notifee.NotifeeInitProvider}
+  co.feeld/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{d9c8c41 co.feeld/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  co.feeld/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider:
+    Provider{9a9b5e6 co.feeld/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider}
+
+ContentProvider Authorities:
+  [co.feeld.FileSystemFileProvider]:
+    Provider{7afd12f co.feeld/expo.modules.filesystem.FileSystemFileProvider}
+      applicationInfo=ApplicationInfo{892b727 co.feeld}
+  [co.feeld.reactnativefirebasecrashlyticsinitprovider]:
+    Provider{9a9b5e6 co.feeld/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider}
+      applicationInfo=ApplicationInfo{9700dd4 co.feeld}
+  [co.feeld.imagepickerprovider]:
+    Provider{d045ad3 co.feeld/com.imagepicker.ImagePickerProvider}
+      applicationInfo=ApplicationInfo{ee4ab7d co.feeld}
+  [co.feeld.fileprovider]:
+    Provider{d9c8c41 co.feeld/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{34b4a72 co.feeld}
+  [co.feeld.provider]:
+    Provider{b92610 co.feeld/com.ReactNativeBlobUtil.Utils.FileProvider}
+      applicationInfo=ApplicationInfo{de99ec3 co.feeld}
+  [co.feeld.notifee-init-provider]:
+    Provider{8f3a728 co.feeld/io.invertase.notifee.NotifeeInitProvider}
+      applicationInfo=ApplicationInfo{8aa3340 co.feeld}
+  [co.feeld.reactnativefirebaseappinitprovider]:
+    Provider{6d2530e co.feeld/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider}
+      applicationInfo=ApplicationInfo{f958279 co.feeld}
+  [co.feeld.firebaseinitprovider]:
+    Provider{f2933c co.feeld/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{2ff9bbe co.feeld}
+  [co.feeld.androidx-startup]:
+    Provider{7e4921a co.feeld/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{b3d641f co.feeld}
+  [co.feeld.IntercomInitializeContentProvider]:
+    Provider{af2514b co.feeld/io.intercom.android.sdk.IntercomInitializeContentProvider}
+      applicationInfo=ApplicationInfo{c9f436c co.feeld}
+  [co.feeld.FacebookInitProvider]:
+    Provider{c8d28c5 co.feeld/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{7e2cd35 co.feeld}
+
+Key Set Manager:
+  [co.feeld]
+      Signing KeySets: 121
+
+Packages:
+  Package [co.feeld] (6665d66):
+    appId=10352
+    pkg=Package{215b5ca co.feeld}
+    codePath=/data/app/~~TshCAqDwQDuqcofT_IvrRw==/co.feeld-xRx9JREIJ3AUwZRjxO3aiw==
+    resourcePath=/data/app/~~TshCAqDwQDuqcofT_IvrRw==/co.feeld-xRx9JREIJ3AUwZRjxO3aiw==
+    legacyNativeLibraryDir=/data/app/~~TshCAqDwQDuqcofT_IvrRw==/co.feeld-xRx9JREIJ3AUwZRjxO3aiw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=629 minSdk=21 targetSdk=31
+    minExtensionVersions=[]
+    versionName=6.1.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=mailto:xx }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.OPEN_DOCUMENT_TREE }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-07-29 17:44:56
+    lastUpdateTime=2025-07-29 17:44:56
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{4de233b version:3, signatures:[205e76fa], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      com.android.vending.CHECK_LICENSE
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_INTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.MANAGE_DOCUMENTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECORD_AUDIO
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=167319 deDataInode=167286 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/co.feeld
+      firstInstallTime=2025-07-29 17:44:56
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      co.feeld
+    com.xiaomi.aicr:
+      co.feeld
+    com.android.contacts:
+      co.feeld
+    com.xiaomi.gamecenter.sdk.service:
+      co.feeld
+    com.android.settings.intelligence:
+      co.feeld
+    com.miui.nextpay:
+      co.feeld
+    com.xiaomi.mis:
+      co.feeld
+    com.miui.hybrid:
+      co.feeld
+    com.xiaomi.market:
+      co.feeld
+    com.miui.systemAdSolution:
+      co.feeld
+    com.xiaomi.account:
+      co.feeld
+    com.miui.greenguard:
+      co.feeld
+    com.xiaomi.payment:
+      co.feeld
+    com.xiaomi.xmsf:
+      co.feeld
+    com.android.providers.downloads.ui:
+      co.feeld
+    com.mfashiongallery.emag:
+      co.feeld
+    com.android.calendar:
+      co.feeld
+    com.android.email:
+      co.feeld
+    com.miui.gallery:
+      co.feeld
+    com.miui.virtualsim:
+      co.feeld
+    com.getsurfboard:
+      co.feeld
+    com.xingin.xhs:
+      co.feeld
+    com.duokan.reader:
+      co.feeld
+    com.instagram.android:
+      co.feeld
+    com.miui.video:
+      co.feeld
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      co.feeld
+    com.ss.android.ugc.aweme:
+      co.feeld
+    com.microsoft.office.outlook:
+      co.feeld
+    com.ss.android.article.news:
+      co.feeld
+    com.jijia.bqwnl:
+      co.feeld
+    com.quark.browser:
+      co.feeld
+    com.baidu.BaiduMap:
+      co.feeld
+    com.UCMobile:
+      co.feeld
+    com.autonavi.minimap:
+      co.feeld
+    com.dragon.read:
+      co.feeld
+    com.jijia.jjweather:
+      co.feeld
+    com.zhuantech.sijiweather:
+      co.feeld
+    com.suxing.sustream:
+      co.feeld
+    com.yahoo.mobile.client.android.mail:
+      co.feeld
+    co.feeld:
+      com.google.android.documentsui
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.android.chrome
+      com.google.android.gm
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [co.feeld]
+    path: /data/app/~~TshCAqDwQDuqcofT_IvrRw==/co.feeld-xRx9JREIJ3AUwZRjxO3aiw==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~TshCAqDwQDuqcofT_IvrRw==/co.feeld-xRx9JREIJ3AUwZRjxO3aiw==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 208Kb base.vdex: 16813Kb 
+
+Compiler stats:
+  [co.feeld]
+     base.apk - 544

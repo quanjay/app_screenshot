@@ -1,0 +1,408 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        fd415e3 com.rsupport.mvagent/.ui.activity.splash.SplashActivity filter c8aabe0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        4e63dd3 com.rsupport.mvagent/com.rsupport.mobizen.premium.notification.UserEndNotiBroadcastReceiver filter 110cd10
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.rsupport.mvagent.action.USER_END_NOTI"
+          Scheme: "package"
+      file:
+        b3787d1 com.rsupport.mvagent/com.rsupport.mobizen.ui.receiver.SDCardReceiver filter eacb236
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Action: "android.intent.action.MEDIA_UNMOUNTED"
+          Scheme: "file"
+
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        e8704d4 com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 2edd67d
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        be414e6 com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e5f2a27
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.samsung.edm.intent.action.APPLICATION_FOCUS_CHANGE:
+        f4ce42f com.rsupport.mvagent/com.samsung.android.knox.IntentConverterReceiver filter c9daa3c
+          Action: "edm.intent.action.knox_license.status"
+          Action: "edm.intent.action.license.status"
+          Action: "com.samsung.edm.intent.action.APPLICATION_FOCUS_CHANGE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        84c9972 com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter f8a41c3
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        db99a40 com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 2865d79
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      __ACTION_GET_SERVICE_RUNNING__:
+        6a99e99 com.rsupport.mvagent/com.rsupport.mobizen.autotouch.receiver.AutoTouchServiceConnectionReceiver filter 7e1555e
+          Action: "__ACTION_GET_SERVICE_RUNNING__"
+      com.rsupport.mvagent.PUSH_EVENT_BROADCAST:
+        9988537 com.rsupport.mvagent/com.rsupport.mobizen.ui.push.event.PushEventBroadcastReceiver filter e11aaa4
+          Action: "com.rsupport.mvagent.PUSH_EVENT_BROADCAST"
+      com.google.android.gms.analytics.ANALYTICS_DISPATCH:
+        7a82d3f com.rsupport.mvagent/com.google.android.gms.analytics.AnalyticsReceiver filter e1ea60c
+          Action: "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+      android.intent.action.DEVICE_STORAGE_OK:
+        84c9972 com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter f8a41c3
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.app.action.DEVICE_ADMIN_DISABLED:
+        ae7011a com.rsupport.mvagent/com.rsupport.knox.permission.KnoxAdminReceiver filter acd944b
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+          Action: "android.app.action.DEVICE_ADMIN_DISABLED"
+      android.app.action.DEVICE_ADMIN_ENABLED:
+        ae7011a com.rsupport.mvagent/com.rsupport.knox.permission.KnoxAdminReceiver filter acd944b
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+          Action: "android.app.action.DEVICE_ADMIN_DISABLED"
+      com.android.vending.INSTALL_REFERRER:
+        2ec8b55 com.rsupport.mvagent/com.google.android.gms.analytics.CampaignTrackingReceiver filter 9e9696a
+          Action: "com.android.vending.INSTALL_REFERRER"
+      edm.intent.action.knox_license.status:
+        f4ce42f com.rsupport.mvagent/com.samsung.android.knox.IntentConverterReceiver filter c9daa3c
+          Action: "edm.intent.action.knox_license.status"
+          Action: "edm.intent.action.license.status"
+          Action: "com.samsung.edm.intent.action.APPLICATION_FOCUS_CHANGE"
+        f4ce42f com.rsupport.mvagent/com.samsung.android.knox.IntentConverterReceiver filter f67f3c5
+          Action: "edm.intent.action.knox_license.status"
+          Action: "edm.intent.action.license.status"
+      edm.intent.action.license.status:
+        f4ce42f com.rsupport.mvagent/com.samsung.android.knox.IntentConverterReceiver filter c9daa3c
+          Action: "edm.intent.action.knox_license.status"
+          Action: "edm.intent.action.license.status"
+          Action: "com.samsung.edm.intent.action.APPLICATION_FOCUS_CHANGE"
+        f4ce42f com.rsupport.mvagent/com.samsung.android.knox.IntentConverterReceiver filter f67f3c5
+          Action: "edm.intent.action.knox_license.status"
+          Action: "edm.intent.action.license.status"
+      com.google.android.c2dm.intent.RECEIVE:
+        9b92e28 com.rsupport.mvagent/com.google.firebase.iid.FirebaseInstanceIdReceiver filter ad90741
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        e8704d4 com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 2edd67d
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        846dabe com.rsupport.mvagent/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9c5371f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        846dabe com.rsupport.mvagent/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9c5371f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        846dabe com.rsupport.mvagent/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9c5371f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        be414e6 com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e5f2a27
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.rsupport.mvagent.action.ACTION_APP_LAUNCH:
+        87c5e5b com.rsupport.mvagent/com.rsupport.mobizen.common.receiver.MobizenAdReceiver filter 71616f8
+          Action: "com.rsupport.mvagent.action.GO_TO_MARKET"
+          Action: "com.rsupport.mvagent.action.ACTION_APP_LAUNCH"
+      com.rsupport.mvagent.PUSH_RECEIVED_BROADCAST:
+        e5bd00d com.rsupport.mvagent/com.rsupport.mobizen.ui.push.PushMessageBroadcastReceiver filter d89bbc2
+          Action: "com.rsupport.mvagent.PUSH_RECEIVED_BROADCAST"
+      com.rsupport.mvagent.action.GO_TO_MARKET:
+        87c5e5b com.rsupport.mvagent/com.rsupport.mobizen.common.receiver.MobizenAdReceiver filter 71616f8
+          Action: "com.rsupport.mvagent.action.GO_TO_MARKET"
+          Action: "com.rsupport.mvagent.action.ACTION_APP_LAUNCH"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        e11e4ca com.rsupport.mvagent/androidx.work.impl.diagnostics.DiagnosticsReceiver filter f90263b
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        d026009 com.rsupport.mvagent/com.rsupport.mobizen.ui.receiver.PackageUpdateReceiver filter 33bd20e
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        be1a6c com.rsupport.mvagent/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 8865835
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        ed18396 com.rsupport.mvagent/com.rsupport.mobizen.ui.push.firebase.FCMMessagingService filter 150eb17
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        1df4b04 com.rsupport.mvagent/com.google.firebase.messaging.FirebaseMessagingService filter e0658ed
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.accessibilityservice.AccessibilityService:
+        8a87158 com.rsupport.mvagent/com.rsupport.mobizen.autotouch.service.AutoTouchService filter 45142b1 permission android.permission.BIND_ACCESSIBILITY_SERVICE
+          Action: "android.accessibilityservice.AccessibilityService"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.rsupport.mvagent/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{8c73a21 com.rsupport.mvagent/com.google.firebase.provider.FirebaseInitProvider}
+  com.rsupport.mvagent/com.rsupport.mobizen.core.client.api.UIProvider:
+    Provider{70ffe46 com.rsupport.mvagent/com.rsupport.mobizen.core.client.api.UIProvider}
+  com.rsupport.mvagent/com.facebook.ads.AudienceNetworkContentProvider:
+    Provider{16cc807 com.rsupport.mvagent/com.facebook.ads.AudienceNetworkContentProvider}
+  com.rsupport.mvagent/com.applovin.sdk.AppLovinInitProvider:
+    Provider{cad7d34 com.rsupport.mvagent/com.applovin.sdk.AppLovinInitProvider}
+  com.rsupport.mvagent/com.kakao.adfit.AdFitSdkInitProvider:
+    Provider{c3c575d com.rsupport.mvagent/com.kakao.adfit.AdFitSdkInitProvider}
+  com.rsupport.mvagent/com.rsupport.mobizen.core.client.api.MobizenProvider:
+    Provider{73db8d2 com.rsupport.mvagent/com.rsupport.mobizen.core.client.api.MobizenProvider}
+  com.rsupport.mvagent/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{803dda3 com.rsupport.mvagent/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.rsupport.mvagent/androidx.core.content.FileProvider:
+    Provider{63f38a0 com.rsupport.mvagent/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.rsupport.mvagent.firebaseinitprovider]:
+    Provider{8c73a21 com.rsupport.mvagent/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{7ec0c59 com.rsupport.mvagent}
+  [com.rsupport.mvagent.applovininitprovider]:
+    Provider{cad7d34 com.rsupport.mvagent/com.applovin.sdk.AppLovinInitProvider}
+      applicationInfo=ApplicationInfo{11a901e com.rsupport.mvagent}
+  [com.rsupport.mvagent.AudienceNetworkContentProvider]:
+    Provider{16cc807 com.rsupport.mvagent/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{56cb0ff com.rsupport.mvagent}
+  [com.rsupport.mvagent.mobileadsinitprovider]:
+    Provider{803dda3 com.rsupport.mvagent/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{16f3ecc com.rsupport.mvagent}
+  [com.rsupport.mvagent.uiprovider]:
+    Provider{70ffe46 com.rsupport.mvagent/com.rsupport.mobizen.core.client.api.UIProvider}
+      applicationInfo=ApplicationInfo{f481515 com.rsupport.mvagent}
+  [com.rsupport.mvagent]:
+    Provider{73db8d2 com.rsupport.mvagent/com.rsupport.mobizen.core.client.api.MobizenProvider}
+      applicationInfo=ApplicationInfo{b5b902a com.rsupport.mvagent}
+  [com.rsupport.mvagent.fileprovider]:
+    Provider{63f38a0 com.rsupport.mvagent/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{6655e1b com.rsupport.mvagent}
+  [com.rsupport.mvagent.kakao.adfit.initialize]:
+    Provider{c3c575d com.rsupport.mvagent/com.kakao.adfit.AdFitSdkInitProvider}
+      applicationInfo=ApplicationInfo{fb77bb8 com.rsupport.mvagent}
+
+Key Set Manager:
+  [com.rsupport.mvagent]
+      Signing KeySets: 158
+
+Packages:
+  Package [com.rsupport.mvagent] (121ed91):
+    userId=10183
+    pkg=Package{fa84f6 com.rsupport.mvagent}
+    codePath=/data/app/~~egckPkitYi4wagvAp1rQOA==/com.rsupport.mvagent-5ops2BW4LX1NCnxpxaFECg==
+    resourcePath=/data/app/~~egckPkitYi4wagvAp1rQOA==/com.rsupport.mvagent-5ops2BW4LX1NCnxpxaFECg==
+    legacyNativeLibraryDir=/data/app/~~egckPkitYi4wagvAp1rQOA==/com.rsupport.mvagent-5ops2BW4LX1NCnxpxaFECg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=170300942 minSdk=19 targetSdk=33
+    minExtensionVersions=[]
+    versionName=3.10.0.28
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{fa84f6 com.rsupport.mvagent}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.SEND dat=content://*/* typ=*/* }, Intent { act=android.intent.action.SEND_MULTIPLE dat=content://*/* typ=*/* }, Intent { act=android.intent.action.MAIN }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=http:///... }, Intent { act=com.applovin.am.intent.action.APPHUB_SERVICE }, Intent { act=android.media.browse.MediaBrowserService }, Intent { act=com.digitalturbine.ignite.cl.IgniteRemoteService }]
+    dataDir=/data/user/0/com.rsupport.mvagent
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-18 07:17:56
+    firstInstallTime=2025-05-18 07:17:56
+    lastUpdateTime=2025-05-18 07:17:56
+    signatures=PackageSignatures{b71c0f7 version:3, signatures:[39e0a536], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      com.android.vending.BILLING
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.VIBRATE
+      android.permission.INTERNET
+      android.permission.GET_TASKS
+      android.permission.KILL_BACKGROUND_PROCESSES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.CAMERA
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      com.google.android.gms.permission.AD_ID
+      android.permission.RECORD_AUDIO
+      android.permission.CHANGE_NETWORK_STATE
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE
+      android.permission.sec.ENTERPRISE_DEVICE_ADMIN
+      android.permission.sec.MDM_HW_CONTROL
+      android.permission.sec.MDM_APP_MGMT
+      android.permission.sec.MDM_REMOTE_CONTROL
+      android.permission.sec.MDM_LICENSE_LOG
+      com.samsung.android.knox.permission.KNOX_ENTERPRISE_DEVICE_ADMIN
+      com.samsung.android.knox.permission.KNOX_HW_CONTROL
+      com.samsung.android.knox.permission.KNOX_APP_MGMT
+      com.samsung.android.knox.permission.KNOX_REMOTE_CONTROL
+      com.samsung.android.knox.permission.KNOX_LICENSE_LOG
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147469 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.rsupport.mvagent:
+      com.google.android.youtube
+  queries via intent:
+    com.google.android.settings.intelligence:
+      com.rsupport.mvagent
+    com.rsupport.mvagent:
+      com.google.android.documentsui
+      com.android.traceur
+      com.android.bips
+      com.google.android.projection.gearhead
+      com.google.android.setupwizard
+      com.android.dialer
+      com.android.contacts
+      com.google.android.apps.messaging
+      com.google.android.settings.intelligence
+      com.google.android.apps.restore
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.camera2
+      com.google.android.apps.youtube.music
+      com.google.android.apps.maps
+      com.android.chrome
+      com.google.android.deskclock
+      com.google.android.gm
+      com.google.android.inputmethod.latin
+      com.google.android.youtube
+      com.google.android.calendar
+      com.google.android.apps.docs
+      com.google.android.apps.photos
+      com.google.android.apps.nexuslauncher
+      com.google.android.apps.wallpaper
+      com.google.android.cellbroadcastreceiver
+      io.github.ylimit.droidbotapp
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=44
+  User 0:
+    seq=4, package=com.google.android.deskclock
+    seq=8, package=com.google.android.gms
+    seq=12, package=com.airasia.mobile
+    seq=24, package=com.speedsoftware.explorer
+    seq=26, package=com.google.android.apps.docs
+    seq=34, package=com.babbel.mobile.android.en
+    seq=35, package=com.google.android.googlequicksearchbox
+    seq=42, package=io.github.ylimit.droidbotapp
+    seq=43, package=com.rsupport.mvagent
+
+
+Dexopt state:
+  [com.rsupport.mvagent]
+    path: /data/app/~~egckPkitYi4wagvAp1rQOA==/com.rsupport.mvagent-5ops2BW4LX1NCnxpxaFECg==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.rsupport.mvagent]
+     base.apk - 4240
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 2  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:08         now           9       16303           0           0           1           2           1
+          1:08        0:08           9       49850           0           0           3           9           6
+          2:08        1:08          19       14417           0           0           1           2           0
+          3:08        2:08           9       16959           0           0           0           6           3
+          4:08        3:08           0           0           0           0           0           0           0
+          5:08        4:08           0           0           0           0           0           0           0
+          6:08        5:08           0           0           0           0           0           0           0
+          7:08        6:08           0           0           0           0           0           0           0
+          8:08        7:08           0           0           0           0           0           0           0
+          9:08        8:08           0           0           0           0           0           0           0
+      01:07:09         now         363      484672           0           3          44         249          74
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:08         now           9           0           0           0           0           0           0           0
+          1:08        0:08           7           1           0           1           0           0           0           0
+          2:08        1:08          19           0           0           0           0           0           0           0
+          3:08        2:08           8           0           1           0           0           0           0           0
+          4:08        3:08           0           0           0           0           0           0           0           0
+          5:08        4:08           0           0           0           0           0           0           0           0
+          6:08        5:08           0           0           0           0           0           0           0           0
+          7:08        6:08           0           0           0           0           0           0           0           0
+          8:08        7:08           0           0           0           0           0           0           0           0
+          9:08        8:08           0           0           0           0           0           0           0           0
+      01:07:09         now         344           6           7           3           1           1           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:08         now           0           1           0           0           0           0           1           7
+          1:08        0:08           3           0           0           0           0           1           1           4
+          2:08        1:08           1           0           0           0           0           4           3          11
+          3:08        2:08           0           0           0           0           1           1           1           6
+          4:08        3:08           0           0           0           0           0           0           0           0
+          5:08        4:08           0           0           0           0           0           0           0           0
+          6:08        5:08           0           0           0           0           0           0           0           0
+          7:08        6:08           0           0           0           0           0           0           0           0
+          8:08        7:08           0           0           0           0           0           0           0           0
+          9:08        8:08           0           0           0           0           0           0           0           0
+      01:07:09         now          34           4           5          11          14          43          49         202

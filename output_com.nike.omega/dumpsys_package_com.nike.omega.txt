@@ -1,0 +1,520 @@
+Activity Resolver Table:
+  Schemes:
+      mynike:
+        cb7218e com.nike.omega/com.nike.mynike.ui.SplashScreenActivity filter 3792945
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "mynike"
+          Authority: "x-callback-url": -1
+          Authority: "open": -1
+        587c89a com.nike.omega/com.nike.mynike.ui.CartNativeActivity filter b0b85cb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "mynike"
+          Authority: "commerce": -1
+        cae01a8 com.nike.omega/com.nike.mynike.ui.RetailInstantCheckoutActivity filter a8814c1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "mynike"
+          Authority: "commerceinstantcheckout": -1
+        89d466 com.nike.omega/com.nike.mynike.ui.retail.QuickBuyActivity filter 64ab3a7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "mynike"
+          Authority: "commercequickbuy": -1
+        ab59054 com.nike.omega/com.nike.authcomponent.oidc.internal.appauth.source.RedirectUriReceiverActivity filter 6403bfd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "mynike"
+          Authority: "oidc": -1
+          Path: "PatternMatcher{LITERAL: /authorize_code/v1}"
+      http:
+        7c71342 com.nike.omega/com.nike.mynike.attribution.NikeAppBranchDeeplinkActivity filter ead7f53
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "nike.app.link": -1
+          Authority: "nike.app.link": -1
+          Authority: "nike.test-app.link": -1
+          Authority: "nike-alternate.app.link": -1
+          Authority: "nike-alternate.test-app.link": -1
+          AutoVerify=true
+      https:
+        7c71342 com.nike.omega/com.nike.mynike.attribution.NikeAppBranchDeeplinkActivity filter ead7f53
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "nike.app.link": -1
+          Authority: "nike.app.link": -1
+          Authority: "nike.test-app.link": -1
+          Authority: "nike-alternate.app.link": -1
+          Authority: "nike-alternate.test-app.link": -1
+          AutoVerify=true
+        9dcb090 com.nike.omega/com.nike.mynike.attribution.NikeAppSingularDeeplinkActivity filter 233d89
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "nikedev.sng.link": -1
+          Authority: "nike.sng.link": -1
+        cb7218e com.nike.omega/com.nike.mynike.ui.SplashScreenActivity filter d0445bc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.nike.com": -1
+          Path: "PatternMatcher{PREFIX: /omega}"
+      lineauth:
+        4f50a3e com.nike.omega/com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity filter f68709f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "lineauth"
+      adyen3ds2:
+        e4ed0f2 com.nike.omega/com.adyen.threeds2.internal.ui.activity.ChallengeActivity filter 864e343
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "adyen3ds2"
+          Authority: "com.nike.omega": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        cb7218e com.nike.omega/com.nike.mynike.ui.SplashScreenActivity filter 806bdaf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION:
+        9055dc0 com.nike.omega/com.urbanairship.actions.RateAppActivity filter c599af9
+          Action: "com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        a8b7dc6 com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter adb1187
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        42b7408 com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a0b07a1
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.estimote.proximity_trigger:
+        e262316 com.nike.omega/com.estimote.proximity_sdk.api.TriggerBroadcastReceiver filter df1d497
+          Action: "com.estimote.proximity_trigger"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        407c8b4 com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 5af7cdd
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        bc295ec com.nike.omega/com.nike.mynike.receiver.InternetConnectionReceiver filter c0fedb5
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+        3b1b052 com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 7cd3f23
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        407c8b4 com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 5af7cdd
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        2ef9bfa com.nike.omega/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter ee7c5ab
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.urbanairship.push.OPENED:
+        40bb6f0 com.nike.omega/com.urbanairship.push.NotificationProxyReceiver filter 85a3469
+          Action: "com.urbanairship.push.OPENED"
+          Category: "com.nike.omega"
+          mPriority=-999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.LOCALE_CHANGED:
+        c967eee com.nike.omega/com.urbanairship.locale.LocaleChangeReceiver filter d4bf8f
+          Action: "android.intent.action.LOCALE_CHANGED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        466f7aa com.nike.omega/androidx.profileinstaller.ProfileInstallReceiver filter 6c96f9b
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        48d521c com.nike.omega/com.google.firebase.iid.FirebaseInstanceIdReceiver filter cd8ae25
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        a8b7dc6 com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter adb1187
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        3b2bc20 com.nike.omega/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 92c09d9
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        3b2bc20 com.nike.omega/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 92c09d9
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        c338c4a com.nike.omega/com.optimizely.ab.android.datafile_handler.DatafileRescheduler filter 1ed77bb
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        23924d8 com.nike.omega/com.optimizely.ab.android.event_handler.EventRescheduler filter 29eb031
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        3b2bc20 com.nike.omega/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 92c09d9
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        42b7408 com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a0b07a1
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        9577a4c com.nike.omega/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 44a6a95
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        c338c4a com.nike.omega/com.optimizely.ab.android.datafile_handler.DatafileRescheduler filter 1ed77bb
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        23924d8 com.nike.omega/com.optimizely.ab.android.event_handler.EventRescheduler filter 29eb031
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        287b684 com.nike.omega/com.adyen.threeds2.internal.AppUpgradeBroadcastReceiver filter b7d1e6d
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.urbanairship.automation.alarms.ALARM_FIRED:
+        8d95aa2 com.nike.omega/com.urbanairship.automation.alarms.AlarmOperationReceiver filter 9752333
+          Action: "com.urbanairship.automation.alarms.ALARM_FIRED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        9967f9e com.nike.omega/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 22aaa7f
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        3e2d202 com.nike.omega/com.urbanairship.push.fcm.AirshipFirebaseMessagingService filter 31c3713
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        77d6d50 com.nike.omega/com.google.firebase.messaging.FirebaseMessagingService filter 3961b49
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.accounts.AccountAuthenticator:
+        a7ef38 com.nike.omega/com.nike.authcomponent.oidc.internal.store.OIDCAuthenticationService filter fb41b11
+          Action: "android.accounts.AccountAuthenticator"
+        14e476 com.nike.omega/com.nike.unite.sdk.UniteAuthenticationService filter fc56a77
+          Action: "android.accounts.AccountAuthenticator"
+        c88c6e4 com.nike.omega/com.nike.unite.sdk.UniteAuthenticationServiceV2 filter b2e574d
+          Action: "android.accounts.AccountAuthenticator"
+
+Domain verification status:
+  com.nike.omega:
+    ID: cf246396-7516-4d82-b782-cd8ee4760fac
+    Signatures: [25:51:25:76:DA:CC:61:9B:D9:25:D1:EA:05:A3:E1:40:31:1D:31:B0:B8:53:18:3A:BE:1D:9D:A8:FD:3F:24:0F]
+    Domain verification state:
+      nike-alternate.app.link: none
+      nike.test-app.link: none
+      nike.sng.link: none
+      nike-alternate.test-app.link: none
+      www.nike.com: none
+      nike.app.link: none
+      nikedev.sng.link: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          nike-alternate.app.link
+          nike.test-app.link
+          nike.sng.link
+          nike-alternate.test-app.link
+          www.nike.com
+          nike.app.link
+          nikedev.sng.link
+
+Registered ContentProviders:
+  com.nike.omega/com.nike.shared.features.common.providers.CommonFileProvider:
+    Provider{c760eac com.nike.omega/com.nike.shared.features.common.providers.CommonFileProvider}
+  com.nike.omega/com.nike.commerce.ui.provider.CommerceFileProvider:
+    Provider{bc4d775 com.nike.omega/com.nike.commerce.ui.provider.CommerceFileProvider}
+  com.nike.omega/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{5f3930a com.nike.omega/com.google.firebase.provider.FirebaseInitProvider}
+  com.nike.omega/com.urbanairship.UrbanAirshipProvider:
+    Provider{33ed77b com.nike.omega/com.urbanairship.UrbanAirshipProvider}
+  com.nike.omega/com.nike.shared.features.feed.content.FeedProvider:
+    Provider{b8b6998 com.nike.omega/com.nike.shared.features.feed.content.FeedProvider}
+  com.nike.omega/androidx.startup.InitializationProvider:
+    Provider{81875f1 com.nike.omega/androidx.startup.InitializationProvider}
+  com.nike.omega/com.klarna.mobile.KlarnaInitProvider:
+    Provider{fbfd5d6 com.nike.omega/com.klarna.mobile.KlarnaInitProvider}
+  com.nike.omega/com.nike.mynike.provider.MyNikeFileProvider:
+    Provider{1597057 com.nike.omega/com.nike.mynike.provider.MyNikeFileProvider}
+  com.nike.omega/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{d998744 com.nike.omega/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.nike.omega/com.nike.mynike.provider.EventShareProvider:
+    Provider{42d802d com.nike.omega/com.nike.mynike.provider.EventShareProvider}
+  com.nike.omega/com.nike.shared.features.notifications.data.NotificationProvider:
+    Provider{43b7962 com.nike.omega/com.nike.shared.features.notifications.data.NotificationProvider}
+  com.nike.omega/com.nike.shared.features.common.data.SharedContentProvider:
+    Provider{1abaf3 com.nike.omega/com.nike.shared.features.common.data.SharedContentProvider}
+
+ContentProvider Authorities:
+  [com.nike.playground.fileprovider]:
+    Provider{42d802d com.nike.omega/com.nike.mynike.provider.EventShareProvider}
+      applicationInfo=ApplicationInfo{b49d3b0 com.nike.omega}
+  [com.nike.omega.common.fileprovider]:
+    Provider{c760eac com.nike.omega/com.nike.shared.features.common.providers.CommonFileProvider}
+      applicationInfo=ApplicationInfo{70ef229 com.nike.omega}
+  [com.nike.omega.klarna.provider]:
+    Provider{fbfd5d6 com.nike.omega/com.klarna.mobile.KlarnaInitProvider}
+      applicationInfo=ApplicationInfo{3dbc9ae com.nike.omega}
+  [com.nike.omega.urbanairship.provider]:
+    Provider{33ed77b com.nike.omega/com.urbanairship.UrbanAirshipProvider}
+      applicationInfo=ApplicationInfo{69c134f com.nike.omega}
+  [com.nike.omega.file.provider]:
+    Provider{1597057 com.nike.omega/com.nike.mynike.provider.MyNikeFileProvider}
+      applicationInfo=ApplicationInfo{c707adc com.nike.omega}
+  [com.nike.omega.firebaseinitprovider]:
+    Provider{5f3930a com.nike.omega/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{37b87e5 com.nike.omega}
+  [com.nike.omega.commerce.ui.provider]:
+    Provider{bc4d775 com.nike.omega/com.nike.commerce.ui.provider.CommerceFileProvider}
+      applicationInfo=ApplicationInfo{f1ed2ba com.nike.omega}
+  [com.nike.omega.androidx-startup]:
+    Provider{81875f1 com.nike.omega/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{a30956b com.nike.omega}
+  [com.nike.omega.common]:
+    Provider{1abaf3 com.nike.omega/com.nike.shared.features.common.data.SharedContentProvider}
+      applicationInfo=ApplicationInfo{ff868c8 com.nike.omega}
+  [com.nike.omega.feed]:
+    Provider{b8b6998 com.nike.omega/com.nike.shared.features.feed.content.FeedProvider}
+      applicationInfo=ApplicationInfo{f61bd61 com.nike.omega}
+  [com.nike.omega.notifications]:
+    Provider{43b7962 com.nike.omega/com.nike.shared.features.notifications.data.NotificationProvider}
+      applicationInfo=ApplicationInfo{e576086 com.nike.omega}
+  [com.nike.omega.mobileadsinitprovider]:
+    Provider{d998744 com.nike.omega/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{8411d47 com.nike.omega}
+
+Key Set Manager:
+  [com.nike.omega]
+      Signing KeySets: 141
+
+Packages:
+  Package [com.nike.omega] (68f4974):
+    appId=10372
+    pkg=Package{71bce9d com.nike.omega}
+    codePath=/data/app/~~n9ggBwuqh5xWaB3Qkx8z9Q==/com.nike.omega-jkWQZyic9ffJjEh0plwjhg==
+    resourcePath=/data/app/~~n9ggBwuqh5xWaB3Qkx8z9Q==/com.nike.omega-jkWQZyic9ffJjEh0plwjhg==
+    legacyNativeLibraryDir=/data/app/~~n9ggBwuqh5xWaB3Qkx8z9Q==/com.nike.omega-jkWQZyic9ffJjEh0plwjhg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2012211961 minSdk=24 targetSdk=30
+    minExtensionVersions=[]
+    versionName=22.2.1
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.google.android.youtube, com.nike.ntc, com.nike.plusgps, com.nike.snkrs]
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=androidx.camera.extensions.action.VENDOR_ACTION }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.camera.extensions.impl
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /vendor/framework/androidx.camera.extensions.impl.jar
+    timeStamp=2025-07-29 21:11:30
+    lastUpdateTime=2025-07-29 21:11:31
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{a38ff12 version:3, signatures:[fa5da31d], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.USE_CREDENTIALS
+      BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      com.android.vending.CHECK_LICENSE
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      android.permission.READ_SYNC_STATS
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.GET_ACCOUNTS
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.USE_BIOMETRIC
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=79579 deDataInode=65564 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.nike.omega
+      firstInstallTime=2025-07-29 21:11:31
+      uninstallReason=0
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.nike.omega
+    com.xiaomi.aicr:
+      com.nike.omega
+    com.android.contacts:
+      com.nike.omega
+    com.xiaomi.gamecenter.sdk.service:
+      com.nike.omega
+    com.android.settings.intelligence:
+      com.nike.omega
+    com.miui.nextpay:
+      com.nike.omega
+    com.xiaomi.mis:
+      com.nike.omega
+    com.miui.hybrid:
+      com.nike.omega
+    com.xiaomi.market:
+      com.nike.omega
+    com.miui.systemAdSolution:
+      com.nike.omega
+    com.xiaomi.account:
+      com.nike.omega
+    com.miui.greenguard:
+      com.nike.omega
+    com.xiaomi.payment:
+      com.nike.omega
+    com.xiaomi.xmsf:
+      com.nike.omega
+    com.android.providers.downloads.ui:
+      com.nike.omega
+    com.mfashiongallery.emag:
+      com.nike.omega
+    com.android.calendar:
+      com.nike.omega
+    com.android.email:
+      com.nike.omega
+    com.miui.gallery:
+      com.nike.omega
+    com.miui.virtualsim:
+      com.nike.omega
+    com.getsurfboard:
+      com.nike.omega
+    com.xingin.xhs:
+      com.nike.omega
+    com.duokan.reader:
+      com.nike.omega
+    com.instagram.android:
+      com.nike.omega
+    com.miui.video:
+      com.nike.omega
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.nike.omega
+    com.ss.android.ugc.aweme:
+      com.nike.omega
+    com.microsoft.office.outlook:
+      com.nike.omega
+    com.ss.android.article.news:
+      com.nike.omega
+    com.jijia.bqwnl:
+      com.nike.omega
+    com.quark.browser:
+      com.nike.omega
+    com.baidu.BaiduMap:
+      com.nike.omega
+    com.UCMobile:
+      com.nike.omega
+    com.autonavi.minimap:
+      com.nike.omega
+    com.dragon.read:
+      com.nike.omega
+    com.jijia.jjweather:
+      com.nike.omega
+    com.zhuantech.sijiweather:
+      com.nike.omega
+    com.suxing.sustream:
+      com.nike.omega
+    com.yahoo.mobile.client.android.mail:
+      com.nike.omega
+    com.nike.omega:
+      com.android.chrome
+      com.microsoft.emmx
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.nike.omega]
+    path: /data/app/~~n9ggBwuqh5xWaB3Qkx8z9Q==/com.nike.omega-jkWQZyic9ffJjEh0plwjhg==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.nike.omega]
+     base.apk - 2924

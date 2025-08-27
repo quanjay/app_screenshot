@@ -1,0 +1,492 @@
+Activity Resolver Table:
+  Full MIME Types:
+      image/jpeg:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+      image/gif:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+      image/jpg:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+      image/png:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+      text/plain:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter e44a95b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Base MIME Types:
+      text:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter e44a95b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+
+  Schemes:
+      scepsapp:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 63805f8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.scee.psxandroid.scecompcall"
+          Scheme: "scepsapp"
+          Authority: "launch": -1
+          Authority: "myProfile": -1
+          Authority: "userProfile": -1
+          Authority: "launch": -1
+          Authority: "myProfile": -1
+          Authority: "userProfile": -1
+          Authority: "launch-various-view": -1
+          Authority: "store": -1
+          Authority: "link": -1
+          Authority: "checkout": -1
+          Authority: "wishlist": -1
+      com.scee.psxandroid.scecompcall:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 63805f8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.scee.psxandroid.scecompcall"
+          Scheme: "scepsapp"
+          Authority: "launch": -1
+          Authority: "myProfile": -1
+          Authority: "userProfile": -1
+          Authority: "launch": -1
+          Authority: "myProfile": -1
+          Authority: "userProfile": -1
+          Authority: "launch-various-view": -1
+          Authority: "store": -1
+          Authority: "link": -1
+          Authority: "checkout": -1
+          Authority: "wishlist": -1
+      message:
+        c0ce8d3 com.scee.psxandroid/com.urbanairship.reactnative.CustomMessageActivity filter 6a19c10
+          Action: "com.urbanairship.VIEW_RICH_PUSH_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "message"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 15b1e55
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Category: "android.intent.category.LAUNCHER"
+      com.scee.psxandroid.ACTION_SSO_SERVICE_WEBVIEW:
+        d7c4ad1 com.scee.psxandroid/com.sony.sie.tesseract.SsoServiceWebViewActivity filter b5db936
+          Action: "com.scee.psxandroid.ACTION_SSO_SERVICE_WEBVIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.urbanairship.VIEW_RICH_PUSH_INBOX:
+        3a9c30d com.scee.psxandroid/com.urbanairship.reactnative.CustomMessageCenterActivity filter 1c432c2
+          Action: "com.urbanairship.VIEW_RICH_PUSH_INBOX"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 15b1e55
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Category: "android.intent.category.LAUNCHER"
+      com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION:
+        b1a8037 com.scee.psxandroid/com.urbanairship.actions.RateAppActivity filter ee389a4
+          Action: "com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter 1c8006a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/gif"
+          StaticType: "image/png"
+        bafa50c com.scee.psxandroid/.activity.TopActivity filter e44a95b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        c2146c5 com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter f19581a
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        9b33f2f com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter bec693c
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.sony.snei.np.android.sso.service.action.ACCOUNT_ADDED:
+        4bc8309 com.scee.psxandroid/com.sony.sie.tesseract.ls.client.AccountChangeReceiver filter 626b90e
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_ADDED"
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_CHANGED"
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_REMOVED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        4be9f4b com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 8b4dd28
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        5548a41 com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 664dbe6
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        4be9f4b com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 8b4dd28
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        bba6b35 com.scee.psxandroid/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter b07fbca
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.urbanairship.push.OPENED:
+        f31acc3 com.scee.psxandroid/com.urbanairship.push.NotificationProxyReceiver filter c9c2940
+          Action: "com.urbanairship.push.OPENED"
+          Category: "com.scee.psxandroid"
+          mPriority=-999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.LOCALE_CHANGED:
+        a8f4079 com.scee.psxandroid/com.urbanairship.locale.LocaleChangeReceiver filter b3981be
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.sony.snei.np.android.sso.service.action.ACCOUNT_CHANGED:
+        4bc8309 com.scee.psxandroid/com.sony.sie.tesseract.ls.client.AccountChangeReceiver filter 626b90e
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_ADDED"
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_CHANGED"
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_REMOVED"
+      com.google.android.c2dm.intent.RECEIVE:
+        3f8521f com.scee.psxandroid/com.google.firebase.iid.FirebaseInstanceIdReceiver filter cba996c
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        c2146c5 com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter f19581a
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        dd5e527 com.scee.psxandroid/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 30ea3d4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        dd5e527 com.scee.psxandroid/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 30ea3d4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      com.sony.snei.np.android.sso.service.action.ACCOUNT_REMOVED:
+        4bc8309 com.scee.psxandroid/com.sony.sie.tesseract.ls.client.AccountChangeReceiver filter 626b90e
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_ADDED"
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_CHANGED"
+          Action: "com.sony.snei.np.android.sso.service.action.ACCOUNT_REMOVED"
+      android.intent.action.BOOT_COMPLETED:
+        dd5e527 com.scee.psxandroid/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 30ea3d4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        9b33f2f com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter bec693c
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        d1e897d com.scee.psxandroid/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 792d072
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.sony.snei.np.android.sso.service.ACTION_SERVICE:
+        959f13b com.scee.psxandroid/com.sony.snei.np.android.sso.service.SsoService filter 16de058
+          Action: "com.sony.snei.np.android.sso.service.ACTION_SERVICE"
+      com.google.firebase.MESSAGING_EVENT:
+        23385b1 com.scee.psxandroid/com.sony.sie.tesseract.notification.module.FcmMessagingService filter a920a96
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        56c6617 com.scee.psxandroid/com.google.firebase.messaging.FirebaseMessagingService filter 30caa04
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Permissions:
+  Permission [com.scee.psxandroid.permission.READ_SIGNINUSER] (cdd0307):
+    sourcePackage=com.scee.psxandroid
+    uid=10192 gids=[] type=0 prot=signature
+    perm=PermissionInfo{f709c34 com.scee.psxandroid.permission.READ_SIGNINUSER}
+
+Permissions:
+  Permission [com.scee.psxandroid.PERMISSION_INTERNAL] (6c28a5d):
+    sourcePackage=com.scee.psxandroid
+    uid=10192 gids=[] type=0 prot=signature
+    perm=PermissionInfo{7eb6fd2 com.scee.psxandroid.PERMISSION_INTERNAL}
+
+Permissions:
+  Permission [com.scee.psxandroid.permission.WRITE_SIGNINUSER] (9bcc8a3):
+    sourcePackage=com.scee.psxandroid
+    uid=10192 gids=[] type=0 prot=signature
+    perm=PermissionInfo{b9547a0 com.scee.psxandroid.permission.WRITE_SIGNINUSER}
+
+Registered ContentProviders:
+  com.scee.psxandroid/com.imagepicker.FileProvider:
+    Provider{226f59 com.scee.psxandroid/com.imagepicker.FileProvider}
+  com.scee.psxandroid/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{46cb71e com.scee.psxandroid/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.scee.psxandroid/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{1494bff com.scee.psxandroid/com.google.firebase.provider.FirebaseInitProvider}
+  com.scee.psxandroid/com.urbanairship.UrbanAirshipProvider:
+    Provider{7973dcc com.scee.psxandroid/com.urbanairship.UrbanAirshipProvider}
+  com.scee.psxandroid/android.support.v4.content.FileProvider:
+    Provider{801a815 com.scee.psxandroid/android.support.v4.content.FileProvider}
+  com.scee.psxandroid/com.sony.sie.tesseract.provider.SigninUserProvider:
+    Provider{f29272a com.scee.psxandroid/com.sony.sie.tesseract.provider.SigninUserProvider}
+  com.scee.psxandroid/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{2f0a91b com.scee.psxandroid/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  com.scee.psxandroid/androidx.work.impl.WorkManagerInitializer:
+    Provider{9e06ab8 com.scee.psxandroid/androidx.work.impl.WorkManagerInitializer}
+
+ContentProvider Authorities:
+  [com.scee.psxandroid.provider.signinuser]:
+    Provider{f29272a com.scee.psxandroid/com.sony.sie.tesseract.provider.SigninUserProvider}
+      applicationInfo=ApplicationInfo{761b091 com.scee.psxandroid}
+  [com.scee.psxandroid.fileprovider]:
+    Provider{2f0a91b com.scee.psxandroid/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{98a8bf6 com.scee.psxandroid}
+  [com.scee.psxandroid.provider]:
+    Provider{226f59 com.scee.psxandroid/com.imagepicker.FileProvider}
+      applicationInfo=ApplicationInfo{ce6bbf7 com.scee.psxandroid}
+  [com.scee.psxandroid.firebaseinitprovider]:
+    Provider{1494bff com.scee.psxandroid/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{38d7a64 com.scee.psxandroid}
+  [com.scee.psxandroid.urbanairship.provider]:
+    Provider{7973dcc com.scee.psxandroid/com.urbanairship.UrbanAirshipProvider}
+      applicationInfo=ApplicationInfo{bdfc4cd com.scee.psxandroid}
+  [com.scee.psxandroid.workmanager-init]:
+    Provider{9e06ab8 com.scee.psxandroid/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{fcb7182 com.scee.psxandroid}
+  [com.scee.psxandroid.lifecycle-trojan]:
+    Provider{46cb71e com.scee.psxandroid/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{2c12093 com.scee.psxandroid}
+
+Key Set Manager:
+  [com.scee.psxandroid]
+      Signing KeySets: 134
+
+Packages:
+  Package [com.scee.psxandroid] (8d9d8d0):
+    userId=10192
+    pkg=Package{5b0e0c9 com.scee.psxandroid}
+    codePath=/data/app/~~5T22WYs9fYImXRNPPYwa2w==/com.scee.psxandroid-IlfFjOvF8a6vVIjM6_y5Hw==
+    resourcePath=/data/app/~~5T22WYs9fYImXRNPPYwa2w==/com.scee.psxandroid-IlfFjOvF8a6vVIjM6_y5Hw==
+    legacyNativeLibraryDir=/data/app/~~5T22WYs9fYImXRNPPYwa2w==/com.scee.psxandroid-IlfFjOvF8a6vVIjM6_y5Hw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=19150000 minSdk=19 targetSdk=28
+    minExtensionVersions=[]
+    versionName=19.15.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=PackageImpl{5b0e0c9 com.scee.psxandroid}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.scee.psxandroid
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2025-05-18 03:38:06
+    firstInstallTime=2025-05-18 03:38:07
+    lastUpdateTime=2025-05-18 03:38:07
+    signatures=PackageSignatures{54323ce version:1, signatures:[264a143a], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.scee.psxandroid.PERMISSION_INTERNAL: prot=signature, INSTALLED
+      com.scee.psxandroid.permission.WRITE_SIGNINUSER: prot=signature, INSTALLED
+      com.scee.psxandroid.permission.READ_SIGNINUSER: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      com.sony.snei.np.android.account.provider.permission.DUID_READ_PROVIDER
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.CAMERA
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147517 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.CAMERA: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.scee.psxandroid
+    com.google.android.settings.intelligence:
+      com.scee.psxandroid
+    com.google.android.apps.youtube.music:
+      com.scee.psxandroid
+    com.google.android.apps.maps:
+      com.scee.psxandroid
+    com.google.android.youtube:
+      com.scee.psxandroid
+    com.google.android.apps.photos:
+      com.scee.psxandroid
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=133
+  User 0:
+    seq=0, package=com.android.bluetooth
+    seq=5, package=com.cnn.mobile.android.phone
+    seq=11, package=com.google.android.gms
+    seq=13, package=com.android.vending
+    seq=14, package=com.google.android.contactkeys
+    seq=15, package=com.google.android.safetycore
+    seq=16, package=com.google.ar.core
+    seq=17, package=com.google.android.trichromelibrary_710308738
+    seq=24, package=com.google.android.apps.wellbeing
+    seq=26, package=com.google.android.tts
+    seq=27, package=com.google.android.deskclock
+    seq=29, package=com.android.chrome
+    seq=52, package=com.google.android.googlequicksearchbox
+    seq=55, package=com.google.android.apps.docs
+    seq=66, package=com.google.android.inputmethod.latin
+    seq=70, package=com.google.android.partnersetup
+    seq=73, package=com.google.android.calendar
+    seq=74, package=com.google.android.apps.maps
+    seq=83, package=com.google.android.gm
+    seq=87, package=com.audiobooks.androidapp
+    seq=101, package=com.google.android.apps.youtube.music
+    seq=111, package=com.asanayoga.asanarebel
+    seq=123, package=com.microsoft.translator
+    seq=130, package=org.findmykids.app
+    seq=131, package=io.github.ylimit.droidbotapp
+    seq=132, package=com.scee.psxandroid
+
+
+Dexopt state:
+  [com.scee.psxandroid]
+    path: /data/app/~~5T22WYs9fYImXRNPPYwa2w==/com.scee.psxandroid-IlfFjOvF8a6vVIjM6_y5Hw==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.scee.psxandroid]
+    (No recorded stats)
+
+APEX session state:
+  Session ID: 1216320661
+    State: STAGED
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7079  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:27         now           9       17210           0           0           1           4           1
+          1:27        0:27           9       35103           0           0           3           4           3
+          2:27        1:27          27       44191           0           0           3           9           3
+          3:27        2:27          11       33924           0           0           4           3           1
+          4:27        3:27          32       41197           0           0           5           5           1
+          5:27        4:27          12       33147           0           0           5           5           2
+          6:27        5:27          23       27136           0           0           3           5           1
+          7:27        6:27          15       32151           0           0           6          13           6
+          8:27        7:27          16       32562           0           0           1           8           2
+          9:27        8:27           0           0           0           0           0           0           0
+      01:54:27         now         762     1274777           0           5         130         457          52
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:27         now           9           0           0           0           0           0           0           0
+          1:27        0:27           8           0           1           0           0           0           0           0
+          2:27        1:27          26           0           1           0           0           0           0           0
+          3:27        2:27          11           0           0           0           0           0           0           0
+          4:27        3:27          32           0           0           0           0           0           0           0
+          5:27        4:27          11           1           0           0           0           0           0           0
+          6:27        5:27          23           0           0           0           0           0           0           0
+          7:27        6:27          13           0           1           1           0           0           0           0
+          8:27        7:27          14           2           0           0           0           0           0           0
+          9:27        8:27           0           0           0           0           0           0           0           0
+      01:54:27         now         727           9          12           9           2           2           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:27         now           0           0           1           0           0           0           1           7
+          1:27        0:27           3           0           0           1           0           1           0           4
+          2:27        1:27           2           0           1           3           0           1           5          15
+          3:27        2:27           3           1           0           0           1           0           1           5
+          4:27        3:27           4           1           0           0           0           8           2          17
+          5:27        4:27           3           1           1           0           0           1           0           6
+          6:27        5:27           2           1           0           0           0           2           2          16
+          7:27        6:27           6           0           0           1           0           1           0           7
+          8:27        7:27           1           0           0           0           1           0           2          12
+          9:27        8:27           0           0           0           0           0           0           0           0
+      01:54:27         now          95          12          22          34          14          76          60         448

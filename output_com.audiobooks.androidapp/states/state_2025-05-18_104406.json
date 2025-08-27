@@ -1,0 +1,6012 @@
+{
+  "tag": "2025-05-18_104406",
+  "state_str": "b22822845fc5b88c1cdacd078998251b",
+  "state_str_content_free": "4e3e71a6c9a24dc67a9cfb9009f4559b",
+  "foreground_activity": "com.audiobooks.androidapp/.core.MainActivity",
+  "activity_stack": [
+    "com.audiobooks.androidapp/.core.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.audiobooks.androidapp/com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.android.vending/com.google.android.finsky.setup.dse.impl.DseService",
+    "com.audiobooks.androidapp/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService_Persistent",
+    "com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.audiobooks.androidapp/.services.FCMService",
+    "com.android.vending/com.google.android.finsky.developergroupidinfo.DeveloperGroupIdInfoService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.setupwizard/.notification.SetupNotificationService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.google.android.gms/.findmydevice.spot.bleadvertising.OfflineBeaconService_Persistent",
+    "com.google.android.gms/.tron.CollectionService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.gms/.geotimezone.GeoTimeZoneService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.google.android.googlequicksearchbox/androidx.work.impl.background.gcm.WorkManagerGcmService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.vending/com.google.frameworks.client.data.android.server.play.MainProcessEndpointService",
+    "com.audiobooks.androidapp/com.google.firebase.sessions.SessionLifecycleService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService",
+    "com.android.bluetooth/.btservice.AdapterService"
+  ],
+  "width": 1080,
+  "height": 2400,
+  "views": [
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        151,
+        152
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2400",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8f0f2da0ffb57a66e2124f7e9522045a"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2274",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "55882191e6a798efd53341f56c9f3a0e"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ded88329b8acef23989a7c997eaae112"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "53b576893a235dbc7532fca9d1347e6d"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2211",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "25c7313ffe9b5f0c3abd6cd11928c2e9"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        8,
+        68,
+        76,
+        124
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/mainContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2211",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/mainContainer[text]None[enabled,,]",
+      "view_str": "db1969507f69098742b7b19c47afabaa"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/splashViewLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*2211",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/splashViewLayout[text]None[enabled,,]",
+      "view_str": "abcd39b2598263513d03f8c3527d5006"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1116
+        ],
+        [
+          876,
+          1221
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "672*105",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "74ba5515990e15d35e484a0d10efa94f"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/playerContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 8,
+      "size": "1080*2211",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/playerContainer[text]None[enabled,,]",
+      "view_str": "670b28ae9bccc36e6c4894c91324ae56"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/playerBottomSheet",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1080*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/playerBottomSheet[text]None[enabled,,]",
+      "view_str": "77eb1b6d24b693c3da74c87d317cbfae"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11,
+        12,
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/slidingPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1080*0",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/slidingPanel[text]None[enabled,,]",
+      "view_str": "e7aa06dc4a30173f8803768578c49b15"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/blur_cover",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*0",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/blur_cover[text]None[enabled,,]",
+      "view_str": "e9028340cf3e1e3508ab6fe20b44faa0"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/miniPlayerView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 12,
+      "size": "1080*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/miniPlayerView[text]None[enabled,,]",
+      "view_str": "5814172fa62568e84385d7f77ea382e6"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        15,
+        18,
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/nowPlayingLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/nowPlayingLayout[text]None[enabled,,]",
+      "view_str": "ab448908bab54958f7b3b8f32934b68e"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          26,
+          2295
+        ],
+        [
+          131,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/nowPlayingCover",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "105*-21",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/nowPlayingCover[text]None[enabled,,]",
+      "view_str": "d4e0ea659f84ad3d05ce817adbe80390"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          141,
+          2274
+        ],
+        [
+          839,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/nowPlayingTitleContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "698*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/nowPlayingTitleContainer[text]None[enabled,,]",
+      "view_str": "4f1d0366f9e926cbced6e899196195a5"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          141,
+          2304
+        ],
+        [
+          839,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/nowPlayingTitle",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "698*-30",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/nowPlayingTitle[text]None[enabled,,]",
+      "view_str": "9bf8835252def7bafe1bd5a211132ffc"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          141,
+          2347
+        ],
+        [
+          839,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/nowPlayingAuthor",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "698*-73",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/nowPlayingAuthor[text]None[enabled,,]",
+      "view_str": "3dcb65af1aa397e18d36daaa8521bb2b"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Cast to devices",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          839,
+          2295
+        ],
+        [
+          944,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/castButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 18,
+      "size": "105*-21",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.audiobooks.androidapp:id/castButton[text]None[enabled,,]",
+      "view_str": "89508477e89cb18211acc60d21856ce1"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Play/pause",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          2295
+        ],
+        [
+          1075,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/playButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 19,
+      "size": "105*-21",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/playButton[text]None[enabled,,]",
+      "view_str": "125776428d2161b8ae7e0dba5f03b57d"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2421
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/layout_player_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 20,
+      "size": "1080*-147",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/layout_player_container[text]None[enabled,,]",
+      "view_str": "80064acf7f3942ec848b9b22e600dca7"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2421
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/layout_player",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1080*-147",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/layout_player[text]None[enabled,,]",
+      "view_str": "e72bd657bb2a8f036ed26c29068eff21"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23,
+        25,
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2421
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1080*-147",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "af59c3e5a86c850e9c102d73439fe923"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2421
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/cover_background",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "1080*-147",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/cover_background[text]None[enabled,,]",
+      "view_str": "4ac0cff05f331cf8c0e214a99eeb997d"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Background",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2421
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "1080*-147",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "a4a064562b3a636e5338baf8076934b0"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26,
+        27,
+        28,
+        30
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2421
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/gesture_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 25,
+      "size": "1080*-147",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/gesture_layout[text]None[enabled,,]",
+      "view_str": "74ad4b7afd53a1d977e4b98df41ef2ea"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Horizontal line",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2421
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/horizontal_line1",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "1080*-147",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/horizontal_line1[text]None[enabled,,]",
+      "view_str": "28b6cf8633b17b3811847a896964ece9"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          105,
+          2526
+        ],
+        [
+          975,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/book_cover",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 27,
+      "size": "870*-252",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/book_cover[text]None[enabled,,]",
+      "view_str": "1bb1ac2a37392245cbc472178efd6b5c"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          343,
+          2876
+        ],
+        [
+          737,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/linearLayout1",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 28,
+      "size": "394*-602",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/linearLayout1[text]None[enabled,,]",
+      "view_str": "1526e301f776d2274e2806e828cb7a4e"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Last user action animated image",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          343,
+          2876
+        ],
+        [
+          737,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/img_last_action",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "394*-602",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/img_last_action[text]None[enabled,,]",
+      "view_str": "3d0aef95bddb05efc81a674f2b93a4ea"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Horizontal line",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3701
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/horizontal_line2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 30,
+      "size": "1080*-1427",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/horizontal_line2[text]None[enabled,,]",
+      "view_str": "f38e0668c43ac23349500ca15c4f1b7b"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32,
+        44,
+        50,
+        55
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3725
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/info_panel_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 31,
+      "size": "1080*-1451",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/info_panel_holder[text]None[enabled,,]",
+      "view_str": "a0f3fb5ab1a9eb6b18b3acad290abc11"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3725
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "1080*-1451",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ed9329f81921cf24a828a0515ac649be"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        34,
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3725
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/seeker_block",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "1080*-1451",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/seeker_block[text]None[enabled,,]",
+      "view_str": "2c1010aae7ef6d8924ee4e9ccd83ac52"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35,
+        36,
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          3767
+        ],
+        [
+          1038,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/time_layout_track",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "996*-1493",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/time_layout_track[text]None[enabled,,]",
+      "view_str": "f00e0a03d4d66fab7566694e90048052"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          3767
+        ],
+        [
+          1038,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/time_remaining_in_track",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "996*-1493",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/time_remaining_in_track[text]None[enabled,,]",
+      "view_str": "b6aa9667aa13fca10c53d400b07ec63a"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        37
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          3767
+        ],
+        [
+          42,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/txt_current_position_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 36,
+      "size": "0*-1493",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/txt_current_position_layout[text]None[enabled,,]",
+      "view_str": "eb04ae1de8784af26f3b4242f253b6fc"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          3767
+        ],
+        [
+          42,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/txt_current_position",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "0*-1493",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/txt_current_position[text]None[enabled,,]",
+      "view_str": "73988f6e80f39a840184e2b0941e2c3c"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1038,
+          3767
+        ],
+        [
+          1038,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/txt_total_duration_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 38,
+      "size": "0*-1493",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/txt_total_duration_layout[text]None[enabled,,]",
+      "view_str": "10d23a20d6f6e95d606d59e76a6cf5c1"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1038,
+          3767
+        ],
+        [
+          1038,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/txt_total_duration",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "0*-1493",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/txt_total_duration[text]None[enabled,,]",
+      "view_str": "37499a6952ab188dc541205606618915"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41,
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3797
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/layout_seekbar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 40,
+      "size": "1080*-1523",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/layout_seekbar[text]None[enabled,,]",
+      "view_str": "0a473fe958416171046403c31e9ef765"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3797
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/txt_loading_status",
+      "checked": false,
+      "text": "Preparing",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "1080*-1523",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/txt_loading_status[text]Preparing[enabled,,]",
+      "view_str": "b5cd77351c6e6955e3bb94b23fe361d4"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3797
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/seekbar_layout_actual",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 42,
+      "size": "1080*-1523",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/seekbar_layout_actual[text]None[enabled,,]",
+      "view_str": "afad4b13841f958e2dec88017d1eefa2"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3797
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/seekbar_ctrl",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.SeekBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "1080*-1523",
+      "signature": "[class]android.widget.SeekBar[resource_id]com.audiobooks.androidapp:id/seekbar_ctrl[text]None[enabled,,]",
+      "view_str": "257648edf8bdc39f7d1baa6b52bfc1bc"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        45,
+        46,
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          3939
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/track_main_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 44,
+      "size": "1080*-1665",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/track_main_layout[text]None[enabled,,]",
+      "view_str": "569f9a784a379667391eb71c2d4dae1d"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Previous track",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          212,
+          3939
+        ],
+        [
+          296,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/track_previous",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 45,
+      "size": "84*-1665",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/track_previous[text]None[enabled,,]",
+      "view_str": "524cb2fa0e04920f63fe50e629d3beba"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        47,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          317,
+          3939
+        ],
+        [
+          763,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/track_info_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 46,
+      "size": "446*-1665",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/track_info_layout[text]None[enabled,,]",
+      "view_str": "5e069d9fc9b863df0e7ae29ec62c4325"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Track Status Icon",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          434,
+          3960
+        ],
+        [
+          476,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/tracks_status_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "42*-1686",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/tracks_status_icon[text]None[enabled,,]",
+      "view_str": "eb6b9f3b0d1f164572fae08047b5a388"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          497,
+          3963
+        ],
+        [
+          620,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/track_info",
+      "checked": false,
+      "text": "TRACKS",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 48,
+      "size": "123*-1689",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/track_info[text]TRACKS[enabled,,]",
+      "view_str": "5973226b9a7fc4b5d90e7fe1358cce43"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Next track",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          784,
+          3939
+        ],
+        [
+          868,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/track_next",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 49,
+      "size": "84*-1665",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/track_next[text]None[enabled,,]",
+      "view_str": "f30e75b382acae054856105c73910797"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51,
+        52,
+        54
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          4086
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/book_nav_controls",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 50,
+      "size": "1080*-1812",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/book_nav_controls[text]None[enabled,,]",
+      "view_str": "6f1e4b79696d137dd77ebace538f8cd9"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Rewind 30 seconds",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          4117
+        ],
+        [
+          356,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/button_back",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "131*-1843",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/button_back[text]None[enabled,,]",
+      "view_str": "bea48cb51302aa88f9df9e759f4131f5"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          435,
+          4086
+        ],
+        [
+          645,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/play_pause_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 52,
+      "size": "210*-1812",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/play_pause_layout[text]None[enabled,,]",
+      "view_str": "594bcd7706c157943c96f0f08f109a80"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          461,
+          4112
+        ],
+        [
+          619,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/progressBar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ProgressBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "158*-1838",
+      "signature": "[class]android.widget.ProgressBar[resource_id]com.audiobooks.androidapp:id/progressBar[text]None[enabled,,]",
+      "view_str": "a10e7d28a3119dc8cb457be0bcf54257"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Forward 30 seconds",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          724,
+          4117
+        ],
+        [
+          855,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/button_forward",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 54,
+      "size": "131*-1843",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/button_forward[text]None[enabled,,]",
+      "view_str": "6a2404819f2d4a6957f331ec1473b7f5"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        56,
+        59,
+        63,
+        66
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          4317
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 55,
+      "size": "1080*-2043",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e588191354262c61fcfedd900a38fb0b"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        57
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          4317
+        ],
+        [
+          291,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/player_speed_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 56,
+      "size": "249*-2043",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/player_speed_layout[text]None[enabled,,]",
+      "view_str": "0c3573326d5af3e8a23c528a99abcf1c"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          114,
+          4359
+        ],
+        [
+          219,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/player_speed_linear_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 57,
+      "size": "105*-2085",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/player_speed_linear_layout[text]None[enabled,,]",
+      "view_str": "57b8c4a77f17442431bb78452ccbd35c"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          114,
+          4390
+        ],
+        [
+          219,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/player_speed_textview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 58,
+      "size": "105*-2116",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/player_speed_textview[text]None[enabled,,]",
+      "view_str": "984830299e723680e38ef9accc1eca3d"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        60,
+        61
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          291,
+          4317
+        ],
+        [
+          540,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/sleep_timer_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 59,
+      "size": "249*-2043",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/sleep_timer_layout[text]None[enabled,,]",
+      "view_str": "5f13211bc7c321721f9bdc2ebd9e3b11"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          415,
+          4317
+        ],
+        [
+          415,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/txt_sleep_timer_countdown",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 60,
+      "size": "0*-2043",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/txt_sleep_timer_countdown[text]None[enabled,,]",
+      "view_str": "c99b51ebe138ea2ee99263f3fbc79d49"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        62
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          363,
+          4359
+        ],
+        [
+          468,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/sleep_timer_linear_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 61,
+      "size": "105*-2085",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/sleep_timer_linear_layout[text]None[enabled,,]",
+      "view_str": "826ab3897314bb574a6570e9f9741eae"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Sleep Timer Icon",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          384,
+          4380
+        ],
+        [
+          447,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/sleep_timer_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 62,
+      "size": "63*-2106",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/sleep_timer_icon[text]None[enabled,,]",
+      "view_str": "10ac084df7d5b00f1007c2bf07ac425d"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          4317
+        ],
+        [
+          789,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/custom_bookmarks_button_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 63,
+      "size": "249*-2043",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/custom_bookmarks_button_layout[text]None[enabled,,]",
+      "view_str": "9eff82fd8b85ac055ff99507beb1ae0a"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Add and view bookmarks and notes",
+      "children": [
+        65
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          612,
+          4359
+        ],
+        [
+          717,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 63,
+      "temp_id": 64,
+      "size": "105*-2085",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a4ac20c1d11e49811e017ef0d7eb1102"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Add Bookmark Icon",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          633,
+          4380
+        ],
+        [
+          696,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/custom_bookmark_icon_imageview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 65,
+      "size": "63*-2106",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/custom_bookmark_icon_imageview[text]None[enabled,,]",
+      "view_str": "84b385d4fa10374e0074fef467e29c6c"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        67
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          4317
+        ],
+        [
+          1059,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/cast_button_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 66,
+      "size": "249*-2043",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/cast_button_layout[text]None[enabled,,]",
+      "view_str": "40191b29ffbef3caab3957d167cc1ad4"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Cast to devices",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          882,
+          4359
+        ],
+        [
+          987,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/cast_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 66,
+      "temp_id": 67,
+      "size": "105*-2085",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.audiobooks.androidapp:id/cast_button[text]None[enabled,,]",
+      "view_str": "c5feda84fd8106101ec0aa3874c9da6b"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        69,
+        70,
+        75
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          210
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/appToolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 68,
+      "size": "1080*147",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/appToolbar[text]None[enabled,,]",
+      "view_str": "a120312eb1596912a61a7de999382145"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          63
+        ],
+        [
+          1080,
+          63
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 68,
+      "temp_id": 69,
+      "size": "0*0",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "68a4197c3f0301d01b9923d16db966a8"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        71,
+        73,
+        74
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          210
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/abcToolBar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 68,
+      "temp_id": 70,
+      "size": "1080*147",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/abcToolBar[text]None[enabled,,]",
+      "view_str": "1a3f21d2e941fc7f95054de793a58a23"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Navigate back button",
+      "children": [
+        72
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          147,
+          210
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/backButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 71,
+      "size": "147*147",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/backButton[text]None[enabled,,]",
+      "view_str": "8c34d9b3d8dab5426a995e8722e4eff3",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<button text='Navigate back button' bound_box=0,63,147,210></button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          21,
+          89
+        ],
+        [
+          116,
+          184
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/backButtonIcon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 71,
+      "temp_id": 72,
+      "size": "95*95",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/backButtonIcon[text]None[enabled,,]",
+      "view_str": "72117491427b4d3055836fcd34e44fc4"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          147,
+          63
+        ],
+        [
+          933,
+          210
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/toolbarTitle",
+      "checked": false,
+      "text": "Sign Up",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 73,
+      "size": "786*147",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/toolbarTitle[text]Sign Up[enabled,,]",
+      "view_str": "ca349d93bca0d3967522a82517495d05",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<p bound_box=147,63,933,210>Sign Up</p>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          63
+        ],
+        [
+          1080,
+          210
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/toolbarActionButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 74,
+      "size": "147*147",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/toolbarActionButton[text]None[enabled,,]",
+      "view_str": "326fb0657ec0ca079f818ed93d99fd64"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          111
+        ],
+        [
+          0,
+          162
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sign Up",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 68,
+      "temp_id": 75,
+      "size": "0*51",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Sign Up[enabled,,]",
+      "view_str": "cf445cbf5cc4319c5ea4e442a1fa12eb"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        77
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          210
+        ],
+        [
+          1080,
+          2085
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 76,
+      "size": "1080*1875",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/container[text]None[enabled,,]",
+      "view_str": "f6fd5fd0d3de8da7ad540ea8c123cc56"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        78
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          210
+        ],
+        [
+          1080,
+          2085
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/scrollView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 76,
+      "temp_id": 77,
+      "size": "1080*1875",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.audiobooks.androidapp:id/scrollView[text]None[enabled,,]",
+      "view_str": "c82775526a05c99ac12f710d5078a54c"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        79,
+        80,
+        114,
+        118
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          210
+        ],
+        [
+          1080,
+          2085
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 77,
+      "temp_id": 78,
+      "size": "1080*1875",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "79c3ee8696191545995e34380e9c6eb3"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          294
+        ],
+        [
+          996,
+          409
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/imgLogo",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 78,
+      "temp_id": 79,
+      "size": "912*115",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/imgLogo[text]None[enabled,,]",
+      "view_str": "79e1ce6ce02c602a2b1e71e1e007ee77"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        81,
+        94,
+        98
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          472
+        ],
+        [
+          1080,
+          1505
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/login_choice_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 78,
+      "temp_id": 80,
+      "size": "1080*1033",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/login_choice_container[text]None[enabled,,]",
+      "view_str": "ab0563c5f3dddf80c593e40205bcdc09"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        82,
+        83,
+        84
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          472
+        ],
+        [
+          854,
+          956
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 81,
+      "size": "629*484",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7223dfa5afd70c228fd2abde57bdb593"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          256,
+          472
+        ],
+        [
+          822,
+          558
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Create an account to start listening\nto audiobooks right away!",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 82,
+      "size": "566*86",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "3a8cbbc14a629accd880860beaf7c453",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<button bound_box=256,472,822,558>Create an account to start listening\nto audiobooks right away!</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          286,
+          579
+        ],
+        [
+          792,
+          620
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/free_and_get_access_text",
+      "checked": false,
+      "text": "It's free and you'll get access to:",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 83,
+      "size": "506*41",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/free_and_get_access_text[text]It's free and you'll get access to:[enabled,,]",
+      "view_str": "a6fae88676486a88999e95bc43395f1f",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<button bound_box=286,579,792,620>It's free and you'll get access to:</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        85,
+        88,
+        91
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          662
+        ],
+        [
+          854,
+          914
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 84,
+      "size": "629*252",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "574074083c909266f7061f1e2d3e48ca"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        86,
+        87
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          662
+        ],
+        [
+          702,
+          725
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/ten_thousand_free_books_item",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 84,
+      "temp_id": 85,
+      "size": "477*63",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/ten_thousand_free_books_item[text]None[enabled,,]",
+      "view_str": "37ec238d6ac08f2782e1ae5a0330a615"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          662
+        ],
+        [
+          288,
+          725
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 85,
+      "temp_id": 86,
+      "size": "63*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "44629fa9fc079d11360e59742337302f"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          309,
+          673
+        ],
+        [
+          702,
+          714
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "10,000+ free audiobooks",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 85,
+      "temp_id": 87,
+      "size": "393*41",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]10,000+ free audiobooks[enabled,,]",
+      "view_str": "97cbb6115ee88c574b3cb8780762014d",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<button bound_box=309,673,702,714>10,000+ free audiobooks</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        89,
+        90
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          746
+        ],
+        [
+          803,
+          809
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 84,
+      "temp_id": 88,
+      "size": "578*63",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "46fab17eed5b1d552da2a54784b0fd26"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          746
+        ],
+        [
+          288,
+          809
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 89,
+      "size": "63*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "4358c6d24c764398e2a2f9979b733d07"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          309,
+          757
+        ],
+        [
+          803,
+          798
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Convenient, on-the-go listening",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 90,
+      "size": "494*41",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Convenient, on-the-go listening[enabled,,]",
+      "view_str": "1ea16ab6d79247048c2d3af884551054",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<button bound_box=309,757,803,798>Convenient, on-the-go listening</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        92,
+        93
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          830
+        ],
+        [
+          854,
+          893
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 84,
+      "temp_id": 91,
+      "size": "629*63",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "694f7c4d3c1c48101d5e588329660031"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          830
+        ],
+        [
+          288,
+          893
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 92,
+      "size": "63*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "4358c6d24c764398e2a2f9979b733d07"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          309,
+          841
+        ],
+        [
+          854,
+          882
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Keep your books even if you cancel",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 93,
+      "size": "545*41",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Keep your books even if you cancel[enabled,,]",
+      "view_str": "13ede484ce324de7406624ace6dbd9b2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<button bound_box=309,841,854,882>Keep your books even if you cancel</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        95,
+        96,
+        97
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          956
+        ],
+        [
+          1080,
+          992
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/login_with_text_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 94,
+      "size": "1080*36",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/login_with_text_container[text]None[enabled,,]",
+      "view_str": "ba310b49579e2b9020c14af55166e07f"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          105,
+          972
+        ],
+        [
+          413,
+          976
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 95,
+      "size": "308*4",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "16f90e8db85ed8c644617f24d7798f86"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          455,
+          956
+        ],
+        [
+          625,
+          992
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/login_with_text",
+      "checked": false,
+      "text": "Sign up with",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 96,
+      "size": "170*36",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/login_with_text[text]Sign up with[enabled,,]",
+      "view_str": "8ec14598b586e8037e25a6a24227c46d",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<button bound_box=455,956,625,992>Sign up with</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          667,
+          972
+        ],
+        [
+          1080,
+          976
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 97,
+      "size": "413*4",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "16f90e8db85ed8c644617f24d7798f86"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        99,
+        104,
+        109
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          992
+        ],
+        [
+          1080,
+          1505
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/third_party_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 98,
+      "size": "1080*513",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/third_party_container[text]None[enabled,,]",
+      "view_str": "c4159826b9fae4a785af68f9ee911d56"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        100
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          1034
+        ],
+        [
+          954,
+          1163
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/email_login_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 99,
+      "size": "828*129",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/email_login_button[text]None[enabled,,]",
+      "view_str": "afbd312e2bfe44c2c6d0833db7ac47da"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        101,
+        102,
+        103
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          1034
+        ],
+        [
+          954,
+          1163
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 99,
+      "temp_id": 100,
+      "size": "828*129",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1db79d1680c25b70789a427f546ae4e4"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1077
+        ],
+        [
+          210,
+          1119
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 100,
+      "temp_id": 101,
+      "size": "42*42",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "4ae8866338c7f4f70b3781c5c41950a4"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          252,
+          1077
+        ],
+        [
+          256,
+          1119
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 100,
+      "temp_id": 102,
+      "size": "4*42",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "e5f12a82aa218fd636c9a23ae11ec7e1"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          319,
+          1076
+        ],
+        [
+          617,
+          1121
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sign up with Email",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 100,
+      "temp_id": 103,
+      "size": "298*45",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Sign up with Email[enabled,,]",
+      "view_str": "6479f9fb54f790ca99d1476c94d7857b",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<button bound_box=319,1076,617,1121>Sign up with Email</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        105
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          1205
+        ],
+        [
+          954,
+          1334
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/google_login_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 104,
+      "size": "828*129",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.audiobooks.androidapp:id/google_login_button[text]None[enabled,,]",
+      "view_str": "c46bf062d6cf47fe24f4efe6cf28fb19"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        106,
+        107,
+        108
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          1205
+        ],
+        [
+          954,
+          1334
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 104,
+      "temp_id": 105,
+      "size": "828*129",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a2d0b59359fbdb94b989fdce2e8f5637"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1248
+        ],
+        [
+          210,
+          1290
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 105,
+      "temp_id": 106,
+      "size": "42*42",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "bea7aca878d73a23aaa6fc0b1103c7bf"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          252,
+          1248
+        ],
+        [
+          256,
+          1290
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 105,
+      "temp_id": 107,
+      "size": "4*42",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "5e876aacd8ba5bd6937c5b2dfdf32914"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          319,
+          1247
+        ],
+        [
+          644,
+          1292
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sign up with Google",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 105,
+      "temp_id": 108,
+      "size": "325*45",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Sign up with Google[enabled,,]",
+      "view_str": "0013971bbde5f1581d8f9e9b353627a2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "9",
+      "desc": "<button bound_box=319,1247,644,1292>Sign up with Google</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        110
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          1376
+        ],
+        [
+          954,
+          1505
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/amazon_login_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 109,
+      "size": "828*129",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/amazon_login_button[text]None[enabled,,]",
+      "view_str": "484d2c32292b793f4caa499deebd40ae"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        111,
+        112,
+        113
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          1376
+        ],
+        [
+          954,
+          1505
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 109,
+      "temp_id": 110,
+      "size": "828*129",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e374627c6a18e2764d568c97bab85b1a"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1419
+        ],
+        [
+          210,
+          1461
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 110,
+      "temp_id": 111,
+      "size": "42*42",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "97475ae0fd7dd8517df9a480d5d4aed9"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          252,
+          1419
+        ],
+        [
+          256,
+          1461
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 110,
+      "temp_id": 112,
+      "size": "4*42",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "d80bc96de23c1507d09875bd97e3152e"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          319,
+          1418
+        ],
+        [
+          661,
+          1463
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sign up with Amazon",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 110,
+      "temp_id": 113,
+      "size": "342*45",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Sign up with Amazon[enabled,,]",
+      "view_str": "57808624df2d656587daba1b67d42b65",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "10",
+      "desc": "<button bound_box=319,1418,661,1463>Sign up with Amazon</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        115
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1505
+        ],
+        [
+          1080,
+          1649
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/cs_section",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 78,
+      "temp_id": 114,
+      "size": "1080*144",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/cs_section[text]None[enabled,,]",
+      "view_str": "616e4df5bdf9a36835e8396c6849fbde"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        116,
+        117
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          1526
+        ],
+        [
+          954,
+          1649
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/login_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 114,
+      "temp_id": 115,
+      "size": "828*123",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.audiobooks.androidapp:id/login_container[text]None[enabled,,]",
+      "view_str": "d0e1abcc5821b26451ed181b9de70e0c"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          341,
+          1568
+        ],
+        [
+          634,
+          1607
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Already a member?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 115,
+      "temp_id": 116,
+      "size": "293*39",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Already a member?[enabled,,]",
+      "view_str": "c97e9898d31503ec1527b888af30deb2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "11",
+      "desc": "<button bound_box=341,1568,634,1607>Already a member?</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          655,
+          1568
+        ],
+        [
+          738,
+          1607
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Login",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 115,
+      "temp_id": 117,
+      "size": "83*39",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Login[enabled,,]",
+      "view_str": "55e8e5645764c4da8db7c84f41f1ff14",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "12",
+      "desc": "<button bound_box=655,1568,738,1607>Login</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        119,
+        120
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1649
+        ],
+        [
+          1080,
+          1805
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 78,
+      "temp_id": 118,
+      "size": "1080*156",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "3e05542f9d3b2bd870f3ad74f2c57967"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          194,
+          1691
+        ],
+        [
+          886,
+          1727
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "By Creating an account, I accept Audiobook.com's",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 118,
+      "temp_id": 119,
+      "size": "692*36",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]By Creating an account, I accept Audiobook.com's[enabled,,]",
+      "view_str": "140edc0b6682c6f3cb5e45ddfbe80726",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "13",
+      "desc": "<button bound_box=194,1691,886,1727>By Creating an account, I accept Audiobook.com's</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        121,
+        122,
+        123
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          326,
+          1727
+        ],
+        [
+          754,
+          1805
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 118,
+      "temp_id": 120,
+      "size": "428*78",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "12bdf663fa959405b1e573be2cee1dad"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          326,
+          1727
+        ],
+        [
+          507,
+          1763
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/terms_of_use",
+      "checked": false,
+      "text": "Terms of Use",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 120,
+      "temp_id": 121,
+      "size": "181*36",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/terms_of_use[text]Terms of Use[enabled,,]",
+      "view_str": "df135116576cac617641441ee9a936ed",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "14",
+      "desc": "<button bound_box=326,1727,507,1763>Terms of Use</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          507,
+          1727
+        ],
+        [
+          559,
+          1763
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/and",
+      "checked": false,
+      "text": "and",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 120,
+      "temp_id": 122,
+      "size": "52*36",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/and[text]and[enabled,,]",
+      "view_str": "b0caf8898ccb97ae4c69deb1c3f57fd9",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "15",
+      "desc": "<button bound_box=507,1727,559,1763>and</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          559,
+          1727
+        ],
+        [
+          754,
+          1763
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/privacy_policy",
+      "checked": false,
+      "text": "Privacy Policy",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 120,
+      "temp_id": 123,
+      "size": "195*36",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/privacy_policy[text]Privacy Policy[enabled,,]",
+      "view_str": "16c786eb844dda50a48f346676d9dec5",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "16",
+      "desc": "<button bound_box=559,1727,754,1763>Privacy Policy</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        125
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2085
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/bottomNavigationView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 124,
+      "size": "1080*189",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/bottomNavigationView[text]None[enabled,,]",
+      "view_str": "682931ff3b14c12e7ccdbdbf8d4fba40"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        126,
+        131,
+        136,
+        141,
+        146
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2085
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 124,
+      "temp_id": 125,
+      "size": "1080*189",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "67528784dcd5cf761d4997f9918f9e25"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "My Library",
+      "children": [
+        127,
+        129
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2085
+        ],
+        [
+          216,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_my_library",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 125,
+      "temp_id": 126,
+      "size": "216*189",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_my_library[text]None[enabled,,]",
+      "view_str": "3b1445974aa730296a3666f12bbd4981",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "17",
+      "desc": "<button text='My Library' bound_box=0,2085,216,2274></button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        128
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          79,
+          2138
+        ],
+        [
+          137,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 127,
+      "size": "58*58",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_container[text]None[enabled,,]",
+      "view_str": "bd1c43e3bc4012e593bbda32619f8a70"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          79,
+          2138
+        ],
+        [
+          137,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 127,
+      "temp_id": 128,
+      "size": "58*58",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_view[text]None[enabled,,]",
+      "view_str": "3c28db871647e9944ac3faf722d629d8"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        130
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          46,
+          2219
+        ],
+        [
+          170,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 129,
+      "size": "124*55",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_labels_group[text]None[enabled,,]",
+      "view_str": "df7f9a193ec73ba51c6650bc59f7d5e7"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          46,
+          2219
+        ],
+        [
+          170,
+          2256
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_small_label_view",
+      "checked": false,
+      "text": "My Library",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 129,
+      "temp_id": 130,
+      "size": "124*37",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_small_label_view[text]My Library[enabled,,]",
+      "view_str": "44725eb8b60611fe1761ae3e4f3c04b1",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "18",
+      "desc": "<button bound_box=46,2219,170,2256>My Library</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Browse",
+      "children": [
+        132,
+        134
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          216,
+          2085
+        ],
+        [
+          432,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_browse",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 125,
+      "temp_id": 131,
+      "size": "216*189",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_browse[text]None[enabled,,]",
+      "view_str": "e6747f1896ad404859acacde3093f836",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "19",
+      "desc": "<button text='Browse' bound_box=216,2085,432,2274></button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        133
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          295,
+          2138
+        ],
+        [
+          353,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 131,
+      "temp_id": 132,
+      "size": "58*58",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_container[text]None[enabled,,]",
+      "view_str": "84edf8424259a8bf0656be1dc0e73250"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          295,
+          2138
+        ],
+        [
+          353,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 132,
+      "temp_id": 133,
+      "size": "58*58",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_view[text]None[enabled,,]",
+      "view_str": "600a1bf74cd204395c985569b415b3dc"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        135
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          280,
+          2219
+        ],
+        [
+          367,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 131,
+      "temp_id": 134,
+      "size": "87*55",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_labels_group[text]None[enabled,,]",
+      "view_str": "ca5a2769a3c9a90cdb6db0165466b624"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          280,
+          2219
+        ],
+        [
+          367,
+          2256
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_small_label_view",
+      "checked": false,
+      "text": "Browse",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 134,
+      "temp_id": 135,
+      "size": "87*37",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_small_label_view[text]Browse[enabled,,]",
+      "view_str": "a3b8111838291c00bded3662bc9bbb11",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "20",
+      "desc": "<button bound_box=280,2219,367,2256>Browse</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Home",
+      "children": [
+        137,
+        139
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          432,
+          2085
+        ],
+        [
+          648,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_home",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 125,
+      "temp_id": 136,
+      "size": "216*189",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_home[text]None[enabled,,selected]",
+      "view_str": "e5f686adff60d8babe331f4e02b719f2",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [
+        "selected"
+      ],
+      "local_id": "21",
+      "desc": "<p text='Home' bound_box=432,2085,648,2274></p>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        138
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          511,
+          2138
+        ],
+        [
+          569,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 136,
+      "temp_id": 137,
+      "size": "58*58",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_container[text]None[enabled,,selected]",
+      "view_str": "7b4b6a53bd04cc51c6c60b640e19a5e4"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          511,
+          2138
+        ],
+        [
+          569,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 137,
+      "temp_id": 138,
+      "size": "58*58",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_view[text]None[enabled,,selected]",
+      "view_str": "5fc77724b01b54904d875815e7921d42"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        140
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          505,
+          2219
+        ],
+        [
+          575,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 136,
+      "temp_id": 139,
+      "size": "70*55",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_labels_group[text]None[enabled,,selected]",
+      "view_str": "39f5251c8e6e97631aa6137aa3f8fb29"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          505,
+          2219
+        ],
+        [
+          575,
+          2256
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_large_label_view",
+      "checked": false,
+      "text": "Home",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 139,
+      "temp_id": 140,
+      "size": "70*37",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_large_label_view[text]Home[enabled,,selected]",
+      "view_str": "5138497abedf128e1582465e853b5b7c",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [
+        "selected"
+      ],
+      "local_id": "22",
+      "desc": "<p bound_box=505,2219,575,2256>Home</p>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Perks",
+      "children": [
+        142,
+        144
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          648,
+          2085
+        ],
+        [
+          864,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_perks",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 125,
+      "temp_id": 141,
+      "size": "216*189",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_perks[text]None[enabled,,]",
+      "view_str": "67fa45241d450163a5478805bd822132",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "23",
+      "desc": "<button text='Perks' bound_box=648,2085,864,2274></button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        143
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          727,
+          2138
+        ],
+        [
+          785,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 141,
+      "temp_id": 142,
+      "size": "58*58",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_container[text]None[enabled,,]",
+      "view_str": "bb553e59d8b076862e3e0f683a5b7157"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          727,
+          2138
+        ],
+        [
+          785,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 142,
+      "temp_id": 143,
+      "size": "58*58",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_view[text]None[enabled,,]",
+      "view_str": "8e0f5251bd847e29138dfde97607ca76"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        145
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          724,
+          2219
+        ],
+        [
+          788,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 141,
+      "temp_id": 144,
+      "size": "64*55",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_labels_group[text]None[enabled,,]",
+      "view_str": "847fc72a818c81f4d6560fe619696f4b"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          724,
+          2219
+        ],
+        [
+          788,
+          2256
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_small_label_view",
+      "checked": false,
+      "text": "Perks",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 144,
+      "temp_id": 145,
+      "size": "64*37",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_small_label_view[text]Perks[enabled,,]",
+      "view_str": "f47a131c14170540a694c5b4e821238e",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "24",
+      "desc": "<button bound_box=724,2219,788,2256>Perks</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Search",
+      "children": [
+        147,
+        149
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          864,
+          2085
+        ],
+        [
+          1080,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_search",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 125,
+      "temp_id": 146,
+      "size": "216*189",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_search[text]None[enabled,,]",
+      "view_str": "cf5d584da868cf1128cfb1cc370a940d",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "25",
+      "desc": "<button text='Search' bound_box=864,2085,1080,2274></button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        148
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          943,
+          2138
+        ],
+        [
+          1001,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 146,
+      "temp_id": 147,
+      "size": "58*58",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_container[text]None[enabled,,]",
+      "view_str": "22e4ab7507ef0e54ca3b7e22c6b5efec"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          943,
+          2138
+        ],
+        [
+          1001,
+          2196
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 147,
+      "temp_id": 148,
+      "size": "58*58",
+      "signature": "[class]android.widget.ImageView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_icon_view[text]None[enabled,,]",
+      "view_str": "23742d377f9330985ba80e33161e5af5"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        150
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          2219
+        ],
+        [
+          1011,
+          2274
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 146,
+      "temp_id": 149,
+      "size": "78*55",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_labels_group[text]None[enabled,,]",
+      "view_str": "905bd86ae41d8c788dd835171752ca70"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          2219
+        ],
+        [
+          1011,
+          2256
+        ]
+      ],
+      "resource_id": "com.audiobooks.androidapp:id/navigation_bar_item_small_label_view",
+      "checked": false,
+      "text": "Search",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 149,
+      "temp_id": 150,
+      "size": "78*37",
+      "signature": "[class]android.widget.TextView[resource_id]com.audiobooks.androidapp:id/navigation_bar_item_small_label_view[text]Search[enabled,,]",
+      "view_str": "4f0657123f637dfcb5f343502d355bf3",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "26",
+      "desc": "<button bound_box=933,2219,1011,2256>Search</button>"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          63
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 151,
+      "size": "1080*63",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "6ba67d4c35ff145bd4a09d805f374d60"
+    },
+    {
+      "package": "com.audiobooks.androidapp",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2274
+        ],
+        [
+          1080,
+          2400
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 152,
+      "size": "1080*126",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "75648201117f3f8fc2ceb279425cb0d7"
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        a473101 com.reddit.frontpage/com.reddit.sharing.ShareActivity filter 9045ba6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video/mp4"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video/mp4:
+        a473101 com.reddit.frontpage/com.reddit.sharing.ShareActivity filter 9045ba6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video/mp4"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image/*:
+        a473101 com.reddit.frontpage/com.reddit.sharing.ShareActivity filter 9045ba6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video/mp4"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      text:
+        a473101 com.reddit.frontpage/com.reddit.sharing.ShareActivity filter 9045ba6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video/mp4"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        a473101 com.reddit.frontpage/com.reddit.sharing.ShareActivity filter 9045ba6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video/mp4"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      image:
+        a473101 com.reddit.frontpage/com.reddit.sharing.ShareActivity filter 9045ba6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video/mp4"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      reddit:
+        c4bef com.reddit.frontpage/.RedditDeepLinkActivity filter e3956fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Scheme: "reddit"
+          Authority: "www.reddit.com": -1
+          Authority: "www.reddit.com": -1
+          Authority: "reddit.com": -1
+          Authority: "reddit.com": -1
+          Authority: "m.reddit.com": -1
+          Authority: "m.reddit.com": -1
+          Authority: "accounts.reddit.com": -1
+          Authority: "amp.reddit.com": -1
+          Authority: "amp.reddit.com": -1
+          Authority: "np.reddit.com": -1
+          Authority: "np.reddit.com": -1
+          Authority: "new.reddit.com": -1
+          Authority: "new.reddit.com": -1
+          Authority: "old.reddit.com": -1
+          Authority: "old.reddit.com": -1
+          Authority: ".redd.it": -1 WILD
+          Authority: ".redd.it": -1 WILD
+          Authority: "s.reddit.com": -1
+          Authority: "s.reddit.com": -1
+          Authority: "mod.reddit.com": -1
+          Authority: "mod.reddit.com": -1
+          Authority: "reddit": -1
+      http:
+        c4bef com.reddit.frontpage/.RedditDeepLinkActivity filter e3956fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Scheme: "reddit"
+          Authority: "www.reddit.com": -1
+          Authority: "www.reddit.com": -1
+          Authority: "reddit.com": -1
+          Authority: "reddit.com": -1
+          Authority: "m.reddit.com": -1
+          Authority: "m.reddit.com": -1
+          Authority: "accounts.reddit.com": -1
+          Authority: "amp.reddit.com": -1
+          Authority: "amp.reddit.com": -1
+          Authority: "np.reddit.com": -1
+          Authority: "np.reddit.com": -1
+          Authority: "new.reddit.com": -1
+          Authority: "new.reddit.com": -1
+          Authority: "old.reddit.com": -1
+          Authority: "old.reddit.com": -1
+          Authority: ".redd.it": -1 WILD
+          Authority: ".redd.it": -1 WILD
+          Authority: "s.reddit.com": -1
+          Authority: "s.reddit.com": -1
+          Authority: "mod.reddit.com": -1
+          Authority: "mod.reddit.com": -1
+          Authority: "reddit": -1
+        a7bb80b com.reddit.frontpage/.BranchLinkActivity filter c42e6e8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "reddit.app.link": -1
+          Authority: "reddit.app.link": -1
+          Authority: "reddit-alternate.app.link": -1
+          Authority: "reddit-alternate.app.link": -1
+          Authority: "click.redditmail.com": -1
+          Authority: "click.redditmail.com": -1
+      https:
+        c4bef com.reddit.frontpage/.RedditDeepLinkActivity filter e3956fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Scheme: "reddit"
+          Authority: "www.reddit.com": -1
+          Authority: "www.reddit.com": -1
+          Authority: "reddit.com": -1
+          Authority: "reddit.com": -1
+          Authority: "m.reddit.com": -1
+          Authority: "m.reddit.com": -1
+          Authority: "accounts.reddit.com": -1
+          Authority: "amp.reddit.com": -1
+          Authority: "amp.reddit.com": -1
+          Authority: "np.reddit.com": -1
+          Authority: "np.reddit.com": -1
+          Authority: "new.reddit.com": -1
+          Authority: "new.reddit.com": -1
+          Authority: "old.reddit.com": -1
+          Authority: "old.reddit.com": -1
+          Authority: ".redd.it": -1 WILD
+          Authority: ".redd.it": -1 WILD
+          Authority: "s.reddit.com": -1
+          Authority: "s.reddit.com": -1
+          Authority: "mod.reddit.com": -1
+          Authority: "mod.reddit.com": -1
+          Authority: "reddit": -1
+        c4bef com.reddit.frontpage/.RedditDeepLinkActivity filter 9d30185
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.google.com": -1
+          Path: "PatternMatcher{PREFIX: /amp/s/amp.reddit.com}"
+        c4bef com.reddit.frontpage/.RedditDeepLinkActivity filter b2c5bda
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "reddit.onelink.me": -1
+          Authority: "reddit.onelink.me": -1
+          Path: "PatternMatcher{PREFIX: /r0wa}"
+          Path: "PatternMatcher{PREFIX: /MRHZ}"
+        a7bb80b com.reddit.frontpage/.BranchLinkActivity filter c42e6e8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "reddit.app.link": -1
+          Authority: "reddit.app.link": -1
+          Authority: "reddit-alternate.app.link": -1
+          Authority: "reddit-alternate.app.link": -1
+          Authority: "click.redditmail.com": -1
+          Authority: "click.redditmail.com": -1
+      genericidp:
+        2e11d83 com.reddit.frontpage/com.google.firebase.auth.internal.GenericIdpActivity filter 729ab00
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        d7ff39 com.reddit.frontpage/com.google.firebase.auth.internal.RecaptchaActivity filter ad1397e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      instabug-bug:
+        a74dc3d com.reddit.frontpage/com.instabug.bug.view.BugReportingActivity filter 30a8c32
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "instabug-bug"
+          Authority: "instabug-disclaimer.com": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1f916b1 com.reddit.frontpage/launcher.planet filter 9dec796
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8aedf17 com.reddit.frontpage/launcher.astronaut filter d382f04
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        576ced com.reddit.frontpage/launcher.amazedoge filter 4b7c722
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        73855b3 com.reddit.frontpage/launcher.doge filter 88b3770
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ecaeae9 com.reddit.frontpage/launcher.stocks filter 92f336e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        fd89a0f com.reddit.frontpage/launcher.rocket filter 4c45a9c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        bde4ca5 com.reddit.frontpage/launcher.tothemoon filter 59f187a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        68ec82b com.reddit.frontpage/launcher.wallstreet filter 80a8488
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a0c0e21 com.reddit.frontpage/launcher.classic filter 1f64246
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        62fbc07 com.reddit.frontpage/launcher.alien_blue filter 2076134
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        efa6b5d com.reddit.frontpage/launcher.vitruvian filter 4443cd2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        80211a3 com.reddit.frontpage/launcher.vaporwave filter 1535ca0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a776059 com.reddit.frontpage/launcher.retro filter 205541e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        91a24ff com.reddit.frontpage/launcher.chibi filter 3a1a2cc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        134a915 com.reddit.frontpage/launcher.mechasnoo filter a2e942a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        976121b com.reddit.frontpage/launcher.pixels filter cac1fb8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        743c191 com.reddit.frontpage/launcher.neon filter 3f9c8f6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d9b4f7 com.reddit.frontpage/launcher.pullover filter fdf7f64
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        651e5cd com.reddit.frontpage/launcher.brrr filter e717e82
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        56aa993 com.reddit.frontpage/launcher.redditgifts filter 8c72dd0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ba411c9 com.reddit.frontpage/launcher.default filter cbd00ce
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        32bc9e7 com.reddit.frontpage/.ui.preferences.PushNotificationSettingsLauncherActivity filter d38994
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+      android.intent.action.SEARCH:
+        136da3b com.reddit.frontpage/.main.MainActivity filter f7b1558
+          Action: "android.intent.action.SEARCH"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        a473101 com.reddit.frontpage/com.reddit.sharing.ShareActivity filter 9045ba6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video/mp4"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        b7d5c71 com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6f0fa56
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        beeb9fb com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 471da18
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        564fad7 com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9b67fc4
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        33a4ead com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter a9a65e2
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        564fad7 com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9b67fc4
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        5b055f5 com.reddit.frontpage/androidx.profileinstaller.ProfileInstallReceiver filter 6c36f8a
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        83a665 com.reddit.frontpage/com.google.firebase.iid.FirebaseInstanceIdReceiver filter bdecf3a
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        b7d5c71 com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6f0fa56
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        d946d73 com.reddit.frontpage/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b7dd430
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        d946d73 com.reddit.frontpage/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b7dd430
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        d946d73 com.reddit.frontpage/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b7dd430
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        beeb9fb com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 471da18
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        a3e6dcf com.reddit.frontpage/androidx.work.impl.diagnostics.DiagnosticsReceiver filter f24035c
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        e0edf com.reddit.frontpage/.appconfig.AppConfigPackageUpdateReceiver filter dfe772c
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        85a28a9 com.reddit.frontpage/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 27cfe2e
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        b0d43e1 com.reddit.frontpage/.sync.UserDataSyncService filter 5aa506
+          Action: "android.content.SyncAdapter"
+        d8447c7 com.reddit.frontpage/.sync.AppDataSyncService filter a1b61f4
+          Action: "android.content.SyncAdapter"
+      com.google.firebase.INSTANCE_ID_EVENT:
+        318e19 com.reddit.frontpage/com.sendbird.android.SendBirdFirebaseInstanceIDService filter ebb4ede
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+      com.google.firebase.MESSAGING_EVENT:
+        c393d1d com.reddit.frontpage/.service.fcm.RedditMessagingService filter 66c0b92
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        57c68bf com.reddit.frontpage/com.sendbird.android.SendBirdFirebaseMessagingService filter 9cfb8c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        218d1db com.reddit.frontpage/com.google.firebase.messaging.FirebaseMessagingService filter ee44478
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.accounts.AccountAuthenticator:
+        1de17eb com.reddit.frontpage/com.reddit.auth.AuthService filter 19bf948
+          Action: "android.accounts.AccountAuthenticator"
+      com.google.firebase.auth.api.gms.service.START:
+        c739963 com.reddit.frontpage/com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService filter b86a960
+          Action: "com.google.firebase.auth.api.gms.service.START"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.push.action.MESSAGING_EVENT:
+        1c3f2d5 com.reddit.frontpage/com.sendbird.android.SendBirdHmsMessagingService filter a297aea
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          amp.reddit.com
+          old.reddit.com
+          mod.reddit.com
+          accounts.reddit.com
+          new.reddit.com
+          click.redditmail.com
+          www.google.com
+          np.reddit.com
+          reddit.app.link
+          reddit.onelink.me
+          reddit-alternate.app.link
+          *.redd.it
+          reddit.com
+          m.reddit.com
+          www.reddit.com
+          s.reddit.com
+
+Registered ContentProviders:
+  com.reddit.frontpage/com.reddit.data.provider.AppDataStubProvider:
+    Provider{3318543 com.reddit.frontpage/com.reddit.data.provider.AppDataStubProvider}
+  com.reddit.frontpage/com.reddit.data.events.AnalyticsContentProvider:
+    Provider{78257c0 com.reddit.frontpage/com.reddit.data.events.AnalyticsContentProvider}
+  com.reddit.frontpage/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{7bc0cf9 com.reddit.frontpage/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.reddit.frontpage/com.reddit.data.provider.UserDataStubProvider:
+    Provider{89b943e com.reddit.frontpage/com.reddit.data.provider.UserDataStubProvider}
+  com.reddit.frontpage/androidx.core.content.FileProvider:
+    Provider{75d329f com.reddit.frontpage/androidx.core.content.FileProvider}
+  com.reddit.frontpage/com.reddit.domain.session.foreground.lifecycleowner.PreStartProcessLifecycleOwnerContentProvider:
+    Provider{e152fec com.reddit.frontpage/com.reddit.domain.session.foreground.lifecycleowner.PreStartProcessLifecycleOwnerContentProvider}
+  com.reddit.frontpage/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{277fb5 com.reddit.frontpage/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.reddit.frontpage/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{4b8b64a com.reddit.frontpage/com.google.firebase.provider.FirebaseInitProvider}
+  com.reddit.frontpage/com.reddit.domain.common.DomainContentProvider:
+    Provider{16c59bb com.reddit.frontpage/com.reddit.domain.common.DomainContentProvider}
+  com.reddit.frontpage/androidx.startup.InitializationProvider:
+    Provider{1b5ed8 com.reddit.frontpage/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.reddit.frontpage.provider.userdata]:
+    Provider{89b943e com.reddit.frontpage/com.reddit.data.provider.UserDataStubProvider}
+      applicationInfo=ApplicationInfo{59d6231 com.reddit.frontpage}
+  [com.reddit.frontpage.firebaseperfprovider]:
+    Provider{277fb5 com.reddit.frontpage/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{ad3ed16 com.reddit.frontpage}
+  [com.reddit.frontpage.domaincontentprovider]:
+    Provider{16c59bb com.reddit.frontpage/com.reddit.domain.common.DomainContentProvider}
+      applicationInfo=ApplicationInfo{37cd697 com.reddit.frontpage}
+  [com.reddit.frontpage.androidx-startup]:
+    Provider{1b5ed8 com.reddit.frontpage/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{5539084 com.reddit.frontpage}
+  [com.reddit.frontpage.provider.appdata]:
+    Provider{3318543 com.reddit.frontpage/com.reddit.data.provider.AppDataStubProvider}
+      applicationInfo=ApplicationInfo{4b4f06d com.reddit.frontpage}
+  [com.reddit.frontpage.provider.file]:
+    Provider{75d329f com.reddit.frontpage/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{399c4a2 com.reddit.frontpage}
+  [com.reddit.frontpage.pre_start_process_lifecycle_owner_content_provider]:
+    Provider{e152fec com.reddit.frontpage/com.reddit.domain.session.foreground.lifecycleowner.PreStartProcessLifecycleOwnerContentProvider}
+      applicationInfo=ApplicationInfo{9ae4533 com.reddit.frontpage}
+  [com.reddit.frontpage.firebaseinitprovider]:
+    Provider{4b8b64a com.reddit.frontpage/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{bb30f0 com.reddit.frontpage}
+  [com.reddit.frontpage.analyticscontentprovider]:
+    Provider{78257c0 com.reddit.frontpage/com.reddit.data.events.AnalyticsContentProvider}
+      applicationInfo=ApplicationInfo{23d2669 com.reddit.frontpage}
+  [com.reddit.frontpage.lifecycle-process]:
+    Provider{7bc0cf9 com.reddit.frontpage/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{3f388ee com.reddit.frontpage}
+
+Key Set Manager:
+  [com.reddit.frontpage]
+      Signing KeySets: 161
+
+Packages:
+  Package [com.reddit.frontpage] (fd11e66):
+    appId=10392
+    sharedUser=SharedUserSetting{87e018f com.reddit.reddit/10392}
+    pkg=Package{5ba6c1c com.reddit.frontpage}
+    codePath=/data/app/~~QVKuGsbdx4o96r8vWnbSGw==/com.reddit.frontpage-6P9irqQdmY1GvLfCYD-Ypw==
+    resourcePath=/data/app/~~QVKuGsbdx4o96r8vWnbSGw==/com.reddit.frontpage-6P9irqQdmY1GvLfCYD-Ypw==
+    legacyNativeLibraryDir=/data/app/~~QVKuGsbdx4o96r8vWnbSGw==/com.reddit.frontpage-6P9irqQdmY1GvLfCYD-Ypw==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=420562 minSdk=23 targetSdk=30
+    minExtensionVersions=[]
+    versionName=2022.6.2
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesPackages=[com.instagram.android, com.snapchat.android, com.facebook.katana, com.twitter.android, com.google.android.apps.messaging, com.facebook.orca, com.google.android.gm]
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.SENDTO dat=*:/... }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.intent.action.SEND dat=content://*/... typ=text/plain }, Intent { act=android.intent.action.SEND dat=content://*/... typ=image/* }, Intent { act=android.intent.action.SEND dat=content://*/... typ=video/mp4 }, Intent { act=android.intent.action.SEND dat=content://*/... typ=image/* }, Intent { act=android.intent.action.VIEW }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-07-29 21:33:06
+    lastUpdateTime=2025-07-29 21:33:06
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{6f8c025 version:3, signatures:[12369d8a], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.USE_CREDENTIALS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.sec.android.provider.badge.permission.READ
+      android.permission.FOREGROUND_SERVICE
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WRITE_SYNC_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_APP_BADGE
+      android.permission.READ_MEDIA_IMAGES
+      com.majeur.launcher.permission.UPDATE_BADGE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      com.oppo.launcher.permission.READ_SETTINGS
+      android.permission.CAMERA
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      com.sec.android.provider.badge.permission.WRITE
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.VIBRATE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.USE_BIOMETRIC
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECORD_AUDIO
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=81645 deDataInode=50471 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.reddit.frontpage
+      firstInstallTime=2025-07-29 21:33:06
+      uninstallReason=0
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.einnovation.temu:
+      com.reddit.frontpage
+    com.reddit.frontpage:
+      com.instagram.android
+      com.google.android.gm
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.reddit.frontpage
+    com.xiaomi.aicr:
+      com.reddit.frontpage
+    com.android.contacts:
+      com.reddit.frontpage
+    com.xiaomi.gamecenter.sdk.service:
+      com.reddit.frontpage
+    com.android.settings.intelligence:
+      com.reddit.frontpage
+    com.android.camera:
+      com.reddit.frontpage
+    com.miui.nextpay:
+      com.reddit.frontpage
+    com.xiaomi.mis:
+      com.reddit.frontpage
+    com.miui.hybrid:
+      com.reddit.frontpage
+    com.xiaomi.market:
+      com.reddit.frontpage
+    com.miui.systemAdSolution:
+      com.reddit.frontpage
+    com.xiaomi.account:
+      com.reddit.frontpage
+    com.miui.greenguard:
+      com.reddit.frontpage
+    com.xiaomi.payment:
+      com.reddit.frontpage
+    com.xiaomi.xmsf:
+      com.reddit.frontpage
+    com.android.providers.downloads.ui:
+      com.reddit.frontpage
+    com.mfashiongallery.emag:
+      com.reddit.frontpage
+    com.android.calendar:
+      com.reddit.frontpage
+    com.android.email:
+      com.reddit.frontpage
+    com.miui.gallery:
+      com.reddit.frontpage
+    com.android.soundrecorder:
+      com.reddit.frontpage
+    com.miui.virtualsim:
+      com.reddit.frontpage
+    com.getsurfboard:
+      com.reddit.frontpage
+    com.xingin.xhs:
+      com.reddit.frontpage
+    com.duokan.reader:
+      com.reddit.frontpage
+    com.instagram.android:
+      com.reddit.frontpage
+    com.ebay.mobile:
+      com.reddit.frontpage
+    com.microsoft.todos:
+      com.reddit.frontpage
+    com.miui.video:
+      com.reddit.frontpage
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.reddit.frontpage
+    com.alibaba.aliexpresshd:
+      com.reddit.frontpage
+    com.google.android.apps.magazines:
+      com.reddit.frontpage
+    com.spotify.music:
+      com.reddit.frontpage
+    com.google.android.apps.youtube.music:
+      com.reddit.frontpage
+    com.microsoft.office.outlook:
+      com.reddit.frontpage
+    com.ss.android.article.news:
+      com.reddit.frontpage
+    com.jijia.bqwnl:
+      com.reddit.frontpage
+    com.quark.browser:
+      com.reddit.frontpage
+    com.baidu.BaiduMap:
+      com.reddit.frontpage
+    com.UCMobile:
+      com.reddit.frontpage
+    com.autonavi.minimap:
+      com.reddit.frontpage
+    com.dragon.read:
+      com.reddit.frontpage
+    com.jijia.jjweather:
+      com.reddit.frontpage
+    com.zhuantech.sijiweather:
+      com.reddit.frontpage
+    com.suxing.sustream:
+      com.reddit.frontpage
+    com.yahoo.mobile.client.android.mail:
+      com.reddit.frontpage
+    com.reddit.frontpage:
+      [com.xiaomi.bluetooth,com.android.bluetooth]
+      com.android.contacts
+      com.xiaomi.gamecenter.sdk.service
+      com.android.mms
+      com.unionpay.tsmservice.mi
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+      com.wuba.zhuanzhuan
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.miui.virtualsim
+      com.xiaomi.scanner
+      com.android.chrome
+      com.xingin.xhs
+      com.instagram.android
+      com.google.android.gm
+      com.ebay.mobile
+      com.anydo
+      com.microsoft.todos
+      com.miui.video
+      com.todoist
+      com.google.android.apps.tasks
+      com.alibaba.aliexpresshd
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.ss.android.ugc.aweme
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.jijia.bqwnl
+      com.quark.browser
+      com.kuaishou.nebula
+      com.baidu.BaiduMap
+      com.UCMobile
+      com.autonavi.minimap
+      com.baidu.searchbox.lite
+      com.dragon.read
+      com.jijia.jjweather
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [com.reddit.reddit] (87e018f):
+    appId=10392
+    Packages
+      PackageSetting{fd11e66 com.reddit.frontpage/10392}
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: 
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Dexopt state:
+  [com.reddit.frontpage]
+    path: /data/app/~~QVKuGsbdx4o96r8vWnbSGw==/com.reddit.frontpage-6P9irqQdmY1GvLfCYD-Ypw==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.reddit.frontpage]
+     base.apk - 2681

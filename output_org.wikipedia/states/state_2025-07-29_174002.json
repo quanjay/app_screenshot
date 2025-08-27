@@ -1,0 +1,2386 @@
+{
+  "tag": "2025-07-29_174002",
+  "state_str": "ba248807f96a72bfcefead2257063f9e",
+  "state_str_content_free": "cbe0129ed19a52cf7cf0f6ba9bf88fb9",
+  "foreground_activity": "org.wikipedia.beta/org.wikipedia.main.MainActivity",
+  "activity_stack": [
+    "org.wikipedia.beta/org.wikipedia.main.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.xiaomi.aicr/.access.AiCrCognitionService",
+    "com.alibaba.aliexpresshd/anetwork.channel.aidl.NetworkService",
+    "com.ss.android.ugc.aweme/com.bytedance.novel.audio.notification.session.MediaSessionService",
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "com.qti.phone/.ExtTelephonyService",
+    "com.quark.browser/com.alibaba.analytics.AnalyticsService",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.miui.miwallpaper/.wallpaperservice.ImageWallpaper",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "org.codeaurora.ims/.ImsService",
+    "com.alibaba.aliexpresshd/com.alibaba.analytics.AnalyticsService",
+    "com.xiaomi.mi_connect_service/.MiConnectService",
+    "com.android.providers.downloads/.remote.service.DebugLogService",
+    "com.miui.securitycenter/com.miui.securityscan.fileobserver.ImageProtectService",
+    "com.milink.service/com.milink.runtime.SentryService",
+    "com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.ContinuityServiceManagerService",
+    "com.xiaomi.xmsf/.services.ServiceBoxService",
+    "com.xiaomi.market/.preinstall.DynamicPreInstallService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.qualcomm.location/.LocationService",
+    "com.miui.home/.recents.TouchInteractionService",
+    "com.miui.powerkeeper/.feedbackcontrol.FeedbackControlService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.qualcomm.qti.devicestatisticsservice/.DeviceStatisticsService",
+    "com.miui.analytics/.onetrack.OneTrackService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.VideoToolBoxService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.minearby.MiuiBluetoothParamsConfigService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.ss.android.ugc.aweme/.player.plugin.mediasession.common.MediaSessionService",
+    "com.qualcomm.location/.izat.IzatService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.alibaba.aliexpresshd/org.android.agoo.accs.AgooService",
+    "org.wikipedia.beta/org.wikipedia.push.WikipediaFirebaseMessagingService",
+    "com.miui.voiceassist/com.xiaomi.voiceassistant.AssistInteractionService",
+    "com.milink.service/com.xiaomi.dist.hardware.service.DistributedHardwareService",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionService",
+    "com.miui.dmregservice/cn.richinfo.dm.service.DMService",
+    "com.miui.securitycenter/com.miui.antivirus.service.GuardService",
+    "com.miui.misightservice/.MiSightManagerService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.miui.video/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.xiaomi.mirror/.MainService",
+    "com.miui.powerkeeper/.powerchecker.PowerCheckerService",
+    "com.miui.video/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.qualcomm.qti.workloadclassifier/.WLCService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.NotificationListener",
+    "com.miui.carlink/com.carwith.common.telecom.InCallServiceImpl",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.xiaomi.xmsf/com.miui.server.appupdate.AppUpdateService",
+    "com.xiaomi.xmsf/.services.MainProcBridgeService",
+    "com.alibaba.aliexpresshd/com.taobao.orange.service.OrangeApiService",
+    "com.miui.hybrid/.host.HostService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.proxy.ProxyServiceManagerService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.networking.service.NetworkingService",
+    "com.android.thememanager/.aiwallpaper.core.AIWallpaperService",
+    "org.codeaurora.ims/.QtiImsExtService",
+    "com.xiaomi.account/.XiaomiAccountService",
+    "com.quark.browser/com.taobao.accs.ChannelService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokGeocodeService",
+    "com.milink.service/com.xiaomi.dist.camera.kit.CameraControllerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.miui.systemAdSolution/.splashscreen.SplashScreenService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyServiceV2",
+    "com.android.mtp/.MtpService",
+    "com.alibaba.aliexpresshd/com.taobao.accs.ChannelService",
+    "com.miui.securitycenter/com.miui.networkassistant.vpn.miui.MiuiVpnManageService",
+    "com.alibaba.aliexpresshd/com.aidc.immortal.DaemonService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.main.PreLaunchService",
+    "com.instagram.android/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "vendor.qti.data.ntnsatapp/.NtnDataServiceImpl",
+    "com.android.updater/.UpdateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.xiaomi.misettings/.usagestats.widget.desktop.service.UsageStatsUpdateService",
+    "com.xiaomi.phone/com.xiaomi.services.telephony.MiTelephonyService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.GameBoosterService",
+    "com.alibaba.aliexpresshd/.TaobaoIntentService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.miui.securitycenter/com.miui.gamebooster.beauty.BeautyService",
+    "com.miui.analytics/.onetrack.TrackService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.miui.powerkeeper/.thermal.ThermalService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.headset.BluetoothHeadsetService",
+    "com.android.quicksearchbox/.overlay.SearchOverlayService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.netbus.service.NetBusService",
+    "com.android.phone/com.android.internal.telephony.data.CellularDataService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "com.miui.securitycenter/com.miui.powercenter.provider.PowerSaveService",
+    "com.alibaba.aliexpresshd/com.taobao.uc.service.SandboxedPrivilegedProcessService0",
+    "com.miui.securitycenter/com.miui.gamebooster.mutiwindow.FreeformWindowService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.miui.securitycenter/com.miui.antispam.service.AntiSpamService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "vendor.qti.qesdk.sysservice/.QesdkSysService",
+    "com.android.systemui/.SystemUIService",
+    "com.xiaomi.xmsf/com.xiaomi.push.service.XMPushService",
+    "com.xiaomi.aicr/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/androidx.room.MultiInstanceInvalidationService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "com.android.providers.downloads.ui/.service.DataLimitService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.microsoft.emmx/org.chromium.chrome.browser.edge_read_aloud.service.ReadAloudService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyService",
+    "com.miui.guardprovider/.manager.SecurityService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionServiceReal",
+    "com.android.phone/.LowLatencyAidlService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.xiaomi.misettings/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/com.xiaomi.xms.auth.AuthService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.ipc.FinAppAIDLService",
+    "com.qualcomm.atfwd2/.AtFwdService",
+    "com.google.android.gms/com.google.android.location.reporting.service.ReportingAndroidService",
+    "com.miui.securitycenter/com.miui.ai.service.OperationListCollectService",
+    "com.miui.daemon/.performance.SysoptService",
+    "com.qti.dpmserviceapp/.DpmServiceApp",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.xiaomi.bluetooth/.mma.MiuiMMAService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.xiaomi.xmsfkeeper/.KeeperService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.xiaomi.registration/.autoregistration.RegistrationService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "com.miui.analytics/.internal.WakeupService",
+    "com.xiaomi.joyose/.gameInfo.GameInfoService",
+    "com.miui.powerkeeper/.WakelockManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AppPredictService",
+    "com.android.browser/com.miui.org.chromium.content.app.SandboxedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.xms.core.XmsCoreService",
+    "vendor.qti.data.txpwradmin/.StxPwrService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "com.miui.carlink/com.carwith.launcher.wms.UCarWindowManagerService",
+    "com.miui.misightservice/.misightserviceability.DetectionService",
+    "com.milink.service/com.miui.miplay.audio.service.CoreService",
+    "com.miui.powerkeeper/.PowerKeeperBackgroundService",
+    "com.qualcomm.qti.dynamicddsservice/.DynamicDDSService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "com.android.smspush/.WapPushManager",
+    "com.miui.securitycenter/.service.RemoteService",
+    "com.xiaomi.bluetooth/.MiuiBluetoothPlatformService",
+    "com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.quark.browser/com.uc.quark.filedownloader.services.FileDownloadService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.miui.securitycenter/com.miui.apppredict.service.AiService",
+    "com.miui.wmsvc/.WMService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.xiaomi.gnss.polaris/.PolarisService",
+    "com.android.soundrecorder/.RecorderService",
+    "com.xiaomi.joyose/.smartop.SmartOpService",
+    "com.miui.powerkeeper/.statemachine.PowerStateMachineService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokLocationService",
+    "com.android.providers.downloads/.remote.service.LimitSpeedService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.xiaomi.mirror/.SynergyService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.FirewallService",
+    "com.miui.daemon/.performance.MiuiPerfService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.android.browser/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.qualcomm.qti.services.systemhelper/.SysHelperService",
+    "com.musicworx/com.google.firebase.sessions.SessionLifecycleService",
+    "com.alibaba.aliexpresshd/com.aidc.immortal.ProcessStateService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.tm.TrafficManageService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "org.ifaa.aidl.manager/.IfaaService",
+    "com.android.mms/org.rcs.service.isl.RcsService",
+    "com.miui.hybrid/com.xiaomi.mipush.sdk.MessageHandleService",
+    "com.xiaomi.location.fused/.FusedLocationService",
+    "com.miui.miwallpaper/.server.MiuiWallPaperControllerService",
+    "com.miui.personalassistant/.core.overlay.AssistantOverlayService",
+    "com.quark.browser/com.iqiyi.android.qigsaw.core.splitinstall.SplitCleanService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.xiaomi.account/.tzservice.SecurityDeviceSignService",
+    "com.lbe.security.miui/com.lbe.security.service.SecurityService",
+    "com.miui.hybrid/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.milink.service/com.xiaomi.miplay.mylibrary.MiPlayAudioService",
+    "com.alibaba.aliexpresshd/com.taobao.accs.data.MsgDistributeService",
+    "com.xiaomi.aicr/.access.AiCrCoreService",
+    "com.quark.browser/com.uc.push.accs.AccsPushIntentService",
+    "com.tencent.soter.soterserver/.SoterService",
+    "com.xiaomi.touchservice/.TouchService",
+    "com.google.android.gms/.personalsafety.service.LockingTrustAgentService",
+    "com.android.providers.downloads/.remote.service.DownloadSettingsProviderService"
+  ],
+  "width": 1200,
+  "height": 2670,
+  "views": [
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        53,
+        54
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1200*2670",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8634a4681739aa91d9c8f51602aeef8c"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1200*2622",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "23561ac7ef5f11ef91f4ef9716368f69"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "86a1e6d74379ac4861d631daa0ec6b86"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "49e96fef9a3f16d531d221e6034623b1"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "3444ac083f74374373cab58caf276842"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1200*2506",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "54fe9d4e4847e268e6ad6c79350b754e"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          116
+        ],
+        [
+          1200,
+          284
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/main_toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1200*168",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia.beta:id/main_toolbar[text]None[enabled,,]",
+      "view_str": "eb02468211fb3bd7dd71f55f7600da5c"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          151
+        ],
+        [
+          192,
+          248
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u7f16\u8f91",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "144*97",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u7f16\u8f91[enabled,,]",
+      "view_str": "c6f1f4fe4f25f99183637104683b4ef8",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<p bound_box=48,151,192,248>\u7f16\u8f91</p>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1200,
+          116
+        ],
+        [
+          1200,
+          284
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "0*168",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "7e1b40fb6352e35f2d0ae4a5b5da9a97"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 9,
+      "size": "1200*2338",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/fragment_container[text]None[enabled,,]",
+      "view_str": "9cdc79404e9ead1b2f9272870bc796d6"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1200*2338",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "aed08d9206d7fa010321015ebb25362e"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2454
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/fragment_main_coordinator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1200*2170",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia.beta:id/fragment_main_coordinator[text]None[enabled,,]",
+      "view_str": "4e2a54db4c79fcd4624ead59ea759015"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2454
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/main_view_pager",
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1200*2170",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]org.wikipedia.beta:id/main_view_pager[text]None[enabled,,]",
+      "view_str": "f20d1035f6ed32ae3bf91881423030aa"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2454
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1200*2170",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]None[text]None[enabled,,]",
+      "view_str": "95a462999791d6000083bf731dc42652",
+      "allowed_actions": [
+        "scroll up",
+        "scroll down"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<scrollbar bound_box=0,284,1200,2454></scrollbar>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2454
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1200*2170",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "898eccc687d4d8a186f4df84e952c8a2"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2454
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/swipeRefreshLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "1200*2170",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia.beta:id/swipeRefreshLayout[text]None[enabled,,]",
+      "view_str": "6bd91a3dd3d4fc32c3ea7c3e71a1fae2"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2454
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1200*2170",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "778af518a0f9139f8bc5da20ded15ad8"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          2454
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/suggestedEditsScrollView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1200*2170",
+      "signature": "[class]android.widget.ScrollView[resource_id]org.wikipedia.beta:id/suggestedEditsScrollView[text]None[enabled,,]",
+      "view_str": "cc259c3babd7fd3e0fbe69cb4f3d65ae"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          284
+        ],
+        [
+          1200,
+          1736
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1200*1452",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "993bfe3e0365d348e30344c9fe761813"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          332
+        ],
+        [
+          1152,
+          1664
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/disabledStatesView",
+      "checked": false,
+      "text": null,
+      "class": "androidx.cardview.widget.CardView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1104*1332",
+      "signature": "[class]androidx.cardview.widget.CardView[resource_id]org.wikipedia.beta:id/disabledStatesView[text]None[enabled,,]",
+      "view_str": "07ab213bfd886676f4965d692af65412"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          332
+        ],
+        [
+          1152,
+          1664
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1104*1332",
+      "signature": "[class]android.widget.ScrollView[resource_id]None[text]None[enabled,,]",
+      "view_str": "7267a5b3145fe20d70de1f9a8a85d7fd"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          332
+        ],
+        [
+          1152,
+          1664
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/containerClickArea",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1104*1332",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia.beta:id/containerClickArea[text]None[enabled,,]",
+      "view_str": "547859edc34a14001ed84904a0125ef1"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          380
+        ],
+        [
+          1104,
+          656
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/imageView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1008*276",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia.beta:id/imageView[text]None[enabled,,]",
+      "view_str": "7d98e099f7799f3b9f4e2a86e31b33b5"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          704
+        ],
+        [
+          1104,
+          902
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/messageTitleView",
+      "checked": false,
+      "text": "\u4f60\u77e5\u9053\u4efb\u4f55\u4eba\u90fd\u53ef\u4ee5\u7f16\u8f91\u7ef4\u57fa\u767e\u79d1\u5417\uff1f",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "1008*198",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia.beta:id/messageTitleView[text]\u4f60\u77e5\u9053\u4efb\u4f55\u4eba\u90fd\u53ef\u4ee5\u7f16\u8f91\u7ef4\u57fa\u767e\u79d1\u5417\uff1f[enabled,,]",
+      "view_str": "4263d41797c027bd891f8e35bf1a7da6",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<button bound_box=96,704,1104,902>\u4f60\u77e5\u9053\u4efb\u4f55\u4eba\u90fd\u53ef\u4ee5\u7f16\u8f91\u7ef4\u57fa\u767e\u79d1\u5417\uff1f</button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          938
+        ],
+        [
+          1104,
+          1478
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/messageTextView",
+      "checked": false,
+      "text": "\u5efa\u8bae\u7f16\u8f91\u662f\u5728Android\u4e0a\u7f16\u8f91\u7ef4\u57fa\u767e\u79d1\u7684\u5168\u65b0\u9014\u5f84\u3002\u5229\u7528\u5b83\uff0c\u60a8\u5c31\u53ef\u4ee5\u4e3a\u7ef4\u57fa\u767e\u79d1\u505a\u51fa\u5fae\u5c0f\u5374\u4e0d\u53ef\u6216\u7f3a\u7684\u8d21\u732e\u3002\n\u6211\u4eec\u7684\u76ee\u6807\u662f\u8ba9\u6240\u6709\u4eba\u90fd\u80fd\u66f4\u8f7b\u677e\u3001\u66f4\u65e0\u969c\u788d\u5730\u7f16\u8f91\u7ef4\u57fa\u767e\u79d1\u3002\u8bf7\u767b\u5f55\u6216\u8005\u6ce8\u518c\u7ef4\u57fa\u767e\u79d1\u6765\u5f00\u59cb\u3002",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 24,
+      "size": "1008*540",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia.beta:id/messageTextView[text]None[enabled,,]",
+      "view_str": "22700d73dca6b3be0b4f4e2ae02e90a3",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<button bound_box=96,938,1104,1478>\u5efa\u8bae\u7f16\u8f91\u662f\u5728Android\u4e0a\u7f16\u8f91\u7ef4\u57fa\u767e\u79d1\u7684\u5168\u65b0\u9014\u5f84\u3002\u5229\u7528\u5b83\uff0c\u60a8\u5c31\u53ef\u4ee5\u4e3a\u7ef4\u57fa\u767e\u79d1\u505a\u51fa\u5fae\u5c0f\u5374\u4e0d\u53ef\u6216\u7f3a\u7684\u8d21\u732e\u3002\n\u6211\u4eec\u7684\u76ee\u6807\u662f\u8ba9\u6240\u6709\u4eba\u90fd\u80fd\u66f4\u8f7b\u677e\u3001\u66f4\u65e0\u969c\u788d\u5730\u7f16\u8f91\u7ef4\u57fa\u767e\u79d1\u3002\u8bf7\u767b\u5f55\u6216\u8005\u6ce8\u518c\u7ef4\u57fa\u767e\u79d1\u6765\u5f00\u59cb\u3002</button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          1496
+        ],
+        [
+          1104,
+          1640
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 25,
+      "size": "1008*144",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "7bbcd3605f925a77b7f43d7bd42737be"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          1496
+        ],
+        [
+          525,
+          1640
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/positiveButton",
+      "checked": false,
+      "text": "\u767b\u5f55/\u52a0\u5165\u7ef4\u57fa\u767e\u79d1",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "429*144",
+      "signature": "[class]android.widget.Button[resource_id]org.wikipedia.beta:id/positiveButton[text]\u767b\u5f55/\u52a0\u5165\u7ef4\u57fa\u767e\u79d1[enabled,,]",
+      "view_str": "c580e0170061ac0aac51bcd780eb558a",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "4",
+      "desc": "<button bound_box=96,1496,525,1640>\u767b\u5f55/\u52a0\u5165\u7ef4\u57fa\u767e\u79d1</button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        28,
+        50
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2454
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/main_nav_tab_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 27,
+      "size": "1200*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia.beta:id/main_nav_tab_container[text]None[enabled,,]",
+      "view_str": "37c419af90100e4eb1624f96d5d32c2f"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2454
+        ],
+        [
+          960,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/main_nav_tab_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "960*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/main_nav_tab_layout[text]None[enabled,,]",
+      "view_str": "2001c836cd9dbad8c26ba4e9ae29b57b"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30,
+        35,
+        40,
+        45
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2454
+        ],
+        [
+          960,
+          2622
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "960*168",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "2c92d655aee7bdf896d5f133c3af6352"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u63a2\u7d22",
+      "children": [
+        31,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2454
+        ],
+        [
+          240,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/nav_tab_explore",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "240*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/nav_tab_explore[text]None[enabled,,]",
+      "view_str": "25c1392c1886009ef80057da90b644b6",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "5",
+      "desc": "<button text='\u63a2\u7d22' bound_box=0,2454,240,2622></button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          2478
+        ],
+        [
+          156,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "72*72",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_container[text]None[enabled,,]",
+      "view_str": "4485dff37b326e722387da362972df69"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          2478
+        ],
+        [
+          156,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "72*72",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_view[text]None[enabled,,]",
+      "view_str": "64927fc968f8cc67ba1b760fa6b677d8"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          90,
+          2560
+        ],
+        [
+          150,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 33,
+      "size": "60*62",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia.beta:id/navigation_bar_item_labels_group[text]None[enabled,,]",
+      "view_str": "041126369fe82e26ab8df29887e72ddc"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          90,
+          2560
+        ],
+        [
+          150,
+          2601
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_small_label_view",
+      "checked": false,
+      "text": "\u63a2\u7d22",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "60*41",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia.beta:id/navigation_bar_item_small_label_view[text]\u63a2\u7d22[enabled,,]",
+      "view_str": "dfe940b6d9e550e5adc1a6b3fb416d79",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "6",
+      "desc": "<button bound_box=90,2560,150,2601>\u63a2\u7d22</button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u5df2\u4fdd\u5b58",
+      "children": [
+        36,
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          240,
+          2454
+        ],
+        [
+          480,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/nav_tab_reading_lists",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 35,
+      "size": "240*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/nav_tab_reading_lists[text]None[enabled,,]",
+      "view_str": "566df829618ad13f62370545dc591244",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "7",
+      "desc": "<button text='\u5df2\u4fdd\u5b58' bound_box=240,2454,480,2622></button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        37
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          324,
+          2478
+        ],
+        [
+          396,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "72*72",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_container[text]None[enabled,,]",
+      "view_str": "3f28b8dee8bb77b23b02c9686706fa63"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          324,
+          2478
+        ],
+        [
+          396,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "72*72",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_view[text]None[enabled,,]",
+      "view_str": "d99dc3d491d52eaf3d5cacc367c89da1"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          315,
+          2560
+        ],
+        [
+          405,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 38,
+      "size": "90*62",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia.beta:id/navigation_bar_item_labels_group[text]None[enabled,,]",
+      "view_str": "5eb21792782b8533111ab2e12fd86c69"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          315,
+          2560
+        ],
+        [
+          405,
+          2601
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_small_label_view",
+      "checked": false,
+      "text": "\u5df2\u4fdd\u5b58",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "90*41",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia.beta:id/navigation_bar_item_small_label_view[text]\u5df2\u4fdd\u5b58[enabled,,]",
+      "view_str": "418c8cb9fe2c61fe66eee69a8b4dcc34",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "8",
+      "desc": "<button bound_box=315,2560,405,2601>\u5df2\u4fdd\u5b58</button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u641c\u7d22",
+      "children": [
+        41,
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          480,
+          2454
+        ],
+        [
+          720,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/nav_tab_search",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 40,
+      "size": "240*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/nav_tab_search[text]None[enabled,,]",
+      "view_str": "c1d1d381efb1a57c8d0d76b00f17aabd",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "9",
+      "desc": "<button text='\u641c\u7d22' bound_box=480,2454,720,2622></button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          564,
+          2478
+        ],
+        [
+          636,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "72*72",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_container[text]None[enabled,,]",
+      "view_str": "5551610e98ec599bb74ec552653e766c"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          564,
+          2478
+        ],
+        [
+          636,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "72*72",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_view[text]None[enabled,,]",
+      "view_str": "9511910d6486261bb44c6ce8118f6acb"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          570,
+          2560
+        ],
+        [
+          630,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 43,
+      "size": "60*62",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia.beta:id/navigation_bar_item_labels_group[text]None[enabled,,]",
+      "view_str": "3a3392cddf88dd3ab9c5409efdc4d254"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          570,
+          2560
+        ],
+        [
+          630,
+          2601
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_small_label_view",
+      "checked": false,
+      "text": "\u641c\u7d22",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "60*41",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia.beta:id/navigation_bar_item_small_label_view[text]\u641c\u7d22[enabled,,]",
+      "view_str": "04a8c25eafb9b942a7a84756d2c8abe4",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "10",
+      "desc": "<button bound_box=570,2560,630,2601>\u641c\u7d22</button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u7f16\u8f91",
+      "children": [
+        46,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          2454
+        ],
+        [
+          960,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/nav_tab_edits",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 45,
+      "size": "240*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/nav_tab_edits[text]None[enabled,,selected]",
+      "view_str": "9c36b6083002342e9184b15c7423b228",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [
+        "selected"
+      ],
+      "local_id": "11",
+      "desc": "<p text='\u7f16\u8f91' bound_box=720,2454,960,2622></p>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          804,
+          2478
+        ],
+        [
+          876,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 45,
+      "temp_id": 46,
+      "size": "72*72",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_container[text]None[enabled,,selected]",
+      "view_str": "a8692e52f9c016920e726e788af6162a"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          804,
+          2478
+        ],
+        [
+          876,
+          2550
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_icon_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "72*72",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia.beta:id/navigation_bar_item_icon_view[text]None[enabled,,selected]",
+      "view_str": "9be856889eb0074f18a7070c2b4993e6"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          2560
+        ],
+        [
+          870,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_labels_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 45,
+      "temp_id": 48,
+      "size": "60*62",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia.beta:id/navigation_bar_item_labels_group[text]None[enabled,,selected]",
+      "view_str": "b60cb69939d8326076aeeaea5e1a1793"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          2560
+        ],
+        [
+          870,
+          2601
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/navigation_bar_item_large_label_view",
+      "checked": false,
+      "text": "\u7f16\u8f91",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "60*41",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia.beta:id/navigation_bar_item_large_label_view[text]\u7f16\u8f91[enabled,,selected]",
+      "view_str": "a8b6e8689bdffc531584603ac796da2e",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [
+        "selected"
+      ],
+      "local_id": "12",
+      "desc": "<p bound_box=810,2560,870,2601>\u7f16\u8f91</p>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u66f4\u591a",
+      "children": [
+        51,
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          960,
+          2454
+        ],
+        [
+          1200,
+          2622
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/nav_more_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 27,
+      "temp_id": 50,
+      "size": "240*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia.beta:id/nav_more_container[text]None[enabled,,]",
+      "view_str": "86b6ab6838afccccae7e6c312af9cc30",
+      "allowed_actions": [
+        "touch",
+        "long_touch"
+      ],
+      "special_attrs": [],
+      "local_id": "13",
+      "desc": "<button text='\u66f4\u591a' bound_box=960,2454,1200,2622></button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1044,
+          2483
+        ],
+        [
+          1116,
+          2555
+        ]
+      ],
+      "resource_id": "org.wikipedia.beta:id/menu_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "72*72",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia.beta:id/menu_icon[text]None[enabled,,]",
+      "view_str": "75ab1f165392590ddf16115a7e4db8dc"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          960,
+          2559
+        ],
+        [
+          1200,
+          2600
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u66f4\u591a",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 52,
+      "size": "240*41",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u66f4\u591a[enabled,,]",
+      "view_str": "3772578475f99911d6eb03aded5c3aa4",
+      "allowed_actions": [
+        "touch",
+        "long_touch"
+      ],
+      "special_attrs": [],
+      "local_id": "14",
+      "desc": "<button bound_box=960,2559,1200,2600>\u66f4\u591a</button>"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1200,
+          116
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 53,
+      "size": "1200*116",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "5154f12318d4ba19010b6290e0ef7330"
+    },
+    {
+      "package": "org.wikipedia.beta",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2622
+        ],
+        [
+          1200,
+          2670
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 54,
+      "size": "1200*48",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "a2206a75ef67498ae5eaa2576baf7c09"
+    }
+  ]
+}

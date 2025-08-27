@@ -1,0 +1,938 @@
+{
+  "tag": "2025-08-07_154201",
+  "state_str": "17b7755e8be3f7600064fc8c07145966",
+  "state_str_content_free": "05395c0f78ceab6cb2ff3f30efbccfb9",
+  "foreground_activity": "com.accuweather.android/.activities.OnboardingActivity",
+  "activity_stack": [
+    "com.accuweather.android/.activities.OnboardingActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.xiaomi.aicr/.access.AiCrCognitionService",
+    "com.alibaba.aliexpresshd/anetwork.channel.aidl.NetworkService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "com.qti.phone/.ExtTelephonyService",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.miui.miwallpaper/.wallpaperservice.ImageWallpaper",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "org.codeaurora.ims/.ImsService",
+    "com.alibaba.aliexpresshd/com.alibaba.analytics.AnalyticsService",
+    "com.xiaomi.mi_connect_service/.MiConnectService",
+    "com.android.providers.downloads/.remote.service.DebugLogService",
+    "com.miui.personalassistant/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.xiaomi.market/.data.SubScriptService",
+    "com.miui.securitycenter/com.miui.securityscan.fileobserver.ImageProtectService",
+    "com.milink.service/com.milink.runtime.SentryService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.ContinuityServiceManagerService",
+    "com.xiaomi.xmsf/.services.ServiceBoxService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.qualcomm.location/.LocationService",
+    "com.miui.home/.recents.TouchInteractionService",
+    "com.miui.powerkeeper/.feedbackcontrol.FeedbackControlService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.qualcomm.qti.devicestatisticsservice/.DeviceStatisticsService",
+    "com.miui.analytics/.onetrack.OneTrackService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.VideoToolBoxService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService",
+    "com.ss.android.ugc.aweme/org.chromium.content.app.SandboxedProcessService0",
+    "com.miui.newhome/.service.FeedOverlayService",
+    "com.google.android.gms/org.chromium.content.app.SandboxedProcessService0",
+    "com.qualcomm.location/.izat.IzatService",
+    "com.ss.android.ugc.aweme/com.bytedance.common.process.service.CrossProcessServiceForSmp",
+    "com.android.vending/com.google.android.finsky.developergroupidinfo.DeveloperGroupIdInfoService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.alibaba.aliexpresshd/org.android.agoo.accs.AgooService",
+    "com.miui.voiceassist/com.xiaomi.voiceassistant.AssistInteractionService",
+    "com.milink.service/com.xiaomi.dist.hardware.service.DistributedHardwareService",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionService",
+    "com.ss.android.ugc.aweme/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.miui.dmregservice/cn.richinfo.dm.service.DMService",
+    "com.miui.securitycenter/com.miui.antivirus.service.GuardService",
+    "com.miui.misightservice/.MiSightManagerService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.miui.video/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.xiaomi.mirror/.MainService",
+    "com.miui.powerkeeper/.powerchecker.PowerCheckerService",
+    "com.miui.video/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.sina.news/org.eclipse.paho.android.service.MqttService",
+    "com.miui.voiceassist/com.xiaomi.voiceassistant.VoiceService",
+    "com.qualcomm.qti.workloadclassifier/.WLCService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.NotificationListener",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.xiaomi.xmsf/com.miui.server.appupdate.AppUpdateService",
+    "com.xiaomi.xmsf/.services.MainProcBridgeService",
+    "com.alibaba.aliexpresshd/com.taobao.orange.service.OrangeApiService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.miui.hybrid/.host.HostService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.proxy.ProxyServiceManagerService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.networking.service.NetworkingService",
+    "com.android.thememanager/.aiwallpaper.core.AIWallpaperService",
+    "org.codeaurora.ims/.QtiImsExtService",
+    "com.xiaomi.account/.XiaomiAccountService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokGeocodeService",
+    "com.milink.service/com.xiaomi.dist.camera.kit.CameraControllerService",
+    "com.miui.systemAdSolution/.splashscreen.SplashScreenService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyServiceV2",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.android.mtp/.MtpService",
+    "com.alibaba.aliexpresshd/com.taobao.accs.ChannelService",
+    "com.miui.securitycenter/com.miui.networkassistant.vpn.miui.MiuiVpnManageService",
+    "com.google.android.ext.services/android.ext.services.storage.CacheQuotaServiceImpl",
+    "com.alibaba.aliexpresshd/com.aidc.immortal.DaemonService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.main.PreLaunchService",
+    "com.instagram.android/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "vendor.qti.data.ntnsatapp/.NtnDataServiceImpl",
+    "com.android.updater/.UpdateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.xiaomi.misettings/.usagestats.widget.desktop.service.UsageStatsUpdateService",
+    "com.xiaomi.phone/com.xiaomi.services.telephony.MiTelephonyService",
+    "com.miui.securitycenter/com.miui.gamebooster.service.GameBoosterService",
+    "com.alibaba.aliexpresshd/.TaobaoIntentService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.musicfx/.KeepAliveService",
+    "com.miui.securitycenter/com.miui.gamebooster.beauty.BeautyService",
+    "com.miui.analytics/.onetrack.TrackService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.miui.powerkeeper/.thermal.ThermalService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.headset.BluetoothHeadsetService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.xiaomi.mi_connect_service/com.xiaomi.continuity.netbus.service.NetBusService",
+    "com.android.phone/com.android.internal.telephony.data.CellularDataService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "com.ss.android.ugc.aweme/com.taobao.accs.data.MsgDistributeService",
+    "com.miui.securitycenter/com.miui.powercenter.provider.PowerSaveService",
+    "com.alibaba.aliexpresshd/com.taobao.uc.service.SandboxedPrivilegedProcessService0",
+    "com.accuweather.android/.notifications.AWMessagingService",
+    "com.miui.securitycenter/com.miui.gamebooster.mutiwindow.FreeformWindowService",
+    "com.miui.thirdappassistant/.persistent.PersistentBackgroundService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.miui.securitycenter/com.miui.antispam.service.AntiSpamService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "vendor.qti.qesdk.sysservice/.QesdkSysService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.push.service.XMPushService",
+    "com.xiaomi.aicr/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/androidx.room.MultiInstanceInvalidationService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "com.android.providers.downloads.ui/.service.DataLimitService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.xiaomi.bluetooth/com.android.bluetooth.ble.app.MiuiNearbyService",
+    "com.miui.guardprovider/.manager.SecurityService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.chimera.PersistentIntentOperationService",
+    "com.android.permissioncontroller/.permission.service.PermissionControllerServiceImpl",
+    "com.google.android.gms/.personalsafety.service.PSAService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.xiaomi.bluetooth/.peripheral.MiuiPeripheralConnectionServiceReal",
+    "com.accuweather.android/com.mapbox.android.telemetry.MapboxTelemetryService",
+    "com.sina.news/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.phone/.LowLatencyAidlService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.xiaomi.misettings/androidx.room.MultiInstanceInvalidationService",
+    "com.xiaomi.xmsf/com.xiaomi.xms.auth.AuthService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.xiaomi.market/com.finogeeks.lib.applet.ipc.FinAppAIDLService",
+    "com.qualcomm.atfwd2/.AtFwdService",
+    "com.miui.securitycenter/com.miui.ai.service.OperationListCollectService",
+    "com.miui.daemon/.performance.SysoptService",
+    "com.miui.cloudservice/.keybag.binder.MiCloudKeyBagService",
+    "com.qti.dpmserviceapp/.DpmServiceApp",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.xiaomi.bluetooth/.mma.MiuiMMAService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.xiaomi.xmsfkeeper/.KeeperService",
+    "com.cnn.mobile.android.phone/com.google.firebase.sessions.SessionLifecycleService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.xiaomi.registration/.autoregistration.RegistrationService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService0",
+    "com.alibaba.aliexpresshd/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.miui.analytics/.internal.WakeupService",
+    "com.xiaomi.joyose/.gameInfo.GameInfoService",
+    "com.miui.powerkeeper/.WakelockManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AppPredictService",
+    "com.android.browser/com.miui.org.chromium.content.app.SandboxedProcessService0",
+    "com.xiaomi.xmsf/com.xiaomi.xms.core.XmsCoreService",
+    "vendor.qti.data.txpwradmin/.StxPwrService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "com.miui.misightservice/.misightserviceability.DetectionService",
+    "com.yahoo.mobile.client.android.mail/com.google.firebase.sessions.SessionLifecycleService",
+    "com.miui.powerkeeper/.PowerKeeperBackgroundService",
+    "com.qualcomm.qti.dynamicddsservice/.DynamicDDSService",
+    "com.cnn.mobile.android.phone/com.mapbox.common.LifecycleService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "com.android.smspush/.WapPushManager",
+    "com.miui.securitycenter/.service.RemoteService",
+    "com.xiaomi.bluetooth/.MiuiBluetoothPlatformService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.miui.tsmclient/.service.NfcEventMonitorService",
+    "com.miui.securitycenter/com.miui.apppredict.service.AiService",
+    "com.miui.wmsvc/.WMService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.xiaomi.gnss.polaris/.PolarisService",
+    "com.android.soundrecorder/.RecorderService",
+    "com.xiaomi.joyose/.smartop.SmartOpService",
+    "com.miui.powerkeeper/.statemachine.PowerStateMachineService",
+    "com.xiaomi.metoknlp/com.xiaomi.location.metoknlp.MetokLocationService",
+    "com.android.providers.downloads/.remote.service.LimitSpeedService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.xiaomi.mirror/.SynergyService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.FirewallService",
+    "com.miui.daemon/.performance.MiuiPerfService",
+    "com.ss.android.ugc.aweme/com.umeng.message.UmengIntentService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.android.browser/com.xiaomi.mipush.sdk.PushMessageHandler",
+    "com.qualcomm.qti.services.systemhelper/.SysHelperService",
+    "com.google.android.gms/.chimera.GmsInternalBoundBrokerService",
+    "com.musicworx/com.google.firebase.sessions.SessionLifecycleService",
+    "com.alibaba.aliexpresshd/com.aidc.immortal.ProcessStateService",
+    "com.miui.securitycenter/com.miui.networkassistant.service.tm.TrafficManageService",
+    "com.smile.gifmaker/com.kwai.chat.kwailink.service.NewKwaiLinkService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "org.ifaa.aidl.manager/.IfaaService",
+    "com.ss.android.ugc.aweme/com.taobao.accs.ChannelService",
+    "com.android.mms/org.rcs.service.isl.RcsService",
+    "com.xiaomi.location.fused/.FusedLocationService",
+    "com.miui.miwallpaper/.server.MiuiWallPaperControllerService",
+    "com.miui.personalassistant/.core.overlay.AssistantOverlayService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.xiaomi.account/.tzservice.SecurityDeviceSignService",
+    "com.android.vending/com.google.android.finsky.setup.DseService",
+    "com.lbe.security.miui/com.lbe.security.service.SecurityService",
+    "com.milink.service/com.xiaomi.miplay.mylibrary.MiPlayAudioService",
+    "com.ss.android.ugc.aweme/com.bytedance.common.process.service.CrossProcessServiceForMain",
+    "com.alibaba.aliexpresshd/com.taobao.accs.data.MsgDistributeService",
+    "com.xiaomi.aicr/.access.AiCrCoreService",
+    "com.tencent.soter.soterserver/.SoterService",
+    "com.xiaomi.touchservice/.TouchService",
+    "com.skysoft.kkbox.android/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.gms/.personalsafety.service.LockingTrustAgentService",
+    "com.android.providers.downloads/.remote.service.DownloadSettingsProviderService"
+  ],
+  "width": 1200,
+  "height": 2670,
+  "views": [
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          30,
+          861
+        ],
+        [
+          1170,
+          1877
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1140*1016",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f02774f6756749ed759245d33cb73e0a"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1101
+        ],
+        [
+          1098,
+          1637
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "996*536",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "172e78b7648847eedd3521beb68bd13e"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1101
+        ],
+        [
+          1098,
+          1637
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "996*536",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "325cdb6f596889eb81977ece61360295"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1101
+        ],
+        [
+          1098,
+          1637
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "996*536",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.accuweather.android:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "dd18fb8caeb8227bb2b7212e3824a234"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1101
+        ],
+        [
+          1098,
+          1637
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "996*536",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "2d060bea62d211aa282f6603630aec42"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        10,
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1101
+        ],
+        [
+          1098,
+          1637
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "996*536",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.accuweather.android:id/parentPanel[text]None[enabled,,]",
+      "view_str": "cf26dedc786a420a0c8b64d957c3a826"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1101
+        ],
+        [
+          1098,
+          1337
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/topPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "996*236",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.accuweather.android:id/topPanel[text]None[enabled,,]",
+      "view_str": "b96f9be767fb75dc0de2e291dd7483c0"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1101
+        ],
+        [
+          1098,
+          1313
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/title_template",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "996*212",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.accuweather.android:id/title_template[text]None[enabled,,]",
+      "view_str": "ebd214133b21f4f3a6cb397e0366f6a0"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          1155
+        ],
+        [
+          1026,
+          1313
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/alertTitle",
+      "checked": false,
+      "text": "\u5141\u8bb8\u201cAccuWeather\u201d\u4f7f\u7528\u60a8\u7684\u4f4d\u7f6e\uff1f",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "852*158",
+      "signature": "[class]android.widget.TextView[resource_id]com.accuweather.android:id/alertTitle[text]\u5141\u8bb8\u201cAccuWeather\u201d\u4f7f\u7528\u60a8\u7684\u4f4d\u7f6e\uff1f[enabled,,]",
+      "view_str": "514a42949a16ee14948126ea5e94a7eb",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "0",
+      "desc": "<p bound_box=174,1155,1026,1313>\u5141\u8bb8\u201cAccuWeather\u201d\u4f7f\u7528\u60a8\u7684\u4f4d\u7f6e\uff1f</p>"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1313
+        ],
+        [
+          1098,
+          1337
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/titleDividerNoCustom",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "996*24",
+      "signature": "[class]android.view.View[resource_id]com.accuweather.android:id/titleDividerNoCustom[text]None[enabled,,]",
+      "view_str": "f7370d42d6231929bc276a7ce52149a3"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1337
+        ],
+        [
+          1098,
+          1481
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/contentPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 10,
+      "size": "996*144",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.accuweather.android:id/contentPanel[text]None[enabled,,]",
+      "view_str": "4c913fe74378941972e2e73a0a24a96b"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1337
+        ],
+        [
+          1098,
+          1459
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/scrollView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "996*122",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.accuweather.android:id/scrollView[text]None[enabled,,]",
+      "view_str": "7ce89f1b379fedbcfadf51d94140dcc5"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1337
+        ],
+        [
+          1098,
+          1459
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "996*122",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "158a7f7c83d5f3117d06723f09e3768b"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1337
+        ],
+        [
+          1098,
+          1459
+        ]
+      ],
+      "resource_id": "android:id/message",
+      "checked": false,
+      "text": "\u6211\u4eec\u5229\u7528\u60a8\u7684\u4f4d\u7f6e\u6765\u63d0\u4f9b\u5f53\u5730\u5929\u6c14\u3001\u8b66\u62a5\u548c\u5176\u4ed6\u529f\u80fd\u3002\u60a8\u53ef\u4ee5\u968f\u65f6\u66f4\u6539\u6b64\u8bbe\u7f6e\u3002",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "996*122",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/message[text]\u6211\u4eec\u5229\u7528\u60a8\u7684\u4f4d\u7f6e\u6765\u63d0\u4f9b\u5f53\u5730\u5929\u6c14\u3001\u8b66\u62a5\u548c\u5176\u4ed6\u529f\u80fd\u3002\u60a8\u53ef\u4ee5\u968f\u65f6\u66f4\u6539\u6b64\u8bbe\u7f6e\u3002[enabled,,]",
+      "view_str": "31643c84a7a37c8c430c73d233db092a",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "1",
+      "desc": "<p bound_box=102,1337,1098,1459>\u6211\u4eec\u5229\u7528\u60a8\u7684\u4f4d\u7f6e\u6765\u63d0\u4f9b\u5f53\u5730\u5929\u6c14\u3001\u8b66\u62a5\u548c\u5176\u4ed6\u529f\u80fd\u3002\u60a8\u53ef\u4ee5\u968f\u65f6\u66f4\u6539\u6b64\u8bbe\u7f6e\u3002</p>"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1481
+        ],
+        [
+          1098,
+          1637
+        ]
+      ],
+      "resource_id": "com.accuweather.android:id/buttonPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 14,
+      "size": "996*156",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.accuweather.android:id/buttonPanel[text]None[enabled,,]",
+      "view_str": "2e7261c5fef91d42be2e3c898e38f103"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1481
+        ],
+        [
+          1098,
+          1637
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "996*156",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "89e67577d893ddd6445dedc51df4b218"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          666,
+          1487
+        ],
+        [
+          858,
+          1631
+        ]
+      ],
+      "resource_id": "android:id/button2",
+      "checked": false,
+      "text": "\u4e0d\u5141\u8bb8",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "192*144",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button2[text]\u4e0d\u5141\u8bb8[enabled,,]",
+      "view_str": "b48af0236c37be32f05dd4446c1c914c",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "2",
+      "desc": "<button bound_box=666,1487,858,1631>\u4e0d\u5141\u8bb8</button>"
+    },
+    {
+      "package": "com.accuweather.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          882,
+          1487
+        ],
+        [
+          1074,
+          1631
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "\u5141\u8bb8",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "192*144",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]\u5141\u8bb8[enabled,,]",
+      "view_str": "cf2b4358f179bacba8a814ef739acfc0",
+      "allowed_actions": [
+        "touch"
+      ],
+      "special_attrs": [],
+      "local_id": "3",
+      "desc": "<button bound_box=882,1487,1074,1631>\u5141\u8bb8</button>"
+    }
+  ]
+}

@@ -1,0 +1,1255 @@
+Activity Resolver Table:
+  Full MIME Types:
+      image/jpeg:
+        3a195c8 com.microsoft.skydrive/.photoviewer.EditPhotoActivity filter 81fe661
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+      application/pdf:
+        c21eb7c com.microsoft.skydrive/.pdfviewer.PdfIntentHandlerActivity filter e193c05
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "application/pdf"
+      image/png:
+        3a195c8 com.microsoft.skydrive/.photoviewer.EditPhotoActivity filter 81fe661
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+      */*:
+        dc15c38 com.microsoft.skydrive/.intent.actionsend.ReceiveActionSendActivity filter bd8411
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        64c03e4 com.microsoft.skydrive/.intent.getcontent.ReceiveGetContentActivity filter de5504d
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        b51614e com.microsoft.skydrive/.navigation.UrlFileIntentHandlerActivity filter da0626f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*.url}"
+          Path: "PatternMatcher{GLOB: .*.URL}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video/*:
+        1e6445a com.microsoft.skydrive/.photos.device.MediaIntentHandlerActivity filter f7ab68b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "video"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image/*:
+        1e6445a com.microsoft.skydrive/.photos.device.MediaIntentHandlerActivity filter f7ab68b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "video"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      image:
+        3a195c8 com.microsoft.skydrive/.photoviewer.EditPhotoActivity filter 81fe661
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+        3a195c8 com.microsoft.skydrive/.photoviewer.EditPhotoActivity filter 81fe661
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+      application:
+        c21eb7c com.microsoft.skydrive/.pdfviewer.PdfIntentHandlerActivity filter e193c05
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "application/pdf"
+
+  Wild MIME Types:
+      *:
+        dc15c38 com.microsoft.skydrive/.intent.actionsend.ReceiveActionSendActivity filter bd8411
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        64c03e4 com.microsoft.skydrive/.intent.getcontent.ReceiveGetContentActivity filter de5504d
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        b51614e com.microsoft.skydrive/.navigation.UrlFileIntentHandlerActivity filter da0626f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*.url}"
+          Path: "PatternMatcher{GLOB: .*.URL}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        1e6445a com.microsoft.skydrive/.photos.device.MediaIntentHandlerActivity filter f7ab68b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "video"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        1e6445a com.microsoft.skydrive/.photos.device.MediaIntentHandlerActivity filter f7ab68b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "video"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      ms-onedrive:
+        4d1c5b4 com.microsoft.skydrive/.MainActivity filter 5692023
+          Action: "com.microsoft.skydrive.mainactivity.action.search"
+          Action: "android.intent.action.VIEW"
+          Action: "com.microsoft.skydrive.mainactivity.action.navigateto"
+          Action: "com.microsoft.skydrive.mainactivity.action.openpinfolder"
+          Action: "com.microsoft.skydrive.mainactivity.action.pushnotification"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ms-onedrive"
+      ms-onedrive-000000004022dab9:
+        6b77a50 com.microsoft.skydrive/com.microsoft.authorization.SignInActivity filter d43a449
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ms-onedrive-000000004022dab9"
+          Authority: "auth": -1
+      file:
+        b51614e com.microsoft.skydrive/.navigation.UrlFileIntentHandlerActivity filter da0626f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*.url}"
+          Path: "PatternMatcher{GLOB: .*.URL}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c21eb7c com.microsoft.skydrive/.pdfviewer.PdfIntentHandlerActivity filter e193c05
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "application/pdf"
+        1e6445a com.microsoft.skydrive/.photos.device.MediaIntentHandlerActivity filter f7ab68b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "video"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      http:
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter f08949e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "photos.1drv-dogfood.net": -1
+          Authority: "photos.onedrive.com": -1
+          Authority: "onedrive.live.com": -1
+          Authority: "1drv.ms": -1
+          Path: "PatternMatcher{GLOB: /x/.*}"
+          Path: "PatternMatcher{GLOB: /p/.*}"
+          Path: "PatternMatcher{GLOB: /w/.*}"
+          mPriority=-20, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+          AutoVerify=true
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter 4239b7f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "photos.1drv-dogfood.net": -1
+          Authority: "photos.onedrive.com": -1
+          Authority: "onedrive.live.com": -1
+          Authority: "1drv.ms": -1
+          AutoVerify=true
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter fc4174c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: ".sharepoint-df.com": -1 WILD
+          Authority: ".sharepoint.com": -1 WILD
+          Path: "PatternMatcher{GLOB: /:x:/.*}"
+          Path: "PatternMatcher{GLOB: /:p:/.*}"
+          Path: "PatternMatcher{GLOB: /:w:/.*}"
+          Path: "PatternMatcher{GLOB: /:t:/.*}"
+          mPriority=-20, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+          AutoVerify=true
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter 65f4395
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: ".sharepoint-df.com": -1 WILD
+          Authority: ".sharepoint.com": -1 WILD
+          Path: "PatternMatcher{GLOB: /:b:/.*}"
+          Path: "PatternMatcher{GLOB: /:f:/.*}"
+          Path: "PatternMatcher{GLOB: /:i:/.*}"
+          Path: "PatternMatcher{GLOB: /:v:/.*}"
+          Path: "PatternMatcher{GLOB: /:u:/.*}"
+          Path: "PatternMatcher{GLOB: .*\guestaccess.aspx.*}"
+          AutoVerify=true
+      https:
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter f08949e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "photos.1drv-dogfood.net": -1
+          Authority: "photos.onedrive.com": -1
+          Authority: "onedrive.live.com": -1
+          Authority: "1drv.ms": -1
+          Path: "PatternMatcher{GLOB: /x/.*}"
+          Path: "PatternMatcher{GLOB: /p/.*}"
+          Path: "PatternMatcher{GLOB: /w/.*}"
+          mPriority=-20, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+          AutoVerify=true
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter 4239b7f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "photos.1drv-dogfood.net": -1
+          Authority: "photos.onedrive.com": -1
+          Authority: "onedrive.live.com": -1
+          Authority: "1drv.ms": -1
+          AutoVerify=true
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter fc4174c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: ".sharepoint-df.com": -1 WILD
+          Authority: ".sharepoint.com": -1 WILD
+          Path: "PatternMatcher{GLOB: /:x:/.*}"
+          Path: "PatternMatcher{GLOB: /:p:/.*}"
+          Path: "PatternMatcher{GLOB: /:w:/.*}"
+          Path: "PatternMatcher{GLOB: /:t:/.*}"
+          mPriority=-20, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+          AutoVerify=true
+        57552d9 com.microsoft.skydrive/.DeepLinkingActivity filter 65f4395
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: ".sharepoint-df.com": -1 WILD
+          Authority: ".sharepoint.com": -1 WILD
+          Path: "PatternMatcher{GLOB: /:b:/.*}"
+          Path: "PatternMatcher{GLOB: /:f:/.*}"
+          Path: "PatternMatcher{GLOB: /:i:/.*}"
+          Path: "PatternMatcher{GLOB: /:v:/.*}"
+          Path: "PatternMatcher{GLOB: /:u:/.*}"
+          Path: "PatternMatcher{GLOB: .*\guestaccess.aspx.*}"
+          AutoVerify=true
+      genericidp:
+        3a60099 com.microsoft.skydrive/com.google.firebase.auth.internal.GenericIdpActivity filter 1330f5e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        2205f3f com.microsoft.skydrive/com.google.firebase.auth.internal.RecaptchaActivity filter e87f00c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      content:
+        c21eb7c com.microsoft.skydrive/.pdfviewer.PdfIntentHandlerActivity filter e193c05
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "application/pdf"
+        1e6445a com.microsoft.skydrive/.photos.device.MediaIntentHandlerActivity filter f7ab68b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "video"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      ms-onedrive-meridian:
+        4955bf3 com.microsoft.skydrive/.meridian.MeridianActivity filter 434fb29
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "ms-onedrive-meridian"
+          Authority: "startmeridian": -1
+
+  Non-Data Actions:
+      com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.odsp.whatsnew.WhatsNewActivity:
+        813879d com.microsoft.skydrive/com.microsoft.odsp.whatsnew.WhatsNewActivity filter 410c412
+          Action: "com.microsoft.odsp.whatsnew.WhatsNewActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.SkyDriveSettingsOrganizeBySource:
+        814c55f com.microsoft.skydrive/.settings.SkyDriveSettingsOrganizeBySource filter b752bac
+          Action: "com.microsoft.skydrive.settings.SkyDriveSettingsOrganizeBySource"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.mainactivity.action.showsamsungonboarding:
+        4d1c5b4 com.microsoft.skydrive/.MainActivity filter 39f8920
+          Action: "com.microsoft.skydrive.mainactivity.action.showsamsungonboarding"
+          Action: "com.microsoft.skydrive.mainactivity.action.showaddnewaccount"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        4d1c5b4 com.microsoft.skydrive/.MainActivity filter 4c635dd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7655caa com.microsoft.skydrive/.photos.PhotosLauncherActivity filter de0709b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_GALLERY"
+        90904b2 com.microsoft.skydrive/.settings.SkydriveAppSettingsCameraBackup filter bf16c03
+          Action: "android.intent.action.MAIN"
+          Category: "com.nokia.intent.category.GALLERY_MEDIA_PROVIDER"
+          Category: "android.intent.category.DEFAULT"
+        ecd27e3 com.microsoft.skydrive/com.microsoft.oneplayer.player.ui.view.activity.OnePlayerActivity filter c1355e0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.SamsungMigrationUpsellActivity:
+        bf0d7dc com.microsoft.skydrive/.SamsungMigrationUpsellActivity filter 77920e5
+          Action: "com.microsoft.skydrive.SamsungMigrationUpsellActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.SkydriveAppSettingsCameraBackup:
+        90904b2 com.microsoft.skydrive/.settings.SkydriveAppSettingsCameraBackup filter 2061780
+          Action: "com.microsoft.skydrive.settings.SkydriveAppSettingsCameraBackup"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.odsp.action.FEEDBACK:
+        dccd586 com.microsoft.skydrive/com.microsoft.odsp.operation.feedback.FeedbackComposerActivity filter 1e4674
+          Action: "com.microsoft.odsp.action.FEEDBACK"
+          Category: "android.intent.category.DEFAULT"
+      onedrive.intent.action.SAVER:
+        5149976 com.microsoft.skydrive/.intent.actionsend.ReceiveSdkSaverActivity filter 7cb7b77
+          Action: "onedrive.intent.action.SAVER"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.DiagnosticDataViewerSettings:
+        80a5ef1 com.microsoft.skydrive/.settings.DiagnosticDataViewerSettings filter 4be0ad6
+          Action: "com.microsoft.skydrive.settings.DiagnosticDataViewerSettings"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      onedrive.intent.action.PICKER:
+        1a8d702 com.microsoft.skydrive/.getcontent.RecieveSdkPickerActivity filter 3f25813
+          Action: "onedrive.intent.action.PICKER"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.home.settings.HomeSectionsCustomizationActivity:
+        7aa2e14 com.microsoft.skydrive/.home.settings.HomeSectionsCustomizationActivity filter 4f7e6bd
+          Action: "com.microsoft.skydrive.home.settings.HomeSectionsCustomizationActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.ThirdPartyNoticeActivity:
+        8b44c26 com.microsoft.skydrive/.settings.ThirdPartyNoticeActivity filter f5c3067
+          Action: "com.microsoft.skydrive.settings.ThirdPartyNoticeActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.SkydriveAppSettingsBackupFolders:
+        4c131b9 com.microsoft.skydrive/.settings.SkydriveAppSettingsBackupFolders filter 17eb9fe
+          Action: "com.microsoft.skydrive.settings.SkydriveAppSettingsBackupFolders"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.SkyDriveSettingsNestedFolders:
+        73a3075 com.microsoft.skydrive/.settings.SkyDriveSettingsNestedFolders filter e08780a
+          Action: "com.microsoft.skydrive.settings.SkyDriveSettingsNestedFolders"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.mainactivity.action.showaddnewaccount:
+        4d1c5b4 com.microsoft.skydrive/.MainActivity filter 39f8920
+          Action: "com.microsoft.skydrive.mainactivity.action.showsamsungonboarding"
+          Action: "com.microsoft.skydrive.mainactivity.action.showaddnewaccount"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.oobe.DuoOOBEActivity:
+        cb6f7ba com.microsoft.skydrive/.oobe.DuoOOBEActivity filter d3e566b
+          Action: "com.microsoft.skydrive.oobe.DuoOOBEActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.odsp.operation.feedback.FeedbackComposerActivity:
+        dccd586 com.microsoft.skydrive/com.microsoft.odsp.operation.feedback.FeedbackComposerActivity filter 4e9ee47
+          Action: "com.microsoft.odsp.operation.feedback.FeedbackComposerActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.PrivacySettings:
+        fea587b com.microsoft.skydrive/.settings.PrivacySettings filter 7df5698
+          Action: "com.microsoft.skydrive.settings.PrivacySettings"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.samsunghandleractivity.action.accountbound:
+        9cb9eae com.microsoft.skydrive/.SamsungHandlerActivity filter e9fc44f
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosdcardsettings"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetosamsungdocument"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.googleaccountrequired"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetogallery"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetofiles"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetoplans"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.navigatetorecyclebin"
+          Action: "com.microsoft.skydrive.samsunghandleractivity.action.accountbound"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.VaultNotificationsSettings:
+        3bc0157 com.microsoft.skydrive/.settings.VaultNotificationsSettings filter fbf4444
+          Action: "com.microsoft.skydrive.settings.VaultNotificationsSettings"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.settings.testhook.TestHookSettings:
+        5604368 com.microsoft.skydrive/.settings.testhook.TestHookSettings filter 8f69381
+          Action: "com.microsoft.skydrive.settings.testhook.TestHookSettings"
+          Category: "android.intent.category.DEFAULT"
+      com.microsoft.skydrive.meridianactivity.action.startmeridian:
+        4955bf3 com.microsoft.skydrive/.meridian.MeridianActivity filter 68e60b0
+          Action: "com.microsoft.skydrive.meridianactivity.action.startmeridian"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.CREATE_SHORTCUT:
+        bd4f92d com.microsoft.skydrive/.widget.OneDriveShortcut filter 367fe62
+          Action: "android.intent.action.CREATE_SHORTCUT"
+      android.intent.action.SEARCH:
+        4d1c5b4 com.microsoft.skydrive/.MainActivity filter 2bc7552
+          Action: "android.intent.action.SEARCH"
+
+  MIME Typed Actions:
+      android.intent.action.EDIT:
+        c21eb7c com.microsoft.skydrive/.pdfviewer.PdfIntentHandlerActivity filter e193c05
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "application/pdf"
+        3a195c8 com.microsoft.skydrive/.photoviewer.EditPhotoActivity filter 81fe661
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+      android.intent.action.SEND:
+        dc15c38 com.microsoft.skydrive/.intent.actionsend.ReceiveActionSendActivity filter bd8411
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.VIEW:
+        b51614e com.microsoft.skydrive/.navigation.UrlFileIntentHandlerActivity filter da0626f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*.url}"
+          Path: "PatternMatcher{GLOB: .*.URL}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c21eb7c com.microsoft.skydrive/.pdfviewer.PdfIntentHandlerActivity filter e193c05
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "application/pdf"
+        1e6445a com.microsoft.skydrive/.photos.device.MediaIntentHandlerActivity filter f7ab68b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          StaticType: "video"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.GET_CONTENT:
+        64c03e4 com.microsoft.skydrive/.intent.getcontent.ReceiveGetContentActivity filter de5504d
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.SEND_MULTIPLE:
+        dc15c38 com.microsoft.skydrive/.intent.actionsend.ReceiveActionSendActivity filter bd8411
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Full MIME Types:
+      image/*:
+        15bbf79 com.microsoft.skydrive/.receiver.NewPictureBroadcastReceiver filter 8fd94be
+          Action: "com.android.camera.NEW_PICTURE"
+          Action: "android.hardware.action.NEW_PICTURE"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      image:
+        15bbf79 com.microsoft.skydrive/.receiver.NewPictureBroadcastReceiver filter 8fd94be
+          Action: "com.android.camera.NEW_PICTURE"
+          Action: "android.hardware.action.NEW_PICTURE"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      package:
+        3e691f com.microsoft.skydrive/com.microsoft.tokenshare.AccountChangeReceiver filter b94646c
+          Action: "com.microsoft.tokenshare.SIGNIN_COMPLETED"
+          Scheme: "package"
+      file:
+        f8f664b com.microsoft.skydrive/.upload.SdCardMountReceiver filter a3b9828
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Scheme: "file"
+        aac2941 com.microsoft.skydrive/.upload.SdCardUnmountReceiver filter 9258ee6
+          Action: "android.intent.action.MEDIA_UNMOUNTED"
+          Scheme: "file"
+
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        26c1c27 com.microsoft.skydrive/.receiver.BatteryConnectivityPowerReceiver filter 5c60ed4
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+        9d1187d com.microsoft.skydrive/.battery.BatteryLowReceiver filter 12bb372
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+        830e4b1 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 4657d96
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        96a783b com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter b995b58
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.microsoft.skydrive.cleanupspace.NO_TAPPED:
+        a4f737 com.microsoft.skydrive/.cleanupspace.CleanUpSpaceNotificationBroadcastReceiver filter 51a34a4
+          Action: "com.microsoft.skydrive.cleanupspace.NO_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.YES_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.DISMISSED"
+          Action: "com.microsoft.skydrive.cleanupspace.NEVER_TAPPED"
+      com.microsoft.skydrive.pushnotification.PushNotificationAction.PUSH_NOTIFICATION_DISMISSED:
+        30a920d com.microsoft.skydrive/.pushnotification.PushNotificationDismissedReceiver filter 70e55c2
+          Action: "com.microsoft.skydrive.pushnotification.PushNotificationAction.PUSH_NOTIFICATION_DISMISSED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        37e5d17 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 3f4d504
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        26c1c27 com.microsoft.skydrive/.receiver.BatteryConnectivityPowerReceiver filter 5c60ed4
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+        d3e1aed com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter ff3dd22
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        4d0d55 com.microsoft.skydrive/.moj.notifications.SystemBroadcastsReceiver filter f9cc36a
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.samsung.android.scloud.app.broadcast.ACTION_MIGRATION_STATUS_CHANGED:
+        eecf5c5 com.microsoft.skydrive/.samsung.SamsungMigrationStateBroadcastReceiver filter 924db1a
+          Action: "com.samsung.android.scloud.app.broadcast.ACTION_MIGRATION_STATUS_CHANGED"
+      com.microsoft.skydrive.cleanupspace.YES_TAPPED:
+        a4f737 com.microsoft.skydrive/.cleanupspace.CleanUpSpaceNotificationBroadcastReceiver filter 51a34a4
+          Action: "com.microsoft.skydrive.cleanupspace.NO_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.YES_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.DISMISSED"
+          Action: "com.microsoft.skydrive.cleanupspace.NEVER_TAPPED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        37e5d17 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 3f4d504
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.microsoft.skydrive.cleanupspace.DISMISSED:
+        a4f737 com.microsoft.skydrive/.cleanupspace.CleanUpSpaceNotificationBroadcastReceiver filter 51a34a4
+          Action: "com.microsoft.skydrive.cleanupspace.NO_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.YES_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.DISMISSED"
+          Action: "com.microsoft.skydrive.cleanupspace.NEVER_TAPPED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        d2cbaa5 com.microsoft.skydrive/androidx.profileinstaller.ProfileInstallReceiver filter d87ee7a
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        c4fda35 com.microsoft.skydrive/com.google.firebase.iid.FirebaseInstanceIdReceiver filter c7a3eca
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        9d1187d com.microsoft.skydrive/.battery.BatteryLowReceiver filter 12bb372
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+        830e4b1 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 4657d96
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        281b3b3 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 56c3d70
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        281b3b3 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 56c3d70
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        4d0d55 com.microsoft.skydrive/.moj.notifications.SystemBroadcastsReceiver filter f9cc36a
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        c7453c3 com.microsoft.skydrive/.receiver.BootAtStartupReceiver filter adf4440
+          Action: "android.intent.action.BOOT_COMPLETED"
+        281b3b3 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 56c3d70
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        26c1c27 com.microsoft.skydrive/.receiver.BatteryConnectivityPowerReceiver filter 5c60ed4
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+        96a783b com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter b995b58
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.microsoft.skydrive.cleanupspace.NEVER_TAPPED:
+        a4f737 com.microsoft.skydrive/.cleanupspace.CleanUpSpaceNotificationBroadcastReceiver filter 51a34a4
+          Action: "com.microsoft.skydrive.cleanupspace.NO_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.YES_TAPPED"
+          Action: "com.microsoft.skydrive.cleanupspace.DISMISSED"
+          Action: "com.microsoft.skydrive.cleanupspace.NEVER_TAPPED"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        935962f com.microsoft.skydrive/.operation.save.DownloadBroadcastReceiver filter 6ed743c
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+        9e5e62b com.microsoft.skydrive/com.microsoft.intune.mam.client.service.MAMBackgroundReceiver filter 3464a88
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+      com.microsoft.skydrive.moj.notifications.LocalMOJNotificationReactionBroadcastReceiver.DISMISSED:
+        adb4209 com.microsoft.skydrive/.moj.notifications.LocalMOJNotificationReactionBroadcastReceiver filter 9700c0e
+          Action: "com.microsoft.skydrive.moj.notifications.LocalMOJNotificationReactionBroadcastReceiver.DISMISSED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        745b05b com.microsoft.skydrive/.widget.OneDriveActionsWidgetProvider filter 5ca00f8
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b1e29d1 com.microsoft.skydrive/.widget.photoswidget.PhotosWidgetProvider filter 53bac36
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        959d80f com.microsoft.skydrive/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 5afc09c
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        e6e78e9 com.microsoft.skydrive/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter b16a96e
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.microsoft.skydrive.onthisday.OnThisDayNotificationDismissed.DISMISSED:
+        547cfd3 com.microsoft.skydrive/.photos.onthisday.OnThisDayNotificationDismissedBroadcastReceiver filter 117f710
+          Action: "com.microsoft.skydrive.onthisday.OnThisDayNotificationDismissed.DISMISSED"
+
+  MIME Typed Actions:
+      com.android.camera.NEW_PICTURE:
+        15bbf79 com.microsoft.skydrive/.receiver.NewPictureBroadcastReceiver filter 8fd94be
+          Action: "com.android.camera.NEW_PICTURE"
+          Action: "android.hardware.action.NEW_PICTURE"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.hardware.action.NEW_PICTURE:
+        15bbf79 com.microsoft.skydrive/.receiver.NewPictureBroadcastReceiver filter 8fd94be
+          Action: "com.android.camera.NEW_PICTURE"
+          Action: "android.hardware.action.NEW_PICTURE"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.microsoft.skydrive.upload.ModalUploadService:
+        1e8995d com.microsoft.skydrive/.upload.ModalUploadService filter 9b1d2d2
+          Action: "com.microsoft.skydrive.upload.ModalUploadService"
+          Action: "com.microsoft.skydrive.upload.CLEAR"
+      com.microsoft.skydrive.upload.CLEAR:
+        adaba07 com.microsoft.skydrive/.upload.ManualUploadService filter c398734
+          Action: "com.microsoft.skydrive.upload.CLEAR"
+          Action: "com.microsoft.skydrive.upload.ManualUploadService"
+        1e8995d com.microsoft.skydrive/.upload.ModalUploadService filter 9b1d2d2
+          Action: "com.microsoft.skydrive.upload.ModalUploadService"
+          Action: "com.microsoft.skydrive.upload.CLEAR"
+        f5eefa3 com.microsoft.skydrive/.upload.AutoUploadService filter 381e2a0
+          Action: "com.microsoft.skydrive.upload.CLEAR"
+          Action: "com.microsoft.skydrive.upload.AutoUploadService"
+      android.content.SyncAdapter:
+        91a6e59 com.microsoft.skydrive/.camerabackup.CameraRollSyncService filter fb64a1e
+          Action: "android.content.SyncAdapter"
+      com.microsoft.odsp.task.TaskService:
+        c66e2ff com.microsoft.skydrive/com.microsoft.odsp.task.TaskService filter 13288cc
+          Action: "com.microsoft.odsp.task.TaskService"
+      com.microsoft.skydrive.upload.AutoUploadService:
+        f5eefa3 com.microsoft.skydrive/.upload.AutoUploadService filter 381e2a0
+          Action: "com.microsoft.skydrive.upload.CLEAR"
+          Action: "com.microsoft.skydrive.upload.AutoUploadService"
+      com.google.firebase.MESSAGING_EVENT:
+        1fa9715 com.microsoft.skydrive/com.microsoft.odsp.pushnotification.ODSPInstanceIDService filter f8ea2a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        97a8f91 com.microsoft.skydrive/com.google.firebase.messaging.FirebaseMessagingService filter c137ef6
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.microsoft.skydrive.upload.ManualUploadService:
+        adaba07 com.microsoft.skydrive/.upload.ManualUploadService filter c398734
+          Action: "com.microsoft.skydrive.upload.CLEAR"
+          Action: "com.microsoft.skydrive.upload.ManualUploadService"
+      android.accounts.AccountAuthenticator:
+        7d0b01b com.microsoft.skydrive/com.microsoft.authorization.AuthenticationService filter 96565b8
+          Action: "android.accounts.AccountAuthenticator"
+      com.microsoft.tokenshare.TokenSharingService:
+        d4032f7 com.microsoft.skydrive/com.microsoft.tokenshare.TokenSharingService filter 5e72564
+          Action: "com.microsoft.tokenshare.TokenSharingService"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      android.content.action.DOCUMENTS_PROVIDER:
+        cd35c21 com.microsoft.skydrive/.content.StorageAccessProvider filter e967846
+          Action: "android.content.action.DOCUMENTS_PROVIDER"
+
+Domain verification status:
+  com.microsoft.skydrive:
+    ID: 984d52c9-2f40-4e5a-8e5c-7d332f714420
+    Signatures: [A0:79:42:15:27:8A:56:7E:88:7A:F6:CD:E0:15:A5:E8:84:14:EF:64:0F:7D:AB:38:55:A3:E7:79:65:8B:E7:78]
+    Domain verification state:
+      *.sharepoint-df.com: none
+      photos.onedrive.com: none
+      1drv.ms: none
+      onedrive.live.com: none
+      *.sharepoint.com: none
+      photos.1drv-dogfood.net: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          *.sharepoint-df.com
+          photos.onedrive.com
+          1drv.ms
+          onedrive.live.com
+          *.sharepoint.com
+          photos.1drv-dogfood.net
+
+Registered ContentProviders:
+  com.microsoft.skydrive/.upload.ModalUploadContentProvider:
+    Provider{5eae865 com.microsoft.skydrive/.upload.ModalUploadContentProvider}
+  com.microsoft.skydrive/.content.CameraBackupSettingsContentProvider:
+    Provider{af1e93a com.microsoft.skydrive/.content.CameraBackupSettingsContentProvider}
+  com.microsoft.skydrive/.upload.AsyncMoveContentProvider:
+    Provider{aec29eb com.microsoft.skydrive/.upload.AsyncMoveContentProvider}
+  com.microsoft.skydrive/.upload.AutoUploadContentProvider:
+    Provider{215a348 com.microsoft.skydrive/.upload.AutoUploadContentProvider}
+  com.microsoft.skydrive/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{ca6a5e1 com.microsoft.skydrive/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.microsoft.skydrive/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{6855f06 com.microsoft.skydrive/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.microsoft.skydrive/androidx.core.content.FileProvider:
+    Provider{e6179c7 com.microsoft.skydrive/androidx.core.content.FileProvider}
+  com.microsoft.skydrive/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{985abf4 com.microsoft.skydrive/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.microsoft.skydrive/.upload.ManualUploadContentProvider:
+    Provider{b06bf1d com.microsoft.skydrive/.upload.ManualUploadContentProvider}
+  com.microsoft.skydrive/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{d886592 com.microsoft.skydrive/com.google.firebase.provider.FirebaseInitProvider}
+  com.microsoft.skydrive/.content.MetadataContentProvider:
+    Provider{2f1eb63 com.microsoft.skydrive/.content.MetadataContentProvider}
+  com.microsoft.skydrive/com.microsoft.yimiclient.util.YimiFileProvider:
+    Provider{84b9360 com.microsoft.skydrive/com.microsoft.yimiclient.util.YimiFileProvider}
+  com.microsoft.skydrive/.content.SamsungGallerySyncContentProvider:
+    Provider{b553019 com.microsoft.skydrive/.content.SamsungGallerySyncContentProvider}
+  com.microsoft.skydrive/.content.StorageAccessProvider:
+    Provider{cd35c21 com.microsoft.skydrive/.content.StorageAccessProvider}
+  com.microsoft.skydrive/androidx.startup.InitializationProvider:
+    Provider{44348de com.microsoft.skydrive/androidx.startup.InitializationProvider}
+  com.microsoft.skydrive/.content.ExternalContentProvider:
+    Provider{a8ddabf com.microsoft.skydrive/.content.ExternalContentProvider}
+
+ContentProvider Authorities:
+  [com.microsoft.skydrive.content.StorageAccessProvider]:
+    Provider{cd35c21 com.microsoft.skydrive/.content.StorageAccessProvider}
+      applicationInfo=ApplicationInfo{5c6858c com.microsoft.skydrive}
+  [com.microsoft.skydrive.provider]:
+    Provider{e6179c7 com.microsoft.skydrive/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{87fb4d5 com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.modalupload]:
+    Provider{5eae865 com.microsoft.skydrive/.upload.ModalUploadContentProvider}
+      applicationInfo=ApplicationInfo{93714ea com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.autoupload]:
+    Provider{215a348 com.microsoft.skydrive/.upload.AutoUploadContentProvider}
+      applicationInfo=ApplicationInfo{bcf63db com.microsoft.skydrive}
+  [com.microsoft.skydrive.firebaseinitprovider]:
+    Provider{d886592 com.microsoft.skydrive/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{e1c6e78 com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.SamsungGallerySync]:
+    Provider{b553019 com.microsoft.skydrive/.content.SamsungGallerySyncContentProvider}
+      applicationInfo=ApplicationInfo{493c951 com.microsoft.skydrive}
+  [com.microsoft.skydrive.lifecycle-process]:
+    Provider{ca6a5e1 com.microsoft.skydrive/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{fe995b6 com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.external]:
+    Provider{a8ddabf com.microsoft.skydrive/.content.ExternalContentProvider}
+      applicationInfo=ApplicationInfo{2d662b7 com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.manualupload]:
+    Provider{b06bf1d com.microsoft.skydrive/.upload.ManualUploadContentProvider}
+      applicationInfo=ApplicationInfo{7e5fa24 com.microsoft.skydrive}
+  [com.microsoft.skydrive.yimi.fileProvider]:
+    Provider{84b9360 com.microsoft.skydrive/com.microsoft.yimiclient.util.YimiFileProvider}
+      applicationInfo=ApplicationInfo{afaa98d com.microsoft.skydrive}
+  [com.microsoft.skydrive.mobileadsinitprovider]:
+    Provider{6855f06 com.microsoft.skydrive/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{c715742 com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.metadata]:
+    Provider{2f1eb63 com.microsoft.skydrive/.content.MetadataContentProvider}
+      applicationInfo=ApplicationInfo{3e47353 com.microsoft.skydrive}
+  [com.microsoft.skydrive.mlkitinitprovider]:
+    Provider{985abf4 com.microsoft.skydrive/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{89a9490 com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.CameraBackupSettings]:
+    Provider{af1e93a com.microsoft.skydrive/.content.CameraBackupSettingsContentProvider}
+      applicationInfo=ApplicationInfo{a755189 com.microsoft.skydrive}
+  [com.microsoft.skydrive.androidx-startup]:
+    Provider{44348de com.microsoft.skydrive/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{bc1a58e com.microsoft.skydrive}
+  [com.microsoft.skydrive.content.move]:
+    Provider{aec29eb com.microsoft.skydrive/.upload.AsyncMoveContentProvider}
+      applicationInfo=ApplicationInfo{bb8f1af com.microsoft.skydrive}
+
+Key Set Manager:
+  [com.microsoft.skydrive]
+      Signing KeySets: 202
+
+Packages:
+  Package [com.microsoft.skydrive] (7831354):
+    appId=10356
+    pkg=Package{340d743 com.microsoft.skydrive}
+    codePath=/data/app/~~xghgELJG7C19mtUUnIHNDw==/com.microsoft.skydrive-nG0awk_uNf8tA1Trzjq_-Q==
+    resourcePath=/data/app/~~xghgELJG7C19mtUUnIHNDw==/com.microsoft.skydrive-nG0awk_uNf8tA1Trzjq_-Q==
+    legacyNativeLibraryDir=/data/app/~~xghgELJG7C19mtUUnIHNDw==/com.microsoft.skydrive-nG0awk_uNf8tA1Trzjq_-Q==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2026690532 minSdk=23 targetSdk=31
+    minExtensionVersions=[]
+    versionName=6.69 (Beta 5)
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.microsoft.emmx, com.android.chrome, org.mozilla.firefox, com.opera.browser, com.opera.mini.native, com.sec.android.app.sbrowser, com.microsoft.office.onenote, com.microsoft.office.word, com.microsoft.office.excel, com.microsoft.office.powerpoint, com.microsoft.office.outlook, com.microsoft.office.outlook.dawg, com.microsoft.office.outlook.stg, com.microsoft.office.outlook.dev, com.microsoft.msapps, com.microsoft.outlookgroups, com.microsoft.sharepoint, com.microsoft.office.officehubrow, com.microsoft.office.officehub, com.microsoft.office.officehubrow.internal, com.microsoft.windowsintune.companyportal, com.microsoft.teams, com.yammer.v1, com.microsoft.todos, com.touchtype.Micswiftkey, com.skype.raider, com.microsoft.office.lync15, com.mobiledatalabs.mileiq, com.microsoft.translator, com.touchtype.swiftkey, com.azure.authenticator, com.linkedin.android, com.linkedin.android.flagshipdev.debug, com.microsoft.appmanager, com.sec.android.app.samsungapps, com.samsung.android.app.reminder, com.samsung.android.app.notes, com.sec.android.app.myfiles, com.amazon.venezia, com.android.vending, com.google.android.gms.policy_cast_dynamite, com.microsoft.identity.testuserapp]
+    queriesIntents=[Intent { act=androidx.camera.extensions.action.VENDOR_ACTION }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.VIEW }, Intent { act=android.intent.action.CHOOSER }, Intent { act=android.intent.action.SEND dat=content://*/... typ=text/plain }, Intent { act=android.intent.action.SEND_MULTIPLE dat=content://*/... typ=text/plain }, Intent { act=android.intent.action.SEND dat=content://*/... typ=*/* }, Intent { act=android.intent.action.SEND_MULTIPLE dat=content://*/... typ=*/* }, Intent { act=android.intent.action.SEND }, Intent { act=android.intent.action.SEND_MULTIPLE }, Intent { act=com.microsoft.odsp.action.FEEDBACK }, Intent { act=android.media.action.IMAGE_CAPTURE }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.camera.extensions.impl
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /vendor/framework/androidx.camera.extensions.impl.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-08-06 17:04:25
+    lastUpdateTime=2025-08-06 17:04:26
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{b43d808 version:2, signatures:[cc45fdb9], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.USE_CREDENTIALS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.READ_EXTERNAL_STORAGE
+      com.google.android.permission.PROVIDE_BACKGROUND
+      android.permission.GET_ACCOUNTS_PRIVILEGED
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      android.permission.READ_SYNC_STATS
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.GET_ACCOUNTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.USE_BIOMETRIC
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=11124 deDataInode=172136 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.microsoft.skydrive
+      firstInstallTime=2025-08-06 17:04:26
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.miui.notes:
+      com.microsoft.skydrive
+    com.microsoft.todos:
+      com.microsoft.skydrive
+    ru.mail.mailapp:
+      com.microsoft.skydrive
+    com.microsoft.office.outlook:
+      com.microsoft.skydrive
+    com.microsoft.skydrive:
+      com.android.chrome
+      com.microsoft.todos
+      com.microsoft.emmx
+      com.microsoft.office.outlook
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.microsoft.skydrive
+    com.xiaomi.aicr:
+      com.microsoft.skydrive
+    com.android.contacts:
+      com.microsoft.skydrive
+    com.xiaomi.gamecenter.sdk.service:
+      com.microsoft.skydrive
+    com.android.settings.intelligence:
+      com.microsoft.skydrive
+    com.android.camera:
+      com.microsoft.skydrive
+    com.miui.carlink:
+      com.microsoft.skydrive
+    com.miui.nextpay:
+      com.microsoft.skydrive
+    com.xiaomi.mis:
+      com.microsoft.skydrive
+    com.miui.hybrid:
+      com.microsoft.skydrive
+    com.xiaomi.market:
+      com.microsoft.skydrive
+    com.miui.systemAdSolution:
+      com.microsoft.skydrive
+    com.xiaomi.account:
+      com.microsoft.skydrive
+    com.miui.greenguard:
+      com.microsoft.skydrive
+    com.xiaomi.payment:
+      com.microsoft.skydrive
+    com.xiaomi.xmsf:
+      com.microsoft.skydrive
+    com.android.emergency:
+      com.microsoft.skydrive
+    com.android.providers.downloads.ui:
+      com.microsoft.skydrive
+    com.mfashiongallery.emag:
+      com.microsoft.skydrive
+    com.android.calendar:
+      com.microsoft.skydrive
+    com.android.email:
+      com.microsoft.skydrive
+    com.miui.gallery:
+      com.microsoft.skydrive
+    com.android.soundrecorder:
+      com.microsoft.skydrive
+    com.miui.virtualsim:
+      com.microsoft.skydrive
+    com.getsurfboard:
+      com.microsoft.skydrive
+    com.xingin.xhs:
+      com.microsoft.skydrive
+    com.duokan.reader:
+      com.microsoft.skydrive
+    com.instagram.android:
+      com.microsoft.skydrive
+    com.google.android.gm:
+      com.microsoft.skydrive
+    com.ebay.mobile:
+      com.microsoft.skydrive
+    com.microsoft.todos:
+      com.microsoft.skydrive
+    com.miui.video:
+      com.microsoft.skydrive
+    com.todoist:
+      com.microsoft.skydrive
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.microsoft.skydrive
+    com.alibaba.aliexpresshd:
+      com.microsoft.skydrive
+    cool.monkey.android:
+      com.microsoft.skydrive
+    com.microsoft.emmx:
+      com.microsoft.skydrive
+    com.google.android.apps.magazines:
+      com.microsoft.skydrive
+    com.spotify.music:
+      com.microsoft.skydrive
+    com.google.android.apps.youtube.music:
+      com.microsoft.skydrive
+    com.ss.android.ugc.aweme:
+      com.microsoft.skydrive
+    com.microsoft.office.outlook:
+      com.microsoft.skydrive
+    com.ss.android.article.news:
+      com.microsoft.skydrive
+    com.jijia.bqwnl:
+      com.microsoft.skydrive
+    com.quark.browser:
+      com.microsoft.skydrive
+    com.baidu.BaiduMap:
+      com.microsoft.skydrive
+    com.UCMobile:
+      com.microsoft.skydrive
+    com.autonavi.minimap:
+      com.microsoft.skydrive
+    com.dragon.read:
+      com.microsoft.skydrive
+    com.jijia.jjweather:
+      com.microsoft.skydrive
+    com.zhuantech.sijiweather:
+      com.microsoft.skydrive
+    com.suxing.sustream:
+      com.microsoft.skydrive
+    com.yahoo.mobile.client.android.mail:
+      com.microsoft.skydrive
+    com.microsoft.skydrive:
+      [com.android.bluetooth,com.xiaomi.bluetooth]
+      com.android.contacts
+      com.xiaomi.gamecenter.sdk.service
+      com.android.mms
+      com.unionpay.tsmservice.mi
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+      com.wuba.zhuanzhuan
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.email
+      com.miui.virtualsim
+      com.xiaomi.scanner
+      com.android.chrome
+      com.xingin.xhs
+      com.instagram.android
+      com.google.android.gm
+      com.ebay.mobile
+      com.anydo
+      com.microsoft.todos
+      com.miui.video
+      com.todoist
+      com.google.android.apps.tasks
+      com.alibaba.aliexpresshd
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      ru.mail.mailapp
+      com.ss.android.ugc.aweme
+      com.microsoft.office.outlook
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.jijia.bqwnl
+      com.quark.browser
+      com.kuaishou.nebula
+      com.baidu.BaiduMap
+      com.UCMobile
+      com.autonavi.minimap
+      com.baidu.searchbox.lite
+      com.dragon.read
+      com.jijia.jjweather
+      com.smile.gifmaker
+      com.baidu.searchbox
+      com.yahoo.mobile.client.android.mail
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.microsoft.skydrive]
+    path: /data/app/~~xghgELJG7C19mtUUnIHNDw==/com.microsoft.skydrive-nG0awk_uNf8tA1Trzjq_-Q==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~xghgELJG7C19mtUUnIHNDw==/com.microsoft.skydrive-nG0awk_uNf8tA1Trzjq_-Q==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 416Kb base.vdex: 1008Kb 
+
+Compiler stats:
+  [com.microsoft.skydrive]
+    (No recorded stats)

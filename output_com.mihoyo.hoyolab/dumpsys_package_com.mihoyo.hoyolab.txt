@@ -1,0 +1,613 @@
+Activity Resolver Table:
+  Schemes:
+      4d2ebaa8adf3655c84d82031829010ca:
+        a53176a com.mihoyo.hoyolab/com.facebook.CustomTabActivity filter c7f745b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "4d2ebaa8adf3655c84d82031829010ca"
+      fbconnect:
+        a53176a com.mihoyo.hoyolab/com.facebook.CustomTabActivity filter 11a74f8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.mihoyo.hoyolab": -1
+      genericidp:
+        7b78dd1 com.mihoyo.hoyolab/com.google.firebase.auth.internal.GenericIdpActivity filter 7034036
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        9b6fb37 com.mihoyo.hoyolab/com.google.firebase.auth.internal.RecaptchaActivity filter 6fde8a4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      hoyolab:
+        1f9240c com.mihoyo.hoyolab/.splash.scheme.HoYoSchemeActivity filter d583155
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "hoyolab"
+
+  Non-Data Actions:
+      com.mihoyo.hoyolab.push.scheme.android:
+        31949e0 com.mihoyo.hoyolab/.push.manager.PushSchemeActivity filter 986e499
+          Action: "com.mihoyo.hoyolab.push.scheme.android"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      android.intent.action.MAIN:
+        f6c235e com.mihoyo.hoyolab/.splash.splash.HoYoSplashActivity filter c85e33f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9d6360d com.mihoyo.hoyolab/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity filter fbb29c2
+          Action: "android.intent.action.MAIN"
+        77613d3 com.mihoyo.hoyolab/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity filter f82eb10
+          Action: "android.intent.action.MAIN"
+        cbd2609 com.mihoyo.hoyolab/androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity filter 216200e
+          Action: "android.intent.action.MAIN"
+      android.intent.action.VIEW:
+        31949e0 com.mihoyo.hoyolab/.push.manager.PushSchemeActivity filter 986e499
+          Action: "com.mihoyo.hoyolab.push.scheme.android"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        f209812 com.mihoyo.hoyolab/.app.widget.setting.ui.HoYoWidgetSettingActivity filter f226be3
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_GENSHIN_CHECK_IN:
+        2668d41 com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleSmallWidgetProvider filter 5fa22e6
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_BATTLE_CHRONICLE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_HOME_MINE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.BATTERY_OKAY:
+        3b5ed1f com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 7af986c
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN:
+        a041a2f com.mihoyo.hoyolab/.app.widget.provider.HoYoLABLargeAppWidgetProvider filter 313a83c
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        17ea379 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 150a8be
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.mihoyo.hoyolab.widget.ACTION_SMALL_REFRESH_WIDGET:
+        2668d41 com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleSmallWidgetProvider filter 5fa22e6
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_BATTLE_CHRONICLE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_HOME_MINE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC:
+        a041a2f com.mihoyo.hoyolab/.app.widget.provider.HoYoLABLargeAppWidgetProvider filter 313a83c
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS"
+      com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN:
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        8bb97c3 com.mihoyo.hoyolab/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter 3ef3840
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE:
+        a041a2f com.mihoyo.hoyolab/.app.widget.provider.HoYoLABLargeAppWidgetProvider filter 313a83c
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        5bcfe35 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 8ea92ca
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        6d63c3b com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 33cf58
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET:
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        ccdbc7d com.mihoyo.hoyolab/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 8b58772
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        5bcfe35 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 8ea92ca
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        6072027 com.mihoyo.hoyolab/com.adjust.sdk.AdjustReferrerReceiver filter 1fec2d4
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_BATTLE_CHRONICLE:
+        2668d41 com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleSmallWidgetProvider filter 5fa22e6
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_BATTLE_CHRONICLE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_HOME_MINE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN:
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+      com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE:
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+      com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET:
+        a041a2f com.mihoyo.hoyolab/.app.widget.provider.HoYoLABLargeAppWidgetProvider filter 313a83c
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS"
+      com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_HOME_MINE:
+        70919c5 com.mihoyo.hoyolab/.app.widget.provider.HoYoLABMiniAppWidgetProvider filter 8182f1a
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_REFRESH_WIDGET"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        f125ce9 com.mihoyo.hoyolab/androidx.profileinstaller.ProfileInstallReceiver filter 856bd6e
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        121f7b3 com.mihoyo.hoyolab/com.google.firebase.iid.FirebaseInstanceIdReceiver filter c613170
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        3b5ed1f com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 7af986c
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        54c48b1 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9871196
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        54c48b1 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9871196
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        54c48b1 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9871196
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_GENSHIN_SIGN_IN:
+        70919c5 com.mihoyo.hoyolab/.app.widget.provider.HoYoLABMiniAppWidgetProvider filter 8182f1a
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_REFRESH_WIDGET"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN:
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        17ea379 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 150a8be
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_HOME_MINE:
+        2668d41 com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleSmallWidgetProvider filter 5fa22e6
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_BATTLE_CHRONICLE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_HOME_MINE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE:
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+      com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE:
+        a041a2f com.mihoyo.hoyolab/.app.widget.provider.HoYoLABLargeAppWidgetProvider filter 313a83c
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS"
+      com.mihoyo.hoyolab.widget.ACTION_MINI_REFRESH_WIDGET:
+        70919c5 com.mihoyo.hoyolab/.app.widget.provider.HoYoLABMiniAppWidgetProvider filter 8182f1a
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_REFRESH_WIDGET"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        a041a2f com.mihoyo.hoyolab/.app.widget.provider.HoYoLABLargeAppWidgetProvider filter 313a83c
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS"
+        70919c5 com.mihoyo.hoyolab/.app.widget.provider.HoYoLABMiniAppWidgetProvider filter 8182f1a
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MINI_REFRESH_WIDGET"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+        2668d41 com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleSmallWidgetProvider filter 5fa22e6
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_BATTLE_CHRONICLE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_SMALL_OPEN_HOME_MINE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        aabbeed com.mihoyo.hoyolab/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 79ab122
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS:
+        a041a2f com.mihoyo.hoyolab/.app.widget.provider.HoYoLABLargeAppWidgetProvider filter 313a83c
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_GENSHIN_SIGN_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_VERSION_TOPIC"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_HOME_MINE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_CIRCLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_OPEN_ALL_TOOLS"
+      com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE:
+        8c22a4b com.mihoyo.hoyolab/.app.widget.provider.BattleChronicleMediumWidgetProvider filter 4910c28
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_RESIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_REFRESH_WIDGET"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_GENSHIN_CHECK_IN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_WIDGET_SETTING_PAGE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_CLICK_HOME_COIN"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_BATTLE_CHRONICLE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.mihoyo.hoyolab.widget.ACTION_MEDIUM_OPEN_HOME_MINE"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        5e26117 com.mihoyo.hoyolab/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 9c28904
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        bba5c0f com.mihoyo.hoyolab/com.mihoyo.framework.sora.push.firebase.MiHoYoFirebaseService filter 8fff49c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        e2adea5 com.mihoyo.hoyolab/com.google.firebase.messaging.FirebaseMessagingService filter b5427a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.mihoyo.hoyolab/com.luck.picture.lib.PictureFileProvider:
+    Provider{72fa839 com.mihoyo.hoyolab/com.luck.picture.lib.PictureFileProvider}
+  com.mihoyo.hoyolab/androidx.core.content.FileProvider:
+    Provider{9a22e7e com.mihoyo.hoyolab/androidx.core.content.FileProvider}
+  com.mihoyo.hoyolab/com.facebook.FacebookContentProvider:
+    Provider{7ac5fdf com.mihoyo.hoyolab/com.facebook.FacebookContentProvider}
+  com.mihoyo.hoyolab/com.mihoyo.framework.sora.push.firebase.InitContentProvider:
+    Provider{f14f42c com.mihoyo.hoyolab/com.mihoyo.framework.sora.push.firebase.InitContentProvider}
+  com.mihoyo.hoyolab/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{4598ef5 com.mihoyo.hoyolab/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.mihoyo.hoyolab/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{a2eb48a com.mihoyo.hoyolab/com.google.firebase.provider.FirebaseInitProvider}
+  com.mihoyo.hoyolab/com.mihoyo.astrolabe.core.AstrolabeProvider:
+    Provider{da11afb com.mihoyo.hoyolab/com.mihoyo.astrolabe.core.AstrolabeProvider}
+  com.mihoyo.hoyolab/com.facebook.internal.FacebookInitProvider:
+    Provider{cf32718 com.mihoyo.hoyolab/com.facebook.internal.FacebookInitProvider}
+  com.mihoyo.hoyolab/androidx.startup.InitializationProvider:
+    Provider{e012571 com.mihoyo.hoyolab/androidx.startup.InitializationProvider}
+  com.mihoyo.hoyolab/razerdp.basepopup.BasePopupInitializer:
+    Provider{64b8f56 com.mihoyo.hoyolab/razerdp.basepopup.BasePopupInitializer}
+  com.mihoyo.hoyolab/com.mihoyo.sora.download.DownloadProvider:
+    Provider{65c6bd7 com.mihoyo.hoyolab/com.mihoyo.sora.download.DownloadProvider}
+
+ContentProvider Authorities:
+  [com.mihoyo.hoyolab.firebaseperfprovider]:
+    Provider{4598ef5 com.mihoyo.hoyolab/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{d7f9cc4 com.mihoyo.hoyolab}
+  [com.mihoyo.hoyolab.pump.download-provider]:
+    Provider{65c6bd7 com.mihoyo.hoyolab/com.mihoyo.sora.download.DownloadProvider}
+      applicationInfo=ApplicationInfo{4b1a7ad com.mihoyo.hoyolab}
+  [com.facebook.app.FacebookContentProvider734368980753082]:
+    Provider{7ac5fdf com.mihoyo.hoyolab/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{d894ae2 com.mihoyo.hoyolab}
+  [com.mihoyo.hoyolab.androidx-startup]:
+    Provider{e012571 com.mihoyo.hoyolab/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{511ee73 com.mihoyo.hoyolab}
+  [com.mihoyo.hoyolab.firebaseinitprovider]:
+    Provider{a2eb48a com.mihoyo.hoyolab/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{f3bc130 com.mihoyo.hoyolab}
+  [com.mihoyo.hoyolab.luckProvider]:
+    Provider{72fa839 com.mihoyo.hoyolab/com.luck.picture.lib.PictureFileProvider}
+      applicationInfo=ApplicationInfo{c6e11a9 com.mihoyo.hoyolab}
+  [com.mihoyo.hoyolab.FacebookInitProvider]:
+    Provider{cf32718 com.mihoyo.hoyolab/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{5f5332e com.mihoyo.hoyolab}
+  [com.github.razerdp.com.mihoyo.hoyolab.BasePopupInitializer]:
+    Provider{64b8f56 com.mihoyo.hoyolab/razerdp.basepopup.BasePopupInitializer}
+      applicationInfo=ApplicationInfo{292fecf com.mihoyo.hoyolab}
+  [com.mihoyo.hoyolab.fcmpush.InitContentProvider]:
+    Provider{f14f42c com.mihoyo.hoyolab/com.mihoyo.framework.sora.push.firebase.InitContentProvider}
+      applicationInfo=ApplicationInfo{553c05c com.mihoyo.hoyolab}
+  [com.hoyolab.widget.fileprovider]:
+    Provider{9a22e7e com.mihoyo.hoyolab/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{c6d1f65 com.mihoyo.hoyolab}
+  [com.mihoyo.hoyolab.AstrolabeProvider]:
+    Provider{da11afb com.mihoyo.hoyolab/com.mihoyo.astrolabe.core.AstrolabeProvider}
+      applicationInfo=ApplicationInfo{725543a com.mihoyo.hoyolab}
+
+Key Set Manager:
+  [com.mihoyo.hoyolab]
+      Signing KeySets: 115
+
+Packages:
+  Package [com.mihoyo.hoyolab] (96ab8eb):
+    appId=10345
+    pkg=Package{78a8648 com.mihoyo.hoyolab}
+    codePath=/data/app/~~QFkUhWcqa3taczzl4sX2oQ==/com.mihoyo.hoyolab-nFw1mv3nBq6xGtRYQwKJhg==
+    resourcePath=/data/app/~~QFkUhWcqa3taczzl4sX2oQ==/com.mihoyo.hoyolab-nFw1mv3nBq6xGtRYQwKJhg==
+    legacyNativeLibraryDir=/data/app/~~QFkUhWcqa3taczzl4sX2oQ==/com.mihoyo.hoyolab-nFw1mv3nBq6xGtRYQwKJhg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2280061 minSdk=26 targetSdk=31
+    minExtensionVersions=[]
+    versionName=2.28.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.sec.android, com.huawei.android.launcher, com.facebook.katana, com.twitter.android, com.reddit.frontpage, androidx.test.orchestrator, androidx.test.services, com.google.android.apps.common.testing.services]
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.media.action.ACTION_VIDEO_CAPTURE }, Intent { act=android.media.browse.MediaBrowserService }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-07-29 17:36:36
+    lastUpdateTime=2025-07-29 17:36:36
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{e954ce1 version:3, signatures:[692997eb], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.RESTART_PACKAGES
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.sec.android.provider.badge.permission.READ
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      com.sec.android.provider.badge.permission.WRITE
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+      com.huawei.android.launcher.permission.CHANGE_BADGE 
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=182102 deDataInode=182105 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.mihoyo.hoyolab
+      firstInstallTime=2025-07-29 17:36:36
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.android.nfc,com.miui.tsmclient]:
+      com.mihoyo.hoyolab
+    com.xiaomi.aicr:
+      com.mihoyo.hoyolab
+    com.android.contacts:
+      com.mihoyo.hoyolab
+    com.xiaomi.gamecenter.sdk.service:
+      com.mihoyo.hoyolab
+    com.android.settings.intelligence:
+      com.mihoyo.hoyolab
+    com.miui.nextpay:
+      com.mihoyo.hoyolab
+    com.xiaomi.mis:
+      com.mihoyo.hoyolab
+    com.miui.hybrid:
+      com.mihoyo.hoyolab
+    com.xiaomi.market:
+      com.mihoyo.hoyolab
+    com.miui.systemAdSolution:
+      com.mihoyo.hoyolab
+    com.xiaomi.account:
+      com.mihoyo.hoyolab
+    com.miui.greenguard:
+      com.mihoyo.hoyolab
+    com.xiaomi.payment:
+      com.mihoyo.hoyolab
+    com.xiaomi.xmsf:
+      com.mihoyo.hoyolab
+    com.android.providers.downloads.ui:
+      com.mihoyo.hoyolab
+    com.mfashiongallery.emag:
+      com.mihoyo.hoyolab
+    com.android.calendar:
+      com.mihoyo.hoyolab
+    com.android.email:
+      com.mihoyo.hoyolab
+    com.miui.gallery:
+      com.mihoyo.hoyolab
+    com.miui.virtualsim:
+      com.mihoyo.hoyolab
+    com.getsurfboard:
+      com.mihoyo.hoyolab
+    com.skysoft.kkbox.android:
+      com.mihoyo.hoyolab
+    com.xingin.xhs:
+      com.mihoyo.hoyolab
+    com.duokan.reader:
+      com.mihoyo.hoyolab
+    com.instagram.android:
+      com.mihoyo.hoyolab
+    com.google.android.gm:
+      com.mihoyo.hoyolab
+    com.miui.video:
+      com.mihoyo.hoyolab
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.mihoyo.hoyolab
+    com.einnovation.temu:
+      com.mihoyo.hoyolab
+    com.microsoft.emmx:
+      com.mihoyo.hoyolab
+    com.ss.android.ugc.aweme:
+      com.mihoyo.hoyolab
+    com.microsoft.office.outlook:
+      com.mihoyo.hoyolab
+    com.ss.android.article.news:
+      com.mihoyo.hoyolab
+    com.jijia.bqwnl:
+      com.mihoyo.hoyolab
+    com.quark.browser:
+      com.mihoyo.hoyolab
+    cn.ninegame.gamemanager:
+      com.mihoyo.hoyolab
+    com.baidu.BaiduMap:
+      com.mihoyo.hoyolab
+    com.UCMobile:
+      com.mihoyo.hoyolab
+    com.autonavi.minimap:
+      com.mihoyo.hoyolab
+    com.dragon.read:
+      com.mihoyo.hoyolab
+    com.jijia.jjweather:
+      com.mihoyo.hoyolab
+    com.zhuantech.sijiweather:
+      com.mihoyo.hoyolab
+    com.suxing.sustream:
+      com.mihoyo.hoyolab
+    com.yahoo.mobile.client.android.mail:
+      com.mihoyo.hoyolab
+    com.mihoyo.hoyolab:
+      [com.xiaomi.bluetooth,com.android.bluetooth]
+      com.android.music
+      com.skysoft.kkbox.android
+      com.spotify.music
+      com.google.android.apps.youtube.music
+      com.tencent.android.qqdownloader
+      com.kuaishou.nebula
+      com.baidu.BaiduMap
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.mihoyo.hoyolab]
+    path: /data/app/~~QFkUhWcqa3taczzl4sX2oQ==/com.mihoyo.hoyolab-nFw1mv3nBq6xGtRYQwKJhg==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.mihoyo.hoyolab]
+     base.apk - 2103

@@ -1,0 +1,336 @@
+Activity Resolver Table:
+  Schemes:
+      otpauth:
+        c4438eb com.duosecurity.duomobile/.ui.router.DeepLinkRouterActivity filter 7cbfa06
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "otpauth"
+      duotrustedendpoints:
+        c4438eb com.duosecurity.duomobile/.ui.router.DeepLinkRouterActivity filter eab78c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "duotrustedendpoints"
+      duo:
+        c4438eb com.duosecurity.duomobile/.ui.router.DeepLinkRouterActivity filter cacce1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "duo"
+      https:
+        c4438eb com.duosecurity.duomobile/.ui.router.DeepLinkRouterActivity filter 3260648
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: ".duosecurity.com": -1 WILD
+          Authority: ".duosecurity.com": -1 WILD
+          Authority: ".duofederal.com": -1 WILD
+          Authority: ".duofederal.com": -1 WILD
+          Path: "PatternMatcher{PREFIX: /android/}"
+          Path: "PatternMatcher{PREFIX: /activate/}"
+          Path: "PatternMatcher{PREFIX: /android/}"
+          Path: "PatternMatcher{PREFIX: /activate/}"
+          AutoVerify=true
+        c4438eb com.duosecurity.duomobile/.ui.router.DeepLinkRouterActivity filter eb93ef4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: ".duosecurity.com": -1 WILD
+          Path: "PatternMatcher{PREFIX: /frame/mobile_identification}"
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        75cda63 com.duosecurity.duomobile/.account_list.AccountListActivity filter 8a55660
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        ac6561d com.duosecurity.duomobile/.account_list.AccountListV3Activity filter c1db092
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        6c932db com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 18b9178
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        fbb2bd5 com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 5cabfea
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        98fb051 com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 98cf0b6
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        51e21b7 com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 6a44d24
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        98fb051 com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 98cf0b6
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        c38b9bf com.duosecurity.duomobile/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter 579788c
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.c2dm.intent.RECEIVE:
+        cf73719 com.duosecurity.duomobile/com.google.firebase.iid.FirebaseInstanceIdReceiver filter e6243de
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        6c932db com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 18b9178
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        14e008d com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.RescheduleReceiver filter c6f6242
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        14e008d com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.RescheduleReceiver filter c6f6242
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        14e008d com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.RescheduleReceiver filter c6f6242
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        fbb2bd5 com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 5cabfea
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        c692253 com.duosecurity.duomobile/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 6b1790
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        8271889 com.duosecurity.duomobile/.push.DuoFcmListenerService filter 515608e
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        95990af com.duosecurity.duomobile/com.google.firebase.messaging.FirebaseMessagingService filter b921cbc
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.duosecurity.duomobile:
+    ID: a1e02732-25fe-47d1-94f4-f7cab014941a
+    Signatures: [BE:5A:A8:A5:43:6E:99:71:21:E5:E5:5E:4C:A7:E0:47:84:48:88:09:14:B9:F9:4C:24:2C:5E:4F:DB:E8:D8:98]
+    Domain verification state:
+      *.duofederal.com: verified
+      *.duosecurity.com: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          *.duofederal.com
+          *.duosecurity.com
+
+Registered ContentProviders:
+  com.duosecurity.duomobile/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{1afe4dd com.duosecurity.duomobile/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.duosecurity.duomobile/androidx.work.impl.WorkManagerInitializer:
+    Provider{f8df852 com.duosecurity.duomobile/androidx.work.impl.WorkManagerInitializer}
+  com.duosecurity.duomobile/.push.NotificationSoundContentProvider:
+    Provider{287e723 com.duosecurity.duomobile/.push.NotificationSoundContentProvider}
+  com.duosecurity.duomobile/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{45c4420 com.duosecurity.duomobile/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.duosecurity.duomobile.lifecycle-process]:
+    Provider{1afe4dd com.duosecurity.duomobile/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{8caf1d9 com.duosecurity.duomobile}
+  [com.duosecurity.duomobile.firebaseinitprovider]:
+    Provider{45c4420 com.duosecurity.duomobile/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{aef479e com.duosecurity.duomobile}
+  [com.duosecurity.duomobile.soundprovider]:
+    Provider{287e723 com.duosecurity.duomobile/.push.NotificationSoundContentProvider}
+      applicationInfo=ApplicationInfo{1e7d27f com.duosecurity.duomobile}
+  [com.duosecurity.duomobile.workmanager-init]:
+    Provider{f8df852 com.duosecurity.duomobile/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{f11824c com.duosecurity.duomobile}
+
+Key Set Manager:
+  [com.duosecurity.duomobile]
+      Signing KeySets: 127
+
+Packages:
+  Package [com.duosecurity.duomobile] (d8129f):
+    appId=10358
+    pkg=Package{2efd295 com.duosecurity.duomobile}
+    codePath=/data/app/~~NMQPxx9VHX4ltm8cM3w0aQ==/com.duosecurity.duomobile-HDy0CvyMsAQsbbxYgxTABg==
+    resourcePath=/data/app/~~NMQPxx9VHX4ltm8cM3w0aQ==/com.duosecurity.duomobile-HDy0CvyMsAQsbbxYgxTABg==
+    legacyNativeLibraryDir=/data/app/~~NMQPxx9VHX4ltm8cM3w0aQ==/com.duosecurity.duomobile-HDy0CvyMsAQsbbxYgxTABg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=347000 minSdk=24 targetSdk=29
+    minExtensionVersions=[]
+    versionName=3.47.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2025-07-29 20:54:32
+    lastUpdateTime=2025-07-29 20:54:32
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{6843faa version:3, signatures:[4e6afb73], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.USE_FINGERPRINT
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=107830 deDataInode=79610 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.duosecurity.duomobile
+      firstInstallTime=2025-07-29 20:54:32
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.duosecurity.duomobile
+    com.xiaomi.aicr:
+      com.duosecurity.duomobile
+    com.android.contacts:
+      com.duosecurity.duomobile
+    com.xiaomi.gamecenter.sdk.service:
+      com.duosecurity.duomobile
+    com.android.settings.intelligence:
+      com.duosecurity.duomobile
+    com.miui.nextpay:
+      com.duosecurity.duomobile
+    com.xiaomi.mis:
+      com.duosecurity.duomobile
+    com.miui.hybrid:
+      com.duosecurity.duomobile
+    com.xiaomi.market:
+      com.duosecurity.duomobile
+    com.miui.systemAdSolution:
+      com.duosecurity.duomobile
+    com.xiaomi.account:
+      com.duosecurity.duomobile
+    com.miui.greenguard:
+      com.duosecurity.duomobile
+    com.xiaomi.payment:
+      com.duosecurity.duomobile
+    com.xiaomi.xmsf:
+      com.duosecurity.duomobile
+    com.android.providers.downloads.ui:
+      com.duosecurity.duomobile
+    com.mfashiongallery.emag:
+      com.duosecurity.duomobile
+    com.android.calendar:
+      com.duosecurity.duomobile
+    com.android.email:
+      com.duosecurity.duomobile
+    com.miui.gallery:
+      com.duosecurity.duomobile
+    com.miui.virtualsim:
+      com.duosecurity.duomobile
+    com.getsurfboard:
+      com.duosecurity.duomobile
+    com.xingin.xhs:
+      com.duosecurity.duomobile
+    com.duokan.reader:
+      com.duosecurity.duomobile
+    com.instagram.android:
+      com.duosecurity.duomobile
+    com.miui.video:
+      com.duosecurity.duomobile
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.duosecurity.duomobile
+    com.ss.android.ugc.aweme:
+      com.duosecurity.duomobile
+    com.microsoft.office.outlook:
+      com.duosecurity.duomobile
+    com.ss.android.article.news:
+      com.duosecurity.duomobile
+    com.jijia.bqwnl:
+      com.duosecurity.duomobile
+    com.quark.browser:
+      com.duosecurity.duomobile
+    com.baidu.BaiduMap:
+      com.duosecurity.duomobile
+    com.UCMobile:
+      com.duosecurity.duomobile
+    com.autonavi.minimap:
+      com.duosecurity.duomobile
+    com.dragon.read:
+      com.duosecurity.duomobile
+    com.jijia.jjweather:
+      com.duosecurity.duomobile
+    com.zhuantech.sijiweather:
+      com.duosecurity.duomobile
+    com.suxing.sustream:
+      com.duosecurity.duomobile
+    com.yahoo.mobile.client.android.mail:
+      com.duosecurity.duomobile
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.duosecurity.duomobile]
+    path: /data/app/~~NMQPxx9VHX4ltm8cM3w0aQ==/com.duosecurity.duomobile-HDy0CvyMsAQsbbxYgxTABg==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~NMQPxx9VHX4ltm8cM3w0aQ==/com.duosecurity.duomobile-HDy0CvyMsAQsbbxYgxTABg==/oat/arm64/base.odex]
+    base APK odex file size: base.odex: 144Kb base.vdex: 8571Kb 
+
+Compiler stats:
+  [com.duosecurity.duomobile]
+     base.apk - 316

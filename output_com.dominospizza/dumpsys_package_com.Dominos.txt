@@ -1,0 +1,580 @@
+Activity Resolver Table:
+  Schemes:
+      moengage:
+        f5c1375 com.Dominos/com.moengage.sdk.debugger.MoEDebuggerActivity filter 9a01f0a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "moengage"
+          Authority: "debugger": -1
+      jubilant:
+        1985d9 com.Dominos/.activity.MenuActivity filter 7c4b9e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jubilant"
+          Authority: "menu": -1
+          AutoVerify=true
+        8b80d6f com.Dominos/.activity.OffersActivity filter d4fba7c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jubilant"
+          Authority: "offers": -1
+          AutoVerify=true
+        dac5f05 com.Dominos/.activity.edv.EdvActivity filter a362b5a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jubilant"
+          Authority: "edv": -1
+          AutoVerify=true
+        be2118b com.Dominos/.orderTracking.presentation.TrackOtherOrderActivity filter d1c0268
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jubilant"
+          Authority: "tracklist": -1
+          AutoVerify=true
+        a5e3b67 com.Dominos/.activity.irctc.CheckPNRActivity filter 8e2dd14
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jubilant"
+          Authority: "irctc": -1
+          AutoVerify=true
+        96c69bd com.Dominos/.activity.cart.CartActivity filter 8ecbb2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jubilant"
+          Authority: "cart": -1
+          AutoVerify=true
+      jbl:
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter eb0b069
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jbl"
+          Authority: "": -1 WILD
+          AutoVerify=true
+      amzn:
+        218e681 com.Dominos/com.amazon.identity.auth.device.workflow.WorkflowActivity filter 39ba326
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "amzn"
+          Authority: "com.Dominos": -1
+        9ed305f com.Dominos/com.amazon.apay.hardened.activity.RedirectUriReceiverActivity filter 734baac
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "amzn"
+          Authority: "amazonpay.amazon.in": -1
+          Path: "PatternMatcher{LITERAL: /com.Dominos}"
+      http:
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 8e59b8f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "pizzaonline.dominos.co.in": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 81aea25
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "pizzaonline.dominoslk.com": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter d2a61ab
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "lka-s0-csr-pwa.dominoslk.com": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 633c9c6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "m.dominos.co.in": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 1c6f4b4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "m.dominos.com.bd": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter f92bc52
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "m.dominoslk.com": -1
+          AutoVerify=true
+      https:
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter ec2fe1c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "pizzaonline.dominos.co.in": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 46b27fa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "pizzaonline.dominoslk.com": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter a0fe008
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "lka-s0-csr-pwa.dominoslk.com": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter d3503a1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "m.dominos.co.in": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter ab6d87
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "m.dominos.com.bd": -1
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 77d38dd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "m.dominoslk.com": -1
+          AutoVerify=true
+      fbconnect:
+        c892703 com.Dominos/com.facebook.CustomTabActivity filter f9ab680
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.Dominos": -1
+      tagmanager.c.com.Dominos:
+        f7ae4b9 com.Dominos/com.google.android.gms.tagmanager.TagManagerPreviewActivity filter 919f0fe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tagmanager.c.com.Dominos"
+      dominos:
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 1314aee
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "dominos"
+          Authority: "": -1 WILD
+          AutoVerify=true
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter c38a820
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "dominos"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e2a867f com.Dominos/.activity.alias.LauncherRepublicAlias filter 250264c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        293a695 com.Dominos/.activity.alias.LauncherNewYearAlias filter 1dd83aa
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8eb0b9b com.Dominos/.activity.alias.LauncherChristmasAlias filter e7f5b38
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f551711 com.Dominos/.activity.alias.LauncherDiwaliAlias filter c683076
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        864c677 com.Dominos/.activity.alias.LauncherEidAlias filter e6af2e4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9e3134d com.Dominos/.activity.alias.LauncherHoliAlias filter 1ede02
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c555313 com.Dominos/.activity.alias.LauncherValentineAlias filter 3565950
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        eda9749 com.Dominos/.activity.alias.LauncherDefaultAlias filter 8a0d84e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.google.android.gms.actions.SEARCH_ACTION:
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 475b23
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.gms.actions.SEARCH_ACTION"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      android.intent.action.SEARCH:
+        3fea2f0 com.Dominos/.activity.DeeplinkActivity filter 475b23
+          Action: "android.intent.action.SEARCH"
+          Action: "com.google.android.gms.actions.SEARCH_ACTION"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        959c3e5 com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter d065eba
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        8e8ef4f com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a3226dc
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.google.android.gms.auth.api.phone.SMS_RETRIEVED:
+        4d6cc57 com.Dominos/.receivers.MySMSBroadcastReceiver filter 401b344
+          Action: "com.google.android.gms.auth.api.phone.SMS_RETRIEVED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        7353399 com.Dominos/androidx.profileinstaller.ProfileInstallReceiver filter 33aff0c
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        411d6f3 com.Dominos/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter e08bfb0
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        a6f316b com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 628d4c8
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        ae7b961 com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 12bac86
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        3f03c2d com.Dominos/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 76d8562
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        a6f316b com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 628d4c8
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        7353399 com.Dominos/androidx.profileinstaller.ProfileInstallReceiver filter 8b5c65e
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        e5e737b com.Dominos/com.google.android.gms.gcm.GcmReceiver filter 188d598
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.Dominos"
+        6416e29 com.Dominos/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 62295ae
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        959c3e5 com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter d065eba
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        3cd7947 com.Dominos/androidx.work.impl.background.systemalarm.RescheduleReceiver filter d5a7574
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        3cd7947 com.Dominos/androidx.work.impl.background.systemalarm.RescheduleReceiver filter d5a7574
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        7353399 com.Dominos/androidx.profileinstaller.ProfileInstallReceiver filter 28a4a3f
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        7353399 com.Dominos/androidx.profileinstaller.ProfileInstallReceiver filter 91c7055
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        3cd7947 com.Dominos/androidx.work.impl.background.systemalarm.RescheduleReceiver filter d5a7574
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        8e8ef4f com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a3226dc
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        fde62e3 com.Dominos/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 26374e0
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.google.android.c2dm.intent.REGISTRATION:
+        e5e737b com.Dominos/com.google.android.gms.gcm.GcmReceiver filter 188d598
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.Dominos"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        b058a9d com.Dominos/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 4060b12
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      notification_dismissed:
+        3e771f1 com.Dominos/.livenotifications.presentation.broadcastreceiver.NotificationDismissReceiver filter fa921d6
+          Action: "notification_dismissed"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        213ea6a com.Dominos/.fcm.MyFirebaseMessagingService filter be34b5b
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        41efff8 com.Dominos/com.google.firebase.messaging.FirebaseMessagingService filter 500bcd1
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.Dominos:
+    ID: 1d66b936-3cca-4a6d-8469-8ea0c55d8b3e
+    Signatures: [D0:D4:DB:24:E7:54:1F:2F:A9:8F:36:E4:CC:4B:F0:56:F1:6F:7C:7F:9D:D0:10:44:3A:08:18:E4:8F:9C:E1:9E]
+    Domain verification state:
+      pizzaonline.dominoslk.com: none
+      m.dominos.co.in: none
+      pizzaonline.dominos.co.in: none
+      m.dominoslk.com: none
+      m.dominos.com.bd: none
+      lka-s0-csr-pwa.dominoslk.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          pizzaonline.dominoslk.com
+          m.dominos.co.in
+          pizzaonline.dominos.co.in
+          m.dominoslk.com
+          m.dominos.com.bd
+          lka-s0-csr-pwa.dominoslk.com
+
+Permissions:
+  Permission [com.Dominos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (daae340):
+    sourcePackage=com.Dominos
+    uid=10200 gids=[] type=0 prot=signature
+    perm=PermissionInfo{6807279 com.Dominos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  com.Dominos/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{a27cbbe com.Dominos/com.google.firebase.provider.FirebaseInitProvider}
+  com.Dominos/com.facebook.internal.FacebookInitProvider:
+    Provider{5f9d41f com.Dominos/com.facebook.internal.FacebookInitProvider}
+  com.Dominos/androidx.startup.InitializationProvider:
+    Provider{8faf36c com.Dominos/androidx.startup.InitializationProvider}
+  com.Dominos/com.datadog.android.rum.DdRumContentProvider:
+    Provider{a8cbd35 com.Dominos/com.datadog.android.rum.DdRumContentProvider}
+
+ContentProvider Authorities:
+  [com.Dominos.firebaseinitprovider]:
+    Provider{a27cbbe com.Dominos/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{b90e5ca com.Dominos}
+  [com.Dominos.provider.datadog.rum]:
+    Provider{a8cbd35 com.Dominos/com.datadog.android.rum.DdRumContentProvider}
+      applicationInfo=ApplicationInfo{6f1933b com.Dominos}
+  [com.Dominos.FacebookInitProvider]:
+    Provider{5f9d41f com.Dominos/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{a59da58 com.Dominos}
+  [com.Dominos.androidx-startup]:
+    Provider{8faf36c com.Dominos/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{d8f7b1 com.Dominos}
+
+Key Set Manager:
+  [com.Dominos]
+      Signing KeySets: 142
+
+Packages:
+  Package [com.Dominos] (bbf9496):
+    userId=10200
+    pkg=Package{1dc2817 com.Dominos}
+    codePath=/data/app/~~-t-w-t3r4erz0K2hQqdjdA==/com.Dominos-Q_mlMyHJnkJnIVothb4kng==
+    resourcePath=/data/app/~~-t-w-t3r4erz0K2hQqdjdA==/com.Dominos-Q_mlMyHJnkJnIVothb4kng==
+    legacyNativeLibraryDir=/data/app/~~-t-w-t3r4erz0K2hQqdjdA==/com.Dominos-Q_mlMyHJnkJnIVothb4kng==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=294 minSdk=23 targetSdk=34
+    minExtensionVersions=[]
+    versionName=12.1.9
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{1dc2817 com.Dominos}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=upi://pay/* }, Intent { act=com.amazon.identity.auth.device.authorization.MapAuthorizationService }, Intent { act=com.amazon.dcp.sso.action.session.users.changed }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    dataDir=/data/user/0/com.Dominos
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-05-18 03:46:34
+    firstInstallTime=2025-05-18 03:46:35
+    lastUpdateTime=2025-05-18 03:46:35
+    signatures=PackageSignatures{7be4404 version:2, signatures:[9244befd], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.Dominos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.RECORD_AUDIO
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.INTERNET
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.WAKE_LOCK
+      BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.gms.permission.AD_ID
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.BLUETOOTH
+      com.google.android.c2dm.permission.RECEIVE
+      com.Dominos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.truecaller.permission.sdk.internal.read_account_state
+      com.android.vending.CHECK_LICENSE
+      com.singular.preinstall.READ_PERMISSION_SINGULAR
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.Dominos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147468 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.Dominos:
+      com.google.android.apps.maps
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.Dominos
+    com.google.android.settings.intelligence:
+      com.Dominos
+    com.Dominos:
+      com.android.chrome
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=160
+  User 0:
+    seq=0, package=com.android.bluetooth
+    seq=5, package=com.cnn.mobile.android.phone
+    seq=11, package=com.google.android.gms
+    seq=13, package=com.android.vending
+    seq=14, package=com.google.android.contactkeys
+    seq=15, package=com.google.android.safetycore
+    seq=16, package=com.google.ar.core
+    seq=17, package=com.google.android.trichromelibrary_710308738
+    seq=24, package=com.google.android.apps.wellbeing
+    seq=26, package=com.google.android.tts
+    seq=27, package=com.google.android.deskclock
+    seq=29, package=com.android.chrome
+    seq=52, package=com.google.android.googlequicksearchbox
+    seq=55, package=com.google.android.apps.docs
+    seq=66, package=com.google.android.inputmethod.latin
+    seq=70, package=com.google.android.partnersetup
+    seq=73, package=com.google.android.calendar
+    seq=74, package=com.google.android.apps.maps
+    seq=83, package=com.google.android.gm
+    seq=87, package=com.audiobooks.androidapp
+    seq=101, package=com.google.android.apps.youtube.music
+    seq=111, package=com.asanayoga.asanarebel
+    seq=123, package=com.microsoft.translator
+    seq=130, package=org.findmykids.app
+    seq=138, package=com.scee.psxandroid
+    seq=142, package=com.southwestairlines.mobile
+    seq=146, package=com.fox.now
+    seq=157, package=com.banggood.client
+    seq=158, package=io.github.ylimit.droidbotapp
+    seq=159, package=com.Dominos
+
+
+Dexopt state:
+  [com.Dominos]
+    path: /data/app/~~-t-w-t3r4erz0K2hQqdjdA==/com.Dominos-Q_mlMyHJnkJnIVothb4kng==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.Dominos]
+    (No recorded stats)
+
+APEX session state:
+  Session ID: 1216320661
+    State: STAGED
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7099  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:56         now          10       17311           0           0           1           2           1
+          1:56        0:56          22       39610           0           0           8           5           2
+          2:56        1:56          31       44018           0           0           8           5           1
+          3:56        2:56           7       36766           0           0           3           2           1
+          4:56        3:56          13       23960           0           0           3           6           2
+          5:56        4:56          12       34863           0           0           4           9           6
+          6:56        5:56          25       27189           0           0           3           5           1
+          7:56        6:56          12       34614           0           0           3           3           1
+          8:56        7:56          26       42611           0           0           4          10           4
+          9:56        8:56           9       35103           0           0           3           4           3
+      02:02:56         now         911     1558509           0           5         166         505          52
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:56         now          10           0           0           0           0           0           0           0
+          1:56        0:56          21           1           0           0           0           0           0           0
+          2:56        1:56          31           0           0           0           0           0           0           0
+          3:56        2:56           7           0           0           0           0           0           0           0
+          4:56        3:56          12           1           0           0           0           0           0           0
+          5:56        4:56          11           0           0           1           0           0           0           0
+          6:56        5:56          25           0           0           0           0           0           0           0
+          7:56        6:56          12           0           0           0           0           0           0           0
+          8:56        7:56          25           0           1           0           0           0           0           0
+          9:56        8:56           8           0           1           0           0           0           0           0
+      02:02:56         now         872          11          13          10           2           2           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:56         now           1           0           0           0           2           0           1           6
+          1:56        0:56           7           0           1           1           0           0           1          12
+          2:56        1:56           5           0           3           1           1           0           5          16
+          3:56        2:56           3           0           0           1           0           0           0           3
+          4:56        3:56           3           0           0           0           0           1           1           8
+          5:56        4:56           4           0           0           1           0           0           0           7
+          6:56        5:56           2           0           1           1           2           5           2          12
+          7:56        6:56           3           0           0           0           0           2           0           7
+          8:56        7:56           2           1           1           0           1           2           4          15
+          9:56        8:56           3           0           0           1           0           1           0           4
+      02:02:56         now         125          13          27          39          20          86          73         527

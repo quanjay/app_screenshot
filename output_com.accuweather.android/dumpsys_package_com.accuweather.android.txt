@@ -1,0 +1,630 @@
+Activity Resolver Table:
+  Schemes:
+      pendo-6b3cdc1c:
+        864064d com.accuweather.android/sdk.pendo.io.activities.PendoGateActivity filter 9105502
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pendo-6b3cdc1c"
+      accuweather:
+        a931aaa com.accuweather.android/.activities.MainActivity filter bd04a38
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "accuweather"
+          Authority: "accuweather.onelink.me": -1
+          Path: "PatternMatcher{PREFIX: /dZpv}"
+        a931aaa com.accuweather.android/.activities.MainActivity filter 603776
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "accuweather"
+          Authority: "navigation": -1
+          Path: "PatternMatcher{GLOB: /upsell}"
+      https:
+        a931aaa com.accuweather.android/.activities.MainActivity filter c3e569b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "accuweather.onelink.me": -1
+          Path: "PatternMatcher{PREFIX: /dZpv}"
+          AutoVerify=true
+        a931aaa com.accuweather.android/.activities.MainActivity filter d9cda11
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.accuweather.com": -1
+          Path: "PatternMatcher{GLOB: /..*/videos/..*/..*}"
+      amazonmobile:
+        766fe13 com.accuweather.android/com.amazon.device.ads.DTBActivity filter df62850
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "amazonmobile"
+          Authority: "intent": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        920254c com.accuweather.android/.activities.SplashActivity filter 2d53995
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.bosch.myspin.action.MAIN:
+        521c177 com.accuweather.android/com.accuweather.bosch.activities.BoschMainActivity filter 15bd1e4
+          Action: "com.bosch.myspin.action.MAIN"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        ff7ba49 com.accuweather.android/.widgets.WidgetConfigActivityLight filter 4b2bf4e
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        ab9686f com.accuweather.android/.widgets.WidgetConfigActivity3DayLight filter 39d797c
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        6f8b205 com.accuweather.android/.widgets.WidgetConfigActivityDark filter 2ff825a
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        c1e1c8b com.accuweather.android/.widgets.WidgetConfigActivity3DayDark filter 406b168
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION:
+        f576981 com.accuweather.android/com.urbanairship.actions.RateAppActivity filter 5236a26
+          Action: "com.urbanairship.actions.SHOW_RATE_APP_INTENT_ACTION"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        35501f3 com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6bc0eb0
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        fe6af2d com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 8667c62
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.QUICKBOOT_POWERON:
+        9cff667 com.accuweather.android/.widgets.AWAppWidgetProvider filter 5497c14
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        f901cbd com.accuweather.android/.widgets.AWAppWidgetProvider3DayLight filter 4c02b2
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        db9203 com.accuweather.android/.widgets.AWAppWidgetProviderDark filter 54c4580
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fa6c7b9 com.accuweather.android/.widgets.AWAppWidgetProvider3DayDark filter cf397fe
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        6ac1129 com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 333fcae
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        b3ca4f com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter c4b65dc
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        9cff667 com.accuweather.android/.widgets.AWAppWidgetProvider filter 5497c14
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        f901cbd com.accuweather.android/.widgets.AWAppWidgetProvider3DayLight filter 4c02b2
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        db9203 com.accuweather.android/.widgets.AWAppWidgetProviderDark filter 54c4580
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fa6c7b9 com.accuweather.android/.widgets.AWAppWidgetProvider3DayDark filter cf397fe
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        6ac1129 com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 333fcae
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        87b4b5f com.accuweather.android/com.appsflyer.MultipleInstallBroadcastReceiver filter 7f039ac
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.urbanairship.push.OPENED:
+        b4cb4f1 com.accuweather.android/com.urbanairship.push.NotificationProxyReceiver filter 230a8d6
+          Action: "com.urbanairship.push.OPENED"
+          Category: "com.accuweather.android"
+          mPriority=-999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.LOCALE_CHANGED:
+        9cff667 com.accuweather.android/.widgets.AWAppWidgetProvider filter 5497c14
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        f901cbd com.accuweather.android/.widgets.AWAppWidgetProvider3DayLight filter 4c02b2
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        db9203 com.accuweather.android/.widgets.AWAppWidgetProviderDark filter 54c4580
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fa6c7b9 com.accuweather.android/.widgets.AWAppWidgetProvider3DayDark filter cf397fe
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        dad4757 com.accuweather.android/com.urbanairship.locale.LocaleChangeReceiver filter 2ce1244
+          Action: "android.intent.action.LOCALE_CHANGED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        8b8b447 com.accuweather.android/androidx.profileinstaller.ProfileInstallReceiver filter 37c9474
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        7333e7b com.accuweather.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter bfd4498
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        35501f3 com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 6bc0eb0
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        94b96e5 com.accuweather.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 74735ba
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        94b96e5 com.accuweather.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 74735ba
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        9cff667 com.accuweather.android/.widgets.AWAppWidgetProvider filter 5497c14
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        f901cbd com.accuweather.android/.widgets.AWAppWidgetProvider3DayLight filter 4c02b2
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        db9203 com.accuweather.android/.widgets.AWAppWidgetProviderDark filter 54c4580
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fa6c7b9 com.accuweather.android/.widgets.AWAppWidgetProvider3DayDark filter cf397fe
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        9e32675 com.accuweather.android/.geofence.GeofenceBroadcastReceiver filter eed360a
+          Action: "android.intent.action.BOOT_COMPLETED"
+        94b96e5 com.accuweather.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 74735ba
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.USER_PRESENT:
+        9cff667 com.accuweather.android/.widgets.AWAppWidgetProvider filter 5497c14
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        f901cbd com.accuweather.android/.widgets.AWAppWidgetProvider3DayLight filter 4c02b2
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        db9203 com.accuweather.android/.widgets.AWAppWidgetProviderDark filter 54c4580
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fa6c7b9 com.accuweather.android/.widgets.AWAppWidgetProvider3DayDark filter cf397fe
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        fe6af2d com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 8667c62
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        9cff667 com.accuweather.android/.widgets.AWAppWidgetProvider filter 5497c14
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        f901cbd com.accuweather.android/.widgets.AWAppWidgetProvider3DayLight filter 4c02b2
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        db9203 com.accuweather.android/.widgets.AWAppWidgetProviderDark filter 54c4580
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fa6c7b9 com.accuweather.android/.widgets.AWAppWidgetProvider3DayDark filter cf397fe
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        3a3bc61 com.accuweather.android/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 422f386
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        9cff667 com.accuweather.android/.widgets.AWAppWidgetProvider filter 5497c14
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        f901cbd com.accuweather.android/.widgets.AWAppWidgetProvider3DayLight filter 4c02b2
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        db9203 com.accuweather.android/.widgets.AWAppWidgetProviderDark filter 54c4580
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fa6c7b9 com.accuweather.android/.widgets.AWAppWidgetProvider3DayDark filter cf397fe
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        38cbc6b com.accuweather.android/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter a1703c8
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        6febd9d com.accuweather.android/.notifications.AWMessagingService filter caac212
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        7c24de3 com.accuweather.android/com.urbanairship.push.fcm.AirshipFirebaseMessagingService filter 20883e0
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        50e9699 com.accuweather.android/com.google.firebase.messaging.FirebaseMessagingService filter c6eed5e
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+  com.accuweather.android:
+    ID: b9b61613-5409-4145-b190-53cd7b1eb254
+    Signatures: [46:12:0A:F6:3F:CC:75:CA:58:44:D1:81:A8:7C:66:E2:84:CB:0E:1D:6B:7F:7F:A5:6D:32:54:72:0B:A6:8E:02]
+    Domain verification state:
+      accuweather.onelink.me: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.accuweather.com
+          accuweather.onelink.me
+
+Registered ContentProviders:
+  com.accuweather.android/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider:
+    Provider{f326bc5 com.accuweather.android/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+  com.accuweather.android/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{4ac191a com.accuweather.android/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.accuweather.android/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{108cc4b com.accuweather.android/com.google.firebase.provider.FirebaseInitProvider}
+  com.accuweather.android/com.urbanairship.UrbanAirshipProvider:
+    Provider{c000628 com.accuweather.android/com.urbanairship.UrbanAirshipProvider}
+  com.accuweather.android/androidx.startup.InitializationProvider:
+    Provider{8d2ff41 com.accuweather.android/androidx.startup.InitializationProvider}
+  com.accuweather.android/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{8e2ace6 com.accuweather.android/com.google.android.gms.ads.MobileAdsInitProvider}
+
+ContentProvider Authorities:
+  [com.accuweather.android.androidx-startup]:
+    Provider{8d2ff41 com.accuweather.android/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{915e227 com.accuweather.android}
+  [com.accuweather.android.mapboxtelemetryinitprovider]:
+    Provider{f326bc5 com.accuweather.android/com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider}
+      applicationInfo=ApplicationInfo{a635cd4 com.accuweather.android}
+  [com.accuweather.android.urbanairship.provider]:
+    Provider{c000628 com.accuweather.android/com.urbanairship.UrbanAirshipProvider}
+      applicationInfo=ApplicationInfo{28f4e7d com.accuweather.android}
+  [com.accuweather.android.firebaseinitprovider]:
+    Provider{108cc4b com.accuweather.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{29cb172 com.accuweather.android}
+  [com.accuweather.android.firebaseperfprovider]:
+    Provider{4ac191a com.accuweather.android/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{af479c3 com.accuweather.android}
+  [com.accuweather.android.mobileadsinitprovider]:
+    Provider{8e2ace6 com.accuweather.android/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{7037240 com.accuweather.android}
+
+Key Set Manager:
+  [com.accuweather.android]
+      Signing KeySets: 271
+
+Packages:
+  Package [com.accuweather.android] (6c75579):
+    appId=10426
+    pkg=Package{38072be com.accuweather.android}
+    codePath=/data/app/~~1yVHjgIJ4KNtm10vy8omAA==/com.accuweather.android-4Akt2IRMqtIe29dQQY_10w==
+    resourcePath=/data/app/~~1yVHjgIJ4KNtm10vy8omAA==/com.accuweather.android-4Akt2IRMqtIe29dQQY_10w==
+    legacyNativeLibraryDir=/data/app/~~1yVHjgIJ4KNtm10vy8omAA==/com.accuweather.android-4Akt2IRMqtIe29dQQY_10w==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=80500002 minSdk=23 targetSdk=31
+    minExtensionVersions=[]
+    versionName=8.5.0-2-google
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=com.bosch.myspin.ACTION_BIND_MYSPIN_SERVICE }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-08-07 15:41:25
+    lastUpdateTime=2025-08-07 15:41:25
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{d9aef1f version:3, signatures:[d4f22e39], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      com.google.android.gms.permission.AD_ID
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_BACKGROUND_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=91386 deDataInode=91284 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.accuweather.android
+      firstInstallTime=2025-08-07 15:41:25
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.accuweather.android
+    com.xiaomi.aicr:
+      com.accuweather.android
+    com.android.contacts:
+      com.accuweather.android
+    com.xiaomi.gamecenter.sdk.service:
+      com.accuweather.android
+    com.android.settings.intelligence:
+      com.accuweather.android
+    com.miui.carlink:
+      com.accuweather.android
+    com.miui.nextpay:
+      com.accuweather.android
+    com.xiaomi.mis:
+      com.accuweather.android
+    com.miui.hybrid:
+      com.accuweather.android
+    com.xiaomi.market:
+      com.accuweather.android
+    com.miui.systemAdSolution:
+      com.accuweather.android
+    com.xiaomi.account:
+      com.accuweather.android
+    com.miui.greenguard:
+      com.accuweather.android
+    com.xiaomi.payment:
+      com.accuweather.android
+    com.xiaomi.xmsf:
+      com.accuweather.android
+    com.android.providers.downloads.ui:
+      com.accuweather.android
+    com.mfashiongallery.emag:
+      com.accuweather.android
+    com.android.calendar:
+      com.accuweather.android
+    com.android.email:
+      com.accuweather.android
+    com.miui.gallery:
+      com.accuweather.android
+    com.miui.virtualsim:
+      com.accuweather.android
+    com.getsurfboard:
+      com.accuweather.android
+    com.xingin.xhs:
+      com.accuweather.android
+    com.duokan.reader:
+      com.accuweather.android
+    com.instagram.android:
+      com.accuweather.android
+    com.miui.video:
+      com.accuweather.android
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.accuweather.android
+    com.ss.android.ugc.aweme:
+      com.accuweather.android
+    com.microsoft.office.outlook:
+      com.accuweather.android
+    com.ss.android.article.news:
+      com.accuweather.android
+    com.jijia.bqwnl:
+      com.accuweather.android
+    com.quark.browser:
+      com.accuweather.android
+    com.baidu.BaiduMap:
+      com.accuweather.android
+    com.UCMobile:
+      com.accuweather.android
+    com.autonavi.minimap:
+      com.accuweather.android
+    com.dragon.read:
+      com.accuweather.android
+    com.jijia.jjweather:
+      com.accuweather.android
+    com.zhuantech.sijiweather:
+      com.accuweather.android
+    com.suxing.sustream:
+      com.accuweather.android
+    com.yahoo.mobile.client.android.mail:
+      com.accuweather.android
+    com.accuweather.android:
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.android.chrome
+      com.miui.video
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.quark.browser
+      com.kuaishou.nebula
+      com.UCMobile
+      com.baidu.searchbox.lite
+      com.smile.gifmaker
+      com.baidu.searchbox
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.accuweather.android]
+    path: /data/app/~~1yVHjgIJ4KNtm10vy8omAA==/com.accuweather.android-4Akt2IRMqtIe29dQQY_10w==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.accuweather.android]
+    (No recorded stats)

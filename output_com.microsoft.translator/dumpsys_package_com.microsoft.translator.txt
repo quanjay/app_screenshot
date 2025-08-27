@@ -1,0 +1,407 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        e5a1e5 com.microsoft.translator/.activity.translate.InAppTranslationActivity filter 537e4ba
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        e5a1e5 com.microsoft.translator/.activity.translate.InAppTranslationActivity filter 2593f6b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image/*:
+        eae1d4f com.microsoft.translator/.activity.ocr.OCRActivity filter 72abcdc
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      text:
+        e5a1e5 com.microsoft.translator/.activity.translate.InAppTranslationActivity filter 537e4ba
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        e5a1e5 com.microsoft.translator/.activity.translate.InAppTranslationActivity filter 2593f6b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      image:
+        eae1d4f com.microsoft.translator/.activity.ocr.OCRActivity filter 72abcdc
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      http:
+        914cac8 com.microsoft.translator/.activity.capito.JoinConversation filter 2537761
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.translate.it": -1
+        914cac8 com.microsoft.translator/.activity.capito.JoinConversation filter 1ef9286
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "translate.it": -1
+          AutoVerify=true
+      https:
+        914cac8 com.microsoft.translator/.activity.capito.JoinConversation filter 2537761
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.translate.it": -1
+        914cac8 com.microsoft.translator/.activity.capito.JoinConversation filter 1ef9286
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "translate.it": -1
+          AutoVerify=true
+        914cac8 com.microsoft.translator/.activity.capito.JoinConversation filter b4a6747
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "translator.microsoft.com/live": -1
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        62b6c29 com.microsoft.translator/.activity.SplashActivity filter c27bbae
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        eae1d4f com.microsoft.translator/.activity.ocr.OCRActivity filter 72abcdc
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e5a1e5 com.microsoft.translator/.activity.translate.InAppTranslationActivity filter 2593f6b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      android.intent.action.PROCESS_TEXT:
+        e5a1e5 com.microsoft.translator/.activity.translate.InAppTranslationActivity filter 537e4ba
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        4b2f06a com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 16cd95b
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        285150c com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 25bce55
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED:
+        4225112 com.microsoft.translator/.receiver.DownloadReceiver filter d3c30e3
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Action: "android.intent.action.VIEW_DOWNLOADS"
+          Action: "com.microsoft.translator.ACTION_DOWNLOAD_UPDATE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        cf475f8 com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 5d7fad1
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        a07a936 com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 95b037
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        cf475f8 com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 5d7fad1
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        5506c5e com.microsoft.translator/.receiver.InstallReferrerReceiver filter 2f6f83f
+          Action: "com.android.vending.INSTALL_REFERRER"
+      android.intent.action.LOCALE_CHANGED:
+        20fcb74 com.microsoft.translator/.receiver.LocaleChangeReceiver filter 6f289d
+          Action: "android.intent.action.LOCALE_CHANGED"
+      android.intent.action.BATTERY_LOW:
+        4b2f06a com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 16cd95b
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        c182ae0 com.microsoft.translator/.receiver.TimeChangedReceiver filter c9ab199
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        cf6f9a4 com.microsoft.translator/androidx.work.impl.background.systemalarm.RescheduleReceiver filter e10730d
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        c182ae0 com.microsoft.translator/.receiver.TimeChangedReceiver filter c9ab199
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        cf6f9a4 com.microsoft.translator/androidx.work.impl.background.systemalarm.RescheduleReceiver filter e10730d
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        cf6f9a4 com.microsoft.translator/androidx.work.impl.background.systemalarm.RescheduleReceiver filter e10730d
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        285150c com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 25bce55
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        4225112 com.microsoft.translator/.receiver.DownloadReceiver filter d3c30e3
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Action: "android.intent.action.VIEW_DOWNLOADS"
+          Action: "com.microsoft.translator.ACTION_DOWNLOAD_UPDATE"
+      android.intent.action.VIEW_DOWNLOADS:
+        4225112 com.microsoft.translator/.receiver.DownloadReceiver filter d3c30e3
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Action: "android.intent.action.VIEW_DOWNLOADS"
+          Action: "com.microsoft.translator.ACTION_DOWNLOAD_UPDATE"
+      com.microsoft.translator.ACTION_DOWNLOAD_UPDATE:
+        4225112 com.microsoft.translator/.receiver.DownloadReceiver filter d3c30e3
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Action: "android.intent.action.VIEW_DOWNLOADS"
+          Action: "com.microsoft.translator.ACTION_DOWNLOAD_UPDATE"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        91d22c2 com.microsoft.translator/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 60b18d3
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Domain verification status:
+  com.microsoft.translator:
+    ID: d51db9a3-bd51-4ddd-bda7-ba1ac53a6ad3
+    Signatures: [B8:85:43:2E:18:4C:F9:8A:27:08:7E:AB:60:93:87:9D:C3:C9:71:51:F3:DA:A8:3A:19:E5:C9:F8:D3:EA:89:61]
+    Invalid autoVerify domains:
+      translator.microsoft.com/live
+    Domain verification state:
+      translate.it: none
+      www.translate.it: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          translate.it
+          www.translate.it
+
+Registered ContentProviders:
+  com.microsoft.translator/android.support.v4.content.FileProvider:
+    Provider{a6764ad com.microsoft.translator/android.support.v4.content.FileProvider}
+  com.microsoft.translator/androidx.work.impl.WorkManagerInitializer:
+    Provider{980c3e2 com.microsoft.translator/androidx.work.impl.WorkManagerInitializer}
+  com.microsoft.translator/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{a4e7373 com.microsoft.translator/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+
+ContentProvider Authorities:
+  [com.microsoft.translator.workmanager-init]:
+    Provider{980c3e2 com.microsoft.translator/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{8866230 com.microsoft.translator}
+  [com.microsoft.translator.lifecycle-trojan]:
+    Provider{a4e7373 com.microsoft.translator/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{4429ea9 com.microsoft.translator}
+  [com.microsoft.translator.fileprovider]:
+    Provider{a6764ad com.microsoft.translator/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{c6b3c2e com.microsoft.translator}
+
+Key Set Manager:
+  [com.microsoft.translator]
+      Signing KeySets: 130
+
+Packages:
+  Package [com.microsoft.translator] (17d7c65):
+    userId=10188
+    pkg=Package{972ed3a com.microsoft.translator}
+    codePath=/data/app/~~ypJ5FacedJRRW1NYAjWsGA==/com.microsoft.translator-UR0pKrzu3cxd5wRjXLk7sw==
+    resourcePath=/data/app/~~ypJ5FacedJRRW1NYAjWsGA==/com.microsoft.translator-UR0pKrzu3cxd5wRjXLk7sw==
+    legacyNativeLibraryDir=/data/app/~~ypJ5FacedJRRW1NYAjWsGA==/com.microsoft.translator-UR0pKrzu3cxd5wRjXLk7sw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=374 minSdk=18 targetSdk=26
+    minExtensionVersions=[]
+    versionName=3.2.374i a9fbec29
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=PackageImpl{972ed3a com.microsoft.translator}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.microsoft.translator
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-18 03:33:57
+    firstInstallTime=2025-05-18 03:33:58
+    lastUpdateTime=2025-05-18 03:33:58
+    signatures=PackageSignatures{f12ddeb version:1, signatures:[aa43e299], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.VIBRATE
+      android.permission.CAMERA
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147856 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.microsoft.translator
+    com.google.android.settings.intelligence:
+      com.microsoft.translator
+    com.google.android.apps.youtube.music:
+      com.microsoft.translator
+    com.google.android.apps.maps:
+      com.microsoft.translator
+    com.google.android.youtube:
+      com.microsoft.translator
+    com.google.android.apps.docs:
+      com.microsoft.translator
+    com.google.android.apps.photos:
+      com.microsoft.translator
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=114
+  User 0:
+    seq=0, package=com.android.bluetooth
+    seq=5, package=com.cnn.mobile.android.phone
+    seq=11, package=com.google.android.gms
+    seq=13, package=com.android.vending
+    seq=14, package=com.google.android.contactkeys
+    seq=15, package=com.google.android.safetycore
+    seq=16, package=com.google.ar.core
+    seq=17, package=com.google.android.trichromelibrary_710308738
+    seq=24, package=com.google.android.apps.wellbeing
+    seq=26, package=com.google.android.tts
+    seq=27, package=com.google.android.deskclock
+    seq=29, package=com.android.chrome
+    seq=52, package=com.google.android.googlequicksearchbox
+    seq=55, package=com.google.android.apps.docs
+    seq=66, package=com.google.android.inputmethod.latin
+    seq=70, package=com.google.android.partnersetup
+    seq=73, package=com.google.android.calendar
+    seq=74, package=com.google.android.apps.maps
+    seq=83, package=com.google.android.gm
+    seq=87, package=com.audiobooks.androidapp
+    seq=101, package=com.google.android.apps.youtube.music
+    seq=111, package=com.asanayoga.asanarebel
+    seq=112, package=io.github.ylimit.droidbotapp
+    seq=113, package=com.microsoft.translator
+
+
+Dexopt state:
+  [com.microsoft.translator]
+    path: /data/app/~~ypJ5FacedJRRW1NYAjWsGA==/com.microsoft.translator-UR0pKrzu3cxd5wRjXLk7sw==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.microsoft.translator]
+     base.apk - 745
+
+APEX session state:
+  Session ID: 1216320661
+    State: STAGED
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 5094  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:17         now          11       16784           0           0           1           3           1
+          1:17        0:17          12       33147           0           0           5           5           2
+          2:17        1:17          23       27136           0           0           3           5           1
+          3:17        2:17          15       32151           0           0           6          13           6
+          4:17        3:17          16       32562           0           0           1           8           2
+          5:17        4:17           0           0           0           0           0           0           0
+          6:17        5:17           0           0           0           0           0           0           0
+          7:17        6:17           0           0           0           0           0           0           0
+          8:17        7:17           0           0           0           0           0           0           0
+          9:17        8:17           0           0           0           0           0           0           0
+      01:50:18         now         685     1119936           0           5         115         432          52
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:17         now          11           0           0           0           0           0           0           0
+          1:17        0:17          11           1           0           0           0           0           0           0
+          2:17        1:17          23           0           0           0           0           0           0           0
+          3:17        2:17          13           0           1           1           0           0           0           0
+          4:17        3:17          14           2           0           0           0           0           0           0
+          5:17        4:17           0           0           0           0           0           0           0           0
+          6:17        5:17           0           0           0           0           0           0           0           0
+          7:17        6:17           0           0           0           0           0           0           0           0
+          8:17        7:17           0           0           0           0           0           0           0           0
+          9:17        8:17           0           0           0           0           0           0           0           0
+      01:50:18         now         652           9          10           9           2           2           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:17         now           1           0           0           0           0           3           1           6
+          1:17        0:17           3           1           1           0           0           1           0           6
+          2:17        1:17           2           1           0           0           0           2           2          16
+          3:17        2:17           6           0           0           1           0           1           0           7
+          4:17        3:17           1           0           0           0           1           0           2          12
+          5:17        4:17           0           0           0           0           0           0           0           0
+          6:17        5:17           0           0           0           0           0           0           0           0
+          7:17        6:17           0           0           0           0           0           0           0           0
+          8:17        7:17           0           0           0           0           0           0           0           0
+          9:17        8:17           0           0           0           0           0           0           0           0
+      01:50:18         now          84          10          20          30          13          69          52         406

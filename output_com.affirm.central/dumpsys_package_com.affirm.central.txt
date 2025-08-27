@@ -1,0 +1,452 @@
+Activity Resolver Table:
+  Schemes:
+      affirm:
+        d11bb1e com.affirm.central/.RootActivity filter fade1cc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "affirm"
+      https:
+        d11bb1e com.affirm.central/.RootActivity filter 79d7c15
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "affirm.app.link": -1
+          Authority: "affirm.test-app.link": -1
+          AutoVerify=true
+        d11bb1e com.affirm.central/.RootActivity filter 71a6b2a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Authority: "www.affirm.com": -1
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /home}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /savings/}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /loans/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /loan_details/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /loan_autopay/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /mci/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /merchant_browser/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /personalization_quiz/}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /shop/offers/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /shop/placements/marketplace/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /cards/.*}"
+          Path: "PatternMatcher{PREFIX: /u/}"
+          Path: "PatternMatcher{GLOB: /items/.*}"
+          Path: "PatternMatcher{PREFIX: /m/}"
+          Path: "PatternMatcher{PREFIX: /a/}"
+          AutoVerify=true
+      plaid:
+        6e6c491 com.affirm.central/com.plaid.internal.LinkRedirectActivity filter 94c0ff6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "plaid"
+          Authority: "redirect": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        d11bb1e com.affirm.central/.RootActivity filter ec3ffff
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.VIEW:
+        f629d1b com.affirm.central/com.fillr.embedded.profile.FEMainActivity filter 6bd4eb8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        d62e6ef com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 15355fc
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        64474c9 com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 33127ce
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        1969485 com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 23bf2da
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        621030b com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 7dd5e8
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        e84c883 com.affirm.central/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter bf37a00
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        1969485 com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 23bf2da
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        1d72239 com.affirm.central/androidx.profileinstaller.ProfileInstallReceiver filter 61d207e
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        a218cd com.affirm.central/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 4213582
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        d62e6ef com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 15355fc
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        83eff7 com.affirm.central/com.salesforce.marketingcloud.MCReceiver filter b549e64
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "com.affirm.central.com.salesforce.marketingcloud.WAKE_FOR_ALARM"
+        630f401 com.affirm.central/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6f662a6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        630f401 com.affirm.central/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6f662a6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      com.affirm.central.com.salesforce.marketingcloud.WAKE_FOR_ALARM:
+        83eff7 com.affirm.central/com.salesforce.marketingcloud.MCReceiver filter b549e64
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "com.affirm.central.com.salesforce.marketingcloud.WAKE_FOR_ALARM"
+      android.intent.action.BOOT_COMPLETED:
+        83eff7 com.affirm.central/com.salesforce.marketingcloud.MCReceiver filter b549e64
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "com.affirm.central.com.salesforce.marketingcloud.WAKE_FOR_ALARM"
+        630f401 com.affirm.central/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6f662a6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        64474c9 com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 33127ce
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        eb7cf3d com.affirm.central/androidx.work.impl.diagnostics.DiagnosticsReceiver filter b960332
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        83eff7 com.affirm.central/com.salesforce.marketingcloud.MCReceiver filter b549e64
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "com.affirm.central.com.salesforce.marketingcloud.WAKE_FOR_ALARM"
+        4fd9493 com.affirm.central/com.salesforce.marketingcloud.sfmcsdk.SFMCSdkReceiver filter fef3cd0
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        b5ac4e7 com.affirm.central/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter f4e6894
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      android.intent.action.ACTION_SHUTDOWN:
+        83eff7 com.affirm.central/com.salesforce.marketingcloud.MCReceiver filter b549e64
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "com.affirm.central.com.salesforce.marketingcloud.WAKE_FOR_ALARM"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.fillr.service.PageEventService:
+        3a001ad com.affirm.central/com.fillr.service.PageEventService filter 4719ce2
+          Action: "com.fillr.service.PageEventService"
+      com.fillr.service.CaptureFieldsMappingService:
+        4e80ba9 com.affirm.central/com.fillr.service.CaptureFieldsMappingService filter 810a52e
+          Action: "com.fillr.service.CaptureFieldsMappingService"
+      com.google.firebase.MESSAGING_EVENT:
+        9c169df com.affirm.central/.backgroundservice.AffirmMessagingService filter 716362c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        afea8f5 com.affirm.central/com.salesforce.marketingcloud.messages.push.MCFirebaseMessagingService filter 866c68a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        cfcc4fb com.affirm.central/com.google.firebase.messaging.FirebaseMessagingService filter c68918
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.fillr.service.FeatureFlagsService:
+        2dddf71 com.affirm.central/com.fillr.service.FeatureFlagsService filter 4f2c156
+          Action: "com.fillr.service.FeatureFlagsService"
+      com.fillr.service.PerformanceStatsService:
+        c8b5d7 com.affirm.central/com.fillr.service.PerformanceStatsService filter 8271ec4
+          Action: "com.fillr.service.PerformanceStatsService"
+      com.fillr.service.AffiliateLinkService:
+        af8d873 com.affirm.central/com.fillr.service.AffiliateLinkService filter 9d96330
+          Action: "com.fillr.service.AffiliateLinkService"
+      com.fillr.service.HeadlessFillMappingService:
+        fe88cf com.affirm.central/com.fillr.service.HeadlessFillMappingService filter 929825c
+          Action: "com.fillr.service.HeadlessFillMappingService"
+
+Domain verification status:
+  com.affirm.central:
+    ID: b98e37ad-1ce4-4540-a486-386800df648c
+    Signatures: [79:46:8A:08:63:E5:10:C2:C1:07:CC:48:68:51:B9:9B:85:74:19:29:6A:F0:56:F8:BB:1F:B4:FD:90:5E:84:13]
+    Domain verification state:
+      www.affirm.com: none
+      affirm.test-app.link: none
+      affirm.app.link: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.affirm.com
+          affirm.test-app.link
+          affirm.app.link
+
+Registered ContentProviders:
+  com.affirm.central/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{d48c463 com.affirm.central/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.affirm.central/androidx.core.content.FileProvider:
+    Provider{b63f860 com.affirm.central/androidx.core.content.FileProvider}
+  com.affirm.central/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{97e3119 com.affirm.central/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.affirm.central/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{6b5de com.affirm.central/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.affirm.central/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{5f943bf com.affirm.central/com.google.firebase.provider.FirebaseInitProvider}
+  com.affirm.central/leakcanary.internal.MainProcessAppWatcherInstaller:
+    Provider{2803a8c com.affirm.central/leakcanary.internal.MainProcessAppWatcherInstaller}
+  com.affirm.central/com.salesforce.marketingcloud.sfmcsdk.SFMCSdkInitContentProvider:
+    Provider{6b7c5d5 com.affirm.central/com.salesforce.marketingcloud.sfmcsdk.SFMCSdkInitContentProvider}
+  com.affirm.central/com.salesforce.marketingcloud.MCInitContentProvider:
+    Provider{24451ea com.affirm.central/com.salesforce.marketingcloud.MCInitContentProvider}
+  com.affirm.central/androidx.startup.InitializationProvider:
+    Provider{d085cdb com.affirm.central/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.affirm.central.firebaseinitprovider]:
+    Provider{5f943bf com.affirm.central/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{53c7378 com.affirm.central}
+  [com.affirm.central.mobileadsinitprovider]:
+    Provider{d48c463 com.affirm.central/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{cbbea51 com.affirm.central}
+  [com.affirm.central.leakcanary-installer]:
+    Provider{2803a8c com.affirm.central/leakcanary.internal.MainProcessAppWatcherInstaller}
+      applicationInfo=ApplicationInfo{90da2b6 com.affirm.central}
+  [com.affirm.central.com.salesforce.marketingcloud.sfmcsdk.initprovider]:
+    Provider{6b7c5d5 com.affirm.central/com.salesforce.marketingcloud.sfmcsdk.SFMCSdkInitContentProvider}
+      applicationInfo=ApplicationInfo{125ebb7 com.affirm.central}
+  [com.affirm.central.firebaseperfprovider]:
+    Provider{6b5de com.affirm.central/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{1814f24 com.affirm.central}
+  [com.affirm.central.provider]:
+    Provider{b63f860 com.affirm.central/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{403da8d com.affirm.central}
+  [com.affirm.central.mlkitinitprovider]:
+    Provider{97e3119 com.affirm.central/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{8493442 com.affirm.central}
+  [com.affirm.central.androidx-startup]:
+    Provider{d085cdb com.affirm.central/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{2238c53 com.affirm.central}
+  [com.affirm.central.com.salesforce.marketingcloud.initprovider]:
+    Provider{24451ea com.affirm.central/com.salesforce.marketingcloud.MCInitContentProvider}
+      applicationInfo=ApplicationInfo{9163990 com.affirm.central}
+
+Key Set Manager:
+  [com.affirm.central]
+      Signing KeySets: 162
+
+Packages:
+  Package [com.affirm.central] (9609289):
+    userId=10187
+    pkg=Package{9ba528e com.affirm.central}
+    codePath=/data/app/~~0h5MkFVms-mCs8iJoMbM2g==/com.affirm.central-NE37irw2_2G0R4qxeLKnuQ==
+    resourcePath=/data/app/~~0h5MkFVms-mCs8iJoMbM2g==/com.affirm.central-NE37irw2_2G0R4qxeLKnuQ==
+    legacyNativeLibraryDir=/data/app/~~0h5MkFVms-mCs8iJoMbM2g==/com.affirm.central-NE37irw2_2G0R4qxeLKnuQ==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=637 minSdk=24 targetSdk=31
+    minExtensionVersions=[]
+    versionName=3.133.2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{9ba528e com.affirm.central}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.SEND dat=content://*/* typ=text/plain }, Intent { act=android.intent.action.DIAL dat=tel:xx }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    dataDir=/data/user/0/com.affirm.central
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      android.test.mock
+      android.test.runner
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.test.mock.jar
+      /system/framework/android.test.runner.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-18 07:22:44
+    firstInstallTime=2025-05-18 07:22:44
+    lastUpdateTime=2025-05-18 07:22:44
+    signatures=PackageSignatures{1509aaf version:2, signatures:[c38fc80f], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.USE_FINGERPRINT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+      android.permission.CAMERA
+      android.permission.RECORD_AUDIO
+      android.permission.VIBRATE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.USE_BIOMETRIC
+      com.google.android.gms.permission.AD_ID
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147583 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.CAMERA: granted=false
+        android.permission.RECORD_AUDIO: granted=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.affirm.central:
+      com.google.android.apps.maps
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.affirm.central
+    com.google.android.settings.intelligence:
+      com.affirm.central
+    com.affirm.central:
+      com.google.android.setupwizard
+      com.android.dialer
+      com.google.android.apps.messaging
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.android.chrome
+      com.google.android.gm
+      com.google.android.apps.docs
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=55
+  User 0:
+    seq=4, package=com.google.android.deskclock
+    seq=8, package=com.google.android.gms
+    seq=12, package=com.airasia.mobile
+    seq=24, package=com.speedsoftware.explorer
+    seq=26, package=com.google.android.apps.docs
+    seq=34, package=com.babbel.mobile.android.en
+    seq=35, package=com.google.android.googlequicksearchbox
+    seq=47, package=com.rsupport.mvagent
+    seq=50, package=com.google.android.apps.photos
+    seq=52, package=com.microsoft.office.outlook
+    seq=53, package=io.github.ylimit.droidbotapp
+    seq=54, package=com.affirm.central
+
+
+Dexopt state:
+  [com.affirm.central]
+    path: /data/app/~~0h5MkFVms-mCs8iJoMbM2g==/com.affirm.central-NE37irw2_2G0R4qxeLKnuQ==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.affirm.central]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 7299  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:55         now           9       17123           0           0           1           3           1
+          1:55        0:55          12       95547           0           0           3          11           5
+          2:55        1:55          13       33122           0           0           3           4           1
+          3:55        2:55           9       45514           0           0           5           5           3
+          4:55        3:55          22       34795           0           0           1           4           1
+          5:55        4:55           9       49850           0           0           3           9           6
+          6:55        5:55          19       14417           0           0           1           2           0
+          7:55        6:55           9       16959           0           0           0           6           3
+          8:55        7:55           0           0           0           0           0           0           0
+          9:55        8:55           0           0           0           0           0           0           0
+      01:11:56         now         419      694470           0           3          56         275          74
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:55         now           9           0           0           0           0           0           0           0
+          1:55        0:55          10           0           2           0           0           0           0           0
+          2:55        1:55          13           0           0           0           0           0           0           0
+          3:55        2:55           8           0           1           0           0           0           0           0
+          4:55        3:55          22           0           0           0           0           0           0           0
+          5:55        4:55           7           1           0           1           0           0           0           0
+          6:55        5:55          19           0           0           0           0           0           0           0
+          7:55        6:55           8           0           1           0           0           0           0           0
+          8:55        7:55           0           0           0           0           0           0           0           0
+          9:55        8:55           0           0           0           0           0           0           0           0
+      01:11:56         now         397           6          10           3           1           1           1           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:55         now           0           1           0           0           0           0           0           8
+          1:55        0:55           3           0           0           1           0           0           0           8
+          2:55        1:55           2           0           1           0           0           0           0          10
+          3:55        2:55           4           0           1           0           0           1           0           3
+          4:55        3:55           0           1           0           0           1           4           2          14
+          5:55        4:55           3           0           0           0           0           1           1           4
+          6:55        5:55           1           0           0           0           0           4           3          11
+          7:55        6:55           0           0           0           0           1           1           1           6
+          8:55        7:55           0           0           0           0           0           0           0           0
+          9:55        8:55           0           0           0           0           0           0           0           0
+      01:11:56         now          43           5           7          12          15          48          50         238
