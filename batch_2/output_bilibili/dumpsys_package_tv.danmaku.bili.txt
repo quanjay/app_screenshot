@@ -1,0 +1,1993 @@
+Activity Resolver Table:
+  Schemes:
+      abiliav:
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 64e1385
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "abiliav"
+      bilibili.oauth:
+        34541af tv.danmaku.bili/.auth.AuthLoginActivity filter ada79bc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili.oauth"
+          Authority: "main": -1
+      tencent100951776:
+        a0699c5 tv.danmaku.bili/com.tencent.tauth.AuthActivity filter b07af1a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent100951776"
+      aacbaaafec:
+        41d798d tv.danmaku.bili/com.bilibili.bilipay.cmb.CmbPayActivity filter ba3e742
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "aacbaaafec"
+      http:
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 31a7e35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "live.bilibili.com": -1
+          Authority: "live.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /live/.*}"
+          Path: "PatternMatcher{GLOB: /live/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 6ba12ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.acg.tv": -1
+          Authority: "m.acg.tv": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /story/.*}"
+          Path: "PatternMatcher{GLOB: /story/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 12fbc3b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "bangumi.bilibili.com": -1
+          Authority: "bangumi.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter d4f4f58
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 4ce9196
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "cheese": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /season.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter c53e117
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "bilibili"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "article": -1
+          Path: "PatternMatcher{GLOB: /read/cv.*}"
+          Path: "PatternMatcher{GLOB: /read/cv.*}"
+          Path: "PatternMatcher{GLOB: /readlist}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 16cb170
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "mall": -1
+          Authority: "mall.bilibili.com": -1
+          Authority: "mall.bilibili.com": -1
+          Authority: "show.bilibili.com": -1
+          Authority: "show.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 5f7dce9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "smallapp": -1
+          Authority: "miniapp.bilibili.com": -1
+          Authority: "miniapp.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter de85ea5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{LITERAL: /review/}"
+          Path: "PatternMatcher{LITERAL: /review/}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 9d526d2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /blackboard/dynamic/.*}"
+          Path: "PatternMatcher{GLOB: /blackboard/dynamic/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 7c4d259
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "b23.tv": -1
+          Authority: "b23.tv": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter bade1e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili2233.cn": -1
+          Authority: "bili2233.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 871e6ff
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili23.cn": -1
+          Authority: "bili23.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 51b3ccc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili33.cn": -1
+          Authority: "bili33.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter ae73b15
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili22.cn": -1
+          Authority: "bili22.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter dd88def
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "space.bilibili.com": -1
+          Authority: "space.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: .*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 64d70fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bilibili.kankanews.com": -1
+          Authority: "bilibili.kankanews.com": -1
+          Authority: "bilibili.tv": -1
+          Authority: "bilibili.tv": -1
+          Authority: "bilibili.cn": -1
+          Authority: "bilibili.cn": -1
+          Authority: "bilibili.com": -1
+          Authority: "bilibili.com": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "bilibili.smgbb.cn": -1
+          Authority: "bilibili.smgbb.cn": -1
+          Authority: "m.acg.tv": -1
+          Authority: "m.acg.tv": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 10e394
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /pegasus/channel/v2/.*}"
+          Path: "PatternMatcher{GLOB: /pegasus/channel/v2/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter f13c37e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "pegasus": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "feed": -1
+          Path: "PatternMatcher{GLOB: /channel/v2/.*}"
+          Path: "PatternMatcher{GLOB: /h5/channel/.*}"
+          Path: "PatternMatcher{GLOB: /h5/channel/.*}"
+          Path: "PatternMatcher{GLOB: /channel}"
+        336cfe2 tv.danmaku.bili/.ui.webview.InstantEventWebActivity filter f694e30
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "n.bilibili.com": -1
+          Authority: "n.bilibili.com": -1
+      https:
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 31a7e35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "live.bilibili.com": -1
+          Authority: "live.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /live/.*}"
+          Path: "PatternMatcher{GLOB: /live/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 6ba12ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.acg.tv": -1
+          Authority: "m.acg.tv": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /story/.*}"
+          Path: "PatternMatcher{GLOB: /story/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 12fbc3b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "bangumi.bilibili.com": -1
+          Authority: "bangumi.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/bangumi/i/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter d4f4f58
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 4ce9196
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "cheese": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /season.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter c53e117
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "bilibili"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "article": -1
+          Path: "PatternMatcher{GLOB: /read/cv.*}"
+          Path: "PatternMatcher{GLOB: /read/cv.*}"
+          Path: "PatternMatcher{GLOB: /readlist}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 16cb170
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "mall": -1
+          Authority: "mall.bilibili.com": -1
+          Authority: "mall.bilibili.com": -1
+          Authority: "show.bilibili.com": -1
+          Authority: "show.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 5f7dce9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "smallapp": -1
+          Authority: "miniapp.bilibili.com": -1
+          Authority: "miniapp.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter de85ea5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{LITERAL: /review/}"
+          Path: "PatternMatcher{LITERAL: /review/}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 9d526d2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /blackboard/dynamic/.*}"
+          Path: "PatternMatcher{GLOB: /blackboard/dynamic/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 7c4d259
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "b23.tv": -1
+          Authority: "b23.tv": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter bade1e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili2233.cn": -1
+          Authority: "bili2233.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 871e6ff
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili23.cn": -1
+          Authority: "bili23.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 51b3ccc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili33.cn": -1
+          Authority: "bili33.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter ae73b15
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bili22.cn": -1
+          Authority: "bili22.cn": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter dd88def
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "space.bilibili.com": -1
+          Authority: "space.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: .*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 64d70fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "bilibili.kankanews.com": -1
+          Authority: "bilibili.kankanews.com": -1
+          Authority: "bilibili.tv": -1
+          Authority: "bilibili.tv": -1
+          Authority: "bilibili.cn": -1
+          Authority: "bilibili.cn": -1
+          Authority: "bilibili.com": -1
+          Authority: "bilibili.com": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.tv": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.cn": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "bilibili.smgbb.cn": -1
+          Authority: "bilibili.smgbb.cn": -1
+          Authority: "m.acg.tv": -1
+          Authority: "m.acg.tv": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+          Path: "PatternMatcher{GLOB: /mobile/video/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 10e394
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /pegasus/channel/v2/.*}"
+          Path: "PatternMatcher{GLOB: /pegasus/channel/v2/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter f13c37e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "pegasus": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "feed": -1
+          Path: "PatternMatcher{GLOB: /channel/v2/.*}"
+          Path: "PatternMatcher{GLOB: /h5/channel/.*}"
+          Path: "PatternMatcher{GLOB: /h5/channel/.*}"
+          Path: "PatternMatcher{GLOB: /channel}"
+        336cfe2 tv.danmaku.bili/.ui.webview.InstantEventWebActivity filter f694e30
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "n.bilibili.com": -1
+          Authority: "n.bilibili.com": -1
+      bilibili:
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter bcc8c28
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "forward": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 7bc0d41
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "comment": -1
+          Path: "PatternMatcher{GLOB: /detail/.*/.*/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 861a2e6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "comment2": -1
+          Path: "PatternMatcher{LITERAL: /detail}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 518a027
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "qrscan": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 17242d4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "qrcode": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 1fb3c7d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "bilipay": -1
+          Path: "PatternMatcher{LITERAL: /alipay_signing_result}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter a150772
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "bilipay": -1
+          Path: "PatternMatcher{LITERAL: /bcoin/record}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 76517c3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "bilipay": -1
+          Path: "PatternMatcher{LITERAL: /bcoin/recharge}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 71ab840
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "ad": -1
+          Path: "PatternMatcher{LITERAL: /page/imax}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter c042379
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "bw": -1
+          Path: "PatternMatcher{LITERAL: /2019/shanghai}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 92828be
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "ar": -1
+          Path: "PatternMatcher{LITERAL: /container}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 3776d1f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "following2": -1
+          Path: "PatternMatcher{LITERAL: /publishInfo}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 213186c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "uper": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter b01c8b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "pgc": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 4ce9196
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "cheese": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Authority: "m.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /season.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /bangumi/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ss.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+          Path: "PatternMatcher{GLOB: /cheese/play/ep.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter c53e117
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "bilibili"
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "article": -1
+          Path: "PatternMatcher{GLOB: /read/cv.*}"
+          Path: "PatternMatcher{GLOB: /read/cv.*}"
+          Path: "PatternMatcher{GLOB: /readlist}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter d160904
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "game": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 6393eed
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "advertise": -1
+          Path: "PatternMatcher{LITERAL: /home}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter fda3122
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "clip": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter d2b77b3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "search": -1
+          Authority: "stardust-search": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 16cb170
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "mall": -1
+          Authority: "mall.bilibili.com": -1
+          Authority: "mall.bilibili.com": -1
+          Authority: "show.bilibili.com": -1
+          Authority: "show.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 5f7dce9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "smallapp": -1
+          Authority: "miniapp.bilibili.com": -1
+          Authority: "miniapp.bilibili.com": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 50e3d6e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "music": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter edbdc0f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "bangumi": -1
+          Path: "PatternMatcher{GLOB: /season.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 343749c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "bangumi": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 164c27a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "pictureshow": -1
+          Path: "PatternMatcher{PREFIX: /creative_center}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter f842a2b
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "cliparea": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 8613e88
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "im": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 7a54021
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "im": -1
+          Path: "PatternMatcher{LITERAL: /notifications}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 56c8c46
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "following": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 6193e07
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "following": -1
+          Path: "PatternMatcher{GLOB: /detail/.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter a0fbb34
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "following": -1
+          Path: "PatternMatcher{LITERAL: /publishInfo/}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 1f4bd5d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "laser": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter a01b3a3
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "livearea": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter a8756a0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "live": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter fb2be2a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "catalog": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 387f41b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "browser": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 52559b8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "user_center": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter e8d7391
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "game_center": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter e9692f6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "login": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 727b6f7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "space": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter fb25964
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "author": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter d84b7cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "tag": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 710e882
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "rank": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter f96cb93
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "external": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter beda7d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "blank": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 83203c9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "home": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter e90ace
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "root": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 70f05da
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "video": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 5ca1a0b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "story": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter a7ea0e8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "podcast": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 8616301
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "region": -1
+          Path: "PatternMatcher{GLOB: .*}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 167a5a6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "search": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 1fe4be7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "main": -1
+          Path: "PatternMatcher{LITERAL: /favorite}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 5002e3d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "pgc": -1
+          Path: "PatternMatcher{LITERAL: /theater/match}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter f587632
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "pgc": -1
+          Path: "PatternMatcher{LITERAL: /theater/square}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 959bf83
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "article": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 5e2a500
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "category": -1
+          Path: "PatternMatcher{PREFIX: /65541}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter dc67139
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "m.bilibili.com": -1
+          Path: "PatternMatcher{LITERAL: /topic-detail}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter f13c37e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "pegasus": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "www.bilibili.com": -1
+          Authority: "feed": -1
+          Path: "PatternMatcher{GLOB: /channel/v2/.*}"
+          Path: "PatternMatcher{GLOB: /h5/channel/.*}"
+          Path: "PatternMatcher{GLOB: /h5/channel/.*}"
+          Path: "PatternMatcher{GLOB: /channel}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 26ed0df
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "vip": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 84d112c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "user_center": -1
+          Path: "PatternMatcher{LITERAL: /vip}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 813e7f5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "history": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter da4998a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "charge": -1
+          Path: "PatternMatcher{LITERAL: /rank}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 999bfb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "auth": -1
+          Path: "PatternMatcher{LITERAL: /launch}"
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter e101418
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "auth.zhima": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 5880e71
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "assistant": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter bbac456
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "assistant": -1
+        1bbaa4b tv.danmaku.bili/.ui.intent.IntentHandlerActivity filter 6dbfcd7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "feedback": -1
+        336cfe2 tv.danmaku.bili/.ui.webview.InstantEventWebActivity filter c798f73
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "instant_event": -1
+        1410019 tv.danmaku.bili/com.bilibili.app.comm.comment2.comments.view.CommentFeedListActivity filter 30ad8de
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "comment": -1
+          Path: "PatternMatcher{GLOB: /msg_fold/.*/.*/.*/.*}"
+        3854d45 tv.danmaku.bili/com.bilibili.lib.buried.point.env.BuriedPointEnvActivity filter 5ab1c9a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bilibili"
+          Authority: "debugger": -1
+          Path: "PatternMatcher{PREFIX: /setting/neuron_custom}"
+        7781e3e tv.danmaku.bili/com.bilibili.lib.push.VivoMessageActivity filter 94ff49f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bilibili"
+          Authority: "com.bilibili.push": -1
+          Path: "PatternMatcher{LITERAL: /vivo}"
+      bili_alipay_result_act:
+        468b2b7 tv.danmaku.bili/com.alipay.sdk.app.AlipayResultActivity filter 7920a24
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bili_alipay_result_act"
+      qwallet100951776:
+        44bc353 tv.danmaku.bili/com.bilibili.bilipay.qq.QqWalletPayCallbackActivity filter ef7a490
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "qwallet100951776"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        7fe59c4 tv.danmaku.bili/.MainActivityV2 filter 83e20ad
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+      tv.danmaku.bili.intent.action.FOLLOWING_SHARE:
+        3bfc9c7 tv.danmaku.bili/com.bilibili.bplus.followingpublish.FollowingPublishActivity filter f0dbbf4
+          Action: "tv.danmaku.bili.intent.action.FOLLOWING_SHARE"
+          Category: "android.intent.category.DEFAULT"
+      android.app.action.VIEW:
+        18e6866 tv.danmaku.bili/com.bilibili.lib.push.HuaweiMessageActivity filter 255b7a7
+          Action: "android.app.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        f2cdffd tv.danmaku.bili/com.bilibili.lib.push.HonorMessageActivity filter d08a4f2
+          Action: "android.app.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.honor.push.internal.receiver_message:
+        f2cdffd tv.danmaku.bili/com.bilibili.lib.push.HonorMessageActivity filter 41c2743
+          Action: "com.honor.push.internal.receiver_message"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.push.internal.receiver_message:
+        18e6866 tv.danmaku.bili/com.bilibili.lib.push.HuaweiMessageActivity filter e9e4454
+          Action: "com.huawei.push.internal.receiver_message"
+          Category: "android.intent.category.DEFAULT"
+      com.bilibili.live.streaming.user.auth:
+        af52189 tv.danmaku.bili/com.bilibili.bilibililive.ui.home.h5.LiveStreamUserAuthActivity filter 38d358e
+          Action: "com.bilibili.live.streaming.user.auth"
+          Category: "android.intent.category.DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY:
+        5ae49cb tv.danmaku.bili/com.sina.weibo.sdk.share.ShareResultActivity filter 93278c1
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+          Category: "android.intent.category.DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        5ae49cb tv.danmaku.bili/com.sina.weibo.sdk.share.ShareResultActivity filter 3b375a8
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.bilibili.oppo.push.internal:
+        4c551c0 tv.danmaku.bili/com.bilibili.lib.push.OppoPushInternalActivity filter 16c7ef9
+          Action: "com.bilibili.oppo.push.internal"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        f53afcf tv.danmaku.bili/.ui.favorite.FavoriteBoxActivity filter f4d1d5c
+          Action: "android.intent.action.SEARCH"
+        3efb865 tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.ui.live.LiveAllActivity filter a5e793a
+          Action: "android.intent.action.SEARCH"
+        579eb tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.ui.live.area.LiveAreaVideoListActivity filter 43cb348
+          Action: "android.intent.action.SEARCH"
+        e2875e1 tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.ui.live.search.LiveSearchActivity filter 82aef06
+          Action: "android.intent.action.SEARCH"
+        ad58f1d tv.danmaku.bili/com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3 filter bf6f592
+          Action: "android.intent.action.SEARCH"
+        7e53b63 tv.danmaku.bili/com.bilibili.bililive.room.ui.roomv3.LiveRoomTranslucentActivity filter 644a360
+          Action: "android.intent.action.SEARCH"
+        3662abf tv.danmaku.bili/com.bilibili.playset.MultiTypeListDetailActivity filter 240958c
+          Action: "android.intent.action.SEARCH"
+        95884d5 tv.danmaku.bili/com.bilibili.playset.playlist.search.MusicSearchActivity filter 4e7a4ea
+          Action: "android.intent.action.SEARCH"
+        1dcb3db tv.danmaku.bili/com.bilibili.pegasus.channel.search.ChannelSearchActivity filter 277e78
+          Action: "android.intent.action.SEARCH"
+        2299951 tv.danmaku.bili/com.bilibili.search.main.BiliMainSearchActivity filter e1325b6
+          Action: "android.intent.action.SEARCH"
+      tv.danmaku.bili.action.sso.authorize:
+        ec91aa9 tv.danmaku.bili/.activities.login.SSOCodeActivity filter 976082e
+          Action: "tv.danmaku.bili.action.sso.authorize"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        f098e95 tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter cc14baa
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        e242e7f tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter ccae4c
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.hihonor.push.action.RECEIVE:
+        e6bb56f tv.danmaku.bili/com.hihonor.push.sdk.PushReceiver filter 7fe427c
+          Action: "com.hihonor.push.action.RECEIVE"
+          Action: "com.hihonor.push.action.REGISTRATION"
+      com.hihonor.push.action.REGISTRATION:
+        e6bb56f tv.danmaku.bili/com.hihonor.push.sdk.PushReceiver filter 7fe427c
+          Action: "com.hihonor.push.action.RECEIVE"
+          Action: "com.hihonor.push.action.REGISTRATION"
+      com.xiaomi.mipush.ERROR:
+        16a11c6 tv.danmaku.bili/com.bilibili.lib.push.MiMessageReceiver filter 25a7cb4
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        f4ceffa tv.danmaku.bili/com.huawei.hms.support.api.push.PushReceiver filter a3c89ab
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        2d7339b tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter c3c6338
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        9be20dd tv.danmaku.bili/com.xiaomi.push.service.receivers.NetworkStatusReceiver filter be58452
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Category: "android.intent.category.DEFAULT"
+        1417f11 tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 5c07876
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.bilibili.opd.sentinel.module.session:
+        377b716 tv.danmaku.bili/com.bilibili.opd.app.bizcommon.sentinel.session.ChildProcessSessionBroadcastReceiver filter 4c5d897
+          Action: "com.bilibili.opd.sentinel.module.session"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        18d861c tv.danmaku.bili/com.huawei.hms.support.api.push.PushMsgReceiver filter dc6d225
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      tv.danmaku.bili.action.NEURON_WATCHER:
+        9b0aaf0 tv.danmaku.bili/com.bilibili.lib.neuron.api.NeuronWatcher filter 9ee1869
+          Action: "tv.danmaku.bili.action.NEURON_WATCHER"
+      tv.danmaku.bili.action.INFO_EYES_WATCHER:
+        3b02ea2 tv.danmaku.bili/com.bilibili.lib.infoeyes.InfoEyesWatcher filter 3856733
+          Action: "tv.danmaku.bili.action.INFO_EYES_WATCHER"
+      android.intent.action.DEVICE_STORAGE_OK:
+        2d7339b tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter c3c6338
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      tv.danmaku.bili.remote.buvid.result:
+        692ee tv.danmaku.bili/com.bilibili.lib.neuron.api.NeuronBuvidReceiver filter 5a5438f
+          Action: "tv.danmaku.bili.remote.buvid.result"
+      com.hpplay.source.service.close:
+        58dc9ec tv.danmaku.bili/com.hpplay.sdk.source.process.LelinkReceiver filter 96d11b5
+          Action: "com.hpplay.source.service.close"
+      com.huawei.android.push.intent.RECEIVE:
+        f4ceffa tv.danmaku.bili/com.huawei.hms.support.api.push.PushReceiver filter a3c89ab
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.vivo.pushclient.action.RECEIVE:
+        2fae808 tv.danmaku.bili/com.bilibili.lib.push.VivoMessageReceiver filter 5b76ba1
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        4ebff49 tv.danmaku.bili/androidx.profileinstaller.ProfileInstallReceiver filter bba204e
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      android.intent.action.BATTERY_LOW:
+        f098e95 tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter cc14baa
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        8eb6e77 tv.danmaku.bili/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ef07ae4
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        8eb6e77 tv.danmaku.bili/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ef07ae4
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      tv.danmaku.bili.com.bilibili.push.FCM_MESSAGE:
+        c056a84 tv.danmaku.bili/com.bilibili.lib.push.MessageReceiver filter adac26d
+          Action: "tv.danmaku.bili.com.bilibili.push.FCM_MESSAGE"
+      tv.danmaku.bili.broadcast.NotificationReceiver.ACTION.OPEN_NOTIFICATION:
+        f8398d8 tv.danmaku.bili/.broadcast.NotificationReceiver filter 2aa1431
+          Action: "tv.danmaku.bili.broadcast.NotificationReceiver.ACTION.OPEN_NOTIFICATION"
+      android.intent.action.BOOT_COMPLETED:
+        8eb6e77 tv.danmaku.bili/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ef07ae4
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        e242e7f tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter ccae4c
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.xiaomi.push.PING_TIMER:
+        8768323 tv.danmaku.bili/com.xiaomi.push.service.receivers.PingReceiver filter 67cb020
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        16a11c6 tv.danmaku.bili/com.bilibili.lib.push.MiMessageReceiver filter b81587
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        5d3e04a tv.danmaku.bili/.appwidget.hotword.HotWordAppWidget filter cc93bbb
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        29e7b13 tv.danmaku.bili/androidx.work.impl.diagnostics.DiagnosticsReceiver filter aac6150
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.huawei.intent.action.PUSH:
+        18d861c tv.danmaku.bili/com.huawei.hms.support.api.push.PushMsgReceiver filter dc6d225
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        22dfb4d tv.danmaku.bili/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter ab3a602
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      android.intent.action.MEDIA_BUTTON:
+        980edd9 tv.danmaku.bili/.ui.player.notification.MediaButtonReceiver filter 333939e
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.huawei.push.msg.NOTIFY_MSG:
+        ce5fb75 tv.danmaku.bili/com.huawei.hms.support.api.push.service.HmsMsgService filter 207e70a
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        d28398b tv.danmaku.bili/com.heytap.msp.push.service.DataMessageCallbackService filter 82b0a68 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        d28398b tv.danmaku.bili/com.heytap.msp.push.service.DataMessageCallbackService filter 82b0a68 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        76c4705 tv.danmaku.bili/com.heytap.msp.push.service.CompatibleDataMessageCallbackService filter 99bf35a permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+        7dad85f tv.danmaku.bili/com.bilibili.lib.push.PushMessageService filter e9542ac permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.hpplay.sdk.source.LelinkSdkService.ACTION:
+        bef4e81 tv.danmaku.bili/com.hpplay.sdk.source.process.LelinkSdkService filter 795eb26
+          Action: "com.hpplay.sdk.source.LelinkSdkService.ACTION"
+      com.huawei.push.msg.PASSBY_MSG:
+        ce5fb75 tv.danmaku.bili/com.huawei.hms.support.api.push.service.HmsMsgService filter 207e70a
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        b6c4f03 tv.danmaku.bili/com.bilibili.lib.push.HonorPushService filter c82be80
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.huawei.push.action.MESSAGING_EVENT:
+        e4151bd tv.danmaku.bili/com.bilibili.lib.push.HmsPushService filter de593b2
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+      com.taobao.accs.intent.action.RECEIVE:
+        b64cb9 tv.danmaku.bili/com.alibaba.cloudgame.plugin.accs.CGAliyunAccsCallBackService filter 91538fe
+          Action: "com.taobao.accs.intent.action.RECEIVE"
+      android.service.wallpaper.WallpaperService:
+        ddee367 tv.danmaku.bili/com.bilibili.lib.fasthybrid.wallpaper.SmallAppWallpaperService filter 9da6514 permission android.permission.BIND_WALLPAPER
+          Action: "android.service.wallpaper.WallpaperService"
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.bilibili.com
+          b23.tv
+          show.bilibili.com
+          bilibili.kankanews.com
+          space.bilibili.com
+          bilibili.smgbb.cn
+          mall.bilibili.com
+          n.bilibili.com
+          bili2233.cn
+          live.bilibili.com
+          miniapp.bilibili.com
+          bilibili.com
+          m.bilibili.com
+          bilibili.cn
+          bilibili.tv
+          www.bilibili.cn
+          www.bilibili.tv
+          bili22.cn
+          bili23.cn
+          bili33.cn
+          m.acg.tv
+          bangumi.bilibili.com
+
+Permissions:
+  Permission [tv.danmaku.bili.permission.PUSH_PROVIDER] (b5580b4):
+    sourcePackage=tv.danmaku.bili
+    uid=10430 gids=[] type=0 prot=signature
+    perm=PermissionInfo{fd6d4dd tv.danmaku.bili.permission.PUSH_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [tv.danmaku.bili.hihonor.permission.PROCESS_PUSH_MSG] (3422852):
+    sourcePackage=tv.danmaku.bili
+    uid=10430 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{ce05723 tv.danmaku.bili.hihonor.permission.PROCESS_PUSH_MSG}
+    flags=0x0
+
+Permissions:
+  Permission [tv.danmaku.bili.permission.PROCESS_PUSH_MSG] (e23f420):
+    sourcePackage=tv.danmaku.bili
+    uid=10430 gids=[] type=0 prot=signature
+    perm=PermissionInfo{a70e1d9 tv.danmaku.bili.permission.PROCESS_PUSH_MSG}
+    flags=0x0
+
+Permissions:
+  Permission [tv.danmaku.bili.permission.PUSH_WRITE_PROVIDER] (db6779e):
+    sourcePackage=tv.danmaku.bili
+    uid=10430 gids=[] type=0 prot=signature
+    perm=PermissionInfo{157427f tv.danmaku.bili.permission.PUSH_WRITE_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [tv.danmaku.bili.permission.MIPUSH_RECEIVE] (5a4324c):
+    sourcePackage=tv.danmaku.bili
+    uid=10430 gids=[] type=0 prot=signature
+    perm=PermissionInfo{104c295 tv.danmaku.bili.permission.MIPUSH_RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [tv.danmaku.bili.permission.BLKV] (68e6faa):
+    sourcePackage=tv.danmaku.bili
+    uid=10430 gids=[] type=0 prot=signature
+    perm=PermissionInfo{827879b tv.danmaku.bili.permission.BLKV}
+    flags=0x0
+
+Registered ContentProviders:
+  tv.danmaku.bili/com.huawei.hms.device.provider.CheckHmsProvider:
+    Provider{1082738 tv.danmaku.bili/com.huawei.hms.device.provider.CheckHmsProvider}
+  tv.danmaku.bili/androidx.core.content.FileProvider:
+    Provider{9bbf311 tv.danmaku.bili/androidx.core.content.FileProvider}
+  tv.danmaku.bili/com.bilibili.lib.okdownloader.internal.db.DownloadDatabaseProvider:
+    Provider{93bdc76 tv.danmaku.bili/com.bilibili.lib.okdownloader.internal.db.DownloadDatabaseProvider}
+  tv.danmaku.bili/com.bilibili.adcommon.apkdownload.AdFileProvider:
+    Provider{4ed0277 tv.danmaku.bili/com.bilibili.adcommon.apkdownload.AdFileProvider}
+  tv.danmaku.bili/com.bilibili.lib.mod.ModResourceProvider:
+    Provider{eb47ee4 tv.danmaku.bili/com.bilibili.lib.mod.ModResourceProvider}
+  tv.danmaku.bili/com.bilibili.biligame.cache.db.DBProvider:
+    Provider{9dbaf4d tv.danmaku.bili/com.bilibili.biligame.cache.db.DBProvider}
+  tv.danmaku.bili/com.bilibili.xpref.XprefProvider:
+    Provider{4814a02 tv.danmaku.bili/com.bilibili.xpref.XprefProvider}
+  tv.danmaku.bili/.provider.StorageProvider:
+    Provider{f254f13 tv.danmaku.bili/.provider.StorageProvider}
+  tv.danmaku.bili/com.huawei.hms.update.provider.UpdateProvider:
+    Provider{caca550 tv.danmaku.bili/com.huawei.hms.update.provider.UpdateProvider}
+  tv.danmaku.bili/com.bilibili.bplus.tagsearch.provider.FollowingTagSearchSuggestProvider:
+    Provider{bc0f349 tv.danmaku.bili/com.bilibili.bplus.tagsearch.provider.FollowingTagSearchSuggestProvider}
+  tv.danmaku.bili/com.bilibili.fd_service.unicom.compat.UnicomInfoProviderCompat:
+    Provider{ebe044e tv.danmaku.bili/com.bilibili.fd_service.unicom.compat.UnicomInfoProviderCompat}
+  tv.danmaku.bili/com.bilibili.opd.app.bizcommon.context.provider.KFCSingletonProvider:
+    Provider{e8bc96f tv.danmaku.bili/com.bilibili.opd.app.bizcommon.context.provider.KFCSingletonProvider}
+  tv.danmaku.bili/com.bilibili.upper.comm.provider.UpperFileProvider:
+    Provider{3bec67c tv.danmaku.bili/com.bilibili.upper.comm.provider.UpperFileProvider}
+  tv.danmaku.bili/com.huawei.hms.support.api.push.PushProvider:
+    Provider{89c7b05 tv.danmaku.bili/com.huawei.hms.support.api.push.PushProvider}
+  tv.danmaku.bili/com.bilibili.ad.adview.miniprogram.AdHistoryContentProvider:
+    Provider{2fa175a tv.danmaku.bili/com.bilibili.ad.adview.miniprogram.AdHistoryContentProvider}
+  tv.danmaku.bili/com.bilibili.lib.device.settings.DeviceSettingProvider:
+    Provider{1358d8b tv.danmaku.bili/com.bilibili.lib.device.settings.DeviceSettingProvider}
+  tv.danmaku.bili/com.bilibili.lib.fasthybrid.provider.SmallAppProvider:
+    Provider{96fce68 tv.danmaku.bili/com.bilibili.lib.fasthybrid.provider.SmallAppProvider}
+  tv.danmaku.bili/com.huawei.hms.mlsdk.common.provider.MLInitializerProvider:
+    Provider{1eec281 tv.danmaku.bili/com.huawei.hms.mlsdk.common.provider.MLInitializerProvider}
+  tv.danmaku.bili/com.bilibili.playset.playlist.search.MusicSuggestionProvider:
+    Provider{2b24f26 tv.danmaku.bili/com.bilibili.playset.playlist.search.MusicSuggestionProvider}
+  tv.danmaku.bili/com.bilibili.lib.dau.internal.appstate.AppStateProvider:
+    Provider{76d7767 tv.danmaku.bili/com.bilibili.lib.dau.internal.appstate.AppStateProvider}
+  tv.danmaku.bili/com.huawei.hms.aaid.InitProvider:
+    Provider{4a76914 tv.danmaku.bili/com.huawei.hms.aaid.InitProvider}
+  tv.danmaku.bili/com.tencent.smtt.utils.FileProvider:
+    Provider{6c405bd tv.danmaku.bili/com.tencent.smtt.utils.FileProvider}
+  tv.danmaku.bili/com.bilibili.app.comm.list.common.downloadapk.DownloadApkProvider:
+    Provider{86437b2 tv.danmaku.bili/com.bilibili.app.comm.list.common.downloadapk.DownloadApkProvider}
+  tv.danmaku.bili/com.bilibili.netdiagnose.provider.DiagnoseFileProvider:
+    Provider{1502303 tv.danmaku.bili/com.bilibili.netdiagnose.provider.DiagnoseFileProvider}
+  tv.danmaku.bili/com.bilibili.base.ipc.IPCActivityStateProvider:
+    Provider{11c0280 tv.danmaku.bili/com.bilibili.base.ipc.IPCActivityStateProvider}
+  tv.danmaku.bili/com.bilibili.app.lib.modx.ModImageContentProvider:
+    Provider{b040b9 tv.danmaku.bili/com.bilibili.app.lib.modx.ModImageContentProvider}
+  tv.danmaku.bili/com.bilibili.lib.fasthybrid.provider.WidgetAppProvider:
+    Provider{6da1cfe tv.danmaku.bili/com.bilibili.lib.fasthybrid.provider.WidgetAppProvider}
+  tv.danmaku.bili/androidx.startup.InitializationProvider:
+    Provider{a27ec5f tv.danmaku.bili/androidx.startup.InitializationProvider}
+  tv.danmaku.bili/.provider.BiliStatusProvider:
+    Provider{d7ec6ac tv.danmaku.bili/.provider.BiliStatusProvider}
+  tv.danmaku.bili/com.sobot.chat.provider.SobotFileProvider:
+    Provider{48b2f75 tv.danmaku.bili/com.sobot.chat.provider.SobotFileProvider}
+  tv.danmaku.bili/com.hihonor.push.sdk.init.AutoInitProvider:
+    Provider{1370b0a tv.danmaku.bili/com.hihonor.push.sdk.init.AutoInitProvider}
+  tv.danmaku.bili/com.bilibili.lib.accountsui.AccountFileProvider:
+    Provider{d88ef7b tv.danmaku.bili/com.bilibili.lib.accountsui.AccountFileProvider}
+  tv.danmaku.bili/com.bilibili.lib.accountinfo.AccountInfoProvider:
+    Provider{67a198 tv.danmaku.bili/com.bilibili.lib.accountinfo.AccountInfoProvider}
+  tv.danmaku.bili/.update.internal.UpgradeFileProvider:
+    Provider{2ec4df1 tv.danmaku.bili/.update.internal.UpgradeFileProvider}
+  tv.danmaku.bili/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{7c2cdd6 tv.danmaku.bili/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  tv.danmaku.bili/.ui.splash.utils.SplashContentProvider:
+    Provider{22d0857 tv.danmaku.bili/.ui.splash.utils.SplashContentProvider}
+  tv.danmaku.bili/com.bilibili.column.base.ColumnMainProcessProvider:
+    Provider{13f44 tv.danmaku.bili/com.bilibili.column.base.ColumnMainProcessProvider}
+  tv.danmaku.bili/com.bilibili.infra.base.provider.InfraInitProvider:
+    Provider{466d82d tv.danmaku.bili/com.bilibili.infra.base.provider.InfraInitProvider}
+  tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.provider.BiliLiveSearchSuggestionProvider:
+    Provider{575f162 tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.provider.BiliLiveSearchSuggestionProvider}
+  tv.danmaku.bili/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider:
+    Provider{68fd2f3 tv.danmaku.bili/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+  tv.danmaku.bili/.services.videodownload.utils.VideoDownloadProvider:
+    Provider{8750bb0 tv.danmaku.bili/.services.videodownload.utils.VideoDownloadProvider}
+  tv.danmaku.bili/com.bilibili.search.provider.BiliSearchSuggestionProvider:
+    Provider{d85ca29 tv.danmaku.bili/com.bilibili.search.provider.BiliSearchSuggestionProvider}
+  tv.danmaku.bili/com.bilibili.lib.media.resolver2.MediaResolveProviderV2:
+    Provider{a45c1ae tv.danmaku.bili/com.bilibili.lib.media.resolver2.MediaResolveProviderV2}
+  tv.danmaku.bili/com.bilibili.pegasus.channel.search.ChannelSearchSuggestionProvider:
+    Provider{b4aab4f tv.danmaku.bili/com.bilibili.pegasus.channel.search.ChannelSearchSuggestionProvider}
+  tv.danmaku.bili/com.bilibili.app.comm.list.common.reservation.UpReservationMessageChannel:
+    Provider{d1732dc tv.danmaku.bili/com.bilibili.app.comm.list.common.reservation.UpReservationMessageChannel}
+  tv.danmaku.bili/com.bilibili.lib.downloader.p2p.P2PProvider:
+    Provider{687dfe5 tv.danmaku.bili/com.bilibili.lib.downloader.p2p.P2PProvider}
+  tv.danmaku.bili/com.bilibili.lib.media.resolver.resolve.MediaResolveProvider:
+    Provider{e304aba tv.danmaku.bili/com.bilibili.lib.media.resolver.resolve.MediaResolveProvider}
+  tv.danmaku.bili/com.bilibili.fd_service.storage.FreeDataInfoProvider:
+    Provider{730ad6b tv.danmaku.bili/com.bilibili.fd_service.storage.FreeDataInfoProvider}
+
+ContentProvider Authorities:
+  [tv.danmaku.bili.provider.modimage]:
+    Provider{b040b9 tv.danmaku.bili/com.bilibili.app.lib.modx.ModImageContentProvider}
+      applicationInfo=ApplicationInfo{52a0c8 tv.danmaku.bili}
+  [tv.danmaku.bili.huawei.push.provider]:
+    Provider{89c7b05 tv.danmaku.bili/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{2db9561 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.xpref]:
+    Provider{4814a02 tv.danmaku.bili/com.bilibili.xpref.XprefProvider}
+      applicationInfo=ApplicationInfo{9085886 tv.danmaku.bili}
+  [tv.danmaku.bili.mall.singletonprovider]:
+    Provider{e8bc96f tv.danmaku.bili/com.bilibili.opd.app.bizcommon.context.provider.KFCSingletonProvider}
+      applicationInfo=ApplicationInfo{12ab547 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.resolver]:
+    Provider{e304aba tv.danmaku.bili/com.bilibili.lib.media.resolver.resolve.MediaResolveProvider}
+      applicationInfo=ApplicationInfo{e550174 tv.danmaku.bili}
+  [tv.danmaku.bili.cache.db.provider]:
+    Provider{9dbaf4d tv.danmaku.bili/com.bilibili.biligame.cache.db.DBProvider}
+      applicationInfo=ApplicationInfo{45b269d tv.danmaku.bili}
+  [tv.danmaku.bili.util.unicom_info]:
+    Provider{ebe044e tv.danmaku.bili/com.bilibili.fd_service.unicom.compat.UnicomInfoProviderCompat}
+      applicationInfo=ApplicationInfo{b017712 tv.danmaku.bili}
+  [tv.danmaku.bili.duration-app-state-provider]:
+    Provider{76d7767 tv.danmaku.bili/com.bilibili.lib.dau.internal.appstate.AppStateProvider}
+      applicationInfo=ApplicationInfo{bd35ee3 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.BiliSearchSuggestionProvider]:
+    Provider{d85ca29 tv.danmaku.bili/com.bilibili.search.provider.BiliSearchSuggestionProvider}
+      applicationInfo=ApplicationInfo{67ac0e0 tv.danmaku.bili}
+  [tv.danmaku.bili.SmallAppProvider]:
+    Provider{96fce68 tv.danmaku.bili/com.bilibili.lib.fasthybrid.provider.SmallAppProvider}
+      applicationInfo=ApplicationInfo{6488f99 tv.danmaku.bili}
+  [tv.danmaku.bili.device.settings.DeviceSettingProvider]:
+    Provider{1358d8b tv.danmaku.bili/com.bilibili.lib.device.settings.DeviceSettingProvider}
+      applicationInfo=ApplicationInfo{1fbf25e tv.danmaku.bili}
+  [tv.danmaku.bili.provider.auth]:
+    Provider{67a198 tv.danmaku.bili/com.bilibili.lib.accountinfo.AccountInfoProvider}
+      applicationInfo=ApplicationInfo{ed3063f tv.danmaku.bili}
+  [tv.danmaku.bili.ad.provider.HistoryContentProvider]:
+    Provider{2fa175a tv.danmaku.bili/com.bilibili.ad.adview.miniprogram.AdHistoryContentProvider}
+      applicationInfo=ApplicationInfo{f7b0b0c tv.danmaku.bili}
+  [tv.danmaku.bili.provider.ChannelSearchSuggestionProvider]:
+    Provider{b4aab4f tv.danmaku.bili/com.bilibili.pegasus.channel.search.ChannelSearchSuggestionProvider}
+      applicationInfo=ApplicationInfo{c098c55 tv.danmaku.bili}
+  [tv.danmaku.bili.providers.BiliDataProvider]:
+    Provider{d7ec6ac tv.danmaku.bili/.provider.BiliStatusProvider}
+      applicationInfo=ApplicationInfo{790d66a tv.danmaku.bili}
+  [tv.danmaku.bili.WidgetAppProvider]:
+    Provider{6da1cfe tv.danmaku.bili/com.bilibili.lib.fasthybrid.provider.WidgetAppProvider}
+      applicationInfo=ApplicationInfo{9fbc75b tv.danmaku.bili}
+  [tv.danmaku.bili.provider]:
+    Provider{6c405bd tv.danmaku.bili/com.tencent.smtt.utils.FileProvider}
+      applicationInfo=ApplicationInfo{253cbf8 tv.danmaku.bili}
+  [tv.danmaku.bili.com.bilibili.upper.comm.provider]:
+    Provider{3bec67c tv.danmaku.bili/com.bilibili.upper.comm.provider.UpperFileProvider}
+      applicationInfo=ApplicationInfo{fa398d1 tv.danmaku.bili}
+  [tv.danmaku.bili.util.freedata_info]:
+    Provider{730ad6b tv.danmaku.bili/com.bilibili.fd_service.storage.FreeDataInfoProvider}
+      applicationInfo=ApplicationInfo{3ddef36 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.FollowingTagSearchSuggestProvider]:
+    Provider{bc0f349 tv.danmaku.bili/com.bilibili.bplus.tagsearch.provider.FollowingTagSearchSuggestProvider}
+      applicationInfo=ApplicationInfo{e257e37 tv.danmaku.bili}
+  [tv.danmaku.bili.sobot_fileprovider]:
+    Provider{48b2f75 tv.danmaku.bili/com.sobot.chat.provider.SobotFileProvider}
+      applicationInfo=ApplicationInfo{7f5afa4 tv.danmaku.bili}
+  [tv.danmaku.bili.live.provider.SearchSuggestionsProvider]:
+    Provider{575f162 tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.provider.BiliLiveSearchSuggestionProvider}
+      applicationInfo=ApplicationInfo{bf7f10d tv.danmaku.bili}
+  [tv.danmaku.bili.hms.update.provider]:
+    Provider{caca550 tv.danmaku.bili/com.huawei.hms.update.provider.UpdateProvider}
+      applicationInfo=ApplicationInfo{111c8c2 tv.danmaku.bili}
+  [tv.danmaku.bili.AGCInitializeProvider]:
+    Provider{7c2cdd6 tv.danmaku.bili/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{7c9c6d3 tv.danmaku.bili}
+  [tv.danmaku.bili.reservation.message-channel]:
+    Provider{d1732dc tv.danmaku.bili/com.bilibili.app.comm.list.common.reservation.UpReservationMessageChannel}
+      applicationInfo=ApplicationInfo{5b02210 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.InfraInitProvider]:
+    Provider{466d82d tv.danmaku.bili/com.bilibili.infra.base.provider.InfraInitProvider}
+      applicationInfo=ApplicationInfo{ebf9109 tv.danmaku.bili}
+  [tv.danmaku.bili.MLInitializerProvider]:
+    Provider{1eec281 tv.danmaku.bili/com.huawei.hms.mlsdk.common.provider.MLInitializerProvider}
+      applicationInfo=ApplicationInfo{bb7af0e tv.danmaku.bili}
+  [tv.danmaku.bili.apkdownloader.fileprovider]:
+    Provider{86437b2 tv.danmaku.bili/com.bilibili.app.comm.list.common.downloadapk.DownloadApkProvider}
+      applicationInfo=ApplicationInfo{75ffd2f tv.danmaku.bili}
+  [tv.danmaku.bili.provider.ColumnMainProcessProvider]:
+    Provider{13f44 tv.danmaku.bili/com.bilibili.column.base.ColumnMainProcessProvider}
+      applicationInfo=ApplicationInfo{45d4f3c tv.danmaku.bili}
+  [tv.danmaku.bili.provider.resolverv2]:
+    Provider{a45c1ae tv.danmaku.bili/com.bilibili.lib.media.resolver2.MediaResolveProviderV2}
+      applicationInfo=ApplicationInfo{e4734c5 tv.danmaku.bili}
+  [tv.danmaku.bili.aaidinitprovider]:
+    Provider{4a76914 tv.danmaku.bili/com.huawei.hms.aaid.InitProvider}
+      applicationInfo=ApplicationInfo{bc3ae1a tv.danmaku.bili}
+  [tv.danmaku.bili.hms.device.validate.spoofprovider]:
+    Provider{1082738 tv.danmaku.bili/com.huawei.hms.device.provider.CheckHmsProvider}
+      applicationInfo=ApplicationInfo{3793d4b tv.danmaku.bili}
+  [tv.danmaku.bili.okdownloader.provider]:
+    Provider{93bdc76 tv.danmaku.bili/com.bilibili.lib.okdownloader.internal.db.DownloadDatabaseProvider}
+      applicationInfo=ApplicationInfo{e4e2328 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.adfileprovider]:
+    Provider{4ed0277 tv.danmaku.bili/com.bilibili.adcommon.apkdownload.AdFileProvider}
+      applicationInfo=ApplicationInfo{eeb5841 tv.danmaku.bili}
+  [tv.danmaku.bili.splash.provider]:
+    Provider{22d0857 tv.danmaku.bili/.ui.splash.utils.SplashContentProvider}
+      applicationInfo=ApplicationInfo{25e91e6 tv.danmaku.bili}
+  [tv.danmaku.bili.androidx-startup]:
+    Provider{a27ec5f tv.danmaku.bili/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{9c6327 tv.danmaku.bili}
+  [tv.danmaku.bili.providers.VideoDownloadProvider]:
+    Provider{8750bb0 tv.danmaku.bili/.services.videodownload.utils.VideoDownloadProvider}
+      applicationInfo=ApplicationInfo{ff649d4 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.StorageProvider]:
+    Provider{f254f13 tv.danmaku.bili/.provider.StorageProvider}
+      applicationInfo=ApplicationInfo{454377d tv.danmaku.bili}
+  [tv.danmaku.bili.updateSdk.fileProvider]:
+    Provider{68fd2f3 tv.danmaku.bili/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+      applicationInfo=ApplicationInfo{871e672 tv.danmaku.bili}
+  [tv.danmaku.bili.okdownloader.p2p.provider]:
+    Provider{687dfe5 tv.danmaku.bili/com.bilibili.lib.downloader.p2p.P2PProvider}
+      applicationInfo=ApplicationInfo{ae20ac3 tv.danmaku.bili}
+  [tv.danmaku.bili.accountFileProvider]:
+    Provider{d88ef7b tv.danmaku.bili/com.bilibili.lib.accountsui.AccountFileProvider}
+      applicationInfo=ApplicationInfo{7582f40 tv.danmaku.bili}
+  [tv.danmaku.bili.music.provider.MusicSearchSuggestionProvider]:
+    Provider{2b24f26 tv.danmaku.bili/com.bilibili.playset.playlist.search.MusicSuggestionProvider}
+      applicationInfo=ApplicationInfo{a71ce79 tv.danmaku.bili}
+  [tv.danmaku.bili.fileprovider]:
+    Provider{9bbf311 tv.danmaku.bili/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{9f3f7be tv.danmaku.bili}
+  [tv.danmaku.bili.hihonor.autoinitprovider]:
+    Provider{1370b0a tv.danmaku.bili/com.hihonor.push.sdk.init.AutoInitProvider}
+      applicationInfo=ApplicationInfo{d50901f tv.danmaku.bili}
+  [tv.danmaku.bili.updater.fileprovider]:
+    Provider{2ec4df1 tv.danmaku.bili/.update.internal.UpgradeFileProvider}
+      applicationInfo=ApplicationInfo{e30ff6c tv.danmaku.bili}
+  [tv.danmaku.bili.provider.modresource]:
+    Provider{eb47ee4 tv.danmaku.bili/com.bilibili.lib.mod.ModResourceProvider}
+      applicationInfo=ApplicationInfo{237d935 tv.danmaku.bili}
+  [tv.danmaku.bili.provider.IPCActivityStateProvider]:
+    Provider{11c0280 tv.danmaku.bili/com.bilibili.base.ipc.IPCActivityStateProvider}
+      applicationInfo=ApplicationInfo{9f3d1ca tv.danmaku.bili}
+
+Key Set Manager:
+  [tv.danmaku.bili]
+      Signing KeySets: 275
+
+Packages:
+  Package [tv.danmaku.bili] (5b8654):
+    appId=10430
+    pkg=Package{2f80f3b tv.danmaku.bili}
+    codePath=/data/app/~~0orcoJK4pOjyQAqLznK5-g==/tv.danmaku.bili-DxYMWPkSN4MtYysDf_NJ8Q==
+    resourcePath=/data/app/~~0orcoJK4pOjyQAqLznK5-g==/tv.danmaku.bili-DxYMWPkSN4MtYysDf_NJ8Q==
+    legacyNativeLibraryDir=/data/app/~~0orcoJK4pOjyQAqLznK5-g==/tv.danmaku.bili-DxYMWPkSN4MtYysDf_NJ8Q==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=6870300 minSdk=21 targetSdk=31
+    minExtensionVersions=[]
+    versionName=6.87.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesPackages=[com.eg.android.AlipayGphone, com.eg.android.AlipayGphoneRC, hk.alipay.wallet, com.android.creator, com.mdid.msa, com.samsung.android.deviceidservice, com.coolpad.deviceidsupport, com.heytap.openid, com.hisilicon.android.hiRMService]
+    queriesIntents=[Intent { act=* dat=tbopen:/... }, Intent { act=com.apptouch.intent.action.update_hms }, Intent { act=com.huawei.appmarket.intent.action.AppDetail }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-10-24 22:18:33
+    lastUpdateTime=2025-10-24 22:18:33
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{ae4a658 version:2, signatures:[1b503d7e], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      tv.danmaku.bili.permission.BLKV: prot=signature
+      tv.danmaku.bili.permission.MIPUSH_RECEIVE: prot=signature
+      tv.danmaku.bili.permission.PROCESS_PUSH_MSG: prot=signature
+      tv.danmaku.bili.permission.PUSH_PROVIDER: prot=signature
+      tv.danmaku.bili.permission.PUSH_WRITE_PROVIDER: prot=signature
+      tv.danmaku.bili.hihonor.permission.PROCESS_PUSH_MSG: prot=signature|privileged
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      com.google.android.apps.photos.permission.GOOGLE_PHOTOS
+      android.permission.WRITE_SETTINGS
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      android.permission.READ_CALENDAR
+      android.permission.POST_NOTIFICATIONS
+      com.bbk.launcher2.permission.READ_SETTINGS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      freemme.permission.msa
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      tv.danmaku.bili.permission.PUSH_PROVIDER
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.HIGH_SAMPLING_RATE_SENSORS
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.BLUETOOTH_CONNECT
+      com.asus.msa.SupplementaryDID.ACCESS
+      android.permission.BLUETOOTH
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.WRITE_MEDIA_STORAGE
+      android.permission.ACCESS_ALL_EXTERNAL_STORAGE
+      android.permission.GET_TASKS
+      MediaStore.Images.Media.EXTERNAL_CONTENT_URI
+      android.permission.INTERNET
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      android.permission.REORDER_TASKS
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_EXTERNAL_STORAGE
+      com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+      tv.danmaku.bili.permission.PROCESS_PUSH_MSG
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_DOWNLOAD_MANAGER
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      tv.danmaku.bili.permission.MIPUSH_RECEIVE
+      android.permission.SET_WALLPAPER
+      android.permission.WRITE_CALENDAR
+      com.bbk.launcher2.permission.WRITE_SETTINGS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.SCHEDULE_EXACT_ALARM
+      com.bilibili.bplus.im.binder
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.RECORD_AUDIO
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      MediaStore.Images.Media.INTERNAL_CONTENT_URI
+      com.huawei.meetime.CAAS_SHARE_SERVICE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_MEDIA_LOCATION
+      tv.danmaku.bili.permission.BLKV
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      tv.danmaku.bili.permission.PUSH_PROVIDER: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.HIGH_SAMPLING_RATE_SENSORS: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      tv.danmaku.bili.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      tv.danmaku.bili.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      tv.danmaku.bili.permission.BLKV: granted=true
+    User 0: ceDataInode=63006 deDataInode=63009 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/tv.danmaku.bili
+      firstInstallTime=2025-10-24 22:18:33
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      disabledComponents:
+        com.vivo.push.sdk.LinkProxyClientActivity
+        com.xiaomi.push.service.XMPushService
+        com.vivo.push.sdk.service.CommandClientService
+        com.bilibili.lib.push.HmsPushService
+      enabledComponents:
+        com.xiaomi.mipush.sdk.MessageHandleService
+        com.xiaomi.mipush.sdk.PushMessageHandler
+        com.xiaomi.push.service.receivers.NetworkStatusReceiver
+        com.xiaomi.push.service.receivers.PingReceiver
+        com.bilibili.lib.push.MiMessageReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+        com.xiaomi.push.service.XMJobService
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.xingin.xhs:
+      tv.danmaku.bili
+    com.duokan.reader:
+      tv.danmaku.bili
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      tv.danmaku.bili
+    com.android.wallpaperbackup:
+      tv.danmaku.bili
+    com.xiaomi.aicr:
+      tv.danmaku.bili
+    com.android.contacts:
+      tv.danmaku.bili
+    com.xiaomi.gamecenter.sdk.service:
+      tv.danmaku.bili
+    com.android.settings.intelligence:
+      tv.danmaku.bili
+    com.miui.carlink:
+      tv.danmaku.bili
+    com.miui.nextpay:
+      tv.danmaku.bili
+    com.xiaomi.mis:
+      tv.danmaku.bili
+    com.miui.hybrid:
+      tv.danmaku.bili
+    com.xiaomi.market:
+      tv.danmaku.bili
+    com.miui.systemAdSolution:
+      tv.danmaku.bili
+    com.xiaomi.account:
+      tv.danmaku.bili
+    com.miui.greenguard:
+      tv.danmaku.bili
+    com.xiaomi.payment:
+      tv.danmaku.bili
+    com.xiaomi.xmsf:
+      tv.danmaku.bili
+    com.android.providers.downloads.ui:
+      tv.danmaku.bili
+    com.mfashiongallery.emag:
+      tv.danmaku.bili
+    com.android.calendar:
+      tv.danmaku.bili
+    com.android.email:
+      tv.danmaku.bili
+    com.miui.gallery:
+      tv.danmaku.bili
+    com.miui.virtualsim:
+      tv.danmaku.bili
+    com.getsurfboard:
+      tv.danmaku.bili
+    com.xingin.xhs:
+      tv.danmaku.bili
+    com.duokan.reader:
+      tv.danmaku.bili
+    com.instagram.android:
+      tv.danmaku.bili
+    com.miui.video:
+      tv.danmaku.bili
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      tv.danmaku.bili
+    com.microsoft.office.outlook:
+      tv.danmaku.bili
+    com.ss.android.article.news:
+      tv.danmaku.bili
+    com.jijia.bqwnl:
+      tv.danmaku.bili
+    com.quark.browser:
+      tv.danmaku.bili
+    com.baidu.BaiduMap:
+      tv.danmaku.bili
+    com.UCMobile:
+      tv.danmaku.bili
+    com.autonavi.minimap:
+      tv.danmaku.bili
+    com.dragon.read:
+      tv.danmaku.bili
+    com.jijia.jjweather:
+      tv.danmaku.bili
+    com.zhuantech.sijiweather:
+      tv.danmaku.bili
+    com.suxing.sustream:
+      tv.danmaku.bili
+    com.yahoo.mobile.client.android.mail:
+      tv.danmaku.bili
+    com.ss.android.ugc.aweme.lite:
+      tv.danmaku.bili
+  queryable via interaction:
+    User 0:
+      [com.android.DeviceAsWebcam,com.miui.wmsvc,com.qti.snapdragon.qdcm_ff,com.miui.notification,com.android.provision,com.xiaomi.barrage,com.android.dynsystem,com.miui.bugreport,com.miui.daemon,com.miui.powerkeeper,com.xiaomi.aon,com.xiaomi.digitalkey,com.xiaomi.mi_connect_service,com.qualcomm.qti.services.systemhelper,com.miui.audiomonitor,android,com.miui.uireporter,com.android.keychain,com.xiaomi.joyose,com.xiaomi.otrpbroker,com.xiaomi.trustservice,com.xiaomi.mtb,com.xiaomi.location.fused,com.android.settings,com.xiaomi.gnss.polaris,com.xiaomi.aiasst.service,com.miui.securitycore,com.miui.securitycenter,com.miui.thirdappassistant,com.android.location.fused,com.bsp.catchlog,com.android.inputdevices,com.miui.touchassistant,com.wapi.wapicertmanage,com.android.server.telecom,com.miui.contentcatcher,com.miui.cit,miui.systemui.plugin,com.miui.misightservice,com.xiaomi.misettings,com.miui.qr,com.android.localtransport,com.qualcomm.qti.xrvd.service,vendor.qti.qesdk.sysservice,com.android.providers.settings,com.xiaomi.aiasst.vision,com.android.systemui,com.xiaomi.mirror,com.miui.aod,com.xiaomi.touchservice]:
+        tv.danmaku.bili
+      [com.qti.dpmserviceapp,vendor.qti.imsdatachannel,com.qualcomm.qti.dynamicddsservice,vendor.qti.data.ntnsatapp,com.android.stk,com.qti.qualcomm.deviceinfo,com.android.mms.service,com.miui.dmregservice,com.android.ons,com.miui.vsimcore,com.xiaomi.phone,com.qualcomm.atfwd,com.qti.qualcomm.datastatusnotification,com.xiaomi.registration,com.android.phone,com.android.providers.telephony]:
+        tv.danmaku.bili
+      [com.google.android.gms,com.google.android.gsf]:
+        tv.danmaku.bili
+      com.android.camera:
+        tv.danmaku.bili
+      com.sohu.inputmethod.sogou.xiaomi:
+        tv.danmaku.bili
+      com.google.android.webview:
+        tv.danmaku.bili
+      com.xiaomi.xmsf:
+        tv.danmaku.bili
+      tv.danmaku.bili:
+        com.google.android.webview
+  queryable via uses-library:
+
+Dexopt state:
+  [tv.danmaku.bili]
+    path: /data/app/~~0orcoJK4pOjyQAqLznK5-g==/tv.danmaku.bili-DxYMWPkSN4MtYysDf_NJ8Q==/base.apk
+      arm64: [status=speed-profile] [reason=first-use] [primary-abi]
+        [location is /data/app/~~0orcoJK4pOjyQAqLznK5-g==/tv.danmaku.bili-DxYMWPkSN4MtYysDf_NJ8Q==/oat/arm64/base.odex]
+    base APK odex file size: base.art: 2886Kb base.odex: 14168Kb base.vdex: 126924Kb 
+
+Compiler stats:
+  [tv.danmaku.bili]
+     base.apk - 4307
+     partner-tv.danmaku.bili_26.apk - 5428
