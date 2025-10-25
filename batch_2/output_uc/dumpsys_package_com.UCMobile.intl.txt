@@ -1,0 +1,2433 @@
+Activity Resolver Table:
+  Full MIME Types:
+      video/3gpp:
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+      image/jpeg:
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+      application/vnd.wap.xhtml+xml:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+      application/pdf:
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+      text/html:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+      text/css:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+      text/xml:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+      image/bmp:
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+      image/png:
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+      application/x-bittorrent:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter bdf42fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "application/x-bittorrent"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter c3227da
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "application/x-bittorrent"
+      */*:
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/vnd.android.package-archive:
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+      audio/mp3:
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+      video/*:
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/xhtml+xml:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+      text/plain:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        71384bf com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.text filter 7be78c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/plain"
+      video/mp4:
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+      audio/mpeg:
+        eaeeb89 com.UCMobile.intl/com.ucmusic.notindex.MainActivityShell filter 134378e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "audio/mpeg"
+      image/*:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      text:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        71384bf com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.text filter 7be78c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/plain"
+      audio:
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+        eaeeb89 com.UCMobile.intl/com.ucmusic.notindex.MainActivityShell filter 134378e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "audio/mpeg"
+      image:
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+      video:
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+      application:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter bdf42fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "application/x-bittorrent"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter c3227da
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "application/x-bittorrent"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+
+  Wild MIME Types:
+      *:
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      cmgamesdk:
+        7ba5654 com.UCMobile.intl/com.cm.game.sdk.ui.CmGameActivity filter 99c89fd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "cmgamesdk"
+          Authority: "data": -1
+      fb869428466573423:
+        1fd1baf com.UCMobile.intl/com.facebook.CustomTabActivity filter f8e4bbc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb869428466573423"
+      magnet:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter c5b92e8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "magnet"
+      :
+        37aa548 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.websearch filter 7447fe1
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: ""
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+      uds:
+        4d267a8 com.UCMobile.intl/com.uc.ud.ploys.friend.FriendAcceptorActivity filter d1b82c1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "uds"
+          Authority: "com.dm.friends": -1
+          Authority: "com.dm.internal": -1
+      file:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter bdf42fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "application/x-bittorrent"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter f607d85
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.torrent}"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 4755792
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.mp4}"
+          Path: "PatternMatcher{GLOB: .*\.MP4}"
+          Path: "PatternMatcher{GLOB: .*\.mkv}"
+          Path: "PatternMatcher{GLOB: .*\.MKV}"
+          Path: "PatternMatcher{GLOB: .*\.avi}"
+          Path: "PatternMatcher{GLOB: .*\.AVI}"
+          Path: "PatternMatcher{GLOB: .*\.asf}"
+          Path: "PatternMatcher{GLOB: .*\.ASF}"
+          Path: "PatternMatcher{GLOB: .*\.f4v}"
+          Path: "PatternMatcher{GLOB: .*\.F4V}"
+          Path: "PatternMatcher{GLOB: .*\.flv}"
+          Path: "PatternMatcher{GLOB: .*\.FLV}"
+          Path: "PatternMatcher{GLOB: .*\.mpeg}"
+          Path: "PatternMatcher{GLOB: .*\.MPEG}"
+          Path: "PatternMatcher{GLOB: .*\.mpg}"
+          Path: "PatternMatcher{GLOB: .*\.MPG}"
+          Path: "PatternMatcher{GLOB: .*\.mov}"
+          Path: "PatternMatcher{GLOB: .*\.MOV}"
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          Path: "PatternMatcher{GLOB: .*\.rm}"
+          Path: "PatternMatcher{GLOB: .*\.RM}"
+          Path: "PatternMatcher{GLOB: .*\.rmvb}"
+          Path: "PatternMatcher{GLOB: .*\.RMVB}"
+          Path: "PatternMatcher{GLOB: .*\.ts}"
+          Path: "PatternMatcher{GLOB: .*\.TS}"
+          Path: "PatternMatcher{GLOB: .*\.wmv}"
+          Path: "PatternMatcher{GLOB: .*\.WMV}"
+          Path: "PatternMatcher{GLOB: .*\.3gp}"
+          Path: "PatternMatcher{GLOB: .*\.3GP}"
+          Path: "PatternMatcher{GLOB: .*\.vdat}"
+          Path: "PatternMatcher{GLOB: .*\.VDAT}"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+        71384bf com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.text filter 7be78c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/plain"
+        eaeeb89 com.UCMobile.intl/com.ucmusic.notindex.MainActivityShell filter 134378e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "audio/mpeg"
+      http:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter be0cce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          Scheme: "ucweb"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6f7632c com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink1 filter 794d1f5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "s.vmate.com": -1
+          Authority: "s.vmate.com": -1
+          AutoVerify=true
+        ad43b8a com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink2 filter d3d95fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "sl.ink": -1
+          Authority: "sl.ink": -1
+          AutoVerify=true
+        20d8618 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink3 filter d2d9871
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "buc.kim": -1
+          Authority: "buc.kim": -1
+          AutoVerify=true
+        9428656 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink4 filter 2c596d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "tz.ucweb.com": -1
+          Authority: "tz.ucweb.com": -1
+          AutoVerify=true
+        360ebc4 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink5 filter 5b24aad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "c.union.ucweb.com": -1
+          Authority: "c.union.ucweb.com": -1
+          AutoVerify=true
+        e78b1e2 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink6 filter 662c973
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "su.fit": -1
+          Authority: "su.fit": -1
+          AutoVerify=true
+        3630030 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink7 filter 55e4a9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "do.ink": -1
+          Authority: "do.ink": -1
+          AutoVerify=true
+        3f40a2e com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink8 filter 79689cf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "uccricket.ucweb.com": -1
+          Authority: "uccricket.ucweb.com": -1
+          AutoVerify=true
+        e2fef5c com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink9 filter 27f2265
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "uc.xyz": -1
+          Authority: "uc.xyz": -1
+          AutoVerify=true
+        bba9b3a com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink10 filter 29bf3eb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "uc.ink": -1
+          Authority: "uc.ink": -1
+          AutoVerify=true
+        37aa548 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.websearch filter 7447fe1
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: ""
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 4755792
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.mp4}"
+          Path: "PatternMatcher{GLOB: .*\.MP4}"
+          Path: "PatternMatcher{GLOB: .*\.mkv}"
+          Path: "PatternMatcher{GLOB: .*\.MKV}"
+          Path: "PatternMatcher{GLOB: .*\.avi}"
+          Path: "PatternMatcher{GLOB: .*\.AVI}"
+          Path: "PatternMatcher{GLOB: .*\.asf}"
+          Path: "PatternMatcher{GLOB: .*\.ASF}"
+          Path: "PatternMatcher{GLOB: .*\.f4v}"
+          Path: "PatternMatcher{GLOB: .*\.F4V}"
+          Path: "PatternMatcher{GLOB: .*\.flv}"
+          Path: "PatternMatcher{GLOB: .*\.FLV}"
+          Path: "PatternMatcher{GLOB: .*\.mpeg}"
+          Path: "PatternMatcher{GLOB: .*\.MPEG}"
+          Path: "PatternMatcher{GLOB: .*\.mpg}"
+          Path: "PatternMatcher{GLOB: .*\.MPG}"
+          Path: "PatternMatcher{GLOB: .*\.mov}"
+          Path: "PatternMatcher{GLOB: .*\.MOV}"
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          Path: "PatternMatcher{GLOB: .*\.rm}"
+          Path: "PatternMatcher{GLOB: .*\.RM}"
+          Path: "PatternMatcher{GLOB: .*\.rmvb}"
+          Path: "PatternMatcher{GLOB: .*\.RMVB}"
+          Path: "PatternMatcher{GLOB: .*\.ts}"
+          Path: "PatternMatcher{GLOB: .*\.TS}"
+          Path: "PatternMatcher{GLOB: .*\.wmv}"
+          Path: "PatternMatcher{GLOB: .*\.WMV}"
+          Path: "PatternMatcher{GLOB: .*\.3gp}"
+          Path: "PatternMatcher{GLOB: .*\.3GP}"
+          Path: "PatternMatcher{GLOB: .*\.vdat}"
+          Path: "PatternMatcher{GLOB: .*\.VDAT}"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      about:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter be0cce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          Scheme: "ucweb"
+      https:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter be0cce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          Scheme: "ucweb"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6f7632c com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink1 filter 794d1f5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "s.vmate.com": -1
+          Authority: "s.vmate.com": -1
+          AutoVerify=true
+        ad43b8a com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink2 filter d3d95fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "sl.ink": -1
+          Authority: "sl.ink": -1
+          AutoVerify=true
+        20d8618 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink3 filter d2d9871
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "buc.kim": -1
+          Authority: "buc.kim": -1
+          AutoVerify=true
+        9428656 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink4 filter 2c596d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "tz.ucweb.com": -1
+          Authority: "tz.ucweb.com": -1
+          AutoVerify=true
+        360ebc4 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink5 filter 5b24aad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "c.union.ucweb.com": -1
+          Authority: "c.union.ucweb.com": -1
+          AutoVerify=true
+        e78b1e2 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink6 filter 662c973
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "su.fit": -1
+          Authority: "su.fit": -1
+          AutoVerify=true
+        3630030 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink7 filter 55e4a9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "do.ink": -1
+          Authority: "do.ink": -1
+          AutoVerify=true
+        3f40a2e com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink8 filter 79689cf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "uccricket.ucweb.com": -1
+          Authority: "uccricket.ucweb.com": -1
+          AutoVerify=true
+        e2fef5c com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink9 filter 27f2265
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "uc.xyz": -1
+          Authority: "uc.xyz": -1
+          AutoVerify=true
+        bba9b3a com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.AppLink10 filter 29bf3eb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "uc.ink": -1
+          Authority: "uc.ink": -1
+          AutoVerify=true
+        37aa548 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.websearch filter 7447fe1
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: ""
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 4755792
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.mp4}"
+          Path: "PatternMatcher{GLOB: .*\.MP4}"
+          Path: "PatternMatcher{GLOB: .*\.mkv}"
+          Path: "PatternMatcher{GLOB: .*\.MKV}"
+          Path: "PatternMatcher{GLOB: .*\.avi}"
+          Path: "PatternMatcher{GLOB: .*\.AVI}"
+          Path: "PatternMatcher{GLOB: .*\.asf}"
+          Path: "PatternMatcher{GLOB: .*\.ASF}"
+          Path: "PatternMatcher{GLOB: .*\.f4v}"
+          Path: "PatternMatcher{GLOB: .*\.F4V}"
+          Path: "PatternMatcher{GLOB: .*\.flv}"
+          Path: "PatternMatcher{GLOB: .*\.FLV}"
+          Path: "PatternMatcher{GLOB: .*\.mpeg}"
+          Path: "PatternMatcher{GLOB: .*\.MPEG}"
+          Path: "PatternMatcher{GLOB: .*\.mpg}"
+          Path: "PatternMatcher{GLOB: .*\.MPG}"
+          Path: "PatternMatcher{GLOB: .*\.mov}"
+          Path: "PatternMatcher{GLOB: .*\.MOV}"
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          Path: "PatternMatcher{GLOB: .*\.rm}"
+          Path: "PatternMatcher{GLOB: .*\.RM}"
+          Path: "PatternMatcher{GLOB: .*\.rmvb}"
+          Path: "PatternMatcher{GLOB: .*\.RMVB}"
+          Path: "PatternMatcher{GLOB: .*\.ts}"
+          Path: "PatternMatcher{GLOB: .*\.TS}"
+          Path: "PatternMatcher{GLOB: .*\.wmv}"
+          Path: "PatternMatcher{GLOB: .*\.WMV}"
+          Path: "PatternMatcher{GLOB: .*\.3gp}"
+          Path: "PatternMatcher{GLOB: .*\.3GP}"
+          Path: "PatternMatcher{GLOB: .*\.vdat}"
+          Path: "PatternMatcher{GLOB: .*\.VDAT}"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      ucweb:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter be0cce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          Scheme: "ucweb"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        37aa548 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.websearch filter 7447fe1
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: ""
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 4755792
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.mp4}"
+          Path: "PatternMatcher{GLOB: .*\.MP4}"
+          Path: "PatternMatcher{GLOB: .*\.mkv}"
+          Path: "PatternMatcher{GLOB: .*\.MKV}"
+          Path: "PatternMatcher{GLOB: .*\.avi}"
+          Path: "PatternMatcher{GLOB: .*\.AVI}"
+          Path: "PatternMatcher{GLOB: .*\.asf}"
+          Path: "PatternMatcher{GLOB: .*\.ASF}"
+          Path: "PatternMatcher{GLOB: .*\.f4v}"
+          Path: "PatternMatcher{GLOB: .*\.F4V}"
+          Path: "PatternMatcher{GLOB: .*\.flv}"
+          Path: "PatternMatcher{GLOB: .*\.FLV}"
+          Path: "PatternMatcher{GLOB: .*\.mpeg}"
+          Path: "PatternMatcher{GLOB: .*\.MPEG}"
+          Path: "PatternMatcher{GLOB: .*\.mpg}"
+          Path: "PatternMatcher{GLOB: .*\.MPG}"
+          Path: "PatternMatcher{GLOB: .*\.mov}"
+          Path: "PatternMatcher{GLOB: .*\.MOV}"
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          Path: "PatternMatcher{GLOB: .*\.rm}"
+          Path: "PatternMatcher{GLOB: .*\.RM}"
+          Path: "PatternMatcher{GLOB: .*\.rmvb}"
+          Path: "PatternMatcher{GLOB: .*\.RMVB}"
+          Path: "PatternMatcher{GLOB: .*\.ts}"
+          Path: "PatternMatcher{GLOB: .*\.TS}"
+          Path: "PatternMatcher{GLOB: .*\.wmv}"
+          Path: "PatternMatcher{GLOB: .*\.WMV}"
+          Path: "PatternMatcher{GLOB: .*\.3gp}"
+          Path: "PatternMatcher{GLOB: .*\.3GP}"
+          Path: "PatternMatcher{GLOB: .*\.vdat}"
+          Path: "PatternMatcher{GLOB: .*\.VDAT}"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+        71384bf com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.text filter 7be78c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/plain"
+      dws.com_ucmobile_intl:
+        8d3aa66 com.UCMobile.intl/com.uc.datawings.debug.DebugBridgeActivity filter eed1a7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "dws.com_ucmobile_intl"
+      fbconnect:
+        1fd1baf com.UCMobile.intl/com.facebook.CustomTabActivity filter a11b745
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.UCMobile.intl": -1
+      ut.21783859:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter c2cbb39
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ut.21783859"
+      content:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter c3227da
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "application/x-bittorrent"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 61b940b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.torrent}"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 4755792
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.mp4}"
+          Path: "PatternMatcher{GLOB: .*\.MP4}"
+          Path: "PatternMatcher{GLOB: .*\.mkv}"
+          Path: "PatternMatcher{GLOB: .*\.MKV}"
+          Path: "PatternMatcher{GLOB: .*\.avi}"
+          Path: "PatternMatcher{GLOB: .*\.AVI}"
+          Path: "PatternMatcher{GLOB: .*\.asf}"
+          Path: "PatternMatcher{GLOB: .*\.ASF}"
+          Path: "PatternMatcher{GLOB: .*\.f4v}"
+          Path: "PatternMatcher{GLOB: .*\.F4V}"
+          Path: "PatternMatcher{GLOB: .*\.flv}"
+          Path: "PatternMatcher{GLOB: .*\.FLV}"
+          Path: "PatternMatcher{GLOB: .*\.mpeg}"
+          Path: "PatternMatcher{GLOB: .*\.MPEG}"
+          Path: "PatternMatcher{GLOB: .*\.mpg}"
+          Path: "PatternMatcher{GLOB: .*\.MPG}"
+          Path: "PatternMatcher{GLOB: .*\.mov}"
+          Path: "PatternMatcher{GLOB: .*\.MOV}"
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          Path: "PatternMatcher{GLOB: .*\.rm}"
+          Path: "PatternMatcher{GLOB: .*\.RM}"
+          Path: "PatternMatcher{GLOB: .*\.rmvb}"
+          Path: "PatternMatcher{GLOB: .*\.RMVB}"
+          Path: "PatternMatcher{GLOB: .*\.ts}"
+          Path: "PatternMatcher{GLOB: .*\.TS}"
+          Path: "PatternMatcher{GLOB: .*\.wmv}"
+          Path: "PatternMatcher{GLOB: .*\.WMV}"
+          Path: "PatternMatcher{GLOB: .*\.3gp}"
+          Path: "PatternMatcher{GLOB: .*\.3GP}"
+          Path: "PatternMatcher{GLOB: .*\.vdat}"
+          Path: "PatternMatcher{GLOB: .*\.VDAT}"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+        71384bf com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.text filter 7be78c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/plain"
+        eaeeb89 com.UCMobile.intl/com.ucmusic.notindex.MainActivityShell filter 134378e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "audio/mpeg"
+      wa.0010:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 72d457e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "wa.0010"
+      ucdownload:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 211cdc9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ucdownload"
+
+  Non-Data Actions:
+      com.UCMobile.intent.action.INVOKE:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter d7dd832
+          Action: "com.UCMobile.intent.action.INVOKE"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 9a659d0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7966ed5 com.UCMobile.intl/com.uc.browser.InnerUCMobile filter e9046ea
+          Action: "android.intent.action.MAIN"
+      android.intent.action.VIEW:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 6e72adf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      com.uc.browser.intent.action.LOADURL:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter eed65e7
+          Action: "com.uc.browser.intent.action.LOADURL"
+          Category: "android.intent.category.DEFAULT"
+      com.UCMobile.intent.action.LOADBUFFER:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter cb5d83d
+          Action: "com.UCMobile.intent.action.LOADBUFFER"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.PROXY_CHANGE:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter f207983
+          Action: "android.intent.action.PROXY_CHANGE"
+          Action: "android.net.http.NETWORK_STATE"
+      com.uc.search.action.INPUT:
+        75c2351 com.UCMobile.intl/com.uc.browser.business.search.quicksearch.SearchActivity filter 6a3e7b6
+          Action: "com.uc.search.action.INPUT"
+          Category: "android.intent.category.DEFAULT"
+        aeea38d com.UCMobile.intl/com.uc.browser.webwindow.quick.QuickWindowActivity filter 97ec942
+          Action: "com.uc.search.action.INPUT"
+          Category: "android.intent.category.DEFAULT"
+      com.UCMobile.intl.webapps.ACTION_START_WEBAPP:
+        3c03e9a com.UCMobile.intl/com.uc.application.pwa.webapps.WebappLauncherActivity filter 109c3cb
+          Action: "com.UCMobile.intl.webapps.ACTION_START_WEBAPP"
+          Category: "android.intent.category.DEFAULT"
+      com.UCMobile.intent.action.LOADURL:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 29ae7a6
+          Action: "com.UCMobile.intent.action.LOADURL"
+          Category: "android.intent.category.DEFAULT"
+      com.UCMobile.intent.action.WEBSEARCH:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 7caf594
+          Action: "com.UCMobile.intent.action.WEBSEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.ASSIST:
+        1274cb7 com.UCMobile.intl/com.uc.browser.business.search.quicksearch.SearchActivity.alias.assist filter 3a59c24
+          Action: "android.intent.action.ASSIST"
+          Category: "android.intent.category.DEFAULT"
+      android.net.http.NETWORK_STATE:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter f207983
+          Action: "android.intent.action.PROXY_CHANGE"
+          Action: "android.net.http.NETWORK_STATE"
+      com.uc.browser.action.CALL_PROXY_VIEW:
+        c05addb com.UCMobile.intl/com.uc.browser.ProxyActivity filter bc5f078
+          Action: "com.uc.browser.action.CALL_PROXY_VIEW"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.WEB_SEARCH:
+        37aa548 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.websearch filter 273106
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.uc.shortcut.folder.action.OPEN:
+        759fd53 com.UCMobile.intl/com.uc.browser.business.shortcut.ShortcutFolderActivity filter db25690
+          Action: "com.uc.shortcut.folder.action.OPEN"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 1306d01
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter e2667ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter bdf42fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "application/x-bittorrent"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter c3227da
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          StaticType: "application/x-bittorrent"
+        6db0593 com.UCMobile.intl/com.UCMobile.main.UCMobile filter 42bd700
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "text/css"
+        243e3c7 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.download filter 938cdf4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          StaticType: "application/vnd.android.package-archive"
+          StaticType: "application/pdf"
+          StaticType: "video/3gpp"
+          StaticType: "video/mp4"
+          StaticType: "audio/mp3"
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter 390f563
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.m3u8}"
+          Path: "PatternMatcher{GLOB: .*\.M3U8}"
+          Path: "PatternMatcher{GLOB: .*\.m3u}"
+          Path: "PatternMatcher{GLOB: .*\.M3U}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        aa8391d com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.video filter d0ed560
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c944a19 com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.image filter 20d5ade
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/bmp"
+        71384bf com.UCMobile.intl/com.UCMobile.main.UCMobile.alias.text filter 7be78c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Scheme: "ucweb"
+          StaticType: "text/plain"
+        eaeeb89 com.UCMobile.intl/com.ucmusic.notindex.MainActivityShell filter 134378e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "audio/mpeg"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        fda1bec com.UCMobile.intl/com.taobao.accs.EventReceiver filter c75824a
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Scheme: "package"
+        d97297 com.UCMobile.intl/com.taobao.agoo.AgooCommondReceiver filter d88ec6d
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Scheme: "package"
+        86ef5b2 com.UCMobile.intl/com.alv.foun.PhoenixBroadcastReceiver filter 1d096b9
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Action: "android.intent.action.PACKAGE_ADDED"
+          Scheme: "package"
+      https:
+        3aa004c com.UCMobile.intl/com.uc.application.pwa.push.WebPushNotificationListenerService$Receiver filter 2417895
+          Action: "com.uc.web.notifications.CLOSE_NOTIFICATION"
+          Action: "com.uc.web.notifications.CLICK_NOTIFICATION"
+          Scheme: "https"
+
+  Non-Data Actions:
+      com.uc.base.active.NOTIFICATION_CLICK:
+        988159e com.UCMobile.intl/com.uc.base.active.NotificationEventReceiver filter bbb887f
+          Action: "com.uc.base.active.NOTIFICATION_CLICK"
+          Action: "com.uc.base.active.NOTIFICATION_DELETE"
+      android.intent.action.BATTERY_OKAY:
+        f408802 com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b76b513
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.UCMobile.push.DELETE:
+        5e3a03e com.UCMobile.intl/com.uc.base.push.core.PushProxyReceiver filter ab24e9f
+          Action: "com.UCMobile.push.DELETE"
+          Action: "com.uc.base.push.ACTION_WAKEUP_ALARM"
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        892581c com.UCMobile.intl/com.uc.browser.multiprocess.bgwork.push.xiaomi.MessageReceiver filter a9b11fa
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        6e78eb4 com.UCMobile.intl/com.uc.browser.bgprocess.BackgroundProcessBroadcastReveiver filter 14acadd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "com.uc.browser.bgprocess.widget.alarm"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.uc.browser.bgprocess.applink.status_check"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "com.uc.browser.bgprocess.lockscreen.alarm"
+        10e0911 com.UCMobile.intl/com.uc.ud.UdReceiver filter 2d40877
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+        1e60ce4 com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 339254d
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+        86ef5b2 com.UCMobile.intl/com.alv.foun.PhoenixBroadcastReceiver filter fc70903
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.uc.browser.bgprocess.widget.alarm:
+        6e78eb4 com.UCMobile.intl/com.uc.browser.bgprocess.BackgroundProcessBroadcastReveiver filter 14acadd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "com.uc.browser.bgprocess.widget.alarm"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.uc.browser.bgprocess.applink.status_check"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "com.uc.browser.bgprocess.lockscreen.alarm"
+      com.xiaomi.mipush.ERROR:
+        892581c com.UCMobile.intl/com.uc.browser.multiprocess.bgwork.push.xiaomi.MessageReceiver filter 4dd03ab
+          Action: "com.xiaomi.mipush.ERROR"
+      com.uc.base.push.TRIGGER_AGOO_BIND:
+        4a410a2 com.UCMobile.intl/com.uc.base.push.agoo.TaobaoRebindReceiver filter 638a133
+          Action: "com.uc.base.push.TRIGGER_AGOO_BIND"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        c691350 com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter c7fc949
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        fda1bec com.UCMobile.intl/com.taobao.accs.EventReceiver filter 8e7fbb5
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+        7ac5cf0 com.UCMobile.intl/com.xiaomi.push.service.receivers.NetworkStatusReceiver filter a54e269
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Category: "android.intent.category.DEFAULT"
+        6e78eb4 com.UCMobile.intl/com.uc.browser.bgprocess.BackgroundProcessBroadcastReveiver filter 14acadd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "com.uc.browser.bgprocess.widget.alarm"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.uc.browser.bgprocess.applink.status_check"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "com.uc.browser.bgprocess.lockscreen.alarm"
+        10e0911 com.UCMobile.intl/com.uc.ud.UdReceiver filter 2d40877
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+        933224e com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 58d8f6f
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+        86ef5b2 com.UCMobile.intl/com.alv.foun.PhoenixBroadcastReceiver filter 7cff080
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.alv.foun.ACTION_WAKE_UP_ALARM:
+        86ef5b2 com.UCMobile.intl/com.alv.foun.PhoenixBroadcastReceiver filter fd2bafe
+          Action: "com.alv.foun.ACTION_WAKE_UP_ALARM"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        a8bfc68 com.UCMobile.intl/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 4f25881
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      com.uc.intent.action.app.delete:
+        6587714 com.UCMobile.intl/com.uc.base.push.business.UpsBizReceiver filter 56afbbd
+          Action: "com.uc.intent.action.app.delete"
+          Action: "com.uc.intent.action.app.invoke"
+      android.intent.action.DEVICE_STORAGE_OK:
+        c691350 com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter c7fc949
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.uc.intent.action.app.invoke:
+        6587714 com.UCMobile.intl/com.uc.base.push.business.UpsBizReceiver filter 56afbbd
+          Action: "com.uc.intent.action.app.delete"
+          Action: "com.uc.intent.action.app.invoke"
+      com.uc.base.active.NOTIFICATION_DELETE:
+        988159e com.UCMobile.intl/com.uc.base.active.NotificationEventReceiver filter bbb887f
+          Action: "com.uc.base.active.NOTIFICATION_CLICK"
+          Action: "com.uc.base.active.NOTIFICATION_DELETE"
+      com.uc.action.push.bus.command:
+        b8a2d9b com.UCMobile.intl/com.uc.ud.ploys.friend.FriendCallingAgentBroadcastReceiver filter 49cd538
+          Action: "com.uc.action.push.bus.command"
+          Action: "com.uc.action.pull.friend"
+          Category: "android.intent.category.DEFAULT"
+      com.uc.datawings.intent.action.UPLOAD:
+        6ed2d26 com.UCMobile.intl/com.uc.datawings.UploadEntrance filter 821fd67
+          Action: "com.uc.datawings.intent.action.UPLOAD"
+      com.uc.browser.bgprocess.applink.status_check:
+        6e78eb4 com.UCMobile.intl/com.uc.browser.bgprocess.BackgroundProcessBroadcastReveiver filter 14acadd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "com.uc.browser.bgprocess.widget.alarm"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.uc.browser.bgprocess.applink.status_check"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "com.uc.browser.bgprocess.lockscreen.alarm"
+      com.UCMobile.intl.intent.action.COMMAND:
+        d97297 com.UCMobile.intl/com.taobao.agoo.AgooCommondReceiver filter 549fc84
+          Action: "com.UCMobile.intl.intent.action.COMMAND"
+      com.UCMobile.appwidget:
+        a7ada08 com.UCMobile.intl/com.uc.application.desktopwidget.model.UCWidgetProvider filter eed75a1
+          Action: "com.UCMobile.appwidget"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.google.android.c2dm.intent.RECEIVE:
+        89083c0 com.UCMobile.intl/com.google.android.gms.gcm.GcmReceiver filter 42cc8f9
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.UCMobile.intl"
+      com.uc.action.push.gcm.dispatch:
+        7853c6 com.UCMobile.intl/com.uc.application.facebook.push.FacebookPushBroadcastReceiver filter de62f87
+          Action: "com.uc.action.push.gcm.dispatch"
+        3aa004c com.UCMobile.intl/com.uc.application.pwa.push.WebPushNotificationListenerService$Receiver filter dbedaa
+          Action: "com.uc.action.push.gcm.dispatch"
+      android.intent.action.BATTERY_LOW:
+        f408802 com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b76b513
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      process.daemon.receiver.alarm:
+        10e0911 com.UCMobile.intl/com.uc.ud.UdReceiver filter de33a76
+          Action: "process.daemon.receiver.alarm"
+          Action: "com.alv.foun.ACTION_WAKE_UP"
+      android.intent.action.TIMEZONE_CHANGED:
+        dd4147c com.UCMobile.intl/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 572b105
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        dd4147c com.UCMobile.intl/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 572b105
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        10e0911 com.UCMobile.intl/com.uc.ud.UdReceiver filter 2d40877
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+        dd4147c com.UCMobile.intl/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 572b105
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        86ef5b2 com.UCMobile.intl/com.alv.foun.PhoenixBroadcastReceiver filter 7cff080
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.USER_PRESENT:
+        fda1bec com.UCMobile.intl/com.taobao.accs.EventReceiver filter af735bb
+          Action: "android.intent.action.USER_PRESENT"
+        86ef5b2 com.UCMobile.intl/com.alv.foun.PhoenixBroadcastReceiver filter fc70903
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.taobao.accs.intent.action.START_FROM_AGOO:
+        7430ad8 com.UCMobile.intl/com.taobao.accs.ServiceReceiver filter f917916
+          Action: "com.taobao.accs.intent.action.START_FROM_AGOO"
+      com.alv.foun.ACTION_WAKE_UP:
+        10e0911 com.UCMobile.intl/com.uc.ud.UdReceiver filter de33a76
+          Action: "process.daemon.receiver.alarm"
+          Action: "com.alv.foun.ACTION_WAKE_UP"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        6e78eb4 com.UCMobile.intl/com.uc.browser.bgprocess.BackgroundProcessBroadcastReveiver filter 14acadd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "com.uc.browser.bgprocess.widget.alarm"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.uc.browser.bgprocess.applink.status_check"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "com.uc.browser.bgprocess.lockscreen.alarm"
+        10e0911 com.UCMobile.intl/com.uc.ud.UdReceiver filter 2d40877
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+        1e60ce4 com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 339254d
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+        86ef5b2 com.UCMobile.intl/com.alv.foun.PhoenixBroadcastReceiver filter fc70903
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.xiaomi.push.PING_TIMER:
+        95694ee com.UCMobile.intl/com.xiaomi.push.service.receivers.PingReceiver filter 9521d8f
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        892581c com.UCMobile.intl/com.uc.browser.multiprocess.bgwork.push.xiaomi.MessageReceiver filter ed03c25
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.uc.action.pull.friend:
+        b8a2d9b com.UCMobile.intl/com.uc.ud.ploys.friend.FriendCallingAgentBroadcastReceiver filter 49cd538
+          Action: "com.uc.action.push.bus.command"
+          Action: "com.uc.action.pull.friend"
+          Category: "android.intent.category.DEFAULT"
+      com.uc.intent.action.WARM_BOOT:
+        bc8e220 com.UCMobile.intl/com.uc.browser.business.warmboot.WarmbootReceiver filter e2e37d9
+          Action: "com.uc.intent.action.WARM_BOOT"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        a7ada08 com.UCMobile.intl/com.uc.application.desktopwidget.model.UCWidgetProvider filter eed75a1
+          Action: "com.UCMobile.appwidget"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.taobao.accs.intent.action.COMMAND:
+        7430ad8 com.UCMobile.intl/com.taobao.accs.ServiceReceiver filter fe99e31
+          Action: "com.taobao.accs.intent.action.COMMAND"
+      com.uc.base.push.ACTION_WAKEUP_ALARM:
+        5e3a03e com.UCMobile.intl/com.uc.base.push.core.PushProxyReceiver filter ab24e9f
+          Action: "com.UCMobile.push.DELETE"
+          Action: "com.uc.base.push.ACTION_WAKEUP_ALARM"
+      com.google.android.c2dm.intent.REGISTRATION:
+        89083c0 com.UCMobile.intl/com.google.android.gms.gcm.GcmReceiver filter 42cc8f9
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.UCMobile.intl"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        6006f2 com.UCMobile.intl/com.uc.base.system.receivers.SysReceiver filter c2ce143
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        2a3155a com.UCMobile.intl/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter d8db38b
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      android.intent.action.ACTION_SHUTDOWN:
+        6e78eb4 com.UCMobile.intl/com.uc.browser.bgprocess.BackgroundProcessBroadcastReveiver filter 14acadd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "com.uc.browser.bgprocess.widget.alarm"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.uc.browser.bgprocess.applink.status_check"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "com.uc.browser.bgprocess.lockscreen.alarm"
+        10e0911 com.UCMobile.intl/com.uc.ud.UdReceiver filter 2d40877
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+      android.intent.action.MEDIA_BUTTON:
+        a95e652 com.UCMobile.intl/com.ucmusic.notindex.RemoteControlEventReceiver filter 36c3d23
+          Action: "android.intent.action.MEDIA_BUTTON"
+      com.uc.browser.bgprocess.lockscreen.alarm:
+        6e78eb4 com.UCMobile.intl/com.uc.browser.bgprocess.BackgroundProcessBroadcastReveiver filter 14acadd
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "com.uc.browser.bgprocess.widget.alarm"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.uc.browser.bgprocess.applink.status_check"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "com.uc.browser.bgprocess.lockscreen.alarm"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        9bdaee0 com.UCMobile.intl/com.uc.ud.ploys.sync.SyncService filter 24be599
+          Action: "android.content.SyncAdapter"
+      com.taobao.accs.intent.action.SERVICE:
+        10163f1 com.UCMobile.intl/com.taobao.accs.ChannelService filter 7712bd6
+          Action: "com.taobao.accs.intent.action.SERVICE"
+      com.ud.business.ntf:
+        71dcec8 com.UCMobile.intl/com.uc.browser.multiprocess.resident.ResidentIpcService filter 3622b61
+          Action: "com.ud.business.ntf"
+          Action: "com.ud.foreground.ntf"
+      com.uc.browser.intent.FRIEND:
+        1a50f74 com.UCMobile.intl/com.uc.ud.ploys.friend.FriendAcceptorService filter 5b51c9d
+          Action: "com.uc.browser.intent.FRIEND"
+          Category: "android.intent.category.DEFAULT"
+      org.agoo.android.intent.action.RECEIVE:
+        30079b0 com.UCMobile.intl/.TaobaoIntentService filter a67a029
+          Action: "org.agoo.android.intent.action.RECEIVE"
+      android.view.InputMethod:
+        79b905e com.UCMobile.intl/com.alv.foun.service.PhoenixService filter 9ed4c3f
+          Action: "android.view.InputMethod"
+      com.google.android.c2dm.intent.RECEIVE:
+        65ae575 com.UCMobile.intl/com.uc.base.push.gcm.UcGcmListenerService filter 41b890a
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      com.ud.foreground.ntf:
+        71dcec8 com.UCMobile.intl/com.uc.browser.multiprocess.resident.ResidentIpcService filter 3622b61
+          Action: "com.ud.business.ntf"
+          Action: "com.ud.foreground.ntf"
+      org.android.agoo.client.MessageReceiverService:
+        9a1dfae com.UCMobile.intl/com.taobao.agoo.TaobaoMessageIntentReceiverService filter aa7714f
+          Action: "org.android.agoo.client.MessageReceiverService"
+      android.service.notification.NotificationListenerService:
+        a3048ba com.UCMobile.intl/com.uc.browser.notification.service.NotificationService filter 693d36b permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+      oppo.intent.action.keyguard:
+        79b905e com.UCMobile.intl/com.alv.foun.service.PhoenixService filter efed90c
+          Action: "oppo.intent.action.keyguard"
+      com.google.android.gms.iid.InstanceID:
+        b36957b com.UCMobile.intl/com.uc.base.push.gcm.UcInstanceIDListenerService filter feb4f98
+          Action: "com.google.android.gms.iid.InstanceID"
+      android.accounts.AccountAuthenticator:
+        b433512 com.UCMobile.intl/com.uc.ud.ploys.sync.AuthenticatorService filter 3b544e3
+          Action: "android.accounts.AccountAuthenticator"
+      com.taobao.accs.intent.action.ELECTION:
+        40f0e57 com.UCMobile.intl/com.taobao.accs.data.MsgDistributeService filter db74e2d
+          Action: "com.taobao.accs.intent.action.ELECTION"
+      com.uc.udrive.upload.ACTION:
+        80a3686 com.UCMobile.intl/com.uc.browser.core.upload.UDriveUploadService filter a9a3b47
+          Action: "com.uc.udrive.upload.ACTION"
+      com.taobao.accs.intent.action.RECEIVE:
+        40f0e57 com.UCMobile.intl/com.taobao.accs.data.MsgDistributeService filter f11cd44
+          Action: "com.taobao.accs.intent.action.RECEIVE"
+        4ac2f62 com.UCMobile.intl/org.android.agoo.accs.AgooService filter b8c38f3
+          Action: "com.taobao.accs.intent.action.RECEIVE"
+      android.service.wallpaper.WallpaperService:
+        feb80dc com.UCMobile.intl/com.uc.base.system.wallpaper.UCWallPaperService filter eb115e5 permission android.permission.BIND_WALLPAPER
+          Action: "android.service.wallpaper.WallpaperService"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      com.uc.browser.intent.provider.FRIEND:
+        27325f com.UCMobile.intl/com.uc.ud.ploys.friend.FriendAcceptorContentProvider filter 68394ac
+          Action: "com.uc.browser.intent.provider.FRIEND"
+
+Domain verification status:
+  com.UCMobile.intl:
+    ID: cabf6b50-7066-4c8d-9bfa-ea4a60215c1e
+    Signatures: [BB:E2:FF:26:98:28:A0:D9:22:49:8E:E8:7F:65:AF:E7:69:C2:7D:62:F4:89:D5:C1:9B:9C:C6:C4:44:C8:08:11]
+    Invalid autoVerify domains:
+      *
+    Domain verification state:
+      tz.ucweb.com: none
+      do.ink: none
+      sl.ink: none
+      su.fit: none
+      uc.ink: none
+      uc.xyz: none
+      buc.kim: none
+      c.union.ucweb.com: none
+      uccricket.ucweb.com: none
+      s.vmate.com: none
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          tz.ucweb.com
+          do.ink
+          sl.ink
+          su.fit
+          uc.ink
+          uc.xyz
+          buc.kim
+          c.union.ucweb.com
+          uccricket.ucweb.com
+          s.vmate.com
+
+Permissions:
+  Permission [com.UCMobile.intl.permission.C2D_MESSAGE] (daef0c3):
+    sourcePackage=com.UCMobile.intl
+    uid=10444 gids=[] type=0 prot=signature
+    perm=PermissionInfo{aaa1d40 com.UCMobile.intl.permission.C2D_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.UCMobile.intl.permission.MIPUSH_RECEIVE] (ed82479):
+    sourcePackage=com.UCMobile.intl
+    uid=10444 gids=[] type=0 prot=signature
+    perm=PermissionInfo{bba95be com.UCMobile.intl.permission.MIPUSH_RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [com.UCMobile.intl.permission.KILL_PROCESS] (705d61f):
+    sourcePackage=com.UCMobile.intl
+    uid=10444 gids=[] type=0 prot=signature
+    perm=PermissionInfo{fb3cd6c com.UCMobile.intl.permission.KILL_PROCESS}
+    flags=0x0
+
+Registered ContentProviders:
+  com.UCMobile.intl/com.uc.base.share.basic.android.ShareFileProvider:
+    Provider{5ad8f35 com.UCMobile.intl/com.uc.base.share.basic.android.ShareFileProvider}
+  com.UCMobile.intl/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{4864fca com.UCMobile.intl/com.google.firebase.provider.FirebaseInitProvider}
+  com.UCMobile.intl/com.facebook.internal.FacebookInitProvider:
+    Provider{9bbb53b com.UCMobile.intl/com.facebook.internal.FacebookInitProvider}
+  com.UCMobile.intl/com.facebook.ads.AudienceNetworkContentProvider:
+    Provider{cc65458 com.UCMobile.intl/com.facebook.ads.AudienceNetworkContentProvider}
+  com.UCMobile.intl/com.ucmusic.notindex.MusicContentProvider:
+    Provider{234e9b1 com.UCMobile.intl/com.ucmusic.notindex.MusicContentProvider}
+  com.UCMobile.intl/com.uc.ud.ploys.friend.FriendAcceptorContentProvider:
+    Provider{27325f com.UCMobile.intl/com.uc.ud.ploys.friend.FriendAcceptorContentProvider}
+  com.UCMobile.intl/com.swof.u4_ui.utils.utils.SwofProvider:
+    Provider{fa19e96 com.UCMobile.intl/com.swof.u4_ui.utils.utils.SwofProvider}
+  com.UCMobile.intl/com.uc.ud.ploys.doubleprocess.DpReceiverProvider:
+    Provider{4266a17 com.UCMobile.intl/com.uc.ud.ploys.doubleprocess.DpReceiverProvider}
+  com.UCMobile.intl/com.uc.base.abtest.ABTestProvider:
+    Provider{d785e04 com.UCMobile.intl/com.uc.base.abtest.ABTestProvider}
+  com.UCMobile.intl/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{3fd6fed com.UCMobile.intl/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.UCMobile.intl/androidx.core.content.FileProvider:
+    Provider{9510e22 com.UCMobile.intl/androidx.core.content.FileProvider}
+  com.UCMobile.intl/com.uc.ud.ploys.sync.SyncContentProvider:
+    Provider{a1d90b3 com.UCMobile.intl/com.uc.ud.ploys.sync.SyncContentProvider}
+  com.UCMobile.intl/com.uc.ark.extend.mediapicker.ArkFileProvider:
+    Provider{e1f5670 com.UCMobile.intl/com.uc.ark.extend.mediapicker.ArkFileProvider}
+  com.UCMobile.intl/androidx.work.impl.WorkManagerInitializer:
+    Provider{a4e1de9 com.UCMobile.intl/androidx.work.impl.WorkManagerInitializer}
+  com.UCMobile.intl/com.uc.ud.ploys.doubleprocess.DpSenderProvider:
+    Provider{b95ea6e com.UCMobile.intl/com.uc.ud.ploys.doubleprocess.DpSenderProvider}
+
+ContentProvider Authorities:
+  [com.UCMobile.intl.firebaseinitprovider]:
+    Provider{4864fca com.UCMobile.intl/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{b56850f com.UCMobile.intl}
+  [com.UCMobile.intl.workmanager-init]:
+    Provider{a4e1de9 com.UCMobile.intl/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{8fb699c com.UCMobile.intl}
+  [com.UCMobile.intl.FacebookInitProvider]:
+    Provider{9bbb53b com.UCMobile.intl/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{7e1afa5 com.UCMobile.intl}
+  [com.UCMobile.intl.arkprovider]:
+    Provider{e1f5670 com.UCMobile.intl/com.uc.ark.extend.mediapicker.ArkFileProvider}
+      applicationInfo=ApplicationInfo{d3a3f7a com.UCMobile.intl}
+  [com.UCMobile.intl.udrcv]:
+    Provider{4266a17 com.UCMobile.intl/com.uc.ud.ploys.doubleprocess.DpReceiverProvider}
+      applicationInfo=ApplicationInfo{380632b com.UCMobile.intl}
+  [com.UCMobile.intl.udsnd]:
+    Provider{b95ea6e com.UCMobile.intl/com.uc.ud.ploys.doubleprocess.DpSenderProvider}
+      applicationInfo=ApplicationInfo{a238388 com.UCMobile.intl}
+  [com.UCMobile.intl.datasync.provider]:
+    Provider{a1d90b3 com.UCMobile.intl/com.uc.ud.ploys.sync.SyncContentProvider}
+      applicationInfo=ApplicationInfo{662a121 com.UCMobile.intl}
+  [com.UCMobile.intl.AudienceNetworkContentProvider]:
+    Provider{cc65458 com.UCMobile.intl/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{59cd946 com.UCMobile.intl}
+  [com.UCMobile.intl.abtest]:
+    Provider{d785e04 com.UCMobile.intl/com.uc.base.abtest.ABTestProvider}
+      applicationInfo=ApplicationInfo{200707 com.UCMobile.intl}
+  [com.UCMobile.intl.friend.provider]:
+    Provider{27325f com.UCMobile.intl/com.uc.ud.ploys.friend.FriendAcceptorContentProvider}
+      applicationInfo=ApplicationInfo{6315034 com.UCMobile.intl}
+  [com.UCMobile.intl.mobileadsinitprovider]:
+    Provider{3fd6fed com.UCMobile.intl/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{5a72e5d com.UCMobile.intl}
+  [com.UCMobile.intl.fileprovider]:
+    Provider{9510e22 com.UCMobile.intl/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{13d43d2 com.UCMobile.intl}
+  [com.UCMobile.intl.com.ucmusic.yolo]:
+    Provider{234e9b1 com.UCMobile.intl/com.ucmusic.notindex.MusicContentProvider}
+      applicationInfo=ApplicationInfo{82c0ca3 com.UCMobile.intl}
+  [com.UCMobile.intl.swof_provider]:
+    Provider{fa19e96 com.UCMobile.intl/com.swof.u4_ui.utils.utils.SwofProvider}
+      applicationInfo=ApplicationInfo{fad3ba0 com.UCMobile.intl}
+  [com.UCMobile.intl.usharefileprovider]:
+    Provider{5ad8f35 com.UCMobile.intl/com.uc.base.share.basic.android.ShareFileProvider}
+      applicationInfo=ApplicationInfo{2ad5359 com.UCMobile.intl}
+
+Key Set Manager:
+  [com.UCMobile.intl]
+      Signing KeySets: 286
+
+Packages:
+  Package [com.UCMobile.intl] (307cb1e):
+    appId=10444
+    pkg=Package{168cfff com.UCMobile.intl}
+    codePath=/data/app/~~7RVFIzZcn8l4FIJJ-8Y5dQ==/com.UCMobile.intl-7W-JQx6nD8PuLXgvJkADtg==
+    resourcePath=/data/app/~~7RVFIzZcn8l4FIJJ-8Y5dQ==/com.UCMobile.intl-7W-JQx6nD8PuLXgvJkADtg==
+    legacyNativeLibraryDir=/data/app/~~7RVFIzZcn8l4FIJJ-8Y5dQ==/com.UCMobile.intl-7W-JQx6nD8PuLXgvJkADtg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=50186 minSdk=16 targetSdk=29
+    minExtensionVersions=[]
+    versionName=13.4.0.1306
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=1
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-10-25 10:06:11
+    lastUpdateTime=2025-10-25 10:06:12
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{73a71cc version:1, signatures:[a1644d4a], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.UCMobile.intl.permission.C2D_MESSAGE: prot=signature
+      com.UCMobile.intl.permission.MIPUSH_RECEIVE: prot=signature
+      com.UCMobile.intl.permission.KILL_PROCESS: prot=signature
+    requested permissions:
+      com.google.android.apps.nexuslauncher.permission.READ_SETTINGS
+      android.permission.WRITE_SETTINGS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      org.adw.launcher_donut.permission.READ_SETTINGS
+      com.android.launcher3.permission.READ_SETTINGS
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      com.bbk.launcher2.permission.READ_SETTINGS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.USE_CREDENTIALS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      org.adw.launcher.permission.READ_SETTINGS
+      com.android.mylauncher.permission.READ_SETTINGS
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.lge.launcher.permission.READ_SETTINGS
+      com.sec.android.app.twlauncher.READ_SETTINGS
+      com.gau.go.launcherex.permission.READ_SETTINGS
+      android.permission.CHANGE_NETWORK_STATE
+      com.tencent.qqlauncher.permission.READ_SETTINGS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.PERSISTENT_ACTIVITY
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WRITE_SYNC_SETTINGS
+      com.meizu.flyme.launcher.permission.READ_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.EXPAND_STATUS_BAR
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.BLUETOOTH
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS
+      android.permission.BLUETOOTH_ADMIN
+      com.anddoes.launcher.permission.READ_SETTINGS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_SETTINGS
+      android.permission.GET_PACKAGE_SIZE
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.ACCESS_COARSE_LOCATION
+      com.android.launcher.permission.READ_SETTINGS
+      com.sec.android.app.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_BLUETOOTH_SHARE
+      com.UCMobile.intl.permission.C2D_MESSAGE
+      android.permission.ACCESS_NETWORK_STATE
+      com.oppo.launcher.permission.READ_SETTINGS
+      android.permission.DISABLE_KEYGUARD
+      android.permission.CAMERA
+      com.UCMobile.intl.permission.MIPUSH_RECEIVE
+      android.permission.SET_WALLPAPER
+      org.adwfreak.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_AUDIO
+      com.qihoo360.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.KILL_BACKGROUND_PROCESSES
+      com.huawei.launcher2.permission.READ_SETTINGS
+      com.huawei.launcher3.permission.READ_SETTINGS
+      android.permission.READ_SYNC_STATS
+      net.qihoo.launcher.permission.READ_SETTINGS
+      android.permission.CLEAR_APP_CACHE
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.SET_WALLPAPER_HINTS
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+      com.huawei.launcher.permission.READ_SETTINGS
+      com.mx.launcher.permission.READ_SETTINGS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.fede.launcher.permission.READ_SETTINGS
+      android.permission.ACCESS_WIFI_STATE
+      com.UCMobile.intl.permission.KILL_PROCESS
+      com.google.android.launcher.permission.READ_SETTINGS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.nd.android.launcher.permission.READ_SETTINGS
+      com.samsung.android.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.PERSISTENT_ACTIVITY: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      com.UCMobile.intl.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      com.UCMobile.intl.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.SET_WALLPAPER_HINTS: granted=true
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.UCMobile.intl.permission.KILL_PROCESS: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=149750 deDataInode=149753 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.UCMobile.intl
+      firstInstallTime=2025-10-25 10:06:12
+      uninstallReason=0
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.thirdappassistant,com.miui.contentcatcher,com.android.providers.settings,com.miui.securitycore,com.miui.aod,com.miui.wmsvc,com.xiaomi.aon,com.miui.securitycenter,com.xiaomi.otrpbroker,com.xiaomi.mtb,com.miui.misightservice,com.qti.snapdragon.qdcm_ff,com.android.localtransport,com.android.inputdevices,com.xiaomi.misettings,com.android.provision,com.xiaomi.trustservice,com.miui.audiomonitor,com.xiaomi.aiasst.vision,com.miui.bugreport,com.xiaomi.mirror,com.qualcomm.qti.xrvd.service,com.android.settings,com.android.server.telecom,miui.systemui.plugin,com.android.systemui,com.android.DeviceAsWebcam,com.miui.powerkeeper,com.xiaomi.mi_connect_service,vendor.qti.qesdk.sysservice,com.miui.cit,android,com.xiaomi.location.fused,com.xiaomi.barrage,com.xiaomi.touchservice,com.bsp.catchlog,com.miui.qr,com.wapi.wapicertmanage,com.xiaomi.aiasst.service,com.xiaomi.joyose,com.xiaomi.gnss.polaris,com.miui.touchassistant,com.xiaomi.digitalkey,com.android.location.fused,com.android.dynsystem,com.android.keychain,com.miui.daemon,com.miui.notification,com.qualcomm.qti.services.systemhelper,com.miui.uireporter]:
+      com.UCMobile.intl
+    [com.miui.tsmclient,com.android.nfc]:
+      com.UCMobile.intl
+    com.android.wallpaperbackup:
+      com.UCMobile.intl
+    com.android.vending:
+      com.UCMobile.intl
+    com.xiaomi.aicr:
+      com.UCMobile.intl
+    [com.google.android.gms,com.google.android.gsf]:
+      com.UCMobile.intl
+    com.android.contacts:
+      com.UCMobile.intl
+    com.xiaomi.gamecenter.sdk.service:
+      com.UCMobile.intl
+    com.android.settings.intelligence:
+      com.UCMobile.intl
+    com.miui.carlink:
+      com.UCMobile.intl
+    com.miui.nextpay:
+      com.UCMobile.intl
+    com.xiaomi.mis:
+      com.UCMobile.intl
+    com.miui.hybrid:
+      com.UCMobile.intl
+    com.xiaomi.market:
+      com.UCMobile.intl
+    com.miui.systemAdSolution:
+      com.UCMobile.intl
+    com.xiaomi.account:
+      com.UCMobile.intl
+    com.miui.greenguard:
+      com.UCMobile.intl
+    com.xiaomi.payment:
+      com.UCMobile.intl
+    com.google.android.accessibility.switchaccess:
+      com.UCMobile.intl
+    com.xiaomi.xmsf:
+      com.UCMobile.intl
+    com.android.systemui.accessibility.accessibilitymenu:
+      com.UCMobile.intl
+    com.android.permissioncontroller:
+      com.UCMobile.intl
+    com.wuba.zhuanzhuan:
+      com.UCMobile.intl
+    com.android.providers.downloads.ui:
+      com.UCMobile.intl
+    com.mfashiongallery.emag:
+      com.UCMobile.intl
+    com.android.calendar:
+      com.UCMobile.intl
+    com.android.email:
+      com.UCMobile.intl
+    com.miui.gallery:
+      com.UCMobile.intl
+    com.miui.virtualsim:
+      com.UCMobile.intl
+    com.getsurfboard:
+      com.UCMobile.intl
+    com.skysoft.kkbox.android:
+      com.UCMobile.intl
+    com.xingin.xhs:
+      com.UCMobile.intl
+    com.duokan.reader:
+      com.UCMobile.intl
+    com.instagram.android:
+      com.UCMobile.intl
+    com.google.android.gm:
+      com.UCMobile.intl
+    com.anydo:
+      com.UCMobile.intl
+    com.microsoft.todos:
+      com.UCMobile.intl
+    com.miui.video:
+      com.UCMobile.intl
+    com.todoist:
+      com.UCMobile.intl
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.UCMobile.intl
+    com.google.android.apps.tasks:
+      com.UCMobile.intl
+    com.alibaba.aliexpresshd:
+      com.UCMobile.intl
+    com.einnovation.temu:
+      com.UCMobile.intl
+    com.microsoft.emmx:
+      com.UCMobile.intl
+    com.google.android.apps.magazines:
+      com.UCMobile.intl
+    com.cnn.mobile.android.phone:
+      com.UCMobile.intl
+    com.spotify.music:
+      com.UCMobile.intl
+    com.google.android.apps.youtube.music:
+      com.UCMobile.intl
+    com.musicworx:
+      com.UCMobile.intl
+    ru.mail.mailapp:
+      com.UCMobile.intl
+    com.microsoft.office.outlook:
+      com.UCMobile.intl
+    com.ss.android.article.news:
+      com.UCMobile.intl
+    com.jijia.bqwnl:
+      com.UCMobile.intl
+    cn.ninegame.gamemanager:
+      com.UCMobile.intl
+    com.baidu.BaiduMap:
+      com.UCMobile.intl
+    com.autonavi.minimap:
+      com.UCMobile.intl
+    com.dragon.read:
+      com.UCMobile.intl
+    com.jijia.jjweather:
+      com.UCMobile.intl
+    com.zhuantech.sijiweather:
+      com.UCMobile.intl
+    com.suxing.sustream:
+      com.UCMobile.intl
+    com.yahoo.mobile.client.android.mail:
+      com.UCMobile.intl
+    com.ss.android.ugc.aweme.lite:
+      com.UCMobile.intl
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.UCMobile.intl]
+    path: /data/app/~~7RVFIzZcn8l4FIJJ-8Y5dQ==/com.UCMobile.intl-7W-JQx6nD8PuLXgvJkADtg==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.UCMobile.intl]
+    (No recorded stats)

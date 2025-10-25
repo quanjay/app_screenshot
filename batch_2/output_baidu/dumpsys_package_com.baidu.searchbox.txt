@@ -1,0 +1,2438 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/x-ogg:
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/ogg:
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/pdf:
+        b91c51b com.baidu.searchbox/.plugins.PDFViewerActivity filter 50156b8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/pdf"
+      application/vnd.openxmlformats-officedocument.presentationml.presentation:
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 47d97f7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.pptx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      application/vnd.ms-powerpoint:
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 357f6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.ppt}"
+          StaticType: "application/vnd.ms-powerpoint"
+      application/vnd.openxmlformats-officedocument.wordprocessingml.document:
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 304fd82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.docx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      audio/*:
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/vnd.ms-excel:
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter 1ac44d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xls}"
+          StaticType: "application/vnd.ms-excel"
+      video/*:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6fc3a2 com.baidu.searchbox/.video.VideoLocalPlayActivity filter e7dd833
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/itunes:
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/plain:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c2ec63 com.baidu.searchbox/com.baidu.browser.search.LightSearchProcessTextActivity filter e970060
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        2a89919 com.baidu.searchbox/com.baidu.browser.search.LightSearchTranslateActivity filter 2c4fdde
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        b0793b7 com.baidu.searchbox/.discovery.novel.NovelHomeActivity filter a1c28d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.txt}"
+          Path: "PatternMatcher{GLOB: .*\.TXT}"
+          StaticType: "text/plain"
+      application/msword:
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 11800cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.doc}"
+          StaticType: "application/msword"
+      image/*:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        a29e4a1 com.baidu.searchbox/.push.systemshare.SystemShareDispatcherActivity filter d0596c6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter c30dcc9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xlsx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+
+  Base MIME Types:
+      text:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c2ec63 com.baidu.searchbox/com.baidu.browser.search.LightSearchProcessTextActivity filter e970060
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        2a89919 com.baidu.searchbox/com.baidu.browser.search.LightSearchTranslateActivity filter 2c4fdde
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        b0793b7 com.baidu.searchbox/.discovery.novel.NovelHomeActivity filter a1c28d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.txt}"
+          Path: "PatternMatcher{GLOB: .*\.TXT}"
+          StaticType: "text/plain"
+      application:
+        b91c51b com.baidu.searchbox/.plugins.PDFViewerActivity filter 50156b8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/pdf"
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 357f6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.ppt}"
+          StaticType: "application/vnd.ms-powerpoint"
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 47d97f7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.pptx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 11800cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.doc}"
+          StaticType: "application/msword"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 304fd82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.docx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter 1ac44d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xls}"
+          StaticType: "application/vnd.ms-excel"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter c30dcc9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xlsx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      audio:
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        a29e4a1 com.baidu.searchbox/.push.systemshare.SystemShareDispatcherActivity filter d0596c6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6fc3a2 com.baidu.searchbox/.video.VideoLocalPlayActivity filter e7dd833
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      baidupush:
+        c8969c5 com.baidu.searchbox/com.baidu.android.pushservice.viproxy.ViNotifyActivity filter 81a3f1a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "baidupush"
+          Authority: "bdpush": -1
+          Path: "PatternMatcher{LITERAL: /vinotify}"
+        79bdd41 com.baidu.searchbox/com.baidu.android.pushservice.hwproxy.HwNotifyActivity filter c0d32e6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "baidupush"
+          Authority: "bdpush": -1
+          Path: "PatternMatcher{LITERAL: /hwnotify}"
+      widgetid:
+        da1ae1f com.baidu.searchbox/.MainActivity filter b5607ca
+          Action: "com.baidu.searchbox.action.HOME"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.baidu.searchbox.category.DING"
+          Category: "com.baidu.searchbox.category.CLOCK"
+          Category: "com.baidu.searchbox.category.QSearch"
+          Category: "com.baidu.searchbox.category.Search"
+          Category: "com.baidu.searchbox.category.TRANS_SEARCH"
+          Category: "com.baidu.searchbox.category.QUICKBOX_SEARCH"
+          Scheme: "widgetid"
+        c0dbe2c com.baidu.searchbox/.BarcodeScanner filter 3d390f5
+          Action: "com.baidu.searchbox.action.QUICKSEARCH_BARCODE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "widgetid"
+        c0dbe2c com.baidu.searchbox/.BarcodeScanner filter 9bd8e8a
+          Action: "com.baidu.searchbox.action.QUICKSEARCH_TWO_DIMENSION_CODE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "widgetid"
+        1ae9118 com.baidu.searchbox/.BarcodeScannerActivity filter 8194771
+          Action: "com.baidu.searchbox.action.QUICKSEARCH_BARCODE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "widgetid"
+        1ae9118 com.baidu.searchbox/.BarcodeScannerActivity filter 8ee0956
+          Action: "com.baidu.searchbox.action.QUICKSEARCH_ONE_DIMENSION_CODE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "widgetid"
+        2b65dd7 com.baidu.searchbox/.CodeScannerActivity filter 387a6c4
+          Action: "com.baidu.searchbox.action.SEARCHCOMBINE_BARCODE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "widgetid"
+        aedebbf com.baidu.searchbox/.speech.SpeechActivity filter c20add5
+          Action: "com.baidu.searchbox.plugin.action.VOICESEARCH_FROM_WIDGET"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "widgetid"
+      openapp:
+        80c7b3 com.baidu.searchbox/com.baidu.sapi2.activity.GrantWebActivity filter b1fc170
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "openapp"
+          Authority: "com.baidu.searchbox": -1
+          Path: "PatternMatcher{LITERAL: /passport/grantweb}"
+      market:
+        f88731c com.baidu.searchbox/.download.center.ui.fusion.FileManagerActivity filter 7ca24fa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "market"
+          Authority: "details": -1
+      baiduboxapp:
+        869fbd2 com.baidu.searchbox/.schemedispatch.BdBoxSchemeDispatchActivity filter 7b4b3a0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "baiduboxapp"
+      tencent100784518:
+        3d87609 com.baidu.searchbox/com.tencent.tauth.AuthActivity filter b17300e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent100784518"
+      qts:
+        b04f027 com.baidu.searchbox/.getuiwakeup.GetuiWakeupActivity filter 77052d4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qts"
+          Authority: "com.baidu.searchbox": -1
+      file:
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 357f6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.ppt}"
+          StaticType: "application/vnd.ms-powerpoint"
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 47d97f7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.pptx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 11800cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.doc}"
+          StaticType: "application/msword"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 304fd82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.docx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter 1ac44d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xls}"
+          StaticType: "application/vnd.ms-excel"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter c30dcc9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xlsx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        b0793b7 com.baidu.searchbox/.discovery.novel.NovelHomeActivity filter a1c28d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.txt}"
+          Path: "PatternMatcher{GLOB: .*\.TXT}"
+          StaticType: "text/plain"
+        a1ae6bc com.baidu.searchbox/.story.ReaderStartActivity filter 2a9d19a
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+        a1ae6bc com.baidu.searchbox/.story.ReaderStartActivity filter b0db2a8
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+        d010467 com.baidu.searchbox/.newreader.story.ReaderStartActivity filter d1adabd
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+        d010467 com.baidu.searchbox/.newreader.story.ReaderStartActivity filter 10f8003
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+      http:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 6b407ed
+          Action: "com.baidu.searchbox.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+        307bb2b com.baidu.searchbox/.BoxBrowserActivity filter fd5b921
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+      com_baidu_searchbox_thirdparty_alipay:
+        40ca812 com.baidu.searchbox/com.alipay.sdk.app.AlipayResultActivity filter 4853be3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com_baidu_searchbox_thirdparty_alipay"
+      bdbox:
+        869fbd2 com.baidu.searchbox/.schemedispatch.BdBoxSchemeDispatchActivity filter 64664a3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "bdbox"
+      https:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 6b407ed
+          Action: "com.baidu.searchbox.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+        307bb2b com.baidu.searchbox/.BoxBrowserActivity filter 393fb88
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "s.bdstatic.com": -1
+          Authority: "s.bdstatic.com": -1
+          Path: "PatternMatcher{LITERAL: /common/agreement/android.html}"
+          Path: "PatternMatcher{LITERAL: /common/agreement/privacy.html}"
+          mPriority=-1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        307bb2b com.baidu.searchbox/.BoxBrowserActivity filter fd5b921
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+      content:
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 357f6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.ppt}"
+          StaticType: "application/vnd.ms-powerpoint"
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 47d97f7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.pptx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 11800cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.doc}"
+          StaticType: "application/msword"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 304fd82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.docx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter 1ac44d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xls}"
+          StaticType: "application/vnd.ms-excel"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter c30dcc9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xlsx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        b0793b7 com.baidu.searchbox/.discovery.novel.NovelHomeActivity filter a1c28d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.txt}"
+          Path: "PatternMatcher{GLOB: .*\.TXT}"
+          StaticType: "text/plain"
+      walletboxpay:
+        3664e88 com.baidu.searchbox/com.baidu.wallet.scheme.WalletSchemePluginActivity filter 3ad1021
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "walletboxpay"
+      default_value:
+        26b0c3b com.baidu.searchbox/com.baidu.talos.scheme.TalosSchemeProxyActivity filter 5f05f58
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "default_value"
+          Authority: "default_value": -1
+      com_baidu_poly_cashier_for_ali_pay_result_activity:
+        40ca812 com.baidu.searchbox/com.alipay.sdk.app.AlipayResultActivity filter 98bd9e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com_baidu_poly_cashier_for_ali_pay_result_activity"
+
+  Non-Data Actions:
+      com.baidu.searchbox.action.APPSEARCH_OTHER:
+        da1ae1f com.baidu.searchbox/.MainActivity filter fb4d696
+          Action: "com.baidu.searchbox.action.APPSEARCH_OTHER"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.intent.action.VideoAutoPlaySettingsActivity:
+        de6c7f0 com.baidu.searchbox/.VideoAutoPlaySettingsActivity filter fce7169
+          Action: "com.baidu.searchbox.intent.action.VideoAutoPlaySettingsActivity"
+          Category: "android.intent.category.DEFAULT"
+      BdMobile_BookMarkDir_Edit:
+        6345952 com.baidu.searchbox/.bookmark.favor.BookmarkDirEditActivity filter 6f40d20
+          Action: "BdMobile_BookMarkDir_Edit"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.lockscreen.voicesearch.LockScreenVoiceSearchActivity:
+        953049b com.baidu.searchbox/.lockscreen.voicesearch.LockScreenVoiceSearchActivity filter ea26038
+          Action: "com.baidu.searchbox.lockscreen.voicesearch.LockScreenVoiceSearchActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.reader.action.VIEW_WITH_JSON:
+        a1ae6bc com.baidu.searchbox/.story.ReaderStartActivity filter 7475acb
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+        9d34f77 com.baidu.searchbox/org.geometerplus.android.fbreader.newreader.FBReader filter a3444d
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+        4e1bb02 com.baidu.searchbox/.reader.litereader.view.newreader.LiteReaderActivity filter a34fe50
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+        d010467 com.baidu.searchbox/.newreader.story.ReaderStartActivity filter e42e8b2
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+        7c667c3 com.baidu.searchbox/org.geometerplus.android.fbreader.FBReader filter e0df379
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+        4b5b8be com.baidu.searchbox/.reader.litereader.view.LiteReaderActivity filter 7c3286c
+          Action: "com.baidu.searchbox.reader.action.VIEW_WITH_JSON"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.appsearch.extinvoker.LITELAUNCH:
+        b92aed6 com.baidu.searchbox/com.baidu.appsearch.lite.AsLiteInvokerActivity filter e3dd557
+          Action: "com.baidu.appsearch.extinvoker.LITELAUNCH"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.android.app.account.intent.SET_PORTRAIT:
+        257ea2f com.baidu.searchbox/.account.userinfo.activity.PortraitSettingActivity filter 823383c
+          Action: "com.baidu.android.app.account.intent.SET_PORTRAIT"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.wallet.action.WALLET_VIEW:
+        2d0a7ff com.baidu.searchbox/.CommandHandleActivity filter 44169cc
+          Action: "com.baidu.searchbox.wallet.action.WALLET_VIEW"
+          Action: "com.baidu.searchbox.player.action.RESUME_PLAY_HISTORY"
+          Action: "com.baidu.searchbox.card.action.CARD_MSG_NOTIFY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.plugin.action.LBS_ENTER:
+        425c01 com.baidu.searchbox/.plugins.PluginInvokeActivity filter 50e6ce7
+          Action: "com.baidu.searchbox.plugin.action.LBS_ENTER"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.VOICESEARCH:
+        aedebbf com.baidu.searchbox/.speech.SpeechActivity filter 9dbc28c
+          Action: "com.baidu.searchbox.action.VOICESEARCH"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+      android.search.action.GLOBAL_SEARCH:
+        dfcf094 com.baidu.searchbox/com.baidu.search.fastsearch.SearchActivity filter c77b73d
+          Action: "android.search.action.GLOBAL_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      baidu.intent.action.account.BIND_VERIFY:
+        615ace9 com.baidu.searchbox/com.baidu.sapi2.activity.BindVerifyActivity filter 71fcd6e
+          Action: "baidu.intent.action.account.BIND_VERIFY"
+      com.baidu.searchbox.action.ABOUT_SETTINGS:
+        46715d8 com.baidu.searchbox/.AboutBaiduSettingsActivity filter 59c4d31
+          Action: "com.baidu.searchbox.action.ABOUT_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.talos.action.RN_DEBUG:
+        9f84db com.baidu.searchbox/.reactnative.debug.DebugRNActivity filter ac87b78
+          Action: "com.baidu.talos.action.RN_DEBUG"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.NOVELDETAIL:
+        ba65843 com.baidu.searchbox/.discovery.novel.DiscoveryNovelDetailActivity filter b8a2ec0
+          Action: "com.baidu.searchbox.action.NOVELDETAIL"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.QRCODE_SCAN:
+        e17687e com.baidu.searchbox/.barcode.entry.CodeScannerActivity filter 14211df
+          Action: "com.baidu.searchbox.action.QRCODE_SCAN"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.lockscreen.imagesearch.LockScreenCodeScannerActivity:
+        896fce com.baidu.searchbox/.lockscreen.imagesearch.LockScreenCodeScannerActivity filter 1e98eef
+          Action: "com.baidu.searchbox.lockscreen.imagesearch.LockScreenCodeScannerActivity"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        7959540 com.baidu.searchbox/.SplashActivity filter daa3c79
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        dde6415 com.baidu.searchbox/.video.album.VideoAlbumShortCutsActivity filter 76d332a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        b0793b7 com.baidu.searchbox/.discovery.novel.NovelHomeActivity filter 7c5d724
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        17dbab5 com.baidu.searchbox/.SearchBoxSettingsActivity filter e69d54a
+          Action: "android.intent.action.MAIN"
+        64eb66f com.baidu.searchbox/.newreader.discovery.novel.NovelHomeActivity filter 3f3af7c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        f9e8844 com.baidu.searchbox/com.baidu.appsearch.lite.InstallAppsearchActivity filter c9ced2d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.PICK:
+        8a986d9 com.baidu.searchbox/.bookmark.favor.BookmarkDirectoryActivity filter 3d4ef7f
+          Action: "android.intent.action.PICK"
+        ddcdb4c com.baidu.searchbox/.bookmark.favor.FavorsSelectDirsActivity filter d75c0aa
+          Action: "android.intent.action.PICK"
+      android.intent.action.VIEW:
+        8a986d9 com.baidu.searchbox/.bookmark.favor.BookmarkDirectoryActivity filter c1ab89e
+          Action: "android.intent.action.VIEW"
+        ddcdb4c com.baidu.searchbox/.bookmark.favor.FavorsSelectDirsActivity filter aa2b795
+          Action: "android.intent.action.VIEW"
+        8568a74 com.baidu.searchbox/.userassetsaggr.container.UserAssetsAggrActivity filter 4c07b9d
+          Action: "android.intent.action.VIEW"
+      com.baidu.searchbox.action.PLUGIN_DETAIL:
+        5d8ddfc com.baidu.searchbox/.plugins.PluginActivity filter de17c85
+          Action: "com.baidu.searchbox.action.PLUGIN_DETAIL"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.BROWSER:
+        da1ae1f com.baidu.searchbox/.MainActivity filter b892735
+          Action: "com.baidu.searchbox.action.BROWSER"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.RECEIVE_MCS_MESSAGE:
+        a82fa4b com.baidu.searchbox/com.baidu.android.pushservice.opproxy.OpNotifyActivity filter 3099c28
+          Action: "com.baidu.searchbox.action.RECEIVE_MCS_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+      baidu.intent.action.account.OAUTH_ACTIVITY:
+        df43117 com.baidu.searchbox/com.baidu.sapi2.activity.OauthActivity filter 6b81904
+          Action: "baidu.intent.action.account.OAUTH_ACTIVITY"
+      com.baidu.searchbox.intent.action.WebPageTranslationActivity:
+        7f7fc16 com.baidu.searchbox/.WebPageTranslationActivity filter 2693997
+          Action: "com.baidu.searchbox.intent.action.WebPageTranslationActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.NOVELSECOND:
+        2eed8a7 com.baidu.searchbox/.discovery.novel.DiscoveryNovelSecondActivity filter ddf5154
+          Action: "com.baidu.searchbox.action.NOVELSECOND"
+          Category: "android.intent.category.DEFAULT"
+        a72ddfe com.baidu.searchbox/.newreader.discovery.novel.DiscoveryNovelSecondActivity filter 300195f
+          Action: "com.baidu.searchbox.action.NOVELSECOND"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.action.SOFIRE.VIEW:
+        6201c46 com.baidu.searchbox/com.baidu.sofire.MyActivity filter 86d8e07
+          Action: "com.baidu.action.SOFIRE.VIEW"
+          Category: "com.baidu.category.SOFIRE"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.reader.action.SHOW_PREFERENCE:
+        73471c1 com.baidu.searchbox/.story.ReaderSettingsActivity filter 8436d66
+          Action: "com.baidu.searchbox.reader.action.SHOW_PREFERENCE"
+          Category: "android.intent.category.DEFAULT"
+        1ec9b80 com.baidu.searchbox/.newreader.story.ReaderSettingsActivity filter e1f65b9
+          Action: "com.baidu.searchbox.reader.action.SHOW_PREFERENCE"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.NOVELSPECIAL:
+        dd568fd com.baidu.searchbox/.discovery.novel.DiscoveryNovelSpecialActivity filter a88f9f2
+          Action: "com.baidu.searchbox.action.NOVELSPECIAL"
+          Category: "android.intent.category.DEFAULT"
+        d3fefac com.baidu.searchbox/.newreader.discovery.novel.DiscoveryNovelSpecialActivity filter a47a475
+          Action: "com.baidu.searchbox.action.NOVELSPECIAL"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.plugin.action.THIRD_INVOKE:
+        d0bada com.baidu.searchbox/.plugins.PluginInvokeThirdActivity filter 6a2b0b
+          Action: "com.baidu.searchbox.plugin.action.THIRD_INVOKE"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.NOVELCOMMENTLIST:
+        434fc42 com.baidu.searchbox/.discovery.novel.DiscoveryNovelCommentActivity filter c77b453
+          Action: "com.baidu.searchbox.action.NOVELCOMMENTLIST"
+          Category: "android.intent.category.DEFAULT"
+        31b4190 com.baidu.searchbox/.discovery.novel.DiscoveryNovelWebCommentActivity filter 5f4fa89
+          Action: "com.baidu.searchbox.action.NOVELCOMMENTLIST"
+          Category: "android.intent.category.DEFAULT"
+        421b005 com.baidu.searchbox/.newreader.discovery.novel.DiscoveryNovelCommentActivity filter ed7a85a
+          Action: "com.baidu.searchbox.action.NOVELCOMMENTLIST"
+          Category: "android.intent.category.DEFAULT"
+        6ba4a8b com.baidu.searchbox/.newreader.discovery.novel.DiscoveryNovelWebCommentActivity filter 28a4768
+          Action: "com.baidu.searchbox.action.NOVELCOMMENTLIST"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.QRCODE:
+        c0dbe2c com.baidu.searchbox/.BarcodeScanner filter fdfecfb
+          Action: "com.baidu.searchbox.action.QRCODE"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      com.baidu.searchbox.action.HOME:
+        da1ae1f com.baidu.searchbox/.MainActivity filter a3d0d3b
+          Action: "com.baidu.searchbox.action.HOME"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.INVOKE_SETTING_ACTIVITY:
+        2314834 com.baidu.searchbox/.SettingsCommonActivity filter f33c65d
+          Action: "com.baidu.searchbox.INVOKE_SETTING_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.SEARCH:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 7654217
+          Action: "com.baidu.searchbox.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.HEART_BEAT:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 8d8ce70
+          Action: "com.baidu.searchbox.action.HEART_BEAT"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.player.action.RESUME_PLAY_HISTORY:
+        2d0a7ff com.baidu.searchbox/.CommandHandleActivity filter 44169cc
+          Action: "com.baidu.searchbox.wallet.action.WALLET_VIEW"
+          Action: "com.baidu.searchbox.player.action.RESUME_PLAY_HISTORY"
+          Action: "com.baidu.searchbox.card.action.CARD_MSG_NOTIFY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.BaiduBlockCanary:
+        855cb34 com.baidu.searchbox/com.github.blockcanary.debug.ui.DisplayActivity filter ea98d5d
+          Action: "com.baidu.searchbox.action.BaiduBlockCanary"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.mms.voicesearch.skinsetting:
+        62a5bba com.baidu.searchbox/com.baidu.mms.voicesearch.voice.SkinSettingActivity filter 3d7ea6b
+          Action: "com.baidu.mms.voicesearch.skinsetting"
+          Category: "android.intent.category.DEFAULT"
+      BdMobile_BookMark_Edit:
+        275b687 com.baidu.searchbox/.bookmark.favor.BookmarkEditActivity filter 55f29dd
+          Action: "BdMobile_BookMark_Edit"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.mms.voicesearch.applet:
+        a10c2ae com.baidu.searchbox/com.baidu.mms.voicesearch.voice.AppletActivity filter 508184f
+          Action: "com.baidu.mms.voicesearch.applet"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.APPSEARCH:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 63201b1
+          Action: "com.baidu.searchbox.action.APPSEARCH"
+          Category: "android.intent.category.DEFAULT"
+      BdMobile_BookMark_Create:
+        275b687 com.baidu.searchbox/.bookmark.favor.BookmarkEditActivity filter d2609b4
+          Action: "BdMobile_BookMark_Create"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.lockscreen.voicesearch.LockScreenVoiceSearchDetailActivity:
+        7c43811 com.baidu.searchbox/.lockscreen.voicesearch.LockScreenVoiceSearchDetailActivity filter 5c73d76
+          Action: "com.baidu.searchbox.lockscreen.voicesearch.LockScreenVoiceSearchDetailActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.SPLASH_PIPELINE_ACTION:
+        7959540 com.baidu.searchbox/.SplashActivity filter e7ecdbe
+          Action: "com.baidu.searchbox.SPLASH_PIPELINE_ACTION"
+        da1ae1f com.baidu.searchbox/.MainActivity filter 1d4619c
+          Action: "com.baidu.searchbox.SPLASH_PIPELINE_ACTION"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP:
+        2e3499 com.baidu.searchbox/.browser.webapps.WebAppsStartActivity filter f09335e
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.intent.action.FloatingSettingActivity:
+        823b784 com.baidu.searchbox/.FloatingSettingActivity filter d378b6d
+          Action: "com.baidu.searchbox.intent.action.FloatingSettingActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.APPSEARCH_MAIN:
+        da1ae1f com.baidu.searchbox/.MainActivity filter ca8cc58
+          Action: "com.baidu.searchbox.action.APPSEARCH_MAIN"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.mms.voicesearch.permission:
+        61d99c8 com.baidu.searchbox/com.baidu.mms.voicesearch.mmsvoicesearchv2.controller.EmptyActivity filter 8259a61
+          Action: "com.baidu.mms.voicesearch.permission"
+          Category: "android.intent.category.DEFAULT"
+        5127986 com.baidu.searchbox/com.baidu.mms.voicesearch.mmsvoicesearchv2.controller.MicPermissionActivity filter d88c247
+          Action: "com.baidu.mms.voicesearch.permission"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.talos.action.BUNDLE_MANAGE:
+        3f14e35 com.baidu.searchbox/com.baidu.talos.devtools.DevBundleManageActivity filter 590a2ca
+          Action: "com.baidu.talos.action.BUNDLE_MANAGE"
+          Category: "android.intent.category.DEFAULT"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        cee1146 com.baidu.searchbox/.widget.ClockWidgetConfigure filter cc4df07
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        529e9ad com.baidu.searchbox/.widget.ConstelWidgetConfigure filter d964e2
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      com.baidu.mms.voicesearch.broadcastsetting:
+        7f49bdc com.baidu.searchbox/com.baidu.mms.voicesearch.voice.BroadcastSettingActivity filter 2cb94e5
+          Action: "com.baidu.mms.voicesearch.broadcastsetting"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.MainActivity:
+        da1ae1f com.baidu.searchbox/.MainActivity filter bdec56c
+          Action: "com.baidu.searchbox.MainActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.aiapps.LAUNCH:
+        8080c7d com.baidu.searchbox/com.baidu.swan.apps.SwanAppLauncherActivity filter 4e99772
+          Action: "com.baidu.searchbox.action.aiapps.LAUNCH"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.search.action.FAST_VOICESEARCH:
+        aedebbf com.baidu.searchbox/.speech.SpeechActivity filter 69f19ea
+          Action: "com.baidu.search.action.FAST_VOICESEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.wallet.remotepay:
+        aff527a com.baidu.searchbox/com.baidu.wallet.remotepay.RemotePayEnterActivity filter e337a2b
+          Action: "com.baidu.wallet.remotepay"
+      baidu.intent.action.account.AUTH_WIDGET_FOR_CASHIER:
+        11a0eed com.baidu.searchbox/com.baidu.sapi2.activity.AuthWidgetForCashierActivity filter f2c122
+          Action: "baidu.intent.action.account.AUTH_WIDGET_FOR_CASHIER"
+      com.baidu.searchbox.action.NOVELWRITECOMMENT:
+        c9a9a8e com.baidu.searchbox/.discovery.novel.DiscoveryNovelWriteCommentActivity filter bf42af
+          Action: "com.baidu.searchbox.action.NOVELWRITECOMMENT"
+          Category: "android.intent.category.DEFAULT"
+        9124781 com.baidu.searchbox/.newreader.discovery.novel.DiscoveryNovelWriteCommentActivity filter d57f026
+          Action: "com.baidu.searchbox.action.NOVELWRITECOMMENT"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.NOVELFLOAT:
+        c9497f9 com.baidu.searchbox/.discovery.novel.guide.NovelFloatGuideActivity filter 528c33e
+          Action: "com.baidu.searchbox.action.NOVELFLOAT"
+          Category: "android.intent.category.DEFAULT"
+        dcc359f com.baidu.searchbox/.story.piratedwebsite.NovelPiratedDialogActivity filter 4376ec
+          Action: "com.baidu.searchbox.action.NOVELFLOAT"
+          Category: "android.intent.category.DEFAULT"
+        c1adc0a com.baidu.searchbox/.newreader.discovery.novel.guide.NovelFloatGuideActivity filter 36ec7b
+          Action: "com.baidu.searchbox.action.NOVELFLOAT"
+          Category: "android.intent.category.DEFAULT"
+        5925a98 com.baidu.searchbox/.newreader.story.piratedwebsite.NovelPiratedDialogActivity filter 7b12f1
+          Action: "com.baidu.searchbox.action.NOVELFLOAT"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.ugc.action.OPEN_LOCAL_VIDEO_CAPTURE_ACTIVITY:
+        ce2e262 com.baidu.searchbox/.ugc.videocapture.VideoCaptureActivity filter 7606ff3
+          Action: "com.baidu.searchbox.ugc.action.OPEN_LOCAL_VIDEO_CAPTURE_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH_LONG_PRESS:
+        d0bada com.baidu.searchbox/.plugins.PluginInvokeThirdActivity filter bd3dde8
+          Action: "android.intent.action.SEARCH_LONG_PRESS"
+          Category: "android.intent.category.DEFAULT"
+      BdMobile_BookMarkDir_Create:
+        6345952 com.baidu.searchbox/.bookmark.favor.BookmarkDirEditActivity filter eed3423
+          Action: "BdMobile_BookMarkDir_Create"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.VIEW_WITH_GID:
+        da1ae1f com.baidu.searchbox/.MainActivity filter c985d0f
+          Action: "com.baidu.searchbox.action.VIEW_WITH_GID"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.NOVEL_SHELF_EDIT:
+        3cb5251 com.baidu.searchbox/.discovery.novel.shelf.NovelShelfEditActivity filter c4ceab6
+          Action: "com.baidu.searchbox.action.NOVEL_SHELF_EDIT"
+          Category: "android.intent.category.DEFAULT"
+        fecd849 com.baidu.searchbox/.newreader.discovery.novel.shelf.NovelShelfEditActivity filter 334854e
+          Action: "com.baidu.searchbox.action.NOVEL_SHELF_EDIT"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.develop.config_web:
+        46b6b59 com.baidu.searchbox/.developer.ConfigWebActivity filter c48031e
+          Action: "com.baidu.searchbox.action.develop.config_web"
+          Category: "android.intent.category.DEFAULT"
+      baidu.intent.action.account.SHARE_ACTIVITY:
+        a7598b1 com.baidu.searchbox/com.baidu.sapi2.activity.ShareActivity filter 27e2196
+          Action: "baidu.intent.action.account.SHARE_ACTIVITY"
+      com.baidu.searchbox.intent.action.VIEW_AUTO_BACKUP_SETTING:
+        bb21aab com.baidu.searchbox/.download.center.ui.autobackup.setting.AutoBackupSettingActivity filter a37a508
+          Action: "com.baidu.searchbox.intent.action.VIEW_AUTO_BACKUP_SETTING"
+          Category: "android.intent.category.DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY:
+        a362c0f com.baidu.searchbox/com.sina.weibo.sdk.share.WbShareResultActivity filter a132ea5
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+          Category: "android.intent.category.DEFAULT"
+      android.search.action.SEARCH_SETTINGS:
+        17dbab5 com.baidu.searchbox/.SearchBoxSettingsActivity filter 3488cbb
+          Action: "android.search.action.SEARCH_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.ACTION_LEAVE_AND_NOTICE:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 7d347a5
+          Action: "com.baidu.searchbox.action.ACTION_LEAVE_AND_NOTICE"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.mms.voicesearch.setting:
+        f1de4b0 com.baidu.searchbox/com.baidu.mms.voicesearch.voice.SettingActivity filter b882f29
+          Action: "com.baidu.mms.voicesearch.setting"
+          Category: "android.intent.category.DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        a362c0f com.baidu.searchbox/com.sina.weibo.sdk.share.WbShareResultActivity filter d17849c
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.intent.action.VIEW_DOWNLOADS:
+        f88731c com.baidu.searchbox/.download.center.ui.fusion.FileManagerActivity filter 3d3bb25
+          Action: "com.baidu.searchbox.intent.action.VIEW_DOWNLOADS"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.card.action.CARD_MSG_NOTIFY:
+        2d0a7ff com.baidu.searchbox/.CommandHandleActivity filter 44169cc
+          Action: "com.baidu.searchbox.wallet.action.WALLET_VIEW"
+          Action: "com.baidu.searchbox.player.action.RESUME_PLAY_HISTORY"
+          Action: "com.baidu.searchbox.card.action.CARD_MSG_NOTIFY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.plugin.action.INVOKE:
+        425c01 com.baidu.searchbox/.plugins.PluginInvokeActivity filter e0faaa6
+          Action: "com.baidu.searchbox.plugin.action.INVOKE"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.NEWS_DETAIL:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 367f77a
+          Action: "com.baidu.searchbox.action.NEWS_DETAIL"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.intent.action.NOVEL:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 3d8226e
+          Action: "com.baidu.searchbox.intent.action.NOVEL"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.ASSIST:
+        dfcf094 com.baidu.searchbox/com.baidu.search.fastsearch.SearchActivity filter 3caf083
+          Action: "android.intent.action.ASSIST"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.reader.action.VIEW:
+        a1ae6bc com.baidu.searchbox/.story.ReaderStartActivity filter 129b645
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        9d34f77 com.baidu.searchbox/org.geometerplus.android.fbreader.newreader.FBReader filter e3947e4
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        4e1bb02 com.baidu.searchbox/.reader.litereader.view.newreader.LiteReaderActivity filter a36c13
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        d010467 com.baidu.searchbox/.newreader.story.ReaderStartActivity filter 7707214
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        7c667c3 com.baidu.searchbox/org.geometerplus.android.fbreader.FBReader filter 6e9c840
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        4b5b8be com.baidu.searchbox/.reader.litereader.view.LiteReaderActivity filter 9dbd1f
+          Action: "com.baidu.searchbox.reader.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.webapps.START_WEBAPPS0:
+        2190073 com.baidu.searchbox/com.baidu.browser.webapps.WebAppsSearchActivity filter eba6b30
+          Action: "com.baidu.searchbox.action.webapps.START_WEBAPPS0"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.webapps.START_WEBAPPS1:
+        92873a9 com.baidu.searchbox/com.baidu.browser.webapps.WebAppsSearchActivity1 filter 72ced2e
+          Action: "com.baidu.searchbox.action.webapps.START_WEBAPPS1"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.webapps.START_WEBAPPS2:
+        df930cf com.baidu.searchbox/com.baidu.browser.webapps.WebAppsSearchActivity2 filter f130a5c
+          Action: "com.baidu.searchbox.action.webapps.START_WEBAPPS2"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.webapps.START_WEBAPPS3:
+        76ba165 com.baidu.searchbox/com.baidu.browser.webapps.WebAppsSearchActivity3 filter d1eae3a
+          Action: "com.baidu.searchbox.action.webapps.START_WEBAPPS3"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.webapps.START_WEBAPPS4:
+        a020aeb com.baidu.searchbox/com.baidu.browser.webapps.WebAppsSearchActivity4 filter ef47048
+          Action: "com.baidu.searchbox.action.webapps.START_WEBAPPS4"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.webapps.START_WEBAPPS5:
+        7f9eee1 com.baidu.searchbox/com.baidu.browser.webapps.WebAppsSearchActivity5 filter f397406
+          Action: "com.baidu.searchbox.action.webapps.START_WEBAPPS5"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.webapps.START_WEBAPPS6:
+        f746ac7 com.baidu.searchbox/com.baidu.browser.webapps.WebAppsSearchActivity6 filter a0448f4
+          Action: "com.baidu.searchbox.action.webapps.START_WEBAPPS6"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.intent.action.CARD_MADD:
+        da1ae1f com.baidu.searchbox/.MainActivity filter dd635e9
+          Action: "com.baidu.searchbox.intent.action.CARD_MADD"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP0:
+        d45b33f com.baidu.searchbox/.browser.webapps.WebAppsLauncherActivity filter 504b40c
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP0"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP1:
+        f248155 com.baidu.searchbox/.browser.webapps.WebAppsLauncherActivity1 filter eb1276a
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP1"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP2:
+        16c445b com.baidu.searchbox/.browser.webapps.WebAppsLauncherActivity2 filter 14f04f8
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP2"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP3:
+        1f8ddd1 com.baidu.searchbox/.browser.webapps.WebAppsLauncherActivity3 filter b325036
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP3"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP4:
+        8a0cb37 com.baidu.searchbox/.browser.webapps.WebAppsLauncherActivity4 filter deb78a4
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP4"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP5:
+        edc860d com.baidu.searchbox/.browser.webapps.WebAppsLauncherActivity5 filter fcb39c2
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP5"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP6:
+        32ce3d3 com.baidu.searchbox/.browser.webapps.WebAppsLauncherActivity6 filter fb97b10
+          Action: "com.baidu.searchbox.browser.webapps.WebappManager.ACTION_START_WEBAPP6"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.VOICE_SEARCH_RESULTS:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 50a5604
+          Action: "com.baidu.searchbox.action.VOICE_SEARCH_RESULTS"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.LIGHT_SEARCH:
+        2c5981d com.baidu.searchbox/com.baidu.browser.search.LightSearchActivity filter 5e8ca92
+          Action: "com.baidu.searchbox.action.LIGHT_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.WEB_SEARCH:
+        da1ae1f com.baidu.searchbox/.MainActivity filter e71e8b3
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      com.baidu.searchbox.action.BAIDU_SEARCH:
+        dfcf094 com.baidu.searchbox/com.baidu.search.fastsearch.SearchActivity filter efbcb32
+          Action: "com.baidu.searchbox.action.BAIDU_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        da1ae1f com.baidu.searchbox/.MainActivity filter 35fc622
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        a29e4a1 com.baidu.searchbox/.push.systemshare.SystemShareDispatcherActivity filter d0596c6
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.VIEW:
+        b91c51b com.baidu.searchbox/.plugins.PDFViewerActivity filter 50156b8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/pdf"
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 357f6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.ppt}"
+          StaticType: "application/vnd.ms-powerpoint"
+        44e2c91 com.baidu.searchbox/.plugins.PPTViewerActivity filter 47d97f7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.pptx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 11800cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.doc}"
+          StaticType: "application/msword"
+        dd12664 com.baidu.searchbox/.plugins.DOCViewerActivity filter 304fd82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.docx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter 1ac44d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xls}"
+          StaticType: "application/vnd.ms-excel"
+        2e9bc93 com.baidu.searchbox/.plugins.EXCELViewerActivity filter c30dcc9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.xlsx}"
+          StaticType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        b0793b7 com.baidu.searchbox/.discovery.novel.NovelHomeActivity filter a1c28d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Path: "PatternMatcher{GLOB: .*\.txt}"
+          Path: "PatternMatcher{GLOB: .*\.TXT}"
+          StaticType: "text/plain"
+        6fc3a2 com.baidu.searchbox/.video.VideoLocalPlayActivity filter e7dd833
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1aa77ee com.baidu.searchbox/.music.SearchMusicActivity filter 633c48f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.SEND_MULTIPLE:
+        b028200 com.baidu.searchbox/.systemshare.SystemShareToUGC filter fad8a39
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+          StaticType: "image"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.PROCESS_TEXT:
+        c2ec63 com.baidu.searchbox/com.baidu.browser.search.LightSearchProcessTextActivity filter e970060
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        2a89919 com.baidu.searchbox/com.baidu.browser.search.LightSearchTranslateActivity filter 2c4fdde
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+Receiver Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.item/download:
+        66520df com.baidu.searchbox/.OpenDownloadReceiver filter 48d212c
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+        94c4cd7 com.baidu.searchbox/.DownloadInstallReceiver filter a3069c4
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        66520df com.baidu.searchbox/.OpenDownloadReceiver filter 48d212c
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+        94c4cd7 com.baidu.searchbox/.DownloadInstallReceiver filter a3069c4
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+
+  Schemes:
+      widgetid:
+        f1e66a0 com.baidu.searchbox/.widget.WidgetActionReceiver filter 2f6a259
+          Action: "com.baidu.searchbox.action.WIDGET_SEARCH"
+          Action: "com.baidu.searchbox.intent.action.BOX_CATAGORY_SEARCH"
+          Action: "com.baidu.searchbox.intent.action.BOX_APP_SEARCH"
+          Action: "com.baidu.searchbox.action.STATISTIC"
+          Action: "com.baidu.searchbox.intent.action.BOX_VOICE_SEARCH"
+          Action: "com.baidu.searchbox.intent.action.BOX_INPUT_SEARCH"
+          Category: "com.baidu.searchbox.category.DING"
+          Category: "com.baidu.searchbox.category.CLOCK"
+          Category: "com.baidu.searchbox.category.QSearch"
+          Category: "com.baidu.searchbox.category.Search"
+          Category: "com.baidu.searchbox.category.TRANS_SEARCH"
+          Category: "com.baidu.searchbox.category.QUICKBOX_SEARCH"
+          Scheme: "widgetid"
+        f1e66a0 com.baidu.searchbox/.widget.WidgetActionReceiver filter 2506e1e
+          Action: "com.baidu.searchbox.action.FROM_WIDGET_PROVIDER"
+          Category: "com.baidu.searchbox.category.DING"
+          Category: "com.baidu.searchbox.category.CLOCK"
+          Scheme: "widgetid"
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter fb17882
+          Action: "com.baidu.searchbox.action.ALARM_CLOCK"
+          Action: "com.baidu.searchbox.action.WIDGET_REFRESH"
+          Action: "com.baidu.searchbox.action.CLOCK_UPDATE"
+          Action: "com.baidu.searchbox.action.WIDGET_ALARM"
+          Action: "com.baidu.searchbox.action.CALENDAR"
+          Category: "com.baidu.searchbox.category.ANALOG"
+          Category: "com.baidu.searchbox.category.DIGITAL"
+          Category: "com.baidu.searchbox.category.CLOCK"
+          Scheme: "widgetid"
+      content:
+        66520df com.baidu.searchbox/.OpenDownloadReceiver filter 48d212c
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+        94c4cd7 com.baidu.searchbox/.DownloadInstallReceiver filter a3069c4
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+      scenetype:
+        5a4ebfb com.baidu.searchbox/.push.PushMsgReceiver filter 6412418
+          Action: "com.baidu.searchbox.action.common.NOTIFICATION.EXPIRE"
+          Action: "com.baidu.searchbox.action.common.PUSH_NOTIFICATION_DELETE"
+          Scheme: "scenetype"
+
+  Non-Data Actions:
+      com.baidu.searchbox.incognito.changed:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK:
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.baidu.ufosdk.ACTION_CALLBACK:
+        86ef0ad com.baidu.searchbox/.feedback.receiver.UFOCallbackReceiver filter 75f5fe2
+          Action: "com.baidu.ufosdk.ACTION_CALLBACK"
+          Category: "com.baidu.searchbox"
+      android.appwidget.action.FEED_WIDGET_REFRESH:
+        7d41b93 com.baidu.searchbox/.widget.feedwidget.FeedWidget filter c68b7d0
+          Action: "android.appwidget.action.FEED_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b77d3c9 com.baidu.searchbox/.widget.feedwidget.FeedWidgetMiddle filter b029ace
+          Action: "android.appwidget.action.FEED_WIDGET_REFRESH"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        49addef com.baidu.searchbox/.widget.feedwidget.FeedWidgetSmall filter b6980fc
+          Action: "android.appwidget.action.FEED_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        936eaa9 com.baidu.searchbox/com.baidu.android.pushservice.PushPatchMessageReceiver filter f97982e
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+          Action: "com.xiaomi.mipush.ERROR"
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+      android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK:
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.xiaomi.mipush.ERROR:
+        936eaa9 com.baidu.searchbox/com.baidu.android.pushservice.PushPatchMessageReceiver filter f97982e
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+          Action: "com.xiaomi.mipush.ERROR"
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.baidu.searchbox.widget.action.ACTION_START_ANIMATION:
+        4913301 com.baidu.searchbox/.widget.OneSearchWidgetProvider filter 32335a6
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_CLICK"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_REFRESH"
+        4ba9be7 com.baidu.searchbox/.widget.basicwidget.BasicOneBdSearchWidget filter a9ef394
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+        c5cfe3d com.baidu.searchbox/.widget.basicwidget.BasicOneBdHotSearchWidget filter 93d0632
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+      android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK:
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.huawei.android.push.intent.REGISTRATION:
+        54bde71 com.baidu.searchbox/.push.PushMsgSafeReceiver filter b7a5456
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH"
+      com.baidu.android.pushservice.action.notification.CLICK:
+        54bde71 com.baidu.searchbox/.push.PushMsgSafeReceiver filter b7a5456
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH"
+      com.baidu.android.pushservice.action.media.CLICK:
+        57dffcf com.baidu.searchbox/com.baidu.android.pushservice.PushServiceReceiver filter 3b12d5c
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+      com.baidu.searchbox.action.common.PUSH_UPDATE_WIDGET_BADGE:
+        43ab7f5 com.baidu.searchbox/.push.PushIntentDispatcher filter d8b298a
+          Action: "com.baidu.searchbox.action.common.PUSH_UPDATE_WIDGET_BADGE"
+          Action: "com.baidu.searchbox.action.common.REGIST_USER_INFO"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE_EXPIRE"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE"
+          Action: "com.baidu.searchbox.action.common.PUSH_CACHE_CLEAR"
+      android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK:
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      gamecenter.intent.action.INSTALL_ALARM:
+        e8045e1 com.baidu.searchbox/com.baidu.swan.gamecenter.appmanager.notification.InstallNotifyReceiver filter eee7f06
+          Action: "gamecenter.intent.action.INSTALL_ALARM"
+          Action: "gamecenter.intent.action.INSTALL_MULTIPLE"
+          Action: "gamecenter.intent.action.INSTALL_ONE"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        f6a8865 com.baidu.searchbox/com.baidu.android.pushservice.PushSystemNotifyReceiver filter 909093a
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.baidu.searchbox.action.GLOBAL_SEARCH:
+        a31b6d2 com.baidu.searchbox/.LauncherSearchBoxReceiver filter 54b03a3
+          Action: "com.baidu.searchbox.action.GLOBAL_SEARCH"
+      com.baidu.searchbox.action.AFTER_TICK:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter f3006f7
+          Action: "com.baidu.searchbox.action.AFTER_TICK"
+          Action: "com.baidu.searchbox.action.TIME_TICK"
+          Category: "com.baidu.searchbox.category.ANALOG"
+          Category: "com.baidu.searchbox.category.DIGITAL"
+          Category: "com.baidu.searchbox.category.CLOCK"
+      com.baidu.android.pushservice.action.notification.SHOW:
+        57dffcf com.baidu.searchbox/com.baidu.android.pushservice.PushServiceReceiver filter 3b12d5c
+          Action: "com.baidu.android.pushservice.action.media.CLICK"
+          Action: "com.baidu.android.pushservice.action.notification.SHOW"
+      com.baidu.searchbox.action.common.REGIST_USER_INFO:
+        43ab7f5 com.baidu.searchbox/.push.PushIntentDispatcher filter d8b298a
+          Action: "com.baidu.searchbox.action.common.PUSH_UPDATE_WIDGET_BADGE"
+          Action: "com.baidu.searchbox.action.common.REGIST_USER_INFO"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE_EXPIRE"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE"
+          Action: "com.baidu.searchbox.action.common.PUSH_CACHE_CLEAR"
+      com.baidu.searchbox.action.STOP_REFRESH_WEA:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter 90d87cd
+          Action: "com.baidu.searchbox.action.STOP_REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.SERVICE_MSG"
+          Action: "com.baidu.searchbox.action.REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.OPEN_REFRESH_WEA"
+      com.baidu.intent.action.UUID:
+        ae419c7 com.baidu.searchbox/com.baidu.swan.uuid.sync.SyncProvider filter 9e3cbf4
+          Action: "com.baidu.intent.action.UUID"
+      com.baidu.searchbox.action.common.PUSH_MESSAGE_EXPIRE:
+        43ab7f5 com.baidu.searchbox/.push.PushIntentDispatcher filter d8b298a
+          Action: "com.baidu.searchbox.action.common.PUSH_UPDATE_WIDGET_BADGE"
+          Action: "com.baidu.searchbox.action.common.REGIST_USER_INFO"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE_EXPIRE"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE"
+          Action: "com.baidu.searchbox.action.common.PUSH_CACHE_CLEAR"
+      android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_CLICK:
+        4913301 com.baidu.searchbox/.widget.OneSearchWidgetProvider filter 32335a6
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_CLICK"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_REFRESH"
+      gamecenter.intent.action.INSTALL_MULTIPLE:
+        e8045e1 com.baidu.searchbox/com.baidu.swan.gamecenter.appmanager.notification.InstallNotifyReceiver filter eee7f06
+          Action: "gamecenter.intent.action.INSTALL_ALARM"
+          Action: "gamecenter.intent.action.INSTALL_MULTIPLE"
+          Action: "gamecenter.intent.action.INSTALL_ONE"
+      android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK:
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.huawei.android.push.intent.RECEIVE:
+        54bde71 com.baidu.searchbox/.push.PushMsgSafeReceiver filter b7a5456
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH"
+      com.vivo.pushclient.action.RECEIVE:
+        d9edf73 com.baidu.searchbox/com.baidu.android.pushservice.viproxy.ViPushMessageReceiver filter aac5e30
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.baidu.searchbox.newreader.action.DOWNLOADSTORY:
+        6204139 com.baidu.searchbox/.newreader.story.DownloadStoryReceiver filter ab1537e
+          Action: "com.baidu.searchbox.newreader.action.DOWNLOADSTORY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.action.SERVICE_MSG:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter 90d87cd
+          Action: "com.baidu.searchbox.action.STOP_REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.SERVICE_MSG"
+          Action: "com.baidu.searchbox.action.REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.OPEN_REFRESH_WEA"
+      com.baidu.searchbox.action.REFRESH_CONSTEL:
+        38b0f83 com.baidu.searchbox/.widget.ConstelWidgetProvider filter 341b500
+          Action: "com.baidu.searchbox.action.REFRESH_CONSTEL"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_ADD"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_CLICK"
+      android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+      android.appwidget.action.ACTION_CONSTEL_WIDGET_ADD:
+        38b0f83 com.baidu.searchbox/.widget.ConstelWidgetProvider filter 341b500
+          Action: "com.baidu.searchbox.action.REFRESH_CONSTEL"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_ADD"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_CLICK"
+      android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK:
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.baidu.searchbox.action.REFRESH_WEA:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter 90d87cd
+          Action: "com.baidu.searchbox.action.STOP_REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.SERVICE_MSG"
+          Action: "com.baidu.searchbox.action.REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.OPEN_REFRESH_WEA"
+      android.intent.action.BOOT_COMPLETED:
+        f6a8865 com.baidu.searchbox/com.baidu.android.pushservice.PushSystemNotifyReceiver filter 909093a
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.USER_PRESENT:
+        f6a8865 com.baidu.searchbox/com.baidu.android.pushservice.PushSystemNotifyReceiver filter 909093a
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.baidu.android.pushservice.action.MESSAGE:
+        54bde71 com.baidu.searchbox/.push.PushMsgSafeReceiver filter b7a5456
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH"
+      com.baidu.searchbox.action.OPEN_REFRESH_WEA:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter 90d87cd
+          Action: "com.baidu.searchbox.action.STOP_REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.SERVICE_MSG"
+          Action: "com.baidu.searchbox.action.REFRESH_WEA"
+          Action: "com.baidu.searchbox.action.OPEN_REFRESH_WEA"
+      com.baidu.android.pushservice.action.RECEIVE:
+        54bde71 com.baidu.searchbox/.push.PushMsgSafeReceiver filter b7a5456
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        f6a8865 com.baidu.searchbox/com.baidu.android.pushservice.PushSystemNotifyReceiver filter 909093a
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      miui.appwidget.action.APPWIDGET_UPDATE:
+        b77d3c9 com.baidu.searchbox/.widget.feedwidget.FeedWidgetMiddle filter b029ace
+          Action: "android.appwidget.action.FEED_WIDGET_REFRESH"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      gamecenter.intent.action.INSTALL_ONE:
+        e8045e1 com.baidu.searchbox/com.baidu.swan.gamecenter.appmanager.notification.InstallNotifyReceiver filter eee7f06
+          Action: "gamecenter.intent.action.INSTALL_ALARM"
+          Action: "gamecenter.intent.action.INSTALL_MULTIPLE"
+          Action: "gamecenter.intent.action.INSTALL_ONE"
+      android.appwidget.action.ACTION_CONSTEL_WIDGET_REFRESH:
+        38b0f83 com.baidu.searchbox/.widget.ConstelWidgetProvider filter 341b500
+          Action: "com.baidu.searchbox.action.REFRESH_CONSTEL"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_ADD"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_CLICK"
+      com.baidu.android.pushservice.action.METHOD:
+        684c9eb com.baidu.searchbox/com.baidu.android.pushservice.RegistrationReceiver filter 2d1c348
+          Action: "com.baidu.android.pushservice.action.METHOD"
+      android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK:
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.baidu.searchbox.action.START_ALARM:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter 39c6964
+          Action: "com.baidu.searchbox.action.START_ALARM"
+          Action: "com.baidu.searchbox.action.CANCEL_ALARM"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        936eaa9 com.baidu.searchbox/com.baidu.android.pushservice.PushPatchMessageReceiver filter f97982e
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+          Action: "com.xiaomi.mipush.ERROR"
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK:
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.baidu.searchbox.action.common.PUSH_MESSAGE:
+        43ab7f5 com.baidu.searchbox/.push.PushIntentDispatcher filter d8b298a
+          Action: "com.baidu.searchbox.action.common.PUSH_UPDATE_WIDGET_BADGE"
+          Action: "com.baidu.searchbox.action.common.REGIST_USER_INFO"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE_EXPIRE"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE"
+          Action: "com.baidu.searchbox.action.common.PUSH_CACHE_CLEAR"
+      com.baidu.searchbox.action.CANCEL_ALARM:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter 39c6964
+          Action: "com.baidu.searchbox.action.START_ALARM"
+          Action: "com.baidu.searchbox.action.CANCEL_ALARM"
+      android.appwidget.action.WIDGET_REFRESH:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.baidu.searchbox.action.common.PUSH_CACHE_CLEAR:
+        43ab7f5 com.baidu.searchbox/.push.PushIntentDispatcher filter d8b298a
+          Action: "com.baidu.searchbox.action.common.PUSH_UPDATE_WIDGET_BADGE"
+          Action: "com.baidu.searchbox.action.common.REGIST_USER_INFO"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE_EXPIRE"
+          Action: "com.baidu.searchbox.action.common.PUSH_MESSAGE"
+          Action: "com.baidu.searchbox.action.common.PUSH_CACHE_CLEAR"
+      android.appwidget.action.ACTION_PAITI_SEARCH_CLICK:
+        20e385 com.baidu.searchbox/.widget.PaitiSearchWidgetProvider filter 13195da
+          Action: "android.appwidget.action.ACTION_PAITI_SEARCH_CLICK"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter b4e22f6
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        7d41b93 com.baidu.searchbox/.widget.feedwidget.FeedWidget filter c68b7d0
+          Action: "android.appwidget.action.FEED_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b77d3c9 com.baidu.searchbox/.widget.feedwidget.FeedWidgetMiddle filter b029ace
+          Action: "android.appwidget.action.FEED_WIDGET_REFRESH"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        49addef com.baidu.searchbox/.widget.feedwidget.FeedWidgetSmall filter b6980fc
+          Action: "android.appwidget.action.FEED_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        20e385 com.baidu.searchbox/.widget.PaitiSearchWidgetProvider filter 13195da
+          Action: "android.appwidget.action.ACTION_PAITI_SEARCH_CLICK"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+        4913301 com.baidu.searchbox/.widget.OneSearchWidgetProvider filter 32335a6
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_CLICK"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_REFRESH"
+        4ba9be7 com.baidu.searchbox/.widget.basicwidget.BasicOneBdSearchWidget filter a9ef394
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+        c5cfe3d com.baidu.searchbox/.widget.basicwidget.BasicOneBdHotSearchWidget filter 93d0632
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+        38b0f83 com.baidu.searchbox/.widget.ConstelWidgetProvider filter 341b500
+          Action: "com.baidu.searchbox.action.REFRESH_CONSTEL"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_ADD"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_CLICK"
+      com.huawei.intent.action.PUSH:
+        54bde71 com.baidu.searchbox/.push.PushMsgSafeReceiver filter b7a5456
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.baidu.android.pushservice.action.notification.CLICK"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.baidu.android.pushservice.action.MESSAGE"
+          Action: "com.baidu.android.pushservice.action.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH"
+      android.appwidget.action.REFRESH_WIDGET_ICON_COUNT:
+        4913301 com.baidu.searchbox/.widget.OneSearchWidgetProvider filter 32335a6
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_CLICK"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_REFRESH"
+        4ba9be7 com.baidu.searchbox/.widget.basicwidget.BasicOneBdSearchWidget filter a9ef394
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+        c5cfe3d com.baidu.searchbox/.widget.basicwidget.BasicOneBdHotSearchWidget filter 93d0632
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+      android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_REFRESH:
+        4913301 com.baidu.searchbox/.widget.OneSearchWidgetProvider filter 32335a6
+          Action: "com.baidu.searchbox.widget.action.ACTION_START_ANIMATION"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_CLICK"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.REFRESH_WIDGET_ICON_COUNT"
+          Action: "android.appwidget.action.ACTION_ONE_WIDGET_SEARCH_REFRESH"
+      com.baidu.searchbox.action.TIME_TICK:
+        4294391 com.baidu.searchbox/.widget.ClockWidgetProvider filter f3006f7
+          Action: "com.baidu.searchbox.action.AFTER_TICK"
+          Action: "com.baidu.searchbox.action.TIME_TICK"
+          Category: "com.baidu.searchbox.category.ANALOG"
+          Category: "com.baidu.searchbox.category.DIGITAL"
+          Category: "com.baidu.searchbox.category.CLOCK"
+      android.appwidget.action.ACTION_CONSTEL_WIDGET_CLICK:
+        38b0f83 com.baidu.searchbox/.widget.ConstelWidgetProvider filter 341b500
+          Action: "com.baidu.searchbox.action.REFRESH_CONSTEL"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_ADD"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.ACTION_CONSTEL_WIDGET_CLICK"
+      android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+      com.baidu.searchbox.action.DOWNLOADSTORY:
+        70036ff com.baidu.searchbox/.story.DownloadStoryReceiver filter 4134ccc
+          Action: "com.baidu.searchbox.action.DOWNLOADSTORY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.searchbox.teenager.changed:
+        f660b15 com.baidu.searchbox/.widget.SearchWidgetProvider filter d114e2a
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.CLASSIC_WIDGET_OPERATE_ONE_CLICK"
+          Action: "com.baidu.searchbox.teenager.changed"
+        4ab441b com.baidu.searchbox/.widget.TransSearchWidgetProvider filter 38e69b8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.TRANS_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_TWO_CLICK"
+          Action: "android.appwidget.action.TRANS_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+        e616a0b com.baidu.searchbox/.widget.QuickSearchWidgetProvider filter d4bb0e8
+          Action: "com.baidu.searchbox.incognito.changed"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_HOT_WORD_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_TWO_CLICK"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_ONE_CLICK"
+          Action: "android.appwidget.action.QUICKBOX_SEARCH_WIDGET_OPERATE_THREE_CLICK"
+          Action: "android.appwidget.action.WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.baidu.searchbox.teenager.changed"
+
+  MIME Typed Actions:
+      com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED:
+        66520df com.baidu.searchbox/.OpenDownloadReceiver filter 48d212c
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+        94c4cd7 com.baidu.searchbox/.DownloadInstallReceiver filter a3069c4
+          Action: "com.baidu.searchbox.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+          Scheme: "content"
+          StaticType: "vnd.android.cursor.item/download"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.baidu.searchbox.action.common.INSTALL_ZEUS_KERNEL:
+        da5f1d com.baidu.searchbox/.service.CommonIntentService filter 3638592
+          Action: "com.baidu.searchbox.action.common.INSTALL_ZEUS_KERNEL"
+          Action: "com.baidu.searchbox.action.common.DEC_ASSETS_FILES"
+          Action: "com.baidu.searchbox.action.REFRESH_WIDEGT_CARD"
+          Action: "com.baidu.searchbox.action.common.SAVE_WIDGETINFO_EXTERNAL"
+          Action: "com.baidu.searchbox.action.common.DEC_RAW_FILES"
+          Action: "com.baidu.searchbox.action.common.UNZIP_FILE"
+      android.service.quicksettings.action.QS_TILE:
+        4fe8b63 com.baidu.searchbox/.quicksettings.SearchTileService filter 6bb360 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+      com.baidu.action.SOFIRE.VIEW:
+        2591353 com.baidu.searchbox/com.baidu.sofire.MyService filter 902b490
+          Action: "com.baidu.action.SOFIRE.VIEW"
+          Category: "com.baidu.category.SOFIRE"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.swan.game.ad.downloader.core.AdDownloadService:
+        cf6498d com.baidu.searchbox/com.baidu.swan.game.ad.downloader.core.AdDownloadService filter f547742
+          Action: "com.baidu.swan.game.ad.downloader.core.AdDownloadService"
+      com.baidu.searchbox.action.common.DEC_ASSETS_FILES:
+        da5f1d com.baidu.searchbox/.service.CommonIntentService filter 3638592
+          Action: "com.baidu.searchbox.action.common.INSTALL_ZEUS_KERNEL"
+          Action: "com.baidu.searchbox.action.common.DEC_ASSETS_FILES"
+          Action: "com.baidu.searchbox.action.REFRESH_WIDEGT_CARD"
+          Action: "com.baidu.searchbox.action.common.SAVE_WIDGETINFO_EXTERNAL"
+          Action: "com.baidu.searchbox.action.common.DEC_RAW_FILES"
+          Action: "com.baidu.searchbox.action.common.UNZIP_FILE"
+      com.baidu.android.pushservice.action.PUSH_SERVICE:
+        ed003db com.baidu.searchbox/com.baidu.android.pushservice.PushService filter 6208e78
+          Action: "com.baidu.android.pushservice.action.PUSH_SERVICE"
+        156951 com.baidu.searchbox/com.baidu.pushservice.PushService filter 4dab5b6
+          Action: "com.baidu.android.pushservice.action.PUSH_SERVICE"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        12754d5 com.baidu.searchbox/com.heytap.mcssdk.AppPushService filter b5634ea permission com.heytap.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.baidu.searchbox.action.REFRESH_WIDEGT_CARD:
+        da5f1d com.baidu.searchbox/.service.CommonIntentService filter 3638592
+          Action: "com.baidu.searchbox.action.common.INSTALL_ZEUS_KERNEL"
+          Action: "com.baidu.searchbox.action.common.DEC_ASSETS_FILES"
+          Action: "com.baidu.searchbox.action.REFRESH_WIDEGT_CARD"
+          Action: "com.baidu.searchbox.action.common.SAVE_WIDGETINFO_EXTERNAL"
+          Action: "com.baidu.searchbox.action.common.DEC_RAW_FILES"
+          Action: "com.baidu.searchbox.action.common.UNZIP_FILE"
+      android.service.notification.NotificationListenerService:
+        ac2d019 com.baidu.searchbox/.lockscreen.notification.NotificationMonitorService filter cb068de permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        c47abf com.baidu.searchbox/com.heytap.mcssdk.PushService filter fc8a58c permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.baidu.searchbox.action.common.SAVE_WIDGETINFO_EXTERNAL:
+        da5f1d com.baidu.searchbox/.service.CommonIntentService filter 3638592
+          Action: "com.baidu.searchbox.action.common.INSTALL_ZEUS_KERNEL"
+          Action: "com.baidu.searchbox.action.common.DEC_ASSETS_FILES"
+          Action: "com.baidu.searchbox.action.REFRESH_WIDEGT_CARD"
+          Action: "com.baidu.searchbox.action.common.SAVE_WIDGETINFO_EXTERNAL"
+          Action: "com.baidu.searchbox.action.common.DEC_RAW_FILES"
+          Action: "com.baidu.searchbox.action.common.UNZIP_FILE"
+      com.baidu.searchbox.action.common.DEC_RAW_FILES:
+        da5f1d com.baidu.searchbox/.service.CommonIntentService filter 3638592
+          Action: "com.baidu.searchbox.action.common.INSTALL_ZEUS_KERNEL"
+          Action: "com.baidu.searchbox.action.common.DEC_ASSETS_FILES"
+          Action: "com.baidu.searchbox.action.REFRESH_WIDEGT_CARD"
+          Action: "com.baidu.searchbox.action.common.SAVE_WIDGETINFO_EXTERNAL"
+          Action: "com.baidu.searchbox.action.common.DEC_RAW_FILES"
+          Action: "com.baidu.searchbox.action.common.UNZIP_FILE"
+      com.baidu.searchbox.action.common.UNZIP_FILE:
+        da5f1d com.baidu.searchbox/.service.CommonIntentService filter 3638592
+          Action: "com.baidu.searchbox.action.common.INSTALL_ZEUS_KERNEL"
+          Action: "com.baidu.searchbox.action.common.DEC_ASSETS_FILES"
+          Action: "com.baidu.searchbox.action.REFRESH_WIDEGT_CARD"
+          Action: "com.baidu.searchbox.action.common.SAVE_WIDGETINFO_EXTERNAL"
+          Action: "com.baidu.searchbox.action.common.DEC_RAW_FILES"
+          Action: "com.baidu.searchbox.action.common.UNZIP_FILE"
+      com.baidu.swan.apps.action.AUDIO_SERVICE:
+        54102b7 com.baidu.searchbox/com.baidu.swan.apps.media.audio.service.SwanAppAudioService filter c0c1a24
+          Action: "com.baidu.swan.apps.action.AUDIO_SERVICE"
+
+Domain verification status:
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          s.bdstatic.com
+
+Permissions:
+  Permission [com.baidu.searchbox.permission.DOWNLOAD_STORY] (85dd9ec):
+    sourcePackage=com.baidu.searchbox
+    uid=10438 gids=[] type=0 prot=signature
+    perm=PermissionInfo{e3e1b5 com.baidu.searchbox.permission.DOWNLOAD_STORY}
+    flags=0x0
+
+Permissions:
+  Permission [com.baidu.searchbox.permission.APS_INSTALL] (6ca704a):
+    sourcePackage=com.baidu.searchbox
+    uid=10438 gids=[] type=0 prot=signature
+    perm=PermissionInfo{5a48bbb com.baidu.searchbox.permission.APS_INSTALL}
+    flags=0x0
+
+Permissions:
+  Permission [baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.baidu.searchbox] (744a8d8):
+    sourcePackage=com.baidu.searchbox
+    uid=10438 gids=[] type=0 prot=signature
+    perm=PermissionInfo{2bde431 baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.baidu.searchbox}
+    flags=0x0
+
+Permissions:
+  Permission [com.baidu.searchbox.permission.MATRIX_PRODUCT_CONFIG] (5474716):
+    sourcePackage=com.baidu.searchbox
+    uid=10438 gids=[] type=0 prot=signature
+    perm=PermissionInfo{8062897 com.baidu.searchbox.permission.MATRIX_PRODUCT_CONFIG}
+    flags=0x0
+
+Permissions:
+  Permission [com.baidu.searchbox.permission.sofire.RECEIVE] (6c77a84):
+    sourcePackage=com.baidu.searchbox
+    uid=10438 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{5b926d com.baidu.searchbox.permission.sofire.RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [com.baidu.searchbox.permission.MIPUSH_RECEIVE] (ae8bea2):
+    sourcePackage=com.baidu.searchbox
+    uid=10438 gids=[] type=0 prot=signature
+    perm=PermissionInfo{27ab733 com.baidu.searchbox.permission.MIPUSH_RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [com.baidu.searchbox.permission.write_bookmark] (683baf0):
+    sourcePackage=com.baidu.searchbox
+    uid=10438 gids=[] type=0 prot=signature
+    perm=PermissionInfo{eabe869 com.baidu.searchbox.permission.write_bookmark}
+    flags=0x0
+
+Registered ContentProviders:
+  com.baidu.searchbox/com.baidu.sofire.MyProvider:
+    Provider{a3822ee com.baidu.searchbox/com.baidu.sofire.MyProvider}
+  com.baidu.searchbox/.bookmark.favor.BookmarkProviderProxy:
+    Provider{69f938f com.baidu.searchbox/.bookmark.favor.BookmarkProviderProxy}
+  com.baidu.searchbox/com.baidu.netdisk.backup.db.provider.BackupProvider:
+    Provider{81961c com.baidu.searchbox/com.baidu.netdisk.backup.db.provider.BackupProvider}
+  com.baidu.searchbox/com.baidu.common.matrixstyle.StyleModeContentProvider:
+    Provider{891a225 com.baidu.searchbox/com.baidu.common.matrixstyle.StyleModeContentProvider}
+  com.baidu.searchbox/com.baidu.megapp.proxy.provider.ContentProviderProxy:
+    Provider{3077ffa com.baidu.searchbox/com.baidu.megapp.proxy.provider.ContentProviderProxy}
+  com.baidu.searchbox/com.baidu.pyramid.runtime.multiprocess.components.ServerProvider:
+    Provider{88bd9ab com.baidu.searchbox/com.baidu.pyramid.runtime.multiprocess.components.ServerProvider}
+  com.baidu.searchbox/com.baidu.swan.apps.database.favorite.SwanAppFavoriteProvider:
+    Provider{51ff808 com.baidu.searchbox/com.baidu.swan.apps.database.favorite.SwanAppFavoriteProvider}
+  com.baidu.searchbox/.performance.speed.proxy.FileProviderProxy:
+    Provider{a5f3ba1 com.baidu.searchbox/.performance.speed.proxy.FileProviderProxy}
+  com.baidu.searchbox/.favor.sync.business.favor.db.FavorProviderProxy:
+    Provider{e3da1c6 com.baidu.searchbox/.favor.sync.business.favor.db.FavorProviderProxy}
+  com.baidu.searchbox/com.baidu.sapi2.provider.FileProvider:
+    Provider{cac6587 com.baidu.searchbox/com.baidu.sapi2.provider.FileProvider}
+  com.baidu.searchbox/com.baidu.megapp.proxy.provider.ContentProviderProxyExt:
+    Provider{9c08cb4 com.baidu.searchbox/com.baidu.megapp.proxy.provider.ContentProviderProxyExt}
+  com.baidu.searchbox/.download.component.DownloadProviderProxy:
+    Provider{912f0dd com.baidu.searchbox/.download.component.DownloadProviderProxy}
+  com.baidu.searchbox/com.thunder.livesdk.system.ProcessLifecycleOwnerInitializer_nps:
+    Provider{a621452 com.baidu.searchbox/com.thunder.livesdk.system.ProcessLifecycleOwnerInitializer_nps}
+  com.baidu.searchbox/.feed.tts.db.provider.TTSDbProviderProxy:
+    Provider{75fd323 com.baidu.searchbox/.feed.tts.db.provider.TTSDbProviderProxy}
+  com.baidu.searchbox/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{633c020 com.baidu.searchbox/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.baidu.searchbox/com.baidu.swan.pms.database.provider.PMSDBProviderProxy:
+    Provider{152bdd9 com.baidu.searchbox/com.baidu.swan.pms.database.provider.PMSDBProviderProxy}
+  com.baidu.searchbox/.push.PushContentProvider:
+    Provider{4e9239e com.baidu.searchbox/.push.PushContentProvider}
+  com.baidu.searchbox/androidx.core.content.FileProvider:
+    Provider{a527e7f com.baidu.searchbox/androidx.core.content.FileProvider}
+  com.baidu.searchbox/.process.ipc.agent.provider.MainProcessDelegateProvider:
+    Provider{ce4be4c com.baidu.searchbox/.process.ipc.agent.provider.MainProcessDelegateProvider}
+  com.baidu.searchbox/com.baidu.nps.pm.provider.BundleOpProvider:
+    Provider{a285e95 com.baidu.searchbox/com.baidu.nps.pm.provider.BundleOpProvider}
+  com.baidu.searchbox/com.baidu.android.pushservice.PushInfoProvider:
+    Provider{c3fdbaa com.baidu.searchbox/com.baidu.android.pushservice.PushInfoProvider}
+  com.baidu.searchbox/com.baidu.netdisk.component.base.provider.FileSystemProvider:
+    Provider{b9a839b com.baidu.searchbox/com.baidu.netdisk.component.base.provider.FileSystemProvider}
+  com.baidu.searchbox/.pms.db.PmsContentProvider:
+    Provider{9c57338 com.baidu.searchbox/.pms.db.PmsContentProvider}
+  com.baidu.searchbox/com.baidu.helios.bridge.multiprocess.providers.defaultproc.DefaultIPCProvider:
+    Provider{77d4f11 com.baidu.searchbox/com.baidu.helios.bridge.multiprocess.providers.defaultproc.DefaultIPCProvider}
+  com.baidu.searchbox/com.yanzhenjie.permission.FileProvider_nps:
+    Provider{6980876 com.baidu.searchbox/com.yanzhenjie.permission.FileProvider_nps}
+  com.baidu.searchbox/.history.core.db.HistoryProviderProxy:
+    Provider{293be77 com.baidu.searchbox/.history.core.db.HistoryProviderProxy}
+  com.baidu.searchbox/com.thunder.livesdk.system.ProcessLifecycleOwnerInitializer:
+    Provider{3fa8ae4 com.baidu.searchbox/com.thunder.livesdk.system.ProcessLifecycleOwnerInitializer}
+  com.baidu.searchbox/com.baidu.netdisk.account.storage.AccountProvider:
+    Provider{856cb4d com.baidu.searchbox/com.baidu.netdisk.account.storage.AccountProvider}
+
+ContentProvider Authorities:
+  [com.baidu.searchbox.provider.db.tts]:
+    Provider{75fd323 com.baidu.searchbox/.feed.tts.db.provider.TTSDbProviderProxy}
+      applicationInfo=ApplicationInfo{9743602 com.baidu.searchbox}
+  [com.baidu.searchbox.SwanAppDelegateProvider]:
+    Provider{ce4be4c com.baidu.searchbox/.process.ipc.agent.provider.MainProcessDelegateProvider}
+      applicationInfo=ApplicationInfo{67bcb13 com.baidu.searchbox}
+  [com.baidu.searchbox.netdisk]:
+    Provider{b9a839b com.baidu.searchbox/com.baidu.netdisk.component.base.provider.FileSystemProvider}
+      applicationInfo=ApplicationInfo{e477150 com.baidu.searchbox}
+  [com.baidu.searchbox.baidusearch_bookmark]:
+    Provider{69f938f com.baidu.searchbox/.bookmark.favor.BookmarkProviderProxy}
+      applicationInfo=ApplicationInfo{cd1cf49 com.baidu.searchbox}
+  [com.baidu.searchbox.downloads]:
+    Provider{912f0dd com.baidu.searchbox/.download.component.DownloadProviderProxy}
+      applicationInfo=ApplicationInfo{df3b04e com.baidu.searchbox}
+  [com.baidu.searchbox.sofire.ac.provider]:
+    Provider{a3822ee com.baidu.searchbox/com.baidu.sofire.MyProvider}
+      applicationInfo=ApplicationInfo{ace056f com.baidu.searchbox}
+  [com.baidu.searchbox.swan.favorite]:
+    Provider{51ff808 com.baidu.searchbox/com.baidu.swan.apps.database.favorite.SwanAppFavoriteProvider}
+      applicationInfo=ApplicationInfo{23a527c com.baidu.searchbox}
+  [com.baidu.searchbox.helios.ipc.default]:
+    Provider{77d4f11 com.baidu.searchbox/com.baidu.helios.bridge.multiprocess.providers.defaultproc.DefaultIPCProvider}
+      applicationInfo=ApplicationInfo{fdf1705 com.baidu.searchbox}
+  [com.baidu.searchbox.push_msg]:
+    Provider{4e9239e com.baidu.searchbox/.push.PushContentProvider}
+      applicationInfo=ApplicationInfo{dde835a com.baidu.searchbox}
+  [com.baidu.searchbox.passfileprovider]:
+    Provider{cac6587 com.baidu.searchbox/com.baidu.sapi2.provider.FileProvider}
+      applicationInfo=ApplicationInfo{55f898b com.baidu.searchbox}
+  [com.baidu.searchbox.aiapp.pms]:
+    Provider{152bdd9 com.baidu.searchbox/com.baidu.swan.pms.database.provider.PMSDBProviderProxy}
+      applicationInfo=ApplicationInfo{2181a68 com.baidu.searchbox}
+  [com.baidu.searchbox.file.path.share]:
+    Provider{6980876 com.baidu.searchbox/com.yanzhenjie.permission.FileProvider_nps}
+      applicationInfo=ApplicationInfo{bf1e81 com.baidu.searchbox}
+  [com.baidu.searchbox.share.bdshareprovider]:
+    Provider{a527e7f com.baidu.searchbox/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{5717b26 com.baidu.searchbox}
+  [com.baidu.searchbox.lifecycle-thunder]:
+    Provider{a621452 com.baidu.searchbox/com.thunder.livesdk.system.ProcessLifecycleOwnerInitializer_nps}
+      applicationInfo=ApplicationInfo{a3b3367 com.baidu.searchbox}
+  [com.baidu.searchbox.aps.proxy]:
+    Provider{3077ffa com.baidu.searchbox/com.baidu.megapp.proxy.provider.ContentProviderProxy}
+      applicationInfo=ApplicationInfo{d887514 com.baidu.searchbox}
+  [com.baidu.searchbox.netdisk.backup]:
+    Provider{81961c com.baidu.searchbox/com.baidu.netdisk.backup.db.provider.BackupProvider}
+      applicationInfo=ApplicationInfo{83e21bd com.baidu.searchbox}
+  [com.baidu.searchbox.netdisk.account]:
+    Provider{856cb4d com.baidu.searchbox/com.baidu.netdisk.account.storage.AccountProvider}
+      applicationInfo=ApplicationInfo{5ea23b2 com.baidu.searchbox}
+  [com.baidu.searchbox.aps.proxy.ext]:
+    Provider{9c08cb4 com.baidu.searchbox/com.baidu.megapp.proxy.provider.ContentProviderProxyExt}
+      applicationInfo=ApplicationInfo{93d9f03 com.baidu.searchbox}
+  [com.baidu.searchbox.fileprovider]:
+    Provider{a5f3ba1 com.baidu.searchbox/.performance.speed.proxy.FileProviderProxy}
+      applicationInfo=ApplicationInfo{501ce80 com.baidu.searchbox}
+  [com.baidu.searchbox.lifecycle-process]:
+    Provider{633c020 com.baidu.searchbox/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{5b01cb9 com.baidu.searchbox}
+  [com.baidu.searchbox.bdpush]:
+    Provider{c3fdbaa com.baidu.searchbox/com.baidu.android.pushservice.PushInfoProvider}
+      applicationInfo=ApplicationInfo{4d2c8fe com.baidu.searchbox}
+  [com.baidu.searchbox.pms.db.provider]:
+    Provider{9c57338 com.baidu.searchbox/.pms.db.PmsContentProvider}
+      applicationInfo=ApplicationInfo{971285f com.baidu.searchbox}
+  [com.baidu.searchbox.bundle]:
+    Provider{a285e95 com.baidu.searchbox/com.baidu.nps.pm.provider.BundleOpProvider}
+      applicationInfo=ApplicationInfo{7f552ac com.baidu.searchbox}
+  [com.baidu.searchbox.baidusearch_favors]:
+    Provider{e3da1c6 com.baidu.searchbox/.favor.sync.business.favor.db.FavorProviderProxy}
+      applicationInfo=ApplicationInfo{faccb75 com.baidu.searchbox}
+  [com.baidu.searchbox.matrixstyle]:
+    Provider{891a225 com.baidu.searchbox/com.baidu.common.matrixstyle.StyleModeContentProvider}
+      applicationInfo=ApplicationInfo{40e770a com.baidu.searchbox}
+  [com.baidu.searchbox.box_visit_history]:
+    Provider{293be77 com.baidu.searchbox/.history.core.db.HistoryProviderProxy}
+      applicationInfo=ApplicationInfo{e29eb7b com.baidu.searchbox}
+  [com.baidu.searchbox.provider.ipc.server]:
+    Provider{88bd9ab com.baidu.searchbox/com.baidu.pyramid.runtime.multiprocess.components.ServerProvider}
+      applicationInfo=ApplicationInfo{9baed98 com.baidu.searchbox}
+
+Key Set Manager:
+  [com.baidu.searchbox]
+      Signing KeySets: 63
+
+Packages:
+  Package [com.baidu.searchbox] (48ba9f1):
+    appId=10438
+    pkg=Package{ea4f9d6 com.baidu.searchbox}
+    codePath=/data/app/~~xjBgwyRchobV-UbskGsC8g==/com.baidu.searchbox-KAlGrye8uFcrbTmDXHkuZg==
+    resourcePath=/data/app/~~xjBgwyRchobV-UbskGsC8g==/com.baidu.searchbox-KAlGrye8uFcrbTmDXHkuZg==
+    legacyNativeLibraryDir=/data/app/~~xjBgwyRchobV-UbskGsC8g==/com.baidu.searchbox-KAlGrye8uFcrbTmDXHkuZg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=109577856 minSdk=22 targetSdk=30
+    minExtensionVersions=[]
+    versionName=13.2.0.13
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesPackages=[com.tencent.mm, com.eg.android.AlipayGphone, hk.alipay.wallet]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-10-25 09:58:07
+    lastUpdateTime=2025-10-25 09:58:08
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{1e1c457 version:2, signatures:[2505c087], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS ]
+    apexModuleName=null
+    declared permissions:
+      com.baidu.searchbox.permission.write_bookmark: prot=signature
+      com.baidu.searchbox.permission.DOWNLOAD_STORY: prot=signature
+      com.baidu.searchbox.permission.APS_INSTALL: prot=signature
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.baidu.searchbox: prot=signature
+      com.baidu.searchbox.permission.MIPUSH_RECEIVE: prot=signature
+      com.baidu.searchbox.permission.MATRIX_PRODUCT_CONFIG: prot=signature
+      com.baidu.searchbox.permission.sofire.RECEIVE: prot=signature|privileged
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.android.launcher2.permission.READ_SETTINGS
+      com.android.launcher3.permission.READ_SETTINGS
+      android.permission.READ_CALENDAR
+      android.permission.POST_NOTIFICATIONS
+      com.bbk.launcher2.permission.READ_SETTINGS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.RESTART_PACKAGES
+      android.permission.USE_CREDENTIALS
+      com.lenovo.launcher.permission.READ_SETTINGS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.zte.mifavor.launcher.permission.READ_SETTINGS
+      com.baidu.searchbox.permission.DOWNLOAD_STORY
+      android.permission.NFC
+      com.sec.android.provider.badge.permission.READ
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      com.meizu.flyme.launcher.permission.READ_SETTINGS
+      com.sec.feature.fingerprint_manager_service
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.EXPAND_STATUS_BAR
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.BLUETOOTH
+      com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      android.permission.BLUETOOTH_ADMIN
+      com.baidu.searchbox.permission.APS_INSTALL
+      android.permission.READ_EXTERNAL_STORAGE
+      com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.baidu.searchbox
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.BROADCAST_STICKY
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      com.baidu.searchbox.permission.MATRIX_PRODUCT_CONFIG
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      com.oppo.launcher.permission.READ_SETTINGS
+      android.permission.DISABLE_KEYGUARD
+      com.baidu.searchbox.permission.sofire.RECEIVE
+      android.hardware.camera
+      android.permission.CAMERA
+      android.permission.SET_WALLPAPER
+      android.permission.WRITE_CALENDAR
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.KILL_BACKGROUND_PROCESSES
+      android.permission.USE_FINGERPRINT
+      com.sec.android.provider.badge.permission.WRITE
+      com.baidu.appsearch.permission.LAUNCH
+      android.permission.BLUETOOTH_ADVERTISE
+      org.fidoalliance.uaf.permissions.FIDO_CLIENT
+      android.permission.GET_ACCOUNTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.baidu.searchbox.permission.MIPUSH_RECEIVE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.RECORD_AUDIO
+      com.qiku.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      com.baidu.searchbox.permission.DOWNLOAD_STORY: granted=true
+      android.permission.NFC: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.baidu.searchbox.permission.APS_INSTALL: granted=true
+      baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.baidu.searchbox: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      com.baidu.searchbox.permission.MATRIX_PRODUCT_CONFIG: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      com.baidu.searchbox.permission.sofire.RECEIVE: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      com.baidu.searchbox.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=44176 deDataInode=140739 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.baidu.searchbox
+      firstInstallTime=2025-10-25 09:58:08
+      uninstallReason=0
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.duokan.reader:
+      com.baidu.searchbox
+    com.smile.gifmaker:
+      com.baidu.searchbox
+    com.kuaishou.nebula:
+      com.baidu.searchbox
+  queries via component:
+    [com.android.server.telecom,com.miui.powerkeeper,com.xiaomi.mi_connect_service,com.android.keychain,com.xiaomi.barrage,com.miui.daemon,com.miui.securitycore,com.xiaomi.location.fused,com.miui.cit,com.android.localtransport,com.xiaomi.joyose,com.xiaomi.mirror,com.miui.misightservice,com.qti.snapdragon.qdcm_ff,com.miui.wmsvc,com.qualcomm.qti.xrvd.service,com.xiaomi.trustservice,com.xiaomi.aon,com.android.dynsystem,com.miui.notification,com.miui.qr,com.xiaomi.touchservice,com.xiaomi.mtb,com.android.providers.settings,com.miui.securitycenter,com.bsp.catchlog,com.android.provision,com.android.inputdevices,com.miui.aod,com.xiaomi.aiasst.vision,com.xiaomi.aiasst.service,com.android.location.fused,com.xiaomi.misettings,vendor.qti.qesdk.sysservice,com.android.systemui,com.xiaomi.digitalkey,com.miui.thirdappassistant,android,com.miui.contentcatcher,com.miui.bugreport,com.miui.touchassistant,com.android.DeviceAsWebcam,com.android.settings,miui.systemui.plugin,com.miui.uireporter,com.qualcomm.qti.services.systemhelper,com.xiaomi.gnss.polaris,com.miui.audiomonitor,com.xiaomi.otrpbroker,com.wapi.wapicertmanage]:
+      com.baidu.searchbox
+    [com.android.nfc,com.miui.tsmclient]:
+      com.baidu.searchbox
+    com.android.vending:
+      com.baidu.searchbox
+    com.xiaomi.aicr:
+      com.baidu.searchbox
+    [com.google.android.gsf,com.google.android.gms]:
+      com.baidu.searchbox
+    com.android.contacts:
+      com.baidu.searchbox
+    com.xiaomi.gamecenter.sdk.service:
+      com.baidu.searchbox
+    com.android.settings.intelligence:
+      com.baidu.searchbox
+    com.android.camera:
+      com.baidu.searchbox
+    com.miui.carlink:
+      com.baidu.searchbox
+    com.miui.nextpay:
+      com.baidu.searchbox
+    com.xiaomi.mis:
+      com.baidu.searchbox
+    com.miui.hybrid:
+      com.baidu.searchbox
+    com.xiaomi.market:
+      com.baidu.searchbox
+    com.miui.systemAdSolution:
+      com.baidu.searchbox
+    com.xiaomi.account:
+      com.baidu.searchbox
+    com.miui.greenguard:
+      com.baidu.searchbox
+    com.xiaomi.payment:
+      com.baidu.searchbox
+    com.google.android.accessibility.switchaccess:
+      com.baidu.searchbox
+    com.xiaomi.xmsf:
+      com.baidu.searchbox
+    com.android.systemui.accessibility.accessibilitymenu:
+      com.baidu.searchbox
+    com.wuba.zhuanzhuan:
+      com.baidu.searchbox
+    com.android.providers.downloads.ui:
+      com.baidu.searchbox
+    com.mfashiongallery.emag:
+      com.baidu.searchbox
+    com.android.calendar:
+      com.baidu.searchbox
+    com.android.email:
+      com.baidu.searchbox
+    com.miui.gallery:
+      com.baidu.searchbox
+    com.android.soundrecorder:
+      com.baidu.searchbox
+    com.miui.virtualsim:
+      com.baidu.searchbox
+    com.getsurfboard:
+      com.baidu.searchbox
+    com.skysoft.kkbox.android:
+      com.baidu.searchbox
+    com.xingin.xhs:
+      com.baidu.searchbox
+    com.duokan.reader:
+      com.baidu.searchbox
+    com.instagram.android:
+      com.baidu.searchbox
+    com.google.android.gm:
+      com.baidu.searchbox
+    com.ebay.mobile:
+      com.baidu.searchbox
+    com.anydo:
+      com.baidu.searchbox
+    com.microsoft.todos:
+      com.baidu.searchbox
+    com.miui.video:
+      com.baidu.searchbox
+    com.todoist:
+      com.baidu.searchbox
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.baidu.searchbox
+    com.google.android.apps.tasks:
+      com.baidu.searchbox
+    com.alibaba.aliexpresshd:
+      com.baidu.searchbox
+    com.einnovation.temu:
+      com.baidu.searchbox
+    com.microsoft.emmx:
+      com.baidu.searchbox
+    com.google.android.apps.magazines:
+      com.baidu.searchbox
+    com.cnn.mobile.android.phone:
+      com.baidu.searchbox
+    com.spotify.music:
+      com.baidu.searchbox
+    com.google.android.apps.youtube.music:
+      com.baidu.searchbox
+    com.musicworx:
+      com.baidu.searchbox
+    ru.mail.mailapp:
+      com.baidu.searchbox
+    com.microsoft.office.outlook:
+      com.baidu.searchbox
+    com.ss.android.article.news:
+      com.baidu.searchbox
+    com.jijia.bqwnl:
+      com.baidu.searchbox
+    com.baidu.BaiduMap:
+      com.baidu.searchbox
+    com.autonavi.minimap:
+      com.baidu.searchbox
+    com.dragon.read:
+      com.baidu.searchbox
+    com.jijia.jjweather:
+      com.baidu.searchbox
+    com.zhuantech.sijiweather:
+      com.baidu.searchbox
+    com.suxing.sustream:
+      com.baidu.searchbox
+    com.yahoo.mobile.client.android.mail:
+      com.baidu.searchbox
+    com.ss.android.ugc.aweme.lite:
+      com.baidu.searchbox
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.baidu.searchbox]
+    path: /data/app/~~xjBgwyRchobV-UbskGsC8g==/com.baidu.searchbox-KAlGrye8uFcrbTmDXHkuZg==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.baidu.searchbox]
+     partner-com.baidu.searchbox_9.apk - 5512

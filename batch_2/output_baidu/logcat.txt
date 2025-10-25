@@ -1,0 +1,641 @@
+--------- beginning of main
+10-25 09:58:02.587  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+10-25 09:58:02.590  8429  8609 I WakePathUpdatePolicy: pushWakePathData begin
+10-25 09:58:02.590  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathWhiteList: whiteList.size=0
+10-25 09:58:02.591  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=1 wakePathRules.size=3
+10-25 09:58:02.591  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=8 wakePathRules.size=8
+10-25 09:58:02.592  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=4 wakePathRules.size=4
+10-25 09:58:02.592  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=2 wakePathRules.size=1
+10-25 09:58:02.592  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=17 wakePathRules.size=0
+10-25 09:58:02.593  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=32 wakePathRules.size=0
+10-25 09:58:02.593  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=256 wakePathRules.size=8
+10-25 09:58:02.593  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=128 wakePathRules.size=4
+10-25 09:58:02.594  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=64 wakePathRules.size=2
+10-25 09:58:02.594  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=4096 wakePathRules.size=2
+10-25 09:58:02.594  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=32768 wakePathRules.size=1
+10-25 09:58:02.595  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=8192 wakePathRules.size=6
+10-25 09:58:02.595  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=16384 wakePathRules.size=0
+10-25 09:58:02.596  8429  8609 I com.lbe.security.service.provider.WakePathDatabaseUtil: getWakePathRuleList: wakeType=22 wakePathRules.size=0
+10-25 09:58:02.596  8429  8609 I WakePathUpdatePolicy: pushWakePathData end
+10-25 09:58:02.596  8429  8609 I WakePathUpdatePolicy: doUpdate end
+10-25 09:58:02.600  4692  4692 E NotifCollection: No notification to remove with key 0|com.xiaomi.market|137558623|null|10167 reason=0:REASON_UNKNOWN
+--------- beginning of system
+10-25 09:58:02.631  2318  4219 I SmartPower: com.xiaomi.account/10169(8556): background->idle(3005ms) R(adj below visible) adj=915.
+10-25 09:58:02.665  2318  4219 I SmartPower: ru.mail.mailapp/10321(13859): background->idle(3091ms) R(service end ru.mail.mailapp/ru.mail.logic.sync.PrefetcherSyncService) adj=250.
+10-25 09:58:02.685 12107 23169 I Market-DownloadLimitSpeedManager: tryStopLimitSpeed 1
+10-25 09:58:02.686 12107 23169 I Market-RetrofitRequest: callEnd : https://app.market.xiaomi.com/apm/statistics/appactive
+10-25 09:58:02.687 12107 23169 E Market-ReflectUtils: invokeObject com.android.org.bouncycastle.util.encoders.Base64.decode com.xiaomi.market.util.reflect.IllegalArgumentException
+10-25 09:58:02.687 12107 23169 E Market-ConnectionRSA: get key exception : java.lang.NullPointerException: decrypt data is null
+10-25 09:58:02.716  7410  4598 E RouterParser: Exception occur while update router title:java.net.SocketTimeoutException: failed to connect to /192.168.137.1 (port 80) from /192.168.137.3 (port 38386) after 6000ms
+10-25 09:58:02.716  7410  4598 E RouterParser: Parse router end
+10-25 09:58:02.764  3094  3094 I adbd    : in ShellService: export ANDROID_LOG_TAGS="''"; exec logcat '-v' 'threadtime' '*:I'
+10-25 09:58:02.774  3094  3094 I adbd    : in ShellService: getevent -lt
+10-25 09:58:02.780  3094  3094 I adbd    : in ShellService: ime enable io.github.ylimit.droidbotapp/.DroidBotIME
+10-25 09:58:02.784  7756  8929 I ThumbnailBlurUtils: loadPrivacyThumbnailBlurMonthly successd{"com.musicworx":-1,"com.baidu.BaiduMap":3,"com.google.android.apps.youtube.music":27,"com.google.android.apps.tasks":5,"com.jijia.jjweather":5,"com.netease.newsreader.activity":11,"com.instagram.android":5,"com.microsoft.emmx":5,"com.getsurfboard":-1,"com.android.fileexplorer":5,"com.miui.compass":5,"com.microsoft.office.outlook":10,"com.jijia.bqwnl":5,"com.autonavi.minimap":3,"com.miui.calculator":5,"org.secuso.privacyfriendlytodolist":-1,"com.android.contacts":5,"com.xiaomi.scanner":5,"com.miui.securitycenter":5,"com.android.vending":5,"com.yahoo.mobile.client.android.mail":5,"com.einnovation.temu":-1,"com.duokan.reader":7,"com.wuba.zhuanzhuan":9,"io.appium.settings":-1,"com.android.chrome":5,"com.xingin.xhs":5,"com.dragon.read":7,"tv.danmaku.bili":27,"com.ebay.mobile":5,"com.miui.gallery":6,"todolist.scheduleplanner.dailyplanner.todo.reminders":5,"com.alibaba.aliexpresshd":9,"com.android.email":10,"com.todoist":5,"com.spotify.music":5,"com.xiaomi.market":5,"com.microsoft.todos":10,"com.skysoft.kkbox.android":27,"com.miui.notes":5,"com.smile.gifmaker":27,"com.xiaomi.gamecenter":5,"com.ss.android.ugc.aweme.lite":6,"com.android.browser":5,"com.anydo":5,"de.baumann.browser":-1,"com.suxing.sustream":-1,"com.miui.virtualsim":5,"com.sina.news":11,"com.miui.weather2":5,"com.miui.video":27,"douzifly.list":-1,"com.google.android.documentsui":-1,"com.ss.android.article.news":11,"com.android.mms":5,"cn.ninegame.gamemanager":5,"com.kuaishou.nebula":27,"com.android.providers.downloads.ui":5,"com.tencent.android.qqdownloader":5,"com.android.camera":6,"com.google.android.gm":5,"cn.amazon.mShop.android":9,"com.google.android.apps.magazines":5,"com.android.calendar":10,"io.github.ylimit.droidbotapp":-1,"ru.mail.mailapp":5,"com.android.settings":-1,"com.zhuantech.sijiweather":-1,"com.cnn.mobile.android.phone":11,"com.android.soundrecorder":5}
+10-25 09:58:02.787  3094  3094 I adbd    : in ShellService: ps
+10-25 09:58:02.887 12107 32573 I Market-DownloadLimitSpeedManager: stopLimitSpeed
+10-25 09:58:02.887 12107 32573 I Market-LimitSpeedManager: stopLimitSpeedNow() =========== 
+10-25 09:58:02.888  7674  7681 I AidlLazyServiceRegistrar: Process has 0 (of 2 available) client(s) in use after notification android.system.virtualizationmaintenance has clients: 0
+10-25 09:58:02.888  7674  7681 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+10-25 09:58:02.889  7674  7681 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+10-25 09:58:02.898  3094  3094 I adbd    : in ShellService: ime set io.github.ylimit.droidbotapp/.DroidBotIME
+10-25 09:58:02.933  2318  3573 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-25 09:58:02.934 15030 15030 E BaseInputMethodService: onUnbindInput
+10-25 09:58:02.935  4299  4299 I HandWritingStubImpl: refreshLastKeyboardType: 1
+10-25 09:58:02.935  4299  4299 I HandWritingStubImpl: getCurrentKeyboardType: 1
+10-25 09:58:02.939  9264  9430 I IMECheckManager: getSelectedInputMethod, ime is io.github.ylimit.droidbotapp/.DroidBotIME
+10-25 09:58:02.940  9264  9430 I IMECheckManager: InputMethodObserver, userId is 0, ime = io.github.ylimit.droidbotapp/.DroidBotIME
+10-25 09:58:02.938  7756  8138 I k1      : input method change: 
+10-25 09:58:02.944  9264  9430 I IMECheckManager: getSelectedInputMethod, ime is io.github.ylimit.droidbotapp/.DroidBotIME
+10-25 09:58:02.944  2318  3600 W InputMethodManagerService: Clear show forced flag.
+10-25 09:58:02.944  2318  3600 W SecurityInputMethodSwitcher: first check switch to security ime: false
+10-25 09:58:02.945  9264  9430 I IMECheckManager: updateCurrentIME, userId is 0, ime is io.github.ylimit.droidbotapp/.DroidBotIME, pkg is io.github.ylimit.droidbotapp, uid is 10437
+10-25 09:58:02.945  9264  9430 I ActiveStateController: Ime outdated, uid is 10183
+10-25 09:58:02.945  9264  9444 I PowerKeeperConfigureManager: userId is 0, Ime outdated, uid is 10183
+10-25 09:58:02.946  2318  3600 W SecurityInputMethodSwitcher: double check switch to security ime: false
+10-25 09:58:02.946  2318  3600 W SecurityInputMethodSwitcher: switch to other input method from security ime:false mayChangeToMiuiSecurityInputMethod: false current focus window: android.os.BinderProxy@cee9eea
+10-25 09:58:02.946  4299  4299 I HandWritingStubImpl: refreshLastKeyboardType: 1
+10-25 09:58:02.946  4299  4299 I HandWritingStubImpl: getCurrentKeyboardType: 1
+10-25 09:58:02.947  9264  9430 I ActiveStateController: Ime update, uid is 10437
+10-25 09:58:02.949  9264  9444 I PowerKeeperConfigureManager: userId is 0, Ime update, uid is 10437
+10-25 09:58:02.950  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: unbindService is called for service : com.sohu.inputmethod.sogou.xiaomi/.SogouIME and for client system
+10-25 09:58:02.950  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: size of service connections for service: com.sohu.inputmethod.sogou.xiaomi/.SogouIMEafter removal is 0
+10-25 09:58:02.950  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: size of client connections for client: systemafter removal is 33
+10-25 09:58:02.951  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: destroyService is called for service : com.sohu.inputmethod.sogou.xiaomi/.SogouIME
+10-25 09:58:02.951  2318  3600 W InputManager-JNI: Input channel object '41b8e08 InputMethod (client)' was disposed without first being removed with the input manager!
+10-25 09:58:02.951  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10183, uidState = 10
+10-25 09:58:02.953  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: bindService is called for service : io.github.ylimit.droidbotapp/.DroidBotIME and for client system
+10-25 09:58:02.953  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: total connections for service : io.github.ylimit.droidbotapp/.DroidBotIMEare :1
+10-25 09:58:02.953  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: total connections for client : systemare :34
+10-25 09:58:02.954  1908  1908 E DisplayModeController: setDesiredMode : Idle status skip setActiveMode, isDdicIdleMode: 1
+10-25 09:58:02.954  2318  3600 W InputMethodManagerService: Clear show forced flag.
+10-25 09:58:02.955  2318  3600 W SecurityInputMethodSwitcher: first check switch to security ime: false
+10-25 09:58:02.955  2318  3600 W SecurityInputMethodSwitcher: double check switch to security ime: false
+10-25 09:58:02.955  2318  3600 W SecurityInputMethodSwitcher: switch to other input method from security ime:false mayChangeToMiuiSecurityInputMethod: false current focus window: android.os.BinderProxy@cee9eea
+10-25 09:58:02.957  1656  1656 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: display:66-0, config: 3, WxH 1200x2670, fps 120
+10-25 09:58:02.957  1656  1656 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1150000000
+10-25 09:58:02.957  1656  1656 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1200x2670-1 for Peripheral
+10-25 09:58:02.957  2318  5453 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+10-25 09:58:02.957  1656  1656 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 1 to 3
+10-25 09:58:02.957  1656  1656 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1200x2670 ,ddic_mode:auto, timing_fps: 120, sf_fps: 120
+10-25 09:58:02.958  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:02.958  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:02.959 15030 15030 E BaseInputMethodService: onDestroy
+10-25 09:58:02.960  2318  5401 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+10-25 09:58:02.960  4305  6666 I htmlviewercloudcontrol: isStagingEnv:false param =  InputMethod  uriMatch = 2, cluster: cn, version: 617443, traceId: 3d9ee4589440844b19bc5124043f95bb, regId: +4z3RS85+e2U9l+sd6caQ/srGmJCsEbKpG1twyPn1K0CrNNyxYT/yAgGVxm5X+yC
+10-25 09:58:02.961 15030 15030 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@6c5d3d8
+10-25 09:58:02.961  2318  5449 W WindowManager: Failed looking up window session=Session{f10af27 15030:u0a10183} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:7019 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:1092 android.view.IWindowSession$Stub.onTransact:1281 
+10-25 09:58:02.961  2318  5449 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.sohu.inputmethod.sogou.xiaomi
+10-25 09:58:02.961  2318  5453 W WindowManager: Cannot find window which accessibility connection is added to
+10-25 09:58:02.962  2318  3998 W WindowManager: Failed looking up window session=Session{f10af27 15030:u0a10183} callers=com.android.server.wm.WindowManagerService.removeClientToken:2442 com.android.server.wm.Session.remove:290 android.view.IWindowSession$Stub.onTransact:741 
+10-25 09:58:02.964 15030 15030 I IMEBottomManager: disableQuickMoveCursor
+10-25 09:58:02.967  2318  4476 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+10-25 09:58:02.967  2318  4476 I SmartPower: com.miui.phrase/10162(22166): idle->background(16034ms) R(content provider start ContentProviderRecord{3ff3f0e u0 com.miui.phrase/com.miui.provider.InputProvider}) adj=0.
+10-25 09:58:02.968  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10162, uidState = 10
+10-25 09:58:02.982  2318  5445 E InputMethodManagerService: Ignoring com.android.server.inputmethod.InputMethodManagerService.updateStatusIcon:2768 due to an invalid token. uid:10183 token:android.os.Binder@4f235f5
+10-25 09:58:02.986 15030 15030 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@3586a53
+10-25 09:58:02.987  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10183, uidState = 16
+10-25 09:58:02.988  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10162, uidState = 19
+10-25 09:58:02.988  3030 15012 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:02.992  9380  9650 W ziparchive: Unable to open '/system/framework/QXPerformance.dm': No such file or directory
+10-25 09:58:02.992  9380  9650 W ziparchive: Unable to open '/system/framework/QXPerformance.dm': No such file or directory
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{93059e9 com.miui.screenrecorder/10273} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{831766e com.android.cts.priv.ctsshim/10252} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{639210f com.android.uwb.resources/10242} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{4c0d835 com.android.internal.display.cutout.emulation.corner/10008} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{5fa64ca com.android.internal.display.cutout.emulation.double/10013} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{25bec5 io.appium.settings/10274} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{effd59c com.unionpay.tsmservice.mi/10185} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{8ababa5 com.android.healthconnect.controller/10245} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{6028b7a com.wuba.zhuanzhuan/10260} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ff0bf2b com.alibaba.aliexpresshd/10303} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{a02af88 com.google.android.onetimeinitializer/10123} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{fd05d21 com.android.health.connect.backuprestore/10246} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9de546 com.google.android.ext.shared/10150} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{93a2307 com.android.virtualmachine.res/10237} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{f49370 com.android.providers.telephony.auto_generated_characteristics_rro/10072} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{2d73c34 com.xiaomi.gamecenter.sdk.service/10140} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{e34aa5d com.android.htmlviewer/10092} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9430fd2 com.miui.gallery/10271} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ecbe8a3 com.ss.android.ugc.aweme.lite/10431} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ec5e7a0 com.quicinc.voice.activation/10214} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{c968f59 com.google.android.configupdater/10122} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{39e571e com.android.soundrecorder/10276} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{82a6bff com.suxing.sustream/10338} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{d31ddcc io.appium.uiautomator2.server/10283} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{797c815 com.android.safetycenter.resources/10240} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{fd4c72a org.secuso.privacyfriendlytodolist/10270} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{6c3c91b com.android.providers.downloads.ui/10261} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{e850ab8 com.android.simappdialog/10113} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{a39d091 com.xingin.xhs/10286} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9502bf6 com.android.connectivity.resources/10244} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{acbdbf7 com.cnn.mobile.android.phone/10316} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{8be8c59 com.android.internal.display.cutout.emulation.hole/10010} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{dbb101e com.android.internal.display.cutout.emulation.tall/10011} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ddc1a64 com.android.modulemetadata/10174} BLOCKED
+10-25 09:58:02.993  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{c43becc com.android.internal.systemui.navbar.threebutton/10051} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{419e4cd com.android.wifi.dialog/10211} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{64b1182 com.tencent.android.qqdownloader/10324} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9d84093 com.android.contacts/10132} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{97278d0 cn.amazon.mShop.android/10301} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{76d00c9 com.miui.securitymanager/10272} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{41cc3ce com.android.mms/10141} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{33c52ef com.jijia.bqwnl/10327} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{5ce51fc com.yahoo.mobile.client.android.mail/10341} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{abbe085 com.mfashiongallery.emag/10262} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{c454eda com.instagram.android/10289} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{e252f0b com.google.android.gm/10290} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{7ac91e8 com.android.compos.payload/10243} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{a5f0001 com.microsoft.emmx/10311} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{e397ea6 com.android.settings.intelligence/10142} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{d75b0e7 com.android.calendar/10265} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ace494 com.miui.virtualsim/10277} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{5ba9b3d com.microsoft.office.outlook/10323} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9eedf32 com.miui.compass/10267} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{5627483 com.android.printspooler/10224} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{abdb600 com.android.dreams.basic/10103} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{43aae39 com.android.incallui/10126} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{727bc7e com.musicworx/10320} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ecdd5df com.android.rkpdapp/10254} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{f07483d com.newcall.overlay.miui/10041} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{e48322c todolist.scheduleplanner.dailyplanner.todo.reminders/10299} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{fe76983 android.auto_generated_characteristics_rro/10068} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{e0ef4f5 com.android.musicfx/10094} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{57f228a com.todoist/10298} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{463f0fb com.google.android.webview/10188} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{f1c4518 com.zhuantech.sijiweather/10337} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{4a6eb71 com.ss.android.article.news/10325} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{4a441f5 com.android.phone.auto_generated_characteristics_rro/10060} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{134dd56 com.android.chrome/10282} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{576a1d7 com.android.wifi.resources/10258} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{c1c9ac4 com.skysoft.kkbox.android/10285} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{6edcdad com.getsurfboard/10279} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{8b978e2 com.netease.newsreader.activity/10313} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{5fe1bc4 com.android.theme.font.notoserifsource/10017} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{a998473 com.kuaishou.nebula/10432} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{fd161e2 com.android.internal.display.cutout.emulation.waterfall/10012} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ec5b973 com.android.internal.systemui.navbar.transparent/10063} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{daa9f30 com.miui.newhome/10296} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{d4697a9 com.miui.video/10294} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{efa412e com.google.android.printservice.recommendation/10153} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{7fdf4cf com.spotify.music/10317} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ed27e5c com.google.android.documentsui/10100} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9480565 com.google.android.accessibility.switchaccess/10184} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{66d423a com.sohu.inputmethod.sogou.xiaomi/10183} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{98f0eeb cn.ninegame.gamemanager/10330} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{6e97b09 io.appium.uiautomator2.server.test/10280} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{d372448 com.baidu.BaiduMap/10331} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{53892e1 com.android.providers.partnerbookmarks/10109} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{dd4806 com.android.smspush/10230} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{4cdaec7 com.miui.calculator/10263} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{bbe3cf4 de.baumann.browser/10308} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{f4a7c1d com.android.wallpaper.livepicker/10091} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ff5de92 com.android.cellbroadcastreceiver.module/10255} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{c6c7063 com.android.apps.tag/10098} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{3fc3460 com.android.imsserviceentitlement/10125} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{c97bd19 com.xiaomi.gamecenter/10288} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{28f51de com.android.appsearch.apk/10257} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{1abafbf com.dragon.read/10335} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{dbd6e27 com.anydo/10292} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{260368c com.miui.cleanmaster/10266} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{fde11d5 com.miui.weather2/10278} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{abaadea com.autonavi.minimap/10333} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{f7588db com.xiaomi.scanner/10281} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9202f78 com.google.android.apps.tasks/10300} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ffaf651 com.duokan.reader/10287} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9d5e963 com.android.cts.ctsshim/10253} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{88dbeb6 douzifly.list/10182} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{b39d7b7 com.miui.yellowpage/10137} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{5e4cb24 com.einnovation.temu/10304} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{a773b0d com.android.microdroid.empty_payload/10236} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{a27a68d com.android.email/10268} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{5af1042 com.android.music/10175} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{6357590 com.android.hotspot2.osulogin/10259} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{8ca8690 com.android.companiondevicemanager.auto_generated_characteristics_rro/10006} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{bf51e89 com.google.android.gms.location.history/10152} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{da1ee8e com.smile.gifmaker/10339} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{d570baf com.android.internal.systemui.navbar.gestural/10052} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{47606af ru.mail.mailapp/10321} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{6a45abc com.google.android.apps.youtube.music/10318} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{1081a45 com.android.bluetoothmidiservice/10104} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ed2659a com.jijia.jjweather/10336} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9a65ecb com.ebay.mobile/10291} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{8ba66a8 com.google.android.apps.magazines/10315} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{a655a66 com.qualcomm.qti.server.wigig.tethering.rro/10229} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{9515c1 com.sina.news/10314} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{614166 tv.danmaku.bili/10430} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{63a1ca7 com.android.captiveportallogin/10106} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{ba34554 com.microsoft.todos/10293} BLOCKED
+10-25 09:58:02.994  2318  4476 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{69c4cfd com.miui.core/10194} BLOCKED
+10-25 09:58:02.997  3094  3094 I adbd    : in ShellService: getprop ro.build.version.release
+10-25 09:58:02.999  2318  5449 W ActivityManager: Permission Denial: getCurrentUser() from pid=9380, uid=10437 requires android.permission.INTERACT_ACROSS_USERS
+10-25 09:58:02.999  9380  9380 W libc    : Access denied finding property "vendor.boostfwk.frameprefetcher"
+10-25 09:58:02.999  9380  9651 E FramePredict: registerContentObserver fail
+10-25 09:58:02.996  9380  9380 W mit.droidbotapp: type=1400 audit(0.0:13056): avc:  denied  { read } for  name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=479 scontext=u:r:untrusted_app_32:s0:c181,c257,c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=io.github.ylimit.droidbotapp
+10-25 09:58:02.999  9380  9380 W libc    : Access denied finding property "ro.vendor.df.effect.conflict"
+10-25 09:58:03.015  9380  9380 I ViewRootImpl: InputMethod use first frame acceleration
+10-25 09:58:03.017  2318  5449 I SmartPower: io.github.ylimit.droidbotapp/10437(9380): background->visible(970ms) R(become visible) adj=200.
+10-25 09:58:03.033  9380  9380 I Choreographer: first vsync insert message into MessageQueue Head
+10-25 09:58:03.039  4299  4299 I HandWritingStubImpl: getCurrentKeyboardType: 1
+10-25 09:58:03.061  3094  3094 I adbd    : in ShellService: getprop ro.secure
+10-25 09:58:03.073  2318  4219 I SmartPower: com.sohu.inputmethod.sogou.xiaomi/10183(15030): background->idle(31006ms) R(become background) adj=900.
+10-25 09:58:03.096 12107 32573 I Market-RetrofitRequest: callEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+10-25 09:58:03.098  9380  9406 I mit.droidbotapp: Compiler allocated 5390KB to compile void android.view.ViewRootImpl.performTraversals()
+10-25 09:58:03.098 12107 32573 W Market-Connection: Connection result is cut off as too long
+10-25 09:58:03.100  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.7,cct:7035.6,hsv:-1.0,dc:0CWB R:3159.1,G:7712.0,B:4918.8Event C:4464.3,R:2282.6,G:1569.3,B:931.4Cali C:1016.3,R:533.3,G:233.5,B:120.0 
+10-25 09:58:03.104 12107 32573 I Market-LocalAppManager: getUpdateInfoFromServer : end  , responseCode : OK
+10-25 09:58:03.104 12107 32573 I Market-LocalAppManager: checkUpdateFromServer : end
+10-25 09:58:03.106 12107 32573 I Market-LocalAppManager: checkUpdateFromServer  data parser : end
+10-25 09:58:03.106 12107 32573 I Market-HuanjiManager: condition not satisfied, ignore
+10-25 09:58:03.106 12107 32573 I Market-DataParser: [InvalidPackageList] JSON : invalidSystemPackageList list is null
+10-25 09:58:03.106 12107 32573 I Market-LocalAppManager: checkUpdateFromServer  filter package : end
+10-25 09:58:03.107 12107 32573 I Market-LocalAppManager: checkUpdateFromServer  support64BitPackagesJsonArray : end
+10-25 09:58:03.107 12107 32573 I Market-LocalAppManager: query update apps from server : finish, 67 / 420 to update
+10-25 09:58:03.110  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 69999 us
+10-25 09:58:03.116 12107 32573 I Market-RetrofitRequest: callStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/priority
+10-25 09:58:03.117 12107 32573 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/priority
+10-25 09:58:03.119 12107 32573 I Market-RetrofitRequest: dnsStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/priority
+10-25 09:58:03.119 12107 32573 I Market-HttpDns: HttpDns hostname updateinfo.market.xiaomi.com address : [updateinfo.market.xiaomi.com/101.126.91.123, updateinfo.market.xiaomi.com/124.251.101.62, updateinfo.market.xiaomi.com/2403:a200:a200:14f1::1f, updateinfo.market.xiaomi.com/240e:83:201:74f0::6, updateinfo.market.xiaomi.com/2406:d440:106:5700:1117:9e8e:1ac:de9c]
+10-25 09:58:03.119 12107 32573 I Market-RetrofitRequest: dnsEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/priority
+10-25 09:58:03.119 12107 32573 I Market-LimitSpeedManager: startLimitSpeedNow() ====== speed = 32768
+10-25 09:58:03.123 12107 32573 I Market-DownloadLimitSpeedManager: startLimitSpeed success. Total count 1
+10-25 09:58:03.123 12107 32573 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/priority
+10-25 09:58:03.155  1656  1656 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: display:66-0, config: 1, WxH 1200x2670, fps 120
+10-25 09:58:03.156  1656  1656 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1150000000
+10-25 09:58:03.156  1656  1656 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1200x2670-1 for Peripheral
+10-25 09:58:03.157  1656  1656 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 1
+10-25 09:58:03.157  1656  1656 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1200x2670 ,ddic_mode:idle, timing_fps: 120, sf_fps: 120
+10-25 09:58:03.159  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:03.160  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:03.163  3094  3094 I adbd    : in ShellService: getprop ro.debuggable
+10-25 09:58:03.179  3030  3112 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:03.225  3094  3094 I adbd    : in ShellService: dumpsys display
+10-25 09:58:03.235  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+10-25 09:58:03.278  2318  5449 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+10-25 09:58:03.297 12107 32573 I Market-DownloadLimitSpeedManager: stopLimitSpeed
+10-25 09:58:03.297 12107 32573 I Market-LimitSpeedManager: stopLimitSpeedNow() =========== 
+10-25 09:58:03.301  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.3,cct:7094.3,hsv:-1.0,dc:0CWB R:3159.1,G:7712.0,B:4918.8Event C:4445.2,R:2267.6,G:1557.9,B:928.0Cali C:1016.3,R:533.3,G:233.5,B:120.0 
+10-25 09:58:03.302 12107 32573 I Market-RetrofitRequest: callEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/priority
+10-25 09:58:03.307 12107 32573 I Market-SystemSettingsManager: extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+10-25 09:58:03.307 12107 32573 I Market-UpdateAppList: notify update appList changed: pkg (65) = com.milink.service,com.miui.hybrid,com.baidu.BaiduMap,com.miui.cleanmaster,com.netease.newsreader.activity,com.microsoft.emmx,com.android.fileexplorer,com.xiaomi.aiasst.vision,com.microsoft.office.outlook,com.miui.newhome,com.autonavi.minimap,com.miui.mishare.connectivity,com.android.contacts,com.unionpay.tsmservice.mi,com.miui.greenguard,com.miui.voiceassist,com.miui.thirdappassistant,com.xiaomi.scanner,com.miui.securitycenter,com.einnovation.temu,com.duokan.reader,com.wuba.zhuanzhuan,com.xingin.xhs,com.android.updater,com.miui.touchassistant,tv.danmaku.bili,com.dragon.read,com.miui.gallery,com.miui.cloudservice,com.miui.screenrecorder,com.alibaba.aliexpresshd,com.mfashiongallery.emag,com.xiaomi.market,com.miui.carlink,com.miui.notes,com.xiaomi.payment,com.miui.home,com.xiaomi.gamecenter,com.smile.gifmaker,com.miui.analytics,com.ss.android.ugc.aweme.lite,com.android.browser,com.xiaomi.account,com.suxing.sustream,com.xiaomi.mis,com.miui.virtualsim,com.android.quicksearchbox,com.sina.news,com.miui.video,com.ss.android.article.news,com.miui.miwallpaper,com.xiaomi.mi_connect_service,com.miui.personalassistant,com.miui.securityadd,com.kuaishou.nebula,com.xiaomi.gamecenter.sdk.service,com.xiaomi.simactivate.service,com.miui.bugreport,cn.amazon.mShop.android,com.xiaomi.digitalkey,com.android.calendar,com.xiaomi.aicr,com.xiaomi.xmsf,com.xiaomi.mirror,com.android.soundrecorder
+10-25 09:58:03.307 12107 32573 I Market-SystemSettingsManager: extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 65
+10-25 09:58:03.309 12107 32751 I Market-SubScriptManager: updateMarketSubScript forceShow : false
+10-25 09:58:03.310 12107 32751 I Market-SubScriptManager: get count 65
+10-25 09:58:03.310 12107 32751 I Market-SubScriptManager: get count 65
+10-25 09:58:03.311 12107 32573 I Market-LocalAppManager: queryDiffSizeFromServer start
+10-25 09:58:03.313 12107 32573 I Market-RetrofitRequest: callStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/diffsize
+10-25 09:58:03.313 12107 32573 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/diffsize
+10-25 09:58:03.315  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 1
+10-25 09:58:03.315  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:03.315 12107 32573 I Market-RetrofitRequest: dnsStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/diffsize
+10-25 09:58:03.315 12107 32573 I Market-HttpDns: HttpDns hostname updateinfo.market.xiaomi.com address : [updateinfo.market.xiaomi.com/124.251.101.62, updateinfo.market.xiaomi.com/101.126.91.123, updateinfo.market.xiaomi.com/2403:a200:a200:14f1::1f, updateinfo.market.xiaomi.com/240e:83:201:74f0::6, updateinfo.market.xiaomi.com/2406:d440:106:5700:1117:9e8e:1ac:de9c]
+10-25 09:58:03.315 12107 32573 I Market-RetrofitRequest: dnsEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/diffsize
+10-25 09:58:03.316 12107 32573 I Market-LimitSpeedManager: startLimitSpeedNow() ====== speed = 32768
+10-25 09:58:03.321 12107 32573 I Market-DownloadLimitSpeedManager: startLimitSpeed success. Total count 1
+10-25 09:58:03.321 12107 32573 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/diffsize
+10-25 09:58:03.326 11547 11678 I Ad      : isPersonalizedAdEnabled getAdSettings: 1
+10-25 09:58:03.330  7707  7707 I RuntimePermissionManager: isRuntimeRequestSupport: true
+10-25 09:58:03.336  3030 15012 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:03.341  2318  2525 I AppsFilter: interaction: PackageSetting{a773b0d com.android.microdroid.empty_payload/10236} -> PackageSetting{260368c com.miui.cleanmaster/10266} BLOCKED
+10-25 09:58:03.341  2318  2525 I AppsFilter: interaction: PackageSetting{6e97b09 io.appium.uiautomator2.server.test/10280} -> PackageSetting{260368c com.miui.cleanmaster/10266} BLOCKED
+10-25 09:58:03.341  2318  2525 I AppsFilter: interaction: PackageSetting{a271d9 io.github.ylimit.droidbotapp/10437} -> PackageSetting{260368c com.miui.cleanmaster/10266} BLOCKED
+10-25 09:58:03.342  2318  2525 I AppsFilter: interaction: PackageSetting{b54f72f com.rongcard.eid/10151} -> PackageSetting{260368c com.miui.cleanmaster/10266} BLOCKED
+10-25 09:58:03.342  2318  2525 I AppsFilter: interaction: PackageSetting{25bec5 io.appium.settings/10274} -> PackageSetting{260368c com.miui.cleanmaster/10266} BLOCKED
+10-25 09:58:03.348  2318  4476 W ParceledListSlice: Element #44 is 26672 bytes.
+10-25 09:58:03.349  2318  4476 W ParceledListSlice: Overly large reply size: 82384
+10-25 09:58:03.349  2318  5445 W ParceledListSlice: Element #45 is 26676 bytes.
+10-25 09:58:03.349  2318  5445 W ParceledListSlice: Element #46 is 26676 bytes.
+10-25 09:58:03.349  2318  5445 W ParceledListSlice: Element #47 is 26684 bytes.
+10-25 09:58:03.350  2318  4476 W ParceledListSlice: Element #48 is 26688 bytes.
+10-25 09:58:03.350  2318  4476 W ParceledListSlice: Element #54 is 29724 bytes.
+10-25 09:58:03.350  2318  4476 W ParceledListSlice: Overly large reply size: 82972
+10-25 09:58:03.350  2318  5445 W ParceledListSlice: Element #55 is 29744 bytes.
+10-25 09:58:03.351  2318  5445 W ParceledListSlice: Element #56 is 29736 bytes.
+10-25 09:58:03.355  4663  5397 E SmsApplication: com.android.mms lost android:read_cell_broadcasts:  (fixing)
+10-25 09:58:03.355  2318  5401 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 10141, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+10-25 09:58:03.357  7438  7438 E RegisteredServicesCache: Skipping application component ComponentInfo{com.autonavi.minimap/com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService}: it must request the permission android.permission.NFC
+10-25 09:58:03.357  7438  7438 E RegisteredServicesCache: Skipping application component ComponentInfo{com.autonavi.minimap/com.alipay.mobile.aompdevice.nfc.service.TinyAppHostApduService}: it must request the permission android.permission.NFC
+10-25 09:58:03.359  2318  5445 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-25 09:58:03.359  7438  7438 I RegisteredServicesCache: current user: 0, is managed profile : false
+10-25 09:58:03.360  2318  5401 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-25 09:58:03.360  2318  5453 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+10-25 09:58:03.360  7438  7438 I RegisteredAidCache: updateRoutingLocked(false): Enter
+10-25 09:58:03.360  7438  7438 I AidRoutingManager: configureRouting(false): Enter
+10-25 09:58:03.360  7438  7438 E AidRoutingManager: Size of routing table970
+10-25 09:58:03.360  7438  7438 I RegisteredAidCache: updateRoutingLocked(false): exit
+10-25 09:58:03.360  2318  5445 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+10-25 09:58:03.361  2318  4476 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+10-25 09:58:03.361  7438  7438 I libnfc_nci: [INFO:NativeT4tNfcee.cpp(870)] nfcManager_isFwSupportNonStdT4TAid Enter isFwSupport = 1
+10-25 09:58:03.361  7438  7438 I libnfc_nci: [INFO:SecureElement.cpp(1487)] SecureElement::getEseHandleFromGenericId: enter; ESE-ID = 0x7F
+10-25 09:58:03.361  7438  7438 I libnfc_nci: [INFO:SecureElement.cpp(1528)] SecureElement::getEseHandleFromGenericId: enter; ESE-Handle = 0x410
+10-25 09:58:03.362  7438  7438 I libnfc_nci: [INFO:SecureElement.cpp(1487)] SecureElement::getEseHandleFromGenericId: enter; ESE-ID = 0x00
+10-25 09:58:03.362  7438  7438 I libnfc_nci: [INFO:SecureElement.cpp(1528)] SecureElement::getEseHandleFromGenericId: enter; ESE-Handle = 0x400
+10-25 09:58:03.362  6892  6909 I PermissionControllerServiceImpl: Updating user sensitive for uid 10266
+10-25 09:58:03.363  4610  4660 I SecureElement-Terminal-eSE1: isSecureElementPresent()
+10-25 09:58:03.363  1594  1594 I android.hardware.secure_element-service.qti: isCardPresent
+10-25 09:58:03.364  1594  1594 I android.hardware.secure_element-service.qti: isCardPresent exit, cardPresent: 1
+10-25 09:58:03.365  4610  4660 I SecureElement-Terminal-SIM1: isSecureElementPresent()
+10-25 09:58:03.365  4610  4660 I SecureElement-Terminal-SIM1: isNfcEventAllowed: No access rules for checking.
+10-25 09:58:03.365  4610  4660 I SecureElement-Terminal-SIM2: isSecureElementPresent()
+10-25 09:58:03.367  7707  8104 I RuntimePermissionManager: isRuntimeRequestSupport: true
+10-25 09:58:03.367  7707  8104 I InstalledPackagesMemoryCache: getInstallPermissionGranted=true
+10-25 09:58:03.385  2318  2447 W EnhancedConfirmationService: The packageName should not be null.
+10-25 09:58:03.386  2318  2447 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-25 09:58:03.393  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+10-25 09:58:03.411  3094  3094 I adbd    : in ShellService: wm size
+10-25 09:58:03.435  2318  2451 W BroadcastQueue: Greezer Denial: sending Intent { act=android.intent.action.INPUT_METHOD_CHANGED flg=0x20000010 (has extras) }, action: android.intent.action.INPUT_METHOD_CHANGED from android (uid=1000) due to receiver ProcessRecord{3fdfc 12838:com.getsurfboard/u0a279} (uid 10279) need cached broadcast
+10-25 09:58:03.503 12107 32573 I Market-DownloadLimitSpeedManager: stopLimitSpeed
+10-25 09:58:03.503 12107 32573 I Market-LimitSpeedManager: stopLimitSpeedNow() =========== 
+10-25 09:58:03.506  8429 28926 E PackageUtil: getPackageInfoAsUser failed com.baidu.searchbox.lite , 999
+10-25 09:58:03.508 12107 32573 I Market-RetrofitRequest: callEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/diffsize
+10-25 09:58:03.508  8429 28926 E PermissionManagerProvider:  getPackageInfo is null packageName : com.baidu.searchbox.lite
+10-25 09:58:03.508 12107 32573 I Market-LocalAppManager: queryDiffSizeFromServer end
+10-25 09:58:03.509 12107 31960 I Market-SubScriptManager: updateMarketSubScript forceShow : false
+10-25 09:58:03.509 12107 31960 I Market-SubScriptManager: get count 65
+10-25 09:58:03.510 12107 31960 I Market-SubScriptManager: get count 65
+10-25 09:58:03.511 12107 32573 I Market-WakeLockManager: release wakeLock: CheckUpdateService
+10-25 09:58:03.511  8429 28926 E PackageUtil: getPackageInfoAsUser failed com.tencent.qqmusic , 999
+10-25 09:58:03.512  8429 28926 E PermissionManagerProvider:  getPackageInfo is null packageName : com.tencent.qqmusic
+10-25 09:58:03.513  2318  3998 I ActivityManager: Cancel FGS notification userId: 0 definingUid: 10167 packageName: com.xiaomi.market processName:com.xiaomi.market ChannelId:com.xiaomi.market_hide foregroundNotiWhen:1761357482372 Notiflags:104
+10-25 09:58:03.513  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: destroyService is called for service : com.xiaomi.market/.business_core.update.auto.CheckUpdateService
+10-25 09:58:03.513  2318  3998 W ForegroundServiceTypeLoggerModule: FGS stop call for: 10167 has no types!
+10-25 09:58:03.513  8429 28926 E PackageUtil: getPackageInfoAsUser failed io.github.ylimit.droidbotapp , 999
+10-25 09:58:03.513  2318  2318 I NotificationService: Cancel FGS notification CallingUid: 10167 CallingPid: 12107 Pkg: com.xiaomi.market Id:137558623 Tag:null UserId:0 MustHaveFlags:0 MustNotHaveFlags:0 Reason:8 foregroundNotiWhen:1761357482372 foregroundNotiFlags:104 foregroundNotiChannelId:com.xiaomi.market_hide
+10-25 09:58:03.515 18798 28240 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.515 12107 12107 I Market-ServiceUtils: stop foreground service: CheckUpdateService
+10-25 09:58:03.516  8429 28926 E PackageUtil: getPackageInfoAsUser failed com.quark.browser , 999
+10-25 09:58:03.516  8429 28926 E PermissionManagerProvider:  getPackageInfo is null packageName : com.quark.browser
+10-25 09:58:03.520  8429 28926 E PackageUtil: getPackageInfoAsUser failed com.baidu.searchbox , 999
+10-25 09:58:03.520  4692  4692 E NotifCollection: No notification to remove with key 0|com.xiaomi.market|137558623|null|10167 reason=8:REASON_APP_CANCEL
+10-25 09:58:03.520  8429 28926 E PermissionManagerProvider:  getPackageInfo is null packageName : com.baidu.searchbox
+10-25 09:58:03.521  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10261, uidState = 19
+10-25 09:58:03.521  2318  3691 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10261,add=false
+10-25 09:58:03.521  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10203, uidState = 6
+10-25 09:58:03.521  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10167, uidState = 19
+10-25 09:58:03.521  2318  3691 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10167,add=false
+10-25 09:58:03.521  2318  3691 I MiuiNetworkPolicy: updateUidState uid = 10158, uidState = 19
+10-25 09:58:03.522  2318  3691 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10158,add=false
+10-25 09:58:03.523 18798 18823 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.526 18798 28240 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.529  3094  3094 I adbd    : in ShellService: dumpsys input
+10-25 09:58:03.535  8429 28926 E PackageUtil: getPackageInfoAsUser failed com.UCMobile , 999
+10-25 09:58:03.536 18798 18823 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.536  8429 28926 E PermissionManagerProvider:  getPackageInfo is null packageName : com.UCMobile
+10-25 09:58:03.540 18798 18823 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.542 18798 18823 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.545 18798 28240 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.548 18798 18823 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.550 18798 28240 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.552 18798 18823 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.555 18798 28240 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.558 18798 28240 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.559 18798 28240 I auth    : [XMS][Auth] updateAuthInfo in db true
+10-25 09:58:03.563 12107 12129 I m.xiaomi.market: This is non sticky GC, maxfree is 16777216 minfree is 8388608
+10-25 09:58:03.568 12107 12131 W System  : A resource failed to call close. 
+10-25 09:58:03.568 12107 12131 W System  : A resource failed to call close. 
+10-25 09:58:03.571 12107 12131 W m.xiaomi.market: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/MiuiHome/MiuiHome.apk' with 1 weak references
+10-25 09:58:03.572 12107 12131 W System  : A resource failed to call close. 
+10-25 09:58:03.572 12107 12131 W System  : A resource failed to call close. 
+10-25 09:58:03.631  3094  3094 I adbd    : in ShellService: getprop ro.sf.lcd_density
+10-25 09:58:03.701  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.6,cct:7153.5,hsv:-1.0,dc:0CWB R:3159.1,G:7712.0,B:4918.8Event C:4473.7,R:2274.0,G:1559.7,B:932.6Cali C:1016.3,R:533.3,G:233.5,B:120.0 
+10-25 09:58:03.736  3094  3094 I adbd    : in ShellService: input keyevent MENU
+10-25 09:58:03.791  2318  4476 W MIUIInput: Input event injection from package: null action ACTION_DOWN keycode 82
+10-25 09:58:03.792  2318  4476 W MiuiInputKeyEventLog: keyCode:82 down:true eventTime:12698017 downTime:12698017 policyFlags:2b000000 flags:0 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+10-25 09:58:03.794  1908  1908 E DisplayModeController: setDesiredMode : Idle status skip setActiveMode, isDdicIdleMode: 1
+10-25 09:58:03.794  2318  3572 I InputFeature: supportXiaomiHyperXiaoAi is true
+10-25 09:58:03.794  2318  3572 I InputFeature: supportXiaomiHyperXiaoAiScreenRecognition support
+10-25 09:58:03.794  2318  3572 I InputFeature: supportBlockCombinationKey com.miui.home version: 3
+10-25 09:58:03.794  2318  3572 I MiuiInputKeyEventLog: is show menu
+10-25 09:58:03.795  2318  3572 I MIUIInput: [KeyEvent] publisher action:0x0,  keyCode:82 , deviceId=-1, 12698017,channel '88fbfb6 com.miui.home/com.miui.home.launcher.Launcher (server)' 
+10-25 09:58:03.796  1656  1656 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: display:66-0, config: 3, WxH 1200x2670, fps 120
+10-25 09:58:03.797  1656  1656 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1150000000
+10-25 09:58:03.797  1656  1656 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1200x2670-1 for Peripheral
+10-25 09:58:03.797  4299  4299 I MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.miui.home/com.miui.home.launcher.Launcher', KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=12698017000000, downTime=12698017000000, deviceId=-1, source=0x0, displayId=-1 }, phoneEventTime=09:58:03.791
+10-25 09:58:03.797  1656  1656 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 1 to 3
+10-25 09:58:03.797  1656  1656 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1200x2670 ,ddic_mode:auto, timing_fps: 120, sf_fps: 120
+10-25 09:58:03.798  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:03.799  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:03.805  2318  4476 W MIUIInput: Input event injection from package: null action ACTION_UP keycode 82
+10-25 09:58:03.806  2318  4476 W MiuiInputKeyEventLog: keyCode:82 down:false eventTime:12698031 downTime:12698017 policyFlags:2b000000 flags:0 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+10-25 09:58:03.806  2318  3572 I InputFeature: supportXiaomiHyperXiaoAi is true
+10-25 09:58:03.807  2318  3572 I InputFeature: supportXiaomiHyperXiaoAiScreenRecognition support
+10-25 09:58:03.807  2318  3572 I InputFeature: supportBlockCombinationKey com.miui.home version: 3
+10-25 09:58:03.807  2318  3572 I MiuiInputKeyEventLog: is show menu
+10-25 09:58:03.807  2318  3572 I MIUIInput: [KeyEvent] publisher action:0x1,  keyCode:82 , deviceId=-1, 12698031,channel '88fbfb6 com.miui.home/com.miui.home.launcher.Launcher (server)' 
+10-25 09:58:03.807  4299  4299 I MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.miui.home/com.miui.home.launcher.Launcher', KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=12698031000000, downTime=12698017000000, deviceId=-1, source=0x0, displayId=-1 }, phoneEventTime=09:58:03.805
+10-25 09:58:03.808  4299  4299 I AnimStateManager: IdleState handle event 2006
+10-25 09:58:03.808  4299  4299 I AnimStateManager: CommonState handle event 2006
+10-25 09:58:03.811  4299  4890 I HapticFeedbackUtil: rtp:216
+10-25 09:58:03.820  4340  4362 I MiuiWallpaper-MiuiWallpaperManagerService: isMiuiWallpaperComponentUsing: true
+10-25 09:58:03.824  4340  4362 I MiuiWallpaper-MiuiWallpaperManagerService: isMiuiWallpaperComponentUsing: true
+10-25 09:58:03.825  4340  4362 I MiuiWallpaper-MiuiWallpaperManagerService: isMiuiWallpaperComponentUsing: true
+10-25 09:58:03.825  4340  4362 I MiuiWallpaper-MiuiWallpaperManagerService: isMiuiWallpaperComponentUsing: true
+10-25 09:58:03.827  3030  3112 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:03.832  2318  4476 W ServiceManagerCppClient: Permission failure:  from uid=10138 pid=4299
+10-25 09:58:03.836  1596  1596 I sensors-hal: batch:141, android.sensor.accelerometer/11, period=66667000, max_latency=0
+10-25 09:58:03.836  1596  1596 I sensors-hal: set_config:56, sample_period_ns is adjusted to 66667000 based on min/max delay_ns
+10-25 09:58:03.836  1596  1596 I sensors-hal: batch:150, android.sensor.accelerometer/11, period=66667000, max_latency=0 request completed
+10-25 09:58:03.837  2318  4476 I SensorService: 	>>> actuating h/w activate handle=0x100000b enabled=1
+10-25 09:58:03.837  1596  1596 I sensors-hal: activate:108, android.sensor.accelerometer/11 en=1
+10-25 09:58:03.837  1596  1596 I sensors-hal: acquire_qsh_interface:121, acquire_qsh_interface with sensor_id 104 , conn_type 2 
+10-25 09:58:03.838  2318  2460 E SensorAccount: it is being prepared but doesn't have a pre-existing accountToSensorUsageMap
+10-25 09:58:03.839  2318  2460 I SensorAccount: App register sensor to track it noWakeupSensor_10138_0x100000b
+10-25 09:58:03.839  1568  1723 I minksocket: MinkIPC MESSAGE: ( 1568:1723 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0435b0 sock = 35, client with node 1 port 49e0 went down
+10-25 09:58:03.839  4299  4299 W PreviewDisappear: set, applyTo for info: com.miui.home.launcher.graphics.DrawableInfo@d95fcaf, with icon: null
+10-25 09:58:03.839  1568  1709 I minksocket: MinkIPC MESSAGE: ( 1568:1709 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0406f0 sock = 19, client with node 1 port 49e0 went down
+10-25 09:58:03.840  1568  1723 I minksocket: MinkIPC MESSAGE: ( 1568:1723 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0435b0 sock = 35, client with node 1 port 49e1 went down
+10-25 09:58:03.840  1568  1709 I minksocket: MinkIPC MESSAGE: ( 1568:1709 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0406f0 sock = 19, client with node 1 port 49e1 went down
+10-25 09:58:03.841  1568  1723 I minksocket: MinkIPC MESSAGE: ( 1568:1723 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0435b0 sock = 35, client with node 1 port 49e2 went down
+10-25 09:58:03.841  1568  1709 I minksocket: MinkIPC MESSAGE: ( 1568:1709 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0406f0 sock = 19, client with node 1 port 49e2 went down
+10-25 09:58:03.841  1596  1596 I sensors-hal: qsh_qmi:35, qsh_qmi
+10-25 09:58:03.842  1596  1596 I sensors-hal: register_cb:314, suid(low=11115320498015681092,high=2286538866409242278) is new. register callbacks
+10-25 09:58:03.842  1596  1596 I sensors-hal: send_sensor_config_request:626, resampler is used, set resampler config
+10-25 09:58:03.842  1596  1596 I sensors-hal: send_sync_sensor_request:531, send sync request
+10-25 09:58:03.842  1596  1596 I sensors-hal: send_sync_sensor_request:541, send_sync_sensor_request before send_request for accel with SUID low=11115320498015681092 high=2286538866409242278
+10-25 09:58:03.842  1568  1723 I minksocket: MinkIPC MESSAGE: ( 1568:1723 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0435b0 sock = 35, client with node 1 port 49e3 went down
+10-25 09:58:03.842  1568  1709 I minksocket: MinkIPC MESSAGE: ( 1568:1709 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0406f0 sock = 19, client with node 1 port 49e3 went down
+10-25 09:58:03.842  1596  1596 I sensors-hal: send_sync_sensor_request:560, wait for notification of response
+10-25 09:58:03.843  4299  4299 W ScreenView_Workspace: updateChildStaticTransformation error,childW=0.0
+10-25 09:58:03.844  1596  9757 I sensors-hal: qsh_conn_resp_cb:886, resp_value = 0 for accel 
+10-25 09:58:03.844  1596  1596 I sensors-hal: send_sync_sensor_request:566, takes 1 ms to receive the response with 0
+10-25 09:58:03.844  1596  1596 I sensors-hal: activate:119, android.sensor.accelerometer/11 en=1 completed
+10-25 09:58:03.845  4299  4890 E Launcher: mFsGestureStatusRefreshRunnable:run usingFsGesture=true   show=true   focus=true   pause=false
+10-25 09:58:03.847  7707  7707 I PackageInstallReceiver: action = android.intent.action.PACKAGE_CHANGED packageName = com.miui.cleanmaster
+10-25 09:58:03.847  7707  7707 W InstalledPackagesMemoryCache: Unknown action: android.intent.action.PACKAGE_CHANGED
+10-25 09:58:03.847  7707  7707 I ServiceDeliveryCapability: onAppChanged:com.miui.cleanmaster action:android.intent.action.PACKAGE_CHANGED
+10-25 09:58:03.847  7707  7707 I AppWidgetDelegate: updateAppWidgets for com.miui.cleanmaster
+10-25 09:58:03.847  7707  7707 I WidgetController: WidgetController.updateOrRemoveStackWhenPackageChanged: packageName com.miui.cleanmaster
+10-25 09:58:03.847  7707  7707 I WidgetBackgroundBlurManager: onAppChanged appPackageName : com.miui.cleanmaster
+10-25 09:58:03.847  7707  8397 I AppWidgetDelegate: removeAllWidgets com.android.calendar.widget.NearEventAppWidget
+10-25 09:58:03.847  7707  8397 I AppWidgetDelegate: removeAllWidgets com.xiaomi.misettings.usagestats.widget.desktop.widget.SimpleUsageStatsWidget
+10-25 09:58:03.854  4299  4299 W RecentsImpl: updateFsgWindowVisibilityState origin isEnter=true, typeFrom=typefrom_home
+10-25 09:58:03.857  4299  4890 W RecentsImpl: updateFsgWindowVisibilityStateInBgThread, isEnter=true, typeFrom=typefrom_home, isOpen=true, isKeyguardLocked=false, mIsInAnotherPro=false, isStatusBarExpansion=false
+10-25 09:58:03.857  4299  4968 W GestureStubView_Left: adaptRotation   currentRotation=0   mRotation=0
+10-25 09:58:03.857  4299  4968 W GestureStubView_Right: adaptRotation   currentRotation=0   mRotation=0
+10-25 09:58:03.899  3030  3793 I libsensor-boledalgo: dbv:395,lux:55.0,cct:7083.6,hsv:-1.0,dc:0CWB R:3159.1,G:7712.0,B:4918.8Event C:4481.4,R:2278.5,G:1568.0,B:932.0Cali C:1016.3,R:533.3,G:233.5,B:120.0 
+10-25 09:58:03.913  3094  3094 I adbd    : in ShellService: input keyevent BACK
+10-25 09:58:03.940  3094  3094 I adbd    : in ShellService: ps
+10-25 09:58:03.940  2318  2422 W MIUIInput: Input event injection from package: null action ACTION_DOWN keycode 4
+10-25 09:58:03.941  2318  2422 W MiuiInputKeyEventLog: keyCode:4 down:true eventTime:12698166 downTime:12698166 policyFlags:2b000000 flags:0 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+10-25 09:58:03.941  2318  2449 W ActivityManagerServiceImpl: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2318:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.checkBroadcastFromSystem:16255 com.android.server.am.ActivityManagerService.broadcastIntentLockedTraced:17126 com.android.server.am.ActivityManagerService.broadcastIntentLocked:16315 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:17337 android.app.ContextImpl.sendBroadcastAsUser:1495 
+10-25 09:58:03.942  2318  3572 I MIUIInput: [KeyEvent] publisher action:0x0,  keyCode:4 , deviceId=-1, 12698166,channel '88fbfb6 com.miui.home/com.miui.home.launcher.Launcher (server)' 
+10-25 09:58:03.943  4299  4299 I MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.miui.home/com.miui.home.launcher.Launcher', KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=12698166000000, downTime=12698166000000, deviceId=-1, source=0x0, displayId=-1 }, phoneEventTime=09:58:03.940
+10-25 09:58:03.959  2318  2422 W MIUIInput: Input event injection from package: null action ACTION_UP keycode 4
+10-25 09:58:03.959  2318  2422 W MiuiInputKeyEventLog: keyCode:4 down:false eventTime:12698185 downTime:12698166 policyFlags:2b000000 flags:0 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+10-25 09:58:03.960  2318  3572 I MIUIInput: [KeyEvent] publisher action:0x1,  keyCode:4 , deviceId=-1, 12698185,channel '88fbfb6 com.miui.home/com.miui.home.launcher.Launcher (server)' 
+10-25 09:58:03.960  2318  2449 W ActivityManagerServiceImpl: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2318:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.checkBroadcastFromSystem:16255 com.android.server.am.ActivityManagerService.broadcastIntentLockedTraced:17126 com.android.server.am.ActivityManagerService.broadcastIntentLocked:16315 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:17337 android.app.ContextImpl.sendBroadcastAsUser:1495 
+10-25 09:58:03.960  4299  4299 I MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.miui.home/com.miui.home.launcher.Launcher', KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=12698185000000, downTime=12698166000000, deviceId=-1, source=0x0, displayId=-1 }, phoneEventTime=09:58:03.959
+10-25 09:58:04.003  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:04.004  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:04.026  3030  3112 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:04.044  4299  4299 W MIUIInput: Back key is intercepted by the app
+10-25 09:58:04.045  2318  5453 I SensorService: 	>>> actuating h/w activate handle=0x100000b enabled=0
+10-25 09:58:04.045  1596  1596 I sensors-hal: activate:108, android.sensor.accelerometer/11 en=0
+10-25 09:58:04.046  1596  1596 I sensors-hal: send_sync_sensor_request:531, send sync request
+10-25 09:58:04.046  1596  1596 I sensors-hal: send_sync_sensor_request:541, send_sync_sensor_request before send_request for accel with SUID low=11115320498015681092 high=2286538866409242278
+10-25 09:58:04.046  1596  1596 I sensors-hal: send_sync_sensor_request:560, wait for notification of response
+10-25 09:58:04.047  2318  2460 I SensorAccount: App unregister sensor noWakeupSensor_10138_0x100000b
+10-25 09:58:04.047  1596  9757 I sensors-hal: qsh_conn_resp_cb:886, resp_value = 0 for accel 
+10-25 09:58:04.048  1596  1596 I sensors-hal: send_sync_sensor_request:566, takes 0 ms to receive the response with 0
+10-25 09:58:04.048  1596  1596 I sensors-hal: ~qsh_qmi:62, ~qsh_qmi
+10-25 09:58:04.048  1596  1596 I sensors-hal: activate:119, android.sensor.accelerometer/11 en=0 completed
+10-25 09:58:04.049  1568  1709 I minksocket: MinkIPC MESSAGE: ( 1568:1709 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0406f0 sock = 19, client with node 1 port 49e4 went down
+10-25 09:58:04.049  1568  1723 I minksocket: MinkIPC MESSAGE: ( 1568:1723 ) MinkIPC_QRTR_Service:351 minkipc = 0xb40000792d0435b0 sock = 35, client with node 1 port 49e4 went down
+10-25 09:58:04.049  4299  4890 E Launcher: mFsGestureStatusRefreshRunnable:run usingFsGesture=true   show=true   focus=true   pause=false
+10-25 09:58:04.052  4299  4299 W RecentsImpl: updateFsgWindowVisibilityState origin isEnter=false, typeFrom=typefrom_home
+10-25 09:58:04.055  4299  4890 W RecentsImpl: updateFsgWindowVisibilityStateInBgThread, isEnter=false, typeFrom=typefrom_home, isOpen=true, isKeyguardLocked=false, mIsInAnotherPro=false, isStatusBarExpansion=false
+10-25 09:58:04.055  4299  4890 W RecentsImpl: getTopActivity from observer.   cn=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+10-25 09:58:04.100  3030  3793 I libsensor-boledalgo: dbv:395,lux:59.3,cct:6816.7,hsv:-1.0,dc:0CWB R:1956.2,G:4802.2,B:3047.8Event C:3812.5,R:1950.9,G:1446.1,B:873.0Cali C:55.1,R:19.8,G:24.2,B:15.0 
+10-25 09:58:04.129  2318  2447 W NotificationHistory: Attempted to remove conversation for locked/gone/disabled user 0
+10-25 09:58:04.141  2318  4416 I SensorAccount: ExecutionCapabilityChanged  pkgName:com.miui.home  canAfford:true mCurrentForegroundUid:10328
+10-25 09:58:04.147  3094  3094 I adbd    : in ShellService: pm list packages -f
+10-25 09:58:04.212  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:04.213  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:04.234  3030  3108 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:04.251  4692  4692 I ViewRootImpl: Toast use first frame acceleration
+10-25 09:58:04.257  4692  4692 I Choreographer: first vsync insert message into MessageQueue Head
+10-25 09:58:04.257 19790 19790 I abb     : StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+10-25 09:58:04.256  2318  2318 W binder:2318_1: type=1400 audit(0.0:13057): avc:  denied  { getopt } for  scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+10-25 09:58:04.256  2318  2318 W binder:2318_1: type=1400 audit(0.0:13058): avc:  denied  { getopt } for  scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+10-25 09:58:04.256  2318  2318 W binder:2318_1: type=1400 audit(0.0:13059): avc:  denied  { getopt } for  scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+10-25 09:58:04.265  3094  3094 I adbd    : in ShellService: pm list packages -f
+10-25 09:58:04.266  4692  4692 W libc    : Access denied finding property "vendor.gpp.create_frc_extension"
+10-25 09:58:04.270 19790 19790 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+10-25 09:58:04.272  4692  5047 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+10-25 09:58:04.275  2318  2422 I InstallationTiming: beginInstall_sessionId: 485589996
+10-25 09:58:04.275  2318  2439 I PowerManagerServiceImpl: Acquire wakelock: SCREEN_BRIGHT_WAKE_LOCK           'WindowManager/displayId:0' ON_AFTER_RELEASE (uid=1000 pid=2318 pkg=android ws=WorkSource{1000 com.android.systemui})
+10-25 09:58:04.277  2318  2439 I WindowManager: wms.showSurfaceRobustly mWin:Window{f4a6526 u0 Toast}
+10-25 09:58:04.278  4692  5047 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+10-25 09:58:04.280  4692  5047 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+10-25 09:58:04.286  1656  1656 I MiClstc : StageLayers No adding layer_name[FramebufferSurface], layer_id 1
+10-25 09:58:04.286  1656  1656 I MiClstc : DropLayers erase layer 382
+10-25 09:58:04.286  1656  1656 I MiClstc : DropLayers erase layer 383
+10-25 09:58:04.286  1656  1656 I MiClstc : RetrieveConfig Unknown layer 1, skip
+10-25 09:58:04.288  1908  1908 I MI-SF   : surfaceflinger setAffinity mode=1
+10-25 09:58:04.289  1908  1908 E MI-SF   : surfaceflinger setAffinity success
+10-25 09:58:04.289  1908  1908 I MI-SF   : surfaceflinger setreAffinity reTid=2078
+10-25 09:58:04.289  4692  5047 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+10-25 09:58:04.289  1908  1908 E MI-SF   : surfaceflinger setAffinity success
+10-25 09:58:04.299  3030  3793 I libsensor-boledalgo: dbv:395,lux:57.8,cct:6874.7,hsv:-1.0,dc:0CWB R:3159.1,G:7712.0,B:4918.8Event C:3893.5,R:1990.0,G:1470.8,B:883.0Cali C:209.2,R:90.5,G:74.5,B:34.6 
+10-25 09:58:04.379  4299  5402 E FrameEvents: addRelease: Did not find frame.
+10-25 09:58:04.419  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:04.419  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:04.451  3030  3108 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:04.499  3030  3793 I libsensor-boledalgo: dbv:395,lux:55.6,cct:7015.4,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4377.0,R:2219.9,G:1553.5,B:923.4Cali C:889.1,R:460.2,G:204.6,B:107.8 
+10-25 09:58:04.549  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: unbindService is called for service : com.google.android.gms/.auth.GetToken and for client com.google.android.apps.tasks
+10-25 09:58:04.549  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: size of service connections for service: com.google.android.gms/.auth.GetTokenafter removal is 4
+10-25 09:58:04.549  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: size of client connections for client: com.google.android.apps.tasksafter removal is 3
+10-25 09:58:04.578  2318  4476 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+10-25 09:58:04.626  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:04.626  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:04.658  3030  3108 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:04.699  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.6,cct:7072.7,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4460.1,R:2275.5,G:1564.6,B:930.9Cali C:1010.8,R:530.0,G:232.4,B:119.5 
+10-25 09:58:04.727  2318  4476 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+10-25 09:58:04.798  2318  4215 E HyperSentinel: -------------------------------------------------------
+10-25 09:58:04.798  2318  4215 E HyperSentinel: Event_ResidentSize
+10-25 09:58:04.798  2318  4215 E HyperSentinel: -> audit event by proc 3094 "/apex/com.android.adbd/bin/adbd": RSS increasement, peak 15748kb -> 23828kb
+10-25 09:58:04.829  2318  4219 I SmartPower: com.miui.cleanmaster/10266(19987): background->idle(3000ms) R(service create com.miui.cleanmaster/com.miui.optimizecenter.service.CleanMasterService) adj=905.
+10-25 09:58:04.832  2318  4219 I SmartPower: com.android.packageinstaller/10097(11211): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x5000010 pkg=com.android.packageinstaller (has extras) }) adj=905.
+10-25 09:58:04.856  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+10-25 09:58:04.892  1656  2244 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: display:66-0, config: 1, WxH 1200x2670, fps 120
+10-25 09:58:04.892  1656  2244 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1150000000
+10-25 09:58:04.892  1656  2244 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1200x2670-1 for Peripheral
+10-25 09:58:04.893  1656  2244 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 1
+10-25 09:58:04.893  1656  2244 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1200x2670 ,ddic_mode:idle, timing_fps: 120, sf_fps: 120
+10-25 09:58:04.895  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:04.896  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:04.932  3030 15012 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:04.989  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 69999 us
+10-25 09:58:05.051  2318  4219 I SmartPower: com.android.browser/10134(22999): background->idle(3001ms) R(broadcast start Intent { act=miui.intent.action.PACKAGE_FIRST_LAUNCH flg=0x1000010 (has extras) }) adj=905.
+10-25 09:58:05.067  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 1
+10-25 09:58:05.069  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:05.091  3030  3108 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:05.094  2318  3691 I MiuiNetworkPolicy: bandwidth: 30 KB/s, Max bandwidth: 572 KB/s
+10-25 09:58:05.100  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.6,cct:7122.9,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4465.4,R:2273.7,G:1563.6,B:932.9Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:05.101  3094  3094 I adbd    : in ShellService: ps
+10-25 09:58:05.147  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+10-25 09:58:05.243  2318  5293 I NetworkAccelerateSwitchService: EVENT_RSSI_POLL. mRssiPoll=true
+10-25 09:58:05.244  2318  5293 I NetworkAccelerateSwitchService: getAverageWifiRssi:36
+10-25 09:58:05.301  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.4,cct:7069.4,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4443.0,R:2265.6,G:1557.4,B:925.7Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:05.302  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.4,cct:7157.6,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4456.6,R:2264.6,G:1561.4,B:932.6Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:05.320  2318  4219 I SmartPower: com.android.vending/10124(10447): background->idle(3004ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=250.
+10-25 09:58:05.320  2318  4219 I SmartPower: com.android.vending:background/10124(10644): background->idle(3002ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=250.
+10-25 09:58:05.330  2318  4219 I SmartPower: com.mfashiongallery.emag/10262(8010): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=915.
+10-25 09:58:05.332  2318  4219 I SmartPower: com.miui.voiceassist:core/10193(7346): background->idle(3002ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=100.
+10-25 09:58:05.332  2318  4219 I SmartPower: android.process.mediaUI/10261(12429): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=905.
+10-25 09:58:05.335  2318  4219 I SmartPower: com.xiaomi.aicr:actionprovider/10127(12470): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=925.
+10-25 09:58:05.336  2318  4219 I SmartPower: com.google.android.documentsui/10100(20014): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=925.
+10-25 09:58:05.338  2318  4219 I SmartPower: com.milink.service:audio/10178(22090): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=200.
+10-25 09:58:05.338  2318  4219 I SmartPower: com.milink.crossdeviceservice/10178(24010): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=925.
+10-25 09:58:05.338  2318  4219 I SmartPower: com.android.quicksearchbox/10136(6456): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=905.
+10-25 09:58:05.338  2318  4219 I SmartPower: android.process.acore/10083(649): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=700.
+10-25 09:58:05.339  2318  4219 I SmartPower: com.miui.gallery/10271(31449): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=905.
+10-25 09:58:05.339  2318  4219 I SmartPower: com.kuaishou.nebula:messagesdk/10432(25808): background->idle(4835ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=800.
+10-25 09:58:05.339  2318  4219 I SmartPower: com.kuaishou.nebula/10432(5797): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }) adj=250.
+10-25 09:58:05.339  2318  4219 I SmartPower: com.xiaomi.market:widgetProvider/10167(20280): background->idle(3000ms) R(broadcast start Intent { act=com.xiaomi.market.APP_STATUS_CHANGED flg=0x30 cmp=com.xiaomi.market/.business_ui.widget.NewGameWidgetProvider (has extras) }) adj=905.
+10-25 09:58:05.339  2318  4219 I SmartPower: com.xiaomi.market/10167(12107): background->idle(3014ms) R(broadcast start Intent { act=com.xiaomi.market.APP_STATUS_CHANGED flg=0x30 cmp=com.xiaomi.market/.business_ui.widget.NewGameWidgetProvider (has extras) }) adj=905.
+10-25 09:58:05.353  4663  5755 E PhoneAdapter: get ntnphones failed, exception: java.lang.IllegalStateException: Default phones haven't been made yet!
+10-25 09:58:05.502  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.4,cct:7041.6,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4447.3,R:2270.1,G:1553.0,B:922.6Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:05.701  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.2,cct:7134.2,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4441.2,R:2259.5,G:1555.5,B:928.0Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:05.805  7756  9189 I VideoBoxUtils: isSupportVideoBox: true
+10-25 09:58:05.809  7756  9189 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1275 android.content.ContextWrapper.sendBroadcast:527 d7.e.f:24 d7.e.c:0 d7.e$c$a.run:18 
+10-25 09:58:05.810  2318  5401 W ActivityManagerServiceImpl: Sending non-protected broadcast com.miui.gamebooster.UNINSTALLAPP from system 7756:com.miui.securitycenter.remote/1000 pkg com.miui.securitycenter. Callers=
+10-25 09:58:05.967  2318  4219 I SmartPower: com.miui.phrase/10162(22166): background->idle(3000ms) R(content provider start ContentProviderRecord{3ff3f0e u0 com.miui.phrase/com.miui.provider.InputProvider}) adj=905.
+10-25 09:58:06.100  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.2,cct:7076.6,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4437.7,R:2264.6,G:1553.5,B:924.6Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:06.102  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.3,cct:7132.8,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4445.2,R:2261.5,G:1560.1,B:930.3Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:06.279  3094  3094 I adbd    : in ShellService: ps
+10-25 09:58:06.369  1688  1688 I vendor.qti.hardware.servicetrackeraidl-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+10-25 09:58:06.371  3094  3094 I adbd    : in ShellService: pm list packages -f
+10-25 09:58:06.500  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.7,cct:7082.4,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4467.0,R:2277.0,G:1563.4,B:930.6Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:06.579  1908  1908 E DisplayModeController: setDesiredMode : Idle status skip setActiveMode, isDdicIdleMode: 1
+10-25 09:58:06.585  1656  2244 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: display:66-0, config: 3, WxH 1200x2670, fps 120
+10-25 09:58:06.585  1656  2244 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1150000000
+10-25 09:58:06.585  1656  2244 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1200x2670-1 for Peripheral
+10-25 09:58:06.586  1656  2244 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 1 to 3
+10-25 09:58:06.586  1656  2244 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1200x2670 ,ddic_mode:auto, timing_fps: 120, sf_fps: 120
+10-25 09:58:06.589  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:06.590  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:06.607  9380  9407 W mit.droidbotapp: Cleared Reference was only reachable from finalizer (only reported once)
+10-25 09:58:06.615  9380  9407 I mit.droidbotapp: This is non sticky GC, maxfree is 16777216 minfree is 8388608
+10-25 09:58:06.617  3030 15012 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:06.667  2318  2426 I MiuiNetworkPolicy: label wlan0, uid -1, active false, tsNanos 43648372583210
+10-25 09:58:06.699  3030  3793 I libsensor-boledalgo: dbv:395,lux:55.1,cct:7019.3,hsv:-1.0,dc:0CWB R:3125.8,G:7645.3,B:4956.5Event C:4481.6,R:2285.1,G:1568.0,B:929.1Cali C:1015.4,R:532.8,G:233.2,B:119.9 
+10-25 09:58:06.701  2318  5453 W InputManager-JNI: Input channel object 'f4a6526 Toast (client)' was disposed without first being removed with the input manager!
+10-25 09:58:06.703  2318  5453 I PowerManagerServiceImpl: Release wakelock: SCREEN_BRIGHT_WAKE_LOCK           'WindowManager/displayId:0' ON_AFTER_RELEASE DISABLED ACQ=-2s427ms (uid=1000 pid=2318 pkg=android ws=WorkSource{1000 com.android.systemui})
+10-25 09:58:06.704  1908  3556 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-25 09:58:06.706  2318  5453 W NotificationService: Toast already killed. pkg=com.miui.home token=android.os.BinderProxy@431fd99
+10-25 09:58:06.719  1656  2244 I MiClstc : simplifyLayerName Unknown layer 1, skip
+10-25 09:58:06.719  1656  2244 I MiClstc : DropLayers erase layer 1
+10-25 09:58:06.720  1908  1908 I MI-SF   : surfaceflinger setAffinity mode=0
+10-25 09:58:06.721  1908  1908 E MI-SF   : surfaceflinger setAffinity success
+10-25 09:58:06.797  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+10-25 09:58:06.834  1656  2244 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: display:66-0, config: 1, WxH 1200x2670, fps 120
+10-25 09:58:06.834  1656  2244 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1150000000
+10-25 09:58:06.835  1656  2244 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1200x2670-1 for Peripheral
+10-25 09:58:06.835  1656  2244 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 1
+10-25 09:58:06.835  1656  2244 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1200x2670 ,ddic_mode:idle, timing_fps: 120, sf_fps: 120
+10-25 09:58:06.836  1656  2516 I vendor.qti.hardware.display.composer-service: Sensor: notify citsensorservice to trigger cwb, misForced = 0
+10-25 09:58:06.836  3030  3788 I libsensor-parseRGB: request dump start for mRequestDisplayId 0
+10-25 09:58:06.858  3030 15012 E libsensor-parseRGB: CWB NotifyCWBBufferDone  error 0
+10-25 09:58:06.899  3030  3793 I libsensor-boledalgo: dbv:395,lux:54.4,cct:7135.4,hsv:-1.0,dc:0CWB R:3159.1,G:7712.0,B:4918.8Event C:4464.3,R:2271.4,G:1557.4,B:930.3Cali C:1016.3,R:533.3,G:233.5,B:120.0 
+10-25 09:58:06.914  1656  1854 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
