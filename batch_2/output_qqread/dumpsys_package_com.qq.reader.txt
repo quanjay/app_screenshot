@@ -1,0 +1,1519 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/epub+zip:
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/pdf:
+        e6bfcd4 com.qq.reader/.TypeContext filter 3dbb96
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "application/pdf"
+      application/rar:
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/zip:
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/*:
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      */*:
+        e6bfcd4 com.qq.reader/.TypeContext filter 94a126c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.chm}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      vnd.android.cursor.item/event:
+        574c317 com.qq.reader/.activity.CalendarEventRedirectActivity filter f24304
+          Action: "android.provider.calendar.action.HANDLE_CUSTOM_EVENT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        574c317 com.qq.reader/.activity.CalendarEventRedirectActivity filter f24304
+          Action: "android.provider.calendar.action.HANDLE_CUSTOM_EVENT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+      application:
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e6bfcd4 com.qq.reader/.TypeContext filter 3dbb96
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "application/pdf"
+
+  Wild MIME Types:
+      *:
+        e6bfcd4 com.qq.reader/.TypeContext filter 94a126c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.chm}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text:
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      uniteqqreader:
+        e6bfcd4 com.qq.reader/.TypeContext filter 2f61240
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "uniteqqreader"
+      tencent100686853:
+        a9f0ed com.qq.reader/com.tencent.tauth.AuthActivity filter 411fb22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent100686853"
+      spider0i300mnjt80sas0d:
+        bc1aee9 com.qq.reader/.statistics.SelectorSettingActivity filter 5f8a76e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "spider0i300mnjt80sas0d"
+      androidqqreader50:
+        e6bfcd4 com.qq.reader/.TypeContext filter a8d99c3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "androidqqreader50"
+      qqreader:
+        47879b3 com.qq.reader/.module.game.activity.GameLoginActivity filter fd28b70
+          Action: "com.yw.game.sdk.login.action"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "qqreader"
+          Authority: "game_login": -1
+          Path: "PatternMatcher{LITERAL: /login}"
+      file:
+        e6bfcd4 com.qq.reader/.TypeContext filter e4412be
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1
+          Path: "PatternMatcher{GLOB: .*\.epub}"
+        e6bfcd4 com.qq.reader/.TypeContext filter da60f1f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1
+          Path: "PatternMatcher{GLOB: .*\.chm}"
+        e6bfcd4 com.qq.reader/.TypeContext filter 94a126c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.chm}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e6bfcd4 com.qq.reader/.TypeContext filter 2aa9cca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.umd}"
+        e6bfcd4 com.qq.reader/.TypeContext filter ca67e3b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.rar}"
+        e6bfcd4 com.qq.reader/.TypeContext filter 9fbe958
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.zip}"
+        e6bfcd4 com.qq.reader/.TypeContext filter 36b5ab1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.qb}"
+      content:
+        e6bfcd4 com.qq.reader/.TypeContext filter 1aef035
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.chm}"
+      AndroidQQReader:
+        e6bfcd4 com.qq.reader/.TypeContext filter afb6e7d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "AndroidQQReader"
+      androidqqreader:
+        e6bfcd4 com.qq.reader/.TypeContext filter a665172
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "androidqqreader"
+      qwallet100703379:
+        af6fe0f com.qq.reader/com.tencent.midas.qq.APMidasQQWalletActivity filter b2cee9c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "qwallet100703379"
+
+  Non-Data Actions:
+      cn.jpush.android.ui.PushActivity:
+        236a007 com.qq.reader/cn.jpush.android.ui.PushActivity filter 26e7534
+          Action: "cn.jpush.android.ui.PushActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.qq.reader"
+      android.intent.action.MAIN:
+        7eb8886 com.qq.reader/.widget.picbrowser.PictureActivity filter 862547
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        463b174 com.qq.reader/.activity.launch.DefaultAliasSplashActivity filter 23c169d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ce7a712 com.qq.reader/.activity.SummerAliasActivity filter d75cee3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6c470e0 com.qq.reader/.activity.GuiMiAliasActivity filter 9487f99
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        415225e com.qq.reader/.activity.ReadDayAliasActivity filter 2c763f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2afbb0c com.qq.reader/.activity.DafengAliasActivity filter 7187c55
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a0d066a com.qq.reader/.activity.ChangxiangsiAliasActivity filter f7c375b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c237bf8 com.qq.reader/.activity.QingyunianAliasActivity filter 4b188d1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9ed1f36 com.qq.reader/.activity.DoupoAliasActivity filter 33cee37
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7105fa4 com.qq.reader/.activity.NoteAliasActivity filter bf4e10d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e3f8c2 com.qq.reader/.activity.QZGSAliasActivity filter ee836d3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3c5d210 com.qq.reader/.activity.LongzuAliasActivity filter 99b8109
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e7cdf0e com.qq.reader/.activity.DouluoAliasActivity filter 9f56d2f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        61dff3c com.qq.reader/.activity.VipAliasActivity filter 2f224c5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        dabde1a com.qq.reader/.activity.ZhuxianAliasActivity filter 1f5ad4b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        369d328 com.qq.reader/.activity.ZetianAliasActivity filter b554841
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        299c1e6 com.qq.reader/.activity.ChuqiaoAliasActivity filter 26fd327
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        31cf9d4 com.qq.reader/.activity.WukongAliasActivity filter 56d277d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9301672 com.qq.reader/.activity.DefaultAliasActivity filter e7c7ac3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e39df40 com.qq.reader/.activity.launch.AliasLongzuSplashActivity filter c29be79
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6527be com.qq.reader/.activity.SummerAliasLongzuActivity filter 822001f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        97daf6c com.qq.reader/.activity.GuiMiAliasLongzuActivity filter f7ec935
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e4801ca com.qq.reader/.activity.ReadDayAliasLongzuActivity filter 1707f3b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        64c5658 com.qq.reader/.activity.DafengAliasLongzuActivity filter dfc3b1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8cc7096 com.qq.reader/.activity.ChangxiangsiAliasLongzuActivity filter 35dd417
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        65c8004 com.qq.reader/.activity.QingyunianAliasLongzuActivity filter b7be9ed
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f570022 com.qq.reader/.activity.DoupoAliasLongzuActivity filter 6619ab3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e239870 com.qq.reader/.activity.NoteAliasLongzuActivity filter 43a37e9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        108fc6e com.qq.reader/.activity.QZGSAliasLongzuActivity filter 8d12f0f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        201cb9c com.qq.reader/.activity.LongzuAliasLongzuActivity filter d7569a5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        bcc717a com.qq.reader/.activity.DouluoAliasLongzuActivity filter efbad2b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a2e0588 com.qq.reader/.activity.VipAliasLongzuActivity filter a77fb21
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        202b46 com.qq.reader/.activity.ZhuxianAliasLongzuActivity filter 905f107
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        961f234 com.qq.reader/.activity.ZetianAliasLongzuActivity filter eb8285d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5a3b5d2 com.qq.reader/.activity.ChuqiaoAliasLongzuActivity filter a8696a3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        245fda0 com.qq.reader/.activity.WukongAliasLongzuActivity filter 4d3ed59
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c635d1e com.qq.reader/.activity.DefaultAliasLongzuActivity filter fe1f9ff
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        79d53cc com.qq.reader/.activity.launch.AliasLongnianSplashActivity filter 94d0615
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6e42d2a com.qq.reader/.activity.SummerAliasLongnianActivity filter d66371b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        331e0b8 com.qq.reader/.activity.GuiMiAliasLongnianActivity filter 504ee91
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8eff1f6 com.qq.reader/.activity.ReadDayAliasLongnianActivity filter 42729f7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f805064 com.qq.reader/.activity.DafengAliasLongnianActivity filter 378e2cd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7213782 com.qq.reader/.activity.ChangxiangsiAliasLongnianActivity filter 89a6e93
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        240ed0 com.qq.reader/.activity.QingyunianAliasLongnianActivity filter bddec9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        32f49ce com.qq.reader/.activity.DoupoAliasLongnianActivity filter 6f360ef
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        50347fc com.qq.reader/.activity.NoteAliasLongnianActivity filter b3c9e85
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        fa34da com.qq.reader/.activity.QZGSAliasLongnianActivity filter 13f1d0b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        43ae7e8 com.qq.reader/.activity.LongzuAliasLongnianActivity filter 52d9e01
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        56c4a6 com.qq.reader/.activity.DouluoAliasLongnianActivity filter 3407ee7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6ca9a94 com.qq.reader/.activity.VipAliasLongnianActivity filter 1d5193d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        79a8532 com.qq.reader/.activity.ZhuxianAliasLongnianActivity filter 80c2283
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        400cc00 com.qq.reader/.activity.ZetianAliasLongnianActivity filter a7f0c39
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ae7c27e com.qq.reader/.activity.ChuqiaoAliasLongnianActivity filter d6463df
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7a6a82c com.qq.reader/.activity.WukongAliasLongnianActivity filter 73b32f5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c39888a com.qq.reader/.activity.DefaultAliasLongnianActivity filter d55efb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        eec1b18 com.qq.reader/.activity.launch.AliasQZGSSplashAcitivity filter 7590971
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2fa356 com.qq.reader/.activity.SummerAliasQZGSActivity filter 290efd7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        813d0c4 com.qq.reader/.activity.GuiMiAliasQZGSActivity filter 5a3cbad
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        39a9ee2 com.qq.reader/.activity.ReadDayAliasQZGSActivity filter a0ab273
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        df3530 com.qq.reader/.activity.DafengAliasQZGSActivity filter 45e75a9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        dc7c72e com.qq.reader/.activity.ChangxiangsiAliasQZGSActivity filter 85402cf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        fba745c com.qq.reader/.activity.QingyunianAliasQZGSActivity filter cffc365
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b8d283a com.qq.reader/.activity.DoupoAliasQZGSActivity filter 437fceb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3a87a48 com.qq.reader/.activity.NoteAliasQZGSActivity filter fae30e1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f158e06 com.qq.reader/.activity.QZGSAliasQZGSActivity filter c177cc7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6eef2f4 com.qq.reader/.activity.LongzuAliasQZGSActivity filter e7bfa1d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6c8492 com.qq.reader/.activity.DouluoAliasQZGSActivity filter 9851e63
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        824a60 com.qq.reader/.activity.VipAliasQZGSActivity filter 631b19
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        aca57de com.qq.reader/.activity.ZhuxianAliasQZGSActivity filter 2a13dbf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        31ac8c com.qq.reader/.activity.ZetianAliasQZGSActivity filter 8014fd5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2a013ea com.qq.reader/.activity.ChuqiaoAliasQZGSActivity filter 535f6db
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1930578 com.qq.reader/.activity.WukongAliasQZGSActivity filter a141451
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6384b6 com.qq.reader/.activity.DefaultAliasQZGSActivity filter 79325b7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1af0124 com.qq.reader/.activity.launch.AliasVipSplashActivity filter fb4a48d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c1b3642 com.qq.reader/.activity.SummerAliasVipActivity filter b2a6653
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        36d0b90 com.qq.reader/.activity.GuiMiAliasVipActivity filter 53fc89
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5aa748e com.qq.reader/.activity.ReadDayAliasVipActivity filter ceb14af
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ebf50bc com.qq.reader/.activity.DafengAliasVipActivity filter f76d845
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5dd4b9a com.qq.reader/.activity.ChangxiangsiAliasVipActivity filter f5e4ccb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        68ebca8 com.qq.reader/.activity.QingyunianAliasVipActivity filter a31b3c1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4348766 com.qq.reader/.activity.DoupoAliasVipActivity filter a82eaa7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        166fb54 com.qq.reader/.activity.NoteAliasVipActivity filter 64cafd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d71b3f2 com.qq.reader/.activity.QZGSAliasVipActivity filter d698a43
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e278c0 com.qq.reader/.activity.LongzuAliasVipActivity filter 5b819f9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6e31d3e com.qq.reader/.activity.DouluoAliasVipActivity filter d90879f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3d660ec com.qq.reader/.activity.VipAliasVipActivity filter 6575cb5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a6fcf4a com.qq.reader/.activity.ZhuxianAliasVipActivity filter ffffebb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f3e9fd8 com.qq.reader/.activity.ZetianAliasVipActivity filter b6e0f31
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7639616 com.qq.reader/.activity.ChuqiaoAliasVipActivity filter 825cb97
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9e9e184 com.qq.reader/.activity.WukongAliasVipActivity filter b636d6d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3fafda2 com.qq.reader/.activity.DefaultAliasVipActivity filter 8718a33
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6e591f0 com.qq.reader/.activity.launch.AliasDouluoSplashActivity filter 1d67369
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        baf51ee com.qq.reader/.activity.SummerAliasDouluoActivity filter b0968f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        aa9dd1c com.qq.reader/.activity.GuiMiAliasDouluoActivity filter b59dd25
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6429efa com.qq.reader/.activity.ReadDayAliasDouluoActivity filter 62a0cab
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        705af08 com.qq.reader/.activity.DafengAliasDouluoActivity filter f026a1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        38bb0c6 com.qq.reader/.activity.ChangxiangsiAliasDouluoActivity filter 17ac887
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9cab3b4 com.qq.reader/.activity.QingyunianAliasDouluoActivity filter f478bdd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8021352 com.qq.reader/.activity.DoupoAliasDouluoActivity filter e316623
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a395720 com.qq.reader/.activity.NoteAliasDouluoActivity filter 5b608d9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        60a129e com.qq.reader/.activity.QZGSAliasDouluoActivity filter 82a417f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        12cc54c com.qq.reader/.activity.LongzuAliasDouluoActivity filter 8f55995
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        baaa com.qq.reader/.activity.DouluoAliasDouluoActivity filter 2ab769b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        806ea38 com.qq.reader/.activity.VipAliasDouluoActivity filter 59efa11
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f07d776 com.qq.reader/.activity.ZhuxianAliasDouluoActivity filter 540e177
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a5c71e4 com.qq.reader/.activity.ZetianAliasDouluoActivity filter e68264d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a91f502 com.qq.reader/.activity.ChuqiaoAliasDouluoActivity filter a581e13
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        660c850 com.qq.reader/.activity.WukongAliasDouluoActivity filter 21dda49
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        cae5f4e com.qq.reader/.activity.DefaultAliasDouluoActivity filter b9c886f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        812197c com.qq.reader/.activity.launch.AliasDoupoSplashActivity filter 560d205
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f15225a com.qq.reader/.activity.SummerAliasDoupoActivity filter 8133c8b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b255168 com.qq.reader/.activity.GuiMiAliasDoupoActivity filter c218981
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        cf30a26 com.qq.reader/.activity.ReadDayAliasDoupoActivity filter ff71667
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        fb21c14 com.qq.reader/.activity.DafengAliasDoupoActivity filter edc3cbd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        575a2b2 com.qq.reader/.activity.ChangxiangsiAliasDoupoActivity filter 254b203
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d9ee580 com.qq.reader/.activity.QingyunianAliasDoupoActivity filter 794e7b9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b1737fe com.qq.reader/.activity.DoupoAliasDoupoActivity filter 8666b5f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2ccd9ac com.qq.reader/.activity.NoteAliasDoupoActivity filter 2934675
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        baad60a com.qq.reader/.activity.QZGSAliasDoupoActivity filter ab05e7b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        803e498 com.qq.reader/.activity.LongzuAliasDoupoActivity filter eded4f1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d2848d6 com.qq.reader/.activity.DouluoAliasDoupoActivity filter bdc6757
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        89eb244 com.qq.reader/.activity.VipAliasDoupoActivity filter a7acf2d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b381c62 com.qq.reader/.activity.ZhuxianAliasDoupoActivity filter 55621f3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8f6aeb0 com.qq.reader/.activity.ZetianAliasDoupoActivity filter 6623129
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        17f9cae com.qq.reader/.activity.ChuqiaoAliasDoupoActivity filter 1a6ea4f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        79005dc com.qq.reader/.activity.WukongAliasDoupoActivity filter e43b6e5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        eacd5ba com.qq.reader/.activity.DefaultAliasDoupoActivity filter 91dc6b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        505a3c8 com.qq.reader/.activity.launch.AliasExamSplashActivity filter ffddc61
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c429386 com.qq.reader/.activity.SummerAliasExamActivity filter efd447
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        eb53474 com.qq.reader/.activity.GuiMiAliasExamActivity filter edadd9d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7246212 com.qq.reader/.activity.ReadDayAliasExamActivity filter c4b6de3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        82b23e0 com.qq.reader/.activity.DafengAliasExamActivity filter e8cb699
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4e28d5e com.qq.reader/.activity.ChangxiangsiAliasExamActivity filter 3d053f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f4e9e0c com.qq.reader/.activity.QingyunianAliasExamActivity filter 1e92355
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1c6216a com.qq.reader/.activity.DoupoAliasExamActivity filter 186b65b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        74d8ef8 com.qq.reader/.activity.NoteAliasExamActivity filter 9659fd1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        39cea36 com.qq.reader/.activity.QZGSAliasExamActivity filter 4f05d37
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        648a2a4 com.qq.reader/.activity.LongzuAliasExamActivity filter d53680d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d4573c2 com.qq.reader/.activity.DouluoAliasExamActivity filter 9e395d3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1bf4510 com.qq.reader/.activity.VipAliasExamActivity filter fdb7809
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        efb0a0e com.qq.reader/.activity.ZhuxianAliasExamActivity filter 2c7bc2f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5bba23c com.qq.reader/.activity.ZetianAliasExamActivity filter 2ba8bc5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f61b91a com.qq.reader/.activity.ChuqiaoAliasExamActivity filter 71dec4b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2bea628 com.qq.reader/.activity.WukongAliasExamActivity filter cbd1f41
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9524ce6 com.qq.reader/.activity.DefaultAliasExamActivity filter b5d0227
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        b7d50a5 com.qq.reader/com.yuewen.push.proxy.YWPushProxyActivity filter 78bcc7a
+          Action: "android.intent.action.VIEW"
+          Action: "com.yuewen.push.proxy.YWPushProxyActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.yuewen.push.proxy.YWPushProxyActivity:
+        b7d50a5 com.qq.reader/com.yuewen.push.proxy.YWPushProxyActivity filter 78bcc7a
+          Action: "android.intent.action.VIEW"
+          Action: "com.yuewen.push.proxy.YWPushProxyActivity"
+          Category: "android.intent.category.DEFAULT"
+      cn.android.service.JTransitActivity:
+        79335a3 com.qq.reader/cn.android.service.JTransitActivity filter 317b0a0
+          Action: "cn.android.service.JTransitActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.qq.reader"
+      cn.jpush.android.intent.JNotifyActivity:
+        af5ef5d com.qq.reader/cn.jpush.android.service.JNotifyActivity filter 89370d2
+          Action: "cn.jpush.android.intent.JNotifyActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.qq.reader"
+      cn.jpush.android.ui.PopWinActivity:
+        e975221 com.qq.reader/cn.jpush.android.ui.PopWinActivity filter 7fa3646
+          Action: "cn.jpush.android.ui.PopWinActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.qq.reader"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        f2f6c2b com.qq.reader/com.sina.weibo.sdk.share.ShareTransActivity filter e685888
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        e6bfcd4 com.qq.reader/.TypeContext filter 9d57579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          StaticType: "application/zip"
+          StaticType: "application/rar"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e6bfcd4 com.qq.reader/.TypeContext filter 94a126c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.chm}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e6bfcd4 com.qq.reader/.TypeContext filter 3dbb96
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          StaticType: "application/pdf"
+      android.provider.calendar.action.HANDLE_CUSTOM_EVENT:
+        574c317 com.qq.reader/.activity.CalendarEventRedirectActivity filter f24304
+          Action: "android.provider.calendar.action.HANDLE_CUSTOM_EVENT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        22cafef com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter c7beafc
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        d0f72df com.qq.reader/cn.jpush.android.service.PluginXiaomiPlatformsReceiver filter 96a59f5
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        34cd5c9 com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 35074ce
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY:
+        e6198f7 com.qq.reader/cn.jpush.android.service.PushReceiver filter 2339364
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+          Category: "com.qq.reader"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.xiaomi.mipush.ERROR:
+        d0f72df com.qq.reader/cn.jpush.android.service.PluginXiaomiPlatformsReceiver filter 22f238a
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        caeded7 com.qq.reader/com.huawei.hms.support.api.push.PushReceiver filter fa493c4
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      cn.jpush.android.intent.CONNECTION:
+        9d44183 com.qq.reader/com.yuewen.push.receiver.JPushReceiver filter 9a7ff00
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.qq.reader"
+      cn.jpush.android.intent.MESSAGE_RECEIVED:
+        9d44183 com.qq.reader/com.yuewen.push.receiver.JPushReceiver filter 9a7ff00
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.qq.reader"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        d440585 com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9830fda
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        83e5c0b com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter e1abae8
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.qq.reader.ad.download.action.click:
+        7280591 com.qq.reader/.cservice.download.app.AppDownloadReceiver filter ce2bcf6
+          Action: "com.qq.reader.ad.download.action.click"
+          Action: "com.qq.reader.ad.download.action.cancel"
+        d8ccd93 com.qq.reader/com.yuewen.cooperate.adsdk.yuewensdk.download.AppDownloadReceiver filter e4881d0
+          Action: "com.qq.reader.ad.download.action.click"
+          Action: "com.qq.reader.ad.download.action.statuschangebutton"
+          Action: "com.qq.reader.ad.download.action.cancel"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        ad3a071 com.qq.reader/com.huawei.hms.support.api.push.PushMsgReceiver filter f63ee56
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_REFRESH:
+        d87b61b com.qq.reader/.widget.active.ActiveSignInWidget filter 26f3b8
+          Action: "com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_REFRESH"
+          Action: "com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        d440585 com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9830fda
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_ALARM_REFRESH:
+        d87b61b com.qq.reader/.widget.active.ActiveSignInWidget filter 26f3b8
+          Action: "com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_REFRESH"
+          Action: "com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.tencent.rmonitor.natmem.USAGE_DUMP:
+        a3669cd com.qq.reader/com.tencent.rmonitor.natmem.NatMemReceiver filter ef5b282
+          Action: "com.tencent.rmonitor.natmem.USAGE_DUMP"
+          Action: "com.tencent.rmonitor.natmem.LEAK_DUMP"
+      com.qq.reader.widget.SMALL_ACTIVE_WIDGET_ALARM_REFRESH:
+        a9988ff com.qq.reader/.widget.active.ActiveWidget filter f5736cc
+          Action: "com.qq.reader.widget.SMALL_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "com.qq.reader.widget.SMALL_ACTIVE_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_ALARM_REFRESH:
+        89cad15 com.qq.reader/.widget.active.MediumActiveWidget filter ab0482a
+          Action: "com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.qq.reader.ad.download.action.statuschangebutton:
+        d8ccd93 com.qq.reader/com.yuewen.cooperate.adsdk.yuewensdk.download.AppDownloadReceiver filter e4881d0
+          Action: "com.qq.reader.ad.download.action.click"
+          Action: "com.qq.reader.ad.download.action.statuschangebutton"
+          Action: "com.qq.reader.ad.download.action.cancel"
+      com.huawei.android.push.intent.RECEIVE:
+        caeded7 com.qq.reader/com.huawei.hms.support.api.push.PushReceiver filter fa493c4
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.vivo.pushclient.action.RECEIVE:
+        1a25dfb com.qq.reader/cn.jpush.android.service.PluginVivoMessageReceiver filter 5e6ae18
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.qq.reader.appwidget.action.REFRESH:
+        4a72459 com.qq.reader/.widget.ReaderWidget filter e13c81e
+          Action: "com.qq.reader.appwidget.action.REFRESH"
+      com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_REFRESH:
+        89cad15 com.qq.reader/.widget.active.MediumActiveWidget filter ab0482a
+          Action: "com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.BATTERY_LOW:
+        22cafef com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter c7beafc
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        dc47501 com.qq.reader/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8124fa6
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        dc47501 com.qq.reader/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8124fa6
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.BOOT_COMPLETED:
+        dc47501 com.qq.reader/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8124fa6
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      cn.jpush.android.intent.NOTIFICATION_OPENED:
+        9d44183 com.qq.reader/com.yuewen.push.receiver.JPushReceiver filter 9a7ff00
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.qq.reader"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        34cd5c9 com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 35074ce
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.xiaomi.push.PING_TIMER:
+        639c339 com.qq.reader/com.xiaomi.push.service.receivers.PingReceiver filter 729ad7e
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.qq.reader.widget.SMALL_ACTIVE_WIDGET_REFRESH:
+        a9988ff com.qq.reader/.widget.active.ActiveWidget filter f5736cc
+          Action: "com.qq.reader.widget.SMALL_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "com.qq.reader.widget.SMALL_ACTIVE_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        d0f72df com.qq.reader/cn.jpush.android.service.PluginXiaomiPlatformsReceiver filter c0e0b2c
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        a9988ff com.qq.reader/.widget.active.ActiveWidget filter f5736cc
+          Action: "com.qq.reader.widget.SMALL_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "com.qq.reader.widget.SMALL_ACTIVE_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        89cad15 com.qq.reader/.widget.active.MediumActiveWidget filter ab0482a
+          Action: "com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "com.qq.reader.widget.MEDIUM_ACTIVE_WIDGET_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        d87b61b com.qq.reader/.widget.active.ActiveSignInWidget filter 26f3b8
+          Action: "com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_REFRESH"
+          Action: "com.qq.reader.widget.SIGN_IN_ACTIVE_WIDGET_ALARM_REFRESH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        282603d com.qq.reader/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 703c032
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      cn.jpush.android.intent.REGISTRATION:
+        9d44183 com.qq.reader/com.yuewen.push.receiver.JPushReceiver filter 9a7ff00
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.qq.reader"
+      com.huawei.intent.action.PUSH:
+        ad3a071 com.qq.reader/com.huawei.hms.support.api.push.PushMsgReceiver filter f63ee56
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      cn.jpush.android.intent.NOTIFICATION_RECEIVED:
+        9d44183 com.qq.reader/com.yuewen.push.receiver.JPushReceiver filter 9a7ff00
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Category: "com.qq.reader"
+      com.qq.reader.ad.download.action.cancel:
+        7280591 com.qq.reader/.cservice.download.app.AppDownloadReceiver filter ce2bcf6
+          Action: "com.qq.reader.ad.download.action.click"
+          Action: "com.qq.reader.ad.download.action.cancel"
+        d8ccd93 com.qq.reader/com.yuewen.cooperate.adsdk.yuewensdk.download.AppDownloadReceiver filter e4881d0
+          Action: "com.qq.reader.ad.download.action.click"
+          Action: "com.qq.reader.ad.download.action.statuschangebutton"
+          Action: "com.qq.reader.ad.download.action.cancel"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        474ade7 com.qq.reader/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter a549d94
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.tencent.rmonitor.natmem.LEAK_DUMP:
+        a3669cd com.qq.reader/com.tencent.rmonitor.natmem.NatMemReceiver filter ef5b282
+          Action: "com.tencent.rmonitor.natmem.USAGE_DUMP"
+          Action: "com.tencent.rmonitor.natmem.LEAK_DUMP"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.qq.reader.crash_uploadlog:
+        9989173 com.qq.reader/.common.receiver.UploadLogService filter 4392830
+          Action: "com.qq.reader.crash_uploadlog"
+      com.qq.reader.common.web.service.GameAidlService:
+        bb4eca9 com.qq.reader/.common.web.service.GameAidlService filter fda722e
+          Action: "com.qq.reader.common.web.service.GameAidlService"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      cn.jpush.android.intent.SERVICE_MESSAGE:
+        dc2bbeb com.qq.reader/com.yuewen.push.service.JPushExtendService filter 3edcd48
+          Action: "cn.jpush.android.intent.SERVICE_MESSAGE"
+          Category: "com.qq.reader"
+      cn.jiguang.user.service.action:
+        8c6aa65 com.qq.reader/com.yuewen.push.service.YWCommonService filter 39f833a
+          Action: "cn.jiguang.user.service.action"
+      com.huawei.push.msg.NOTIFY_MSG:
+        2cff6d5 com.qq.reader/com.huawei.hms.support.api.push.service.HmsMsgService filter d7f2eea
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.qq.reader.module.game.activity.H5GameProcessService:
+        c60d1cf com.qq.reader/.module.game.activity.H5GameProcessService filter a40975c
+          Action: "com.qq.reader.module.game.activity.H5GameProcessService"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      cn.jpush.android.intent.PUSH_TIME:
+        26e75db com.qq.reader/cn.jpush.android.service.PushService filter 3531878
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      com.ss.android.socialbase.downloader.remote:
+        e7c87e1 com.qq.reader/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService filter 5729906
+          Action: "com.ss.android.socialbase.downloader.remote"
+      cn.jpush.android.intent.REPORT:
+        26e75db com.qq.reader/cn.jpush.android.service.PushService filter 3531878
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        1c55219 com.qq.reader/com.heytap.msp.push.service.DataMessageCallbackService filter 85dc2de permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        1c55219 com.qq.reader/com.heytap.msp.push.service.DataMessageCallbackService filter 85dc2de permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        158c11d com.qq.reader/cn.jpush.android.service.PluginOppoPushService filter 70f3f92 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+        3c8bd63 com.qq.reader/com.heytap.msp.push.service.CompatibleDataMessageCallbackService filter 3befd60 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.huawei.push.msg.PASSBY_MSG:
+        2cff6d5 com.qq.reader/com.huawei.hms.support.api.push.service.HmsMsgService filter d7f2eea
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        6ffccbf com.qq.reader/cn.jpush.android.service.JHonorService filter 6068f8c
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.qq.reader.plugin.audiobook.core.IQQPlayerService:
+        bb0d2ad com.qq.reader/.plugin.audiobook.core.QQPlayerService filter 94899e2
+          Action: "com.qq.reader.plugin.audiobook.core.IQQPlayerService"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      cn.jpush.android.intent.PushService:
+        26e75db com.qq.reader/cn.jpush.android.service.PushService filter 3531878
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+      com.huawei.push.action.MESSAGING_EVENT:
+        d0f2bc7 com.qq.reader/cn.jpush.android.service.PluginHuaweiPlatformsService filter 1b675f4
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+      cn.jpush.android.intent.REGISTER:
+        26e75db com.qq.reader/cn.jpush.android.service.PushService filter 3531878
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.REGISTER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.qq.reader.permission.C2D_MESSAGE] (2fe19a7):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{2bfe54 com.qq.reader.permission.C2D_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.permission.JPUSH_MESSAGE] (33111fd):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{60deef2 com.qq.reader.permission.JPUSH_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.permission.MIPUSH_RECEIVE] (3e8a943):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{a74abc0 com.qq.reader.permission.MIPUSH_RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.openadsdk.permission.TT_PANGOLIN] (681d0f9):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c88083e com.qq.reader.openadsdk.permission.TT_PANGOLIN}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.theme.permission] (662969f):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{fd8c3ec com.qq.reader.theme.permission}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.permission.READER_PUSH] (f8583b5):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{cf86a4a com.qq.reader.permission.READER_PUSH}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.permission.PUSH_PROVIDER] (563fdbb):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c8432d8 com.qq.reader.permission.PUSH_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.permission.PUSH_WRITE_PROVIDER] (6d7a631):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{95ae116 com.qq.reader.permission.PUSH_WRITE_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.permission.PROCESS_PUSH_MSG] (94aba97):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{175a484 com.qq.reader.permission.PROCESS_PUSH_MSG}
+    flags=0x0
+
+Permissions:
+  Permission [com.qq.reader.push.permission.MESSAGE] (94f746d):
+    sourcePackage=com.qq.reader
+    uid=10448 gids=[] type=0 prot=signature
+    perm=PermissionInfo{59bf8a2 com.qq.reader.push.permission.MESSAGE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.qq.reader/androidx.core.content.FileProvider:
+    Provider{8766933 com.qq.reader/androidx.core.content.FileProvider}
+  com.qq.reader/com.yuewen.push.event.report.disk.db.YWDataContentProvider:
+    Provider{eea84f0 com.qq.reader/com.yuewen.push.event.report.disk.db.YWDataContentProvider}
+  com.qq.reader/cn.jpush.android.service.InitProvider:
+    Provider{ffbea69 com.qq.reader/cn.jpush.android.service.InitProvider}
+  com.qq.reader/com.bytedance.pangle.provider.MainProcessProviderProxy:
+    Provider{5e4fcee com.qq.reader/com.bytedance.pangle.provider.MainProcessProviderProxy}
+  com.qq.reader/com.bytedance.sdk.openadsdk.stub.server.MainServerManager:
+    Provider{5a4658f com.qq.reader/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+  com.qq.reader/com.bytedance.android.openliveplugin.process.server.LiveServerManager:
+    Provider{98b001c com.qq.reader/com.bytedance.android.openliveplugin.process.server.LiveServerManager}
+  com.qq.reader/com.bytedance.sdk.openadsdk.TTFileProvider:
+    Provider{bdfc425 com.qq.reader/com.bytedance.sdk.openadsdk.TTFileProvider}
+  com.qq.reader/com.huawei.hms.support.api.push.PushProvider:
+    Provider{5a7f9fa com.qq.reader/com.huawei.hms.support.api.push.PushProvider}
+  com.qq.reader/com.byted.live.lite.ServerManager_bytelive:
+    Provider{80bcbab com.qq.reader/com.byted.live.lite.ServerManager_bytelive}
+  com.qq.reader/com.huawei.hms.aaid.InitProvider:
+    Provider{6560208 com.qq.reader/com.huawei.hms.aaid.InitProvider}
+  com.qq.reader/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider:
+    Provider{16d7da1 com.qq.reader/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+  com.qq.reader/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller:
+    Provider{36bbbc6 com.qq.reader/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+  com.qq.reader/com.sina.weibo.sdk.content.FileProvider:
+    Provider{9397787 com.qq.reader/com.sina.weibo.sdk.content.FileProvider}
+  com.qq.reader/.qmethod.pandoraex.provider.PandoraExProvider:
+    Provider{94d36b4 com.qq.reader/.qmethod.pandoraex.provider.PandoraExProvider}
+  com.qq.reader/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager:
+    Provider{fc352dd com.qq.reader/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+  com.qq.reader/androidx.startup.InitializationProvider:
+    Provider{d57ce52 com.qq.reader/androidx.startup.InitializationProvider}
+  com.qq.reader/com.byted.live.lite.ServerManager_push:
+    Provider{4ac0523 com.qq.reader/com.byted.live.lite.ServerManager_push}
+  com.qq.reader/.common.imagepicker.ImagePickerProvider:
+    Provider{2e10a20 com.qq.reader/.common.imagepicker.ImagePickerProvider}
+  com.qq.reader/com.tencent.upgrade.download.UpdateFileProvider:
+    Provider{fa73fd9 com.qq.reader/com.tencent.upgrade.download.UpdateFileProvider}
+  com.qq.reader/com.yuewen.cooperate.adsdk.gdt.provider.GDTFileProvider:
+    Provider{a807d9e com.qq.reader/com.yuewen.cooperate.adsdk.gdt.provider.GDTFileProvider}
+  com.qq.reader/org.extra.tools.ContextProvider:
+    Provider{52fd07f com.qq.reader/org.extra.tools.ContextProvider}
+  com.qq.reader/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{81ca84c com.qq.reader/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.qq.reader/com.bytedance.pangle.FileProvider:
+    Provider{6430095 com.qq.reader/com.bytedance.pangle.FileProvider}
+  com.qq.reader/com.yuewen.cooperate.adsdk.yuewensdk.provider.YWADFileProvider:
+    Provider{cf2d5aa com.qq.reader/com.yuewen.cooperate.adsdk.yuewensdk.provider.YWADFileProvider}
+  com.qq.reader/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{bfaf59b com.qq.reader/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+
+ContentProvider Authorities:
+  [com.qq.reader.pangle.fileprovider]:
+    Provider{6430095 com.qq.reader/com.bytedance.pangle.FileProvider}
+      applicationInfo=ApplicationInfo{191fd38 com.qq.reader}
+  [com.qq.reader.org.libpag.contextprovider]:
+    Provider{52fd07f com.qq.reader/org.extra.tools.ContextProvider}
+      applicationInfo=ApplicationInfo{7a01111 com.qq.reader}
+  [com.qq.reader.aaidinitprovider]:
+    Provider{6560208 com.qq.reader/com.huawei.hms.aaid.InitProvider}
+      applicationInfo=ApplicationInfo{880a276 com.qq.reader}
+  [com.qq.reader.bytedance.android.openliveplugin.process.server.LiveServerManager]:
+    Provider{98b001c com.qq.reader/com.bytedance.android.openliveplugin.process.server.LiveServerManager}
+      applicationInfo=ApplicationInfo{d895077 com.qq.reader}
+  [com.qq.reader.androidx-startup]:
+    Provider{d57ce52 com.qq.reader/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{d05b4e4 com.qq.reader}
+  [com.qq.reader.TTFileProvider]:
+    Provider{bdfc425 com.qq.reader/com.bytedance.sdk.openadsdk.TTFileProvider}
+      applicationInfo=ApplicationInfo{4e3ad4d com.qq.reader}
+  [com.qq.reader.pandoraprovider]:
+    Provider{94d36b4 com.qq.reader/.qmethod.pandoraex.provider.PandoraExProvider}
+      applicationInfo=ApplicationInfo{a4c7002 com.qq.reader}
+  [com.qq.reader.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost]:
+    Provider{fc352dd com.qq.reader/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+      applicationInfo=ApplicationInfo{387d13 com.qq.reader}
+  [com.qq.reader.pangle.servermanager.push.com.byted.live.lite]:
+    Provider{4ac0523 com.qq.reader/com.byted.live.lite.ServerManager_push}
+      applicationInfo=ApplicationInfo{ddb3b50 com.qq.reader}
+  [com.qq.reader.huawei.push.provider]:
+    Provider{5a7f9fa com.qq.reader/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{24ad149 com.qq.reader}
+  [com.qq.reader.pangle.servermanager.main]:
+    Provider{5a4658f com.qq.reader/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+      applicationInfo=ApplicationInfo{d158a4e com.qq.reader}
+  [com.qq.reader.gdtfileprovider]:
+    Provider{a807d9e com.qq.reader/com.yuewen.cooperate.adsdk.gdt.provider.GDTFileProvider}
+      applicationInfo=ApplicationInfo{8a3d76f com.qq.reader}
+  [com.qq.reader.TTMultiProvider]:
+    Provider{16d7da1 com.qq.reader/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+      applicationInfo=ApplicationInfo{840bc7c com.qq.reader}
+  [com.qq.reader.rmonitor-installer]:
+    Provider{36bbbc6 com.qq.reader/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+      applicationInfo=ApplicationInfo{e63905 com.qq.reader}
+  [com.qq.reader.pangle.provider.proxy.main]:
+    Provider{5e4fcee com.qq.reader/com.bytedance.pangle.provider.MainProcessProviderProxy}
+      applicationInfo=ApplicationInfo{643fd5a com.qq.reader}
+  [com.qq.reader.UpdateFileProvider]:
+    Provider{fa73fd9 com.qq.reader/com.tencent.upgrade.download.UpdateFileProvider}
+      applicationInfo=ApplicationInfo{fc07b8b com.qq.reader}
+  [com.qq.reader.pangle.servermanager.bytelive.com.byted.live.lite]:
+    Provider{80bcbab com.qq.reader/com.byted.live.lite.ServerManager_bytelive}
+      applicationInfo=ApplicationInfo{31b2468 com.qq.reader}
+  [com.qq.reader.jiguang.InitProvider]:
+    Provider{ffbea69 com.qq.reader/cn.jpush.android.service.InitProvider}
+      applicationInfo=ApplicationInfo{8166081 com.qq.reader}
+  [com.qq.reader.AGCInitializeProvider]:
+    Provider{81ca84c com.qq.reader/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{7b49526 com.qq.reader}
+  [com.qq.reader.ywad.provider]:
+    Provider{cf2d5aa com.qq.reader/com.yuewen.cooperate.adsdk.yuewensdk.provider.YWADFileProvider}
+      applicationInfo=ApplicationInfo{eb94567 com.qq.reader}
+  [com.qq.reader.fileprovider]:
+    Provider{8766933 com.qq.reader/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{cb21f14 com.qq.reader}
+  [com.qq.reader.provider]:
+    Provider{2e10a20 com.qq.reader/.common.imagepicker.ImagePickerProvider}
+      applicationInfo=ApplicationInfo{ac783bd com.qq.reader}
+  [com.qq.reader.YWDataContentProvider]:
+    Provider{eea84f0 com.qq.reader/com.yuewen.push.event.report.disk.db.YWDataContentProvider}
+      applicationInfo=ApplicationInfo{244ddb2 com.qq.reader}
+  [com.qq.reader.lifecycle-process]:
+    Provider{bfaf59b com.qq.reader/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{c8ad103 com.qq.reader}
+
+Key Set Manager:
+  [com.qq.reader]
+      Signing KeySets: 290
+
+Packages:
+  Package [com.qq.reader] (e1c1880):
+    appId=10448
+    pkg=Package{46d9eb9 com.qq.reader}
+    codePath=/data/app/~~2zlGTZjcxeyP1UXSqTgmlA==/com.qq.reader-hK4blUhGH0XIxd2kpznniA==
+    resourcePath=/data/app/~~2zlGTZjcxeyP1UXSqTgmlA==/com.qq.reader-hK4blUhGH0XIxd2kpznniA==
+    legacyNativeLibraryDir=/data/app/~~2zlGTZjcxeyP1UXSqTgmlA==/com.qq.reader-hK4blUhGH0XIxd2kpznniA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=395 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=8.3.1.890
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesPackages=[com.tencent.mm, com.tencent.mobileqq, com.tencent.android.qqdownloader, com.android.creator, com.zhuoyi.security.lite, com.freeme.secureguard, com.android.secureguard, com.mdid.msa, com.samsung.android.deviceidservice, com.coolpad.deviceidsupport, com.heytap.openid, com.qiku.id, com.huawei.multimedia.audioengine, com.tencent.portfolio, com.tencent.qbx, com.tencent.qbx5, com.tencent.mtt.x86, com.tencent.portfolio, com.sina.weibo, com.tencent.minihd.qq, com.tencent.qqlite, com.qzone, com.tencent.tim, com.xiaomi.xmsf, com.tencent.qqpimsecure, com.samsung.android.providers.context, com.iflytek.vflynote, cn.wps.moffice_eng, com.miui.securitycore, com.miui.enterprise.service.EntInstallService, com.android.vending, com.jingdong.app.mall, com.google.android.webview, com.android.webview, com.heytap.openid.IdentifyService, action.com.heytap.openid.OPEN_ID_SERVICE, com.heytap.openid.IOpenID, com.unionpay, com.qidea.dldl.yuewen, com.acewebgames.oceantradekings.yuewen, com.boxoff.king.yuewen, com.jbdfw.yuewen, com.shandagames.shelter.yuewen, com.sy.jlsd.yuewen, com.youzu.snsgz2.yuewen, com.tencent.tmgp.wuxia, com.netease.skzdhlr.yuewen, com.youzu.ss0.yuewen, com.tencent.vega, com.tencent.tmgp.cod, com.sqw.rydts.yuewen, com.qidian.dldlwhjx.official, com.tencent.tmgp.tmsk.qj3, com.sqw.jwdzg.yuewen, com.sy.dldlhsdj.yuewen, com.tencent.tmgp.lv, com.youzu.xdmbj.yuewen, com.tencent.tmgp.dpcq, com.tencent.tmgp.pubgmhd, com.tencent.tmgp.cf, com.tencent.lzhx, com.tencent.tmgp.vgame, com.tencent.pao, com.tencent.peng, com.tencent.forest, com.netease.lglr.yuewen, com.tencent.sgwsba, com.tencent.jkchess, com.tencent.tmgp.sgame, com.tencent.dm, com.tencent.tls2, com.tencent.lolm, com.shengqugames.qyn.yuewen, com.cmge.xfrxxz.yuewen, com.hardtime.yzycj.yuewen, com.tencent.txyx, com.tencent.tmaoe, com.bilibili.hunter3.yuewen, com.hardtime.gjsj.yuewen, com.tencent.cqtxsy, com.tencent.egame, com.tencent.tkw, com.xinxin.mhj.yuewen, com.game.frsjz.dhd.yuewen, com.hnsb.fscs.yuewen, com.sy.xxyg.yuewen, com.sy.mrdh.yuewen, com.sy.gmmx.yuewen, com.hxmjl.yuewen, com.game.cahx.yuewen, com.tx.cqfs.yuewen, com.game.lmqy.yuewen, com.tencent.toaa, com.cmge.tsxklm.yuewen, com.tencent.fiftyone.yc, com.ahlh.sylj.yuewen, com.tencent.msgame, com.youzu.zhyyh.yuewen, com.hnzh.zhdysr.yuewen, com.dca.xblr.yuewen, com.sqw.yjz.yuewen, com.sy.frxxzrjp.yuewen, com.hermes.nvwa.jh.yuewen, com.dca.zhjwsjxhf.yuewen, com.tencent.baiye, com.sy.zmsl.yuewen, com.sqw.myld.yuewen, com.echo.lsf.absy.yuewen, com.tencent.tmgp.maplem, com.doupo.yuewen.com, com.tencent.tmgp.xtlbb, com.tencent.tmgp.gnyx, com.tencent.sevensin, com.tencent.jyhx, com.sy.fyym.yuewen, com.game.cztx.yuewen, com.hermes.p6game.jh.yuewen, com.xingin.xhs, com.hihonor.id, com.huawei.android.pushagent, com.huawei.works]
+    queriesIntents=[Intent { act=android.intent.action.VIEW }, Intent { act=IYW.GAME.PACKAGE }, Intent { act=com.mcs.action.RECEIVE_SDK_MESSAGE }, Intent { act=android.media.browse.MediaBrowserService }, Intent { act=androidx.media2.session.MediaSessionService }, Intent { act=androidx.media2.session.MediaLibraryService }, Intent { act=com.hihonor.id.HnOaIdService }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=com.hihonor.push.action.BIND_PUSH_SERVICE }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2025-10-25 18:44:17
+    lastUpdateTime=2025-10-25 18:44:18
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{51f22fe version:3, signatures:[10a25227], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE ]
+    apexModuleName=null
+    declared permissions:
+      com.qq.reader.theme.permission: prot=signature
+      com.qq.reader.permission.MIPUSH_RECEIVE: prot=signature
+      com.qq.reader.permission.READER_PUSH: prot=signature
+      com.qq.reader.push.permission.MESSAGE: prot=signature
+      com.qq.reader.permission.C2D_MESSAGE: prot=signature
+      com.qq.reader.openadsdk.permission.TT_PANGOLIN: prot=signature
+      com.qq.reader.permission.PROCESS_PUSH_MSG: prot=signature
+      com.qq.reader.permission.PUSH_PROVIDER: prot=signature
+      com.qq.reader.permission.PUSH_WRITE_PROVIDER: prot=signature
+      com.qq.reader.permission.JPUSH_MESSAGE: prot=signature
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.WRITE_SETTINGS
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      android.permission.POST_NOTIFICATIONS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.RESTART_PACKAGES
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      freemme.permission.msa
+      freemme.permission.msa.SECURITY_ACCESS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.INSTALL_PACKAGES
+      com.vivo.identifier.permission.OAID_STATE_DIALOG
+      .permission.C2D_MESSAGE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.BLUETOOTH_CONNECT
+      com.asus.msa.SupplementaryDID.ACCESS
+      android.permission.BLUETOOTH
+      com.qq.reader.permission.JPUSH_MESSAGE
+      com.qq.reader.permission.MIPUSH_RECEIVE
+      android.permission.INTERNET
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      android.permission.REORDER_TASKS
+      com.vivo.notification.permission.BADGE_ICON
+      android.permission.READ_EXTERNAL_STORAGE
+      com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+      oplus.permission.settings.LAUNCH_FOR_EXPORT
+      com.qq.reader.openadsdk.permission.TT_PANGOLIN
+      android.permission.BIND_APPWIDGET
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.ACCESS_COARSE_LOCATION
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.BROADCAST_STICKY
+      android.permission.READ_MEDIA_IMAGES
+      com.qq.reader.theme.permission
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.CHANGE_CONFIGURATION
+      android.permission.READ_LOGS
+      android.permission.WRITE_CALENDAR
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      com.nemu.oaid.permission.write
+      com.qq.reader.permission.READER_PUSH
+      android.permission.SCHEDULE_EXACT_ALARM
+      com.qq.reader.permission.PUSH_PROVIDER
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.VIBRATE
+      com.nemu.oaid.permission.read
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      android.permission.ACCESS_WIFI_STATE
+      com.hihonor.android.launcher.permission.CHANGE_BADGE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECORD_AUDIO
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      android.permission.WAKE_LOCK
+      com.qq.reader.permission.PROCESS_PUSH_MSG
+      .push.permission.MESSAGE
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.BLUETOOTH: granted=true
+      com.qq.reader.permission.JPUSH_MESSAGE: granted=true
+      com.qq.reader.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.qq.reader.openadsdk.permission.TT_PANGOLIN: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      com.qq.reader.theme.permission: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.qq.reader.permission.READER_PUSH: granted=true
+      com.qq.reader.permission.PUSH_PROVIDER: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.qq.reader.permission.PROCESS_PUSH_MSG: granted=true
+    User 0: ceDataInode=171998 deDataInode=155689 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.qq.reader
+      firstInstallTime=2025-10-25 18:44:18
+      uninstallReason=0
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.qq.reader:
+      com.google.android.webview
+      com.xingin.xhs
+      com.tencent.android.qqdownloader
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.qq.reader
+    com.xiaomi.aicr:
+      com.qq.reader
+    com.android.contacts:
+      com.qq.reader
+    com.xiaomi.gamecenter.sdk.service:
+      com.qq.reader
+    com.android.settings.intelligence:
+      com.qq.reader
+    com.miui.carlink:
+      com.qq.reader
+    com.miui.nextpay:
+      com.qq.reader
+    com.xiaomi.mis:
+      com.qq.reader
+    com.miui.hybrid:
+      com.qq.reader
+    com.xiaomi.market:
+      com.qq.reader
+    com.miui.systemAdSolution:
+      com.qq.reader
+    com.xiaomi.account:
+      com.qq.reader
+    com.miui.greenguard:
+      com.qq.reader
+    com.xiaomi.payment:
+      com.qq.reader
+    com.xiaomi.xmsf:
+      com.qq.reader
+    com.android.providers.downloads.ui:
+      com.qq.reader
+    com.mfashiongallery.emag:
+      com.qq.reader
+    com.android.calendar:
+      com.qq.reader
+    com.android.email:
+      com.qq.reader
+    com.miui.gallery:
+      com.qq.reader
+    com.miui.virtualsim:
+      com.qq.reader
+    com.getsurfboard:
+      com.qq.reader
+    com.xingin.xhs:
+      com.qq.reader
+    com.duokan.reader:
+      com.qq.reader
+    com.instagram.android:
+      com.qq.reader
+    com.google.android.gm:
+      com.qq.reader
+    com.miui.video:
+      com.qq.reader
+    com.todoist:
+      com.qq.reader
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.qq.reader
+    com.microsoft.office.outlook:
+      com.qq.reader
+    com.ss.android.article.news:
+      com.qq.reader
+    com.jijia.bqwnl:
+      com.qq.reader
+    com.baidu.BaiduMap:
+      com.qq.reader
+    com.autonavi.minimap:
+      com.qq.reader
+    com.dragon.read:
+      com.qq.reader
+    com.jijia.jjweather:
+      com.qq.reader
+    com.zhuantech.sijiweather:
+      com.qq.reader
+    com.suxing.sustream:
+      com.qq.reader
+    com.yahoo.mobile.client.android.mail:
+      com.qq.reader
+    com.ss.android.ugc.aweme.lite:
+      com.qq.reader
+    com.qq.reader:
+      [com.android.bluetooth,com.xiaomi.bluetooth]
+      com.android.contacts
+      com.xiaomi.gamecenter.sdk.service
+      com.android.mms
+      com.android.music
+      com.unionpay.tsmservice.mi
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+      com.android.providers.downloads.ui
+      com.android.calendar
+      com.miui.virtualsim
+      com.android.chrome
+      com.skysoft.kkbox.android
+      com.xingin.xhs
+      com.instagram.android
+      com.miui.video
+      com.alibaba.aliexpresshd
+      de.baumann.browser
+      com.microsoft.emmx
+      com.netease.newsreader.activity
+      com.sina.news
+      com.spotify.music
+      com.google.android.apps.youtube.music
+      com.tencent.android.qqdownloader
+      com.ss.android.article.news
+      com.jijia.bqwnl
+      com.baidu.BaiduMap
+      com.autonavi.minimap
+      com.dragon.read
+      com.jijia.jjweather
+      com.smile.gifmaker
+      com.yahoo.mobile.client.android.mail
+      com.kuaishou.nebula
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.qq.reader]
+    path: /data/app/~~2zlGTZjcxeyP1UXSqTgmlA==/com.qq.reader-hK4blUhGH0XIxd2kpznniA==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.qq.reader]
+    (No recorded stats)

@@ -1,0 +1,508 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/epub+zip:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter 963d00a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/*:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter 963d00a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      application:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter 963d00a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      text:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter 963d00a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      qwalletcom.qidian.QDReader:
+        ec776ae com.qidian.QDReader.g/com.qidian.QDReader.CallbackActivity filter 9aabc4f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "qwalletcom.qidian.QDReader"
+      wx8bf3888893329e9f:
+        67fdc44 com.qidian.QDReader.g/com.qidian.QDReader.ChargeDetailActivity filter a25b12d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "wx8bf3888893329e9f"
+      tencent100736949:
+        4c078b0 com.qidian.QDReader.g/com.tencent.tauth.AuthActivity filter 2d93329
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent100736949"
+      file:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter a9ed07b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1
+          Path: "PatternMatcher{GLOB: .*\.epub}"
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter 3466e98
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.umd}"
+      tencentcom.qidian.QDReader:
+        3d65662 com.qidian.QDReader.g/com.qidian.QDReader.TencentPayActivity filter 260d3f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tencentcom.qidian.QDReader"
+      android-app:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter c3f96f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qdreader"
+          Scheme: "QDReader"
+          Scheme: "android-app"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "com.qidian.QDReader": -1
+      qdreader:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter c3f96f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qdreader"
+          Scheme: "QDReader"
+          Scheme: "android-app"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "com.qidian.QDReader": -1
+      QDReader:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter c3f96f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qdreader"
+          Scheme: "QDReader"
+          Scheme: "android-app"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "com.qidian.QDReader": -1
+
+  Non-Data Actions:
+      com.qidian.QDReader.crash.RESTART:
+        5f1bd5f com.qidian.QDReader.g/com.qidian.QDReader.SplashActivity filter 61ac3ac
+          Action: "com.qidian.QDReader.crash.RESTART"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.MAIN:
+        5f1bd5f com.qidian.QDReader.g/com.qidian.QDReader.SplashActivity filter 61ac3ac
+          Action: "com.qidian.QDReader.crash.RESTART"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.qidian.layasdk.laya.LayaPluginActivity:
+        16769b9 com.qidian.QDReader.g/com.qidian.layasdk.laya.LayaPluginActivity filter 95491fe
+          Action: "com.qidian.layasdk.laya.LayaPluginActivity"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action:
+        72c6fdc com.qidian.QDReader.g/com.tencent.android.tpush.XGPushActivity filter 828d8e5
+          Action: "android.intent.action"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        676e2d6 com.qidian.QDReader.g/com.qidian.QDReader.ShareWeiboActivity filter 13ff957
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        40be875 com.qidian.QDReader.g/com.qidian.QDReader.MainGroupActivity filter 963d00a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "application/epub+zip"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Schemes:
+      file:
+        2feadc8 com.qidian.QDReader.g/com.qidian.QDReader.service.MsgStartReceiver filter b6bad86
+          Action: "android.intent.action.MEDIA_REMOVED"
+          Action: "android.intent.action.MEDIA_UNMOUNTED"
+          Action: "android.intent.action.MEDIA_EJECT"
+          Action: "android.intent.action.MEDIA_CHECKING"
+          Scheme: "file"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      com.tencent.android.tpush.action.PUSH_MESSAGE:
+        8023f9d com.qidian.QDReader.g/com.qidian.QDReader.service.XGPushReceiver filter 8c51c12
+          Action: "com.tencent.android.tpush.action.PUSH_MESSAGE"
+          Action: "com.tencent.android.tpush.action.FEEDBACK"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        2feadc8 com.qidian.QDReader.g/com.qidian.QDReader.service.MsgStartReceiver filter 131e61
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        75be647 com.qidian.QDReader.g/com.tencent.android.tpush.XGPushReceiver filter 434de74
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "com.tencent.android.tpush.action.SDK"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.bluetooth.adapter.action.STATE_CHANGED:
+        2feadc8 com.qidian.QDReader.g/com.qidian.QDReader.service.MsgStartReceiver filter 131e61
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP:
+        1984fba com.qidian.QDReader.g/com.qidian.QDReader.util.AppRegister filter a00ce6b
+          Action: "com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        2feadc8 com.qidian.QDReader.g/com.qidian.QDReader.service.MsgStartReceiver filter 131e61
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        75be647 com.qidian.QDReader.g/com.tencent.android.tpush.XGPushReceiver filter 434de74
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "com.tencent.android.tpush.action.SDK"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE:
+        75be647 com.qidian.QDReader.g/com.tencent.android.tpush.XGPushReceiver filter 434de74
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "com.tencent.android.tpush.action.SDK"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.USER_PRESENT:
+        2feadc8 com.qidian.QDReader.g/com.qidian.QDReader.service.MsgStartReceiver filter 131e61
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        75be647 com.qidian.QDReader.g/com.tencent.android.tpush.XGPushReceiver filter 434de74
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "com.tencent.android.tpush.action.SDK"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.ACTION_POWER_CONNECTED:
+        2feadc8 com.qidian.QDReader.g/com.qidian.QDReader.service.MsgStartReceiver filter 131e61
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        75be647 com.qidian.QDReader.g/com.tencent.android.tpush.XGPushReceiver filter 434de74
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "com.tencent.android.tpush.action.SDK"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.tencent.android.tpush.action.FEEDBACK:
+        8023f9d com.qidian.QDReader.g/com.qidian.QDReader.service.XGPushReceiver filter 8c51c12
+          Action: "com.tencent.android.tpush.action.PUSH_MESSAGE"
+          Action: "com.tencent.android.tpush.action.FEEDBACK"
+      com.tencent.android.tpush.action.SDK:
+        75be647 com.qidian.QDReader.g/com.tencent.android.tpush.XGPushReceiver filter 434de74
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "com.tencent.android.tpush.action.SDK"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.tencent.android.tpush.action.keepalive:
+        2669fe3 com.qidian.QDReader.g/com.tencent.android.tpush.service.XGPushService filter 6fb6de0
+          Action: "com.tencent.android.tpush.action.keepalive"
+          Action: "com.tencent.android.tpush.action.stop_connect"
+      com.tencent.android.tpush.action.stop_connect:
+        2669fe3 com.qidian.QDReader.g/com.tencent.android.tpush.service.XGPushService filter 6fb6de0
+          Action: "com.tencent.android.tpush.action.keepalive"
+          Action: "com.tencent.android.tpush.action.stop_connect"
+      com.qidian.QDReader.PUSH_ACTION:
+        fc83899 com.qidian.QDReader.g/com.tencent.android.tpush.rpc.XGRemoteService filter 8d4e75e
+          Action: "com.qidian.QDReader.PUSH_ACTION"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.tencent.ak_webview_sdk.permission.BROADCAST] (5a66885):
+    sourcePackage=com.qidian.QDReader.g
+    uid=10446 gids=[] type=0 prot=signature
+    perm=PermissionInfo{79136da com.tencent.ak_webview_sdk.permission.BROADCAST}
+    flags=0x0
+
+Key Set Manager:
+  [com.qidian.QDReader.g]
+      Signing KeySets: 288
+
+Packages:
+  Package [com.qidian.QDReader.g] (5c9c845):
+    appId=10446
+    pkg=Package{d6a0801 com.qidian.QDReader.g}
+    codePath=/data/app/~~JXEcryZI0UivbxoxYhwqUg==/com.qidian.QDReader.g-vbyzRi5MlijrcNZZPWXfxg==
+    resourcePath=/data/app/~~JXEcryZI0UivbxoxYhwqUg==/com.qidian.QDReader.g-vbyzRi5MlijrcNZZPWXfxg==
+    legacyNativeLibraryDir=/data/app/~~JXEcryZI0UivbxoxYhwqUg==/com.qidian.QDReader.g-vbyzRi5MlijrcNZZPWXfxg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=252 minSdk=9 targetSdk=17
+    minExtensionVersions=[]
+    versionName=6.4.2
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=1
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-10-25 18:41:28
+    lastUpdateTime=2025-10-25 18:41:28
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{65be6a6 version:1, signatures:[3137530d], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.tencent.ak_webview_sdk.permission.BROADCAST: prot=signature
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      android.permission.READ_SMS
+      android.permission.POST_NOTIFICATIONS
+      android.permission.RESTART_PACKAGES
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.PERMISSION_NAME
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.RECEIVE_MMS
+      android.permission.RECEIVE_SMS
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.GET_PACKAGE_SIZE
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.READ_PHONE_STATE
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.SEND_SMS
+      android.permission.WRITE_SMS
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.CHANGE_CONFIGURATION
+      android.permission.READ_LOGS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.WRITE_SMS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=52475 deDataInode=150437 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.qidian.QDReader.g
+      firstInstallTime=2025-10-25 18:41:28
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-e2CN.frro
+        /data/resource-cache/com.android.systemui-accent-szeE.frro
+        /data/resource-cache/com.android.systemui-dynamic-suxB.frro
+      legacy overlay paths:
+        /product/overlay/GestureLineOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_SMS: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.RECEIVE_MMS: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECEIVE_SMS: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.SEND_SMS: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    [com.miui.tsmclient,com.android.nfc]:
+      com.qidian.QDReader.g
+    com.xiaomi.aicr:
+      com.qidian.QDReader.g
+    com.android.contacts:
+      com.qidian.QDReader.g
+    com.xiaomi.gamecenter.sdk.service:
+      com.qidian.QDReader.g
+    com.android.settings.intelligence:
+      com.qidian.QDReader.g
+    com.miui.carlink:
+      com.qidian.QDReader.g
+    com.miui.nextpay:
+      com.qidian.QDReader.g
+    com.xiaomi.mis:
+      com.qidian.QDReader.g
+    com.miui.hybrid:
+      com.qidian.QDReader.g
+    com.xiaomi.market:
+      com.qidian.QDReader.g
+    com.miui.systemAdSolution:
+      com.qidian.QDReader.g
+    com.xiaomi.account:
+      com.qidian.QDReader.g
+    com.miui.greenguard:
+      com.qidian.QDReader.g
+    com.xiaomi.payment:
+      com.qidian.QDReader.g
+    com.xiaomi.xmsf:
+      com.qidian.QDReader.g
+    com.android.providers.downloads.ui:
+      com.qidian.QDReader.g
+    com.mfashiongallery.emag:
+      com.qidian.QDReader.g
+    com.android.calendar:
+      com.qidian.QDReader.g
+    com.android.email:
+      com.qidian.QDReader.g
+    com.miui.gallery:
+      com.qidian.QDReader.g
+    com.miui.virtualsim:
+      com.qidian.QDReader.g
+    com.getsurfboard:
+      com.qidian.QDReader.g
+    com.xingin.xhs:
+      com.qidian.QDReader.g
+    com.duokan.reader:
+      com.qidian.QDReader.g
+    com.instagram.android:
+      com.qidian.QDReader.g
+    com.google.android.gm:
+      com.qidian.QDReader.g
+    com.miui.video:
+      com.qidian.QDReader.g
+    com.todoist:
+      com.qidian.QDReader.g
+    todolist.scheduleplanner.dailyplanner.todo.reminders:
+      com.qidian.QDReader.g
+    com.microsoft.office.outlook:
+      com.qidian.QDReader.g
+    com.ss.android.article.news:
+      com.qidian.QDReader.g
+    com.jijia.bqwnl:
+      com.qidian.QDReader.g
+    com.baidu.BaiduMap:
+      com.qidian.QDReader.g
+    com.autonavi.minimap:
+      com.qidian.QDReader.g
+    com.dragon.read:
+      com.qidian.QDReader.g
+    com.jijia.jjweather:
+      com.qidian.QDReader.g
+    com.zhuantech.sijiweather:
+      com.qidian.QDReader.g
+    com.suxing.sustream:
+      com.qidian.QDReader.g
+    com.yahoo.mobile.client.android.mail:
+      com.qidian.QDReader.g
+    com.ss.android.ugc.aweme.lite:
+      com.qidian.QDReader.g
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.qidian.QDReader.g]
+    path: /data/app/~~JXEcryZI0UivbxoxYhwqUg==/com.qidian.QDReader.g-vbyzRi5MlijrcNZZPWXfxg==/base.apk
+      arm: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~JXEcryZI0UivbxoxYhwqUg==/com.qidian.QDReader.g-vbyzRi5MlijrcNZZPWXfxg==/oat/arm/base.odex]
+    base APK odex file size: Oops,Some thing wrong when get dex file output paths!
+
+Compiler stats:
+  [com.qidian.QDReader.g]
+    (No recorded stats)
